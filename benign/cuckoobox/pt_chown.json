@@ -1,0 +1,2922 @@
+{
+    "info": {
+        "added": 1642281803.351653, 
+        "started": 1642318348.91449, 
+        "duration": 407, 
+        "ended": 1642318756.67168, 
+        "owner": null, 
+        "score": 0.0, 
+        "id": 2651533, 
+        "category": "file", 
+        "git": {
+            "head": "e8f6317b4b3ef806085a1e99e64c6ff01f26948f", 
+            "fetch_head": "e8f6317b4b3ef806085a1e99e64c6ff01f26948f"
+        }, 
+        "monitor": "2deb9ccd75d5a7a3fe05b2625b03a8639d6ee36b", 
+        "package": "elf", 
+        "route": "internet", 
+        "custom": null, 
+        "machine": {
+            "status": "stopped", 
+            "name": "Ubuntu1904x645", 
+            "label": "Ubuntu1904x645", 
+            "platform": "linux", 
+            "manager": "VirtualBox", 
+            "started_on": "2022-01-16 07:34:40", 
+            "shutdown_on": "2022-01-16 07:39:16"
+        }, 
+        "platform": "linux", 
+        "version": "2.0.7", 
+        "options": "procmemdump=yes,route=internet"
+    }, 
+    "signatures": [], 
+    "target": {
+        "category": "file", 
+        "file": {
+            "mimetype": "application/x-executable", 
+            "yara": [], 
+            "sha1": "280e07e2632609bf27cb2e8693b270caff692c5c", 
+            "name": "pt_chown", 
+            "type": "ELF 32-bit MSB executable, SPARC, version 1 (SYSV), dynamically linked, interpreter /lib/ld-linux.so.2, for GNU/Linux 2.4.1, stripped", 
+            "sha256": "353b2bd0f2ef846b8b382dea550f9ccf02feea09a5b616fb244ca2e021f508a6", 
+            "urls": [], 
+            "crc32": "DF604381", 
+            "path": "/srv/cuckoo/cwd/storage/binaries/353b2bd0f2ef846b8b382dea550f9ccf02feea09a5b616fb244ca2e021f508a6", 
+            "ssdeep": "96:f9K/wUyLPMlVXqVaS6TjFLIQEBFEdQKvw9kLssudUi6NeJCIab0H:f9YyLElAIS+jFLIQEbdKY9HsK", 
+            "size": 9764, 
+            "sha512": "3732d6bb4965191c9249a3a5810df221b7a5a77a01268a29a28788e84709ed90794a14b2f3ea3de9151f525d2052f8773f2f598db75e17cb647c22d960ec6f5e", 
+            "md5": "f909a6a17b1d81a4f24c269e1b524fee"
+        }, 
+        "custom": null
+    }, 
+    "irma": {
+        "status": 0, 
+        "probes_finished": 16, 
+        "scan_id": "d38e96f0-d3ae-46a1-af52-190946899a69", 
+        "parent_file_sha256": null, 
+        "name": "353b2bd0f2ef846b8b382dea550f9ccf02feea09a5b616fb244ca2e021f508a6", 
+        "probes_total": 16, 
+        "scan_date": 1642311557, 
+        "other_results": [], 
+        "submitter": "cli", 
+        "file_infos": {
+            "mimetype": "ELF 32-bit MSB executable, SPARC, version 1 (SYSV)", 
+            "sha1": "280e07e2632609bf27cb2e8693b270caff692c5c", 
+            "tags": [], 
+            "timestamp_first_scan": 1642311557.26, 
+            "timestamp_last_scan": 1642311566.18, 
+            "sha256": "353b2bd0f2ef846b8b382dea550f9ccf02feea09a5b616fb244ca2e021f508a6", 
+            "md5": "f909a6a17b1d81a4f24c269e1b524fee", 
+            "size": 9764
+        }, 
+        "probe_results": {
+            "antivirus": {
+                "Avast Core Security (Linux)": {
+                    "status": 0, 
+                    "duration": 0.01, 
+                    "version": "3.0.3", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "F-Secure Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 1.19, 
+                    "version": "11.10", 
+                    "results": null, 
+                    "virus_database_version": "2022-01-13_04"
+                }, 
+                "Windows Defender (Windows)": {
+                    "status": 0, 
+                    "duration": 0.05, 
+                    "version": "1.1.18800.4", 
+                    "results": null, 
+                    "virus_database_version": "1.355.1049.0"
+                }, 
+                "Comodo Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 2.11, 
+                    "version": "1.1.268025.1", 
+                    "results": null, 
+                    "virus_database_version": "2021-11-02"
+                }, 
+                "Kaspersky Antivirus (Win)": {
+                    "status": 0, 
+                    "duration": 2.68, 
+                    "version": "21.3", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "ESET NOD32 Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 4.52, 
+                    "version": "4.0.96", 
+                    "results": null, 
+                    "virus_database_version": "6178ebd0-1e722 (2021-10-27)"
+                }, 
+                "GData (Windows)": {
+                    "status": 0, 
+                    "duration": 0.19, 
+                    "version": "5.5.20197.1358", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Forticlient (Linux)": {
+                    "status": 0, 
+                    "duration": 3.03, 
+                    "version": "unavailable", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Avira (Windows)": {
+                    "status": 0, 
+                    "duration": 3.88, 
+                    "version": "8.3.64.66", 
+                    "results": null, 
+                    "virus_database_version": "8.19.1.122"
+                }, 
+                "eScan Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 3.87, 
+                    "version": "7.0.21", 
+                    "results": null, 
+                    "virus_database_version": "7.90035 (27/10/2021)"
+                }, 
+                "McAfee CLI scanner (Linux)": {
+                    "status": 0, 
+                    "duration": 5.8, 
+                    "version": "6.0.6.653", 
+                    "results": null, 
+                    "virus_database_version": "10149"
+                }, 
+                "Sophos Anti-Virus (Linux)": {
+                    "status": 0, 
+                    "duration": 6.5, 
+                    "version": "5.85.0", 
+                    "results": null, 
+                    "virus_database_version": "5.88 (26 October 2021)"
+                }, 
+                "DrWeb Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.19, 
+                    "version": "11.1.10.2108031732", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "ClamAV (Linux)": {
+                    "status": 0, 
+                    "duration": 0.02, 
+                    "version": "0.103.2", 
+                    "results": null, 
+                    "virus_database_version": "26334"
+                }, 
+                "Bitdefender Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 6.18, 
+                    "version": "7.90123", 
+                    "results": null, 
+                    "virus_database_version": null
+                }, 
+                "Emsisoft Commandline Scanner (Windows)": {
+                    "status": 0, 
+                    "duration": 0.23, 
+                    "version": "2021.10.0.11201", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }
+            }
+        }, 
+        "path": "", 
+        "result_id": "6540df67-2e52-47b7-ad41-a4a0ae1507a5", 
+        "file_sha256": "353b2bd0f2ef846b8b382dea550f9ccf02feea09a5b616fb244ca2e021f508a6"
+    }, 
+    "suricata": {
+        "tls": [
+            {
+                "src_ip": "192.168.168.105", 
+                "version": "TLS 1.2", 
+                "src_port": 43602, 
+                "dst_port": 443, 
+                "timestamp": "2022-01-16T07:35:10.246896+0200", 
+                "dst_ip": "91.189.92.20", 
+                "fingerprint": "97:63:1b:60:eb:d1:fa:4f:a4:fc:fa:98:66:3d:ee:22:fb:78:ce:c1", 
+                "subject": "C=GB, L=London, O=Canonical Group Ltd, CN=api.snapcraft.io", 
+                "issuer": "C=US, O=DigiCert Inc, CN=DigiCert TLS RSA SHA256 2020 CA1"
+            }
+        ], 
+        "files": [], 
+        "alerts": [], 
+        "http": []
+    }, 
+    "virustotal": {
+        "summary": {
+            "error": "resource has not been scanned yet"
+        }
+    }, 
+    "network": {
+        "udp": [], 
+        "dns_servers": [], 
+        "http": [], 
+        "smtp": [], 
+        "tcp": [], 
+        "geoinfo": {}, 
+        "mitm": [], 
+        "https_ex": [], 
+        "http_ex": [], 
+        "sorted_pcap_sha256": "cd42dd23704652b5d5001b7acaa4fee9a95aeecd9075f7ae09c68f06fe8755f5", 
+        "icmp": [], 
+        "tls": [], 
+        "dead_hosts": [], 
+        "smtp_ex": [], 
+        "hosts": [], 
+        "pcap_sha256": "76c5db84242bdd1f93196314873b2be0b309982c9e890d24640f68bec19b8adb", 
+        "dns": [], 
+        "domains": [], 
+        "irc": []
+    }, 
+    "resubmit": {
+        "resubmit_ids": []
+    }, 
+    "snort": {
+        "alerts": []
+    }, 
+    "behavior": {
+        "generic": [
+            {
+                "process_path": null, 
+                "process_name": "pt_chown", 
+                "pid": 2072, 
+                "summary": {}, 
+                "first_seen": 1642281810.938229, 
+                "ppid": -1
+            }, 
+            {
+                "process_path": null, 
+                "process_name": "pt_chown", 
+                "pid": 2073, 
+                "summary": {}, 
+                "first_seen": 1642281810.96044, 
+                "ppid": 2072
+            }
+        ], 
+        "processes": [
+            {
+                "calls": [
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.938229 pt_chown@7fc3d5e9dc27[2072] execve(\"/tmp/pt_chown\", [\"/tmp/pt_chown\"], [\"SUDO_GID=0\", \"MAIL=/var/mail/root\", \"USER=root\", \"HOME=/root\", \"SUDO_UID=0\", \"LOGNAME=root\", \"SYSTEMTAP_MODULE=stap_\", \"TERM=unknown\", \"SYSTEMTAP_VERBOSE=2\", \"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin\", \"DISPLAY=:0\", \"LANG=en_US.UTF-8\", \"XAUTHORITY=/root/.Xauthority\", \"SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/pt_chown\", \"SHELL=/bin/bash\", \"SUDO_USER=root\", \"PWD=/tmp/tmphnpQIl\"])\n", 
+                        "api": "execve", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5e9dc27", 
+                        "arguments": {
+                            "p2": [
+                                "SUDO_GID=0", 
+                                "MAIL=/var/mail/root", 
+                                "USER=root", 
+                                "HOME=/root", 
+                                "SUDO_UID=0", 
+                                "LOGNAME=root", 
+                                "SYSTEMTAP_MODULE=stap_", 
+                                "TERM=unknown", 
+                                "SYSTEMTAP_VERBOSE=2", 
+                                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin", 
+                                "DISPLAY=:0", 
+                                "LANG=en_US.UTF-8", 
+                                "XAUTHORITY=/root/.Xauthority", 
+                                "SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/pt_chown", 
+                                "SHELL=/bin/bash", 
+                                "SUDO_USER=root", 
+                                "PWD=/tmp/tmphnpQIl"
+                            ], 
+                            "p0": "/tmp/pt_chown", 
+                            "p1": [
+                                "/tmp/pt_chown"
+                            ]
+                        }, 
+                        "time": 1642281810.938229
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.940710 pt_chown@7fc3d5e9dc27[2072] brk(0x0) = 94529342361600\n", 
+                        "api": "brk", 
+                        "return_value": "94529342361600", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5e9dc27", 
+                        "arguments": {
+                            "p0": "0x0"
+                        }, 
+                        "time": 1642281810.94071
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.940800 pt_chown@7fc3d5e9e9d7[2072] access(\"/etc/ld.so.preload\", R_OK) = -2 (ENOENT)\n", 
+                        "api": "access", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5e9e9d7", 
+                        "arguments": {
+                            "p0": "/etc/ld.so.preload", 
+                            "p1": "R_OK"
+                        }, 
+                        "time": 1642281810.9408
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.941928 pt_chown@7fc3d5e9eb0d[2072] openat(AT_FDCWD, \"/etc/ld.so.cache\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5e9eb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/etc/ld.so.cache"
+                        }, 
+                        "time": 1642281810.941928
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.941993 pt_chown@7fc3d5e9e943[2072] fstat(4, 0x7ffd12bf0790) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5e9e943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd12bf0790"
+                        }, 
+                        "time": 1642281810.941993
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.942090 pt_chown@7fc3d5e9ed03[2072] mmap2(0x0, 88858, PROT_READ, MAP_PRIVATE, 4, 0) = 0x7fc3d5e6c000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fc3d5e6c000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5e9ed03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE", 
+                            "p0": "0x0", 
+                            "p1": "88858", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281810.94209
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.942197 pt_chown@7fc3d5e9e9f7[2072] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5e9e9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642281810.942197
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.942307 pt_chown@7fc3d5e9eb0d[2072] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5e9eb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0"
+                        }, 
+                        "time": 1642281810.942307
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.942396 pt_chown@7fc3d5e9ebd4[2072] read(4, 0x7ffd12bf0948, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5e9ebd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffd12bf0948"
+                        }, 
+                        "time": 1642281810.942396
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.942466 pt_chown@7fc3d5e9e943[2072] fstat(4, 0x7ffd12bf07e0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5e9e943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd12bf07e0"
+                        }, 
+                        "time": 1642281810.942466
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.942550 pt_chown@7fc3d5e9ed03[2072] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc3d5e6a000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fc3d5e6a000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5e9ed03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281810.94255
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.942666 pt_chown@7fc3d5e9ed03[2072] mmap2(0x0, 20600, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fc3d5e64000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fc3d5e64000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5e9ed03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "20600", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281810.942666
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.942760 pt_chown@7fc3d5e9ed03[2072] mmap2(0x7fc3d5e65000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 4096) = 0x7fc3d5e65000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fc3d5e65000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5e9ed03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fc3d5e65000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "4096"
+                        }, 
+                        "time": 1642281810.94276
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.942860 pt_chown@7fc3d5e9ed03[2072] mmap2(0x7fc3d5e67000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7fc3d5e67000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fc3d5e67000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5e9ed03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fc3d5e67000", 
+                            "p1": "4096", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642281810.94286
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.942993 pt_chown@7fc3d5e9ed03[2072] mmap2(0x7fc3d5e68000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7fc3d5e68000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fc3d5e68000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5e9ed03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fc3d5e68000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642281810.942993
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.943086 pt_chown@7fc3d5e9e9f7[2072] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5e9e9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642281810.943086
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.943175 pt_chown@7fc3d5e9eb0d[2072] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5e9eb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0"
+                        }, 
+                        "time": 1642281810.943175
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.943275 pt_chown@7fc3d5e9ebd4[2072] read(4, 0x7ffd12bf0928, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5e9ebd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffd12bf0928"
+                        }, 
+                        "time": 1642281810.943275
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.943384 pt_chown@7fc3d5e9e943[2072] fstat(4, 0x7ffd12bf07c0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5e9e943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd12bf07c0"
+                        }, 
+                        "time": 1642281810.943384
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.943481 pt_chown@7fc3d5e9ed03[2072] mmap2(0x0, 1180072, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fc3d5d43000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fc3d5d43000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5e9ed03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1180072", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281810.943481
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.943556 pt_chown@7fc3d5e9edb7[2072] mprotect(0x7fc3d5d5e000, 1060864, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5e9edb7", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7fc3d5d5e000", 
+                            "p1": "1060864"
+                        }, 
+                        "time": 1642281810.943556
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.943648 pt_chown@7fc3d5e9ed03[2072] mmap2(0x7fc3d5d5e000, 524288, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 110592) = 0x7fc3d5d5e000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fc3d5d5e000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5e9ed03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fc3d5d5e000", 
+                            "p1": "524288", 
+                            "p4": "4", 
+                            "p5": "110592"
+                        }, 
+                        "time": 1642281810.943648
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.943782 pt_chown@7fc3d5e9ed03[2072] mmap2(0x7fc3d5dde000, 532480, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 634880) = 0x7fc3d5dde000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fc3d5dde000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5e9ed03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fc3d5dde000", 
+                            "p1": "532480", 
+                            "p4": "4", 
+                            "p5": "634880"
+                        }, 
+                        "time": 1642281810.943782
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.943875 pt_chown@7fc3d5e9ed03[2072] mmap2(0x7fc3d5e61000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1167360) = 0x7fc3d5e61000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fc3d5e61000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5e9ed03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fc3d5e61000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "1167360"
+                        }, 
+                        "time": 1642281810.943875
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.943987 pt_chown@7fc3d5e9ed03[2072] mmap2(0x7fc3d5e63000, 424, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fc3d5e63000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fc3d5e63000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5e9ed03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7fc3d5e63000", 
+                            "p1": "424", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281810.943987
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.944093 pt_chown@7fc3d5e9e9f7[2072] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5e9e9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642281810.944093
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.944262 pt_chown@7fc3d5e9eb0d[2072] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/librt.so.1\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5e9eb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/librt.so.1"
+                        }, 
+                        "time": 1642281810.944262
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.944363 pt_chown@7fc3d5e9ebd4[2072] read(4, 0x7ffd12bf0908, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5e9ebd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffd12bf0908"
+                        }, 
+                        "time": 1642281810.944363
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.944455 pt_chown@7fc3d5e9e943[2072] fstat(4, 0x7ffd12bf07a0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5e9e943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd12bf07a0"
+                        }, 
+                        "time": 1642281810.944455
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.944548 pt_chown@7fc3d5e9ed03[2072] mmap2(0x0, 44000, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fc3d5d38000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fc3d5d38000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5e9ed03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "44000", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281810.944548
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.944676 pt_chown@7fc3d5e9ed03[2072] mmap2(0x7fc3d5d3b000, 16384, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7fc3d5d3b000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fc3d5d3b000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5e9ed03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fc3d5d3b000", 
+                            "p1": "16384", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642281810.944676
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.944790 pt_chown@7fc3d5e9ed03[2072] mmap2(0x7fc3d5d3f000, 8192, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 28672) = 0x7fc3d5d3f000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fc3d5d3f000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5e9ed03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fc3d5d3f000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "28672"
+                        }, 
+                        "time": 1642281810.94479
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.945065 pt_chown@7fc3d5e9ed03[2072] mmap2(0x7fc3d5d41000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 32768) = 0x7fc3d5d41000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fc3d5d41000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5e9ed03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fc3d5d41000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "32768"
+                        }, 
+                        "time": 1642281810.945065
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.945222 pt_chown@7fc3d5e9e9f7[2072] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5e9e9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642281810.945222
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.945339 pt_chown@7fc3d5e9eb0d[2072] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libm.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5e9eb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libm.so.6"
+                        }, 
+                        "time": 1642281810.945339
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.945444 pt_chown@7fc3d5e9ebd4[2072] read(4, 0x7ffd12bf08e8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5e9ebd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffd12bf08e8"
+                        }, 
+                        "time": 1642281810.945444
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.945540 pt_chown@7fc3d5e9e943[2072] fstat(4, 0x7ffd12bf0780) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5e9e943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd12bf0780"
+                        }, 
+                        "time": 1642281810.94554
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.945644 pt_chown@7fc3d5e9ed03[2072] mmap2(0x0, 1364240, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fc3d5bea000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fc3d5bea000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5e9ed03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1364240", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281810.945644
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.945757 pt_chown@7fc3d5e9ed03[2072] mmap2(0x7fc3d5bf9000, 679936, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 61440) = 0x7fc3d5bf9000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fc3d5bf9000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5e9ed03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fc3d5bf9000", 
+                            "p1": "679936", 
+                            "p4": "4", 
+                            "p5": "61440"
+                        }, 
+                        "time": 1642281810.945757
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.945868 pt_chown@7fc3d5e9ed03[2072] mmap2(0x7fc3d5c9f000, 618496, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 741376) = 0x7fc3d5c9f000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fc3d5c9f000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5e9ed03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fc3d5c9f000", 
+                            "p1": "618496", 
+                            "p4": "4", 
+                            "p5": "741376"
+                        }, 
+                        "time": 1642281810.945868
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.946000 pt_chown@7fc3d5e9ed03[2072] mmap2(0x7fc3d5d36000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1355776) = 0x7fc3d5d36000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fc3d5d36000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5e9ed03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fc3d5d36000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "1355776"
+                        }, 
+                        "time": 1642281810.946
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.946120 pt_chown@7fc3d5e9e9f7[2072] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5e9e9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642281810.94612
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.946264 pt_chown@7fc3d5e9eb0d[2072] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libgcc_s.so.1\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5e9eb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libgcc_s.so.1"
+                        }, 
+                        "time": 1642281810.946264
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.946394 pt_chown@7fc3d5e9ebd4[2072] read(4, 0x7ffd12bf08c8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5e9ebd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffd12bf08c8"
+                        }, 
+                        "time": 1642281810.946394
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.946499 pt_chown@7fc3d5e9e943[2072] fstat(4, 0x7ffd12bf0760) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5e9e943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd12bf0760"
+                        }, 
+                        "time": 1642281810.946499
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.946602 pt_chown@7fc3d5e9ed03[2072] mmap2(0x0, 103504, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fc3d5bd0000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fc3d5bd0000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5e9ed03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "103504", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281810.946602
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.946713 pt_chown@7fc3d5e9ed03[2072] mmap2(0x7fc3d5bd3000, 69632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7fc3d5bd3000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fc3d5bd3000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5e9ed03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fc3d5bd3000", 
+                            "p1": "69632", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642281810.946713
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.946819 pt_chown@7fc3d5e9ed03[2072] mmap2(0x7fc3d5be4000, 16384, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 81920) = 0x7fc3d5be4000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fc3d5be4000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5e9ed03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fc3d5be4000", 
+                            "p1": "16384", 
+                            "p4": "4", 
+                            "p5": "81920"
+                        }, 
+                        "time": 1642281810.946819
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.946951 pt_chown@7fc3d5e9ed03[2072] mmap2(0x7fc3d5be8000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 94208) = 0x7fc3d5be8000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fc3d5be8000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5e9ed03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fc3d5be8000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "94208"
+                        }, 
+                        "time": 1642281810.946951
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.947054 pt_chown@7fc3d5e9e9f7[2072] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5e9e9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642281810.947054
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.947189 pt_chown@7fc3d5e9eb0d[2072] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libpthread.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5e9eb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libpthread.so.0"
+                        }, 
+                        "time": 1642281810.947189
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.947284 pt_chown@7fc3d5e9ebd4[2072] read(4, 0x7ffd12bf08a8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5e9ebd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffd12bf08a8"
+                        }, 
+                        "time": 1642281810.947284
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.947398 pt_chown@7fc3d5e9e943[2072] fstat(4, 0x7ffd12bf0740) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5e9e943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd12bf0740"
+                        }, 
+                        "time": 1642281810.947398
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.947538 pt_chown@7fc3d5e9ed03[2072] mmap2(0x0, 132288, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fc3d5baf000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fc3d5baf000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5e9ed03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "132288", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281810.947538
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.947677 pt_chown@7fc3d5e9ed03[2072] mmap2(0x7fc3d5bb6000, 61440, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 28672) = 0x7fc3d5bb6000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fc3d5bb6000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5e9ed03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fc3d5bb6000", 
+                            "p1": "61440", 
+                            "p4": "4", 
+                            "p5": "28672"
+                        }, 
+                        "time": 1642281810.947677
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.947780 pt_chown@7fc3d5e9ed03[2072] mmap2(0x7fc3d5bc5000, 20480, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 90112) = 0x7fc3d5bc5000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fc3d5bc5000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5e9ed03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fc3d5bc5000", 
+                            "p1": "20480", 
+                            "p4": "4", 
+                            "p5": "90112"
+                        }, 
+                        "time": 1642281810.94778
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.947899 pt_chown@7fc3d5e9ed03[2072] mmap2(0x7fc3d5bca000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 106496) = 0x7fc3d5bca000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fc3d5bca000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5e9ed03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fc3d5bca000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "106496"
+                        }, 
+                        "time": 1642281810.947899
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.948053 pt_chown@7fc3d5e9ed03[2072] mmap2(0x7fc3d5bcc000, 13504, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fc3d5bcc000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fc3d5bcc000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5e9ed03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7fc3d5bcc000", 
+                            "p1": "13504", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281810.948053
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.948146 pt_chown@7fc3d5e9e9f7[2072] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5e9e9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642281810.948146
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.948298 pt_chown@7fc3d5e9eb0d[2072] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libc.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5e9eb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libc.so.6"
+                        }, 
+                        "time": 1642281810.948298
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.948411 pt_chown@7fc3d5e9ebd4[2072] read(4, 0x7ffd12bf0888, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5e9ebd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffd12bf0888"
+                        }, 
+                        "time": 1642281810.948411
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.948547 pt_chown@7fc3d5e9e943[2072] fstat(4, 0x7ffd12bf0720) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5e9e943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd12bf0720"
+                        }, 
+                        "time": 1642281810.948547
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.948631 pt_chown@7fc3d5e9ed03[2072] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc3d5bad000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fc3d5bad000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5e9ed03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281810.948631
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.948767 pt_chown@7fc3d5e9ed03[2072] mmap2(0x0, 2008696, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fc3d59c2000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fc3d59c2000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5e9ed03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "2008696", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281810.948767
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.948869 pt_chown@7fc3d5e9ed03[2072] mmap2(0x7fc3d59e7000, 1519616, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 151552) = 0x7fc3d59e7000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fc3d59e7000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5e9ed03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fc3d59e7000", 
+                            "p1": "1519616", 
+                            "p4": "4", 
+                            "p5": "151552"
+                        }, 
+                        "time": 1642281810.948869
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.949047 pt_chown@7fc3d5e9ed03[2072] mmap2(0x7fc3d5b5a000, 299008, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1671168) = 0x7fc3d5b5a000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fc3d5b5a000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5e9ed03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fc3d5b5a000", 
+                            "p1": "299008", 
+                            "p4": "4", 
+                            "p5": "1671168"
+                        }, 
+                        "time": 1642281810.949047
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.949185 pt_chown@7fc3d5e9ed03[2072] mmap2(0x7fc3d5ba3000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1966080) = 0x7fc3d5ba3000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fc3d5ba3000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5e9ed03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fc3d5ba3000", 
+                            "p1": "24576", 
+                            "p4": "4", 
+                            "p5": "1966080"
+                        }, 
+                        "time": 1642281810.949185
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.949417 pt_chown@7fc3d5e9ed03[2072] mmap2(0x7fc3d5ba9000, 13944, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fc3d5ba9000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fc3d5ba9000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5e9ed03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7fc3d5ba9000", 
+                            "p1": "13944", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281810.949417
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.949520 pt_chown@7fc3d5e9e9f7[2072] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5e9e9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642281810.94952
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.949622 pt_chown@7fc3d5e9eb0d[2072] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libdl.so.2\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5e9eb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libdl.so.2"
+                        }, 
+                        "time": 1642281810.949622
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.949721 pt_chown@7fc3d5e9ebd4[2072] read(4, 0x7ffd12bf0868, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5e9ebd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffd12bf0868"
+                        }, 
+                        "time": 1642281810.949721
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.949804 pt_chown@7fc3d5e9e943[2072] fstat(4, 0x7ffd12bf0700) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5e9e943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd12bf0700"
+                        }, 
+                        "time": 1642281810.949804
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.949949 pt_chown@7fc3d5e9ed03[2072] mmap2(0x0, 20752, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fc3d59bc000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fc3d59bc000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5e9ed03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "20752", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281810.949949
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.950050 pt_chown@7fc3d5e9ed03[2072] mmap2(0x7fc3d59bd000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 4096) = 0x7fc3d59bd000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fc3d59bd000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5e9ed03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fc3d59bd000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "4096"
+                        }, 
+                        "time": 1642281810.95005
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.950180 pt_chown@7fc3d5e9ed03[2072] mmap2(0x7fc3d59bf000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7fc3d59bf000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fc3d59bf000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5e9ed03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fc3d59bf000", 
+                            "p1": "4096", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642281810.95018
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.950303 pt_chown@7fc3d5e9ed03[2072] mmap2(0x7fc3d59c0000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7fc3d59c0000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fc3d59c0000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5e9ed03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fc3d59c0000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642281810.950303
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.950396 pt_chown@7fc3d5e9e9f7[2072] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5e9e9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642281810.950396
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.950549 pt_chown@7fc3d5e9eb0d[2072] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libpcre.so.3\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5e9eb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libpcre.so.3"
+                        }, 
+                        "time": 1642281810.950549
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.950645 pt_chown@7fc3d5e9ebd4[2072] read(4, 0x7ffd12bf0848, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5e9ebd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffd12bf0848"
+                        }, 
+                        "time": 1642281810.950645
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.950741 pt_chown@7fc3d5e9e943[2072] fstat(4, 0x7ffd12bf06e0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5e9e943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd12bf06e0"
+                        }, 
+                        "time": 1642281810.950741
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.950825 pt_chown@7fc3d5e9ed03[2072] mmap2(0x0, 471304, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fc3d5948000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fc3d5948000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5e9ed03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "471304", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281810.950825
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.950926 pt_chown@7fc3d5e9ed03[2072] mmap2(0x7fc3d594a000, 335872, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 8192) = 0x7fc3d594a000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fc3d594a000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5e9ed03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fc3d594a000", 
+                            "p1": "335872", 
+                            "p4": "4", 
+                            "p5": "8192"
+                        }, 
+                        "time": 1642281810.950926
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.951047 pt_chown@7fc3d5e9ed03[2072] mmap2(0x7fc3d599c000, 122880, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 344064) = 0x7fc3d599c000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fc3d599c000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5e9ed03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fc3d599c000", 
+                            "p1": "122880", 
+                            "p4": "4", 
+                            "p5": "344064"
+                        }, 
+                        "time": 1642281810.951047
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.951124 pt_chown@7fc3d5e9ed03[2072] mmap2(0x7fc3d59ba000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 462848) = 0x7fc3d59ba000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fc3d59ba000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5e9ed03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fc3d59ba000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "462848"
+                        }, 
+                        "time": 1642281810.951124
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.951221 pt_chown@7fc3d5e9e9f7[2072] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5e9e9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642281810.951221
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.952209 pt_chown@7fc3d5e9ed03[2072] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc3d5946000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fc3d5946000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5e9ed03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281810.952209
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.952277 pt_chown@7fc3d5e83f30[2072] arch_prctl(ARCH_SET_FS, 140479078625600) = 0\n", 
+                        "api": "arch_prctl", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5e83f30", 
+                        "arguments": {
+                            "p0": "ARCH_SET_FS", 
+                            "p1": "140479078625600"
+                        }, 
+                        "time": 1642281810.952277
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.953016 pt_chown@7fc3d5e9edb7[2072] mprotect(0x7fc3d5ba3000, 12288, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5e9edb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fc3d5ba3000", 
+                            "p1": "12288"
+                        }, 
+                        "time": 1642281810.953016
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.953090 pt_chown@7fc3d5e9edb7[2072] mprotect(0x7fc3d5bca000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5e9edb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fc3d5bca000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642281810.95309
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.953166 pt_chown@7fc3d5e9edb7[2072] mprotect(0x7fc3d59ba000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5e9edb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fc3d59ba000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642281810.953166
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.953223 pt_chown@7fc3d5e9edb7[2072] mprotect(0x7fc3d59c0000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5e9edb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fc3d59c0000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642281810.953223
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.953289 pt_chown@7fc3d5e9edb7[2072] mprotect(0x7fc3d5be8000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5e9edb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fc3d5be8000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642281810.953289
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.953361 pt_chown@7fc3d5e9edb7[2072] mprotect(0x7fc3d5d36000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5e9edb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fc3d5d36000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642281810.953361
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.953419 pt_chown@7fc3d5e9edb7[2072] mprotect(0x7fc3d5d41000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5e9edb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fc3d5d41000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642281810.953419
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.953709 pt_chown@7fc3d5e9edb7[2072] mprotect(0x7fc3d5e61000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5e9edb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fc3d5e61000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642281810.953709
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.953786 pt_chown@7fc3d5e9edb7[2072] mprotect(0x7fc3d5e68000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5e9edb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fc3d5e68000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642281810.953786
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.957327 pt_chown@7fc3d5e9edb7[2072] mprotect(0x55f951bd6000, 303104, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5e9edb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x55f951bd6000", 
+                            "p1": "303104"
+                        }, 
+                        "time": 1642281810.957327
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.957398 pt_chown@7fc3d5e9edb7[2072] mprotect(0x7fc3d5eac000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5e9edb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fc3d5eac000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642281810.957398
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.957457 pt_chown@7fc3d5e9ed97[2072] munmap(0x7fc3d5e6c000, 88858) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5e9ed97", 
+                        "arguments": {
+                            "p0": "0x7fc3d5e6c000", 
+                            "p1": "88858"
+                        }, 
+                        "time": 1642281810.957457
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.957607 pt_chown@7fc3d5bb68df[2072] set_tid_address(0x7fc3d5947410) = 2072\n", 
+                        "api": "set_tid_address", 
+                        "return_value": "2072", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5bb68df", 
+                        "arguments": {
+                            "p0": "0x7fc3d5947410"
+                        }, 
+                        "time": 1642281810.957607
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.957655 pt_chown@7fc3d5bb694a[2072] set_robust_list(0x7fc3d5947420, 24) = 0\n", 
+                        "api": "set_robust_list", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5bb694a", 
+                        "arguments": {
+                            "p0": "0x7fc3d5947420", 
+                            "p1": "24"
+                        }, 
+                        "time": 1642281810.957655
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.957717 pt_chown@7fc3d5bc3010[2072] rt_sigaction(0x20, {0x7fc3d5bb66c0, SA_SIGINFO|SA_RESTORER, 0x7fc3d5bc2f40, [EMPTY]}, 0x0, 8) = 0\n", 
+                        "api": "rt_sigaction", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5bc3010", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "0x20", 
+                            "p1": [
+                                "0x7fc3d5bb66c0", 
+                                "SA_SIGINFO|SA_RESTORER", 
+                                "0x7fc3d5bc2f40", 
+                                [
+                                    "EMPTY]"
+                                ]
+                            ]
+                        }, 
+                        "time": 1642281810.957717
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.957769 pt_chown@7fc3d5bc3010[2072] rt_sigaction(0x21, {0x7fc3d5bb6760, SA_RESTART|SA_SIGINFO|SA_RESTORER, 0x7fc3d5bc2f40, [EMPTY]}, 0x0, 8) = 0\n", 
+                        "api": "rt_sigaction", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5bc3010", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "0x21", 
+                            "p1": [
+                                "0x7fc3d5bb6760", 
+                                "SA_RESTART|SA_SIGINFO|SA_RESTORER", 
+                                "0x7fc3d5bc2f40", 
+                                [
+                                    "EMPTY]"
+                                ]
+                            ]
+                        }, 
+                        "time": 1642281810.957769
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.957819 pt_chown@7fc3d5bb6a19[2072] rt_sigprocmask(SIG_UNBLOCK, [EMPTY], 0x0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5bb6a19", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "SIG_UNBLOCK", 
+                            "p1": [
+                                "EMPTY"
+                            ]
+                        }, 
+                        "time": 1642281810.957819
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.957880 pt_chown@7fc3d5ad4df0[2072] prlimit64(0, RLIMIT_STACK, NULL, 0x7ffd12bf1520) = 0\n", 
+                        "api": "prlimit64", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5ad4df0", 
+                        "arguments": {
+                            "p2": "NULL", 
+                            "p3": "0x7ffd12bf1520", 
+                            "p0": "0", 
+                            "p1": "RLIMIT_STACK"
+                        }, 
+                        "time": 1642281810.95788
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.958095 pt_chown@7fc3d5ad52f7[2072] brk(0x0) = 94529342361600\n", 
+                        "api": "brk", 
+                        "return_value": "94529342361600", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5ad52f7", 
+                        "arguments": {
+                            "p0": "0x0"
+                        }, 
+                        "time": 1642281810.958095
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.958139 pt_chown@7fc3d5ad52f7[2072] brk(0x55f953e16000) = 94529342496768\n", 
+                        "api": "brk", 
+                        "return_value": "94529342496768", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5ad52f7", 
+                        "arguments": {
+                            "p0": "0x55f953e16000"
+                        }, 
+                        "time": 1642281810.958139
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.959172 pt_chown@7fc3d5bbfb86[2072] rt_sigprocmask(SIG_SETMASK, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS], 0x7ffd12bf1470, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5bbfb86", 
+                        "arguments": {
+                            "p2": "0x7ffd12bf1470", 
+                            "p3": "8", 
+                            "p0": "SIG_SETMASK", 
+                            "p1": [
+                                "SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS"
+                            ]
+                        }, 
+                        "time": 1642281810.959172
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.960108 pt_chown@7fc3d5ad94c3[2072] mmap2(0x0, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7fc3d5145000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fc3d5145000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5ad94c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK", 
+                            "p0": "0x0", 
+                            "p1": "8392704", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281810.960108
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.960166 pt_chown@7fc3d5ad9597[2072] mprotect(0x7fc3d5146000, 8388608, PROT_READ|PROT_WRITE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5ad9597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p0": "0x7fc3d5146000", 
+                            "p1": "8388608"
+                        }, 
+                        "time": 1642281810.960166
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.960239 pt_chown@7fc3d5adfb11[2072] clone(CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, 0x7fc3d5944f70, 0x7fc3d59459d0, 0x7fc3d59459d0) = 2073\n", 
+                        "api": "clone", 
+                        "return_value": "2073", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5adfb11", 
+                        "arguments": {
+                            "p2": "0x7fc3d59459d0", 
+                            "p3": "0x7fc3d59459d0", 
+                            "p0": "CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID", 
+                            "p1": "0x7fc3d5944f70"
+                        }, 
+                        "time": 1642281810.960239
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.960359 pt_chown@7fc3d5bbfb86[2072] rt_sigprocmask(SIG_SETMASK, [EMPTY], 0x0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5bbfb86", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "SIG_SETMASK", 
+                            "p1": [
+                                "EMPTY"
+                            ]
+                        }, 
+                        "time": 1642281810.960359
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.963034 pt_chown@7fc3d5ad4df0[2072] prlimit64(0, RLIMIT_STACK, NULL, 0x7ffd12bf1030) = 0\n", 
+                        "api": "prlimit64", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5ad4df0", 
+                        "arguments": {
+                            "p2": "NULL", 
+                            "p3": "0x7ffd12bf1030", 
+                            "p0": "0", 
+                            "p1": "RLIMIT_STACK"
+                        }, 
+                        "time": 1642281810.963034
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.963112 pt_chown@7fc3d5ad45c1[2072] openat(AT_FDCWD, \"/etc/qemu-binfmt/sparc\", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -2 (ENOENT)\n", 
+                        "api": "openat", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5ad45c1", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/etc/qemu-binfmt/sparc"
+                        }, 
+                        "time": 1642281810.963112
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.963208 pt_chown@7fc3d5aa3247[2072] uname(0x7ffd12bf0ca0) = 0\n", 
+                        "api": "uname", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5aa3247", 
+                        "arguments": {
+                            "p0": "0x7ffd12bf0ca0"
+                        }, 
+                        "time": 1642281810.963208
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.963263 pt_chown@7fc3d5bc2337[2072] lseek(3, 0, SEEK_SET) = 0\n", 
+                        "api": "lseek", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5bc2337", 
+                        "arguments": {
+                            "p2": "SEEK_SET", 
+                            "p0": "3", 
+                            "p1": "0"
+                        }, 
+                        "time": 1642281810.963263
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.963312 pt_chown@7fc3d5bc1d94[2072] read(3, 0x7ffd12bf0f90, 52) = 52\n", 
+                        "api": "read", 
+                        "return_value": "52", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5bc1d94", 
+                        "arguments": {
+                            "p2": "52", 
+                            "p0": "3", 
+                            "p1": "0x7ffd12bf0f90"
+                        }, 
+                        "time": 1642281810.963312
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.963365 pt_chown@7fc3d5bc2337[2072] lseek(3, 0, SEEK_SET) = 0\n", 
+                        "api": "lseek", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5bc2337", 
+                        "arguments": {
+                            "p2": "SEEK_SET", 
+                            "p0": "3", 
+                            "p1": "0"
+                        }, 
+                        "time": 1642281810.963365
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.964849 pt_chown@7fc3d5ad94c3[2072] mmap2(0x0, 528384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc3d50c4000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fc3d50c4000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5ad94c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "528384", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281810.964849
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.965636 pt_chown@7fc3d5ad9597[2072] mprotect(0x55f951c33000, 33550336, PROT_READ|PROT_WRITE|PROT_EXEC) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5ad9597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE|PROT_EXEC", 
+                            "p0": "0x55f951c33000", 
+                            "p1": "33550336"
+                        }, 
+                        "time": 1642281810.965636
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.965693 pt_chown@7fc3d5ad9667[2072] madvise(0x55f951c33000, 33550336, MADV_HUGEPAGE) = 0\n", 
+                        "api": "madvise", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5ad9667", 
+                        "arguments": {
+                            "p2": "MADV_HUGEPAGE", 
+                            "p0": "0x55f951c33000", 
+                            "p1": "33550336"
+                        }, 
+                        "time": 1642281810.965693
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.965888 pt_chown@7fc3d5ad94c3[2072] mmap2(0x0, 4294963200, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7fc2d0001000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fc2d0001000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5ad94c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x0", 
+                            "p1": "4294963200", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281810.965888
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.965949 pt_chown@7fc3d5aced59[2072] openat(AT_FDCWD, \"/proc/sys/vm/mmap_min_addr\", O_RDONLY) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5aced59", 
+                        "arguments": {
+                            "p2": "O_RDONLY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/proc/sys/vm/mmap_min_addr"
+                        }, 
+                        "time": 1642281810.965949
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.966019 pt_chown@7fc3d5ace613[2072] fstat(4, 0x7ffd12bf06a0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5ace613", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd12bf06a0"
+                        }, 
+                        "time": 1642281810.966019
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.966067 pt_chown@7fc3d5acefb4[2072] read(4, 0x55f953e023d0, 1024) = 6\n", 
+                        "api": "read", 
+                        "return_value": "6", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5acefb4", 
+                        "arguments": {
+                            "p2": "1024", 
+                            "p0": "4", 
+                            "p1": "0x55f953e023d0"
+                        }, 
+                        "time": 1642281810.966067
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.966126 pt_chown@7fc3d5ad43f7[2072] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5ad43f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642281810.966126
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.966189 pt_chown@7fc3d5ad92e9[2072] gettid() = 2072\n", 
+                        "api": "gettid", 
+                        "return_value": "2072", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5ad92e9", 
+                        "arguments": {}, 
+                        "time": 1642281810.966189
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.966235 pt_chown@7fc3d5ace613[2072] fstat(3, 0x7ffd12bf0f10) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5ace613", 
+                        "arguments": {
+                            "p0": "3", 
+                            "p1": "0x7ffd12bf0f10"
+                        }, 
+                        "time": 1642281810.966235
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.966282 pt_chown@7fc3d5aa4717[2072] geteuid() = 0\n", 
+                        "api": "geteuid", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5aa4717", 
+                        "arguments": {}, 
+                        "time": 1642281810.966282
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.966326 pt_chown@7fc3d5aa4737[2072] getegid() = 0\n", 
+                        "api": "getegid", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5aa4737", 
+                        "arguments": {}, 
+                        "time": 1642281810.966326
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.966370 pt_chown@7fc3d5bc1d94[2072] read(3, 0x7ffd12bf1110, 1024) = 1024\n", 
+                        "api": "read", 
+                        "return_value": "1024", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5bc1d94", 
+                        "arguments": {
+                            "p2": "1024", 
+                            "p0": "3", 
+                            "p1": "0x7ffd12bf1110"
+                        }, 
+                        "time": 1642281810.96637
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.966424 pt_chown@7fc3d5ad94c3[2072] mmap2(0x7fc2d0011000, 4096, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 3, 0) = 0x7fc2d0011000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fc2d0011000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5ad94c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED", 
+                            "p0": "0x7fc2d0011000", 
+                            "p1": "4096", 
+                            "p4": "3", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281810.966424
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.966488 pt_chown@7fc3d5ad52f7[2072] brk(0x55f953e37000) = 94529342631936\n", 
+                        "api": "brk", 
+                        "return_value": "94529342631936", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5ad52f7", 
+                        "arguments": {
+                            "p0": "0x55f953e37000"
+                        }, 
+                        "time": 1642281810.966488
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.966556 pt_chown@7fc3d5ad94c3[2072] mmap2(0x7fc2d0022000, 8192, PROT_READ|PROT_WRITE|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 3, 4096) = 0x7fc2d0022000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fc2d0022000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5ad94c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED", 
+                            "p0": "0x7fc2d0022000", 
+                            "p1": "8192", 
+                            "p4": "3", 
+                            "p5": "4096"
+                        }, 
+                        "time": 1642281810.966556
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.966619 pt_chown@7fc3d5bc1e27[2072] close(3) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5bc1e27", 
+                        "arguments": {
+                            "p0": "3"
+                        }, 
+                        "time": 1642281810.966619
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.966720 pt_chown@7fc3d5ad94c3[2072] mmap2(0x7fc3cf7ff000, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fc3cf7ff000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fc3cf7ff000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5ad94c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7fc3cf7ff000", 
+                            "p1": "8392704", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281810.96672
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.966876 pt_chown@7fc3d5ad9597[2072] mprotect(0x7fc3cf7ff000, 4096, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5ad9597", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7fc3cf7ff000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642281810.966876
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.966945 pt_chown@7fc3d5bc255e[2072] openat(AT_FDCWD, \"/lib/ld-linux.so.2\", O_RDONLY) = -2 (ENOENT)\n", 
+                        "api": "openat", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5bc255e", 
+                        "arguments": {
+                            "p2": "O_RDONLY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/ld-linux.so.2"
+                        }, 
+                        "time": 1642281810.966945
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.967033 pt_chown@7fc3d5acf057[2072] write(2, \"/lib/ld-linux.so.2: No such file or directory\\n\", 46) = 46\n", 
+                        "api": "write", 
+                        "return_value": "46", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5acf057", 
+                        "arguments": {
+                            "p2": "46", 
+                            "p0": "2", 
+                            "p1": "/lib/ld-linux.so.2: No such file or directory\n"
+                        }, 
+                        "time": 1642281810.967033
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.967117 pt_chown@7fc3d5aa3926[2072] exit_group(-1)\n", 
+                        "api": "exit_group", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5aa3926", 
+                        "arguments": {
+                            "p0": "-1"
+                        }, 
+                        "time": 1642281810.967117
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 21:23:30 2022.967167 pt_chown@7fc3d5aa3926[2072] futex(0x7fc3d5947410, FUTEX_WAKE, 1) = 0\n", 
+                        "api": "futex", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5aa3926", 
+                        "arguments": {
+                            "p2": "1", 
+                            "p0": "0x7fc3d5947410", 
+                            "p1": "FUTEX_WAKE"
+                        }, 
+                        "time": 1642281810.967167
+                    }
+                ], 
+                "pid": 2072, 
+                "process_name": "pt_chown", 
+                "command_line": "/tmp/pt_chown", 
+                "first_seen": 1642281810.938229, 
+                "ppid": -1, 
+                "type": "process"
+            }, 
+            {
+                "calls": [
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2073, 
+                        "raw": "Sat Jan 15 21:23:30 2022.960440 pt_chown@7fc3d5bb8117[2073] set_robust_list(0x7fc3d59459e0, 24) = 0\n", 
+                        "api": "set_robust_list", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5bb8117", 
+                        "arguments": {
+                            "p0": "0x7fc3d59459e0", 
+                            "p1": "24"
+                        }, 
+                        "time": 1642281810.96044
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2073, 
+                        "raw": "Sat Jan 15 21:23:30 2022.960486 pt_chown@7fc3d5ad94c3[2073] mmap2(0x0, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7fc3cd145000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fc3cd145000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5ad94c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x0", 
+                            "p1": "134217728", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281810.960486
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2073, 
+                        "raw": "Sat Jan 15 21:23:30 2022.960527 pt_chown@7fc3d5ad9567[2073] munmap(0x7fc3cd145000, 49000448) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5ad9567", 
+                        "arguments": {
+                            "p0": "0x7fc3cd145000", 
+                            "p1": "49000448"
+                        }, 
+                        "time": 1642281810.960527
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2073, 
+                        "raw": "Sat Jan 15 21:23:30 2022.960566 pt_chown@7fc3d5ad9567[2073] munmap(0x7fc3d4000000, 18108416) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5ad9567", 
+                        "arguments": {
+                            "p0": "0x7fc3d4000000", 
+                            "p1": "18108416"
+                        }, 
+                        "time": 1642281810.960566
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2073, 
+                        "raw": "Sat Jan 15 21:23:30 2022.960603 pt_chown@7fc3d5ad9597[2073] mprotect(0x7fc3d0000000, 135168, PROT_READ|PROT_WRITE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5ad9597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p0": "0x7fc3d0000000", 
+                            "p1": "135168"
+                        }, 
+                        "time": 1642281810.960603
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pt_chown", 
+                        "pid": 2073, 
+                        "raw": "Sat Jan 15 21:23:30 2022.960649 pt_chown@7fc3d5bc2440[2073] nanosleep([0.010000000], 0x7fc3d5944dc0) = -516\n", 
+                        "api": "nanosleep", 
+                        "return_value": "-516", 
+                        "category": "process", 
+                        "instruction_pointer": "7fc3d5bc2440", 
+                        "arguments": {
+                            "p0": [
+                                "0.010000000"
+                            ], 
+                            "p1": "0x7fc3d5944dc0"
+                        }, 
+                        "time": 1642281810.960649
+                    }
+                ], 
+                "pid": 2073, 
+                "process_name": "pt_chown", 
+                "command_line": "", 
+                "first_seen": 1642281810.96044, 
+                "ppid": 2072, 
+                "type": "process"
+            }
+        ], 
+        "processtree": [
+            {
+                "track": true, 
+                "pid": 2072, 
+                "process_name": "pt_chown", 
+                "command_line": "/tmp/pt_chown", 
+                "first_seen": 1642281810.938229, 
+                "ppid": -1, 
+                "children": [
+                    {
+                        "track": true, 
+                        "pid": 2073, 
+                        "process_name": "pt_chown", 
+                        "command_line": "", 
+                        "first_seen": 1642281810.96044, 
+                        "ppid": 2072, 
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    }, 
+    "debug": {
+        "action": [], 
+        "dbgview": [], 
+        "errors": [], 
+        "log": [
+            "2022-01-15 21:23:23,006 [root] DEBUG: Starting analyzer from: /tmp/tmphnpQIl\n", 
+            "2022-01-15 21:23:23,006 [root] DEBUG: Storing results at: /tmp/jsDRgZsHO\n", 
+            "2022-01-15 21:23:25,220 [modules.auxiliary.filecollector] INFO: FileCollector started v0.08\n", 
+            "2022-01-15 21:23:25,223 [modules.auxiliary.human] INFO: Human started v0.02\n", 
+            "2022-01-15 21:23:25,225 [modules.auxiliary.screenshots] INFO: Screenshots started v0.03\n", 
+            "2022-01-15 21:23:30,929 [lib.core.packages] INFO: Process startup took 5.70 seconds\n", 
+            "2022-01-15 21:23:30,935 [root] INFO: Added new process to list with pid: 2063\n", 
+            "2022-01-15 21:23:39,949 [root] INFO: Process with pid 2063 has terminated\n", 
+            "2022-01-15 21:23:39,950 [root] INFO: Process list is empty, terminating analysis.\n", 
+            "2022-01-15 21:23:42,953 [lib.core.packages] INFO: Package requested stop\n", 
+            "2022-01-15 21:23:42,954 [lib.core.packages] WARNING: Exception uploading log: [Errno 3] No such process\n"
+        ], 
+        "cuckoo": [
+            "2022-01-16 07:32:29,966 [cuckoo.core.scheduler] DEBUG: Task #2651533: no machine available yet\n", 
+            "2022-01-16 07:32:39,997 [cuckoo.core.scheduler] DEBUG: Task #2651533: no machine available yet\n", 
+            "2022-01-16 07:32:50,022 [cuckoo.core.scheduler] DEBUG: Task #2651533: no machine available yet\n", 
+            "2022-01-16 07:33:00,054 [cuckoo.core.scheduler] DEBUG: Task #2651533: no machine available yet\n", 
+            "2022-01-16 07:33:10,080 [cuckoo.core.scheduler] DEBUG: Task #2651533: no machine available yet\n", 
+            "2022-01-16 07:33:20,104 [cuckoo.core.scheduler] DEBUG: Task #2651533: no machine available yet\n", 
+            "2022-01-16 07:33:30,125 [cuckoo.core.scheduler] DEBUG: Task #2651533: no machine available yet\n", 
+            "2022-01-16 07:33:40,154 [cuckoo.core.scheduler] DEBUG: Task #2651533: no machine available yet\n", 
+            "2022-01-16 07:33:50,177 [cuckoo.core.scheduler] DEBUG: Task #2651533: no machine available yet\n", 
+            "2022-01-16 07:34:00,207 [cuckoo.core.scheduler] DEBUG: Task #2651533: no machine available yet\n", 
+            "2022-01-16 07:34:10,232 [cuckoo.core.scheduler] DEBUG: Task #2651533: no machine available yet\n", 
+            "2022-01-16 07:34:20,264 [cuckoo.core.scheduler] DEBUG: Task #2651533: no machine available yet\n", 
+            "2022-01-16 07:34:30,291 [cuckoo.core.scheduler] DEBUG: Task #2651533: no machine available yet\n", 
+            "2022-01-16 07:34:40,319 [cuckoo.core.scheduler] INFO: Task #2651533: acquired machine Ubuntu1904x645 (label=Ubuntu1904x645)\n", 
+            "2022-01-16 07:34:40,320 [cuckoo.core.resultserver] DEBUG: Now tracking machine 192.168.168.105 for task #2651533\n", 
+            "2022-01-16 07:34:40,482 [cuckoo.auxiliary.sniffer] INFO: Started sniffer with PID 1876403 (interface=vboxnet0, host=192.168.168.105)\n", 
+            "2022-01-16 07:34:40,627 [cuckoo.machinery.virtualbox] DEBUG: Starting vm Ubuntu1904x645\n", 
+            "2022-01-16 07:34:40,990 [cuckoo.machinery.virtualbox] DEBUG: Restoring virtual machine Ubuntu1904x645 to Snapshot\n", 
+            "2022-01-16 07:34:50,398 [cuckoo.core.guest] INFO: Starting analysis #2651533 on guest (id=Ubuntu1904x645, ip=192.168.168.105)\n", 
+            "2022-01-16 07:34:51,403 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: not ready yet\n", 
+            "2022-01-16 07:34:56,418 [cuckoo.core.guest] INFO: Guest is running Cuckoo Agent 0.10 (id=Ubuntu1904x645, ip=192.168.168.105)\n", 
+            "2022-01-16 07:34:56,430 [cuckoo.core.guest] DEBUG: Uploading analyzer to guest (id=Ubuntu1904x645, ip=192.168.168.105, monitor=latest, size=72028)\n", 
+            "2022-01-16 07:34:56,568 [cuckoo.core.resultserver] DEBUG: Task #2651533: live log analysis.log initialized.\n", 
+            "2022-01-16 07:35:02,111 [cuckoo.core.resultserver] DEBUG: Task #2651533: File upload for 'shots/0001.jpg'\n", 
+            "2022-01-16 07:35:02,320 [cuckoo.core.resultserver] DEBUG: Task #2651533 uploaded file length: 171567\n", 
+            "2022-01-16 07:35:11,550 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2651533 still processing\n", 
+            "2022-01-16 07:35:16,546 [cuckoo.core.resultserver] DEBUG: Task #2651533: File upload for 'logs/all.stap'\n", 
+            "2022-01-16 07:35:16,550 [cuckoo.core.resultserver] DEBUG: Task #2651533 uploaded file length: 18830\n", 
+            "2022-01-16 07:35:26,607 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2651533 still processing\n", 
+            "2022-01-16 07:35:41,669 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2651533 still processing\n", 
+            "2022-01-16 07:35:56,749 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2651533 still processing\n", 
+            "2022-01-16 07:36:11,902 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2651533 still processing\n", 
+            "2022-01-16 07:36:26,972 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2651533 still processing\n", 
+            "2022-01-16 07:36:42,032 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2651533 still processing\n", 
+            "2022-01-16 07:36:57,089 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2651533 still processing\n", 
+            "2022-01-16 07:37:12,169 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2651533 still processing\n", 
+            "2022-01-16 07:37:27,256 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2651533 still processing\n", 
+            "2022-01-16 07:37:42,318 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2651533 still processing\n", 
+            "2022-01-16 07:37:57,376 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2651533 still processing\n", 
+            "2022-01-16 07:38:12,503 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2651533 still processing\n", 
+            "2022-01-16 07:38:27,570 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2651533 still processing\n", 
+            "2022-01-16 07:38:42,639 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2651533 still processing\n", 
+            "2022-01-16 07:38:57,700 [cuckoo.core.guest] INFO: Ubuntu1904x645: end of analysis reached!\n", 
+            "2022-01-16 07:38:57,712 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Redsocks\n", 
+            "2022-01-16 07:38:57,791 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Sniffer\n", 
+            "2022-01-16 07:39:12,406 [cuckoo.machinery.virtualbox] INFO: Successfully generated memory dump for virtual machine with label Ubuntu1904x645 to path /srv/cuckoo/cwd/storage/analyses/2651533/memory.dmp\n", 
+            "2022-01-16 07:39:12,408 [cuckoo.machinery.virtualbox] DEBUG: Stopping vm Ubuntu1904x645\n", 
+            "2022-01-16 07:39:16,299 [cuckoo.core.resultserver] DEBUG: Stopped tracking machine 192.168.168.105 for task #2651533\n", 
+            "2022-01-16 07:39:16,299 [cuckoo.core.resultserver] DEBUG: Cancel <Context for LOG> for task 2651533\n", 
+            "2022-01-16 07:39:16,465 [cuckoo.core.scheduler] DEBUG: Released database task #2651533\n", 
+            "2022-01-16 07:39:16,557 [cuckoo.core.scheduler] INFO: Task #2651533: analysis procedure completed\n"
+        ]
+    }, 
+    "strings": [
+        "/lib/ld-linux.so.2", 
+        "libc.so.6", 
+        "textdomain", 
+        "getgid", 
+        "stdout", 
+        "geteuid", 
+        "getuid", 
+        "fprintf", 
+        "dcgettext", 
+        "program_invocation_short_name", 
+        "ptsname", 
+        "argp_help", 
+        "asprintf", 
+        "_libc_intl_domainname", 
+        "setlocale", 
+        "__xstat", 
+        "__errno_location", 
+        "getgrnam", 
+        "argp_parse", 
+        "_IO_stdin_used", 
+        "__libc_start_main", 
+        "argp_program_version_hook", 
+        "setuid", 
+        "__progname", 
+        "__gmon_start__", 
+        "GLIBC_2.0", 
+        "GLIBC_2.1", 
+        "too many arguments", 
+        "needs to be installed setuid `root'", 
+        "pt_chown (GNU %s) %s", 
+        "Copyright (C) %s Free Software Foundation, Inc.", 
+        "This is free software; see the source for copying conditions.  There is NO", 
+        "warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.", 
+        "Set the owner, group and access permission of the slave pseudo terminal corresponding to the master pseudo terminal passed on file descriptor `%d'.  This is the helper program for the `grantpt' function.  It is not intended to be run directly from the command line.", 
+        "The owner is set to the current user, the group is set to `%s', and the access permission is set to `%o'.", 
+        "For bug reporting instructions, please see:", 
+        "<http://www.gnu.org/software/libc/bugs.html>.", 
+        "pt_chown", 
+        ".shstrtab", 
+        ".interp", 
+        ".note.ABI-tag", 
+        ".dynsym", 
+        ".dynstr", 
+        ".gnu.version", 
+        ".gnu.version_r", 
+        ".rela.dyn", 
+        ".rela.plt", 
+        ".rodata", 
+        ".eh_frame", 
+        ".ctors", 
+        ".dtors", 
+        ".dynamic", 
+        ".gnu_debuglink"
+    ], 
+    "metadata": {
+        "output": {
+            "pcap": {
+                "basename": "dump.pcap", 
+                "sha256": "76c5db84242bdd1f93196314873b2be0b309982c9e890d24640f68bec19b8adb", 
+                "dirname": ""
+            }
+        }
+    }
+}
