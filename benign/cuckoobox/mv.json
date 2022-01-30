@@ -1,0 +1,3207 @@
+{
+    "info": {
+        "added": 1642281224.675914, 
+        "started": 1642313549.969224, 
+        "duration": 285, 
+        "ended": 1642313835.660022, 
+        "owner": null, 
+        "score": 0.0, 
+        "id": 2651353, 
+        "category": "file", 
+        "git": {
+            "head": "e8f6317b4b3ef806085a1e99e64c6ff01f26948f", 
+            "fetch_head": "e8f6317b4b3ef806085a1e99e64c6ff01f26948f"
+        }, 
+        "monitor": "2deb9ccd75d5a7a3fe05b2625b03a8639d6ee36b", 
+        "package": "elf", 
+        "route": "internet", 
+        "custom": null, 
+        "machine": {
+            "status": "stopped", 
+            "name": "Ubuntu1904x642", 
+            "label": "Ubuntu1904x642", 
+            "platform": "linux", 
+            "manager": "VirtualBox", 
+            "started_on": "2022-01-16 06:13:11", 
+            "shutdown_on": "2022-01-16 06:17:15"
+        }, 
+        "platform": "linux", 
+        "version": "2.0.7", 
+        "options": "procmemdump=yes,route=internet"
+    }, 
+    "signatures": [], 
+    "target": {
+        "category": "file", 
+        "file": {
+            "mimetype": "application/x-executable", 
+            "yara": [], 
+            "sha1": "5dca91e359a02163f8be97242eb29e34914b6708", 
+            "name": "mv", 
+            "type": "ELF 32-bit MSB executable, SPARC, version 1 (SYSV), dynamically linked, interpreter /lib/ld-linux.so.2, for GNU/Linux 2.4.1, stripped", 
+            "sha256": "cd7c4d295aa2d04f62895f2205621d2ab2f8ad3a669710b42a120837b4fd6fbd", 
+            "urls": [], 
+            "crc32": "0579B49E", 
+            "path": "/srv/cuckoo/cwd/storage/binaries/cd7c4d295aa2d04f62895f2205621d2ab2f8ad3a669710b42a120837b4fd6fbd", 
+            "ssdeep": "768:uGFkE7qs2WSKLVLZy5aP0V7qK/JfvDwSj7GipTEQcTOxpsXifiqbob:uE7qhRKLVly5aP0RqK/JHDwS1eTOO", 
+            "size": 62256, 
+            "sha512": "10d6cca294449de90599aa34b76d4c1a467f2bec2738365e9e5786db4d9a46cabc48b58bb5f166316f010b93bc99a49b87bc33b6f930eea9a00a456d2c56a34d", 
+            "md5": "a993e0d4e9a9d5986513bb93f7158b14"
+        }, 
+        "custom": null
+    }, 
+    "irma": {
+        "status": 0, 
+        "probes_finished": 16, 
+        "scan_id": "33f8e9d2-558d-4927-bc2f-d9a30efe9097", 
+        "parent_file_sha256": null, 
+        "name": "cd7c4d295aa2d04f62895f2205621d2ab2f8ad3a669710b42a120837b4fd6fbd", 
+        "probes_total": 16, 
+        "scan_date": 1642306636, 
+        "other_results": [], 
+        "submitter": "cli", 
+        "file_infos": {
+            "mimetype": "ELF 32-bit MSB executable, SPARC, version 1 (SYSV)", 
+            "sha1": "5dca91e359a02163f8be97242eb29e34914b6708", 
+            "tags": [], 
+            "timestamp_first_scan": 1642306636.2, 
+            "timestamp_last_scan": 1642306645.84, 
+            "sha256": "cd7c4d295aa2d04f62895f2205621d2ab2f8ad3a669710b42a120837b4fd6fbd", 
+            "md5": "a993e0d4e9a9d5986513bb93f7158b14", 
+            "size": 62256
+        }, 
+        "probe_results": {
+            "antivirus": {
+                "Avast Core Security (Linux)": {
+                    "status": 0, 
+                    "duration": 0.01, 
+                    "version": "3.0.3", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "F-Secure Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.03, 
+                    "version": "11.10", 
+                    "results": null, 
+                    "virus_database_version": "2022-01-13_04"
+                }, 
+                "Windows Defender (Windows)": {
+                    "status": 0, 
+                    "duration": 0.05, 
+                    "version": "1.1.18800.4", 
+                    "results": null, 
+                    "virus_database_version": "1.355.1049.0"
+                }, 
+                "Comodo Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 2.09, 
+                    "version": "1.1.268025.1", 
+                    "results": null, 
+                    "virus_database_version": "2021-11-02"
+                }, 
+                "Kaspersky Antivirus (Win)": {
+                    "status": 0, 
+                    "duration": 2.75, 
+                    "version": "21.3", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "ESET NOD32 Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 4.81, 
+                    "version": "4.0.96", 
+                    "results": null, 
+                    "virus_database_version": "6178ebd0-1e722 (2021-10-27)"
+                }, 
+                "GData (Windows)": {
+                    "status": 0, 
+                    "duration": 0.19, 
+                    "version": "5.5.20197.1358", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Forticlient (Linux)": {
+                    "status": 0, 
+                    "duration": 3.03, 
+                    "version": "unavailable", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Avira (Windows)": {
+                    "status": 0, 
+                    "duration": 4.11, 
+                    "version": "8.3.64.66", 
+                    "results": null, 
+                    "virus_database_version": "8.19.1.122"
+                }, 
+                "eScan Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 4.23, 
+                    "version": "7.0.21", 
+                    "results": null, 
+                    "virus_database_version": "7.90035 (27/10/2021)"
+                }, 
+                "McAfee CLI scanner (Linux)": {
+                    "status": 0, 
+                    "duration": 6.57, 
+                    "version": "6.0.6.653", 
+                    "results": null, 
+                    "virus_database_version": "10149"
+                }, 
+                "Sophos Anti-Virus (Linux)": {
+                    "status": 0, 
+                    "duration": 6.95, 
+                    "version": "5.85.0", 
+                    "results": null, 
+                    "virus_database_version": "5.88 (26 October 2021)"
+                }, 
+                "DrWeb Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.19, 
+                    "version": "11.1.10.2108031732", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "ClamAV (Linux)": {
+                    "status": 0, 
+                    "duration": 0.02, 
+                    "version": "0.103.2", 
+                    "results": null, 
+                    "virus_database_version": "26334"
+                }, 
+                "Bitdefender Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 6.12, 
+                    "version": "7.90123", 
+                    "results": null, 
+                    "virus_database_version": null
+                }, 
+                "Emsisoft Commandline Scanner (Windows)": {
+                    "status": 0, 
+                    "duration": 0.2, 
+                    "version": "2021.10.0.11201", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }
+            }
+        }, 
+        "path": "", 
+        "result_id": "0c062ab7-b29c-48b7-ad38-3cbf6da66610", 
+        "file_sha256": "cd7c4d295aa2d04f62895f2205621d2ab2f8ad3a669710b42a120837b4fd6fbd"
+    }, 
+    "suricata": {
+        "tls": [], 
+        "files": [], 
+        "alerts": [], 
+        "http": []
+    }, 
+    "virustotal": {
+        "summary": {
+            "error": "resource has not been scanned yet"
+        }
+    }, 
+    "network": {
+        "tls": [], 
+        "udp": [], 
+        "dns_servers": [], 
+        "http": [], 
+        "icmp": [], 
+        "smtp": [], 
+        "tcp": [], 
+        "smtp_ex": [], 
+        "geoinfo": {}, 
+        "mitm": [], 
+        "hosts": [], 
+        "pcap_sha256": "704e5e5b3234433c01fcfd1b20a306e77e985038120492dc53965c3edd38a4ea", 
+        "dns": [], 
+        "http_ex": [], 
+        "domains": [], 
+        "dead_hosts": [], 
+        "irc": [], 
+        "https_ex": []
+    }, 
+    "resubmit": {
+        "resubmit_ids": []
+    }, 
+    "snort": {
+        "alerts": []
+    }, 
+    "behavior": {
+        "generic": [
+            {
+                "process_path": null, 
+                "process_name": "mv", 
+                "pid": 2092, 
+                "summary": {}, 
+                "first_seen": 1642281231.920353, 
+                "ppid": -1
+            }, 
+            {
+                "process_path": null, 
+                "process_name": "mv", 
+                "pid": 2094, 
+                "summary": {}, 
+                "first_seen": 1642281232.966609, 
+                "ppid": 2092
+            }
+        ], 
+        "processes": [
+            {
+                "calls": [
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:51 2022.920353 mv@7f1755f19c27[2092] execve(\"/tmp/mv\", [\"/tmp/mv\"], [\"SUDO_GID=0\", \"MAIL=/var/mail/root\", \"USER=root\", \"HOME=/root\", \"SUDO_UID=0\", \"LOGNAME=root\", \"SYSTEMTAP_MODULE=stap_\", \"TERM=unknown\", \"SYSTEMTAP_VERBOSE=2\", \"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin\", \"DISPLAY=:0\", \"LANG=en_US.UTF-8\", \"XAUTHORITY=/root/.Xauthority\", \"SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/mv\", \"SHELL=/bin/bash\", \"SUDO_USER=root\", \"PWD=/tmp/tmpapdEdU\"])\n", 
+                        "api": "execve", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755f19c27", 
+                        "arguments": {
+                            "p2": [
+                                "SUDO_GID=0", 
+                                "MAIL=/var/mail/root", 
+                                "USER=root", 
+                                "HOME=/root", 
+                                "SUDO_UID=0", 
+                                "LOGNAME=root", 
+                                "SYSTEMTAP_MODULE=stap_", 
+                                "TERM=unknown", 
+                                "SYSTEMTAP_VERBOSE=2", 
+                                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin", 
+                                "DISPLAY=:0", 
+                                "LANG=en_US.UTF-8", 
+                                "XAUTHORITY=/root/.Xauthority", 
+                                "SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/mv", 
+                                "SHELL=/bin/bash", 
+                                "SUDO_USER=root", 
+                                "PWD=/tmp/tmpapdEdU"
+                            ], 
+                            "p0": "/tmp/mv", 
+                            "p1": [
+                                "/tmp/mv"
+                            ]
+                        }, 
+                        "time": 1642281231.920353
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.935943 mv@7f1755f19c27[2092] brk(0x0) = 94041706717184\n", 
+                        "api": "brk", 
+                        "return_value": "94041706717184", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755f19c27", 
+                        "arguments": {
+                            "p0": "0x0"
+                        }, 
+                        "time": 1642281232.935943
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.936081 mv@7f1755f1a9d7[2092] access(\"/etc/ld.so.preload\", R_OK) = -2 (ENOENT)\n", 
+                        "api": "access", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755f1a9d7", 
+                        "arguments": {
+                            "p0": "/etc/ld.so.preload", 
+                            "p1": "R_OK"
+                        }, 
+                        "time": 1642281232.936081
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.941319 mv@7f1755f1ab0d[2092] openat(AT_FDCWD, \"/etc/ld.so.cache\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755f1ab0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/etc/ld.so.cache"
+                        }, 
+                        "time": 1642281232.941319
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.941405 mv@7f1755f1a943[2092] fstat(4, 0x7ffc261e86c0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755f1a943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc261e86c0"
+                        }, 
+                        "time": 1642281232.941405
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.941475 mv@7f1755f1ad03[2092] mmap2(0x0, 88858, PROT_READ, MAP_PRIVATE, 4, 0) = 0x7f1755ee8000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1755ee8000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755f1ad03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE", 
+                            "p0": "0x0", 
+                            "p1": "88858", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281232.941475
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.941545 mv@7f1755f1a9f7[2092] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755f1a9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642281232.941545
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.941634 mv@7f1755f1ab0d[2092] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755f1ab0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0"
+                        }, 
+                        "time": 1642281232.941634
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.941706 mv@7f1755f1abd4[2092] read(4, 0x7ffc261e8878, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755f1abd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc261e8878"
+                        }, 
+                        "time": 1642281232.941706
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.941772 mv@7f1755f1a943[2092] fstat(4, 0x7ffc261e8710) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755f1a943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc261e8710"
+                        }, 
+                        "time": 1642281232.941772
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.941832 mv@7f1755f1ad03[2092] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f1755ee6000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1755ee6000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755f1ad03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281232.941832
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.941907 mv@7f1755f1ad03[2092] mmap2(0x0, 20600, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f1755ee0000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1755ee0000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755f1ad03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "20600", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281232.941907
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.941975 mv@7f1755f1ad03[2092] mmap2(0x7f1755ee1000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 4096) = 0x7f1755ee1000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1755ee1000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755f1ad03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f1755ee1000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "4096"
+                        }, 
+                        "time": 1642281232.941975
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.942056 mv@7f1755f1ad03[2092] mmap2(0x7f1755ee3000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f1755ee3000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1755ee3000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755f1ad03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f1755ee3000", 
+                            "p1": "4096", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642281232.942056
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.942125 mv@7f1755f1ad03[2092] mmap2(0x7f1755ee4000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f1755ee4000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1755ee4000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755f1ad03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f1755ee4000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642281232.942125
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.942212 mv@7f1755f1a9f7[2092] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755f1a9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642281232.942212
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.942292 mv@7f1755f1ab0d[2092] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755f1ab0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0"
+                        }, 
+                        "time": 1642281232.942292
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.942361 mv@7f1755f1abd4[2092] read(4, 0x7ffc261e8858, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755f1abd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc261e8858"
+                        }, 
+                        "time": 1642281232.942361
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.942422 mv@7f1755f1a943[2092] fstat(4, 0x7ffc261e86f0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755f1a943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc261e86f0"
+                        }, 
+                        "time": 1642281232.942422
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.942483 mv@7f1755f1ad03[2092] mmap2(0x0, 1180072, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f1755dbf000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1755dbf000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755f1ad03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1180072", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281232.942483
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.942553 mv@7f1755f1adb7[2092] mprotect(0x7f1755dda000, 1060864, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755f1adb7", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7f1755dda000", 
+                            "p1": "1060864"
+                        }, 
+                        "time": 1642281232.942553
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.942629 mv@7f1755f1ad03[2092] mmap2(0x7f1755dda000, 524288, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 110592) = 0x7f1755dda000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1755dda000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755f1ad03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f1755dda000", 
+                            "p1": "524288", 
+                            "p4": "4", 
+                            "p5": "110592"
+                        }, 
+                        "time": 1642281232.942629
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.942697 mv@7f1755f1ad03[2092] mmap2(0x7f1755e5a000, 532480, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 634880) = 0x7f1755e5a000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1755e5a000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755f1ad03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f1755e5a000", 
+                            "p1": "532480", 
+                            "p4": "4", 
+                            "p5": "634880"
+                        }, 
+                        "time": 1642281232.942697
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.942763 mv@7f1755f1ad03[2092] mmap2(0x7f1755edd000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1167360) = 0x7f1755edd000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1755edd000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755f1ad03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f1755edd000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "1167360"
+                        }, 
+                        "time": 1642281232.942763
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.942839 mv@7f1755f1ad03[2092] mmap2(0x7f1755edf000, 424, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f1755edf000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1755edf000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755f1ad03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f1755edf000", 
+                            "p1": "424", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281232.942839
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.942916 mv@7f1755f1a9f7[2092] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755f1a9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642281232.942916
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.943006 mv@7f1755f1ab0d[2092] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/librt.so.1\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755f1ab0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/librt.so.1"
+                        }, 
+                        "time": 1642281232.943006
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.943074 mv@7f1755f1abd4[2092] read(4, 0x7ffc261e8838, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755f1abd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc261e8838"
+                        }, 
+                        "time": 1642281232.943074
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.943135 mv@7f1755f1a943[2092] fstat(4, 0x7ffc261e86d0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755f1a943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc261e86d0"
+                        }, 
+                        "time": 1642281232.943135
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.943195 mv@7f1755f1ad03[2092] mmap2(0x0, 44000, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f1755db4000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1755db4000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755f1ad03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "44000", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281232.943195
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.943414 mv@7f1755f1ad03[2092] mmap2(0x7f1755db7000, 16384, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f1755db7000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1755db7000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755f1ad03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f1755db7000", 
+                            "p1": "16384", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642281232.943414
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.943492 mv@7f1755f1ad03[2092] mmap2(0x7f1755dbb000, 8192, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 28672) = 0x7f1755dbb000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1755dbb000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755f1ad03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f1755dbb000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "28672"
+                        }, 
+                        "time": 1642281232.943492
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.943561 mv@7f1755f1ad03[2092] mmap2(0x7f1755dbd000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 32768) = 0x7f1755dbd000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1755dbd000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755f1ad03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f1755dbd000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "32768"
+                        }, 
+                        "time": 1642281232.943561
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.943677 mv@7f1755f1a9f7[2092] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755f1a9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642281232.943677
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.943761 mv@7f1755f1ab0d[2092] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libm.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755f1ab0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libm.so.6"
+                        }, 
+                        "time": 1642281232.943761
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.943829 mv@7f1755f1abd4[2092] read(4, 0x7ffc261e8818, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755f1abd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc261e8818"
+                        }, 
+                        "time": 1642281232.943829
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.943890 mv@7f1755f1a943[2092] fstat(4, 0x7ffc261e86b0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755f1a943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc261e86b0"
+                        }, 
+                        "time": 1642281232.94389
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.943955 mv@7f1755f1ad03[2092] mmap2(0x0, 1364240, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f1755c66000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1755c66000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755f1ad03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1364240", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281232.943955
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.944023 mv@7f1755f1ad03[2092] mmap2(0x7f1755c75000, 679936, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 61440) = 0x7f1755c75000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1755c75000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755f1ad03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f1755c75000", 
+                            "p1": "679936", 
+                            "p4": "4", 
+                            "p5": "61440"
+                        }, 
+                        "time": 1642281232.944023
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.944096 mv@7f1755f1ad03[2092] mmap2(0x7f1755d1b000, 618496, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 741376) = 0x7f1755d1b000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1755d1b000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755f1ad03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f1755d1b000", 
+                            "p1": "618496", 
+                            "p4": "4", 
+                            "p5": "741376"
+                        }, 
+                        "time": 1642281232.944096
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.944164 mv@7f1755f1ad03[2092] mmap2(0x7f1755db2000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1355776) = 0x7f1755db2000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1755db2000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755f1ad03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f1755db2000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "1355776"
+                        }, 
+                        "time": 1642281232.944164
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.944248 mv@7f1755f1a9f7[2092] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755f1a9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642281232.944248
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.944325 mv@7f1755f1ab0d[2092] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libgcc_s.so.1\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755f1ab0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libgcc_s.so.1"
+                        }, 
+                        "time": 1642281232.944325
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.944458 mv@7f1755f1abd4[2092] read(4, 0x7ffc261e87f8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755f1abd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc261e87f8"
+                        }, 
+                        "time": 1642281232.944458
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.944522 mv@7f1755f1a943[2092] fstat(4, 0x7ffc261e8690) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755f1a943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc261e8690"
+                        }, 
+                        "time": 1642281232.944522
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.944584 mv@7f1755f1ad03[2092] mmap2(0x0, 103504, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f1755c4c000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1755c4c000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755f1ad03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "103504", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281232.944584
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.944652 mv@7f1755f1ad03[2092] mmap2(0x7f1755c4f000, 69632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f1755c4f000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1755c4f000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755f1ad03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f1755c4f000", 
+                            "p1": "69632", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642281232.944652
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.944729 mv@7f1755f1ad03[2092] mmap2(0x7f1755c60000, 16384, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 81920) = 0x7f1755c60000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1755c60000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755f1ad03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f1755c60000", 
+                            "p1": "16384", 
+                            "p4": "4", 
+                            "p5": "81920"
+                        }, 
+                        "time": 1642281232.944729
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.944797 mv@7f1755f1ad03[2092] mmap2(0x7f1755c64000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 94208) = 0x7f1755c64000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1755c64000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755f1ad03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f1755c64000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "94208"
+                        }, 
+                        "time": 1642281232.944797
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.944883 mv@7f1755f1a9f7[2092] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755f1a9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642281232.944883
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.944961 mv@7f1755f1ab0d[2092] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libpthread.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755f1ab0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libpthread.so.0"
+                        }, 
+                        "time": 1642281232.944961
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.945030 mv@7f1755f1abd4[2092] read(4, 0x7ffc261e87d8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755f1abd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc261e87d8"
+                        }, 
+                        "time": 1642281232.94503
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.945089 mv@7f1755f1a943[2092] fstat(4, 0x7ffc261e8670) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755f1a943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc261e8670"
+                        }, 
+                        "time": 1642281232.945089
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.945150 mv@7f1755f1ad03[2092] mmap2(0x0, 132288, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f1755c2b000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1755c2b000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755f1ad03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "132288", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281232.94515
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.945217 mv@7f1755f1ad03[2092] mmap2(0x7f1755c32000, 61440, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 28672) = 0x7f1755c32000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1755c32000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755f1ad03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f1755c32000", 
+                            "p1": "61440", 
+                            "p4": "4", 
+                            "p5": "28672"
+                        }, 
+                        "time": 1642281232.945217
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.945294 mv@7f1755f1ad03[2092] mmap2(0x7f1755c41000, 20480, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 90112) = 0x7f1755c41000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1755c41000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755f1ad03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f1755c41000", 
+                            "p1": "20480", 
+                            "p4": "4", 
+                            "p5": "90112"
+                        }, 
+                        "time": 1642281232.945294
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.945361 mv@7f1755f1ad03[2092] mmap2(0x7f1755c46000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 106496) = 0x7f1755c46000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1755c46000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755f1ad03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f1755c46000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "106496"
+                        }, 
+                        "time": 1642281232.945361
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.945436 mv@7f1755f1ad03[2092] mmap2(0x7f1755c48000, 13504, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f1755c48000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1755c48000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755f1ad03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f1755c48000", 
+                            "p1": "13504", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281232.945436
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.945513 mv@7f1755f1a9f7[2092] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755f1a9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642281232.945513
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.945589 mv@7f1755f1ab0d[2092] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libc.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755f1ab0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libc.so.6"
+                        }, 
+                        "time": 1642281232.945589
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.945655 mv@7f1755f1abd4[2092] read(4, 0x7ffc261e87b8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755f1abd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc261e87b8"
+                        }, 
+                        "time": 1642281232.945655
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.945713 mv@7f1755f1a943[2092] fstat(4, 0x7ffc261e8650) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755f1a943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc261e8650"
+                        }, 
+                        "time": 1642281232.945713
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.945773 mv@7f1755f1ad03[2092] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f1755c29000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1755c29000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755f1ad03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281232.945773
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.945842 mv@7f1755f1ad03[2092] mmap2(0x0, 2008696, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f1755a3e000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1755a3e000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755f1ad03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "2008696", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281232.945842
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.945908 mv@7f1755f1ad03[2092] mmap2(0x7f1755a63000, 1519616, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 151552) = 0x7f1755a63000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1755a63000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755f1ad03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f1755a63000", 
+                            "p1": "1519616", 
+                            "p4": "4", 
+                            "p5": "151552"
+                        }, 
+                        "time": 1642281232.945908
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.945980 mv@7f1755f1ad03[2092] mmap2(0x7f1755bd6000, 299008, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1671168) = 0x7f1755bd6000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1755bd6000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755f1ad03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f1755bd6000", 
+                            "p1": "299008", 
+                            "p4": "4", 
+                            "p5": "1671168"
+                        }, 
+                        "time": 1642281232.94598
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.946049 mv@7f1755f1ad03[2092] mmap2(0x7f1755c1f000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1966080) = 0x7f1755c1f000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1755c1f000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755f1ad03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f1755c1f000", 
+                            "p1": "24576", 
+                            "p4": "4", 
+                            "p5": "1966080"
+                        }, 
+                        "time": 1642281232.946049
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.946124 mv@7f1755f1ad03[2092] mmap2(0x7f1755c25000, 13944, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f1755c25000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1755c25000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755f1ad03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f1755c25000", 
+                            "p1": "13944", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281232.946124
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.946229 mv@7f1755f1a9f7[2092] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755f1a9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642281232.946229
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.946333 mv@7f1755f1ab0d[2092] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libdl.so.2\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755f1ab0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libdl.so.2"
+                        }, 
+                        "time": 1642281232.946333
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.946403 mv@7f1755f1abd4[2092] read(4, 0x7ffc261e8798, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755f1abd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc261e8798"
+                        }, 
+                        "time": 1642281232.946403
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.946464 mv@7f1755f1a943[2092] fstat(4, 0x7ffc261e8630) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755f1a943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc261e8630"
+                        }, 
+                        "time": 1642281232.946464
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.946526 mv@7f1755f1ad03[2092] mmap2(0x0, 20752, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f1755a38000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1755a38000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755f1ad03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "20752", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281232.946526
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.946595 mv@7f1755f1ad03[2092] mmap2(0x7f1755a39000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 4096) = 0x7f1755a39000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1755a39000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755f1ad03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f1755a39000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "4096"
+                        }, 
+                        "time": 1642281232.946595
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.946670 mv@7f1755f1ad03[2092] mmap2(0x7f1755a3b000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f1755a3b000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1755a3b000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755f1ad03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f1755a3b000", 
+                            "p1": "4096", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642281232.94667
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.946738 mv@7f1755f1ad03[2092] mmap2(0x7f1755a3c000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f1755a3c000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1755a3c000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755f1ad03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f1755a3c000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642281232.946738
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.946821 mv@7f1755f1a9f7[2092] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755f1a9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642281232.946821
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.946901 mv@7f1755f1ab0d[2092] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libpcre.so.3\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755f1ab0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libpcre.so.3"
+                        }, 
+                        "time": 1642281232.946901
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.946968 mv@7f1755f1abd4[2092] read(4, 0x7ffc261e8778, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755f1abd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc261e8778"
+                        }, 
+                        "time": 1642281232.946968
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.947027 mv@7f1755f1a943[2092] fstat(4, 0x7ffc261e8610) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755f1a943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc261e8610"
+                        }, 
+                        "time": 1642281232.947027
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.947088 mv@7f1755f1ad03[2092] mmap2(0x0, 471304, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f17559c4000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f17559c4000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755f1ad03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "471304", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281232.947088
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.947154 mv@7f1755f1ad03[2092] mmap2(0x7f17559c6000, 335872, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 8192) = 0x7f17559c6000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f17559c6000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755f1ad03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f17559c6000", 
+                            "p1": "335872", 
+                            "p4": "4", 
+                            "p5": "8192"
+                        }, 
+                        "time": 1642281232.947154
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.947227 mv@7f1755f1ad03[2092] mmap2(0x7f1755a18000, 122880, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 344064) = 0x7f1755a18000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1755a18000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755f1ad03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f1755a18000", 
+                            "p1": "122880", 
+                            "p4": "4", 
+                            "p5": "344064"
+                        }, 
+                        "time": 1642281232.947227
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.947294 mv@7f1755f1ad03[2092] mmap2(0x7f1755a36000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 462848) = 0x7f1755a36000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1755a36000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755f1ad03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f1755a36000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "462848"
+                        }, 
+                        "time": 1642281232.947294
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.947476 mv@7f1755f1a9f7[2092] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755f1a9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642281232.947476
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.952080 mv@7f1755f1ad03[2092] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f17559c2000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f17559c2000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755f1ad03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281232.95208
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.952152 mv@7f1755efff30[2092] arch_prctl(ARCH_SET_FS, 139738197274944) = 0\n", 
+                        "api": "arch_prctl", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755efff30", 
+                        "arguments": {
+                            "p0": "ARCH_SET_FS", 
+                            "p1": "139738197274944"
+                        }, 
+                        "time": 1642281232.952152
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.958983 mv@7f1755f1adb7[2092] mprotect(0x7f1755c1f000, 12288, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755f1adb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f1755c1f000", 
+                            "p1": "12288"
+                        }, 
+                        "time": 1642281232.958983
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.959059 mv@7f1755f1adb7[2092] mprotect(0x7f1755c46000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755f1adb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f1755c46000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642281232.959059
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.959146 mv@7f1755f1adb7[2092] mprotect(0x7f1755a36000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755f1adb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f1755a36000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642281232.959146
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.959203 mv@7f1755f1adb7[2092] mprotect(0x7f1755a3c000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755f1adb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f1755a3c000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642281232.959203
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.959258 mv@7f1755f1adb7[2092] mprotect(0x7f1755c64000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755f1adb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f1755c64000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642281232.959258
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.959328 mv@7f1755f1adb7[2092] mprotect(0x7f1755db2000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755f1adb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f1755db2000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642281232.959328
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.959371 mv@7f1755f1adb7[2092] mprotect(0x7f1755dbd000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755f1adb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f1755dbd000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642281232.959371
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.959845 mv@7f1755f1adb7[2092] mprotect(0x7f1755edd000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755f1adb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f1755edd000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642281232.959845
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.959906 mv@7f1755f1adb7[2092] mprotect(0x7f1755ee4000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755f1adb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f1755ee4000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642281232.959906
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.963423 mv@7f1755f1adb7[2092] mprotect(0x5587c76ba000, 303104, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755f1adb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x5587c76ba000", 
+                            "p1": "303104"
+                        }, 
+                        "time": 1642281232.963423
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.963505 mv@7f1755f1adb7[2092] mprotect(0x7f1755f28000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755f1adb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f1755f28000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642281232.963505
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.963573 mv@7f1755f1ad97[2092] munmap(0x7f1755ee8000, 88858) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755f1ad97", 
+                        "arguments": {
+                            "p0": "0x7f1755ee8000", 
+                            "p1": "88858"
+                        }, 
+                        "time": 1642281232.963573
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.963716 mv@7f1755c328df[2092] set_tid_address(0x7f17559c3410) = 2092\n", 
+                        "api": "set_tid_address", 
+                        "return_value": "2092", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755c328df", 
+                        "arguments": {
+                            "p0": "0x7f17559c3410"
+                        }, 
+                        "time": 1642281232.963716
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.963778 mv@7f1755c3294a[2092] set_robust_list(0x7f17559c3420, 24) = 0\n", 
+                        "api": "set_robust_list", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755c3294a", 
+                        "arguments": {
+                            "p0": "0x7f17559c3420", 
+                            "p1": "24"
+                        }, 
+                        "time": 1642281232.963778
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.963842 mv@7f1755c3f010[2092] rt_sigaction(0x20, {0x7f1755c326c0, SA_SIGINFO|SA_RESTORER, 0x7f1755c3ef40, [EMPTY]}, 0x0, 8) = 0\n", 
+                        "api": "rt_sigaction", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755c3f010", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "0x20", 
+                            "p1": [
+                                "0x7f1755c326c0", 
+                                "SA_SIGINFO|SA_RESTORER", 
+                                "0x7f1755c3ef40", 
+                                [
+                                    "EMPTY]"
+                                ]
+                            ]
+                        }, 
+                        "time": 1642281232.963842
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.963890 mv@7f1755c3f010[2092] rt_sigaction(0x21, {0x7f1755c32760, SA_RESTART|SA_SIGINFO|SA_RESTORER, 0x7f1755c3ef40, [EMPTY]}, 0x0, 8) = 0\n", 
+                        "api": "rt_sigaction", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755c3f010", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "0x21", 
+                            "p1": [
+                                "0x7f1755c32760", 
+                                "SA_RESTART|SA_SIGINFO|SA_RESTORER", 
+                                "0x7f1755c3ef40", 
+                                [
+                                    "EMPTY]"
+                                ]
+                            ]
+                        }, 
+                        "time": 1642281232.96389
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.963937 mv@7f1755c32a19[2092] rt_sigprocmask(SIG_UNBLOCK, [EMPTY], 0x0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755c32a19", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "SIG_UNBLOCK", 
+                            "p1": [
+                                "EMPTY"
+                            ]
+                        }, 
+                        "time": 1642281232.963937
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.963999 mv@7f1755b50df0[2092] prlimit64(0, RLIMIT_STACK, NULL, 0x7ffc261e9450) = 0\n", 
+                        "api": "prlimit64", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755b50df0", 
+                        "arguments": {
+                            "p2": "NULL", 
+                            "p3": "0x7ffc261e9450", 
+                            "p0": "0", 
+                            "p1": "RLIMIT_STACK"
+                        }, 
+                        "time": 1642281232.963999
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.964231 mv@7f1755b512f7[2092] brk(0x0) = 94041706717184\n", 
+                        "api": "brk", 
+                        "return_value": "94041706717184", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755b512f7", 
+                        "arguments": {
+                            "p0": "0x0"
+                        }, 
+                        "time": 1642281232.964231
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.964268 mv@7f1755b512f7[2092] brk(0x5587ca87f000) = 94041706852352\n", 
+                        "api": "brk", 
+                        "return_value": "94041706852352", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755b512f7", 
+                        "arguments": {
+                            "p0": "0x5587ca87f000"
+                        }, 
+                        "time": 1642281232.964268
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.965379 mv@7f1755c3bb86[2092] rt_sigprocmask(SIG_SETMASK, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS], 0x7ffc261e93a0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755c3bb86", 
+                        "arguments": {
+                            "p2": "0x7ffc261e93a0", 
+                            "p3": "8", 
+                            "p0": "SIG_SETMASK", 
+                            "p1": [
+                                "SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS"
+                            ]
+                        }, 
+                        "time": 1642281232.965379
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.966354 mv@7f1755b554c3[2092] mmap2(0x0, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f17551c1000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f17551c1000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755b554c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK", 
+                            "p0": "0x0", 
+                            "p1": "8392704", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281232.966354
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.966398 mv@7f1755b55597[2092] mprotect(0x7f17551c2000, 8388608, PROT_READ|PROT_WRITE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755b55597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p0": "0x7f17551c2000", 
+                            "p1": "8388608"
+                        }, 
+                        "time": 1642281232.966398
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.966457 mv@7f1755b5bb11[2092] clone(CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, 0x7f17559c0f70, 0x7f17559c19d0, 0x7f17559c19d0) = 2094\n", 
+                        "api": "clone", 
+                        "return_value": "2094", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755b5bb11", 
+                        "arguments": {
+                            "p2": "0x7f17559c19d0", 
+                            "p3": "0x7f17559c19d0", 
+                            "p0": "CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID", 
+                            "p1": "0x7f17559c0f70"
+                        }, 
+                        "time": 1642281232.966457
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.966576 mv@7f1755c3bb86[2092] rt_sigprocmask(SIG_SETMASK, [EMPTY], 0x0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755c3bb86", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "SIG_SETMASK", 
+                            "p1": [
+                                "EMPTY"
+                            ]
+                        }, 
+                        "time": 1642281232.966576
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.969128 mv@7f1755b50df0[2092] prlimit64(0, RLIMIT_STACK, NULL, 0x7ffc261e8f60) = 0\n", 
+                        "api": "prlimit64", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755b50df0", 
+                        "arguments": {
+                            "p2": "NULL", 
+                            "p3": "0x7ffc261e8f60", 
+                            "p0": "0", 
+                            "p1": "RLIMIT_STACK"
+                        }, 
+                        "time": 1642281232.969128
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.969202 mv@7f1755b505c1[2092] openat(AT_FDCWD, \"/etc/qemu-binfmt/sparc\", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -2 (ENOENT)\n", 
+                        "api": "openat", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755b505c1", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/etc/qemu-binfmt/sparc"
+                        }, 
+                        "time": 1642281232.969202
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.969274 mv@7f1755b1f247[2092] uname(0x7ffc261e8bd0) = 0\n", 
+                        "api": "uname", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755b1f247", 
+                        "arguments": {
+                            "p0": "0x7ffc261e8bd0"
+                        }, 
+                        "time": 1642281232.969274
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.969309 mv@7f1755c3e337[2092] lseek(3, 0, SEEK_SET) = 0\n", 
+                        "api": "lseek", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755c3e337", 
+                        "arguments": {
+                            "p2": "SEEK_SET", 
+                            "p0": "3", 
+                            "p1": "0"
+                        }, 
+                        "time": 1642281232.969309
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.969343 mv@7f1755c3dd94[2092] read(3, 0x7ffc261e8ec0, 52) = 52\n", 
+                        "api": "read", 
+                        "return_value": "52", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755c3dd94", 
+                        "arguments": {
+                            "p2": "52", 
+                            "p0": "3", 
+                            "p1": "0x7ffc261e8ec0"
+                        }, 
+                        "time": 1642281232.969343
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.969379 mv@7f1755c3e337[2092] lseek(3, 0, SEEK_SET) = 0\n", 
+                        "api": "lseek", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755c3e337", 
+                        "arguments": {
+                            "p2": "SEEK_SET", 
+                            "p0": "3", 
+                            "p1": "0"
+                        }, 
+                        "time": 1642281232.969379
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.970640 mv@7f1755b554c3[2092] mmap2(0x0, 528384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f1755140000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1755140000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755b554c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "528384", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281232.97064
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.971156 mv@7f1755b55597[2092] mprotect(0x5587c7717000, 33550336, PROT_READ|PROT_WRITE|PROT_EXEC) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755b55597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE|PROT_EXEC", 
+                            "p0": "0x5587c7717000", 
+                            "p1": "33550336"
+                        }, 
+                        "time": 1642281232.971156
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.971214 mv@7f1755b55667[2092] madvise(0x5587c7717000, 33550336, MADV_HUGEPAGE) = 0\n", 
+                        "api": "madvise", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755b55667", 
+                        "arguments": {
+                            "p2": "MADV_HUGEPAGE", 
+                            "p0": "0x5587c7717000", 
+                            "p1": "33550336"
+                        }, 
+                        "time": 1642281232.971214
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.971371 mv@7f1755b554c3[2092] mmap2(0x0, 4294963200, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f1650001000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1650001000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755b554c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x0", 
+                            "p1": "4294963200", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281232.971371
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.971434 mv@7f1755b4ad59[2092] openat(AT_FDCWD, \"/proc/sys/vm/mmap_min_addr\", O_RDONLY) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755b4ad59", 
+                        "arguments": {
+                            "p2": "O_RDONLY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/proc/sys/vm/mmap_min_addr"
+                        }, 
+                        "time": 1642281232.971434
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.971499 mv@7f1755b4a613[2092] fstat(4, 0x7ffc261e85d0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755b4a613", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc261e85d0"
+                        }, 
+                        "time": 1642281232.971499
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.971549 mv@7f1755b4afb4[2092] read(4, 0x5587ca86b3a0, 1024) = 6\n", 
+                        "api": "read", 
+                        "return_value": "6", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755b4afb4", 
+                        "arguments": {
+                            "p2": "1024", 
+                            "p0": "4", 
+                            "p1": "0x5587ca86b3a0"
+                        }, 
+                        "time": 1642281232.971549
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.971607 mv@7f1755b503f7[2092] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755b503f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642281232.971607
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.971682 mv@7f1755b552e9[2092] gettid() = 2092\n", 
+                        "api": "gettid", 
+                        "return_value": "2092", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755b552e9", 
+                        "arguments": {}, 
+                        "time": 1642281232.971682
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.971726 mv@7f1755b4a613[2092] fstat(3, 0x7ffc261e8e40) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755b4a613", 
+                        "arguments": {
+                            "p0": "3", 
+                            "p1": "0x7ffc261e8e40"
+                        }, 
+                        "time": 1642281232.971726
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.971764 mv@7f1755b20717[2092] geteuid() = 0\n", 
+                        "api": "geteuid", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755b20717", 
+                        "arguments": {}, 
+                        "time": 1642281232.971764
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.971794 mv@7f1755b20737[2092] getegid() = 0\n", 
+                        "api": "getegid", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755b20737", 
+                        "arguments": {}, 
+                        "time": 1642281232.971794
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.971824 mv@7f1755c3dd94[2092] read(3, 0x7ffc261e9040, 1024) = 1024\n", 
+                        "api": "read", 
+                        "return_value": "1024", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755c3dd94", 
+                        "arguments": {
+                            "p2": "1024", 
+                            "p0": "3", 
+                            "p1": "0x7ffc261e9040"
+                        }, 
+                        "time": 1642281232.971824
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.971862 mv@7f1755b554c3[2092] mmap2(0x7f1650011000, 61440, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 3, 0) = 0x7f1650011000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1650011000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755b554c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED", 
+                            "p0": "0x7f1650011000", 
+                            "p1": "61440", 
+                            "p4": "3", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281232.971862
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.971916 mv@7f1755b512f7[2092] brk(0x5587ca8a0000) = 94041706987520\n", 
+                        "api": "brk", 
+                        "return_value": "94041706987520", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755b512f7", 
+                        "arguments": {
+                            "p0": "0x5587ca8a0000"
+                        }, 
+                        "time": 1642281232.971916
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.971994 mv@7f1755b554c3[2092] mmap2(0x7f165002f000, 4096, PROT_READ|PROT_WRITE|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 3, 57344) = 0x7f165002f000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f165002f000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755b554c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED", 
+                            "p0": "0x7f165002f000", 
+                            "p1": "4096", 
+                            "p4": "3", 
+                            "p5": "57344"
+                        }, 
+                        "time": 1642281232.971994
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.972053 mv@7f1755b554c3[2092] mmap2(0x7f1650030000, 4096, PROT_READ|PROT_WRITE|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f1650030000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1650030000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755b554c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f1650030000", 
+                            "p1": "4096", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281232.972053
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.972102 mv@7f1755c3de27[2092] close(3) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755c3de27", 
+                        "arguments": {
+                            "p0": "3"
+                        }, 
+                        "time": 1642281232.972102
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.972162 mv@7f1755b554c3[2092] mmap2(0x7f174f7ff000, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f174f7ff000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f174f7ff000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755b554c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f174f7ff000", 
+                            "p1": "8392704", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281232.972162
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.972309 mv@7f1755b55597[2092] mprotect(0x7f174f7ff000, 4096, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755b55597", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7f174f7ff000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642281232.972309
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.972446 mv@7f1755c3e55e[2092] openat(AT_FDCWD, \"/lib/ld-linux.so.2\", O_RDONLY) = -2 (ENOENT)\n", 
+                        "api": "openat", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755c3e55e", 
+                        "arguments": {
+                            "p2": "O_RDONLY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/ld-linux.so.2"
+                        }, 
+                        "time": 1642281232.972446
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.972540 mv@7f1755b4b057[2092] write(2, \"/lib/ld-linux.so.2: No such file or directory\\n\", 46) = 46\n", 
+                        "api": "write", 
+                        "return_value": "46", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755b4b057", 
+                        "arguments": {
+                            "p2": "46", 
+                            "p0": "2", 
+                            "p1": "/lib/ld-linux.so.2: No such file or directory\n"
+                        }, 
+                        "time": 1642281232.97254
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.972636 mv@7f1755b1f926[2092] exit_group(-1)\n", 
+                        "api": "exit_group", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755b1f926", 
+                        "arguments": {
+                            "p0": "-1"
+                        }, 
+                        "time": 1642281232.972636
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 21:13:52 2022.972682 mv@7f1755b1f926[2092] futex(0x7f17559c3410, FUTEX_WAKE, 1) = 0\n", 
+                        "api": "futex", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755b1f926", 
+                        "arguments": {
+                            "p2": "1", 
+                            "p0": "0x7f17559c3410", 
+                            "p1": "FUTEX_WAKE"
+                        }, 
+                        "time": 1642281232.972682
+                    }
+                ], 
+                "pid": 2092, 
+                "process_name": "mv", 
+                "command_line": "/tmp/mv", 
+                "first_seen": 1642281231.920353, 
+                "ppid": -1, 
+                "type": "process"
+            }, 
+            {
+                "calls": [
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2094, 
+                        "raw": "Sat Jan 15 21:13:52 2022.966609 mv@7f1755c34117[2094] set_robust_list(0x7f17559c19e0, 24) = 0\n", 
+                        "api": "set_robust_list", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755c34117", 
+                        "arguments": {
+                            "p0": "0x7f17559c19e0", 
+                            "p1": "24"
+                        }, 
+                        "time": 1642281232.966609
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2094, 
+                        "raw": "Sat Jan 15 21:13:52 2022.966664 mv@7f1755b554c3[2094] mmap2(0x0, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f174d1c1000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f174d1c1000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755b554c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x0", 
+                            "p1": "134217728", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281232.966664
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2094, 
+                        "raw": "Sat Jan 15 21:13:52 2022.966749 mv@7f1755b55567[2094] munmap(0x7f174d1c1000, 48492544) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755b55567", 
+                        "arguments": {
+                            "p0": "0x7f174d1c1000", 
+                            "p1": "48492544"
+                        }, 
+                        "time": 1642281232.966749
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2094, 
+                        "raw": "Sat Jan 15 21:13:52 2022.966788 mv@7f1755b55567[2094] munmap(0x7f1754000000, 18616320) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755b55567", 
+                        "arguments": {
+                            "p0": "0x7f1754000000", 
+                            "p1": "18616320"
+                        }, 
+                        "time": 1642281232.966788
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2094, 
+                        "raw": "Sat Jan 15 21:13:52 2022.966821 mv@7f1755b55597[2094] mprotect(0x7f1750000000, 135168, PROT_READ|PROT_WRITE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755b55597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p0": "0x7f1750000000", 
+                            "p1": "135168"
+                        }, 
+                        "time": 1642281232.966821
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mv", 
+                        "pid": 2094, 
+                        "raw": "Sat Jan 15 21:13:52 2022.966870 mv@7f1755c3e440[2094] nanosleep([0.010000000], 0x7f17559c0dc0) = -516\n", 
+                        "api": "nanosleep", 
+                        "return_value": "-516", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1755c3e440", 
+                        "arguments": {
+                            "p0": [
+                                "0.010000000"
+                            ], 
+                            "p1": "0x7f17559c0dc0"
+                        }, 
+                        "time": 1642281232.96687
+                    }
+                ], 
+                "pid": 2094, 
+                "process_name": "mv", 
+                "command_line": "", 
+                "first_seen": 1642281232.966609, 
+                "ppid": 2092, 
+                "type": "process"
+            }
+        ], 
+        "processtree": [
+            {
+                "track": true, 
+                "pid": 2092, 
+                "process_name": "mv", 
+                "command_line": "/tmp/mv", 
+                "first_seen": 1642281231.920353, 
+                "ppid": -1, 
+                "children": [
+                    {
+                        "track": true, 
+                        "pid": 2094, 
+                        "process_name": "mv", 
+                        "command_line": "", 
+                        "first_seen": 1642281232.966609, 
+                        "ppid": 2092, 
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    }, 
+    "debug": {
+        "action": [], 
+        "dbgview": [], 
+        "errors": [], 
+        "log": [
+            "2022-01-15 21:13:44,002 [root] DEBUG: Starting analyzer from: /tmp/tmpapdEdU\n", 
+            "2022-01-15 21:13:44,002 [root] DEBUG: Storing results at: /tmp/EpEhvFY\n", 
+            "2022-01-15 21:13:46,316 [modules.auxiliary.filecollector] INFO: FileCollector started v0.08\n", 
+            "2022-01-15 21:13:46,318 [modules.auxiliary.human] INFO: Human started v0.02\n", 
+            "2022-01-15 21:13:46,320 [modules.auxiliary.screenshots] INFO: Screenshots started v0.03\n", 
+            "2022-01-15 21:13:51,914 [lib.core.packages] INFO: Process startup took 5.58 seconds\n", 
+            "2022-01-15 21:13:51,915 [root] INFO: Added new process to list with pid: 2082\n", 
+            "2022-01-15 21:14:00,924 [root] INFO: Process with pid 2082 has terminated\n", 
+            "2022-01-15 21:14:00,925 [root] INFO: Process list is empty, terminating analysis.\n", 
+            "2022-01-15 21:14:03,928 [lib.core.packages] INFO: Package requested stop\n", 
+            "2022-01-15 21:14:03,930 [lib.core.packages] WARNING: Exception uploading log: [Errno 3] No such process\n", 
+            "2022-01-15 21:17:05,888 [root] INFO: Terminating remaining processes before shutdown.\n", 
+            "2022-01-15 21:17:05,889 [root] INFO: Analysis completed.\n"
+        ], 
+        "cuckoo": [
+            "2022-01-16 06:12:30,627 [cuckoo.core.scheduler] DEBUG: Task #2651353: no machine available yet\n", 
+            "2022-01-16 06:12:40,649 [cuckoo.core.scheduler] DEBUG: Task #2651353: no machine available yet\n", 
+            "2022-01-16 06:12:50,672 [cuckoo.core.scheduler] DEBUG: Task #2651353: no machine available yet\n", 
+            "2022-01-16 06:13:00,700 [cuckoo.core.scheduler] DEBUG: Task #2651353: no machine available yet\n", 
+            "2022-01-16 06:13:10,732 [cuckoo.core.scheduler] INFO: Task #2651353: acquired machine Ubuntu1904x642 (label=Ubuntu1904x642)\n", 
+            "2022-01-16 06:13:10,733 [cuckoo.core.resultserver] DEBUG: Now tracking machine 192.168.168.102 for task #2651353\n", 
+            "2022-01-16 06:13:10,925 [cuckoo.auxiliary.sniffer] INFO: Started sniffer with PID 3744203 (interface=vboxnet0, host=192.168.168.102)\n", 
+            "2022-01-16 06:13:11,352 [cuckoo.machinery.virtualbox] DEBUG: Starting vm Ubuntu1904x642\n", 
+            "2022-01-16 06:13:11,776 [cuckoo.machinery.virtualbox] DEBUG: Restoring virtual machine Ubuntu1904x642 to Snapshot\n", 
+            "2022-01-16 06:13:20,807 [cuckoo.core.guest] INFO: Starting analysis #2651353 on guest (id=Ubuntu1904x642, ip=192.168.168.102)\n", 
+            "2022-01-16 06:13:21,811 [cuckoo.core.guest] DEBUG: Ubuntu1904x642: not ready yet\n", 
+            "2022-01-16 06:13:26,835 [cuckoo.core.guest] INFO: Guest is running Cuckoo Agent 0.10 (id=Ubuntu1904x642, ip=192.168.168.102)\n", 
+            "2022-01-16 06:13:26,849 [cuckoo.core.guest] DEBUG: Uploading analyzer to guest (id=Ubuntu1904x642, ip=192.168.168.102, monitor=latest, size=72028)\n", 
+            "2022-01-16 06:13:28,191 [cuckoo.core.resultserver] DEBUG: Task #2651353: live log analysis.log initialized.\n", 
+            "2022-01-16 06:13:34,142 [cuckoo.core.resultserver] DEBUG: Task #2651353: File upload for 'shots/0001.jpg'\n", 
+            "2022-01-16 06:13:34,268 [cuckoo.core.resultserver] DEBUG: Task #2651353 uploaded file length: 171538\n", 
+            "2022-01-16 06:13:42,155 [cuckoo.core.guest] DEBUG: Ubuntu1904x642: analysis #2651353 still processing\n", 
+            "2022-01-16 06:13:48,090 [cuckoo.core.resultserver] DEBUG: Task #2651353: File upload for 'logs/all.stap'\n", 
+            "2022-01-16 06:13:48,102 [cuckoo.core.resultserver] DEBUG: Task #2651353 uploaded file length: 18107\n", 
+            "2022-01-16 06:13:57,237 [cuckoo.core.guest] DEBUG: Ubuntu1904x642: analysis #2651353 still processing\n", 
+            "2022-01-16 06:14:12,291 [cuckoo.core.guest] DEBUG: Ubuntu1904x642: analysis #2651353 still processing\n", 
+            "2022-01-16 06:14:27,358 [cuckoo.core.guest] DEBUG: Ubuntu1904x642: analysis #2651353 still processing\n", 
+            "2022-01-16 06:14:42,420 [cuckoo.core.guest] DEBUG: Ubuntu1904x642: analysis #2651353 still processing\n", 
+            "2022-01-16 06:14:57,493 [cuckoo.core.guest] DEBUG: Ubuntu1904x642: analysis #2651353 still processing\n", 
+            "2022-01-16 06:15:12,565 [cuckoo.core.guest] DEBUG: Ubuntu1904x642: analysis #2651353 still processing\n", 
+            "2022-01-16 06:15:27,632 [cuckoo.core.guest] DEBUG: Ubuntu1904x642: analysis #2651353 still processing\n", 
+            "2022-01-16 06:15:42,693 [cuckoo.core.guest] DEBUG: Ubuntu1904x642: analysis #2651353 still processing\n", 
+            "2022-01-16 06:15:57,767 [cuckoo.core.guest] DEBUG: Ubuntu1904x642: analysis #2651353 still processing\n", 
+            "2022-01-16 06:16:12,924 [cuckoo.core.guest] DEBUG: Ubuntu1904x642: analysis #2651353 still processing\n", 
+            "2022-01-16 06:16:27,989 [cuckoo.core.guest] DEBUG: Ubuntu1904x642: analysis #2651353 still processing\n", 
+            "2022-01-16 06:16:43,065 [cuckoo.core.guest] DEBUG: Ubuntu1904x642: analysis #2651353 still processing\n", 
+            "2022-01-16 06:16:52,111 [cuckoo.core.guest] INFO: Ubuntu1904x642: analysis completed successfully\n", 
+            "2022-01-16 06:16:52,120 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Redsocks\n", 
+            "2022-01-16 06:16:52,205 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Sniffer\n", 
+            "2022-01-16 06:17:05,645 [cuckoo.machinery.virtualbox] INFO: Successfully generated memory dump for virtual machine with label Ubuntu1904x642 to path /srv/cuckoo/cwd/storage/analyses/2651353/memory.dmp\n", 
+            "2022-01-16 06:17:05,646 [cuckoo.machinery.virtualbox] DEBUG: Stopping vm Ubuntu1904x642\n", 
+            "2022-01-16 06:17:15,279 [cuckoo.core.resultserver] DEBUG: Stopped tracking machine 192.168.168.102 for task #2651353\n", 
+            "2022-01-16 06:17:15,447 [cuckoo.core.scheduler] DEBUG: Released database task #2651353\n", 
+            "2022-01-16 06:17:15,533 [cuckoo.core.scheduler] INFO: Task #2651353: analysis procedure completed\n"
+        ]
+    }, 
+    "strings": [
+        "/lib/ld-linux.so.2", 
+        "libacl.so.1", 
+        "acl_entries", 
+        "acl_get_file", 
+        "acl_set_file", 
+        "acl_delete_def_file", 
+        "acl_from_text", 
+        "acl_free", 
+        "_Jv_RegisterClasses", 
+        "acl_extended_file", 
+        "__gmon_start__", 
+        "libselinux.so.1", 
+        "getfscreatecon", 
+        "is_selinux_enabled", 
+        "lgetfilecon", 
+        "freecon", 
+        "fsetfilecon", 
+        "setfscreatecon", 
+        "libc.so.6", 
+        "longjmp", 
+        "stdout", 
+        "readdir64", 
+        "memrchr", 
+        "geteuid", 
+        "getopt_long", 
+        "__fpending", 
+        "pathconf", 
+        "getenv", 
+        "fchmod", 
+        "getpagesize", 
+        "fchown", 
+        "__getdelim", 
+        "fchdir", 
+        "memcpy", 
+        "readlink", 
+        "__cxa_finalize", 
+        "__overflow", 
+        "mbrtowc", 
+        "rewinddir", 
+        "malloc", 
+        "isatty", 
+        "optarg", 
+        "_obstack_newchunk", 
+        "lchown", 
+        "mempcpy", 
+        "iswprint", 
+        "rename", 
+        "_obstack_begin", 
+        "calloc", 
+        "__ctype_get_mb_cur_max", 
+        "fputs_unlocked", 
+        "dcgettext", 
+        "mkfifo", 
+        "optind", 
+        "memchr", 
+        "strncmp", 
+        "unlink", 
+        "realloc", 
+        "memcmp", 
+        "__xstat64", 
+        "symlink", 
+        "memset", 
+        "open64", 
+        "opendir", 
+        "__assert_fail", 
+        "__xmknod", 
+        "strcmp", 
+        "getcwd", 
+        "euidaccess", 
+        "fclose", 
+        "setlocale", 
+        "stderr", 
+        "futimes", 
+        "obstack_free", 
+        "__lxstat64", 
+        "__ctype_b_loc", 
+        "__errno_location", 
+        "bindtextdomain", 
+        "rpmatch", 
+        "_setjmp", 
+        "_IO_stdin_used", 
+        "strspn", 
+        "__libc_start_main", 
+        "strlen", 
+        "lseek64", 
+        "closedir", 
+        "__fxstat64", 
+        "vfprintf", 
+        "mbsinit", 
+        "ftruncate64", 
+        "__cxa_atexit", 
+        "_edata", 
+        "__bss_start", 
+        "ACL_1.0", 
+        "GLIBC_2.3", 
+        "GLIBC_2.1.3", 
+        "GLIBC_2.1", 
+        "GLIBC_2.2", 
+        "GLIBC_2.0", 
+        "coreutils", 
+        "/usr/share/locale", 
+        "SIMPLE_BACKUP_SUFFIX", 
+        "--reply", 
+        "the --reply option is deprecated; use -i or -f instead", 
+        "multiple target directories specified", 
+        "accessing %s", 
+        "target %s is not a directory", 
+        "GNU coreutils", 
+        "Mike Parker", 
+        "David MacKenzie", 
+        "Jim Meyering", 
+        "bfit:uvS:T", 
+        "missing file operand", 
+        "missing destination file operand after %s", 
+        "Cannot combine --target-directory (-t) and --no-target-directory (-T)", 
+        "extra operand %s", 
+        "backup type", 
+        "((status) == RM_OK || (status) == RM_USER_DECLINED || (status) == RM_ERROR)", 
+        "Try `%s --help' for more information.", 
+        "Usage: %s [OPTION]... [-T] SOURCE DEST", 
+        "  or:  %s [OPTION]... SOURCE... DIRECTORY", 
+        "  or:  %s [OPTION]... -t DIRECTORY SOURCE...", 
+        "Rename SOURCE to DEST, or move SOURCE(s) to DIRECTORY.", 
+        "Mandatory arguments to long options are mandatory for short options too.", 
+        "      --backup[=CONTROL]       make a backup of each existing destination file", 
+        "  -b                           like --backup but does not accept an argument", 
+        "  -f, --force                  do not prompt before overwriting", 
+        "  -i, --interactive            prompt before overwrite", 
+        "      --strip-trailing-slashes remove any trailing slashes from each SOURCE", 
+        "                                 argument", 
+        "  -S, --suffix=SUFFIX          override the usual backup suffix", 
+        "  -t, --target-directory=DIRECTORY  move all SOURCE arguments into DIRECTORY", 
+        "  -T, --no-target-directory    treat DEST as a normal file", 
+        "  -u, --update                 move only when the SOURCE file is newer", 
+        "                                 than the destination file or when the", 
+        "                                 destination file is missing", 
+        "  -v, --verbose                explain what is being done", 
+        "      --help     display this help and exit", 
+        "      --version  output version information and exit", 
+        "The backup suffix is `~', unless set with --suffix or SIMPLE_BACKUP_SUFFIX.", 
+        "The version control method may be selected via the --backup option or through", 
+        "the VERSION_CONTROL environment variable.  Here are the values:", 
+        "  none, off       never make backups (even if --backup is given)", 
+        "  numbered, t     make numbered backups", 
+        "  existing, nil   numbered if numbered backups exist, simple otherwise", 
+        "  simple, never   always make simple backups", 
+        "Report bugs to <%s>.", 
+        "bug-coreutils@gnu.org", 
+        "backup", 
+        "interactive", 
+        "no-target-directory", 
+        "strip-trailing-slashes", 
+        "suffix", 
+        "target-directory", 
+        "update", 
+        "verbose", 
+        "version", 
+        "do_move", 
+        "preserving times for %s", 
+        "failed to preserve ownership for %s", 
+        "preserving ACL for %s", 
+        "setting ACL for %s", 
+        "setting permissions for %s", 
+        "closing %s", 
+        "%s: overwrite %s, overriding mode %04lo? ", 
+        "%s: overwrite %s? ", 
+        "x->move_mode", 
+        "copy.c", 
+        "cannot open %s for reading", 
+        "cannot fstat %s", 
+        "skipping file %s, as it was replaced while being copied", 
+        "cannot remove %s", 
+        "cannot create regular file %s", 
+        "reading %s", 
+        "cannot lseek %s", 
+        "writing %s", 
+        "cannot stat %s", 
+        "omitting directory %s", 
+        "warning: source file %s specified more than once", 
+        "%s and %s are the same file", 
+        "cannot overwrite non-directory %s with directory %s", 
+        "will not overwrite just-created %s with %s", 
+        "cannot overwrite directory %s with non-directory", 
+        "cannot move directory onto non-directory: %s -> %s", 
+        "backing up %s would destroy source;  %s not moved", 
+        "backing up %s would destroy source;  %s not copied", 
+        "cannot backup %s", 
+        "%s -> %s", 
+        " (backup: %s)", 
+        "cannot copy a directory, %s, into itself, %s", 
+        "will not create hard link %s to directory %s", 
+        "cannot create hard link %s to %s", 
+        "%s -> %s", 
+        "cannot move %s to a subdirectory of itself, %s", 
+        "cannot move %s to %s", 
+        "inter-device move failed: %s to %s; unable to remove target", 
+        "cannot set setfscreatecon %s", 
+        "cannot lgetfilecon %s", 
+        "cannot copy cyclic symbolic link %s", 
+        "cannot create directory %s", 
+        "cannot access %s", 
+        "cannot create symbolic link %s to %s", 
+        "cannot create link %s", 
+        "cannot create fifo %s", 
+        "cannot create special file %s", 
+        "cannot read symbolic link %s", 
+        "cannot create symbolic link %s", 
+        "%s has unknown file type", 
+        "preserving permissions for %s", 
+        "cannot un-backup %s", 
+        "%s -> %s (unbackup)", 
+        "%s: can make relative symbolic links only in current directory", 
+        "co != ((void *)0)", 
+        "((unsigned int) (co->backup_type) <= numbered_backups)", 
+        "((co->sparse_mode) == SPARSE_NEVER || (co->sparse_mode) == SPARSE_AUTO || (co->sparse_mode) == SPARSE_ALWAYS)", 
+        "!(co->hard_link && co->symbolic_link)", 
+        "valid_options", 
+        "abandon_move", 
+        "strlen (buf) + 1 == n_bytes_needed", 
+        "remove.c", 
+        "cannot lstat %s", 
+        "cannot remove directory %s", 
+        "%s: descend into write-protected directory %s? ", 
+        "%s: descend into directory %s? ", 
+        "%s: remove write-protected %s %s? ", 
+        "%s: remove %s %s? ", 
+        "removed directory: %s", 
+        "removed %s", 
+        "cannot lstat `.' in %s", 
+        "%s changed dev/ino", 
+        "n_lengths > 0", 
+        "top_len >= 2", 
+        "__extension__ ({ struct obstack const *__o = (&ds->dir_stack); (unsigned) (__o->next_free - __o->object_base); }) >= top_len", 
+        "__extension__ ({ struct obstack const *__o = (&ds->len_stack); (unsigned) (__o->next_free - __o->object_base); }) >= sizeof (size_t)", 
+        "AD_stack_height (ds)", 
+        "cannot chdir from %s to ..", 
+        "cannot remove `.' or `..'", 
+        "(*__errno_location ()) != 0", 
+        "cannot chdir from %s to %s", 
+        "it is dangerous to operate recursively on %s", 
+        "it is dangerous to operate recursively on %s (same as %s)", 
+        "use --no-preserve-root to override this failsafe", 
+        "cannot open directory %s", 
+        "WARNING: Circular directory structure.", 
+        "This almost certainly means that you have a corrupted file system.", 
+        "NOTIFY YOUR SYSTEM MANAGER.", 
+        "The following directory is part of the cycle:", 
+        "reading directory %s", 
+        "1 < AD_stack_height (ds)", 
+        "((s) == RM_OK || (s) == RM_USER_DECLINED || (s) == RM_ERROR)", 
+        "cannot restore current working directory", 
+        "full_filename_", 
+        "remove_dir", 
+        "remove_cwd_entries", 
+        "AD_mark_current_as_unremovable", 
+        "AD_pop_and_chdir", 
+        "pop_dir", 
+        "memory exhausted", 
+        "VERSION_CONTROL", 
+        "$VERSION_CONTROL", 
+        "simple", 
+        "existing", 
+        "numbered", 
+        "write error", 
+        "%s: %s", 
+        "regular empty file", 
+        "regular file", 
+        "directory", 
+        "block special file", 
+        "character special file", 
+        "symbolic link", 
+        "socket", 
+        "weird file", 
+        "# entries:         %lu", 
+        "# buckets:         %lu", 
+        "# buckets used:    %lu (%.2f%%)", 
+        "max bucket length: %lu", 
+        "literal", 
+        "shell-always", 
+        "escape", 
+        "locale", 
+        "clocale", 
+        "Valid arguments are:", 
+        "  - `%s'", 
+        ", `%s'", 
+        "invalid argument %s for %s", 
+        "ambiguous argument %s for %s", 
+        "state->magic == 9827862", 
+        "cycle-check.c", 
+        "cycle_check", 
+        "u::---,g::---,o::---", 
+        "! close_fail", 
+        "chdir-long.c", 
+        "0 < len", 
+        "4096 <= len", 
+        "*dir != '/'", 
+        "dir <= dir_end", 
+        "slash - dir < 4096", 
+        "chdir_long", 
+        "cdb_free", 
+        "%s (%s) %s", 
+        "This is free software.  You may redistribute copies of it under the terms of", 
+        "the GNU General Public License <http://www.gnu.org/licenses/gpl.html>.", 
+        "There is NO WARRANTY, to the extent permitted by law.", 
+        "Written by %s.", 
+        "Written by %s and %s.", 
+        "Written by %s, %s, and %s.", 
+        "Written by %s, %s, %s,", 
+        "and %s.", 
+        "Written by %s, %s, %s,", 
+        "%s, and %s.", 
+        "Written by %s, %s, %s,", 
+        "%s, %s, and %s.", 
+        "Written by %s, %s, %s,", 
+        "%s, %s, %s, and %s.", 
+        "Written by %s, %s, %s,", 
+        "%s, %s, %s, %s,", 
+        "and %s.", 
+        "Written by %s, %s, %s,", 
+        "%s, %s, %s, %s,", 
+        "%s, and %s.", 
+        "Written by %s, %s, %s,", 
+        "%s, %s, %s, %s,", 
+        "%s, %s, and others.", 
+        "failed to return to initial working directory", 
+        "unable to record current working directory", 
+        "Copyright %s %d Free Software Foundation, Inc.", 
+        ".shstrtab", 
+        ".interp", 
+        ".note.ABI-tag", 
+        ".dynsym", 
+        ".dynstr", 
+        ".gnu.version", 
+        ".gnu.version_r", 
+        ".rela.dyn", 
+        ".rela.plt", 
+        ".rodata", 
+        ".eh_frame_hdr", 
+        ".eh_frame", 
+        ".ctors", 
+        ".dtors", 
+        ".dynamic"
+    ], 
+    "metadata": {
+        "output": {
+            "pcap": {
+                "basename": "dump.pcap", 
+                "sha256": "704e5e5b3234433c01fcfd1b20a306e77e985038120492dc53965c3edd38a4ea", 
+                "dirname": ""
+            }
+        }
+    }
+}
