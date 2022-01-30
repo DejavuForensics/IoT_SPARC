@@ -1,0 +1,3396 @@
+{
+    "info": {
+        "added": 1642281803.208477, 
+        "started": 1642318221.285138, 
+        "duration": 397, 
+        "ended": 1642318618.755966, 
+        "owner": null, 
+        "score": 0.0, 
+        "id": 2651526, 
+        "category": "file", 
+        "git": {
+            "head": "e8f6317b4b3ef806085a1e99e64c6ff01f26948f", 
+            "fetch_head": "e8f6317b4b3ef806085a1e99e64c6ff01f26948f"
+        }, 
+        "monitor": "2deb9ccd75d5a7a3fe05b2625b03a8639d6ee36b", 
+        "package": "elf", 
+        "route": "internet", 
+        "custom": null, 
+        "machine": {
+            "status": "stopped", 
+            "name": "Ubuntu1904x641", 
+            "label": "Ubuntu1904x641", 
+            "platform": "linux", 
+            "manager": "VirtualBox", 
+            "started_on": "2022-01-16 07:32:18", 
+            "shutdown_on": "2022-01-16 07:36:58"
+        }, 
+        "platform": "linux", 
+        "version": "2.0.7", 
+        "options": "procmemdump=yes,route=internet"
+    }, 
+    "signatures": [], 
+    "target": {
+        "category": "file", 
+        "file": {
+            "mimetype": "application/x-executable", 
+            "yara": [], 
+            "sha1": "b0682a5b36460c0dd964e8740672347ecb7c8258", 
+            "name": "ps", 
+            "type": "ELF 32-bit MSB executable, SPARC, version 1 (SYSV), dynamically linked, interpreter /lib/ld-linux.so.2, for GNU/Linux 2.4.1, stripped", 
+            "sha256": "c47eedf895f9dff190ca357769a5f904862c92b7620aa3ef99e5f9ade7d6798c", 
+            "urls": [
+                "http://procps.sf.net/faq.html"
+            ], 
+            "crc32": "EDB43A47", 
+            "path": "/srv/cuckoo/cwd/storage/binaries/c47eedf895f9dff190ca357769a5f904862c92b7620aa3ef99e5f9ade7d6798c", 
+            "ssdeep": "768:KoK1j40I0FIEzr/KDrkSdf6hGfjy4b3AOIRA7WicTPItuR/HMbFt9AEFBe:KrIO/KDrkEy4Aq7STPItuRfj", 
+            "size": 68188, 
+            "sha512": "887aba61740a7099427bd405d163b894254df544c5965ce429c2c478b92b62ea15bb077989218464a97e4bf66f41a102152191ddf5762ebfc1e264078e12ecf9", 
+            "md5": "79b6fdf79ac3af60880fba199c5e1df2"
+        }, 
+        "custom": null
+    }, 
+    "irma": {
+        "status": 0, 
+        "probes_finished": 16, 
+        "scan_id": "a96931e3-725a-43d7-9a8e-3fe36da81a9a", 
+        "parent_file_sha256": null, 
+        "name": "c47eedf895f9dff190ca357769a5f904862c92b7620aa3ef99e5f9ade7d6798c", 
+        "probes_total": 16, 
+        "scan_date": 1642311422, 
+        "other_results": [], 
+        "submitter": "cli", 
+        "file_infos": {
+            "mimetype": "ELF 32-bit MSB executable, SPARC, version 1 (SYSV)", 
+            "sha1": "b0682a5b36460c0dd964e8740672347ecb7c8258", 
+            "tags": [], 
+            "timestamp_first_scan": 1642311421.75, 
+            "timestamp_last_scan": 1642311430.58, 
+            "sha256": "c47eedf895f9dff190ca357769a5f904862c92b7620aa3ef99e5f9ade7d6798c", 
+            "md5": "79b6fdf79ac3af60880fba199c5e1df2", 
+            "size": 68188
+        }, 
+        "probe_results": {
+            "antivirus": {
+                "Avast Core Security (Linux)": {
+                    "status": 0, 
+                    "duration": 0.01, 
+                    "version": "3.0.3", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "F-Secure Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.02, 
+                    "version": "11.10", 
+                    "results": null, 
+                    "virus_database_version": "2022-01-13_04"
+                }, 
+                "Windows Defender (Windows)": {
+                    "status": 0, 
+                    "duration": 0.05, 
+                    "version": "1.1.18800.4", 
+                    "results": null, 
+                    "virus_database_version": "1.355.1049.0"
+                }, 
+                "Comodo Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 2.1, 
+                    "version": "1.1.268025.1", 
+                    "results": null, 
+                    "virus_database_version": "2021-11-02"
+                }, 
+                "Kaspersky Antivirus (Win)": {
+                    "status": 0, 
+                    "duration": 3.95, 
+                    "version": "21.3", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "ESET NOD32 Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 4.28, 
+                    "version": "4.0.96", 
+                    "results": null, 
+                    "virus_database_version": "6178ebd0-1e722 (2021-10-27)"
+                }, 
+                "GData (Windows)": {
+                    "status": 0, 
+                    "duration": 0.17, 
+                    "version": "5.5.20197.1358", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Forticlient (Linux)": {
+                    "status": 0, 
+                    "duration": 3.03, 
+                    "version": "unavailable", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Avira (Windows)": {
+                    "status": 0, 
+                    "duration": 3.86, 
+                    "version": "8.3.64.66", 
+                    "results": null, 
+                    "virus_database_version": "8.19.1.122"
+                }, 
+                "eScan Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 3.91, 
+                    "version": "7.0.21", 
+                    "results": null, 
+                    "virus_database_version": "7.90035 (27/10/2021)"
+                }, 
+                "McAfee CLI scanner (Linux)": {
+                    "status": 0, 
+                    "duration": 5.83, 
+                    "version": "6.0.6.653", 
+                    "results": null, 
+                    "virus_database_version": "10149"
+                }, 
+                "Sophos Anti-Virus (Linux)": {
+                    "status": 0, 
+                    "duration": 6.64, 
+                    "version": "5.85.0", 
+                    "results": null, 
+                    "virus_database_version": "5.88 (26 October 2021)"
+                }, 
+                "DrWeb Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.22, 
+                    "version": "11.1.10.2108031732", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "ClamAV (Linux)": {
+                    "status": 0, 
+                    "duration": 0.03, 
+                    "version": "0.103.2", 
+                    "results": null, 
+                    "virus_database_version": "26334"
+                }, 
+                "Bitdefender Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 6.14, 
+                    "version": "7.90123", 
+                    "results": null, 
+                    "virus_database_version": null
+                }, 
+                "Emsisoft Commandline Scanner (Windows)": {
+                    "status": 0, 
+                    "duration": 0.22, 
+                    "version": "2021.10.0.11201", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }
+            }
+        }, 
+        "path": "", 
+        "result_id": "ce55ba92-4572-4b9d-94e9-2c48c69a84d6", 
+        "file_sha256": "c47eedf895f9dff190ca357769a5f904862c92b7620aa3ef99e5f9ade7d6798c"
+    }, 
+    "suricata": {
+        "tls": [
+            {
+                "src_ip": "192.168.168.101", 
+                "version": "TLS 1.2", 
+                "src_port": 37978, 
+                "dst_port": 443, 
+                "timestamp": "2022-01-16T07:32:51.461199+0200", 
+                "dst_ip": "91.189.92.20", 
+                "fingerprint": "97:63:1b:60:eb:d1:fa:4f:a4:fc:fa:98:66:3d:ee:22:fb:78:ce:c1", 
+                "subject": "C=GB, L=London, O=Canonical Group Ltd, CN=api.snapcraft.io", 
+                "issuer": "C=US, O=DigiCert Inc, CN=DigiCert TLS RSA SHA256 2020 CA1"
+            }
+        ], 
+        "files": [], 
+        "alerts": [], 
+        "http": []
+    }, 
+    "virustotal": {
+        "summary": {
+            "error": "resource has not been scanned yet"
+        }
+    }, 
+    "network": {
+        "udp": [], 
+        "dns_servers": [], 
+        "http": [], 
+        "smtp": [], 
+        "tcp": [], 
+        "geoinfo": {}, 
+        "mitm": [], 
+        "https_ex": [], 
+        "http_ex": [], 
+        "sorted_pcap_sha256": "285b9f33aa0b44f571bb93ef2242ef465c6f77fa853729f3e9adf6dd10939f77", 
+        "icmp": [], 
+        "tls": [], 
+        "dead_hosts": [], 
+        "smtp_ex": [], 
+        "hosts": [], 
+        "pcap_sha256": "e563a8036ca59e53a1cf556a891053daa1fc56ff556ca5e0bb3754421d42bcaf", 
+        "dns": [], 
+        "domains": [], 
+        "irc": []
+    }, 
+    "resubmit": {
+        "resubmit_ids": []
+    }, 
+    "snort": {
+        "alerts": []
+    }, 
+    "behavior": {
+        "generic": [
+            {
+                "process_path": null, 
+                "process_name": "ps", 
+                "pid": 2067, 
+                "summary": {}, 
+                "first_seen": 1642281810.781362, 
+                "ppid": -1
+            }, 
+            {
+                "process_path": null, 
+                "process_name": "ps", 
+                "pid": 2068, 
+                "summary": {}, 
+                "first_seen": 1642281810.798201, 
+                "ppid": 2067
+            }
+        ], 
+        "processes": [
+            {
+                "calls": [
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.781362 ps@7f531a0cec27[2067] execve(\"/tmp/ps\", [\"/tmp/ps\"], [\"SUDO_GID=0\", \"MAIL=/var/mail/root\", \"USER=root\", \"HOME=/root\", \"SUDO_UID=0\", \"LOGNAME=root\", \"SYSTEMTAP_MODULE=stap_\", \"TERM=unknown\", \"SYSTEMTAP_VERBOSE=2\", \"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin\", \"DISPLAY=:0\", \"LANG=en_US.UTF-8\", \"XAUTHORITY=/root/.Xauthority\", \"SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/ps\", \"SHELL=/bin/bash\", \"SUDO_USER=root\", \"PWD=/tmp/tmpZKrpZm\"])\n", 
+                        "api": "execve", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7f531a0cec27", 
+                        "arguments": {
+                            "p2": [
+                                "SUDO_GID=0", 
+                                "MAIL=/var/mail/root", 
+                                "USER=root", 
+                                "HOME=/root", 
+                                "SUDO_UID=0", 
+                                "LOGNAME=root", 
+                                "SYSTEMTAP_MODULE=stap_", 
+                                "TERM=unknown", 
+                                "SYSTEMTAP_VERBOSE=2", 
+                                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin", 
+                                "DISPLAY=:0", 
+                                "LANG=en_US.UTF-8", 
+                                "XAUTHORITY=/root/.Xauthority", 
+                                "SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/ps", 
+                                "SHELL=/bin/bash", 
+                                "SUDO_USER=root", 
+                                "PWD=/tmp/tmpZKrpZm"
+                            ], 
+                            "p0": "/tmp/ps", 
+                            "p1": [
+                                "/tmp/ps"
+                            ]
+                        }, 
+                        "time": 1642281810.781362
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.784036 ps@7f531a0cec27[2067] brk(0x0) = 94456650366976\n", 
+                        "api": "brk", 
+                        "return_value": "94456650366976", 
+                        "category": "process", 
+                        "instruction_pointer": "7f531a0cec27", 
+                        "arguments": {
+                            "p0": "0x0"
+                        }, 
+                        "time": 1642281810.784036
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.784118 ps@7f531a0cf9d7[2067] access(\"/etc/ld.so.preload\", R_OK) = -2 (ENOENT)\n", 
+                        "api": "access", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f531a0cf9d7", 
+                        "arguments": {
+                            "p0": "/etc/ld.so.preload", 
+                            "p1": "R_OK"
+                        }, 
+                        "time": 1642281810.784118
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.785098 ps@7f531a0cfb0d[2067] openat(AT_FDCWD, \"/etc/ld.so.cache\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f531a0cfb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/etc/ld.so.cache"
+                        }, 
+                        "time": 1642281810.785098
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.785147 ps@7f531a0cf943[2067] fstat(4, 0x7ffe2856b620) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f531a0cf943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe2856b620"
+                        }, 
+                        "time": 1642281810.785147
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.785188 ps@7f531a0cfd03[2067] mmap2(0x0, 88858, PROT_READ, MAP_PRIVATE, 4, 0) = 0x7f531a09d000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f531a09d000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f531a0cfd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE", 
+                            "p0": "0x0", 
+                            "p1": "88858", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281810.785188
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.785231 ps@7f531a0cf9f7[2067] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f531a0cf9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642281810.785231
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.785287 ps@7f531a0cfb0d[2067] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f531a0cfb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0"
+                        }, 
+                        "time": 1642281810.785287
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.785337 ps@7f531a0cfbd4[2067] read(4, 0x7ffe2856b7d8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f531a0cfbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffe2856b7d8"
+                        }, 
+                        "time": 1642281810.785337
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.785383 ps@7f531a0cf943[2067] fstat(4, 0x7ffe2856b670) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f531a0cf943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe2856b670"
+                        }, 
+                        "time": 1642281810.785383
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.785424 ps@7f531a0cfd03[2067] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f531a09b000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f531a09b000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f531a0cfd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281810.785424
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.785472 ps@7f531a0cfd03[2067] mmap2(0x0, 20600, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f531a095000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f531a095000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f531a0cfd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "20600", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281810.785472
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.785518 ps@7f531a0cfd03[2067] mmap2(0x7f531a096000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 4096) = 0x7f531a096000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f531a096000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f531a0cfd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f531a096000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "4096"
+                        }, 
+                        "time": 1642281810.785518
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.785572 ps@7f531a0cfd03[2067] mmap2(0x7f531a098000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f531a098000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f531a098000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f531a0cfd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f531a098000", 
+                            "p1": "4096", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642281810.785572
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.785623 ps@7f531a0cfd03[2067] mmap2(0x7f531a099000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f531a099000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f531a099000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f531a0cfd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f531a099000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642281810.785623
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.785681 ps@7f531a0cf9f7[2067] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f531a0cf9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642281810.785681
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.785732 ps@7f531a0cfb0d[2067] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f531a0cfb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0"
+                        }, 
+                        "time": 1642281810.785732
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.785778 ps@7f531a0cfbd4[2067] read(4, 0x7ffe2856b7b8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f531a0cfbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffe2856b7b8"
+                        }, 
+                        "time": 1642281810.785778
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.785819 ps@7f531a0cf943[2067] fstat(4, 0x7ffe2856b650) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f531a0cf943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe2856b650"
+                        }, 
+                        "time": 1642281810.785819
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.785858 ps@7f531a0cfd03[2067] mmap2(0x0, 1180072, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f5319f74000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5319f74000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f531a0cfd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1180072", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281810.785858
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.785907 ps@7f531a0cfdb7[2067] mprotect(0x7f5319f8f000, 1060864, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f531a0cfdb7", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7f5319f8f000", 
+                            "p1": "1060864"
+                        }, 
+                        "time": 1642281810.785907
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.785959 ps@7f531a0cfd03[2067] mmap2(0x7f5319f8f000, 524288, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 110592) = 0x7f5319f8f000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5319f8f000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f531a0cfd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f5319f8f000", 
+                            "p1": "524288", 
+                            "p4": "4", 
+                            "p5": "110592"
+                        }, 
+                        "time": 1642281810.785959
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.786007 ps@7f531a0cfd03[2067] mmap2(0x7f531a00f000, 532480, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 634880) = 0x7f531a00f000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f531a00f000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f531a0cfd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f531a00f000", 
+                            "p1": "532480", 
+                            "p4": "4", 
+                            "p5": "634880"
+                        }, 
+                        "time": 1642281810.786007
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.786053 ps@7f531a0cfd03[2067] mmap2(0x7f531a092000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1167360) = 0x7f531a092000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f531a092000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f531a0cfd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f531a092000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "1167360"
+                        }, 
+                        "time": 1642281810.786053
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.786109 ps@7f531a0cfd03[2067] mmap2(0x7f531a094000, 424, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f531a094000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f531a094000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f531a0cfd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f531a094000", 
+                            "p1": "424", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281810.786109
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.786162 ps@7f531a0cf9f7[2067] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f531a0cf9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642281810.786162
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.786222 ps@7f531a0cfb0d[2067] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/librt.so.1\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f531a0cfb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/librt.so.1"
+                        }, 
+                        "time": 1642281810.786222
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.786269 ps@7f531a0cfbd4[2067] read(4, 0x7ffe2856b798, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f531a0cfbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffe2856b798"
+                        }, 
+                        "time": 1642281810.786269
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.786310 ps@7f531a0cf943[2067] fstat(4, 0x7ffe2856b630) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f531a0cf943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe2856b630"
+                        }, 
+                        "time": 1642281810.78631
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.786353 ps@7f531a0cfd03[2067] mmap2(0x0, 44000, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f5319f69000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5319f69000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f531a0cfd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "44000", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281810.786353
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.786401 ps@7f531a0cfd03[2067] mmap2(0x7f5319f6c000, 16384, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f5319f6c000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5319f6c000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f531a0cfd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f5319f6c000", 
+                            "p1": "16384", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642281810.786401
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.786461 ps@7f531a0cfd03[2067] mmap2(0x7f5319f70000, 8192, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 28672) = 0x7f5319f70000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5319f70000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f531a0cfd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f5319f70000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "28672"
+                        }, 
+                        "time": 1642281810.786461
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.786509 ps@7f531a0cfd03[2067] mmap2(0x7f5319f72000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 32768) = 0x7f5319f72000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5319f72000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f531a0cfd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f5319f72000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "32768"
+                        }, 
+                        "time": 1642281810.786509
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.786570 ps@7f531a0cf9f7[2067] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f531a0cf9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642281810.78657
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.786621 ps@7f531a0cfb0d[2067] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libm.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f531a0cfb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libm.so.6"
+                        }, 
+                        "time": 1642281810.786621
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.786668 ps@7f531a0cfbd4[2067] read(4, 0x7ffe2856b778, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f531a0cfbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffe2856b778"
+                        }, 
+                        "time": 1642281810.786668
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.786711 ps@7f531a0cf943[2067] fstat(4, 0x7ffe2856b610) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f531a0cf943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe2856b610"
+                        }, 
+                        "time": 1642281810.786711
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.786761 ps@7f531a0cfd03[2067] mmap2(0x0, 1364240, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f5319e1b000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5319e1b000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f531a0cfd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1364240", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281810.786761
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.786811 ps@7f531a0cfd03[2067] mmap2(0x7f5319e2a000, 679936, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 61440) = 0x7f5319e2a000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5319e2a000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f531a0cfd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f5319e2a000", 
+                            "p1": "679936", 
+                            "p4": "4", 
+                            "p5": "61440"
+                        }, 
+                        "time": 1642281810.786811
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.786866 ps@7f531a0cfd03[2067] mmap2(0x7f5319ed0000, 618496, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 741376) = 0x7f5319ed0000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5319ed0000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f531a0cfd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f5319ed0000", 
+                            "p1": "618496", 
+                            "p4": "4", 
+                            "p5": "741376"
+                        }, 
+                        "time": 1642281810.786866
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.786914 ps@7f531a0cfd03[2067] mmap2(0x7f5319f67000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1355776) = 0x7f5319f67000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5319f67000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f531a0cfd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f5319f67000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "1355776"
+                        }, 
+                        "time": 1642281810.786914
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.786977 ps@7f531a0cf9f7[2067] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f531a0cf9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642281810.786977
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.787029 ps@7f531a0cfb0d[2067] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libgcc_s.so.1\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f531a0cfb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libgcc_s.so.1"
+                        }, 
+                        "time": 1642281810.787029
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.787074 ps@7f531a0cfbd4[2067] read(4, 0x7ffe2856b758, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f531a0cfbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffe2856b758"
+                        }, 
+                        "time": 1642281810.787074
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.787114 ps@7f531a0cf943[2067] fstat(4, 0x7ffe2856b5f0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f531a0cf943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe2856b5f0"
+                        }, 
+                        "time": 1642281810.787114
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.787154 ps@7f531a0cfd03[2067] mmap2(0x0, 103504, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f5319e01000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5319e01000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f531a0cfd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "103504", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281810.787154
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.787369 ps@7f531a0cfd03[2067] mmap2(0x7f5319e04000, 69632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f5319e04000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5319e04000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f531a0cfd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f5319e04000", 
+                            "p1": "69632", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642281810.787369
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.787423 ps@7f531a0cfd03[2067] mmap2(0x7f5319e15000, 16384, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 81920) = 0x7f5319e15000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5319e15000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f531a0cfd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f5319e15000", 
+                            "p1": "16384", 
+                            "p4": "4", 
+                            "p5": "81920"
+                        }, 
+                        "time": 1642281810.787423
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.787475 ps@7f531a0cfd03[2067] mmap2(0x7f5319e19000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 94208) = 0x7f5319e19000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5319e19000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f531a0cfd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f5319e19000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "94208"
+                        }, 
+                        "time": 1642281810.787475
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.787534 ps@7f531a0cf9f7[2067] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f531a0cf9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642281810.787534
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.787587 ps@7f531a0cfb0d[2067] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libpthread.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f531a0cfb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libpthread.so.0"
+                        }, 
+                        "time": 1642281810.787587
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.787636 ps@7f531a0cfbd4[2067] read(4, 0x7ffe2856b738, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f531a0cfbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffe2856b738"
+                        }, 
+                        "time": 1642281810.787636
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.787676 ps@7f531a0cf943[2067] fstat(4, 0x7ffe2856b5d0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f531a0cf943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe2856b5d0"
+                        }, 
+                        "time": 1642281810.787676
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.787717 ps@7f531a0cfd03[2067] mmap2(0x0, 132288, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f5319de0000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5319de0000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f531a0cfd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "132288", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281810.787717
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.787763 ps@7f531a0cfd03[2067] mmap2(0x7f5319de7000, 61440, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 28672) = 0x7f5319de7000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5319de7000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f531a0cfd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f5319de7000", 
+                            "p1": "61440", 
+                            "p4": "4", 
+                            "p5": "28672"
+                        }, 
+                        "time": 1642281810.787763
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.787814 ps@7f531a0cfd03[2067] mmap2(0x7f5319df6000, 20480, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 90112) = 0x7f5319df6000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5319df6000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f531a0cfd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f5319df6000", 
+                            "p1": "20480", 
+                            "p4": "4", 
+                            "p5": "90112"
+                        }, 
+                        "time": 1642281810.787814
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.787864 ps@7f531a0cfd03[2067] mmap2(0x7f5319dfb000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 106496) = 0x7f5319dfb000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5319dfb000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f531a0cfd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f5319dfb000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "106496"
+                        }, 
+                        "time": 1642281810.787864
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.787923 ps@7f531a0cfd03[2067] mmap2(0x7f5319dfd000, 13504, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f5319dfd000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5319dfd000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f531a0cfd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f5319dfd000", 
+                            "p1": "13504", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281810.787923
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.787974 ps@7f531a0cf9f7[2067] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f531a0cf9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642281810.787974
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.788027 ps@7f531a0cfb0d[2067] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libc.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f531a0cfb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libc.so.6"
+                        }, 
+                        "time": 1642281810.788027
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.788073 ps@7f531a0cfbd4[2067] read(4, 0x7ffe2856b718, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f531a0cfbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffe2856b718"
+                        }, 
+                        "time": 1642281810.788073
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.788112 ps@7f531a0cf943[2067] fstat(4, 0x7ffe2856b5b0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f531a0cf943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe2856b5b0"
+                        }, 
+                        "time": 1642281810.788112
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.788151 ps@7f531a0cfd03[2067] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f5319dde000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5319dde000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f531a0cfd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281810.788151
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.788199 ps@7f531a0cfd03[2067] mmap2(0x0, 2008696, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f5319bf3000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5319bf3000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f531a0cfd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "2008696", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281810.788199
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.788243 ps@7f531a0cfd03[2067] mmap2(0x7f5319c18000, 1519616, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 151552) = 0x7f5319c18000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5319c18000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f531a0cfd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f5319c18000", 
+                            "p1": "1519616", 
+                            "p4": "4", 
+                            "p5": "151552"
+                        }, 
+                        "time": 1642281810.788243
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.788294 ps@7f531a0cfd03[2067] mmap2(0x7f5319d8b000, 299008, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1671168) = 0x7f5319d8b000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5319d8b000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f531a0cfd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f5319d8b000", 
+                            "p1": "299008", 
+                            "p4": "4", 
+                            "p5": "1671168"
+                        }, 
+                        "time": 1642281810.788294
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.788348 ps@7f531a0cfd03[2067] mmap2(0x7f5319dd4000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1966080) = 0x7f5319dd4000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5319dd4000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f531a0cfd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f5319dd4000", 
+                            "p1": "24576", 
+                            "p4": "4", 
+                            "p5": "1966080"
+                        }, 
+                        "time": 1642281810.788348
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.788401 ps@7f531a0cfd03[2067] mmap2(0x7f5319dda000, 13944, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f5319dda000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5319dda000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f531a0cfd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f5319dda000", 
+                            "p1": "13944", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281810.788401
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.788454 ps@7f531a0cf9f7[2067] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f531a0cf9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642281810.788454
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.788592 ps@7f531a0cfb0d[2067] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libdl.so.2\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f531a0cfb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libdl.so.2"
+                        }, 
+                        "time": 1642281810.788592
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.788649 ps@7f531a0cfbd4[2067] read(4, 0x7ffe2856b6f8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f531a0cfbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffe2856b6f8"
+                        }, 
+                        "time": 1642281810.788649
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.788692 ps@7f531a0cf943[2067] fstat(4, 0x7ffe2856b590) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f531a0cf943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe2856b590"
+                        }, 
+                        "time": 1642281810.788692
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.788734 ps@7f531a0cfd03[2067] mmap2(0x0, 20752, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f5319bed000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5319bed000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f531a0cfd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "20752", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281810.788734
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.788780 ps@7f531a0cfd03[2067] mmap2(0x7f5319bee000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 4096) = 0x7f5319bee000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5319bee000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f531a0cfd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f5319bee000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "4096"
+                        }, 
+                        "time": 1642281810.78878
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.788833 ps@7f531a0cfd03[2067] mmap2(0x7f5319bf0000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f5319bf0000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5319bf0000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f531a0cfd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f5319bf0000", 
+                            "p1": "4096", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642281810.788833
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.788883 ps@7f531a0cfd03[2067] mmap2(0x7f5319bf1000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f5319bf1000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5319bf1000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f531a0cfd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f5319bf1000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642281810.788883
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.788939 ps@7f531a0cf9f7[2067] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f531a0cf9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642281810.788939
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.788994 ps@7f531a0cfb0d[2067] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libpcre.so.3\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f531a0cfb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libpcre.so.3"
+                        }, 
+                        "time": 1642281810.788994
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.789040 ps@7f531a0cfbd4[2067] read(4, 0x7ffe2856b6d8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f531a0cfbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffe2856b6d8"
+                        }, 
+                        "time": 1642281810.78904
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.789082 ps@7f531a0cf943[2067] fstat(4, 0x7ffe2856b570) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f531a0cf943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe2856b570"
+                        }, 
+                        "time": 1642281810.789082
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.789122 ps@7f531a0cfd03[2067] mmap2(0x0, 471304, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f5319b79000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5319b79000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f531a0cfd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "471304", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281810.789122
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.789168 ps@7f531a0cfd03[2067] mmap2(0x7f5319b7b000, 335872, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 8192) = 0x7f5319b7b000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5319b7b000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f531a0cfd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f5319b7b000", 
+                            "p1": "335872", 
+                            "p4": "4", 
+                            "p5": "8192"
+                        }, 
+                        "time": 1642281810.789168
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.789220 ps@7f531a0cfd03[2067] mmap2(0x7f5319bcd000, 122880, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 344064) = 0x7f5319bcd000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5319bcd000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f531a0cfd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f5319bcd000", 
+                            "p1": "122880", 
+                            "p4": "4", 
+                            "p5": "344064"
+                        }, 
+                        "time": 1642281810.78922
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.789270 ps@7f531a0cfd03[2067] mmap2(0x7f5319beb000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 462848) = 0x7f5319beb000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5319beb000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f531a0cfd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f5319beb000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "462848"
+                        }, 
+                        "time": 1642281810.78927
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.789329 ps@7f531a0cf9f7[2067] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f531a0cf9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642281810.789329
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.790134 ps@7f531a0cfd03[2067] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f5319b77000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5319b77000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f531a0cfd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281810.790134
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.790197 ps@7f531a0b4f30[2067] arch_prctl(ARCH_SET_FS, 139994890469696) = 0\n", 
+                        "api": "arch_prctl", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f531a0b4f30", 
+                        "arguments": {
+                            "p0": "ARCH_SET_FS", 
+                            "p1": "139994890469696"
+                        }, 
+                        "time": 1642281810.790197
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.790924 ps@7f531a0cfdb7[2067] mprotect(0x7f5319dd4000, 12288, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f531a0cfdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f5319dd4000", 
+                            "p1": "12288"
+                        }, 
+                        "time": 1642281810.790924
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.790986 ps@7f531a0cfdb7[2067] mprotect(0x7f5319dfb000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f531a0cfdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f5319dfb000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642281810.790986
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.791057 ps@7f531a0cfdb7[2067] mprotect(0x7f5319beb000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f531a0cfdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f5319beb000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642281810.791057
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.791113 ps@7f531a0cfdb7[2067] mprotect(0x7f5319bf1000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f531a0cfdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f5319bf1000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642281810.791113
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.791164 ps@7f531a0cfdb7[2067] mprotect(0x7f5319e19000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f531a0cfdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f5319e19000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642281810.791164
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.791231 ps@7f531a0cfdb7[2067] mprotect(0x7f5319f67000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f531a0cfdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f5319f67000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642281810.791231
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.791296 ps@7f531a0cfdb7[2067] mprotect(0x7f5319f72000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f531a0cfdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f5319f72000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642281810.791296
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.791587 ps@7f531a0cfdb7[2067] mprotect(0x7f531a092000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f531a0cfdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f531a092000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642281810.791587
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.791661 ps@7f531a0cfdb7[2067] mprotect(0x7f531a099000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f531a0cfdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f531a099000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642281810.791661
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.795203 ps@7f531a0cfdb7[2067] mprotect(0x55e863b3c000, 303104, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f531a0cfdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x55e863b3c000", 
+                            "p1": "303104"
+                        }, 
+                        "time": 1642281810.795203
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.795309 ps@7f531a0cfdb7[2067] mprotect(0x7f531a0dd000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f531a0cfdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f531a0dd000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642281810.795309
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.795365 ps@7f531a0cfd97[2067] munmap(0x7f531a09d000, 88858) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f531a0cfd97", 
+                        "arguments": {
+                            "p0": "0x7f531a09d000", 
+                            "p1": "88858"
+                        }, 
+                        "time": 1642281810.795365
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.795485 ps@7f5319de78df[2067] set_tid_address(0x7f5319b78410) = 2067\n", 
+                        "api": "set_tid_address", 
+                        "return_value": "2067", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5319de78df", 
+                        "arguments": {
+                            "p0": "0x7f5319b78410"
+                        }, 
+                        "time": 1642281810.795485
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.795575 ps@7f5319de794a[2067] set_robust_list(0x7f5319b78420, 24) = 0\n", 
+                        "api": "set_robust_list", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5319de794a", 
+                        "arguments": {
+                            "p0": "0x7f5319b78420", 
+                            "p1": "24"
+                        }, 
+                        "time": 1642281810.795575
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.795642 ps@7f5319df4010[2067] rt_sigaction(0x20, {0x7f5319de76c0, SA_SIGINFO|SA_RESTORER, 0x7f5319df3f40, [EMPTY]}, 0x0, 8) = 0\n", 
+                        "api": "rt_sigaction", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5319df4010", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "0x20", 
+                            "p1": [
+                                "0x7f5319de76c0", 
+                                "SA_SIGINFO|SA_RESTORER", 
+                                "0x7f5319df3f40", 
+                                [
+                                    "EMPTY]"
+                                ]
+                            ]
+                        }, 
+                        "time": 1642281810.795642
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.795706 ps@7f5319df4010[2067] rt_sigaction(0x21, {0x7f5319de7760, SA_RESTART|SA_SIGINFO|SA_RESTORER, 0x7f5319df3f40, [EMPTY]}, 0x0, 8) = 0\n", 
+                        "api": "rt_sigaction", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5319df4010", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "0x21", 
+                            "p1": [
+                                "0x7f5319de7760", 
+                                "SA_RESTART|SA_SIGINFO|SA_RESTORER", 
+                                "0x7f5319df3f40", 
+                                [
+                                    "EMPTY]"
+                                ]
+                            ]
+                        }, 
+                        "time": 1642281810.795706
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.795749 ps@7f5319de7a19[2067] rt_sigprocmask(SIG_UNBLOCK, [EMPTY], 0x0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5319de7a19", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "SIG_UNBLOCK", 
+                            "p1": [
+                                "EMPTY"
+                            ]
+                        }, 
+                        "time": 1642281810.795749
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.795804 ps@7f5319d05df0[2067] prlimit64(0, RLIMIT_STACK, NULL, 0x7ffe2856c3b0) = 0\n", 
+                        "api": "prlimit64", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5319d05df0", 
+                        "arguments": {
+                            "p2": "NULL", 
+                            "p3": "0x7ffe2856c3b0", 
+                            "p0": "0", 
+                            "p1": "RLIMIT_STACK"
+                        }, 
+                        "time": 1642281810.795804
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.796010 ps@7f5319d062f7[2067] brk(0x0) = 94456650366976\n", 
+                        "api": "brk", 
+                        "return_value": "94456650366976", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5319d062f7", 
+                        "arguments": {
+                            "p0": "0x0"
+                        }, 
+                        "time": 1642281810.79601
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.796050 ps@7f5319d062f7[2067] brk(0x55e867199000) = 94456650502144\n", 
+                        "api": "brk", 
+                        "return_value": "94456650502144", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5319d062f7", 
+                        "arguments": {
+                            "p0": "0x55e867199000"
+                        }, 
+                        "time": 1642281810.79605
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.797085 ps@7f5319df0b86[2067] rt_sigprocmask(SIG_SETMASK, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS], 0x7ffe2856c300, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5319df0b86", 
+                        "arguments": {
+                            "p2": "0x7ffe2856c300", 
+                            "p3": "8", 
+                            "p0": "SIG_SETMASK", 
+                            "p1": [
+                                "SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS"
+                            ]
+                        }, 
+                        "time": 1642281810.797085
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.797914 ps@7f5319d0a4c3[2067] mmap2(0x0, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f5319376000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5319376000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5319d0a4c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK", 
+                            "p0": "0x0", 
+                            "p1": "8392704", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281810.797914
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.797965 ps@7f5319d0a597[2067] mprotect(0x7f5319377000, 8388608, PROT_READ|PROT_WRITE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5319d0a597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p0": "0x7f5319377000", 
+                            "p1": "8388608"
+                        }, 
+                        "time": 1642281810.797965
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.798031 ps@7f5319d10b11[2067] clone(CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, 0x7f5319b75f70, 0x7f5319b769d0, 0x7f5319b769d0) = 2068\n", 
+                        "api": "clone", 
+                        "return_value": "2068", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5319d10b11", 
+                        "arguments": {
+                            "p2": "0x7f5319b769d0", 
+                            "p3": "0x7f5319b769d0", 
+                            "p0": "CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID", 
+                            "p1": "0x7f5319b75f70"
+                        }, 
+                        "time": 1642281810.798031
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.798156 ps@7f5319df0b86[2067] rt_sigprocmask(SIG_SETMASK, [EMPTY], 0x0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5319df0b86", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "SIG_SETMASK", 
+                            "p1": [
+                                "EMPTY"
+                            ]
+                        }, 
+                        "time": 1642281810.798156
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.800437 ps@7f5319d05df0[2067] prlimit64(0, RLIMIT_STACK, NULL, 0x7ffe2856bec0) = 0\n", 
+                        "api": "prlimit64", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5319d05df0", 
+                        "arguments": {
+                            "p2": "NULL", 
+                            "p3": "0x7ffe2856bec0", 
+                            "p0": "0", 
+                            "p1": "RLIMIT_STACK"
+                        }, 
+                        "time": 1642281810.800437
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.800554 ps@7f5319d055c1[2067] openat(AT_FDCWD, \"/etc/qemu-binfmt/sparc\", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -2 (ENOENT)\n", 
+                        "api": "openat", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5319d055c1", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/etc/qemu-binfmt/sparc"
+                        }, 
+                        "time": 1642281810.800554
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.800640 ps@7f5319cd4247[2067] uname(0x7ffe2856bb30) = 0\n", 
+                        "api": "uname", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5319cd4247", 
+                        "arguments": {
+                            "p0": "0x7ffe2856bb30"
+                        }, 
+                        "time": 1642281810.80064
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.800690 ps@7f5319df3337[2067] lseek(3, 0, SEEK_SET) = 0\n", 
+                        "api": "lseek", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5319df3337", 
+                        "arguments": {
+                            "p2": "SEEK_SET", 
+                            "p0": "3", 
+                            "p1": "0"
+                        }, 
+                        "time": 1642281810.80069
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.800735 ps@7f5319df2d94[2067] read(3, 0x7ffe2856be20, 52) = 52\n", 
+                        "api": "read", 
+                        "return_value": "52", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5319df2d94", 
+                        "arguments": {
+                            "p2": "52", 
+                            "p0": "3", 
+                            "p1": "0x7ffe2856be20"
+                        }, 
+                        "time": 1642281810.800735
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.800780 ps@7f5319df3337[2067] lseek(3, 0, SEEK_SET) = 0\n", 
+                        "api": "lseek", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5319df3337", 
+                        "arguments": {
+                            "p2": "SEEK_SET", 
+                            "p0": "3", 
+                            "p1": "0"
+                        }, 
+                        "time": 1642281810.80078
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.802098 ps@7f5319d0a4c3[2067] mmap2(0x0, 528384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f53192f5000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f53192f5000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5319d0a4c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "528384", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281810.802098
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.802632 ps@7f5319d0a597[2067] mprotect(0x55e863b99000, 33550336, PROT_READ|PROT_WRITE|PROT_EXEC) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5319d0a597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE|PROT_EXEC", 
+                            "p0": "0x55e863b99000", 
+                            "p1": "33550336"
+                        }, 
+                        "time": 1642281810.802632
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.802685 ps@7f5319d0a667[2067] madvise(0x55e863b99000, 33550336, MADV_HUGEPAGE) = 0\n", 
+                        "api": "madvise", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5319d0a667", 
+                        "arguments": {
+                            "p2": "MADV_HUGEPAGE", 
+                            "p0": "0x55e863b99000", 
+                            "p1": "33550336"
+                        }, 
+                        "time": 1642281810.802685
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.802885 ps@7f5319d0a4c3[2067] mmap2(0x0, 4294963200, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f5214001000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5214001000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5319d0a4c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x0", 
+                            "p1": "4294963200", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281810.802885
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.802944 ps@7f5319cffd59[2067] openat(AT_FDCWD, \"/proc/sys/vm/mmap_min_addr\", O_RDONLY) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5319cffd59", 
+                        "arguments": {
+                            "p2": "O_RDONLY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/proc/sys/vm/mmap_min_addr"
+                        }, 
+                        "time": 1642281810.802944
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.803011 ps@7f5319cff613[2067] fstat(4, 0x7ffe2856b530) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5319cff613", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe2856b530"
+                        }, 
+                        "time": 1642281810.803011
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.803055 ps@7f5319cfffb4[2067] read(4, 0x55e8671853a0, 1024) = 6\n", 
+                        "api": "read", 
+                        "return_value": "6", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5319cfffb4", 
+                        "arguments": {
+                            "p2": "1024", 
+                            "p0": "4", 
+                            "p1": "0x55e8671853a0"
+                        }, 
+                        "time": 1642281810.803055
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.803116 ps@7f5319d053f7[2067] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5319d053f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642281810.803116
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.803304 ps@7f5319d0a2e9[2067] gettid() = 2067\n", 
+                        "api": "gettid", 
+                        "return_value": "2067", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5319d0a2e9", 
+                        "arguments": {}, 
+                        "time": 1642281810.803304
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.803348 ps@7f5319cff613[2067] fstat(3, 0x7ffe2856bda0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5319cff613", 
+                        "arguments": {
+                            "p0": "3", 
+                            "p1": "0x7ffe2856bda0"
+                        }, 
+                        "time": 1642281810.803348
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.803390 ps@7f5319cd5717[2067] geteuid() = 0\n", 
+                        "api": "geteuid", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5319cd5717", 
+                        "arguments": {}, 
+                        "time": 1642281810.80339
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.803430 ps@7f5319cd5737[2067] getegid() = 0\n", 
+                        "api": "getegid", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5319cd5737", 
+                        "arguments": {}, 
+                        "time": 1642281810.80343
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.803479 ps@7f5319df2d94[2067] read(3, 0x7ffe2856bfa0, 1024) = 1024\n", 
+                        "api": "read", 
+                        "return_value": "1024", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5319df2d94", 
+                        "arguments": {
+                            "p2": "1024", 
+                            "p0": "3", 
+                            "p1": "0x7ffe2856bfa0"
+                        }, 
+                        "time": 1642281810.803479
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.803524 ps@7f5319d0a4c3[2067] mmap2(0x7f5214011000, 69632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 3, 0) = 0x7f5214011000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5214011000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5319d0a4c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED", 
+                            "p0": "0x7f5214011000", 
+                            "p1": "69632", 
+                            "p4": "3", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281810.803524
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.803578 ps@7f5319d062f7[2067] brk(0x55e8671ba000) = 94456650637312\n", 
+                        "api": "brk", 
+                        "return_value": "94456650637312", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5319d062f7", 
+                        "arguments": {
+                            "p0": "0x55e8671ba000"
+                        }, 
+                        "time": 1642281810.803578
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.803641 ps@7f5319d0a4c3[2067] mmap2(0x7f5214031000, 4096, PROT_READ|PROT_WRITE|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 3, 65536) = 0x7f5214031000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5214031000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5319d0a4c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED", 
+                            "p0": "0x7f5214031000", 
+                            "p1": "4096", 
+                            "p4": "3", 
+                            "p5": "65536"
+                        }, 
+                        "time": 1642281810.803641
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.803690 ps@7f5319d0a4c3[2067] mmap2(0x7f5214032000, 131072, PROT_READ|PROT_WRITE|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f5214032000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5214032000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5319d0a4c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f5214032000", 
+                            "p1": "131072", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281810.80369
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.803746 ps@7f5319df2e27[2067] close(3) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5319df2e27", 
+                        "arguments": {
+                            "p0": "3"
+                        }, 
+                        "time": 1642281810.803746
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.803830 ps@7f5319d0a4c3[2067] mmap2(0x7f53137ff000, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f53137ff000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f53137ff000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5319d0a4c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f53137ff000", 
+                            "p1": "8392704", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281810.80383
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.803969 ps@7f5319d0a597[2067] mprotect(0x7f53137ff000, 4096, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5319d0a597", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7f53137ff000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642281810.803969
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.804029 ps@7f5319df355e[2067] openat(AT_FDCWD, \"/lib/ld-linux.so.2\", O_RDONLY) = -2 (ENOENT)\n", 
+                        "api": "openat", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5319df355e", 
+                        "arguments": {
+                            "p2": "O_RDONLY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/ld-linux.so.2"
+                        }, 
+                        "time": 1642281810.804029
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.804110 ps@7f5319d00057[2067] write(2, \"/lib/ld-linux.so.2: No such file or directory\\n\", 46) = 46\n", 
+                        "api": "write", 
+                        "return_value": "46", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5319d00057", 
+                        "arguments": {
+                            "p2": "46", 
+                            "p0": "2", 
+                            "p1": "/lib/ld-linux.so.2: No such file or directory\n"
+                        }, 
+                        "time": 1642281810.80411
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.804187 ps@7f5319cd4926[2067] exit_group(-1)\n", 
+                        "api": "exit_group", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5319cd4926", 
+                        "arguments": {
+                            "p0": "-1"
+                        }, 
+                        "time": 1642281810.804187
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2067, 
+                        "raw": "Sat Jan 15 21:23:30 2022.804235 ps@7f5319cd4926[2067] futex(0x7f5319b78410, FUTEX_WAKE, 1) = 0\n", 
+                        "api": "futex", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5319cd4926", 
+                        "arguments": {
+                            "p2": "1", 
+                            "p0": "0x7f5319b78410", 
+                            "p1": "FUTEX_WAKE"
+                        }, 
+                        "time": 1642281810.804235
+                    }
+                ], 
+                "pid": 2067, 
+                "process_name": "ps", 
+                "command_line": "/tmp/ps", 
+                "first_seen": 1642281810.781362, 
+                "ppid": -1, 
+                "type": "process"
+            }, 
+            {
+                "calls": [
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:23:30 2022.798201 ps@7f5319de9117[2068] set_robust_list(0x7f5319b769e0, 24) = 0\n", 
+                        "api": "set_robust_list", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5319de9117", 
+                        "arguments": {
+                            "p0": "0x7f5319b769e0", 
+                            "p1": "24"
+                        }, 
+                        "time": 1642281810.798201
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:23:30 2022.798261 ps@7f5319d0a4c3[2068] mmap2(0x0, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f5311376000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5311376000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5319d0a4c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x0", 
+                            "p1": "134217728", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281810.798261
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:23:30 2022.798365 ps@7f5319d0a567[2068] munmap(0x7f5311376000, 46702592) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5319d0a567", 
+                        "arguments": {
+                            "p0": "0x7f5311376000", 
+                            "p1": "46702592"
+                        }, 
+                        "time": 1642281810.798365
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:23:30 2022.798420 ps@7f5319d0a567[2068] munmap(0x7f5318000000, 20406272) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5319d0a567", 
+                        "arguments": {
+                            "p0": "0x7f5318000000", 
+                            "p1": "20406272"
+                        }, 
+                        "time": 1642281810.79842
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:23:30 2022.798467 ps@7f5319d0a597[2068] mprotect(0x7f5314000000, 135168, PROT_READ|PROT_WRITE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5319d0a597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p0": "0x7f5314000000", 
+                            "p1": "135168"
+                        }, 
+                        "time": 1642281810.798467
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ps", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:23:30 2022.798535 ps@7f5319df3440[2068] nanosleep([0.010000000], 0x7f5319b75dc0) = -516\n", 
+                        "api": "nanosleep", 
+                        "return_value": "-516", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5319df3440", 
+                        "arguments": {
+                            "p0": [
+                                "0.010000000"
+                            ], 
+                            "p1": "0x7f5319b75dc0"
+                        }, 
+                        "time": 1642281810.798535
+                    }
+                ], 
+                "pid": 2068, 
+                "process_name": "ps", 
+                "command_line": "", 
+                "first_seen": 1642281810.798201, 
+                "ppid": 2067, 
+                "type": "process"
+            }
+        ], 
+        "processtree": [
+            {
+                "track": true, 
+                "pid": 2067, 
+                "process_name": "ps", 
+                "command_line": "/tmp/ps", 
+                "first_seen": 1642281810.781362, 
+                "ppid": -1, 
+                "children": [
+                    {
+                        "track": true, 
+                        "pid": 2068, 
+                        "process_name": "ps", 
+                        "command_line": "", 
+                        "first_seen": 1642281810.798201, 
+                        "ppid": 2067, 
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    }, 
+    "debug": {
+        "action": [], 
+        "dbgview": [], 
+        "errors": [], 
+        "log": [
+            "2022-01-15 21:23:23,001 [root] DEBUG: Starting analyzer from: /tmp/tmpZKrpZm\n", 
+            "2022-01-15 21:23:23,001 [root] DEBUG: Storing results at: /tmp/OdfDTuIov\n", 
+            "2022-01-15 21:23:25,085 [modules.auxiliary.filecollector] INFO: FileCollector started v0.08\n", 
+            "2022-01-15 21:23:25,087 [modules.auxiliary.human] INFO: Human started v0.02\n", 
+            "2022-01-15 21:23:25,089 [modules.auxiliary.screenshots] INFO: Screenshots started v0.03\n", 
+            "2022-01-15 21:23:30,778 [lib.core.packages] INFO: Process startup took 5.69 seconds\n", 
+            "2022-01-15 21:23:30,781 [root] INFO: Added new process to list with pid: 2058\n", 
+            "2022-01-15 21:23:39,798 [root] INFO: Process with pid 2058 has terminated\n", 
+            "2022-01-15 21:23:39,799 [root] INFO: Process list is empty, terminating analysis.\n", 
+            "2022-01-15 21:23:42,811 [lib.core.packages] INFO: Package requested stop\n", 
+            "2022-01-15 21:23:42,813 [lib.core.packages] WARNING: Exception uploading log: [Errno 3] No such process\n"
+        ], 
+        "cuckoo": [
+            "2022-01-16 07:30:27,110 [cuckoo.core.scheduler] DEBUG: Task #2651526: no machine available yet\n", 
+            "2022-01-16 07:30:37,153 [cuckoo.core.scheduler] DEBUG: Task #2651526: no machine available yet\n", 
+            "2022-01-16 07:30:47,190 [cuckoo.core.scheduler] DEBUG: Task #2651526: no machine available yet\n", 
+            "2022-01-16 07:30:57,226 [cuckoo.core.scheduler] DEBUG: Task #2651526: no machine available yet\n", 
+            "2022-01-16 07:31:07,252 [cuckoo.core.scheduler] DEBUG: Task #2651526: no machine available yet\n", 
+            "2022-01-16 07:31:17,280 [cuckoo.core.scheduler] DEBUG: Task #2651526: no machine available yet\n", 
+            "2022-01-16 07:31:27,304 [cuckoo.core.scheduler] DEBUG: Task #2651526: no machine available yet\n", 
+            "2022-01-16 07:31:37,327 [cuckoo.core.scheduler] DEBUG: Task #2651526: no machine available yet\n", 
+            "2022-01-16 07:31:47,356 [cuckoo.core.scheduler] DEBUG: Task #2651526: no machine available yet\n", 
+            "2022-01-16 07:31:57,384 [cuckoo.core.scheduler] DEBUG: Task #2651526: no machine available yet\n", 
+            "2022-01-16 07:32:07,421 [cuckoo.core.scheduler] DEBUG: Task #2651526: no machine available yet\n", 
+            "2022-01-16 07:32:17,465 [cuckoo.core.scheduler] INFO: Task #2651526: acquired machine Ubuntu1904x641 (label=Ubuntu1904x641)\n", 
+            "2022-01-16 07:32:17,466 [cuckoo.core.resultserver] DEBUG: Now tracking machine 192.168.168.101 for task #2651526\n", 
+            "2022-01-16 07:32:17,641 [cuckoo.auxiliary.sniffer] INFO: Started sniffer with PID 1813688 (interface=vboxnet0, host=192.168.168.101)\n", 
+            "2022-01-16 07:32:18,481 [cuckoo.machinery.virtualbox] DEBUG: Starting vm Ubuntu1904x641\n", 
+            "2022-01-16 07:32:18,890 [cuckoo.machinery.virtualbox] DEBUG: Restoring virtual machine Ubuntu1904x641 to Snapshot\n", 
+            "2022-01-16 07:32:28,290 [cuckoo.core.guest] INFO: Starting analysis #2651526 on guest (id=Ubuntu1904x641, ip=192.168.168.101)\n", 
+            "2022-01-16 07:32:29,297 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: not ready yet\n", 
+            "2022-01-16 07:32:34,315 [cuckoo.core.guest] INFO: Guest is running Cuckoo Agent 0.10 (id=Ubuntu1904x641, ip=192.168.168.101)\n", 
+            "2022-01-16 07:32:34,345 [cuckoo.core.guest] DEBUG: Uploading analyzer to guest (id=Ubuntu1904x641, ip=192.168.168.101, monitor=latest, size=72028)\n", 
+            "2022-01-16 07:32:34,523 [cuckoo.core.resultserver] DEBUG: Task #2651526: live log analysis.log initialized.\n", 
+            "2022-01-16 07:32:39,920 [cuckoo.core.resultserver] DEBUG: Task #2651526: File upload for 'shots/0001.jpg'\n", 
+            "2022-01-16 07:32:39,931 [cuckoo.core.resultserver] DEBUG: Task #2651526 uploaded file length: 171567\n", 
+            "2022-01-16 07:32:49,504 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2651526 still processing\n", 
+            "2022-01-16 07:32:54,345 [cuckoo.core.resultserver] DEBUG: Task #2651526: File upload for 'logs/all.stap'\n", 
+            "2022-01-16 07:32:54,348 [cuckoo.core.resultserver] DEBUG: Task #2651526 uploaded file length: 18109\n", 
+            "2022-01-16 07:33:04,587 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2651526 still processing\n", 
+            "2022-01-16 07:33:19,682 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2651526 still processing\n", 
+            "2022-01-16 07:33:34,784 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2651526 still processing\n", 
+            "2022-01-16 07:33:49,873 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2651526 still processing\n", 
+            "2022-01-16 07:34:04,991 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2651526 still processing\n", 
+            "2022-01-16 07:34:20,059 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2651526 still processing\n", 
+            "2022-01-16 07:34:35,125 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2651526 still processing\n", 
+            "2022-01-16 07:34:50,201 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2651526 still processing\n", 
+            "2022-01-16 07:35:05,270 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2651526 still processing\n", 
+            "2022-01-16 07:35:20,335 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2651526 still processing\n", 
+            "2022-01-16 07:35:35,466 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2651526 still processing\n", 
+            "2022-01-16 07:35:50,541 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2651526 still processing\n", 
+            "2022-01-16 07:36:05,602 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2651526 still processing\n", 
+            "2022-01-16 07:36:20,673 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2651526 still processing\n", 
+            "2022-01-16 07:36:35,736 [cuckoo.core.guest] INFO: Ubuntu1904x641: end of analysis reached!\n", 
+            "2022-01-16 07:36:35,742 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Redsocks\n", 
+            "2022-01-16 07:36:35,817 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Sniffer\n", 
+            "2022-01-16 07:36:54,308 [cuckoo.machinery.virtualbox] INFO: Successfully generated memory dump for virtual machine with label Ubuntu1904x641 to path /srv/cuckoo/cwd/storage/analyses/2651526/memory.dmp\n", 
+            "2022-01-16 07:36:54,311 [cuckoo.machinery.virtualbox] DEBUG: Stopping vm Ubuntu1904x641\n", 
+            "2022-01-16 07:36:58,244 [cuckoo.core.resultserver] DEBUG: Stopped tracking machine 192.168.168.101 for task #2651526\n", 
+            "2022-01-16 07:36:58,244 [cuckoo.core.resultserver] DEBUG: Cancel <Context for LOG> for task 2651526\n", 
+            "2022-01-16 07:36:58,407 [cuckoo.core.scheduler] DEBUG: Released database task #2651526\n", 
+            "2022-01-16 07:36:58,637 [cuckoo.core.scheduler] INFO: Task #2651526: analysis procedure completed\n"
+        ]
+    }, 
+    "strings": [
+        "/lib/ld-linux.so.2", 
+        "libproc-3.2.7.so", 
+        "dev_to_tty", 
+        "escape_strlist", 
+        "procps_version", 
+        "get_pid_digits", 
+        "meminfo", 
+        "escape_str", 
+        "open_psdb", 
+        "display_version", 
+        "openproc", 
+        "look_up_our_self", 
+        "signal_number_to_name", 
+        "escape_command", 
+        "linux_version_code", 
+        "closeproc", 
+        "readtask", 
+        "kb_main_total", 
+        "uptime", 
+        "readproctab2", 
+        "lookup_wchan", 
+        "readproc", 
+        "_Jv_RegisterClasses", 
+        "__gmon_start__", 
+        "libc.so.6", 
+        "strcpy", 
+        "stdout", 
+        "geteuid", 
+        "snprintf", 
+        "getenv", 
+        "__strtol_internal", 
+        "bsearch", 
+        "getpagesize", 
+        "memcpy", 
+        "__cxa_finalize", 
+        "malloc", 
+        "isatty", 
+        "__strtoul_internal", 
+        "fprintf", 
+        "strncmp", 
+        "strncpy", 
+        "strcasecmp", 
+        "__strdup", 
+        "sigfillset", 
+        "sigaction", 
+        "localtime", 
+        "memset", 
+        "strcmp", 
+        "getpwnam", 
+        "setlocale", 
+        "stderr", 
+        "strftime", 
+        "fwrite", 
+        "__xstat", 
+        "getgrnam", 
+        "_IO_stdin_used", 
+        "strspn", 
+        "__libc_start_main", 
+        "strlen", 
+        "strchr", 
+        "mprotect", 
+        "strpbrk", 
+        "GLIBC_2.1.3", 
+        "GLIBC_2.0", 
+        "_3_2_5", 
+        "please report this bug", 
+        "Error: can not access /proc.", 
+        "start_time", 
+        "Could not find start_time!", 
+        "Could not find ppid!", 
+        "Signal %d (%s) caught by ps (%s).", 
+        "Please send bug reports to <feedback@lists.sf.net> or <albert@users.sf.net>", 
+        "(none)", 
+        "BSD j    %s", 
+        "BSD l    %s", 
+        "BSD s    %s", 
+        "BSD u    %s", 
+        "BSD v    %s", 
+        "SysV -f  %s", 
+        "SysV -fl %s", 
+        "SysV -j  %s", 
+        "SysV -l  %s", 
+        "Linux version %d.%d.%d", 
+        "Compiled with: glibc %d.%d, gcc %d.%d", 
+        "header_gap=%d lines_to_next_header=%d", 
+        "screen_cols=%d screen_rows=%d", 
+        "personality=0x%08x (from \"%s\")", 
+        "EUID=%d TTY=%d,%d Hertz=%Ld page_size=%d", 
+        "sizeof(proc_t)=%d sizeof(long)=%d sizeof(KLONG)=%d", 
+        "archdefs:%s", 
+        "<no System.map file>", 
+        "namelist_file=\"%s\"", 
+        "PS_PERSONALITY", 
+        "CMD_ENV", 
+        "unknown", 
+        "I_WANT_A_BROKEN_PS", 
+        "Environment specified an unknown personality.", 
+        "UNIX95", 
+        "POSIXLY_CORRECT", 
+        "POSIX2", 
+        "FL5FMT", 
+        "/dev/tty", 
+        "COLUMNS", 
+        "Your %dx%d screen size is bogus. Expect trouble.", 
+        "You found a bug!", 
+        "compaq", 
+        "debian", 
+        "default", 
+        "digital", 
+        "solaris2", 
+        "sunos4", 
+        "unix95", 
+        "unix98", 
+        " sparc", 
+        "********* simple selection *********  ********* selection by list *********", 
+        "-A all processes                      -C by command name", 
+        "-N negate selection                   -G by real group ID (supports names)", 
+        "-a all w/ tty except session leaders  -U by real user ID (supports names)", 
+        "-d all except session leaders         -g by session OR by effective group name", 
+        "-e all processes                      -p by process ID", 
+        "T  all processes on this terminal     -s processes in the sessions given", 
+        "a  all w/ tty, including other users  -t by tty", 
+        "g  OBSOLETE -- DO NOT USE             -u by effective user ID (supports names)", 
+        "r  only running processes             U  processes for specified users", 
+        "x  processes w/o controlling ttys     t  by tty", 
+        "*********** output format **********  *********** long options ***********", 
+        "-o,o user-defined  -f full            --Group --User --pid --cols --ppid", 
+        "-j,j job control   s  signal          --group --user --sid --rows --info", 
+        "-O,O preloaded -o  v  virtual memory  --cumulative --format --deselect", 
+        "-l,l long          u  user-oriented   --sort --tty --forest --version", 
+        "-F   extra full    X  registers       --heading --no-heading --context", 
+        "                    ********* misc options *********", 
+        "-V,V  show version      L  list format codes  f  ASCII art forest", 
+        "-m,m,-L,-T,H  threads   S  children in sum    -y change -l format", 
+        "-M,Z  security data     c  true command name  -c scheduling class", 
+        "-w,w  wide output       n  numeric WCHAN,UID  -H process hierarchy", 
+        "Unknown page size! (assume 4096)", 
+        "Fix bigness error.", 
+        "bad alignment code", 
+        "%2u.%u", 
+        "%3u:%02u", 
+        "%2u.%02u", 
+        "%02u:%02u:%02u", 
+        "%02u:%02u", 
+        "  %6.6s", 
+        "%24.24s", 
+        "00000000%s", 
+        "/proc/%d/attr/current", 
+        "%-12.12s %-8.8s", 
+        "pid,tname,state,cputime,cmd", 
+        "DefBSD", 
+        "pid,tname,stat,bsdtime,args", 
+        "DefSysV", 
+        "pid,tname,time,cmd", 
+        "END_BSD", 
+        "state,tname,cputime,comm", 
+        "END_SYS5", 
+        "state,tname,time,command", 
+        "uname,pid,ppid,c,start,tname,time,cmd", 
+        "pid,tt,stat,time,command", 
+        "user,pid,ppid,pgid,sess,jobc,stat,tt,time,command", 
+        "uid,pid,ppid,cpu,pri,nice,vsz,rss,wchan,stat,tt,time,command", 
+        "user,pid,pcpu,pmem,vsz,rss,tt,stat,start,time,command", 
+        "pid,stat,time,sl,re,pagein,vsz,rss,lim,tsiz,pcpu,pmem,command", 
+        "pid,tty,time,comm", 
+        "user,pid,ppid,start_time,tty,time,comm", 
+        "user,pid,ppid,start_time,tty,time,pgid,sid,comm", 
+        "pid,tty,time,pgid,sid,comm", 
+        "flags,state,uid,pid,ppid,priority,nice,vsz,wchan,tty,time,comm", 
+        "flags,state,uid,pid,ppid,priority,nice,vsz,wchan,tty,time,pgid,sid,comm", 
+        "f,state,uid,pid,ppid,pcpu,pri,nice,rss,wchan,start,time,command", 
+        "FLASK_context", 
+        "pid,context,command", 
+        "user,pid,ppid,cpu,stime,tty,time,args", 
+        "flags,state,user,pid,ppid,cpu,intpri,nice,addr,sz,wchan,stime,tty,time,args", 
+        "flags,state,uid,pid,ppid,cpu,intpri,nice,addr,sz,wchan,tty,time,comm", 
+        "pid,sid,pgrp,tname,atime,args", 
+        "user,pid,ppid,pgid,sess,jobc,state,tname,cputime,command", 
+        "f,state,uid,pid,ppid,c,pri,nice,addr,sz,wchan,tt,time,ucmd", 
+        "uid,pid,ppid,cp,pri,nice,vsz,rss,wchan,state,tname,cputime,command", 
+        "pid,start_stack,esp,eip,timeout,alarm,stat,tname,bsdtime,args", 
+        "ppid,pid,pgid,sid,tname,tpgid,stat,uid,bsdtime,args", 
+        "flags,uid,pid,ppid,priority,nice,vsz,rss,wchan,stat,tname,bsdtime,args", 
+        "pid,tname,majflt,minflt,m_trs,m_drs,m_size,m_swap,rss,m_share,vm_lib,m_dt,args", 
+        "uid,pid,pending,sig_block,sig_ignore,caught,stat,tname,bsdtime,args", 
+        "user,pid,pcpu,pmem,vsz,rss,tname,stat,start_time,bsdtime,args", 
+        "pid,tname,stat,bsdtime,maj_flt,m_trs,m_drs,rss,pmem,args", 
+        "pid,tname,state,bsdtime,comm", 
+        "uid,pid,ppid,start_time,tname,bsdtime,args", 
+        "uid,pid,ppid,start_time,tname,bsdtime,pgid,sid,args", 
+        "pid,tname,state,bsdtime,pgid,sid,comm", 
+        "flags,state,uid,pid,ppid,priority,nice,wchan,tname,bsdtime,comm", 
+        "flags,state,uid,pid,ppid,priority,nice,wchan,tname,bsdtime,pgid,sid,comm", 
+        "RUSAGE", 
+        "minflt,majflt,nswap,inblock,oublock,msgsnd,msgrcv,nsigs,nvcsw,nivcsw", 
+        "user,pcpu,pri,usrpri,nice,psxpri,psr,policy,pset", 
+        "uid,pid,cursig,sig,sigmask,sigignore,sigcatch,stat,tname,command", 
+        "uid_hack,pid,ppid,c,stime,tname,time,cmd", 
+        "Std_fl", 
+        "f,s,uid_hack,pid,ppid,c,opri,ni,addr,sz,wchan,stime,tname,time,cmd", 
+        "f,s,uid,pid,ppid,c,opri,ni,addr,sz,wchan,tname,time,ucmd", 
+        "THREAD", 
+        "user,pcpu,pri,scnt,wchan,usertime,systime", 
+        "uname,pid,pcpu,pmem,vsz,rss,tt,state,start,time,command", 
+        "pid,tt,state,time,sl,pagein,vsz,rss,pcpu,pmem,command", 
+        "LLLLLLLL", 
+        "_left2", 
+        "L2L2L2L2", 
+        "_right", 
+        "RRRRRRRRRRR", 
+        "_right2", 
+        "R2R2R2R2R2R", 
+        "_unlimited", 
+        "_unlimited2", 
+        "acflag", 
+        "addr_1", 
+        "COMMAND", 
+        "blocked", 
+        "BLOCKED", 
+        "bsdstart", 
+        "bsdtime", 
+        "caught", 
+        "CAUGHT", 
+        "cmaj_flt", 
+        "cmin_flt", 
+        "cnswap", 
+        "context", 
+        "CONTEXT", 
+        "cputime", 
+        "cstime", 
+        "cursig", 
+        "CURSIG", 
+        "cutime", 
+        "egroup", 
+        "EGROUP", 
+        "end_code", 
+        "E_CODE", 
+        "environ", 
+        "ENVIRONMENT", 
+        "ELAPSED", 
+        "fgroup", 
+        "FGROUP", 
+        "fsgroup", 
+        "FSGROUP", 
+        "fsuser", 
+        "FSUSER", 
+        "ignored", 
+        "IGNORED", 
+        "inblock", 
+        "intpri", 
+        "ktrace", 
+        "KTRACE", 
+        "ktracep", 
+        "KTRACEP", 
+        "lastcpu", 
+        "LOGNAME", 
+        "logname", 
+        "longtname", 
+        "lstart", 
+        "STARTED", 
+        "m_resident", 
+        "m_share", 
+        "m_size", 
+        "m_swap", 
+        "maj_flt", 
+        "majflt", 
+        "MAJFLT", 
+        "min_flt", 
+        "minflt", 
+        "MINFLT", 
+        "msgrcv", 
+        "MSGRCV", 
+        "msgsnd", 
+        "MSGSND", 
+        "mwchan", 
+        "MWCHAN", 
+        "nivcsw", 
+        "nsignals", 
+        "nwchan", 
+        "oublock", 
+        "pagein", 
+        "PAGEIN", 
+        "pending", 
+        "PENDING", 
+        "policy", 
+        "pri_api", 
+        "pri_bar", 
+        "pri_baz", 
+        "pri_foo", 
+        "priority", 
+        "prmgrp", 
+        "PRMGRP", 
+        "project", 
+        "PROJECT", 
+        "projid", 
+        "PROJID", 
+        "psxpri", 
+        "resident", 
+        "rgroup", 
+        "RGROUP", 
+        "rssize", 
+        "rtprio", 
+        "RTPRIO", 
+        "scount", 
+        "session", 
+        "sgi_rss", 
+        "sgroup", 
+        "SGROUP", 
+        "sig_block", 
+        "sig_catch", 
+        "CATCHED", 
+        "sig_ignore", 
+        "sig_pend", 
+        "SIGNAL", 
+        "sigcatch", 
+        "sigignore", 
+        "sigmask", 
+        "stackp", 
+        "STACKP", 
+        "start_code", 
+        "S_CODE", 
+        "start_stack", 
+        "status", 
+        "STATUS", 
+        "svgroup", 
+        "SVGROUP", 
+        "svuser", 
+        "SVUSER", 
+        "systime", 
+        "SYSTEM", 
+        "taskid", 
+        "TASKID", 
+        "thcount", 
+        "timeout", 
+        "tsession", 
+        "u_procp", 
+        "UPROCP", 
+        "uid_hack", 
+        "uprocp", 
+        "usertime", 
+        "usrpri", 
+        "vm_data", 
+        "vm_exe", 
+        "vm_lib", 
+        "vm_lock", 
+        "vm_stack", 
+        "zoneid", 
+        "ZONEID", 
+        "unlimited", 
+        "[123456789-12345] <defunct>", 
+        "123456789-123456", 
+        "999-23:59:59", 
+        "99-23:59:59", 
+        "9-23:59:59", 
+        "pts/9999", 
+        "ttySMX0", 
+        "3270/tty4", 
+        "iseries/vtty42", 
+        "Thread display conflicts with forest display.", 
+        "Thread flags conflict; can't use H with m or -m.", 
+        "Thread flags conflict; can't use both m and -m.", 
+        "Thread flags conflict; can't use both -L and -T.", 
+        "Improper list.", 
+        "Unknown gnu long option.", 
+        "List of real groups must follow --Group.", 
+        "List of real users must follow --User.", 
+        "Option --cumulative does not take an argument.", 
+        "Option --deselect does not take an argument.", 
+        "Option --no-heading does not take an argument.", 
+        "Only one heading option may be specified.", 
+        "Option --heading does not take an argument.", 
+        "Option --forest does not take an argument.", 
+        "Format specification must follow --format.", 
+        "List of effective groups must follow --group.", 
+        "--help", 
+        "--info", 
+        "List of process IDs must follow --pid.", 
+        "List of process IDs must follow --ppid.", 
+        "Some sid thing(s) must follow --sid.", 
+        "Long sort specification must follow --sort.", 
+        "List of ttys must follow --tty.", 
+        "List of effective users must follow --user.", 
+        "--version", 
+        "Number of columns must follow --cols, --width, or --columns.", 
+        "The --help option is exclusive.", 
+        "The --info option is exclusive.", 
+        "The --version option is exclusive.", 
+        "Number of rows must follow --rows or --lines.", 
+        "aAdefgGlnoptuU", 
+        "Please report the \"SysV \\0 can't happen\" bug.", 
+        "Unsupported SysV option.", 
+        "List of command names must follow -C.", 
+        "Format or sort specification must follow -O.", 
+        "List of real groups must follow -U.", 
+        "List of session leaders OR effective group names must follow -g.", 
+        "List of session leaders OR effective group IDs was invalid.", 
+        "Alternate System.map file must follow -n.", 
+        "Format specification must follow -o.", 
+        "List of process IDs must follow -p.", 
+        "List of session IDs must follow -s.", 
+        "List of terminals (pty, tty...) must follow -t.", 
+        "List of users must follow -u.", 
+        "Must set personality to get -x option.", 
+        "Embedded '-' among SysV options makes no sense.", 
+        "way bad", 
+        "Can't happen!  Problem #1.", 
+        "Can't happen!  Problem #2.", 
+        "2nd chance parse failed, not BSD or SysV.", 
+        "Embedded '-' among BSD options makes no sense.", 
+        "Please report the \"BSD \\0 can't happen\" bug.", 
+        "Alternate System.map file must follow N.", 
+        "Format or sort specification must follow O.", 
+        "List of users must follow U.", 
+        "Obsolete W option not supported. (You have a /dev/drum?)", 
+        "Long sort specification must follow 'k'.", 
+        "Format specification must follow o.", 
+        "List of process IDs must follow p.", 
+        "Unsupported option (BSD syntax)", 
+        "List of real groups must follow -G.", 
+        "The -V option is exclusive.", 
+        "The L option is exclusive.", 
+        "The V option is exclusive.", 
+        "Garbage option.", 
+        "Warning: bad ps syntax, perhaps a bogus '-'? See http://procps.sf.net/faq.html", 
+        "ERROR: %s", 
+        "/dev/pts/%s", 
+        "/dev/%s", 
+        "/dev/tty%s", 
+        "/dev/pty%s", 
+        "/dev/%snsole", 
+        "columns", 
+        "cumulative", 
+        "deselect", 
+        "forest", 
+        "format", 
+        "header", 
+        "headers", 
+        "heading", 
+        "headings", 
+        "no-header", 
+        "no-headers", 
+        "no-heading", 
+        "no-headings", 
+        "noheader", 
+        "noheaders", 
+        "noheading", 
+        "noheadings", 
+        "version", 
+        "cxList member was not a TTY.", 
+        "TTY could not be found.", 
+        "Process ID list syntax error.", 
+        "Process ID out of range.", 
+        "User name does not exist.", 
+        "User ID out of range.", 
+        "Group name does not exist.", 
+        "Group ID out of range.", 
+        "Process selection options conflict.", 
+        "Internal error in ps! Please report this bug.", 
+        "Improper format list.", 
+        "Empty format list.", 
+        "0123456789", 
+        "Column widths must be unsigned decimal numbers.", 
+        "Unknown user-defined format specifier \"%s\".", 
+        "Can't set width for a macro (multi-column) format specifier.", 
+        "Improper AIX field descriptor.", 
+        "Unknown AIX field descriptor.", 
+        "AIX field descriptor processing bug.", 
+        "Seriously crashing. Goodbye cruel world.", 
+        "Bug: parse_O_option got weirdness!", 
+        "option -O can not follow other format options.", 
+        "Bad sorting code.", 
+        "PPID sort and forest output conflict.", 
+        "Multiple sort options.", 
+        "Improper sort list", 
+        "Empty sort list.", 
+        "Unknown sort specifier.", 
+        "option O is neither first format nor sort order.", 
+        "CGJKMNPRSTUcfgjkmnoprstuvy+-", 
+        "Bug: must reset the list first!", 
+        "Tell procps-feedback@lists.sf.net what you expected.", 
+        "PS_FORMAT", 
+        "Tell procps-feedback@sf.net what you want. (-L/-T, -m/m/H, and $PS_FORMAT)", 
+        "Warning: $PS_FORMAT ignored. (%s)", 
+        "Conflicting format options.", 
+        "Can't use output modifiers with user-defined output", 
+        "-L/-T with H/m/-m and -o/-O/o/O is nonsense", 
+        "Modifier -y without format -l makes no sense.", 
+        "Internal error, no PID or PPID for -j option.", 
+        "Lost my PGID!", 
+        "Internal error, no PRI for -c option.", 
+        "Lost my CLS!", 
+        "-T with H/-m/m but no PID for SPID to follow", 
+        "-L with H/-m/m but no PID/PGID/SID/SESS for NLWP to follow", 
+        ".shstrtab", 
+        ".interp", 
+        ".note.ABI-tag", 
+        ".dynsym", 
+        ".dynstr", 
+        ".gnu.version", 
+        ".gnu.version_r", 
+        ".rela.dyn", 
+        ".rela.plt", 
+        ".rodata", 
+        ".eh_frame_hdr", 
+        ".eh_frame", 
+        ".ctors", 
+        ".dtors", 
+        ".dynamic"
+    ], 
+    "metadata": {
+        "output": {
+            "pcap": {
+                "basename": "dump.pcap", 
+                "sha256": "e563a8036ca59e53a1cf556a891053daa1fc56ff556ca5e0bb3754421d42bcaf", 
+                "dirname": ""
+            }
+        }
+    }
+}
