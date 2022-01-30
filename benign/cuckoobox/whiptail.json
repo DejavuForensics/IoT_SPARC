@@ -1,0 +1,3060 @@
+{
+    "info": {
+        "added": 1642282906.702477, 
+        "started": 1642330622.977233, 
+        "duration": 818, 
+        "ended": 1642331441.541905, 
+        "owner": null, 
+        "score": 0.0, 
+        "id": 2651895, 
+        "category": "file", 
+        "git": {
+            "head": "", 
+            "fetch_head": ""
+        }, 
+        "monitor": null, 
+        "package": "elf", 
+        "route": "internet", 
+        "custom": null, 
+        "machine": {
+            "status": "stopped", 
+            "name": "Ubuntu1904x646", 
+            "label": "Ubuntu1904x646", 
+            "platform": "linux", 
+            "manager": "VirtualBox", 
+            "started_on": "2022-01-16 11:05:47", 
+            "shutdown_on": "2022-01-16 11:10:40"
+        }, 
+        "platform": "linux", 
+        "version": "2.0.7", 
+        "options": "procmemdump=yes,route=internet"
+    }, 
+    "signatures": [], 
+    "target": {
+        "category": "file", 
+        "file": {
+            "mimetype": "application/x-executable", 
+            "yara": [], 
+            "sha1": "f451e5990712f44032c42d8be7f9a172120ba74f", 
+            "name": "whiptail", 
+            "type": "ELF 32-bit MSB executable, SPARC, version 1 (SYSV), dynamically linked, interpreter /lib/ld-linux.so.2, for GNU/Linux 2.4.1, stripped", 
+            "sha256": "e93ae91a1ba64f2a783153452abc973fb4d3ee51fdd945d78394806353551cc0", 
+            "urls": [], 
+            "crc32": "CDF1B72B", 
+            "path": "/srv/cuckoo/cwd/storage/binaries/e93ae91a1ba64f2a783153452abc973fb4d3ee51fdd945d78394806353551cc0", 
+            "ssdeep": null, 
+            "size": 19788, 
+            "sha512": "654af647ef5be02b1f5124e7cf3ae1234764c76520bd76d738f72a257a0621cf25cc014655905756ff98240109db391ef65c631a6395db4f330184193c0b3466", 
+            "md5": "8b354ac45ad422d2ef3e14128afd3345"
+        }, 
+        "custom": null
+    }, 
+    "irma": {
+        "status": 0, 
+        "probes_finished": 16, 
+        "scan_id": "c4c48818-c4fc-4234-9f1f-d86153b06e2c", 
+        "parent_file_sha256": null, 
+        "name": "e93ae91a1ba64f2a783153452abc973fb4d3ee51fdd945d78394806353551cc0", 
+        "probes_total": 16, 
+        "scan_date": 1642324242, 
+        "other_results": [], 
+        "submitter": "cli", 
+        "file_infos": {
+            "mimetype": "ELF 32-bit MSB executable, SPARC, version 1 (SYSV)", 
+            "sha1": "f451e5990712f44032c42d8be7f9a172120ba74f", 
+            "tags": [], 
+            "timestamp_first_scan": 1642324241.99, 
+            "timestamp_last_scan": 1642324251.03, 
+            "sha256": "e93ae91a1ba64f2a783153452abc973fb4d3ee51fdd945d78394806353551cc0", 
+            "md5": "8b354ac45ad422d2ef3e14128afd3345", 
+            "size": 19788
+        }, 
+        "probe_results": {
+            "antivirus": {
+                "Avast Core Security (Linux)": {
+                    "status": 0, 
+                    "duration": 0.01, 
+                    "version": "3.0.3", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "F-Secure Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 5.83, 
+                    "version": "11.10", 
+                    "results": null, 
+                    "virus_database_version": "2022-01-13_04"
+                }, 
+                "Windows Defender (Windows)": {
+                    "status": 0, 
+                    "duration": 0.03, 
+                    "version": "1.1.18800.4", 
+                    "results": null, 
+                    "virus_database_version": "1.355.1049.0"
+                }, 
+                "Comodo Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 2.11, 
+                    "version": "1.1.268025.1", 
+                    "results": null, 
+                    "virus_database_version": "2021-11-02"
+                }, 
+                "Kaspersky Antivirus (Win)": {
+                    "status": 0, 
+                    "duration": 4.4, 
+                    "version": "21.3", 
+                    "results": null, 
+                    "virus_database_version": "2022-01-16 02:22:00 (full)"
+                }, 
+                "ESET NOD32 Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 4.25, 
+                    "version": "4.0.96", 
+                    "results": null, 
+                    "virus_database_version": "6178ebd0-1e722 (2021-10-27)"
+                }, 
+                "GData (Windows)": {
+                    "status": 0, 
+                    "duration": 0.17, 
+                    "version": "5.5.20197.1358", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Forticlient (Linux)": {
+                    "status": 0, 
+                    "duration": 3.04, 
+                    "version": "unavailable", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Avira (Windows)": {
+                    "status": 0, 
+                    "duration": 3.84, 
+                    "version": "8.3.64.66", 
+                    "results": null, 
+                    "virus_database_version": "8.19.1.122"
+                }, 
+                "eScan Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 3.92, 
+                    "version": "7.0.21", 
+                    "results": null, 
+                    "virus_database_version": "7.90035 (27/10/2021)"
+                }, 
+                "McAfee CLI scanner (Linux)": {
+                    "status": 0, 
+                    "duration": 5.79, 
+                    "version": "6.0.6.653", 
+                    "results": null, 
+                    "virus_database_version": "10149"
+                }, 
+                "Sophos Anti-Virus (Linux)": {
+                    "status": 0, 
+                    "duration": 6.68, 
+                    "version": "5.85.0", 
+                    "results": null, 
+                    "virus_database_version": "5.88 (26 October 2021)"
+                }, 
+                "DrWeb Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.2, 
+                    "version": "11.1.10.2108031732", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "ClamAV (Linux)": {
+                    "status": 0, 
+                    "duration": 0.02, 
+                    "version": "0.103.2", 
+                    "results": null, 
+                    "virus_database_version": "26334"
+                }, 
+                "Bitdefender Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 6.14, 
+                    "version": "7.90123", 
+                    "results": null, 
+                    "virus_database_version": null
+                }, 
+                "Emsisoft Commandline Scanner (Windows)": {
+                    "status": 0, 
+                    "duration": 0.22, 
+                    "version": "2021.10.0.11201", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }
+            }
+        }, 
+        "path": "", 
+        "result_id": "0fc885a7-8073-4d60-b8d2-85c450314015", 
+        "file_sha256": "e93ae91a1ba64f2a783153452abc973fb4d3ee51fdd945d78394806353551cc0"
+    }, 
+    "suricata": {
+        "tls": [], 
+        "files": [], 
+        "alerts": [], 
+        "http": []
+    }, 
+    "virustotal": {
+        "summary": {
+            "error": "resource has not been scanned yet"
+        }
+    }, 
+    "network": {
+        "tls": [], 
+        "udp": [], 
+        "dns_servers": [], 
+        "http": [], 
+        "icmp": [], 
+        "smtp": [], 
+        "tcp": [], 
+        "smtp_ex": [], 
+        "geoinfo": {}, 
+        "mitm": [], 
+        "hosts": [], 
+        "pcap_sha256": "704e5e5b3234433c01fcfd1b20a306e77e985038120492dc53965c3edd38a4ea", 
+        "dns": [], 
+        "http_ex": [], 
+        "domains": [], 
+        "dead_hosts": [], 
+        "irc": [], 
+        "https_ex": []
+    }, 
+    "resubmit": {
+        "resubmit_ids": []
+    }, 
+    "snort": {
+        "alerts": []
+    }, 
+    "behavior": {
+        "generic": [
+            {
+                "process_path": null, 
+                "process_name": "whiptail", 
+                "pid": 2082, 
+                "summary": {}, 
+                "first_seen": 1642282916.314092, 
+                "ppid": 2079
+            }, 
+            {
+                "process_path": null, 
+                "process_name": "whiptail", 
+                "pid": 2079, 
+                "summary": {}, 
+                "first_seen": 1642282914.253951, 
+                "ppid": -1
+            }
+        ], 
+        "processes": [
+            {
+                "calls": [
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:54 2022.253951 whiptail@7f67f053fc27[2079] execve(\"/tmp/whiptail\", [\"/tmp/whiptail\"], [\"SUDO_GID=0\", \"MAIL=/var/mail/root\", \"USER=root\", \"HOME=/root\", \"SUDO_UID=0\", \"LOGNAME=root\", \"SYSTEMTAP_MODULE=stap_\", \"TERM=unknown\", \"SYSTEMTAP_VERBOSE=2\", \"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin\", \"DISPLAY=:0\", \"LANG=en_US.UTF-8\", \"XAUTHORITY=/root/.Xauthority\", \"SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/whiptail\", \"SHELL=/bin/bash\", \"SUDO_USER=root\", \"PWD=/tmp/tmpy1UBnH\"])\n", 
+                        "api": "execve", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f053fc27", 
+                        "arguments": {
+                            "p2": [
+                                "SUDO_GID=0", 
+                                "MAIL=/var/mail/root", 
+                                "USER=root", 
+                                "HOME=/root", 
+                                "SUDO_UID=0", 
+                                "LOGNAME=root", 
+                                "SYSTEMTAP_MODULE=stap_", 
+                                "TERM=unknown", 
+                                "SYSTEMTAP_VERBOSE=2", 
+                                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin", 
+                                "DISPLAY=:0", 
+                                "LANG=en_US.UTF-8", 
+                                "XAUTHORITY=/root/.Xauthority", 
+                                "SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/whiptail", 
+                                "SHELL=/bin/bash", 
+                                "SUDO_USER=root", 
+                                "PWD=/tmp/tmpy1UBnH"
+                            ], 
+                            "p0": "/tmp/whiptail", 
+                            "p1": [
+                                "/tmp/whiptail"
+                            ]
+                        }, 
+                        "time": 1642282914.253951
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.298855 whiptail@7f67f053fc27[2079] brk(0x0) = 94199751331840\n", 
+                        "api": "brk", 
+                        "return_value": "94199751331840", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f053fc27", 
+                        "arguments": {
+                            "p0": "0x0"
+                        }, 
+                        "time": 1642282916.298855
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.298962 whiptail@7f67f05409d7[2079] access(\"/etc/ld.so.preload\", R_OK) = -2 (ENOENT)\n", 
+                        "api": "access", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f05409d7", 
+                        "arguments": {
+                            "p0": "/etc/ld.so.preload", 
+                            "p1": "R_OK"
+                        }, 
+                        "time": 1642282916.298962
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.299976 whiptail@7f67f0540b0d[2079] openat(AT_FDCWD, \"/etc/ld.so.cache\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f0540b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/etc/ld.so.cache"
+                        }, 
+                        "time": 1642282916.299976
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.300040 whiptail@7f67f0540943[2079] fstat(4, 0x7fff0e58d110) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f0540943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7fff0e58d110"
+                        }, 
+                        "time": 1642282916.30004
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.300091 whiptail@7f67f0540d03[2079] mmap2(0x0, 88858, PROT_READ, MAP_PRIVATE, 4, 0) = 0x7f67f050e000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f67f050e000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f0540d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE", 
+                            "p0": "0x0", 
+                            "p1": "88858", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642282916.300091
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.300146 whiptail@7f67f05409f7[2079] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f05409f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642282916.300146
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.300210 whiptail@7f67f0540b0d[2079] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f0540b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0"
+                        }, 
+                        "time": 1642282916.30021
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.300253 whiptail@7f67f0540bd4[2079] read(4, 0x7fff0e58d2c8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f0540bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7fff0e58d2c8"
+                        }, 
+                        "time": 1642282916.300253
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.300299 whiptail@7f67f0540943[2079] fstat(4, 0x7fff0e58d160) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f0540943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7fff0e58d160"
+                        }, 
+                        "time": 1642282916.300299
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.300331 whiptail@7f67f0540d03[2079] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f67f050c000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f67f050c000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f0540d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642282916.300331
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.300395 whiptail@7f67f0540d03[2079] mmap2(0x0, 20600, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f67f0506000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f67f0506000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f0540d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "20600", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642282916.300395
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.300451 whiptail@7f67f0540d03[2079] mmap2(0x7f67f0507000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 4096) = 0x7f67f0507000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f67f0507000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f0540d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f67f0507000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "4096"
+                        }, 
+                        "time": 1642282916.300451
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.300502 whiptail@7f67f0540d03[2079] mmap2(0x7f67f0509000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f67f0509000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f67f0509000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f0540d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f67f0509000", 
+                            "p1": "4096", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642282916.300502
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.300542 whiptail@7f67f0540d03[2079] mmap2(0x7f67f050a000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f67f050a000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f67f050a000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f0540d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f67f050a000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642282916.300542
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.300593 whiptail@7f67f05409f7[2079] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f05409f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642282916.300593
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.300639 whiptail@7f67f0540b0d[2079] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f0540b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0"
+                        }, 
+                        "time": 1642282916.300639
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.300695 whiptail@7f67f0540bd4[2079] read(4, 0x7fff0e58d2a8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f0540bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7fff0e58d2a8"
+                        }, 
+                        "time": 1642282916.300695
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.300744 whiptail@7f67f0540943[2079] fstat(4, 0x7fff0e58d140) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f0540943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7fff0e58d140"
+                        }, 
+                        "time": 1642282916.300744
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.300792 whiptail@7f67f0540d03[2079] mmap2(0x0, 1180072, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f67f03e5000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f67f03e5000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f0540d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1180072", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642282916.300792
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.300847 whiptail@7f67f0540db7[2079] mprotect(0x7f67f0400000, 1060864, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f0540db7", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7f67f0400000", 
+                            "p1": "1060864"
+                        }, 
+                        "time": 1642282916.300847
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.300910 whiptail@7f67f0540d03[2079] mmap2(0x7f67f0400000, 524288, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 110592) = 0x7f67f0400000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f67f0400000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f0540d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f67f0400000", 
+                            "p1": "524288", 
+                            "p4": "4", 
+                            "p5": "110592"
+                        }, 
+                        "time": 1642282916.30091
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.300965 whiptail@7f67f0540d03[2079] mmap2(0x7f67f0480000, 532480, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 634880) = 0x7f67f0480000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f67f0480000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f0540d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f67f0480000", 
+                            "p1": "532480", 
+                            "p4": "4", 
+                            "p5": "634880"
+                        }, 
+                        "time": 1642282916.300965
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.301004 whiptail@7f67f0540d03[2079] mmap2(0x7f67f0503000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1167360) = 0x7f67f0503000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f67f0503000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f0540d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f67f0503000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "1167360"
+                        }, 
+                        "time": 1642282916.301004
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.301050 whiptail@7f67f0540d03[2079] mmap2(0x7f67f0505000, 424, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f67f0505000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f67f0505000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f0540d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f67f0505000", 
+                            "p1": "424", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642282916.30105
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.301094 whiptail@7f67f05409f7[2079] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f05409f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642282916.301094
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.301167 whiptail@7f67f0540b0d[2079] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/librt.so.1\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f0540b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/librt.so.1"
+                        }, 
+                        "time": 1642282916.301167
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.301223 whiptail@7f67f0540bd4[2079] read(4, 0x7fff0e58d288, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f0540bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7fff0e58d288"
+                        }, 
+                        "time": 1642282916.301223
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.301258 whiptail@7f67f0540943[2079] fstat(4, 0x7fff0e58d120) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f0540943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7fff0e58d120"
+                        }, 
+                        "time": 1642282916.301258
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.301291 whiptail@7f67f0540d03[2079] mmap2(0x0, 44000, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f67f03da000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f67f03da000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f0540d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "44000", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642282916.301291
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.301332 whiptail@7f67f0540d03[2079] mmap2(0x7f67f03dd000, 16384, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f67f03dd000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f67f03dd000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f0540d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f67f03dd000", 
+                            "p1": "16384", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642282916.301332
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.301381 whiptail@7f67f0540d03[2079] mmap2(0x7f67f03e1000, 8192, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 28672) = 0x7f67f03e1000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f67f03e1000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f0540d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f67f03e1000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "28672"
+                        }, 
+                        "time": 1642282916.301381
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.301430 whiptail@7f67f0540d03[2079] mmap2(0x7f67f03e3000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 32768) = 0x7f67f03e3000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f67f03e3000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f0540d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f67f03e3000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "32768"
+                        }, 
+                        "time": 1642282916.30143
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.301518 whiptail@7f67f05409f7[2079] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f05409f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642282916.301518
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.301583 whiptail@7f67f0540b0d[2079] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libm.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f0540b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libm.so.6"
+                        }, 
+                        "time": 1642282916.301583
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.301646 whiptail@7f67f0540bd4[2079] read(4, 0x7fff0e58d268, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f0540bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7fff0e58d268"
+                        }, 
+                        "time": 1642282916.301646
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.301693 whiptail@7f67f0540943[2079] fstat(4, 0x7fff0e58d100) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f0540943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7fff0e58d100"
+                        }, 
+                        "time": 1642282916.301693
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.301733 whiptail@7f67f0540d03[2079] mmap2(0x0, 1364240, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f67f028c000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f67f028c000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f0540d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1364240", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642282916.301733
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.301775 whiptail@7f67f0540d03[2079] mmap2(0x7f67f029b000, 679936, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 61440) = 0x7f67f029b000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f67f029b000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f0540d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f67f029b000", 
+                            "p1": "679936", 
+                            "p4": "4", 
+                            "p5": "61440"
+                        }, 
+                        "time": 1642282916.301775
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.301819 whiptail@7f67f0540d03[2079] mmap2(0x7f67f0341000, 618496, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 741376) = 0x7f67f0341000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f67f0341000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f0540d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f67f0341000", 
+                            "p1": "618496", 
+                            "p4": "4", 
+                            "p5": "741376"
+                        }, 
+                        "time": 1642282916.301819
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.301866 whiptail@7f67f0540d03[2079] mmap2(0x7f67f03d8000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1355776) = 0x7f67f03d8000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f67f03d8000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f0540d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f67f03d8000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "1355776"
+                        }, 
+                        "time": 1642282916.301866
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.301941 whiptail@7f67f05409f7[2079] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f05409f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642282916.301941
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.301996 whiptail@7f67f0540b0d[2079] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libgcc_s.so.1\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f0540b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libgcc_s.so.1"
+                        }, 
+                        "time": 1642282916.301996
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.302037 whiptail@7f67f0540bd4[2079] read(4, 0x7fff0e58d248, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f0540bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7fff0e58d248"
+                        }, 
+                        "time": 1642282916.302037
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.302070 whiptail@7f67f0540943[2079] fstat(4, 0x7fff0e58d0e0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f0540943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7fff0e58d0e0"
+                        }, 
+                        "time": 1642282916.30207
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.302102 whiptail@7f67f0540d03[2079] mmap2(0x0, 103504, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f67f0272000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f67f0272000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f0540d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "103504", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642282916.302102
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.302141 whiptail@7f67f0540d03[2079] mmap2(0x7f67f0275000, 69632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f67f0275000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f67f0275000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f0540d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f67f0275000", 
+                            "p1": "69632", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642282916.302141
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.302199 whiptail@7f67f0540d03[2079] mmap2(0x7f67f0286000, 16384, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 81920) = 0x7f67f0286000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f67f0286000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f0540d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f67f0286000", 
+                            "p1": "16384", 
+                            "p4": "4", 
+                            "p5": "81920"
+                        }, 
+                        "time": 1642282916.302199
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.302254 whiptail@7f67f0540d03[2079] mmap2(0x7f67f028a000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 94208) = 0x7f67f028a000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f67f028a000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f0540d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f67f028a000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "94208"
+                        }, 
+                        "time": 1642282916.302254
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.302326 whiptail@7f67f05409f7[2079] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f05409f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642282916.302326
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.302389 whiptail@7f67f0540b0d[2079] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libpthread.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f0540b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libpthread.so.0"
+                        }, 
+                        "time": 1642282916.302389
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.302451 whiptail@7f67f0540bd4[2079] read(4, 0x7fff0e58d228, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f0540bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7fff0e58d228"
+                        }, 
+                        "time": 1642282916.302451
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.302493 whiptail@7f67f0540943[2079] fstat(4, 0x7fff0e58d0c0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f0540943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7fff0e58d0c0"
+                        }, 
+                        "time": 1642282916.302493
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.302527 whiptail@7f67f0540d03[2079] mmap2(0x0, 132288, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f67f0251000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f67f0251000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f0540d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "132288", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642282916.302527
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.302566 whiptail@7f67f0540d03[2079] mmap2(0x7f67f0258000, 61440, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 28672) = 0x7f67f0258000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f67f0258000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f0540d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f67f0258000", 
+                            "p1": "61440", 
+                            "p4": "4", 
+                            "p5": "28672"
+                        }, 
+                        "time": 1642282916.302566
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.302609 whiptail@7f67f0540d03[2079] mmap2(0x7f67f0267000, 20480, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 90112) = 0x7f67f0267000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f67f0267000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f0540d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f67f0267000", 
+                            "p1": "20480", 
+                            "p4": "4", 
+                            "p5": "90112"
+                        }, 
+                        "time": 1642282916.302609
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.302662 whiptail@7f67f0540d03[2079] mmap2(0x7f67f026c000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 106496) = 0x7f67f026c000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f67f026c000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f0540d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f67f026c000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "106496"
+                        }, 
+                        "time": 1642282916.302662
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.302729 whiptail@7f67f0540d03[2079] mmap2(0x7f67f026e000, 13504, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f67f026e000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f67f026e000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f0540d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f67f026e000", 
+                            "p1": "13504", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642282916.302729
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.302792 whiptail@7f67f05409f7[2079] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f05409f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642282916.302792
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.302839 whiptail@7f67f0540b0d[2079] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libc.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f0540b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libc.so.6"
+                        }, 
+                        "time": 1642282916.302839
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.302879 whiptail@7f67f0540bd4[2079] read(4, 0x7fff0e58d208, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f0540bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7fff0e58d208"
+                        }, 
+                        "time": 1642282916.302879
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.302915 whiptail@7f67f0540943[2079] fstat(4, 0x7fff0e58d0a0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f0540943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7fff0e58d0a0"
+                        }, 
+                        "time": 1642282916.302915
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.302959 whiptail@7f67f0540d03[2079] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f67f024f000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f67f024f000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f0540d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642282916.302959
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.303018 whiptail@7f67f0540d03[2079] mmap2(0x0, 2008696, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f67f0064000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f67f0064000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f0540d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "2008696", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642282916.303018
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.303071 whiptail@7f67f0540d03[2079] mmap2(0x7f67f0089000, 1519616, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 151552) = 0x7f67f0089000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f67f0089000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f0540d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f67f0089000", 
+                            "p1": "1519616", 
+                            "p4": "4", 
+                            "p5": "151552"
+                        }, 
+                        "time": 1642282916.303071
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.303132 whiptail@7f67f0540d03[2079] mmap2(0x7f67f01fc000, 299008, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1671168) = 0x7f67f01fc000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f67f01fc000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f0540d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f67f01fc000", 
+                            "p1": "299008", 
+                            "p4": "4", 
+                            "p5": "1671168"
+                        }, 
+                        "time": 1642282916.303132
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.303198 whiptail@7f67f0540d03[2079] mmap2(0x7f67f0245000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1966080) = 0x7f67f0245000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f67f0245000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f0540d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f67f0245000", 
+                            "p1": "24576", 
+                            "p4": "4", 
+                            "p5": "1966080"
+                        }, 
+                        "time": 1642282916.303198
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.303266 whiptail@7f67f0540d03[2079] mmap2(0x7f67f024b000, 13944, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f67f024b000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f67f024b000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f0540d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f67f024b000", 
+                            "p1": "13944", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642282916.303266
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.303367 whiptail@7f67f05409f7[2079] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f05409f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642282916.303367
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.303430 whiptail@7f67f0540b0d[2079] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libdl.so.2\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f0540b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libdl.so.2"
+                        }, 
+                        "time": 1642282916.30343
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.303489 whiptail@7f67f0540bd4[2079] read(4, 0x7fff0e58d1e8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f0540bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7fff0e58d1e8"
+                        }, 
+                        "time": 1642282916.303489
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.303539 whiptail@7f67f0540943[2079] fstat(4, 0x7fff0e58d080) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f0540943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7fff0e58d080"
+                        }, 
+                        "time": 1642282916.303539
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.303589 whiptail@7f67f0540d03[2079] mmap2(0x0, 20752, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f67f005e000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f67f005e000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f0540d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "20752", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642282916.303589
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.303637 whiptail@7f67f0540d03[2079] mmap2(0x7f67f005f000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 4096) = 0x7f67f005f000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f67f005f000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f0540d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f67f005f000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "4096"
+                        }, 
+                        "time": 1642282916.303637
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.303682 whiptail@7f67f0540d03[2079] mmap2(0x7f67f0061000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f67f0061000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f67f0061000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f0540d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f67f0061000", 
+                            "p1": "4096", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642282916.303682
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.303721 whiptail@7f67f0540d03[2079] mmap2(0x7f67f0062000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f67f0062000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f67f0062000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f0540d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f67f0062000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642282916.303721
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.303790 whiptail@7f67f05409f7[2079] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f05409f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642282916.30379
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.303855 whiptail@7f67f0540b0d[2079] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libpcre.so.3\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f0540b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libpcre.so.3"
+                        }, 
+                        "time": 1642282916.303855
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.303911 whiptail@7f67f0540bd4[2079] read(4, 0x7fff0e58d1c8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f0540bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7fff0e58d1c8"
+                        }, 
+                        "time": 1642282916.303911
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.303960 whiptail@7f67f0540943[2079] fstat(4, 0x7fff0e58d060) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f0540943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7fff0e58d060"
+                        }, 
+                        "time": 1642282916.30396
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.304007 whiptail@7f67f0540d03[2079] mmap2(0x0, 471304, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f67effea000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f67effea000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f0540d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "471304", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642282916.304007
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.304063 whiptail@7f67f0540d03[2079] mmap2(0x7f67effec000, 335872, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 8192) = 0x7f67effec000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f67effec000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f0540d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f67effec000", 
+                            "p1": "335872", 
+                            "p4": "4", 
+                            "p5": "8192"
+                        }, 
+                        "time": 1642282916.304063
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.304118 whiptail@7f67f0540d03[2079] mmap2(0x7f67f003e000, 122880, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 344064) = 0x7f67f003e000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f67f003e000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f0540d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f67f003e000", 
+                            "p1": "122880", 
+                            "p4": "4", 
+                            "p5": "344064"
+                        }, 
+                        "time": 1642282916.304118
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.304158 whiptail@7f67f0540d03[2079] mmap2(0x7f67f005c000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 462848) = 0x7f67f005c000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f67f005c000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f0540d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f67f005c000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "462848"
+                        }, 
+                        "time": 1642282916.304158
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.304209 whiptail@7f67f05409f7[2079] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f05409f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642282916.304209
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.305397 whiptail@7f67f0540d03[2079] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f67effe8000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f67effe8000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f0540d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642282916.305397
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.305618 whiptail@7f67f0525f30[2079] arch_prctl(ARCH_SET_FS, 140084384796992) = 0\n", 
+                        "api": "arch_prctl", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f0525f30", 
+                        "arguments": {
+                            "p0": "ARCH_SET_FS", 
+                            "p1": "140084384796992"
+                        }, 
+                        "time": 1642282916.305618
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.306407 whiptail@7f67f0540db7[2079] mprotect(0x7f67f0245000, 12288, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f0540db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f67f0245000", 
+                            "p1": "12288"
+                        }, 
+                        "time": 1642282916.306407
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.306469 whiptail@7f67f0540db7[2079] mprotect(0x7f67f026c000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f0540db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f67f026c000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642282916.306469
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.306532 whiptail@7f67f0540db7[2079] mprotect(0x7f67f005c000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f0540db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f67f005c000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642282916.306532
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.306577 whiptail@7f67f0540db7[2079] mprotect(0x7f67f0062000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f0540db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f67f0062000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642282916.306577
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.306635 whiptail@7f67f0540db7[2079] mprotect(0x7f67f028a000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f0540db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f67f028a000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642282916.306635
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.306714 whiptail@7f67f0540db7[2079] mprotect(0x7f67f03d8000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f0540db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f67f03d8000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642282916.306714
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.306762 whiptail@7f67f0540db7[2079] mprotect(0x7f67f03e3000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f0540db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f67f03e3000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642282916.306762
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.307042 whiptail@7f67f0540db7[2079] mprotect(0x7f67f0503000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f0540db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f67f0503000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642282916.307042
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.307126 whiptail@7f67f0540db7[2079] mprotect(0x7f67f050a000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f0540db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f67f050a000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642282916.307126
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.310579 whiptail@7f67f0540db7[2079] mprotect(0x55ac92ffb000, 303104, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f0540db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x55ac92ffb000", 
+                            "p1": "303104"
+                        }, 
+                        "time": 1642282916.310579
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.310653 whiptail@7f67f0540db7[2079] mprotect(0x7f67f054e000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f0540db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f67f054e000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642282916.310653
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.310795 whiptail@7f67f0540d97[2079] munmap(0x7f67f050e000, 88858) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f0540d97", 
+                        "arguments": {
+                            "p0": "0x7f67f050e000", 
+                            "p1": "88858"
+                        }, 
+                        "time": 1642282916.310795
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.310897 whiptail@7f67f02588df[2079] set_tid_address(0x7f67effe9410) = 2079\n", 
+                        "api": "set_tid_address", 
+                        "return_value": "2079", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f02588df", 
+                        "arguments": {
+                            "p0": "0x7f67effe9410"
+                        }, 
+                        "time": 1642282916.310897
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.310950 whiptail@7f67f025894a[2079] set_robust_list(0x7f67effe9420, 24) = 0\n", 
+                        "api": "set_robust_list", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f025894a", 
+                        "arguments": {
+                            "p0": "0x7f67effe9420", 
+                            "p1": "24"
+                        }, 
+                        "time": 1642282916.31095
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.311013 whiptail@7f67f0265010[2079] rt_sigaction(0x20, {0x7f67f02586c0, SA_SIGINFO|SA_RESTORER, 0x7f67f0264f40, [EMPTY]}, 0x0, 8) = 0\n", 
+                        "api": "rt_sigaction", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f0265010", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "0x20", 
+                            "p1": [
+                                "0x7f67f02586c0", 
+                                "SA_SIGINFO|SA_RESTORER", 
+                                "0x7f67f0264f40", 
+                                [
+                                    "EMPTY]"
+                                ]
+                            ]
+                        }, 
+                        "time": 1642282916.311013
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.311066 whiptail@7f67f0265010[2079] rt_sigaction(0x21, {0x7f67f0258760, SA_RESTART|SA_SIGINFO|SA_RESTORER, 0x7f67f0264f40, [EMPTY]}, 0x0, 8) = 0\n", 
+                        "api": "rt_sigaction", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f0265010", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "0x21", 
+                            "p1": [
+                                "0x7f67f0258760", 
+                                "SA_RESTART|SA_SIGINFO|SA_RESTORER", 
+                                "0x7f67f0264f40", 
+                                [
+                                    "EMPTY]"
+                                ]
+                            ]
+                        }, 
+                        "time": 1642282916.311066
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.311101 whiptail@7f67f0258a19[2079] rt_sigprocmask(SIG_UNBLOCK, [EMPTY], 0x0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f0258a19", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "SIG_UNBLOCK", 
+                            "p1": [
+                                "EMPTY"
+                            ]
+                        }, 
+                        "time": 1642282916.311101
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.311146 whiptail@7f67f0176df0[2079] prlimit64(0, RLIMIT_STACK, NULL, 0x7fff0e58dea0) = 0\n", 
+                        "api": "prlimit64", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f0176df0", 
+                        "arguments": {
+                            "p2": "NULL", 
+                            "p3": "0x7fff0e58dea0", 
+                            "p0": "0", 
+                            "p1": "RLIMIT_STACK"
+                        }, 
+                        "time": 1642282916.311146
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.311425 whiptail@7f67f01772f7[2079] brk(0x0) = 94199751331840\n", 
+                        "api": "brk", 
+                        "return_value": "94199751331840", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f01772f7", 
+                        "arguments": {
+                            "p0": "0x0"
+                        }, 
+                        "time": 1642282916.311425
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.311461 whiptail@7f67f01772f7[2079] brk(0x55ac96b96000) = 94199751467008\n", 
+                        "api": "brk", 
+                        "return_value": "94199751467008", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f01772f7", 
+                        "arguments": {
+                            "p0": "0x55ac96b96000"
+                        }, 
+                        "time": 1642282916.311461
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.312724 whiptail@7f67f0261b86[2079] rt_sigprocmask(SIG_SETMASK, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS], 0x7fff0e58ddf0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f0261b86", 
+                        "arguments": {
+                            "p2": "0x7fff0e58ddf0", 
+                            "p3": "8", 
+                            "p0": "SIG_SETMASK", 
+                            "p1": [
+                                "SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS"
+                            ]
+                        }, 
+                        "time": 1642282916.312724
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.313703 whiptail@7f67f017b4c3[2079] mmap2(0x0, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f67ef7e7000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f67ef7e7000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f017b4c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK", 
+                            "p0": "0x0", 
+                            "p1": "8392704", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642282916.313703
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.313748 whiptail@7f67f017b597[2079] mprotect(0x7f67ef7e8000, 8388608, PROT_READ|PROT_WRITE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f017b597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p0": "0x7f67ef7e8000", 
+                            "p1": "8388608"
+                        }, 
+                        "time": 1642282916.313748
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.313820 whiptail@7f67f0181b11[2079] clone(CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, 0x7f67effe6f70, 0x7f67effe79d0, 0x7f67effe79d0) = 2082\n", 
+                        "api": "clone", 
+                        "return_value": "2082", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f0181b11", 
+                        "arguments": {
+                            "p2": "0x7f67effe79d0", 
+                            "p3": "0x7f67effe79d0", 
+                            "p0": "CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID", 
+                            "p1": "0x7f67effe6f70"
+                        }, 
+                        "time": 1642282916.31382
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.313951 whiptail@7f67f0261b86[2079] rt_sigprocmask(SIG_SETMASK, [EMPTY], 0x0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f0261b86", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "SIG_SETMASK", 
+                            "p1": [
+                                "EMPTY"
+                            ]
+                        }, 
+                        "time": 1642282916.313951
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.316724 whiptail@7f67f0176df0[2079] prlimit64(0, RLIMIT_STACK, NULL, 0x7fff0e58d9b0) = 0\n", 
+                        "api": "prlimit64", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f0176df0", 
+                        "arguments": {
+                            "p2": "NULL", 
+                            "p3": "0x7fff0e58d9b0", 
+                            "p0": "0", 
+                            "p1": "RLIMIT_STACK"
+                        }, 
+                        "time": 1642282916.316724
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.316777 whiptail@7f67f01765c1[2079] openat(AT_FDCWD, \"/etc/qemu-binfmt/sparc\", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -2 (ENOENT)\n", 
+                        "api": "openat", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f01765c1", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/etc/qemu-binfmt/sparc"
+                        }, 
+                        "time": 1642282916.316777
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.316868 whiptail@7f67f0145247[2079] uname(0x7fff0e58d620) = 0\n", 
+                        "api": "uname", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f0145247", 
+                        "arguments": {
+                            "p0": "0x7fff0e58d620"
+                        }, 
+                        "time": 1642282916.316868
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.316923 whiptail@7f67f0264337[2079] lseek(3, 0, SEEK_SET) = 0\n", 
+                        "api": "lseek", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f0264337", 
+                        "arguments": {
+                            "p2": "SEEK_SET", 
+                            "p0": "3", 
+                            "p1": "0"
+                        }, 
+                        "time": 1642282916.316923
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.316974 whiptail@7f67f0263d94[2079] read(3, 0x7fff0e58d910, 52) = 52\n", 
+                        "api": "read", 
+                        "return_value": "52", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f0263d94", 
+                        "arguments": {
+                            "p2": "52", 
+                            "p0": "3", 
+                            "p1": "0x7fff0e58d910"
+                        }, 
+                        "time": 1642282916.316974
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.317026 whiptail@7f67f0264337[2079] lseek(3, 0, SEEK_SET) = 0\n", 
+                        "api": "lseek", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f0264337", 
+                        "arguments": {
+                            "p2": "SEEK_SET", 
+                            "p0": "3", 
+                            "p1": "0"
+                        }, 
+                        "time": 1642282916.317026
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.318409 whiptail@7f67f017b4c3[2079] mmap2(0x0, 528384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f67ef766000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f67ef766000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f017b4c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "528384", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642282916.318409
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.318960 whiptail@7f67f017b597[2079] mprotect(0x55ac93058000, 33550336, PROT_READ|PROT_WRITE|PROT_EXEC) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f017b597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE|PROT_EXEC", 
+                            "p0": "0x55ac93058000", 
+                            "p1": "33550336"
+                        }, 
+                        "time": 1642282916.31896
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.319006 whiptail@7f67f017b667[2079] madvise(0x55ac93058000, 33550336, MADV_HUGEPAGE) = 0\n", 
+                        "api": "madvise", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f017b667", 
+                        "arguments": {
+                            "p2": "MADV_HUGEPAGE", 
+                            "p0": "0x55ac93058000", 
+                            "p1": "33550336"
+                        }, 
+                        "time": 1642282916.319006
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.319236 whiptail@7f67f017b4c3[2079] mmap2(0x0, 4294963200, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f66e8001000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f66e8001000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f017b4c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x0", 
+                            "p1": "4294963200", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642282916.319236
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.319303 whiptail@7f67f0170d59[2079] openat(AT_FDCWD, \"/proc/sys/vm/mmap_min_addr\", O_RDONLY) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f0170d59", 
+                        "arguments": {
+                            "p2": "O_RDONLY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/proc/sys/vm/mmap_min_addr"
+                        }, 
+                        "time": 1642282916.319303
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.319398 whiptail@7f67f0170613[2079] fstat(4, 0x7fff0e58d020) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f0170613", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7fff0e58d020"
+                        }, 
+                        "time": 1642282916.319398
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.319439 whiptail@7f67f0170fb4[2079] read(4, 0x55ac96b823d0, 1024) = 6\n", 
+                        "api": "read", 
+                        "return_value": "6", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f0170fb4", 
+                        "arguments": {
+                            "p2": "1024", 
+                            "p0": "4", 
+                            "p1": "0x55ac96b823d0"
+                        }, 
+                        "time": 1642282916.319439
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.319489 whiptail@7f67f01763f7[2079] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f01763f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642282916.319489
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.319557 whiptail@7f67f017b2e9[2079] gettid() = 2079\n", 
+                        "api": "gettid", 
+                        "return_value": "2079", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f017b2e9", 
+                        "arguments": {}, 
+                        "time": 1642282916.319557
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.319602 whiptail@7f67f0170613[2079] fstat(3, 0x7fff0e58d890) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f0170613", 
+                        "arguments": {
+                            "p0": "3", 
+                            "p1": "0x7fff0e58d890"
+                        }, 
+                        "time": 1642282916.319602
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.319649 whiptail@7f67f0146717[2079] geteuid() = 0\n", 
+                        "api": "geteuid", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f0146717", 
+                        "arguments": {}, 
+                        "time": 1642282916.319649
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.319695 whiptail@7f67f0146737[2079] getegid() = 0\n", 
+                        "api": "getegid", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f0146737", 
+                        "arguments": {}, 
+                        "time": 1642282916.319695
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.319743 whiptail@7f67f0263d94[2079] read(3, 0x7fff0e58da90, 1024) = 1024\n", 
+                        "api": "read", 
+                        "return_value": "1024", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f0263d94", 
+                        "arguments": {
+                            "p2": "1024", 
+                            "p0": "3", 
+                            "p1": "0x7fff0e58da90"
+                        }, 
+                        "time": 1642282916.319743
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.319790 whiptail@7f67f017b4c3[2079] mmap2(0x7f66e8011000, 20480, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 3, 0) = 0x7f66e8011000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f66e8011000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f017b4c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED", 
+                            "p0": "0x7f66e8011000", 
+                            "p1": "20480", 
+                            "p4": "3", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642282916.31979
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.319838 whiptail@7f67f01772f7[2079] brk(0x55ac96bb7000) = 94199751602176\n", 
+                        "api": "brk", 
+                        "return_value": "94199751602176", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f01772f7", 
+                        "arguments": {
+                            "p0": "0x55ac96bb7000"
+                        }, 
+                        "time": 1642282916.319838
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.319896 whiptail@7f67f017b4c3[2079] mmap2(0x7f66e8025000, 4096, PROT_READ|PROT_WRITE|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 3, 16384) = 0x7f66e8025000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f66e8025000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f017b4c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED", 
+                            "p0": "0x7f66e8025000", 
+                            "p1": "4096", 
+                            "p4": "3", 
+                            "p5": "16384"
+                        }, 
+                        "time": 1642282916.319896
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.319962 whiptail@7f67f0263e27[2079] close(3) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f0263e27", 
+                        "arguments": {
+                            "p0": "3"
+                        }, 
+                        "time": 1642282916.319962
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.320061 whiptail@7f67f017b4c3[2079] mmap2(0x7f67e77ff000, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f67e77ff000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f67e77ff000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f017b4c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f67e77ff000", 
+                            "p1": "8392704", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642282916.320061
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.320185 whiptail@7f67f017b597[2079] mprotect(0x7f67e77ff000, 4096, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f017b597", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7f67e77ff000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642282916.320185
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.320249 whiptail@7f67f026455e[2079] openat(AT_FDCWD, \"/lib/ld-linux.so.2\", O_RDONLY) = -2 (ENOENT)\n", 
+                        "api": "openat", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f026455e", 
+                        "arguments": {
+                            "p2": "O_RDONLY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/ld-linux.so.2"
+                        }, 
+                        "time": 1642282916.320249
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.320347 whiptail@7f67f0171057[2079] write(2, \"/lib/ld-linux.so.2: No such file or directory\\n\", 46) = 46\n", 
+                        "api": "write", 
+                        "return_value": "46", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f0171057", 
+                        "arguments": {
+                            "p2": "46", 
+                            "p0": "2", 
+                            "p1": "/lib/ld-linux.so.2: No such file or directory\n"
+                        }, 
+                        "time": 1642282916.320347
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.320435 whiptail@7f67f0145926[2079] exit_group(-1)\n", 
+                        "api": "exit_group", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f0145926", 
+                        "arguments": {
+                            "p0": "-1"
+                        }, 
+                        "time": 1642282916.320435
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2079, 
+                        "raw": "Sat Jan 15 21:41:56 2022.320488 whiptail@7f67f0145926[2079] futex(0x7f67effe9410, FUTEX_WAKE, 1) = 0\n", 
+                        "api": "futex", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f0145926", 
+                        "arguments": {
+                            "p2": "1", 
+                            "p0": "0x7f67effe9410", 
+                            "p1": "FUTEX_WAKE"
+                        }, 
+                        "time": 1642282916.320488
+                    }
+                ], 
+                "pid": 2079, 
+                "process_name": "whiptail", 
+                "command_line": "/tmp/whiptail", 
+                "first_seen": 1642282914.253951, 
+                "ppid": -1, 
+                "type": "process"
+            }, 
+            {
+                "calls": [
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2082, 
+                        "raw": "Sat Jan 15 21:41:56 2022.314092 whiptail@7f67f025a117[2082] set_robust_list(0x7f67effe79e0, 24) = 0\n", 
+                        "api": "set_robust_list", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f025a117", 
+                        "arguments": {
+                            "p0": "0x7f67effe79e0", 
+                            "p1": "24"
+                        }, 
+                        "time": 1642282916.314092
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2082, 
+                        "raw": "Sat Jan 15 21:41:56 2022.314183 whiptail@7f67f017b4c3[2082] mmap2(0x0, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f67e77e7000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f67e77e7000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f017b4c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x0", 
+                            "p1": "134217728", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642282916.314183
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2082, 
+                        "raw": "Sat Jan 15 21:41:56 2022.314258 whiptail@7f67f017b567[2082] munmap(0x7f67e77e7000, 8491008) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f017b567", 
+                        "arguments": {
+                            "p0": "0x7f67e77e7000", 
+                            "p1": "8491008"
+                        }, 
+                        "time": 1642282916.314258
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2082, 
+                        "raw": "Sat Jan 15 21:41:56 2022.314332 whiptail@7f67f017b567[2082] munmap(0x7f67ec000000, 58617856) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f017b567", 
+                        "arguments": {
+                            "p0": "0x7f67ec000000", 
+                            "p1": "58617856"
+                        }, 
+                        "time": 1642282916.314332
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2082, 
+                        "raw": "Sat Jan 15 21:41:56 2022.314396 whiptail@7f67f017b597[2082] mprotect(0x7f67e8000000, 135168, PROT_READ|PROT_WRITE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f017b597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p0": "0x7f67e8000000", 
+                            "p1": "135168"
+                        }, 
+                        "time": 1642282916.314396
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whiptail", 
+                        "pid": 2082, 
+                        "raw": "Sat Jan 15 21:41:56 2022.314486 whiptail@7f67f0264440[2082] nanosleep([0.010000000], 0x7f67effe6dc0) = -516\n", 
+                        "api": "nanosleep", 
+                        "return_value": "-516", 
+                        "category": "process", 
+                        "instruction_pointer": "7f67f0264440", 
+                        "arguments": {
+                            "p0": [
+                                "0.010000000"
+                            ], 
+                            "p1": "0x7f67effe6dc0"
+                        }, 
+                        "time": 1642282916.314486
+                    }
+                ], 
+                "pid": 2082, 
+                "process_name": "whiptail", 
+                "command_line": "", 
+                "first_seen": 1642282916.314092, 
+                "ppid": 2079, 
+                "type": "process"
+            }
+        ], 
+        "processtree": [
+            {
+                "track": true, 
+                "pid": 2079, 
+                "process_name": "whiptail", 
+                "command_line": "/tmp/whiptail", 
+                "first_seen": 1642282914.253951, 
+                "ppid": -1, 
+                "children": [
+                    {
+                        "track": true, 
+                        "pid": 2082, 
+                        "process_name": "whiptail", 
+                        "command_line": "", 
+                        "first_seen": 1642282916.314092, 
+                        "ppid": 2079, 
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    }, 
+    "debug": {
+        "action": [], 
+        "dbgview": [], 
+        "errors": [], 
+        "log": [
+            "2022-01-15 21:41:46,003 [root] DEBUG: Starting analyzer from: /tmp/tmpy1UBnH\n", 
+            "2022-01-15 21:41:46,004 [root] DEBUG: Storing results at: /tmp/bxmBeAi\n", 
+            "2022-01-15 21:41:47,997 [modules.auxiliary.filecollector] INFO: FileCollector started v0.08\n", 
+            "2022-01-15 21:41:48,499 [modules.auxiliary.human] INFO: Human started v0.02\n", 
+            "2022-01-15 21:41:48,500 [modules.auxiliary.screenshots] INFO: Screenshots started v0.03\n", 
+            "2022-01-15 21:41:54,253 [lib.core.packages] INFO: Process startup took 5.75 seconds\n", 
+            "2022-01-15 21:41:54,254 [root] INFO: Added new process to list with pid: 2069\n", 
+            "2022-01-15 21:42:03,268 [root] INFO: Process with pid 2069 has terminated\n", 
+            "2022-01-15 21:42:03,268 [root] INFO: Process list is empty, terminating analysis.\n", 
+            "2022-01-15 21:42:06,338 [lib.core.packages] INFO: Package requested stop\n", 
+            "2022-01-15 21:42:06,340 [lib.core.packages] WARNING: Exception uploading log: [Errno 3] No such process\n"
+        ], 
+        "cuckoo": [
+            "2022-01-16 10:57:03,760 [cuckoo.core.scheduler] DEBUG: Task #2651895: no machine available yet\n", 
+            "2022-01-16 10:57:13,846 [cuckoo.core.scheduler] DEBUG: Task #2651895: no machine available yet\n", 
+            "2022-01-16 10:57:23,871 [cuckoo.core.scheduler] DEBUG: Task #2651895: no machine available yet\n", 
+            "2022-01-16 10:57:33,892 [cuckoo.core.scheduler] DEBUG: Task #2651895: no machine available yet\n", 
+            "2022-01-16 10:57:43,917 [cuckoo.core.scheduler] DEBUG: Task #2651895: no machine available yet\n", 
+            "2022-01-16 10:57:53,944 [cuckoo.core.scheduler] DEBUG: Task #2651895: no machine available yet\n", 
+            "2022-01-16 10:58:03,970 [cuckoo.core.scheduler] DEBUG: Task #2651895: no machine available yet\n", 
+            "2022-01-16 10:58:13,999 [cuckoo.core.scheduler] DEBUG: Task #2651895: no machine available yet\n", 
+            "2022-01-16 10:58:24,021 [cuckoo.core.scheduler] DEBUG: Task #2651895: no machine available yet\n", 
+            "2022-01-16 10:58:34,042 [cuckoo.core.scheduler] DEBUG: Task #2651895: no machine available yet\n", 
+            "2022-01-16 10:58:44,071 [cuckoo.core.scheduler] DEBUG: Task #2651895: no machine available yet\n", 
+            "2022-01-16 10:58:54,099 [cuckoo.core.scheduler] DEBUG: Task #2651895: no machine available yet\n", 
+            "2022-01-16 10:59:04,120 [cuckoo.core.scheduler] DEBUG: Task #2651895: no machine available yet\n", 
+            "2022-01-16 10:59:14,140 [cuckoo.core.scheduler] DEBUG: Task #2651895: no machine available yet\n", 
+            "2022-01-16 10:59:24,161 [cuckoo.core.scheduler] DEBUG: Task #2651895: no machine available yet\n", 
+            "2022-01-16 10:59:34,180 [cuckoo.core.scheduler] DEBUG: Task #2651895: no machine available yet\n", 
+            "2022-01-16 10:59:44,203 [cuckoo.core.scheduler] DEBUG: Task #2651895: no machine available yet\n", 
+            "2022-01-16 10:59:54,253 [cuckoo.core.scheduler] DEBUG: Task #2651895: no machine available yet\n", 
+            "2022-01-16 11:00:04,326 [cuckoo.core.scheduler] DEBUG: Task #2651895: no machine available yet\n", 
+            "2022-01-16 11:00:14,392 [cuckoo.core.scheduler] DEBUG: Task #2651895: no machine available yet\n", 
+            "2022-01-16 11:00:24,441 [cuckoo.core.scheduler] DEBUG: Task #2651895: no machine available yet\n", 
+            "2022-01-16 11:00:34,489 [cuckoo.core.scheduler] DEBUG: Task #2651895: no machine available yet\n", 
+            "2022-01-16 11:00:44,556 [cuckoo.core.scheduler] DEBUG: Task #2651895: no machine available yet\n", 
+            "2022-01-16 11:00:54,621 [cuckoo.core.scheduler] DEBUG: Task #2651895: no machine available yet\n", 
+            "2022-01-16 11:01:04,688 [cuckoo.core.scheduler] DEBUG: Task #2651895: no machine available yet\n", 
+            "2022-01-16 11:01:14,748 [cuckoo.core.scheduler] DEBUG: Task #2651895: no machine available yet\n", 
+            "2022-01-16 11:01:24,802 [cuckoo.core.scheduler] DEBUG: Task #2651895: no machine available yet\n", 
+            "2022-01-16 11:01:34,889 [cuckoo.core.scheduler] DEBUG: Task #2651895: no machine available yet\n", 
+            "2022-01-16 11:01:44,941 [cuckoo.core.scheduler] DEBUG: Task #2651895: no machine available yet\n", 
+            "2022-01-16 11:01:54,974 [cuckoo.core.scheduler] DEBUG: Task #2651895: no machine available yet\n", 
+            "2022-01-16 11:02:05,105 [cuckoo.core.scheduler] DEBUG: Task #2651895: no machine available yet\n", 
+            "2022-01-16 11:02:15,179 [cuckoo.core.scheduler] DEBUG: Task #2651895: no machine available yet\n", 
+            "2022-01-16 11:02:25,256 [cuckoo.core.scheduler] DEBUG: Task #2651895: no machine available yet\n", 
+            "2022-01-16 11:02:35,340 [cuckoo.core.scheduler] DEBUG: Task #2651895: no machine available yet\n", 
+            "2022-01-16 11:02:45,425 [cuckoo.core.scheduler] DEBUG: Task #2651895: no machine available yet\n", 
+            "2022-01-16 11:02:55,489 [cuckoo.core.scheduler] DEBUG: Task #2651895: no machine available yet\n", 
+            "2022-01-16 11:03:05,569 [cuckoo.core.scheduler] DEBUG: Task #2651895: no machine available yet\n", 
+            "2022-01-16 11:03:15,650 [cuckoo.core.scheduler] DEBUG: Task #2651895: no machine available yet\n", 
+            "2022-01-16 11:03:25,981 [cuckoo.core.scheduler] DEBUG: Task #2651895: no machine available yet\n", 
+            "2022-01-16 11:03:36,098 [cuckoo.core.scheduler] DEBUG: Task #2651895: no machine available yet\n", 
+            "2022-01-16 11:03:46,181 [cuckoo.core.scheduler] DEBUG: Task #2651895: no machine available yet\n", 
+            "2022-01-16 11:03:56,225 [cuckoo.core.scheduler] DEBUG: Task #2651895: no machine available yet\n", 
+            "2022-01-16 11:04:06,294 [cuckoo.core.scheduler] DEBUG: Task #2651895: no machine available yet\n", 
+            "2022-01-16 11:04:16,334 [cuckoo.core.scheduler] DEBUG: Task #2651895: no machine available yet\n", 
+            "2022-01-16 11:04:26,359 [cuckoo.core.scheduler] DEBUG: Task #2651895: no machine available yet\n", 
+            "2022-01-16 11:04:36,391 [cuckoo.core.scheduler] DEBUG: Task #2651895: no machine available yet\n", 
+            "2022-01-16 11:04:46,419 [cuckoo.core.scheduler] DEBUG: Task #2651895: no machine available yet\n", 
+            "2022-01-16 11:04:56,442 [cuckoo.core.scheduler] DEBUG: Task #2651895: no machine available yet\n", 
+            "2022-01-16 11:05:06,468 [cuckoo.core.scheduler] DEBUG: Task #2651895: no machine available yet\n", 
+            "2022-01-16 11:05:16,488 [cuckoo.core.scheduler] DEBUG: Task #2651895: no machine available yet\n", 
+            "2022-01-16 11:05:26,508 [cuckoo.core.scheduler] DEBUG: Task #2651895: no machine available yet\n", 
+            "2022-01-16 11:05:36,526 [cuckoo.core.scheduler] DEBUG: Task #2651895: no machine available yet\n", 
+            "2022-01-16 11:05:46,551 [cuckoo.core.scheduler] INFO: Task #2651895: acquired machine Ubuntu1904x646 (label=Ubuntu1904x646)\n", 
+            "2022-01-16 11:05:46,552 [cuckoo.core.resultserver] DEBUG: Now tracking machine 192.168.168.106 for task #2651895\n", 
+            "2022-01-16 11:05:46,715 [cuckoo.auxiliary.sniffer] INFO: Started sniffer with PID 3573232 (interface=vboxnet0, host=192.168.168.106)\n", 
+            "2022-01-16 11:05:47,344 [cuckoo.machinery.virtualbox] DEBUG: Starting vm Ubuntu1904x646\n", 
+            "2022-01-16 11:05:47,730 [cuckoo.machinery.virtualbox] DEBUG: Restoring virtual machine Ubuntu1904x646 to Snapshot\n", 
+            "2022-01-16 11:06:02,814 [cuckoo.core.guest] INFO: Starting analysis #2651895 on guest (id=Ubuntu1904x646, ip=192.168.168.106)\n", 
+            "2022-01-16 11:06:03,818 [cuckoo.core.guest] DEBUG: Ubuntu1904x646: not ready yet\n", 
+            "2022-01-16 11:06:08,834 [cuckoo.core.guest] INFO: Guest is running Cuckoo Agent 0.10 (id=Ubuntu1904x646, ip=192.168.168.106)\n", 
+            "2022-01-16 11:06:08,864 [cuckoo.core.guest] DEBUG: Uploading analyzer to guest (id=Ubuntu1904x646, ip=192.168.168.106, monitor=latest, size=72028)\n", 
+            "2022-01-16 11:06:10,095 [cuckoo.core.resultserver] DEBUG: Task #2651895: live log analysis.log initialized.\n", 
+            "2022-01-16 11:06:16,396 [cuckoo.core.resultserver] DEBUG: Task #2651895: File upload for 'shots/0001.jpg'\n", 
+            "2022-01-16 11:06:16,531 [cuckoo.core.resultserver] DEBUG: Task #2651895 uploaded file length: 171561\n", 
+            "2022-01-16 11:06:24,010 [cuckoo.core.guest] DEBUG: Ubuntu1904x646: analysis #2651895 still processing\n", 
+            "2022-01-16 11:06:30,454 [cuckoo.core.resultserver] DEBUG: Task #2651895: File upload for 'logs/all.stap'\n", 
+            "2022-01-16 11:06:30,636 [cuckoo.core.resultserver] DEBUG: Task #2651895 uploaded file length: 18831\n", 
+            "2022-01-16 11:06:39,072 [cuckoo.core.guest] DEBUG: Ubuntu1904x646: analysis #2651895 still processing\n", 
+            "2022-01-16 11:06:54,191 [cuckoo.core.guest] DEBUG: Ubuntu1904x646: analysis #2651895 still processing\n", 
+            "2022-01-16 11:07:09,255 [cuckoo.core.guest] DEBUG: Ubuntu1904x646: analysis #2651895 still processing\n", 
+            "2022-01-16 11:07:24,316 [cuckoo.core.guest] DEBUG: Ubuntu1904x646: analysis #2651895 still processing\n", 
+            "2022-01-16 11:07:39,446 [cuckoo.core.guest] DEBUG: Ubuntu1904x646: analysis #2651895 still processing\n", 
+            "2022-01-16 11:07:54,516 [cuckoo.core.guest] DEBUG: Ubuntu1904x646: analysis #2651895 still processing\n", 
+            "2022-01-16 11:08:09,572 [cuckoo.core.guest] DEBUG: Ubuntu1904x646: analysis #2651895 still processing\n", 
+            "2022-01-16 11:08:24,635 [cuckoo.core.guest] DEBUG: Ubuntu1904x646: analysis #2651895 still processing\n", 
+            "2022-01-16 11:08:39,715 [cuckoo.core.guest] DEBUG: Ubuntu1904x646: analysis #2651895 still processing\n", 
+            "2022-01-16 11:08:54,884 [cuckoo.core.guest] DEBUG: Ubuntu1904x646: analysis #2651895 still processing\n", 
+            "2022-01-16 11:09:09,994 [cuckoo.core.guest] DEBUG: Ubuntu1904x646: analysis #2651895 still processing\n", 
+            "2022-01-16 11:09:25,104 [cuckoo.core.guest] DEBUG: Ubuntu1904x646: analysis #2651895 still processing\n", 
+            "2022-01-16 11:09:40,223 [cuckoo.core.guest] DEBUG: Ubuntu1904x646: analysis #2651895 still processing\n", 
+            "2022-01-16 11:09:55,493 [cuckoo.core.guest] DEBUG: Ubuntu1904x646: analysis #2651895 still processing\n", 
+            "2022-01-16 11:10:10,564 [cuckoo.core.guest] INFO: Ubuntu1904x646: end of analysis reached!\n", 
+            "2022-01-16 11:10:10,575 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Redsocks\n", 
+            "2022-01-16 11:10:10,691 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Sniffer\n", 
+            "2022-01-16 11:10:27,004 [cuckoo.machinery.virtualbox] INFO: Successfully generated memory dump for virtual machine with label Ubuntu1904x646 to path /srv/cuckoo/cwd/storage/analyses/2651895/memory.dmp\n", 
+            "2022-01-16 11:10:27,006 [cuckoo.machinery.virtualbox] DEBUG: Stopping vm Ubuntu1904x646\n", 
+            "2022-01-16 11:10:40,829 [cuckoo.core.resultserver] DEBUG: Stopped tracking machine 192.168.168.106 for task #2651895\n", 
+            "2022-01-16 11:10:40,829 [cuckoo.core.resultserver] DEBUG: Cancel <Context for LOG> for task 2651895\n", 
+            "2022-01-16 11:10:41,084 [cuckoo.core.scheduler] DEBUG: Released database task #2651895\n", 
+            "2022-01-16 11:10:41,399 [cuckoo.core.scheduler] INFO: Task #2651895: analysis procedure completed\n"
+        ]
+    }, 
+    "strings": [
+        "/lib/ld-linux.so.2", 
+        "libnewt.so.0.52", 
+        "newtRadiobutton", 
+        "newtFormGetCurrent", 
+        "newtTextboxGetNumLines", 
+        "newtScaleSet", 
+        "newtButton", 
+        "newtScale", 
+        "newtFormSetHeight", 
+        "newtDrawRootText", 
+        "newtCls", 
+        "newtRefresh", 
+        "newtFinished", 
+        "newtOpenWindow", 
+        "newtFormSetWidth", 
+        "newtCompactButton", 
+        "newtCheckboxSetFlags", 
+        "newtFormAddComponent", 
+        "newtTextboxSetText", 
+        "newtTextbox", 
+        "newtFormAddComponents", 
+        "newtListboxSetCurrent", 
+        "_newt_wstrlen", 
+        "newtEntry", 
+        "newtDrawForm", 
+        "newtVerticalScrollbar", 
+        "newtFormSetBackground", 
+        "newtForm", 
+        "newtListboxGetCurrent", 
+        "newtTextboxSetHeight", 
+        "newtListboxAppendEntry", 
+        "newtPopWindow", 
+        "newtCheckbox", 
+        "newtListbox", 
+        "newtRunForm", 
+        "newtRadioGetCurrent", 
+        "newtInit", 
+        "newtFormSetCurrent", 
+        "_Jv_RegisterClasses", 
+        "__gmon_start__", 
+        "libpopt.so.0", 
+        "poptGetContext", 
+        "poptGetArgs", 
+        "poptGetOptArg", 
+        "poptGetNextOpt", 
+        "poptGetArg", 
+        "poptBadOption", 
+        "poptStrerror", 
+        "libc.so.6", 
+        "stdout", 
+        "fdopen", 
+        "snprintf", 
+        "setlinebuf", 
+        "memcpy", 
+        "perror", 
+        "__cxa_finalize", 
+        "mbrtowc", 
+        "malloc", 
+        "__strtoul_internal", 
+        "__ctype_get_mb_cur_max", 
+        "fprintf", 
+        "dcgettext", 
+        "strcasecmp", 
+        "wcwidth", 
+        "realloc", 
+        "sigaction", 
+        "memset", 
+        "strcmp", 
+        "sprintf", 
+        "setlocale", 
+        "stderr", 
+        "__fxstat", 
+        "bindtextdomain", 
+        "_IO_putc", 
+        "_IO_stdin_used", 
+        "__libc_start_main", 
+        "libslang.so.2", 
+        "SLtt_Screen_Cols", 
+        "SLtt_Screen_Rows", 
+        "_edata", 
+        "__bss_start", 
+        "GLIBC_2.1.3", 
+        "GLIBC_2.1", 
+        "GLIBC_2.0", 
+        "SLANG2", 
+        "NEWT_0.52", 
+        "/usr/share/locale", 
+        "whiptail", 
+        "whiptail (newt): %s", 
+        "0.52.2", 
+        "%s: %s", 
+        "Cannot open output-fd", 
+        "/dev/tty", 
+        "open /dev/tty", 
+        "Box options: ", 
+        "--msgbox <text> <height> <width>", 
+        "--yesno  <text> <height> <width>", 
+        "--infobox <text> <height> <width>", 
+        "--inputbox <text> <height> <width> [init] ", 
+        "--passwordbox <text> <height> <width> [init] ", 
+        "--textbox <file> <height> <width>", 
+        "--menu <text> <height> <width> <listheight> [tag item] ...", 
+        "--checklist <text> <height> <width> <listheight> [tag item status]...", 
+        "--radiolist <text> <height> <width> <listheight> [tag item stautus]...", 
+        "--gauge <text> <height> <width> <percent>", 
+        "Options: (depend on box-option)", 
+        "--clear", 
+        "clear screen on exit", 
+        "--defaultno", 
+        "default no button", 
+        "--default-item <string>", 
+        "set default string", 
+        "use full buttons", 
+        "--nocancel", 
+        "no cancel button", 
+        "--noitem", 
+        "display tags only", 
+        "--separate-output <fd>", 
+        "output one line at a time", 
+        "--output-fd <fd>", 
+        "output to fd, not stdout", 
+        "--title <title>", 
+        "display title", 
+        "--backtitle <backtitle>", 
+        "display backtitle", 
+        "--scrolltext", 
+        "force verical scrollbars", 
+        "--topleft", 
+        "put window in top-left corner", 
+        "%s: too large to display.", 
+        "backtitle", 
+        "checklist", 
+        "defaultno", 
+        "inputbox", 
+        "fullbuttons", 
+        "infobox", 
+        "msgbox", 
+        "nocancel", 
+        "noitem", 
+        "default-item", 
+        "notags", 
+        "radiolist", 
+        "scrolltext", 
+        "separate-output", 
+        "textbox", 
+        "topleft", 
+        "passwordbox", 
+        "output-fd", 
+        "version", 
+        "%%-%ds  %%s", 
+        "Cancel", 
+        ".shstrtab", 
+        ".interp", 
+        ".note.ABI-tag", 
+        ".dynsym", 
+        ".dynstr", 
+        ".gnu.version", 
+        ".gnu.version_r", 
+        ".rela.dyn", 
+        ".rela.plt", 
+        ".rodata", 
+        ".eh_frame", 
+        ".ctors", 
+        ".dtors", 
+        ".dynamic"
+    ], 
+    "metadata": {
+        "output": {
+            "pcap": {
+                "basename": "dump.pcap", 
+                "sha256": "704e5e5b3234433c01fcfd1b20a306e77e985038120492dc53965c3edd38a4ea", 
+                "dirname": ""
+            }
+        }
+    }
+}
