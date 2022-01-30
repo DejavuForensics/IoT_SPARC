@@ -1,0 +1,3374 @@
+{
+    "info": {
+        "added": 1642279052.027416, 
+        "started": 1642312557.989509, 
+        "duration": 2591, 
+        "ended": 1642315149.246013, 
+        "owner": null, 
+        "score": 0.0, 
+        "id": 2651226, 
+        "category": "file", 
+        "git": {
+            "head": "e8f6317b4b3ef806085a1e99e64c6ff01f26948f", 
+            "fetch_head": "e8f6317b4b3ef806085a1e99e64c6ff01f26948f"
+        }, 
+        "monitor": "2deb9ccd75d5a7a3fe05b2625b03a8639d6ee36b", 
+        "package": "elf", 
+        "route": "internet", 
+        "custom": null, 
+        "machine": {
+            "status": "stopped", 
+            "name": "Ubuntu1904x642", 
+            "label": "Ubuntu1904x642", 
+            "platform": "linux", 
+            "manager": "VirtualBox", 
+            "started_on": "2022-01-16 06:34:20", 
+            "shutdown_on": "2022-01-16 06:39:08"
+        }, 
+        "platform": "linux", 
+        "version": "2.0.7", 
+        "options": "procmemdump=yes,route=internet"
+    }, 
+    "signatures": [], 
+    "target": {
+        "category": "file", 
+        "file": {
+            "mimetype": "application/x-executable", 
+            "yara": [], 
+            "sha1": "7e66ef4fe1d6b70b8daeafdae207cb94da8b5380", 
+            "name": "mke2fs", 
+            "type": "ELF 32-bit MSB executable, SPARC, version 1 (SYSV), dynamically linked, interpreter /lib/ld-linux.so.2, for GNU/Linux 2.4.1, stripped", 
+            "sha256": "00d7d9c8f12bea5b543091e3dd428e7cc63be94ebf86c340eead4a2f337d0bd2", 
+            "urls": [], 
+            "crc32": "A28750D4", 
+            "path": "/srv/cuckoo/cwd/storage/binaries/00d7d9c8f12bea5b543091e3dd428e7cc63be94ebf86c340eead4a2f337d0bd2", 
+            "ssdeep": "768:rgkPWGjium1FpgOgz1s9JxtrS+xnffE5wjvAO4AZmG13Lj5:ck+GjiuaU1s9JxtrJ3E5koycS", 
+            "size": 39788, 
+            "sha512": "ff352af4586c949cb09744a968ae2a7bfc216e1ef520ecaa3733a2f4b6969169079cb89623ba25b240b4083fa149f9b8616928dee2472a3ebde572d7dd81b498", 
+            "md5": "7d62a98b194323cd621da78f36163f9f"
+        }, 
+        "custom": null
+    }, 
+    "irma": {
+        "status": 0, 
+        "probes_finished": 16, 
+        "scan_id": "d830958e-3405-4f11-ac21-152b3ac8252f", 
+        "parent_file_sha256": null, 
+        "name": "00d7d9c8f12bea5b543091e3dd428e7cc63be94ebf86c340eead4a2f337d0bd2", 
+        "probes_total": 16, 
+        "scan_date": 1642307950, 
+        "other_results": [], 
+        "submitter": "cli", 
+        "file_infos": {
+            "mimetype": "ELF 32-bit MSB executable, SPARC, version 1 (SYSV)", 
+            "sha1": "7e66ef4fe1d6b70b8daeafdae207cb94da8b5380", 
+            "tags": [], 
+            "timestamp_first_scan": 1642306127.85, 
+            "timestamp_last_scan": 1642307959.85, 
+            "sha256": "00d7d9c8f12bea5b543091e3dd428e7cc63be94ebf86c340eead4a2f337d0bd2", 
+            "md5": "7d62a98b194323cd621da78f36163f9f", 
+            "size": 39788
+        }, 
+        "probe_results": {
+            "antivirus": {
+                "Avast Core Security (Linux)": {
+                    "status": 0, 
+                    "duration": 0.01, 
+                    "version": "3.0.3", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "F-Secure Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.02, 
+                    "version": "11.10", 
+                    "results": null, 
+                    "virus_database_version": "2022-01-13_04"
+                }, 
+                "Windows Defender (Windows)": {
+                    "status": 0, 
+                    "duration": 0.03, 
+                    "version": "1.1.18800.4", 
+                    "results": null, 
+                    "virus_database_version": "1.355.1049.0"
+                }, 
+                "Comodo Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 2.23, 
+                    "version": "1.1.268025.1", 
+                    "results": null, 
+                    "virus_database_version": "2021-11-02"
+                }, 
+                "Kaspersky Antivirus (Win)": {
+                    "status": 0, 
+                    "duration": 2.67, 
+                    "version": "21.3", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "ESET NOD32 Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 4.29, 
+                    "version": "4.0.96", 
+                    "results": null, 
+                    "virus_database_version": "6178ebd0-1e722 (2021-10-27)"
+                }, 
+                "GData (Windows)": {
+                    "status": 0, 
+                    "duration": 0.18, 
+                    "version": "5.5.20197.1358", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Forticlient (Linux)": {
+                    "status": 0, 
+                    "duration": 3.03, 
+                    "version": "unavailable", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Avira (Windows)": {
+                    "status": 0, 
+                    "duration": 4.03, 
+                    "version": "8.3.64.66", 
+                    "results": null, 
+                    "virus_database_version": "8.19.1.122"
+                }, 
+                "eScan Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 4.03, 
+                    "version": "7.0.21", 
+                    "results": null, 
+                    "virus_database_version": "7.90035 (27/10/2021)"
+                }, 
+                "McAfee CLI scanner (Linux)": {
+                    "status": 0, 
+                    "duration": 5.96, 
+                    "version": "6.0.6.653", 
+                    "results": null, 
+                    "virus_database_version": "10149"
+                }, 
+                "Sophos Anti-Virus (Linux)": {
+                    "status": 0, 
+                    "duration": 7.21, 
+                    "version": "5.85.0", 
+                    "results": null, 
+                    "virus_database_version": "5.88 (26 October 2021)"
+                }, 
+                "DrWeb Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.19, 
+                    "version": "11.1.10.2108031732", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "ClamAV (Linux)": {
+                    "status": 0, 
+                    "duration": 0.01, 
+                    "version": "0.103.2", 
+                    "results": null, 
+                    "virus_database_version": "26334"
+                }, 
+                "Bitdefender Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 6.29, 
+                    "version": "7.90123", 
+                    "results": null, 
+                    "virus_database_version": null
+                }, 
+                "Emsisoft Commandline Scanner (Windows)": {
+                    "status": 0, 
+                    "duration": 0.2, 
+                    "version": "2021.10.0.11201", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }
+            }
+        }, 
+        "path": "", 
+        "result_id": "737f37d2-d6a2-40d6-b869-ebbe36b75a92", 
+        "file_sha256": "00d7d9c8f12bea5b543091e3dd428e7cc63be94ebf86c340eead4a2f337d0bd2"
+    }, 
+    "suricata": {
+        "tls": [], 
+        "files": [], 
+        "alerts": [], 
+        "http": []
+    }, 
+    "virustotal": {
+        "summary": {
+            "error": "resource has not been scanned yet"
+        }
+    }, 
+    "network": {
+        "tls": [], 
+        "udp": [], 
+        "dns_servers": [], 
+        "http": [], 
+        "icmp": [], 
+        "smtp": [], 
+        "tcp": [], 
+        "smtp_ex": [], 
+        "geoinfo": {}, 
+        "mitm": [], 
+        "hosts": [], 
+        "pcap_sha256": "704e5e5b3234433c01fcfd1b20a306e77e985038120492dc53965c3edd38a4ea", 
+        "dns": [], 
+        "http_ex": [], 
+        "domains": [], 
+        "dead_hosts": [], 
+        "irc": [], 
+        "https_ex": []
+    }, 
+    "resubmit": {
+        "resubmit_ids": []
+    }, 
+    "snort": {
+        "alerts": []
+    }, 
+    "behavior": {
+        "generic": [
+            {
+                "process_path": null, 
+                "process_name": "mke2fs", 
+                "pid": 2091, 
+                "summary": {}, 
+                "first_seen": 1642279059.802824, 
+                "ppid": -1
+            }, 
+            {
+                "process_path": null, 
+                "process_name": "mke2fs", 
+                "pid": 2092, 
+                "summary": {}, 
+                "first_seen": 1642279060.266471, 
+                "ppid": 2091
+            }
+        ], 
+        "processes": [
+            {
+                "calls": [
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:39 2022.802824 mke2fs@7f5479986c27[2091] execve(\"/tmp/mke2fs\", [\"/tmp/mke2fs\"], [\"SUDO_GID=0\", \"MAIL=/var/mail/root\", \"USER=root\", \"HOME=/root\", \"SUDO_UID=0\", \"LOGNAME=root\", \"SYSTEMTAP_MODULE=stap_\", \"TERM=unknown\", \"SYSTEMTAP_VERBOSE=2\", \"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin\", \"DISPLAY=:0\", \"LANG=en_US.UTF-8\", \"XAUTHORITY=/root/.Xauthority\", \"SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/mke2fs\", \"SHELL=/bin/bash\", \"SUDO_USER=root\", \"PWD=/tmp/tmpzU7DcQ\"])\n", 
+                        "api": "execve", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5479986c27", 
+                        "arguments": {
+                            "p2": [
+                                "SUDO_GID=0", 
+                                "MAIL=/var/mail/root", 
+                                "USER=root", 
+                                "HOME=/root", 
+                                "SUDO_UID=0", 
+                                "LOGNAME=root", 
+                                "SYSTEMTAP_MODULE=stap_", 
+                                "TERM=unknown", 
+                                "SYSTEMTAP_VERBOSE=2", 
+                                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin", 
+                                "DISPLAY=:0", 
+                                "LANG=en_US.UTF-8", 
+                                "XAUTHORITY=/root/.Xauthority", 
+                                "SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/mke2fs", 
+                                "SHELL=/bin/bash", 
+                                "SUDO_USER=root", 
+                                "PWD=/tmp/tmpzU7DcQ"
+                            ], 
+                            "p0": "/tmp/mke2fs", 
+                            "p1": [
+                                "/tmp/mke2fs"
+                            ]
+                        }, 
+                        "time": 1642279059.802824
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.238736 mke2fs@7f5479986c27[2091] brk(0x0) = 94589921722368\n", 
+                        "api": "brk", 
+                        "return_value": "94589921722368", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5479986c27", 
+                        "arguments": {
+                            "p0": "0x0"
+                        }, 
+                        "time": 1642279060.238736
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.238904 mke2fs@7f54799879d7[2091] access(\"/etc/ld.so.preload\", R_OK) = -2 (ENOENT)\n", 
+                        "api": "access", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f54799879d7", 
+                        "arguments": {
+                            "p0": "/etc/ld.so.preload", 
+                            "p1": "R_OK"
+                        }, 
+                        "time": 1642279060.238904
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.245676 mke2fs@7f5479987b0d[2091] openat(AT_FDCWD, \"/etc/ld.so.cache\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5479987b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/etc/ld.so.cache"
+                        }, 
+                        "time": 1642279060.245676
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.245797 mke2fs@7f5479987943[2091] fstat(4, 0x7ffddee06db0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5479987943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffddee06db0"
+                        }, 
+                        "time": 1642279060.245797
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.245877 mke2fs@7f5479987d03[2091] mmap2(0x0, 88858, PROT_READ, MAP_PRIVATE, 4, 0) = 0x7f5479955000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5479955000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5479987d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE", 
+                            "p0": "0x0", 
+                            "p1": "88858", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642279060.245877
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.245971 mke2fs@7f54799879f7[2091] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f54799879f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642279060.245971
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.246079 mke2fs@7f5479987b0d[2091] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5479987b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0"
+                        }, 
+                        "time": 1642279060.246079
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.246240 mke2fs@7f5479987bd4[2091] read(4, 0x7ffddee06f68, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5479987bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffddee06f68"
+                        }, 
+                        "time": 1642279060.24624
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.246317 mke2fs@7f5479987943[2091] fstat(4, 0x7ffddee06e00) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5479987943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffddee06e00"
+                        }, 
+                        "time": 1642279060.246317
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.246388 mke2fs@7f5479987d03[2091] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f5479953000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5479953000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5479987d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642279060.246388
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.246476 mke2fs@7f5479987d03[2091] mmap2(0x0, 20600, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f547994d000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f547994d000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5479987d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "20600", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642279060.246476
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.246557 mke2fs@7f5479987d03[2091] mmap2(0x7f547994e000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 4096) = 0x7f547994e000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f547994e000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5479987d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f547994e000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "4096"
+                        }, 
+                        "time": 1642279060.246557
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.246654 mke2fs@7f5479987d03[2091] mmap2(0x7f5479950000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f5479950000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5479950000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5479987d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f5479950000", 
+                            "p1": "4096", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642279060.246654
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.246739 mke2fs@7f5479987d03[2091] mmap2(0x7f5479951000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f5479951000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5479951000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5479987d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f5479951000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642279060.246739
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.246844 mke2fs@7f54799879f7[2091] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f54799879f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642279060.246844
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.246939 mke2fs@7f5479987b0d[2091] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5479987b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0"
+                        }, 
+                        "time": 1642279060.246939
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.247022 mke2fs@7f5479987bd4[2091] read(4, 0x7ffddee06f48, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5479987bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffddee06f48"
+                        }, 
+                        "time": 1642279060.247022
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.247095 mke2fs@7f5479987943[2091] fstat(4, 0x7ffddee06de0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5479987943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffddee06de0"
+                        }, 
+                        "time": 1642279060.247095
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.247168 mke2fs@7f5479987d03[2091] mmap2(0x0, 1180072, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f547982c000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f547982c000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5479987d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1180072", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642279060.247168
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.247250 mke2fs@7f5479987db7[2091] mprotect(0x7f5479847000, 1060864, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5479987db7", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7f5479847000", 
+                            "p1": "1060864"
+                        }, 
+                        "time": 1642279060.24725
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.247344 mke2fs@7f5479987d03[2091] mmap2(0x7f5479847000, 524288, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 110592) = 0x7f5479847000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5479847000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5479987d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f5479847000", 
+                            "p1": "524288", 
+                            "p4": "4", 
+                            "p5": "110592"
+                        }, 
+                        "time": 1642279060.247344
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.247425 mke2fs@7f5479987d03[2091] mmap2(0x7f54798c7000, 532480, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 634880) = 0x7f54798c7000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f54798c7000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5479987d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f54798c7000", 
+                            "p1": "532480", 
+                            "p4": "4", 
+                            "p5": "634880"
+                        }, 
+                        "time": 1642279060.247425
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.247506 mke2fs@7f5479987d03[2091] mmap2(0x7f547994a000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1167360) = 0x7f547994a000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f547994a000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5479987d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f547994a000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "1167360"
+                        }, 
+                        "time": 1642279060.247506
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.247599 mke2fs@7f5479987d03[2091] mmap2(0x7f547994c000, 424, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f547994c000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f547994c000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5479987d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f547994c000", 
+                            "p1": "424", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642279060.247599
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.247691 mke2fs@7f54799879f7[2091] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f54799879f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642279060.247691
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.247795 mke2fs@7f5479987b0d[2091] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/librt.so.1\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5479987b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/librt.so.1"
+                        }, 
+                        "time": 1642279060.247795
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.247880 mke2fs@7f5479987bd4[2091] read(4, 0x7ffddee06f28, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5479987bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffddee06f28"
+                        }, 
+                        "time": 1642279060.24788
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.247952 mke2fs@7f5479987943[2091] fstat(4, 0x7ffddee06dc0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5479987943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffddee06dc0"
+                        }, 
+                        "time": 1642279060.247952
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.248023 mke2fs@7f5479987d03[2091] mmap2(0x0, 44000, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f5479821000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5479821000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5479987d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "44000", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642279060.248023
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.248107 mke2fs@7f5479987d03[2091] mmap2(0x7f5479824000, 16384, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f5479824000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5479824000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5479987d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f5479824000", 
+                            "p1": "16384", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642279060.248107
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.248206 mke2fs@7f5479987d03[2091] mmap2(0x7f5479828000, 8192, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 28672) = 0x7f5479828000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5479828000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5479987d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f5479828000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "28672"
+                        }, 
+                        "time": 1642279060.248206
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.248286 mke2fs@7f5479987d03[2091] mmap2(0x7f547982a000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 32768) = 0x7f547982a000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f547982a000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5479987d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f547982a000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "32768"
+                        }, 
+                        "time": 1642279060.248286
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.248389 mke2fs@7f54799879f7[2091] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f54799879f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642279060.248389
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.248480 mke2fs@7f5479987b0d[2091] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libm.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5479987b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libm.so.6"
+                        }, 
+                        "time": 1642279060.24848
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.248561 mke2fs@7f5479987bd4[2091] read(4, 0x7ffddee06f08, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5479987bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffddee06f08"
+                        }, 
+                        "time": 1642279060.248561
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.248631 mke2fs@7f5479987943[2091] fstat(4, 0x7ffddee06da0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5479987943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffddee06da0"
+                        }, 
+                        "time": 1642279060.248631
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.248708 mke2fs@7f5479987d03[2091] mmap2(0x0, 1364240, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f54796d3000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f54796d3000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5479987d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1364240", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642279060.248708
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.248790 mke2fs@7f5479987d03[2091] mmap2(0x7f54796e2000, 679936, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 61440) = 0x7f54796e2000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f54796e2000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5479987d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f54796e2000", 
+                            "p1": "679936", 
+                            "p4": "4", 
+                            "p5": "61440"
+                        }, 
+                        "time": 1642279060.24879
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.248887 mke2fs@7f5479987d03[2091] mmap2(0x7f5479788000, 618496, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 741376) = 0x7f5479788000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5479788000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5479987d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f5479788000", 
+                            "p1": "618496", 
+                            "p4": "4", 
+                            "p5": "741376"
+                        }, 
+                        "time": 1642279060.248887
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.248969 mke2fs@7f5479987d03[2091] mmap2(0x7f547981f000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1355776) = 0x7f547981f000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f547981f000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5479987d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f547981f000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "1355776"
+                        }, 
+                        "time": 1642279060.248969
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.249072 mke2fs@7f54799879f7[2091] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f54799879f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642279060.249072
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.249171 mke2fs@7f5479987b0d[2091] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libgcc_s.so.1\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5479987b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libgcc_s.so.1"
+                        }, 
+                        "time": 1642279060.249171
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.249261 mke2fs@7f5479987bd4[2091] read(4, 0x7ffddee06ee8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5479987bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffddee06ee8"
+                        }, 
+                        "time": 1642279060.249261
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.249330 mke2fs@7f5479987943[2091] fstat(4, 0x7ffddee06d80) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5479987943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffddee06d80"
+                        }, 
+                        "time": 1642279060.24933
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.249479 mke2fs@7f5479987d03[2091] mmap2(0x0, 103504, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f54796b9000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f54796b9000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5479987d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "103504", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642279060.249479
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.249565 mke2fs@7f5479987d03[2091] mmap2(0x7f54796bc000, 69632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f54796bc000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f54796bc000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5479987d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f54796bc000", 
+                            "p1": "69632", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642279060.249565
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.249655 mke2fs@7f5479987d03[2091] mmap2(0x7f54796cd000, 16384, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 81920) = 0x7f54796cd000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f54796cd000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5479987d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f54796cd000", 
+                            "p1": "16384", 
+                            "p4": "4", 
+                            "p5": "81920"
+                        }, 
+                        "time": 1642279060.249655
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.249736 mke2fs@7f5479987d03[2091] mmap2(0x7f54796d1000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 94208) = 0x7f54796d1000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f54796d1000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5479987d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f54796d1000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "94208"
+                        }, 
+                        "time": 1642279060.249736
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.249811 mke2fs@7f54799879f7[2091] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f54799879f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642279060.249811
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.249875 mke2fs@7f5479987b0d[2091] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libpthread.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5479987b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libpthread.so.0"
+                        }, 
+                        "time": 1642279060.249875
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.249935 mke2fs@7f5479987bd4[2091] read(4, 0x7ffddee06ec8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5479987bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffddee06ec8"
+                        }, 
+                        "time": 1642279060.249935
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.249985 mke2fs@7f5479987943[2091] fstat(4, 0x7ffddee06d60) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5479987943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffddee06d60"
+                        }, 
+                        "time": 1642279060.249985
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.250035 mke2fs@7f5479987d03[2091] mmap2(0x0, 132288, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f5479698000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5479698000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5479987d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "132288", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642279060.250035
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.250297 mke2fs@7f5479987d03[2091] mmap2(0x7f547969f000, 61440, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 28672) = 0x7f547969f000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f547969f000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5479987d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f547969f000", 
+                            "p1": "61440", 
+                            "p4": "4", 
+                            "p5": "28672"
+                        }, 
+                        "time": 1642279060.250297
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.250371 mke2fs@7f5479987d03[2091] mmap2(0x7f54796ae000, 20480, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 90112) = 0x7f54796ae000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f54796ae000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5479987d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f54796ae000", 
+                            "p1": "20480", 
+                            "p4": "4", 
+                            "p5": "90112"
+                        }, 
+                        "time": 1642279060.250371
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.250428 mke2fs@7f5479987d03[2091] mmap2(0x7f54796b3000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 106496) = 0x7f54796b3000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f54796b3000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5479987d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f54796b3000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "106496"
+                        }, 
+                        "time": 1642279060.250428
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.250494 mke2fs@7f5479987d03[2091] mmap2(0x7f54796b5000, 13504, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f54796b5000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f54796b5000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5479987d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f54796b5000", 
+                            "p1": "13504", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642279060.250494
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.250559 mke2fs@7f54799879f7[2091] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f54799879f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642279060.250559
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.250626 mke2fs@7f5479987b0d[2091] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libc.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5479987b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libc.so.6"
+                        }, 
+                        "time": 1642279060.250626
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.250684 mke2fs@7f5479987bd4[2091] read(4, 0x7ffddee06ea8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5479987bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffddee06ea8"
+                        }, 
+                        "time": 1642279060.250684
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.250734 mke2fs@7f5479987943[2091] fstat(4, 0x7ffddee06d40) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5479987943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffddee06d40"
+                        }, 
+                        "time": 1642279060.250734
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.250783 mke2fs@7f5479987d03[2091] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f5479696000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5479696000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5479987d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642279060.250783
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.250841 mke2fs@7f5479987d03[2091] mmap2(0x0, 2008696, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f54794ab000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f54794ab000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5479987d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "2008696", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642279060.250841
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.250899 mke2fs@7f5479987d03[2091] mmap2(0x7f54794d0000, 1519616, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 151552) = 0x7f54794d0000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f54794d0000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5479987d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f54794d0000", 
+                            "p1": "1519616", 
+                            "p4": "4", 
+                            "p5": "151552"
+                        }, 
+                        "time": 1642279060.250899
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.250966 mke2fs@7f5479987d03[2091] mmap2(0x7f5479643000, 299008, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1671168) = 0x7f5479643000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5479643000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5479987d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f5479643000", 
+                            "p1": "299008", 
+                            "p4": "4", 
+                            "p5": "1671168"
+                        }, 
+                        "time": 1642279060.250966
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.251027 mke2fs@7f5479987d03[2091] mmap2(0x7f547968c000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1966080) = 0x7f547968c000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f547968c000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5479987d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f547968c000", 
+                            "p1": "24576", 
+                            "p4": "4", 
+                            "p5": "1966080"
+                        }, 
+                        "time": 1642279060.251027
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.251093 mke2fs@7f5479987d03[2091] mmap2(0x7f5479692000, 13944, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f5479692000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5479692000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5479987d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f5479692000", 
+                            "p1": "13944", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642279060.251093
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.251160 mke2fs@7f54799879f7[2091] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f54799879f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642279060.25116
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.251242 mke2fs@7f5479987b0d[2091] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libdl.so.2\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5479987b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libdl.so.2"
+                        }, 
+                        "time": 1642279060.251242
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.251299 mke2fs@7f5479987bd4[2091] read(4, 0x7ffddee06e88, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5479987bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffddee06e88"
+                        }, 
+                        "time": 1642279060.251299
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.251349 mke2fs@7f5479987943[2091] fstat(4, 0x7ffddee06d20) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5479987943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffddee06d20"
+                        }, 
+                        "time": 1642279060.251349
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.251398 mke2fs@7f5479987d03[2091] mmap2(0x0, 20752, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f54794a5000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f54794a5000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5479987d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "20752", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642279060.251398
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.251458 mke2fs@7f5479987d03[2091] mmap2(0x7f54794a6000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 4096) = 0x7f54794a6000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f54794a6000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5479987d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f54794a6000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "4096"
+                        }, 
+                        "time": 1642279060.251458
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.251530 mke2fs@7f5479987d03[2091] mmap2(0x7f54794a8000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f54794a8000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f54794a8000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5479987d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f54794a8000", 
+                            "p1": "4096", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642279060.25153
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.251590 mke2fs@7f5479987d03[2091] mmap2(0x7f54794a9000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f54794a9000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f54794a9000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5479987d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f54794a9000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642279060.25159
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.251665 mke2fs@7f54799879f7[2091] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f54799879f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642279060.251665
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.251735 mke2fs@7f5479987b0d[2091] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libpcre.so.3\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5479987b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libpcre.so.3"
+                        }, 
+                        "time": 1642279060.251735
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.251795 mke2fs@7f5479987bd4[2091] read(4, 0x7ffddee06e68, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5479987bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffddee06e68"
+                        }, 
+                        "time": 1642279060.251795
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.251843 mke2fs@7f5479987943[2091] fstat(4, 0x7ffddee06d00) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5479987943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffddee06d00"
+                        }, 
+                        "time": 1642279060.251843
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.251893 mke2fs@7f5479987d03[2091] mmap2(0x0, 471304, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f5479431000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5479431000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5479987d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "471304", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642279060.251893
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.251955 mke2fs@7f5479987d03[2091] mmap2(0x7f5479433000, 335872, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 8192) = 0x7f5479433000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5479433000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5479987d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f5479433000", 
+                            "p1": "335872", 
+                            "p4": "4", 
+                            "p5": "8192"
+                        }, 
+                        "time": 1642279060.251955
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.252021 mke2fs@7f5479987d03[2091] mmap2(0x7f5479485000, 122880, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 344064) = 0x7f5479485000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5479485000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5479987d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f5479485000", 
+                            "p1": "122880", 
+                            "p4": "4", 
+                            "p5": "344064"
+                        }, 
+                        "time": 1642279060.252021
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.252080 mke2fs@7f5479987d03[2091] mmap2(0x7f54794a3000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 462848) = 0x7f54794a3000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f54794a3000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5479987d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f54794a3000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "462848"
+                        }, 
+                        "time": 1642279060.25208
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.252161 mke2fs@7f54799879f7[2091] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f54799879f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642279060.252161
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.254318 mke2fs@7f5479987d03[2091] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f547942f000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f547942f000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5479987d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642279060.254318
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.254431 mke2fs@7f547996cf30[2091] arch_prctl(ARCH_SET_FS, 140000788414784) = 0\n", 
+                        "api": "arch_prctl", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f547996cf30", 
+                        "arguments": {
+                            "p0": "ARCH_SET_FS", 
+                            "p1": "140000788414784"
+                        }, 
+                        "time": 1642279060.254431
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.258053 mke2fs@7f5479987db7[2091] mprotect(0x7f547968c000, 12288, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5479987db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f547968c000", 
+                            "p1": "12288"
+                        }, 
+                        "time": 1642279060.258053
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.258263 mke2fs@7f5479987db7[2091] mprotect(0x7f54796b3000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5479987db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f54796b3000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642279060.258263
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.258390 mke2fs@7f5479987db7[2091] mprotect(0x7f54794a3000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5479987db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f54794a3000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642279060.25839
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.258468 mke2fs@7f5479987db7[2091] mprotect(0x7f54794a9000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5479987db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f54794a9000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642279060.258468
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.258533 mke2fs@7f5479987db7[2091] mprotect(0x7f54796d1000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5479987db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f54796d1000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642279060.258533
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.258643 mke2fs@7f5479987db7[2091] mprotect(0x7f547981f000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5479987db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f547981f000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642279060.258643
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.258716 mke2fs@7f5479987db7[2091] mprotect(0x7f547982a000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5479987db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f547982a000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642279060.258716
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.259078 mke2fs@7f5479987db7[2091] mprotect(0x7f547994a000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5479987db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f547994a000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642279060.259078
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.259188 mke2fs@7f5479987db7[2091] mprotect(0x7f5479951000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5479987db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f5479951000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642279060.259188
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.263298 mke2fs@7f5479987db7[2091] mprotect(0x56076b006000, 303104, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5479987db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x56076b006000", 
+                            "p1": "303104"
+                        }, 
+                        "time": 1642279060.263298
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.263464 mke2fs@7f5479987db7[2091] mprotect(0x7f5479995000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5479987db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f5479995000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642279060.263464
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.263537 mke2fs@7f5479987d97[2091] munmap(0x7f5479955000, 88858) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5479987d97", 
+                        "arguments": {
+                            "p0": "0x7f5479955000", 
+                            "p1": "88858"
+                        }, 
+                        "time": 1642279060.263537
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.263646 mke2fs@7f547969f8df[2091] set_tid_address(0x7f5479430410) = 2091\n", 
+                        "api": "set_tid_address", 
+                        "return_value": "2091", 
+                        "category": "process", 
+                        "instruction_pointer": "7f547969f8df", 
+                        "arguments": {
+                            "p0": "0x7f5479430410"
+                        }, 
+                        "time": 1642279060.263646
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.263698 mke2fs@7f547969f94a[2091] set_robust_list(0x7f5479430420, 24) = 0\n", 
+                        "api": "set_robust_list", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f547969f94a", 
+                        "arguments": {
+                            "p0": "0x7f5479430420", 
+                            "p1": "24"
+                        }, 
+                        "time": 1642279060.263698
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.263760 mke2fs@7f54796ac010[2091] rt_sigaction(0x20, {0x7f547969f6c0, SA_SIGINFO|SA_RESTORER, 0x7f54796abf40, [EMPTY]}, 0x0, 8) = 0\n", 
+                        "api": "rt_sigaction", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f54796ac010", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "0x20", 
+                            "p1": [
+                                "0x7f547969f6c0", 
+                                "SA_SIGINFO|SA_RESTORER", 
+                                "0x7f54796abf40", 
+                                [
+                                    "EMPTY]"
+                                ]
+                            ]
+                        }, 
+                        "time": 1642279060.26376
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.263810 mke2fs@7f54796ac010[2091] rt_sigaction(0x21, {0x7f547969f760, SA_RESTART|SA_SIGINFO|SA_RESTORER, 0x7f54796abf40, [EMPTY]}, 0x0, 8) = 0\n", 
+                        "api": "rt_sigaction", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f54796ac010", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "0x21", 
+                            "p1": [
+                                "0x7f547969f760", 
+                                "SA_RESTART|SA_SIGINFO|SA_RESTORER", 
+                                "0x7f54796abf40", 
+                                [
+                                    "EMPTY]"
+                                ]
+                            ]
+                        }, 
+                        "time": 1642279060.26381
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.263860 mke2fs@7f547969fa19[2091] rt_sigprocmask(SIG_UNBLOCK, [EMPTY], 0x0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f547969fa19", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "SIG_UNBLOCK", 
+                            "p1": [
+                                "EMPTY"
+                            ]
+                        }, 
+                        "time": 1642279060.26386
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.263923 mke2fs@7f54795bddf0[2091] prlimit64(0, RLIMIT_STACK, NULL, 0x7ffddee07b40) = 0\n", 
+                        "api": "prlimit64", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f54795bddf0", 
+                        "arguments": {
+                            "p2": "NULL", 
+                            "p3": "0x7ffddee07b40", 
+                            "p0": "0", 
+                            "p1": "RLIMIT_STACK"
+                        }, 
+                        "time": 1642279060.263923
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.264192 mke2fs@7f54795be2f7[2091] brk(0x0) = 94589921722368\n", 
+                        "api": "brk", 
+                        "return_value": "94589921722368", 
+                        "category": "process", 
+                        "instruction_pointer": "7f54795be2f7", 
+                        "arguments": {
+                            "p0": "0x0"
+                        }, 
+                        "time": 1642279060.264192
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.264238 mke2fs@7f54795be2f7[2091] brk(0x56076eb11000) = 94589921857536\n", 
+                        "api": "brk", 
+                        "return_value": "94589921857536", 
+                        "category": "process", 
+                        "instruction_pointer": "7f54795be2f7", 
+                        "arguments": {
+                            "p0": "0x56076eb11000"
+                        }, 
+                        "time": 1642279060.264238
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.265213 mke2fs@7f54796a8b86[2091] rt_sigprocmask(SIG_SETMASK, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS], 0x7ffddee07a90, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f54796a8b86", 
+                        "arguments": {
+                            "p2": "0x7ffddee07a90", 
+                            "p3": "8", 
+                            "p0": "SIG_SETMASK", 
+                            "p1": [
+                                "SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS"
+                            ]
+                        }, 
+                        "time": 1642279060.265213
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.266054 mke2fs@7f54795c24c3[2091] mmap2(0x0, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f5478c2e000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5478c2e000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f54795c24c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK", 
+                            "p0": "0x0", 
+                            "p1": "8392704", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642279060.266054
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.266197 mke2fs@7f54795c2597[2091] mprotect(0x7f5478c2f000, 8388608, PROT_READ|PROT_WRITE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f54795c2597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p0": "0x7f5478c2f000", 
+                            "p1": "8388608"
+                        }, 
+                        "time": 1642279060.266197
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.266277 mke2fs@7f54795c8b11[2091] clone(CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, 0x7f547942df70, 0x7f547942e9d0, 0x7f547942e9d0) = 2092\n", 
+                        "api": "clone", 
+                        "return_value": "2092", 
+                        "category": "process", 
+                        "instruction_pointer": "7f54795c8b11", 
+                        "arguments": {
+                            "p2": "0x7f547942e9d0", 
+                            "p3": "0x7f547942e9d0", 
+                            "p0": "CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID", 
+                            "p1": "0x7f547942df70"
+                        }, 
+                        "time": 1642279060.266277
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.266384 mke2fs@7f54796a8b86[2091] rt_sigprocmask(SIG_SETMASK, [EMPTY], 0x0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f54796a8b86", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "SIG_SETMASK", 
+                            "p1": [
+                                "EMPTY"
+                            ]
+                        }, 
+                        "time": 1642279060.266384
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.268605 mke2fs@7f54795bddf0[2091] prlimit64(0, RLIMIT_STACK, NULL, 0x7ffddee07650) = 0\n", 
+                        "api": "prlimit64", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f54795bddf0", 
+                        "arguments": {
+                            "p2": "NULL", 
+                            "p3": "0x7ffddee07650", 
+                            "p0": "0", 
+                            "p1": "RLIMIT_STACK"
+                        }, 
+                        "time": 1642279060.268605
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.268664 mke2fs@7f54795bd5c1[2091] openat(AT_FDCWD, \"/etc/qemu-binfmt/sparc\", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -2 (ENOENT)\n", 
+                        "api": "openat", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f54795bd5c1", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/etc/qemu-binfmt/sparc"
+                        }, 
+                        "time": 1642279060.268664
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.268740 mke2fs@7f547958c247[2091] uname(0x7ffddee072c0) = 0\n", 
+                        "api": "uname", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f547958c247", 
+                        "arguments": {
+                            "p0": "0x7ffddee072c0"
+                        }, 
+                        "time": 1642279060.26874
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.268779 mke2fs@7f54796ab337[2091] lseek(3, 0, SEEK_SET) = 0\n", 
+                        "api": "lseek", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f54796ab337", 
+                        "arguments": {
+                            "p2": "SEEK_SET", 
+                            "p0": "3", 
+                            "p1": "0"
+                        }, 
+                        "time": 1642279060.268779
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.268815 mke2fs@7f54796aad94[2091] read(3, 0x7ffddee075b0, 52) = 52\n", 
+                        "api": "read", 
+                        "return_value": "52", 
+                        "category": "process", 
+                        "instruction_pointer": "7f54796aad94", 
+                        "arguments": {
+                            "p2": "52", 
+                            "p0": "3", 
+                            "p1": "0x7ffddee075b0"
+                        }, 
+                        "time": 1642279060.268815
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.268854 mke2fs@7f54796ab337[2091] lseek(3, 0, SEEK_SET) = 0\n", 
+                        "api": "lseek", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f54796ab337", 
+                        "arguments": {
+                            "p2": "SEEK_SET", 
+                            "p0": "3", 
+                            "p1": "0"
+                        }, 
+                        "time": 1642279060.268854
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.270017 mke2fs@7f54795c24c3[2091] mmap2(0x0, 528384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f5478bad000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5478bad000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f54795c24c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "528384", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642279060.270017
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.270527 mke2fs@7f54795c2597[2091] mprotect(0x56076b063000, 33550336, PROT_READ|PROT_WRITE|PROT_EXEC) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f54795c2597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE|PROT_EXEC", 
+                            "p0": "0x56076b063000", 
+                            "p1": "33550336"
+                        }, 
+                        "time": 1642279060.270527
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.270573 mke2fs@7f54795c2667[2091] madvise(0x56076b063000, 33550336, MADV_HUGEPAGE) = 0\n", 
+                        "api": "madvise", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f54795c2667", 
+                        "arguments": {
+                            "p2": "MADV_HUGEPAGE", 
+                            "p0": "0x56076b063000", 
+                            "p1": "33550336"
+                        }, 
+                        "time": 1642279060.270573
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.270739 mke2fs@7f54795c24c3[2091] mmap2(0x0, 4294963200, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f5374001000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5374001000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f54795c24c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x0", 
+                            "p1": "4294963200", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642279060.270739
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.270783 mke2fs@7f54795b7d59[2091] openat(AT_FDCWD, \"/proc/sys/vm/mmap_min_addr\", O_RDONLY) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f54795b7d59", 
+                        "arguments": {
+                            "p2": "O_RDONLY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/proc/sys/vm/mmap_min_addr"
+                        }, 
+                        "time": 1642279060.270783
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.270838 mke2fs@7f54795b7613[2091] fstat(4, 0x7ffddee06cc0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f54795b7613", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffddee06cc0"
+                        }, 
+                        "time": 1642279060.270838
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.270875 mke2fs@7f54795b7fb4[2091] read(4, 0x56076eafd3d0, 1024) = 6\n", 
+                        "api": "read", 
+                        "return_value": "6", 
+                        "category": "process", 
+                        "instruction_pointer": "7f54795b7fb4", 
+                        "arguments": {
+                            "p2": "1024", 
+                            "p0": "4", 
+                            "p1": "0x56076eafd3d0"
+                        }, 
+                        "time": 1642279060.270875
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.270924 mke2fs@7f54795bd3f7[2091] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f54795bd3f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642279060.270924
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.270970 mke2fs@7f54795c22e9[2091] gettid() = 2091\n", 
+                        "api": "gettid", 
+                        "return_value": "2091", 
+                        "category": "process", 
+                        "instruction_pointer": "7f54795c22e9", 
+                        "arguments": {}, 
+                        "time": 1642279060.27097
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.271003 mke2fs@7f54795b7613[2091] fstat(3, 0x7ffddee07530) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f54795b7613", 
+                        "arguments": {
+                            "p0": "3", 
+                            "p1": "0x7ffddee07530"
+                        }, 
+                        "time": 1642279060.271003
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.271035 mke2fs@7f547958d717[2091] geteuid() = 0\n", 
+                        "api": "geteuid", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f547958d717", 
+                        "arguments": {}, 
+                        "time": 1642279060.271035
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.271066 mke2fs@7f547958d737[2091] getegid() = 0\n", 
+                        "api": "getegid", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f547958d737", 
+                        "arguments": {}, 
+                        "time": 1642279060.271066
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.271096 mke2fs@7f54796aad94[2091] read(3, 0x7ffddee07730, 1024) = 1024\n", 
+                        "api": "read", 
+                        "return_value": "1024", 
+                        "category": "process", 
+                        "instruction_pointer": "7f54796aad94", 
+                        "arguments": {
+                            "p2": "1024", 
+                            "p0": "3", 
+                            "p1": "0x7ffddee07730"
+                        }, 
+                        "time": 1642279060.271096
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.271136 mke2fs@7f54795c24c3[2091] mmap2(0x7f5374011000, 40960, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 3, 0) = 0x7f5374011000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5374011000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f54795c24c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED", 
+                            "p0": "0x7f5374011000", 
+                            "p1": "40960", 
+                            "p4": "3", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642279060.271136
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.271181 mke2fs@7f54795be2f7[2091] brk(0x56076eb32000) = 94589921992704\n", 
+                        "api": "brk", 
+                        "return_value": "94589921992704", 
+                        "category": "process", 
+                        "instruction_pointer": "7f54795be2f7", 
+                        "arguments": {
+                            "p0": "0x56076eb32000"
+                        }, 
+                        "time": 1642279060.271181
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.271236 mke2fs@7f54795c24c3[2091] mmap2(0x7f537402a000, 4096, PROT_READ|PROT_WRITE|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 3, 36864) = 0x7f537402a000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f537402a000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f54795c24c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED", 
+                            "p0": "0x7f537402a000", 
+                            "p1": "4096", 
+                            "p4": "3", 
+                            "p5": "36864"
+                        }, 
+                        "time": 1642279060.271236
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.271288 mke2fs@7f54796aae27[2091] close(3) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f54796aae27", 
+                        "arguments": {
+                            "p0": "3"
+                        }, 
+                        "time": 1642279060.271288
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.271365 mke2fs@7f54795c24c3[2091] mmap2(0x7f54737ff000, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f54737ff000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f54737ff000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f54795c24c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f54737ff000", 
+                            "p1": "8392704", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642279060.271365
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.271488 mke2fs@7f54795c2597[2091] mprotect(0x7f54737ff000, 4096, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f54795c2597", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7f54737ff000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642279060.271488
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.271540 mke2fs@7f54796ab55e[2091] openat(AT_FDCWD, \"/lib/ld-linux.so.2\", O_RDONLY) = -2 (ENOENT)\n", 
+                        "api": "openat", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f54796ab55e", 
+                        "arguments": {
+                            "p2": "O_RDONLY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/ld-linux.so.2"
+                        }, 
+                        "time": 1642279060.27154
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.271614 mke2fs@7f54795b8057[2091] write(2, \"/lib/ld-linux.so.2: No such file or directory\\n\", 46) = 46\n", 
+                        "api": "write", 
+                        "return_value": "46", 
+                        "category": "process", 
+                        "instruction_pointer": "7f54795b8057", 
+                        "arguments": {
+                            "p2": "46", 
+                            "p0": "2", 
+                            "p1": "/lib/ld-linux.so.2: No such file or directory\n"
+                        }, 
+                        "time": 1642279060.271614
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.271686 mke2fs@7f547958c926[2091] exit_group(-1)\n", 
+                        "api": "exit_group", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7f547958c926", 
+                        "arguments": {
+                            "p0": "-1"
+                        }, 
+                        "time": 1642279060.271686
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 20:37:40 2022.271725 mke2fs@7f547958c926[2091] futex(0x7f5479430410, FUTEX_WAKE, 1) = 0\n", 
+                        "api": "futex", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f547958c926", 
+                        "arguments": {
+                            "p2": "1", 
+                            "p0": "0x7f5479430410", 
+                            "p1": "FUTEX_WAKE"
+                        }, 
+                        "time": 1642279060.271725
+                    }
+                ], 
+                "pid": 2091, 
+                "process_name": "mke2fs", 
+                "command_line": "/tmp/mke2fs", 
+                "first_seen": 1642279059.802824, 
+                "ppid": -1, 
+                "type": "process"
+            }, 
+            {
+                "calls": [
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 20:37:40 2022.266471 mke2fs@7f54796a1117[2092] set_robust_list(0x7f547942e9e0, 24) = 0\n", 
+                        "api": "set_robust_list", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f54796a1117", 
+                        "arguments": {
+                            "p0": "0x7f547942e9e0", 
+                            "p1": "24"
+                        }, 
+                        "time": 1642279060.266471
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 20:37:40 2022.266541 mke2fs@7f54795c24c3[2092] mmap2(0x0, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f5470c2e000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5470c2e000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f54795c24c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x0", 
+                            "p1": "134217728", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642279060.266541
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 20:37:40 2022.266602 mke2fs@7f54795c2567[2092] munmap(0x7f5470c2e000, 54337536) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f54795c2567", 
+                        "arguments": {
+                            "p0": "0x7f5470c2e000", 
+                            "p1": "54337536"
+                        }, 
+                        "time": 1642279060.266602
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 20:37:40 2022.266665 mke2fs@7f54795c2567[2092] munmap(0x7f5478000000, 12771328) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f54795c2567", 
+                        "arguments": {
+                            "p0": "0x7f5478000000", 
+                            "p1": "12771328"
+                        }, 
+                        "time": 1642279060.266665
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 20:37:40 2022.266716 mke2fs@7f54795c2597[2092] mprotect(0x7f5474000000, 135168, PROT_READ|PROT_WRITE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f54795c2597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p0": "0x7f5474000000", 
+                            "p1": "135168"
+                        }, 
+                        "time": 1642279060.266716
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mke2fs", 
+                        "pid": 2092, 
+                        "raw": "Sat Jan 15 20:37:40 2022.266791 mke2fs@7f54796ab440[2092] nanosleep([0.010000000], 0x7f547942ddc0) = -516\n", 
+                        "api": "nanosleep", 
+                        "return_value": "-516", 
+                        "category": "process", 
+                        "instruction_pointer": "7f54796ab440", 
+                        "arguments": {
+                            "p0": [
+                                "0.010000000"
+                            ], 
+                            "p1": "0x7f547942ddc0"
+                        }, 
+                        "time": 1642279060.266791
+                    }
+                ], 
+                "pid": 2092, 
+                "process_name": "mke2fs", 
+                "command_line": "", 
+                "first_seen": 1642279060.266471, 
+                "ppid": 2091, 
+                "type": "process"
+            }
+        ], 
+        "processtree": [
+            {
+                "track": true, 
+                "pid": 2091, 
+                "process_name": "mke2fs", 
+                "command_line": "/tmp/mke2fs", 
+                "first_seen": 1642279059.802824, 
+                "ppid": -1, 
+                "children": [
+                    {
+                        "track": true, 
+                        "pid": 2092, 
+                        "process_name": "mke2fs", 
+                        "command_line": "", 
+                        "first_seen": 1642279060.266471, 
+                        "ppid": 2091, 
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    }, 
+    "debug": {
+        "action": [], 
+        "dbgview": [], 
+        "errors": [], 
+        "log": [
+            "2022-01-15 20:37:32,002 [root] DEBUG: Starting analyzer from: /tmp/tmpzU7DcQ\n", 
+            "2022-01-15 20:37:32,003 [root] DEBUG: Storing results at: /tmp/ZsSxdiH\n", 
+            "2022-01-15 20:37:34,044 [modules.auxiliary.filecollector] INFO: FileCollector started v0.08\n", 
+            "2022-01-15 20:37:34,047 [modules.auxiliary.human] INFO: Human started v0.02\n", 
+            "2022-01-15 20:37:34,049 [modules.auxiliary.screenshots] INFO: Screenshots started v0.03\n", 
+            "2022-01-15 20:37:39,799 [lib.core.packages] INFO: Process startup took 5.74 seconds\n", 
+            "2022-01-15 20:37:39,800 [root] INFO: Added new process to list with pid: 2081\n", 
+            "2022-01-15 20:37:48,916 [root] INFO: Process with pid 2081 has terminated\n", 
+            "2022-01-15 20:37:48,917 [root] INFO: Process list is empty, terminating analysis.\n", 
+            "2022-01-15 20:37:51,918 [lib.core.packages] INFO: Package requested stop\n", 
+            "2022-01-15 20:37:51,919 [lib.core.packages] WARNING: Exception uploading log: [Errno 3] No such process\n"
+        ], 
+        "cuckoo": [
+            "2022-01-16 05:55:59,730 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 05:56:09,758 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 05:56:19,782 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 05:56:29,820 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 05:56:39,846 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 05:56:49,872 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 05:56:59,894 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 05:57:09,920 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 05:57:19,946 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 05:57:29,969 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 05:57:39,990 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 05:57:50,013 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 05:58:00,041 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 05:58:10,068 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 05:58:20,087 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 05:58:30,109 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 05:58:40,135 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 05:58:50,157 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 05:59:00,179 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 05:59:10,208 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 05:59:20,229 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 05:59:30,259 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 05:59:40,280 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 05:59:50,299 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:00:00,324 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:00:10,345 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:00:20,371 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:00:30,401 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:00:40,426 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:00:50,456 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:01:00,477 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:01:10,495 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:01:20,533 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:01:30,563 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:01:40,584 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:01:50,603 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:02:00,625 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:02:10,647 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:02:20,673 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:02:30,698 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:02:40,722 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:02:50,747 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:03:00,773 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:03:10,798 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:03:20,827 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:03:30,849 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:03:41,016 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:03:51,043 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:04:01,072 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:04:11,099 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:04:21,131 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:04:31,177 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:04:41,217 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:04:51,249 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:05:01,287 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:05:11,321 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:05:21,356 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:05:31,390 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:05:41,443 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:05:51,474 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:06:01,512 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:06:11,542 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:06:21,686 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:06:31,844 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:06:41,977 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:06:52,082 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:07:02,175 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:07:12,242 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:07:22,344 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:07:32,440 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:07:42,519 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:07:52,595 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:08:02,653 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:08:12,957 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:08:23,200 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:08:33,275 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:08:43,321 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:08:53,350 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:09:03,373 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:09:13,400 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:09:23,426 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:09:33,531 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:09:43,556 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:09:53,578 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:10:03,605 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:10:13,631 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:10:23,802 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:10:33,851 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:10:43,872 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:10:53,900 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:11:03,935 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:11:13,961 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:11:23,988 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:11:34,007 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:11:44,038 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:11:54,067 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:12:04,123 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:12:14,158 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:12:24,188 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:12:34,210 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:12:44,240 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:12:54,284 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:13:04,308 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:13:14,326 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:13:24,352 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:13:34,372 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:13:44,396 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:13:54,419 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:14:04,449 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:14:14,473 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:14:24,492 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:14:34,520 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:14:44,541 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:14:54,567 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:15:04,589 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:15:14,610 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:15:24,641 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:15:34,672 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:15:44,699 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:15:54,735 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:16:04,763 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:16:14,788 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:16:24,810 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:16:34,835 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:16:44,865 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:16:54,892 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:17:04,910 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:17:14,996 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:17:25,019 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:17:35,043 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:17:45,069 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:17:55,097 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:18:05,207 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:18:15,295 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:18:25,320 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:18:35,345 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:18:45,377 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:18:55,403 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:19:05,429 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:19:15,451 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:19:25,481 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:19:35,509 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:19:45,554 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:19:55,581 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:20:05,604 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:20:15,630 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:20:25,651 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:20:35,676 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:20:45,701 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:20:55,721 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:21:05,745 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:21:15,772 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:21:25,794 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:21:35,814 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:21:45,835 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:21:55,855 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:22:05,882 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:22:15,926 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:22:25,980 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:22:36,026 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:22:46,077 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:22:56,147 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:23:06,207 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:23:16,245 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:23:26,311 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:23:36,427 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:23:46,483 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:23:56,507 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:24:06,542 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:24:16,578 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:24:26,610 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:24:36,652 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:24:46,761 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:24:56,783 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:25:06,809 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:25:16,838 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:25:26,938 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:25:36,989 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:25:47,034 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:25:57,066 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:26:07,098 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:26:17,140 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:26:27,173 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:26:37,202 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:26:47,248 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:26:57,335 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:27:07,450 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:27:17,480 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:27:27,518 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:27:37,583 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:27:47,617 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:27:57,638 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:28:07,662 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:28:17,707 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:28:27,772 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:28:37,808 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:28:47,835 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:28:57,876 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:29:07,898 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:29:17,949 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:29:27,989 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:29:38,049 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:29:48,105 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:29:58,162 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:30:08,199 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:30:18,261 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:30:28,318 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:30:38,367 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:30:48,406 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:30:58,479 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:31:08,532 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:31:18,573 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:31:28,625 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:31:38,661 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:31:48,706 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:31:58,767 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:32:08,793 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:32:18,819 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:32:28,892 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:32:38,943 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:32:48,984 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:32:59,015 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:33:09,047 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:33:19,068 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:33:29,108 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:33:39,131 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:33:49,158 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:33:59,185 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:34:09,210 [cuckoo.core.scheduler] DEBUG: Task #2651226: no machine available yet\n", 
+            "2022-01-16 06:34:19,251 [cuckoo.core.scheduler] INFO: Task #2651226: acquired machine Ubuntu1904x642 (label=Ubuntu1904x642)\n", 
+            "2022-01-16 06:34:19,252 [cuckoo.core.resultserver] DEBUG: Now tracking machine 192.168.168.102 for task #2651226\n", 
+            "2022-01-16 06:34:19,514 [cuckoo.auxiliary.sniffer] INFO: Started sniffer with PID 198076 (interface=vboxnet0, host=192.168.168.102)\n", 
+            "2022-01-16 06:34:20,245 [cuckoo.machinery.virtualbox] DEBUG: Starting vm Ubuntu1904x642\n", 
+            "2022-01-16 06:34:20,850 [cuckoo.machinery.virtualbox] DEBUG: Restoring virtual machine Ubuntu1904x642 to Snapshot\n", 
+            "2022-01-16 06:34:31,249 [cuckoo.core.guest] INFO: Starting analysis #2651226 on guest (id=Ubuntu1904x642, ip=192.168.168.102)\n", 
+            "2022-01-16 06:34:32,261 [cuckoo.core.guest] DEBUG: Ubuntu1904x642: not ready yet\n", 
+            "2022-01-16 06:34:37,347 [cuckoo.core.guest] INFO: Guest is running Cuckoo Agent 0.10 (id=Ubuntu1904x642, ip=192.168.168.102)\n", 
+            "2022-01-16 06:34:37,363 [cuckoo.core.guest] DEBUG: Uploading analyzer to guest (id=Ubuntu1904x642, ip=192.168.168.102, monitor=latest, size=72028)\n", 
+            "2022-01-16 06:34:37,680 [cuckoo.core.resultserver] DEBUG: Task #2651226: live log analysis.log initialized.\n", 
+            "2022-01-16 06:34:43,759 [cuckoo.core.resultserver] DEBUG: Task #2651226: File upload for 'shots/0001.jpg'\n", 
+            "2022-01-16 06:34:43,769 [cuckoo.core.resultserver] DEBUG: Task #2651226 uploaded file length: 171552\n", 
+            "2022-01-16 06:34:52,708 [cuckoo.core.guest] DEBUG: Ubuntu1904x642: analysis #2651226 still processing\n", 
+            "2022-01-16 06:34:58,127 [cuckoo.core.resultserver] DEBUG: Task #2651226: File upload for 'logs/all.stap'\n", 
+            "2022-01-16 06:34:58,269 [cuckoo.core.resultserver] DEBUG: Task #2651226 uploaded file length: 18532\n", 
+            "2022-01-16 06:35:07,788 [cuckoo.core.guest] DEBUG: Ubuntu1904x642: analysis #2651226 still processing\n", 
+            "2022-01-16 06:35:22,880 [cuckoo.core.guest] DEBUG: Ubuntu1904x642: analysis #2651226 still processing\n", 
+            "2022-01-16 06:35:37,996 [cuckoo.core.guest] DEBUG: Ubuntu1904x642: analysis #2651226 still processing\n", 
+            "2022-01-16 06:35:53,117 [cuckoo.core.guest] DEBUG: Ubuntu1904x642: analysis #2651226 still processing\n", 
+            "2022-01-16 06:36:08,205 [cuckoo.core.guest] DEBUG: Ubuntu1904x642: analysis #2651226 still processing\n", 
+            "2022-01-16 06:36:23,308 [cuckoo.core.guest] DEBUG: Ubuntu1904x642: analysis #2651226 still processing\n", 
+            "2022-01-16 06:36:38,421 [cuckoo.core.guest] DEBUG: Ubuntu1904x642: analysis #2651226 still processing\n", 
+            "2022-01-16 06:36:53,518 [cuckoo.core.guest] DEBUG: Ubuntu1904x642: analysis #2651226 still processing\n", 
+            "2022-01-16 06:37:08,802 [cuckoo.core.guest] DEBUG: Ubuntu1904x642: analysis #2651226 still processing\n", 
+            "2022-01-16 06:37:23,983 [cuckoo.core.guest] DEBUG: Ubuntu1904x642: analysis #2651226 still processing\n", 
+            "2022-01-16 06:37:39,127 [cuckoo.core.guest] DEBUG: Ubuntu1904x642: analysis #2651226 still processing\n", 
+            "2022-01-16 06:37:54,249 [cuckoo.core.guest] DEBUG: Ubuntu1904x642: analysis #2651226 still processing\n", 
+            "2022-01-16 06:38:10,637 [cuckoo.core.guest] DEBUG: Ubuntu1904x642: analysis #2651226 still processing\n", 
+            "2022-01-16 06:38:25,705 [cuckoo.core.guest] DEBUG: Ubuntu1904x642: analysis #2651226 still processing\n", 
+            "2022-01-16 06:38:37,752 [cuckoo.core.guest] INFO: Ubuntu1904x642: end of analysis reached!\n", 
+            "2022-01-16 06:38:37,785 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Redsocks\n", 
+            "2022-01-16 06:38:37,880 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Sniffer\n", 
+            "2022-01-16 06:38:54,838 [cuckoo.machinery.virtualbox] INFO: Successfully generated memory dump for virtual machine with label Ubuntu1904x642 to path /srv/cuckoo/cwd/storage/analyses/2651226/memory.dmp\n", 
+            "2022-01-16 06:38:54,839 [cuckoo.machinery.virtualbox] DEBUG: Stopping vm Ubuntu1904x642\n", 
+            "2022-01-16 06:39:08,582 [cuckoo.core.resultserver] DEBUG: Stopped tracking machine 192.168.168.102 for task #2651226\n", 
+            "2022-01-16 06:39:08,583 [cuckoo.core.resultserver] DEBUG: Cancel <Context for LOG> for task 2651226\n", 
+            "2022-01-16 06:39:08,738 [cuckoo.core.scheduler] DEBUG: Released database task #2651226\n", 
+            "2022-01-16 06:39:09,064 [cuckoo.core.scheduler] INFO: Task #2651226: analysis procedure completed\n"
+        ]
+    }, 
+    "strings": [
+        "/lib/ld-linux.so.2", 
+        "libext2fs.so.2", 
+        "initialize_ext2_error_table", 
+        "ext2fs_get_device_sectsize", 
+        "ext2fs_create_resize_inode", 
+        "ext2fs_close", 
+        "ext2fs_create_journal_superblock", 
+        "ext2fs_badblocks_list_iterate_end", 
+        "ext2fs_initialize", 
+        "ext2fs_add_journal_device", 
+        "ext2fs_read_bb_FILE", 
+        "error_message", 
+        "ext2fs_flush", 
+        "ext2fs_badblocks_list_iterate_begin", 
+        "ext2fs_get_device_size", 
+        "ext2fs_read_inode", 
+        "ext2fs_mkdir", 
+        "ext2fs_allocate_tables", 
+        "ext2fs_expand_dir", 
+        "ext2fs_mark_generic_bitmap", 
+        "ext2fs_lookup", 
+        "ext2fs_open", 
+        "ext2fs_bg_has_super", 
+        "unix_io_manager", 
+        "com_err", 
+        "ext2fs_write_new_inode", 
+        "ext2fs_update_bb_inode", 
+        "ext2fs_super_and_bgd_loc", 
+        "ext2fs_badblocks_list_test", 
+        "ext2fs_check_if_mounted", 
+        "ext2fs_add_journal_inode", 
+        "_Jv_RegisterClasses", 
+        "ext2fs_badblocks_list_iterate", 
+        "__gmon_start__", 
+        "libcom_err.so.2", 
+        "libblkid.so.1", 
+        "blkid_get_devname", 
+        "libuuid.so.1", 
+        "uuid_generate", 
+        "libe2p.so.2", 
+        "e2p_os2string", 
+        "e2p_percent", 
+        "parse_num_blocks", 
+        "e2p_edit_feature", 
+        "libc.so.6", 
+        "putchar", 
+        "strcpy", 
+        "getgid", 
+        "sysconf", 
+        "__strtod_internal", 
+        "stdout", 
+        "geteuid", 
+        "getenv", 
+        "__strtol_internal", 
+        "memcpy", 
+        "pclose", 
+        "perror", 
+        "__cxa_finalize", 
+        "getuid", 
+        "malloc", 
+        "optarg", 
+        "readdir", 
+        "__strtoul_internal", 
+        "fflush", 
+        "putenv", 
+        "strrchr", 
+        "fprintf", 
+        "strcat", 
+        "dcgettext", 
+        "optind", 
+        "strncpy", 
+        "strcasecmp", 
+        "realloc", 
+        "strdup", 
+        "__xstat64", 
+        "getopt", 
+        "memset", 
+        "opendir", 
+        "strcmp", 
+        "sprintf", 
+        "fclose", 
+        "setlocale", 
+        "stderr", 
+        "__ctype_b_loc", 
+        "__xstat", 
+        "__errno_location", 
+        "bindtextdomain", 
+        "setbuf", 
+        "_IO_stdin_used", 
+        "__libc_start_main", 
+        "strlen", 
+        "strchr", 
+        "closedir", 
+        "_edata", 
+        "__bss_start", 
+        "GLIBC_2.3", 
+        "GLIBC_2.1.3", 
+        "GLIBC_2.2", 
+        "GLIBC_2.1", 
+        "GLIBC_2.0", 
+        "badblocks -b %d -X %s%s%s %u", 
+        "Running command: %s", 
+        "while trying to run '%s'", 
+        "while processing list of bad blocks from program", 
+        "Bad block %u out of range; ignored.", 
+        "Usage: %s [-c|-t|-l filename] [-b block-size] [-f fragment-size]", 
+        "[-i bytes-per-inode] [-I inode-size] [-j] [-J journal-options]", 
+        "[-N number-of-inodes] [-m reserved-blocks-percentage] [-o creator-os]", 
+        "[-g blocks-per-group] [-L volume-label] [-M last-mounted-directory]", 
+        "[-O feature[,...]] [-r fs-revision] [-R options] [-qvSV]", 
+        "device [blocks-count]", 
+        "Syntax error in mke2fs config file (%s, line #%d)", 
+        "Invalid filesystem option set: %s", 
+        "freebsd", 
+        "done                            ", 
+        "while allocating zeroizing buffer", 
+        "malloc", 
+        "warning: %u blocks unused.", 
+        "Filesystem label=%s", 
+        "OS type: ", 
+        "Block size=%u (log=%u)", 
+        "Fragment size=%u (log=%u)", 
+        "%u inodes, %u blocks", 
+        "%u blocks (%2.2f%%) reserved for the super user", 
+        "First data block=%u", 
+        "Maximum filesystem blocks=%lu", 
+        "%u block groups", 
+        "%u block group", 
+        "%u blocks per group, %u fragments per group", 
+        "%u inodes per group", 
+        "Superblock backups stored on blocks: ", 
+        "%%%dd/%%%dld", 
+        "MKE2FS_SKIP_PROGRESS", 
+        "while initializing journal superblock", 
+        "create_journal_dev", 
+        "Zeroing journal device: ", 
+        "while zeroing journal device (block %u, count %d)", 
+        "while writing journal superblock", 
+        "while trying to open %s", 
+        "read_bad_blocks_file", 
+        "while reading in list of bad blocks from file", 
+        "ext2fs_read_bb_FILE", 
+        "Block %d in primary superblock/group descriptor area bad.", 
+        "Blocks %u through %u must be good in order to build a filesystem.", 
+        "Aborting....", 
+        "Warning: the backup superblock/group descriptors at block %u contain", 
+        "bad blocks.", 
+        "while marking bad blocks as used", 
+        "ext2fs_badblocks_list_iterate_begin", 
+        "Writing inode tables: ", 
+        "Could not write %d blocks in inode table starting at %u: %s", 
+        "while creating root dir", 
+        "ext2fs_mkdir", 
+        "while reading root inode", 
+        "ext2fs_read_inode", 
+        "while setting root inode ownership", 
+        "ext2fs_write_inode", 
+        "while creating /lost+found", 
+        "while looking up /lost+found", 
+        "ext2_lookup", 
+        "while expanding /lost+found", 
+        "ext2fs_expand_dir", 
+        "while setting bad block inode", 
+        "ext2fs_update_bb_inode", 
+        "e2fsprogs", 
+        "/usr/share/locale", 
+        "PATH=/sbin", 
+        "MKE2FS_SYNC", 
+        "MKE2FS_CONFIG", 
+        "mkfs.ext3", 
+        "invalid block size - %s", 
+        "Warning: blocksize %d not usable on most systems.", 
+        "invalid fragment size - %s", 
+        "Warning: fragments not supported.  Ignoring -f option", 
+        "Illegal number for blocks per group", 
+        "blocks per group must be multiple of 8", 
+        "invalid inode ratio %s (min %d/max %d)", 
+        "in malloc for bad_blocks_filename", 
+        "invalid reserved blocks percent - %s", 
+        "bad revision level - %s", 
+        "invalid inode size - %s", 
+        "bad num inodes - %s", 
+        "b:cf:g:i:jl:m:no:qr:s:tvE:FI:J:L:M:N:O:R:ST:V", 
+        "mke2fs %s (%s)", 
+        "1.40-WIP", 
+        "14-Nov-2006", 
+        "Using %s", 
+        "while trying to open journal device %s", 
+        "Journal dev blocksize (%d) smaller than minimum blocksize %d", 
+        "%d-byte blocks too big for system (max %d)", 
+        "Warning: %d-byte blocks too big for system (max %d), forced to continue", 
+        "invalid blocks count - %s", 
+        "filesystem", 
+        "while trying to determine filesystem size", 
+        "Couldn't determine device size; you must specify", 
+        "the size of the filesystem", 
+        "Device size reported to be zero.  Invalid partition specified, or", 
+        "partition table wasn't reread after running fdisk, due to", 
+        "a modified partition being busy and in use.  You may need to reboot", 
+        "to re-read your partition table.", 
+        "Filesystem larger than apparent device size.", 
+        "floppy", 
+        "default", 
+        "defaults", 
+        "base_features", 
+        "filetype,sparse_super", 
+        "fs_types", 
+        "default_features", 
+        "Filesystem features not supported with revision 0 filesystems", 
+        "Sparse superblocks not supported with revision 0 filesystems", 
+        "Journals not supported with revision 0 filesystems", 
+        "journal", 
+        "MKE2FS_FIRST_META_BG", 
+        "while trying to determine hardware sector size", 
+        "MKE2FS_DEVICE_SECTSIZE", 
+        "blocksize", 
+        "inode_ratio", 
+        "Couldn't allocate memory to parse options!", 
+        "stride", 
+        "Invalid stride parameter: %s", 
+        "resize", 
+        "Invalid resize parameter: %s", 
+        "The resize maximum must be greater than the filesystem size.", 
+        "On-line resizing not supported with revision 0 filesystems", 
+        "Bad options specified.", 
+        "Extended options are separated by commas, and may take an argument which", 
+        "is set off by an equals ('=') sign.", 
+        "Valid extended options are:", 
+        "stride=<stride length in blocks>", 
+        "resize=<resize maximum size in blocks>", 
+        "reserved online resize blocks not supported on non-sparse filesystem", 
+        "blocks per group count out of range", 
+        "Filesystem too large.  No more than 2**31-1 blocks", 
+        " (8TB using a blocksize of 4k) are currently supported.", 
+        "Warning: some 2.4 kernels do not support blocksizes greater than 4096", 
+        "using ext3.  Use -b 4096 if this is an issue for you.", 
+        "inode_size", 
+        "invalid inode size %d (min %d/max %d)", 
+        "Warning: %d-byte inodes not usable on older systems", 
+        "too many inodes (%llu), raise inode ratio?", 
+        "too many inodes (%llu), specify < 2^32 inodes", 
+        "while setting up superblock", 
+        "Out of memory erasing sectors %d-%d", 
+        "Warning: could not erase sector %d: %s", 
+        "unknown os - %s", 
+        "while trying to allocate filesystem tables", 
+        "while zeroing block %u at end of filesystem", 
+        "while reserving blocks for online resize", 
+        "ext2fs_create_resize_inode", 
+        "Adding journal to device %s: ", 
+        "while trying to add journal to device %s", 
+        "Creating journal (%d blocks): ", 
+        "while trying to create journal", 
+        "Writing superblocks and filesystem accounting information: ", 
+        "Warning, had trouble writing out superblocks.", 
+        "MKE2FS_SKIP_CHECK_MSG", 
+        "mke2fs", 
+        "/etc/mke2fs.conf", 
+        "This filesystem will be automatically checked every %d mounts or", 
+        "%g days, whichever comes first.  Use tune2fs -c or -i to override.", 
+        "Filesystem too small for a journal", 
+        "The requested journal size is %d blocks; it must be", 
+        "between 1024 and 102400 blocks.  Aborting.", 
+        "Journal size too big for filesystem.", 
+        "Couldn't allocate memory to parse journal options!", 
+        "device", 
+        "v1_superblock", 
+        "Bad journal options specified.", 
+        "Journal options are separated by commas, and may take an argument which", 
+        "is set off by an equals ('=') sign.", 
+        "Valid journal options are:", 
+        "size=<journal size in megabytes>", 
+        "device=<journal device>", 
+        "The journal size must be between 1024 and 102400 filesystem blocks.", 
+        "while determining whether %s is mounted.", 
+        "ext2fs_check_if_mount", 
+        "%s is mounted; ", 
+        "mke2fs forced anyway.  Hope /etc/mtab is incorrect.", 
+        "will not make a %s here!", 
+        "%s is apparently in use by the system; ", 
+        "mke2fs forced anyway.", 
+        "Proceed anyway? (y,n) ", 
+        "Could not stat %s --- %s", 
+        "The device apparently does not exist; did you specify it correctly?", 
+        "%s is not a block special device.", 
+        "%s is entire device, not just one partition!", 
+        "(root)", 
+        ".shstrtab", 
+        ".interp", 
+        ".note.ABI-tag", 
+        ".dynsym", 
+        ".dynstr", 
+        ".gnu.version", 
+        ".gnu.version_r", 
+        ".rela.dyn", 
+        ".rela.plt", 
+        ".rodata", 
+        ".eh_frame_hdr", 
+        ".eh_frame", 
+        ".ctors", 
+        ".dtors", 
+        ".dynamic"
+    ], 
+    "metadata": {
+        "output": {
+            "pcap": {
+                "basename": "dump.pcap", 
+                "sha256": "704e5e5b3234433c01fcfd1b20a306e77e985038120492dc53965c3edd38a4ea", 
+                "dirname": ""
+            }
+        }
+    }
+}
