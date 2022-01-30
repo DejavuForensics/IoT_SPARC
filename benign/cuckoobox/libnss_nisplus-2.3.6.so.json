@@ -1,0 +1,3066 @@
+{
+    "info": {
+        "added": 1642278832.725675, 
+        "started": 1642308960.513135, 
+        "duration": 291, 
+        "ended": 1642309251.880061, 
+        "owner": null, 
+        "score": 0.0, 
+        "id": 2651127, 
+        "category": "file", 
+        "git": {
+            "head": "e8f6317b4b3ef806085a1e99e64c6ff01f26948f", 
+            "fetch_head": "e8f6317b4b3ef806085a1e99e64c6ff01f26948f"
+        }, 
+        "monitor": "2deb9ccd75d5a7a3fe05b2625b03a8639d6ee36b", 
+        "package": "elf", 
+        "route": "internet", 
+        "custom": null, 
+        "machine": {
+            "status": "stopped", 
+            "name": "Ubuntu1904x641", 
+            "label": "Ubuntu1904x641", 
+            "platform": "linux", 
+            "manager": "VirtualBox", 
+            "started_on": "2022-01-16 04:56:03", 
+            "shutdown_on": "2022-01-16 05:00:51"
+        }, 
+        "platform": "linux", 
+        "version": "2.0.7", 
+        "options": "procmemdump=yes,route=internet"
+    }, 
+    "signatures": [], 
+    "target": {
+        "category": "file", 
+        "file": {
+            "mimetype": "application/x-sharedlib", 
+            "yara": [], 
+            "sha1": "3cfd6f0d347c3aef573e596ceb1ea7951822ca3d", 
+            "name": "libnss_nisplus-2.3.6.so", 
+            "type": "ELF 32-bit MSB shared object, SPARC, version 1 (SYSV), dynamically linked, interpreter /lib/ld-linux.so.2, for GNU/Linux 2.4.1, stripped", 
+            "sha256": "33e8a957277ca09e5526a8c2ef729b6efbacd2ab1bb911bff422dcdcb4127040", 
+            "urls": [], 
+            "crc32": "CF531211", 
+            "path": "/srv/cuckoo/cwd/storage/binaries/33e8a957277ca09e5526a8c2ef729b6efbacd2ab1bb911bff422dcdcb4127040", 
+            "ssdeep": "768:48guZDJ9hjiMhtp34OlibuLLeLN2O13PBybUpdJ:EuZV3iG/I28YYpdJ", 
+            "size": 43168, 
+            "sha512": "be47a223620664a37ea0eb69b02351410b2f134bd7f01803429f5e0f0e34d4bc0c2743bdfc505449cb019ce94a049351688e1d74dbe22abef7256198d4e489b1", 
+            "md5": "24bd7af97a5402aa1401ee8a2895ddb7"
+        }, 
+        "custom": null
+    }, 
+    "irma": {
+        "status": 0, 
+        "probes_finished": 16, 
+        "scan_id": "322995ed-5a28-476a-8b4a-9962249dbbe3", 
+        "parent_file_sha256": null, 
+        "name": "33e8a957277ca09e5526a8c2ef729b6efbacd2ab1bb911bff422dcdcb4127040", 
+        "probes_total": 16, 
+        "scan_date": 1642302053, 
+        "other_results": [], 
+        "submitter": "cli", 
+        "file_infos": {
+            "mimetype": "ELF 32-bit MSB shared object, SPARC, version 1 (SYSV)", 
+            "sha1": "3cfd6f0d347c3aef573e596ceb1ea7951822ca3d", 
+            "tags": [], 
+            "timestamp_first_scan": 1642302052.62, 
+            "timestamp_last_scan": 1642302061.58, 
+            "sha256": "33e8a957277ca09e5526a8c2ef729b6efbacd2ab1bb911bff422dcdcb4127040", 
+            "md5": "24bd7af97a5402aa1401ee8a2895ddb7", 
+            "size": 43168
+        }, 
+        "probe_results": {
+            "antivirus": {
+                "Avast Core Security (Linux)": {
+                    "status": 0, 
+                    "duration": 0.01, 
+                    "version": "3.0.3", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "F-Secure Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.03, 
+                    "version": "11.10", 
+                    "results": null, 
+                    "virus_database_version": "2022-01-13_04"
+                }, 
+                "Windows Defender (Windows)": {
+                    "status": 0, 
+                    "duration": 0.05, 
+                    "version": "1.1.18800.4", 
+                    "results": null, 
+                    "virus_database_version": "1.355.1049.0"
+                }, 
+                "Comodo Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 2.19, 
+                    "version": "1.1.268025.1", 
+                    "results": null, 
+                    "virus_database_version": "2021-11-02"
+                }, 
+                "Kaspersky Antivirus (Win)": {
+                    "status": 0, 
+                    "duration": 2.67, 
+                    "version": "21.3", 
+                    "results": null, 
+                    "virus_database_version": "2022-01-04 05:53:00 (full)"
+                }, 
+                "ESET NOD32 Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 4.26, 
+                    "version": "4.0.96", 
+                    "results": null, 
+                    "virus_database_version": "6178ebd0-1e722 (2021-10-27)"
+                }, 
+                "GData (Windows)": {
+                    "status": 0, 
+                    "duration": 0.17, 
+                    "version": "5.5.20197.1358", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Forticlient (Linux)": {
+                    "status": 0, 
+                    "duration": 3.03, 
+                    "version": "unavailable", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Avira (Windows)": {
+                    "status": 0, 
+                    "duration": 3.89, 
+                    "version": "8.3.64.66", 
+                    "results": null, 
+                    "virus_database_version": "8.19.1.122"
+                }, 
+                "eScan Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 3.92, 
+                    "version": "7.0.21", 
+                    "results": null, 
+                    "virus_database_version": "7.90035 (27/10/2021)"
+                }, 
+                "McAfee CLI scanner (Linux)": {
+                    "status": 0, 
+                    "duration": 5.78, 
+                    "version": "6.0.6.653", 
+                    "results": null, 
+                    "virus_database_version": "10149"
+                }, 
+                "Sophos Anti-Virus (Linux)": {
+                    "status": 0, 
+                    "duration": 6.62, 
+                    "version": "5.85.0", 
+                    "results": null, 
+                    "virus_database_version": "5.88 (26 October 2021)"
+                }, 
+                "DrWeb Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.23, 
+                    "version": "11.1.10.2108031732", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "ClamAV (Linux)": {
+                    "status": 0, 
+                    "duration": 0.02, 
+                    "version": "0.103.2", 
+                    "results": null, 
+                    "virus_database_version": "26334"
+                }, 
+                "Bitdefender Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 6.11, 
+                    "version": "7.90123", 
+                    "results": null, 
+                    "virus_database_version": null
+                }, 
+                "Emsisoft Commandline Scanner (Windows)": {
+                    "status": 0, 
+                    "duration": 0.2, 
+                    "version": "2021.10.0.11201", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }
+            }
+        }, 
+        "path": "", 
+        "result_id": "94b6d3ae-1179-4ad3-88a3-d91702c97d95", 
+        "file_sha256": "33e8a957277ca09e5526a8c2ef729b6efbacd2ab1bb911bff422dcdcb4127040"
+    }, 
+    "suricata": {
+        "tls": [
+            {
+                "src_ip": "192.168.168.101", 
+                "version": "TLS 1.2", 
+                "src_port": 37750, 
+                "dst_port": 443, 
+                "timestamp": "2022-01-16T04:56:48.871526+0200", 
+                "dst_ip": "91.189.92.19", 
+                "fingerprint": "97:63:1b:60:eb:d1:fa:4f:a4:fc:fa:98:66:3d:ee:22:fb:78:ce:c1", 
+                "subject": "C=GB, L=London, O=Canonical Group Ltd, CN=api.snapcraft.io", 
+                "issuer": "C=US, O=DigiCert Inc, CN=DigiCert TLS RSA SHA256 2020 CA1"
+            }
+        ], 
+        "files": [], 
+        "alerts": [], 
+        "http": []
+    }, 
+    "virustotal": {
+        "summary": {
+            "error": "resource has not been scanned yet"
+        }
+    }, 
+    "network": {
+        "udp": [], 
+        "dns_servers": [], 
+        "http": [], 
+        "smtp": [], 
+        "tcp": [], 
+        "geoinfo": {}, 
+        "mitm": [], 
+        "https_ex": [], 
+        "http_ex": [], 
+        "sorted_pcap_sha256": "fb60ad017d011b3ff9c9208cad55bce5cb5bb875af5405add9006553423df3ba", 
+        "icmp": [], 
+        "tls": [], 
+        "dead_hosts": [], 
+        "smtp_ex": [], 
+        "hosts": [], 
+        "pcap_sha256": "73a0ecc0a8004cecd3547aef24769db1462acb935cd404a79b57e921f862ca77", 
+        "dns": [], 
+        "domains": [], 
+        "irc": []
+    }, 
+    "resubmit": {
+        "resubmit_ids": []
+    }, 
+    "snort": {
+        "alerts": []
+    }, 
+    "behavior": {
+        "generic": [
+            {
+                "process_path": null, 
+                "process_name": "libnss_nisplus-", 
+                "pid": 2072, 
+                "summary": {}, 
+                "first_seen": 1642278840.105808, 
+                "ppid": 2071
+            }, 
+            {
+                "process_path": null, 
+                "process_name": "libnss_nisplus-2.3.6.so", 
+                "pid": 2071, 
+                "summary": {}, 
+                "first_seen": 1642278840.089872, 
+                "ppid": -1
+            }
+        ], 
+        "processes": [
+            {
+                "calls": [
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.089872 libnss_nisplus-@7f7426852c27[2071] execve(\"/tmp/libnss_nisplus-2.3.6.so\", [\"/tmp/libnss_nisplus-2.3.6.so\"], [\"SUDO_GID=0\", \"MAIL=/var/mail/root\", \"USER=root\", \"HOME=/root\", \"SUDO_UID=0\", \"LOGNAME=root\", \"SYSTEMTAP_MODULE=stap_\", \"TERM=unknown\", \"SYSTEMTAP_VERBOSE=2\", \"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin\", \"DISPLAY=:0\", \"LANG=en_US.UTF-8\", \"XAUTHORITY=/root/.Xauthority\", \"SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/libnss_nisplus-2.3.6.so\", \"SHELL=/bin/bash\", \"SUDO_USER=)\n", 
+                        "api": "execve", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7426852c27", 
+                        "arguments": {
+                            "p2": [
+                                "SUDO_GID=0", 
+                                "MAIL=/var/mail/root", 
+                                "USER=root", 
+                                "HOME=/root", 
+                                "SUDO_UID=0", 
+                                "LOGNAME=root", 
+                                "SYSTEMTAP_MODULE=stap_", 
+                                "TERM=unknown", 
+                                "SYSTEMTAP_VERBOSE=2", 
+                                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin", 
+                                "DISPLAY=:0", 
+                                "LANG=en_US.UTF-8", 
+                                "XAUTHORITY=/root/.Xauthority", 
+                                "SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/libnss_nisplus-2.3.6.so", 
+                                "SHELL=/bin/bash", 
+                                "\"SUDO_USER="
+                            ], 
+                            "p0": "/tmp/libnss_nisplus-2.3.6.so", 
+                            "p1": [
+                                "/tmp/libnss_nisplus-2.3.6.so"
+                            ]
+                        }, 
+                        "time": 1642278840.089872
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.093021 libnss_nisplus-@7f7426852c27[2071] brk(0x0) = 94407014694912\n", 
+                        "api": "brk", 
+                        "return_value": "94407014694912", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7426852c27", 
+                        "arguments": {
+                            "p0": "0x0"
+                        }, 
+                        "time": 1642278840.093021
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.093095 libnss_nisplus-@7f74268539d7[2071] access(\"/etc/ld.so.preload\", R_OK) = -2 (ENOENT)\n", 
+                        "api": "access", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f74268539d7", 
+                        "arguments": {
+                            "p0": "/etc/ld.so.preload", 
+                            "p1": "R_OK"
+                        }, 
+                        "time": 1642278840.093095
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.094045 libnss_nisplus-@7f7426853b0d[2071] openat(AT_FDCWD, \"/etc/ld.so.cache\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7426853b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/etc/ld.so.cache"
+                        }, 
+                        "time": 1642278840.094045
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.094088 libnss_nisplus-@7f7426853943[2071] fstat(4, 0x7ffc33c20f50) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7426853943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc33c20f50"
+                        }, 
+                        "time": 1642278840.094088
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.094120 libnss_nisplus-@7f7426853d03[2071] mmap2(0x0, 88858, PROT_READ, MAP_PRIVATE, 4, 0) = 0x7f7426821000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f7426821000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7426853d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE", 
+                            "p0": "0x0", 
+                            "p1": "88858", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642278840.09412
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.094155 libnss_nisplus-@7f74268539f7[2071] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f74268539f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642278840.094155
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.094204 libnss_nisplus-@7f7426853b0d[2071] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7426853b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0"
+                        }, 
+                        "time": 1642278840.094204
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.094245 libnss_nisplus-@7f7426853bd4[2071] read(4, 0x7ffc33c21108, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7426853bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc33c21108"
+                        }, 
+                        "time": 1642278840.094245
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.094279 libnss_nisplus-@7f7426853943[2071] fstat(4, 0x7ffc33c20fa0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7426853943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc33c20fa0"
+                        }, 
+                        "time": 1642278840.094279
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.094310 libnss_nisplus-@7f7426853d03[2071] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f742681f000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f742681f000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7426853d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642278840.09431
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.094349 libnss_nisplus-@7f7426853d03[2071] mmap2(0x0, 20600, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f7426819000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f7426819000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7426853d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "20600", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642278840.094349
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.094387 libnss_nisplus-@7f7426853d03[2071] mmap2(0x7f742681a000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 4096) = 0x7f742681a000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f742681a000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7426853d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f742681a000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "4096"
+                        }, 
+                        "time": 1642278840.094387
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.094431 libnss_nisplus-@7f7426853d03[2071] mmap2(0x7f742681c000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f742681c000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f742681c000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7426853d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f742681c000", 
+                            "p1": "4096", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642278840.094431
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.094471 libnss_nisplus-@7f7426853d03[2071] mmap2(0x7f742681d000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f742681d000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f742681d000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7426853d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f742681d000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642278840.094471
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.094520 libnss_nisplus-@7f74268539f7[2071] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f74268539f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642278840.09452
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.094561 libnss_nisplus-@7f7426853b0d[2071] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7426853b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0"
+                        }, 
+                        "time": 1642278840.094561
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.094600 libnss_nisplus-@7f7426853bd4[2071] read(4, 0x7ffc33c210e8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7426853bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc33c210e8"
+                        }, 
+                        "time": 1642278840.0946
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.094633 libnss_nisplus-@7f7426853943[2071] fstat(4, 0x7ffc33c20f80) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7426853943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc33c20f80"
+                        }, 
+                        "time": 1642278840.094633
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.094665 libnss_nisplus-@7f7426853d03[2071] mmap2(0x0, 1180072, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f74266f8000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f74266f8000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7426853d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1180072", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642278840.094665
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.094707 libnss_nisplus-@7f7426853db7[2071] mprotect(0x7f7426713000, 1060864, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7426853db7", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7f7426713000", 
+                            "p1": "1060864"
+                        }, 
+                        "time": 1642278840.094707
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.094746 libnss_nisplus-@7f7426853d03[2071] mmap2(0x7f7426713000, 524288, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 110592) = 0x7f7426713000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f7426713000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7426853d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f7426713000", 
+                            "p1": "524288", 
+                            "p4": "4", 
+                            "p5": "110592"
+                        }, 
+                        "time": 1642278840.094746
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.094783 libnss_nisplus-@7f7426853d03[2071] mmap2(0x7f7426793000, 532480, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 634880) = 0x7f7426793000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f7426793000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7426853d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f7426793000", 
+                            "p1": "532480", 
+                            "p4": "4", 
+                            "p5": "634880"
+                        }, 
+                        "time": 1642278840.094783
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.094818 libnss_nisplus-@7f7426853d03[2071] mmap2(0x7f7426816000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1167360) = 0x7f7426816000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f7426816000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7426853d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f7426816000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "1167360"
+                        }, 
+                        "time": 1642278840.094818
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.094861 libnss_nisplus-@7f7426853d03[2071] mmap2(0x7f7426818000, 424, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f7426818000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f7426818000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7426853d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f7426818000", 
+                            "p1": "424", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642278840.094861
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.094904 libnss_nisplus-@7f74268539f7[2071] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f74268539f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642278840.094904
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.094956 libnss_nisplus-@7f7426853b0d[2071] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/librt.so.1\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7426853b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/librt.so.1"
+                        }, 
+                        "time": 1642278840.094956
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.094994 libnss_nisplus-@7f7426853bd4[2071] read(4, 0x7ffc33c210c8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7426853bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc33c210c8"
+                        }, 
+                        "time": 1642278840.094994
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.095026 libnss_nisplus-@7f7426853943[2071] fstat(4, 0x7ffc33c20f60) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7426853943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc33c20f60"
+                        }, 
+                        "time": 1642278840.095026
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.095057 libnss_nisplus-@7f7426853d03[2071] mmap2(0x0, 44000, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f74266ed000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f74266ed000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7426853d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "44000", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642278840.095057
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.095103 libnss_nisplus-@7f7426853d03[2071] mmap2(0x7f74266f0000, 16384, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f74266f0000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f74266f0000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7426853d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f74266f0000", 
+                            "p1": "16384", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642278840.095103
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.095146 libnss_nisplus-@7f7426853d03[2071] mmap2(0x7f74266f4000, 8192, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 28672) = 0x7f74266f4000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f74266f4000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7426853d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f74266f4000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "28672"
+                        }, 
+                        "time": 1642278840.095146
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.095184 libnss_nisplus-@7f7426853d03[2071] mmap2(0x7f74266f6000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 32768) = 0x7f74266f6000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f74266f6000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7426853d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f74266f6000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "32768"
+                        }, 
+                        "time": 1642278840.095184
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.095233 libnss_nisplus-@7f74268539f7[2071] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f74268539f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642278840.095233
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.095274 libnss_nisplus-@7f7426853b0d[2071] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libm.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7426853b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libm.so.6"
+                        }, 
+                        "time": 1642278840.095274
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.095312 libnss_nisplus-@7f7426853bd4[2071] read(4, 0x7ffc33c210a8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7426853bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc33c210a8"
+                        }, 
+                        "time": 1642278840.095312
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.095346 libnss_nisplus-@7f7426853943[2071] fstat(4, 0x7ffc33c20f40) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7426853943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc33c20f40"
+                        }, 
+                        "time": 1642278840.095346
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.095381 libnss_nisplus-@7f7426853d03[2071] mmap2(0x0, 1364240, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f742659f000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f742659f000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7426853d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1364240", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642278840.095381
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.095418 libnss_nisplus-@7f7426853d03[2071] mmap2(0x7f74265ae000, 679936, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 61440) = 0x7f74265ae000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f74265ae000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7426853d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f74265ae000", 
+                            "p1": "679936", 
+                            "p4": "4", 
+                            "p5": "61440"
+                        }, 
+                        "time": 1642278840.095418
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.095459 libnss_nisplus-@7f7426853d03[2071] mmap2(0x7f7426654000, 618496, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 741376) = 0x7f7426654000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f7426654000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7426853d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f7426654000", 
+                            "p1": "618496", 
+                            "p4": "4", 
+                            "p5": "741376"
+                        }, 
+                        "time": 1642278840.095459
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.095497 libnss_nisplus-@7f7426853d03[2071] mmap2(0x7f74266eb000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1355776) = 0x7f74266eb000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f74266eb000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7426853d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f74266eb000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "1355776"
+                        }, 
+                        "time": 1642278840.095497
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.095546 libnss_nisplus-@7f74268539f7[2071] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f74268539f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642278840.095546
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.095603 libnss_nisplus-@7f7426853b0d[2071] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libgcc_s.so.1\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7426853b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libgcc_s.so.1"
+                        }, 
+                        "time": 1642278840.095603
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.095641 libnss_nisplus-@7f7426853bd4[2071] read(4, 0x7ffc33c21088, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7426853bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc33c21088"
+                        }, 
+                        "time": 1642278840.095641
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.095673 libnss_nisplus-@7f7426853943[2071] fstat(4, 0x7ffc33c20f20) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7426853943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc33c20f20"
+                        }, 
+                        "time": 1642278840.095673
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.095704 libnss_nisplus-@7f7426853d03[2071] mmap2(0x0, 103504, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f7426585000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f7426585000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7426853d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "103504", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642278840.095704
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.095741 libnss_nisplus-@7f7426853d03[2071] mmap2(0x7f7426588000, 69632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f7426588000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f7426588000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7426853d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f7426588000", 
+                            "p1": "69632", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642278840.095741
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.095791 libnss_nisplus-@7f7426853d03[2071] mmap2(0x7f7426599000, 16384, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 81920) = 0x7f7426599000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f7426599000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7426853d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f7426599000", 
+                            "p1": "16384", 
+                            "p4": "4", 
+                            "p5": "81920"
+                        }, 
+                        "time": 1642278840.095791
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.095827 libnss_nisplus-@7f7426853d03[2071] mmap2(0x7f742659d000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 94208) = 0x7f742659d000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f742659d000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7426853d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f742659d000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "94208"
+                        }, 
+                        "time": 1642278840.095827
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.095877 libnss_nisplus-@7f74268539f7[2071] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f74268539f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642278840.095877
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.095918 libnss_nisplus-@7f7426853b0d[2071] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libpthread.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7426853b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libpthread.so.0"
+                        }, 
+                        "time": 1642278840.095918
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.095956 libnss_nisplus-@7f7426853bd4[2071] read(4, 0x7ffc33c21068, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7426853bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc33c21068"
+                        }, 
+                        "time": 1642278840.095956
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.095989 libnss_nisplus-@7f7426853943[2071] fstat(4, 0x7ffc33c20f00) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7426853943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc33c20f00"
+                        }, 
+                        "time": 1642278840.095989
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.096020 libnss_nisplus-@7f7426853d03[2071] mmap2(0x0, 132288, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f7426564000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f7426564000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7426853d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "132288", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642278840.09602
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.096056 libnss_nisplus-@7f7426853d03[2071] mmap2(0x7f742656b000, 61440, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 28672) = 0x7f742656b000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f742656b000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7426853d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f742656b000", 
+                            "p1": "61440", 
+                            "p4": "4", 
+                            "p5": "28672"
+                        }, 
+                        "time": 1642278840.096056
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.096096 libnss_nisplus-@7f7426853d03[2071] mmap2(0x7f742657a000, 20480, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 90112) = 0x7f742657a000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f742657a000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7426853d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f742657a000", 
+                            "p1": "20480", 
+                            "p4": "4", 
+                            "p5": "90112"
+                        }, 
+                        "time": 1642278840.096096
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.096134 libnss_nisplus-@7f7426853d03[2071] mmap2(0x7f742657f000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 106496) = 0x7f742657f000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f742657f000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7426853d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f742657f000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "106496"
+                        }, 
+                        "time": 1642278840.096134
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.096175 libnss_nisplus-@7f7426853d03[2071] mmap2(0x7f7426581000, 13504, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f7426581000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f7426581000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7426853d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f7426581000", 
+                            "p1": "13504", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642278840.096175
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.096218 libnss_nisplus-@7f74268539f7[2071] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f74268539f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642278840.096218
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.096259 libnss_nisplus-@7f7426853b0d[2071] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libc.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7426853b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libc.so.6"
+                        }, 
+                        "time": 1642278840.096259
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.096296 libnss_nisplus-@7f7426853bd4[2071] read(4, 0x7ffc33c21048, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7426853bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc33c21048"
+                        }, 
+                        "time": 1642278840.096296
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.096327 libnss_nisplus-@7f7426853943[2071] fstat(4, 0x7ffc33c20ee0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7426853943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc33c20ee0"
+                        }, 
+                        "time": 1642278840.096327
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.096358 libnss_nisplus-@7f7426853d03[2071] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7426562000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f7426562000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7426853d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642278840.096358
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.096397 libnss_nisplus-@7f7426853d03[2071] mmap2(0x0, 2008696, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f7426377000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f7426377000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7426853d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "2008696", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642278840.096397
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.096432 libnss_nisplus-@7f7426853d03[2071] mmap2(0x7f742639c000, 1519616, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 151552) = 0x7f742639c000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f742639c000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7426853d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f742639c000", 
+                            "p1": "1519616", 
+                            "p4": "4", 
+                            "p5": "151552"
+                        }, 
+                        "time": 1642278840.096432
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.096477 libnss_nisplus-@7f7426853d03[2071] mmap2(0x7f742650f000, 299008, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1671168) = 0x7f742650f000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f742650f000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7426853d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f742650f000", 
+                            "p1": "299008", 
+                            "p4": "4", 
+                            "p5": "1671168"
+                        }, 
+                        "time": 1642278840.096477
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.096513 libnss_nisplus-@7f7426853d03[2071] mmap2(0x7f7426558000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1966080) = 0x7f7426558000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f7426558000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7426853d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f7426558000", 
+                            "p1": "24576", 
+                            "p4": "4", 
+                            "p5": "1966080"
+                        }, 
+                        "time": 1642278840.096513
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.096552 libnss_nisplus-@7f7426853d03[2071] mmap2(0x7f742655e000, 13944, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f742655e000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f742655e000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7426853d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f742655e000", 
+                            "p1": "13944", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642278840.096552
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.096596 libnss_nisplus-@7f74268539f7[2071] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f74268539f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642278840.096596
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.096649 libnss_nisplus-@7f7426853b0d[2071] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libdl.so.2\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7426853b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libdl.so.2"
+                        }, 
+                        "time": 1642278840.096649
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.096686 libnss_nisplus-@7f7426853bd4[2071] read(4, 0x7ffc33c21028, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7426853bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc33c21028"
+                        }, 
+                        "time": 1642278840.096686
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.096718 libnss_nisplus-@7f7426853943[2071] fstat(4, 0x7ffc33c20ec0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7426853943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc33c20ec0"
+                        }, 
+                        "time": 1642278840.096718
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.096749 libnss_nisplus-@7f7426853d03[2071] mmap2(0x0, 20752, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f7426371000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f7426371000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7426853d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "20752", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642278840.096749
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.096786 libnss_nisplus-@7f7426853d03[2071] mmap2(0x7f7426372000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 4096) = 0x7f7426372000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f7426372000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7426853d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f7426372000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "4096"
+                        }, 
+                        "time": 1642278840.096786
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.096826 libnss_nisplus-@7f7426853d03[2071] mmap2(0x7f7426374000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f7426374000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f7426374000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7426853d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f7426374000", 
+                            "p1": "4096", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642278840.096826
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.096863 libnss_nisplus-@7f7426853d03[2071] mmap2(0x7f7426375000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f7426375000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f7426375000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7426853d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f7426375000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642278840.096863
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.096910 libnss_nisplus-@7f74268539f7[2071] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f74268539f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642278840.09691
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.096953 libnss_nisplus-@7f7426853b0d[2071] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libpcre.so.3\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7426853b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libpcre.so.3"
+                        }, 
+                        "time": 1642278840.096953
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.096990 libnss_nisplus-@7f7426853bd4[2071] read(4, 0x7ffc33c21008, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7426853bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc33c21008"
+                        }, 
+                        "time": 1642278840.09699
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.097022 libnss_nisplus-@7f7426853943[2071] fstat(4, 0x7ffc33c20ea0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7426853943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc33c20ea0"
+                        }, 
+                        "time": 1642278840.097022
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.097053 libnss_nisplus-@7f7426853d03[2071] mmap2(0x0, 471304, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f74262fd000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f74262fd000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7426853d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "471304", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642278840.097053
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.097089 libnss_nisplus-@7f7426853d03[2071] mmap2(0x7f74262ff000, 335872, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 8192) = 0x7f74262ff000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f74262ff000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7426853d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f74262ff000", 
+                            "p1": "335872", 
+                            "p4": "4", 
+                            "p5": "8192"
+                        }, 
+                        "time": 1642278840.097089
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.097130 libnss_nisplus-@7f7426853d03[2071] mmap2(0x7f7426351000, 122880, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 344064) = 0x7f7426351000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f7426351000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7426853d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f7426351000", 
+                            "p1": "122880", 
+                            "p4": "4", 
+                            "p5": "344064"
+                        }, 
+                        "time": 1642278840.09713
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.097169 libnss_nisplus-@7f7426853d03[2071] mmap2(0x7f742636f000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 462848) = 0x7f742636f000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f742636f000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7426853d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f742636f000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "462848"
+                        }, 
+                        "time": 1642278840.097169
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.097218 libnss_nisplus-@7f74268539f7[2071] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f74268539f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642278840.097218
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.098088 libnss_nisplus-@7f7426853d03[2071] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f74262fb000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f74262fb000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7426853d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642278840.098088
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.098150 libnss_nisplus-@7f7426838f30[2071] arch_prctl(ARCH_SET_FS, 140136833597760) = 0\n", 
+                        "api": "arch_prctl", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7426838f30", 
+                        "arguments": {
+                            "p0": "ARCH_SET_FS", 
+                            "p1": "140136833597760"
+                        }, 
+                        "time": 1642278840.09815
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.098827 libnss_nisplus-@7f7426853db7[2071] mprotect(0x7f7426558000, 12288, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7426853db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f7426558000", 
+                            "p1": "12288"
+                        }, 
+                        "time": 1642278840.098827
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.098891 libnss_nisplus-@7f7426853db7[2071] mprotect(0x7f742657f000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7426853db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f742657f000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642278840.098891
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.098963 libnss_nisplus-@7f7426853db7[2071] mprotect(0x7f742636f000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7426853db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f742636f000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642278840.098963
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.099016 libnss_nisplus-@7f7426853db7[2071] mprotect(0x7f7426375000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7426853db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f7426375000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642278840.099016
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.099063 libnss_nisplus-@7f7426853db7[2071] mprotect(0x7f742659d000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7426853db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f742659d000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642278840.099063
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.099128 libnss_nisplus-@7f7426853db7[2071] mprotect(0x7f74266eb000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7426853db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f74266eb000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642278840.099128
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.099178 libnss_nisplus-@7f7426853db7[2071] mprotect(0x7f74266f6000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7426853db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f74266f6000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642278840.099178
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.099431 libnss_nisplus-@7f7426853db7[2071] mprotect(0x7f7426816000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7426853db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f7426816000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642278840.099431
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.099506 libnss_nisplus-@7f7426853db7[2071] mprotect(0x7f742681d000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7426853db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f742681d000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642278840.099506
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.102773 libnss_nisplus-@7f7426853db7[2071] mprotect(0x55dcd66bd000, 303104, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7426853db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x55dcd66bd000", 
+                            "p1": "303104"
+                        }, 
+                        "time": 1642278840.102773
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.102835 libnss_nisplus-@7f7426853db7[2071] mprotect(0x7f7426861000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7426853db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f7426861000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642278840.102835
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.102888 libnss_nisplus-@7f7426853d97[2071] munmap(0x7f7426821000, 88858) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7426853d97", 
+                        "arguments": {
+                            "p0": "0x7f7426821000", 
+                            "p1": "88858"
+                        }, 
+                        "time": 1642278840.102888
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.102967 libnss_nisplus-@7f742656b8df[2071] set_tid_address(0x7f74262fc410) = 2071\n", 
+                        "api": "set_tid_address", 
+                        "return_value": "2071", 
+                        "category": "process", 
+                        "instruction_pointer": "7f742656b8df", 
+                        "arguments": {
+                            "p0": "0x7f74262fc410"
+                        }, 
+                        "time": 1642278840.102967
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.103006 libnss_nisplus-@7f742656b94a[2071] set_robust_list(0x7f74262fc420, 24) = 0\n", 
+                        "api": "set_robust_list", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f742656b94a", 
+                        "arguments": {
+                            "p0": "0x7f74262fc420", 
+                            "p1": "24"
+                        }, 
+                        "time": 1642278840.103006
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.103056 libnss_nisplus-@7f7426578010[2071] rt_sigaction(0x20, {0x7f742656b6c0, SA_SIGINFO|SA_RESTORER, 0x7f7426577f40, [EMPTY]}, 0x0, 8) = 0\n", 
+                        "api": "rt_sigaction", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7426578010", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "0x20", 
+                            "p1": [
+                                "0x7f742656b6c0", 
+                                "SA_SIGINFO|SA_RESTORER", 
+                                "0x7f7426577f40", 
+                                [
+                                    "EMPTY]"
+                                ]
+                            ]
+                        }, 
+                        "time": 1642278840.103056
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.103097 libnss_nisplus-@7f7426578010[2071] rt_sigaction(0x21, {0x7f742656b760, SA_RESTART|SA_SIGINFO|SA_RESTORER, 0x7f7426577f40, [EMPTY]}, 0x0, 8) = 0\n", 
+                        "api": "rt_sigaction", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7426578010", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "0x21", 
+                            "p1": [
+                                "0x7f742656b760", 
+                                "SA_RESTART|SA_SIGINFO|SA_RESTORER", 
+                                "0x7f7426577f40", 
+                                [
+                                    "EMPTY]"
+                                ]
+                            ]
+                        }, 
+                        "time": 1642278840.103097
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.103138 libnss_nisplus-@7f742656ba19[2071] rt_sigprocmask(SIG_UNBLOCK, [EMPTY], 0x0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f742656ba19", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "SIG_UNBLOCK", 
+                            "p1": [
+                                "EMPTY"
+                            ]
+                        }, 
+                        "time": 1642278840.103138
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.103247 libnss_nisplus-@7f7426489df0[2071] prlimit64(0, RLIMIT_STACK, NULL, 0x7ffc33c21ce0) = 0\n", 
+                        "api": "prlimit64", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7426489df0", 
+                        "arguments": {
+                            "p2": "NULL", 
+                            "p3": "0x7ffc33c21ce0", 
+                            "p0": "0", 
+                            "p1": "RLIMIT_STACK"
+                        }, 
+                        "time": 1642278840.103247
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.103456 libnss_nisplus-@7f742648a2f7[2071] brk(0x0) = 94407014694912\n", 
+                        "api": "brk", 
+                        "return_value": "94407014694912", 
+                        "category": "process", 
+                        "instruction_pointer": "7f742648a2f7", 
+                        "arguments": {
+                            "p0": "0x0"
+                        }, 
+                        "time": 1642278840.103456
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.103669 libnss_nisplus-@7f742648a2f7[2071] brk(0x55dcd8955000) = 94407014830080\n", 
+                        "api": "brk", 
+                        "return_value": "94407014830080", 
+                        "category": "process", 
+                        "instruction_pointer": "7f742648a2f7", 
+                        "arguments": {
+                            "p0": "0x55dcd8955000"
+                        }, 
+                        "time": 1642278840.103669
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.104689 libnss_nisplus-@7f7426574b86[2071] rt_sigprocmask(SIG_SETMASK, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS], 0x7ffc33c21c30, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7426574b86", 
+                        "arguments": {
+                            "p2": "0x7ffc33c21c30", 
+                            "p3": "8", 
+                            "p0": "SIG_SETMASK", 
+                            "p1": [
+                                "SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS"
+                            ]
+                        }, 
+                        "time": 1642278840.104689
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.105467 libnss_nisplus-@7f742648e4c3[2071] mmap2(0x0, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f7425afa000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f7425afa000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f742648e4c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK", 
+                            "p0": "0x0", 
+                            "p1": "8392704", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642278840.105467
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.105508 libnss_nisplus-@7f742648e597[2071] mprotect(0x7f7425afb000, 8388608, PROT_READ|PROT_WRITE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f742648e597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p0": "0x7f7425afb000", 
+                            "p1": "8388608"
+                        }, 
+                        "time": 1642278840.105508
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.105564 libnss_nisplus-@7f7426494b11[2071] clone(CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, 0x7f74262f9f70, 0x7f74262fa9d0, 0x7f74262fa9d0) = 2072\n", 
+                        "api": "clone", 
+                        "return_value": "2072", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7426494b11", 
+                        "arguments": {
+                            "p2": "0x7f74262fa9d0", 
+                            "p3": "0x7f74262fa9d0", 
+                            "p0": "CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID", 
+                            "p1": "0x7f74262f9f70"
+                        }, 
+                        "time": 1642278840.105564
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.105737 libnss_nisplus-@7f7426574b86[2071] rt_sigprocmask(SIG_SETMASK, [EMPTY], 0x0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7426574b86", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "SIG_SETMASK", 
+                            "p1": [
+                                "EMPTY"
+                            ]
+                        }, 
+                        "time": 1642278840.105737
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.108079 libnss_nisplus-@7f7426489df0[2071] prlimit64(0, RLIMIT_STACK, NULL, 0x7ffc33c217f0) = 0\n", 
+                        "api": "prlimit64", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7426489df0", 
+                        "arguments": {
+                            "p2": "NULL", 
+                            "p3": "0x7ffc33c217f0", 
+                            "p0": "0", 
+                            "p1": "RLIMIT_STACK"
+                        }, 
+                        "time": 1642278840.108079
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.108137 libnss_nisplus-@7f74264895c1[2071] openat(AT_FDCWD, \"/etc/qemu-binfmt/sparc\", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -2 (ENOENT)\n", 
+                        "api": "openat", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f74264895c1", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/etc/qemu-binfmt/sparc"
+                        }, 
+                        "time": 1642278840.108137
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.108206 libnss_nisplus-@7f7426458247[2071] uname(0x7ffc33c21460) = 0\n", 
+                        "api": "uname", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7426458247", 
+                        "arguments": {
+                            "p0": "0x7ffc33c21460"
+                        }, 
+                        "time": 1642278840.108206
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.108243 libnss_nisplus-@7f7426577337[2071] lseek(3, 0, SEEK_SET) = 0\n", 
+                        "api": "lseek", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7426577337", 
+                        "arguments": {
+                            "p2": "SEEK_SET", 
+                            "p0": "3", 
+                            "p1": "0"
+                        }, 
+                        "time": 1642278840.108243
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.108277 libnss_nisplus-@7f7426576d94[2071] read(3, 0x7ffc33c21750, 52) = 52\n", 
+                        "api": "read", 
+                        "return_value": "52", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7426576d94", 
+                        "arguments": {
+                            "p2": "52", 
+                            "p0": "3", 
+                            "p1": "0x7ffc33c21750"
+                        }, 
+                        "time": 1642278840.108277
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.108314 libnss_nisplus-@7f7426577337[2071] lseek(3, 0, SEEK_SET) = 0\n", 
+                        "api": "lseek", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7426577337", 
+                        "arguments": {
+                            "p2": "SEEK_SET", 
+                            "p0": "3", 
+                            "p1": "0"
+                        }, 
+                        "time": 1642278840.108314
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.109559 libnss_nisplus-@7f742648e4c3[2071] mmap2(0x0, 528384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7425a79000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f7425a79000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f742648e4c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "528384", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642278840.109559
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.110093 libnss_nisplus-@7f742648e597[2071] mprotect(0x55dcd671a000, 33550336, PROT_READ|PROT_WRITE|PROT_EXEC) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f742648e597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE|PROT_EXEC", 
+                            "p0": "0x55dcd671a000", 
+                            "p1": "33550336"
+                        }, 
+                        "time": 1642278840.110093
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.110138 libnss_nisplus-@7f742648e667[2071] madvise(0x55dcd671a000, 33550336, MADV_HUGEPAGE) = 0\n", 
+                        "api": "madvise", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f742648e667", 
+                        "arguments": {
+                            "p2": "MADV_HUGEPAGE", 
+                            "p0": "0x55dcd671a000", 
+                            "p1": "33550336"
+                        }, 
+                        "time": 1642278840.110138
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.110294 libnss_nisplus-@7f742648e4c3[2071] mmap2(0x0, 4294963200, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f7320001000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f7320001000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f742648e4c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x0", 
+                            "p1": "4294963200", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642278840.110294
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.110337 libnss_nisplus-@7f7426483d59[2071] openat(AT_FDCWD, \"/proc/sys/vm/mmap_min_addr\", O_RDONLY) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7426483d59", 
+                        "arguments": {
+                            "p2": "O_RDONLY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/proc/sys/vm/mmap_min_addr"
+                        }, 
+                        "time": 1642278840.110337
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.110391 libnss_nisplus-@7f7426483613[2071] fstat(4, 0x7ffc33c20e60) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7426483613", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc33c20e60"
+                        }, 
+                        "time": 1642278840.110391
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.110426 libnss_nisplus-@7f7426483fb4[2071] read(4, 0x55dcd8941400, 1024) = 6\n", 
+                        "api": "read", 
+                        "return_value": "6", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7426483fb4", 
+                        "arguments": {
+                            "p2": "1024", 
+                            "p0": "4", 
+                            "p1": "0x55dcd8941400"
+                        }, 
+                        "time": 1642278840.110426
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.110472 libnss_nisplus-@7f74264893f7[2071] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f74264893f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642278840.110472
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.110516 libnss_nisplus-@7f742648e2e9[2071] gettid() = 2071\n", 
+                        "api": "gettid", 
+                        "return_value": "2071", 
+                        "category": "process", 
+                        "instruction_pointer": "7f742648e2e9", 
+                        "arguments": {}, 
+                        "time": 1642278840.110516
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.110547 libnss_nisplus-@7f7426483613[2071] fstat(3, 0x7ffc33c216d0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7426483613", 
+                        "arguments": {
+                            "p0": "3", 
+                            "p1": "0x7ffc33c216d0"
+                        }, 
+                        "time": 1642278840.110547
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.110577 libnss_nisplus-@7f7426459717[2071] geteuid() = 0\n", 
+                        "api": "geteuid", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7426459717", 
+                        "arguments": {}, 
+                        "time": 1642278840.110577
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.110608 libnss_nisplus-@7f7426459737[2071] getegid() = 0\n", 
+                        "api": "getegid", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7426459737", 
+                        "arguments": {}, 
+                        "time": 1642278840.110608
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.110638 libnss_nisplus-@7f7426576d94[2071] read(3, 0x7ffc33c218d0, 1024) = 1024\n", 
+                        "api": "read", 
+                        "return_value": "1024", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7426576d94", 
+                        "arguments": {
+                            "p2": "1024", 
+                            "p0": "3", 
+                            "p1": "0x7ffc33c218d0"
+                        }, 
+                        "time": 1642278840.110638
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.110679 libnss_nisplus-@7f742648e4c3[2071] mmap2(0x7f741ffe5000, 110592, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f741ffe5000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f741ffe5000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f742648e4c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x7f741ffe5000", 
+                            "p1": "110592", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642278840.110679
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.110737 libnss_nisplus-@7f742657767f[2071] pread(3, 0x55dcd893d600, 24, 37792) = 24\n", 
+                        "api": "pread", 
+                        "return_value": "24", 
+                        "category": "process", 
+                        "instruction_pointer": "7f742657767f", 
+                        "arguments": {
+                            "p2": "24", 
+                            "p3": "37792", 
+                            "p0": "3", 
+                            "p1": "0x55dcd893d600"
+                        }, 
+                        "time": 1642278840.110737
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.110774 libnss_nisplus-@7f742648e4c3[2071] mmap2(0x7f741ffe5000, 40960, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 3, 0) = 0x7f741ffe5000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f741ffe5000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f742648e4c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED", 
+                            "p0": "0x7f741ffe5000", 
+                            "p1": "40960", 
+                            "p4": "3", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642278840.110774
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.110813 libnss_nisplus-@7f742648e4c3[2071] mmap2(0x7f741fffe000, 8192, PROT_READ|PROT_WRITE|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 3, 36864) = 0x7f741fffe000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f741fffe000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f742648e4c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED", 
+                            "p0": "0x7f741fffe000", 
+                            "p1": "8192", 
+                            "p4": "3", 
+                            "p5": "36864"
+                        }, 
+                        "time": 1642278840.110813
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.110855 libnss_nisplus-@7f7426576e27[2071] close(3) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7426576e27", 
+                        "arguments": {
+                            "p0": "3"
+                        }, 
+                        "time": 1642278840.110855
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.110912 libnss_nisplus-@7f742648e4c3[2071] mmap2(0x7f741f7e4000, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f741f7e4000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f741f7e4000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f742648e4c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f741f7e4000", 
+                            "p1": "8392704", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642278840.110912
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.110947 libnss_nisplus-@7f742648a2f7[2071] brk(0x55dcd8979000) = 94407014977536\n", 
+                        "api": "brk", 
+                        "return_value": "94407014977536", 
+                        "category": "process", 
+                        "instruction_pointer": "7f742648a2f7", 
+                        "arguments": {
+                            "p0": "0x55dcd8979000"
+                        }, 
+                        "time": 1642278840.110947
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.111028 libnss_nisplus-@7f742648e597[2071] mprotect(0x7f741f7e4000, 4096, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f742648e597", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7f741f7e4000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642278840.111028
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.111073 libnss_nisplus-@7f742657755e[2071] openat(AT_FDCWD, \"/lib/ld-linux.so.2\", O_RDONLY) = -2 (ENOENT)\n", 
+                        "api": "openat", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f742657755e", 
+                        "arguments": {
+                            "p2": "O_RDONLY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/ld-linux.so.2"
+                        }, 
+                        "time": 1642278840.111073
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.111140 libnss_nisplus-@7f7426484057[2071] write(2, \"/lib/ld-linux.so.2: No such file or directory\\n\", 46) = 46\n", 
+                        "api": "write", 
+                        "return_value": "46", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7426484057", 
+                        "arguments": {
+                            "p2": "46", 
+                            "p0": "2", 
+                            "p1": "/lib/ld-linux.so.2: No such file or directory\n"
+                        }, 
+                        "time": 1642278840.11114
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.111203 libnss_nisplus-@7f7426458926[2071] exit_group(-1)\n", 
+                        "api": "exit_group", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7426458926", 
+                        "arguments": {
+                            "p0": "-1"
+                        }, 
+                        "time": 1642278840.111203
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:00 2022.111248 libnss_nisplus-@7f7426458926[2071] futex(0x7f74262fc410, FUTEX_WAKE, 1) = 0\n", 
+                        "api": "futex", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7426458926", 
+                        "arguments": {
+                            "p2": "1", 
+                            "p0": "0x7f74262fc410", 
+                            "p1": "FUTEX_WAKE"
+                        }, 
+                        "time": 1642278840.111248
+                    }
+                ], 
+                "pid": 2071, 
+                "process_name": "libnss_nisplus-2.3.6.so", 
+                "command_line": "/tmp/libnss_nisplus-2.3.6.so", 
+                "first_seen": 1642278840.089872, 
+                "ppid": -1, 
+                "type": "process"
+            }, 
+            {
+                "calls": [
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 20:34:00 2022.105808 libnss_nisplus-@7f742656d117[2072] set_robust_list(0x7f74262fa9e0, 24) = 0\n", 
+                        "api": "set_robust_list", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f742656d117", 
+                        "arguments": {
+                            "p0": "0x7f74262fa9e0", 
+                            "p1": "24"
+                        }, 
+                        "time": 1642278840.105808
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 20:34:00 2022.105862 libnss_nisplus-@7f742648e4c3[2072] mmap2(0x0, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f741dafa000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f741dafa000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f742648e4c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x0", 
+                            "p1": "134217728", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642278840.105862
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 20:34:00 2022.105910 libnss_nisplus-@7f742648e567[2072] munmap(0x7f741dafa000, 38821888) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f742648e567", 
+                        "arguments": {
+                            "p0": "0x7f741dafa000", 
+                            "p1": "38821888"
+                        }, 
+                        "time": 1642278840.10591
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 20:34:00 2022.105949 libnss_nisplus-@7f742648e567[2072] munmap(0x7f7424000000, 28286976) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f742648e567", 
+                        "arguments": {
+                            "p0": "0x7f7424000000", 
+                            "p1": "28286976"
+                        }, 
+                        "time": 1642278840.105949
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 20:34:00 2022.105981 libnss_nisplus-@7f742648e597[2072] mprotect(0x7f7420000000, 135168, PROT_READ|PROT_WRITE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f742648e597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p0": "0x7f7420000000", 
+                            "p1": "135168"
+                        }, 
+                        "time": 1642278840.105981
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 20:34:00 2022.106037 libnss_nisplus-@7f7426577440[2072] nanosleep([0.010000000], 0x7f74262f9dc0) = -516\n", 
+                        "api": "nanosleep", 
+                        "return_value": "-516", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7426577440", 
+                        "arguments": {
+                            "p0": [
+                                "0.010000000"
+                            ], 
+                            "p1": "0x7f74262f9dc0"
+                        }, 
+                        "time": 1642278840.106037
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_nisplus-", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 20:34:00 2022.111326 libnss_nisplus-@7f7426577440[2072] futex(0x7f74262fa9d0, FUTEX_WAKE, 1) = 0\n", 
+                        "api": "futex", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f7426577440", 
+                        "arguments": {
+                            "p2": "1", 
+                            "p0": "0x7f74262fa9d0", 
+                            "p1": "FUTEX_WAKE"
+                        }, 
+                        "time": 1642278840.111326
+                    }
+                ], 
+                "pid": 2072, 
+                "process_name": "libnss_nisplus-", 
+                "command_line": "", 
+                "first_seen": 1642278840.105808, 
+                "ppid": 2071, 
+                "type": "process"
+            }
+        ], 
+        "processtree": [
+            {
+                "track": true, 
+                "pid": 2071, 
+                "process_name": "libnss_nisplus-2.3.6.so", 
+                "command_line": "/tmp/libnss_nisplus-2.3.6.so", 
+                "first_seen": 1642278840.089872, 
+                "ppid": -1, 
+                "children": [
+                    {
+                        "track": true, 
+                        "pid": 2072, 
+                        "process_name": "libnss_nisplus-", 
+                        "command_line": "", 
+                        "first_seen": 1642278840.105808, 
+                        "ppid": 2071, 
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    }, 
+    "debug": {
+        "action": [], 
+        "dbgview": [], 
+        "errors": [], 
+        "log": [
+            "2022-01-15 20:33:52,009 [root] DEBUG: Starting analyzer from: /tmp/tmp0xJLKj\n", 
+            "2022-01-15 20:33:52,010 [root] DEBUG: Storing results at: /tmp/BwgjInde\n", 
+            "2022-01-15 20:33:54,136 [modules.auxiliary.filecollector] INFO: FileCollector started v0.08\n", 
+            "2022-01-15 20:33:54,639 [modules.auxiliary.human] INFO: Human started v0.02\n", 
+            "2022-01-15 20:33:55,140 [modules.auxiliary.screenshots] INFO: Screenshots started v0.03\n", 
+            "2022-01-15 20:34:00,083 [lib.core.packages] INFO: Process startup took 4.94 seconds\n", 
+            "2022-01-15 20:34:00,090 [root] INFO: Added new process to list with pid: 2062\n", 
+            "2022-01-15 20:34:06,098 [root] INFO: Process with pid 2062 has terminated\n", 
+            "2022-01-15 20:34:06,100 [root] INFO: Process list is empty, terminating analysis.\n", 
+            "2022-01-15 20:34:09,104 [lib.core.packages] INFO: Package requested stop\n", 
+            "2022-01-15 20:34:09,105 [lib.core.packages] WARNING: Exception uploading log: [Errno 3] No such process\n"
+        ], 
+        "cuckoo": [
+            "2022-01-16 04:56:02,265 [cuckoo.core.scheduler] INFO: Task #2651127: acquired machine Ubuntu1904x641 (label=Ubuntu1904x641)\n", 
+            "2022-01-16 04:56:02,266 [cuckoo.core.resultserver] DEBUG: Now tracking machine 192.168.168.101 for task #2651127\n", 
+            "2022-01-16 04:56:02,524 [cuckoo.auxiliary.sniffer] INFO: Started sniffer with PID 1740545 (interface=vboxnet0, host=192.168.168.101)\n", 
+            "2022-01-16 04:56:03,449 [cuckoo.machinery.virtualbox] DEBUG: Starting vm Ubuntu1904x641\n", 
+            "2022-01-16 04:56:03,832 [cuckoo.machinery.virtualbox] DEBUG: Restoring virtual machine Ubuntu1904x641 to Snapshot\n", 
+            "2022-01-16 04:56:25,860 [cuckoo.core.guest] INFO: Starting analysis #2651127 on guest (id=Ubuntu1904x641, ip=192.168.168.101)\n", 
+            "2022-01-16 04:56:26,864 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: not ready yet\n", 
+            "2022-01-16 04:56:31,882 [cuckoo.core.guest] INFO: Guest is running Cuckoo Agent 0.10 (id=Ubuntu1904x641, ip=192.168.168.101)\n", 
+            "2022-01-16 04:56:31,898 [cuckoo.core.guest] DEBUG: Uploading analyzer to guest (id=Ubuntu1904x641, ip=192.168.168.101, monitor=latest, size=72028)\n", 
+            "2022-01-16 04:56:32,044 [cuckoo.core.resultserver] DEBUG: Task #2651127: live log analysis.log initialized.\n", 
+            "2022-01-16 04:56:37,546 [cuckoo.core.resultserver] DEBUG: Task #2651127: File upload for 'shots/0001.jpg'\n", 
+            "2022-01-16 04:56:37,598 [cuckoo.core.resultserver] DEBUG: Task #2651127 uploaded file length: 171577\n", 
+            "2022-01-16 04:56:47,041 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2651127 still processing\n", 
+            "2022-01-16 04:56:49,161 [cuckoo.core.resultserver] DEBUG: Task #2651127: File upload for 'logs/all.stap'\n", 
+            "2022-01-16 04:56:49,164 [cuckoo.core.resultserver] DEBUG: Task #2651127 uploaded file length: 20277\n", 
+            "2022-01-16 04:57:02,106 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2651127 still processing\n", 
+            "2022-01-16 04:57:17,179 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2651127 still processing\n", 
+            "2022-01-16 04:57:32,238 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2651127 still processing\n", 
+            "2022-01-16 04:57:47,343 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2651127 still processing\n", 
+            "2022-01-16 04:58:02,459 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2651127 still processing\n", 
+            "2022-01-16 04:58:17,517 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2651127 still processing\n", 
+            "2022-01-16 04:58:32,663 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2651127 still processing\n", 
+            "2022-01-16 04:58:47,779 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2651127 still processing\n", 
+            "2022-01-16 04:59:02,903 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2651127 still processing\n", 
+            "2022-01-16 04:59:17,966 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2651127 still processing\n", 
+            "2022-01-16 04:59:33,024 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2651127 still processing\n", 
+            "2022-01-16 04:59:48,081 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2651127 still processing\n", 
+            "2022-01-16 05:00:03,146 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2651127 still processing\n", 
+            "2022-01-16 05:00:18,215 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2651127 still processing\n", 
+            "2022-01-16 05:00:33,308 [cuckoo.core.guest] INFO: Ubuntu1904x641: end of analysis reached!\n", 
+            "2022-01-16 05:00:33,316 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Redsocks\n", 
+            "2022-01-16 05:00:33,377 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Sniffer\n", 
+            "2022-01-16 05:00:47,177 [cuckoo.machinery.virtualbox] INFO: Successfully generated memory dump for virtual machine with label Ubuntu1904x641 to path /srv/cuckoo/cwd/storage/analyses/2651127/memory.dmp\n", 
+            "2022-01-16 05:00:47,177 [cuckoo.machinery.virtualbox] DEBUG: Stopping vm Ubuntu1904x641\n", 
+            "2022-01-16 05:00:51,479 [cuckoo.core.resultserver] DEBUG: Stopped tracking machine 192.168.168.101 for task #2651127\n", 
+            "2022-01-16 05:00:51,479 [cuckoo.core.resultserver] DEBUG: Cancel <Context for LOG> for task 2651127\n", 
+            "2022-01-16 05:00:51,660 [cuckoo.core.scheduler] DEBUG: Released database task #2651127\n", 
+            "2022-01-16 05:00:51,751 [cuckoo.core.scheduler] INFO: Task #2651127: analysis procedure completed\n"
+        ]
+    }, 
+    "strings": [
+        "__gmon_start__", 
+        "__cxa_finalize", 
+        "_Jv_RegisterClasses", 
+        "_nss_nisplus_endprotoent", 
+        "__pthread_mutex_lock", 
+        "nis_freeresult", 
+        "__pthread_mutex_unlock", 
+        "nis_local_directory", 
+        "strlen", 
+        "memcpy", 
+        "stpcpy", 
+        "__strdup", 
+        "__errno_location", 
+        "_nss_nisplus_setprotoent", 
+        "strcmp", 
+        "strncpy", 
+        "__strtol_internal", 
+        "__stpncpy", 
+        "__ctype_b_loc", 
+        "_nss_nisplus_getprotoent_r", 
+        "nis_next_entry", 
+        "nis_first_entry", 
+        "_nss_nisplus_getprotobyname_r", 
+        "sprintf", 
+        "nis_list", 
+        "_nss_nisplus_getprotobynumber_r", 
+        "_nss_nisplus_endservent", 
+        "_nss_nisplus_setservent", 
+        "_nss_nisplus_getservent_r", 
+        "_nss_nisplus_getservbyname_r", 
+        "_nss_nisplus_endhostent", 
+        "_nss_nisplus_sethostent", 
+        "inet_pton", 
+        "_nss_nisplus_gethostbyaddr_r", 
+        "inet_ntoa", 
+        "__res_state", 
+        "_nss_nisplus_gethostent_r", 
+        "_nss_nisplus_gethostbyname_r", 
+        "_nss_nisplus_gethostbyname2_r", 
+        "_nss_nisplus_endnetent", 
+        "_nss_nisplus_setnetent", 
+        "inet_network", 
+        "_nss_nisplus_getnetbyaddr_r", 
+        "inet_makeaddr", 
+        "strcpy", 
+        "_nss_nisplus_getnetent_r", 
+        "_nss_nisplus_getnetbyname_r", 
+        "_nss_nisplus_endgrent", 
+        "_nss_nisplus_getgrent_r", 
+        "_nss_nisplus_setgrent", 
+        "_nss_nisplus_getgrnam_r", 
+        "_nss_nisplus_getgrgid_r", 
+        "_nss_nisplus_endpwent", 
+        "_nss_nisplus_setpwent", 
+        "_nss_nisplus_getpwent_r", 
+        "_nss_nisplus_getpwnam_r", 
+        "_nss_nisplus_getpwuid_r", 
+        "_nss_nisplus_endrpcent", 
+        "_nss_nisplus_setrpcent", 
+        "_nss_nisplus_getrpcent_r", 
+        "_nss_nisplus_getrpcbyname_r", 
+        "_nss_nisplus_getrpcbynumber_r", 
+        "_nss_nisplus_endetherent", 
+        "_nss_nisplus_setetherent", 
+        "ether_aton", 
+        "_nss_nisplus_getetherent_r", 
+        "_nss_nisplus_gethostton_r", 
+        "_nss_nisplus_getntohost_r", 
+        "_nss_nisplus_endspent", 
+        "_nss_nisplus_setspent", 
+        "_nss_nisplus_getspent_r", 
+        "_nss_nisplus_getspnam_r", 
+        "_nss_nisplus_endnetgrent", 
+        "_nss_nisplus_getnetgrent_r", 
+        "_nss_nisplus_setnetgrent", 
+        "_nss_nisplus_endaliasent", 
+        "_nss_nisplus_getaliasent_r", 
+        "_nss_nisplus_setaliasent", 
+        "_nss_nisplus_getaliasbyname_r", 
+        "_nss_nisplus_netname2user", 
+        "strchr", 
+        "snprintf", 
+        "_libc_intl_domainname", 
+        "__dcgettext", 
+        "syslog", 
+        "__strtoul_internal", 
+        "nis_sperrno", 
+        "_nss_nisplus_getsecretkey", 
+        "xdecrypt", 
+        "memcmp", 
+        "_nss_nisplus_getpublickey", 
+        "_nss_nisplus_parse_pwent", 
+        "_nss_nisplus_parse_grent", 
+        "_nss_nisplus_parse_spent", 
+        "libnsl.so.1", 
+        "libc.so.6", 
+        "libnss_nisplus.so.2", 
+        "GLIBC_PRIVATE", 
+        "GLIBC_2.1", 
+        "GLIBC_2.3", 
+        "GLIBC_2.1.3", 
+        "GLIBC_2.2", 
+        "GLIBC_2.0", 
+        "protocols.org_dir.", 
+        "protocols_tbl", 
+        "[name=%s],%s", 
+        "[cname=%s],%s", 
+        "[number=%d],%s", 
+        "services.org_dir.", 
+        "services_tbl", 
+        "[name=%s,proto=%s],%s", 
+        "[cname=%s,proto=%s],%s", 
+        "[port=%d,proto=%s],%s", 
+        "hosts.org_dir.", 
+        "hosts_tbl", 
+        "[addr=%s],%s", 
+        "networks.org_dir.", 
+        "networks_tbl", 
+        "group.org_dir.", 
+        "[gid=%lu],%s", 
+        "passwd.org_dir.", 
+        "[uid=%lu],%s", 
+        "rpc.org_dir.", 
+        "rpc_tbl", 
+        "ethers.org_dir.", 
+        "ethers_tbl", 
+        "[addr=%x:%x:%x:%x:%x:%x],ethers.org_dir", 
+        "[name=%s],netgroup.org_dir", 
+        "mail_aliases.org_dir.", 
+        "mail_aliases", 
+        "[auth_name=%s,auth_type=DES],cred.org_dir.%s", 
+        "netname2user: (nis+ lookup): %s", 
+        "netname2user: DES entry for %s in directory %s not unique", 
+        "netname2user: principal name `%s' too long", 
+        "[cname=%s,auth_type=LOCAL],cred.org_dir.%s", 
+        "netname2user: LOCAL entry for %s in directory %s not unique", 
+        "netname2user: should not have uid 0", 
+        "netname2user: missing group id list in `%s'.", 
+        "DES entry for netname %s not unique", 
+        "group_tbl", 
+        "passwd_tbl", 
+        "/lib/ld-linux.so.2", 
+        "libnss_nisplus-2.3.6.so", 
+        ".shstrtab", 
+        ".note.ABI-tag", 
+        ".dynsym", 
+        ".dynstr", 
+        ".gnu.version", 
+        ".gnu.version_d", 
+        ".gnu.version_r", 
+        ".rela.dyn", 
+        ".rela.plt", 
+        ".rodata", 
+        ".interp", 
+        ".eh_frame", 
+        ".ctors", 
+        ".dtors", 
+        ".dynamic", 
+        ".gnu_debuglink"
+    ], 
+    "metadata": {
+        "output": {
+            "pcap": {
+                "basename": "dump.pcap", 
+                "sha256": "73a0ecc0a8004cecd3547aef24769db1462acb935cd404a79b57e921f862ca77", 
+                "dirname": ""
+            }
+        }
+    }
+}
