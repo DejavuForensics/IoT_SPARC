@@ -1,0 +1,3122 @@
+{
+    "info": {
+        "added": 1642276803.779262, 
+        "started": 1642282870.88867, 
+        "duration": 372, 
+        "ended": 1642283243.156602, 
+        "owner": null, 
+        "score": 0.1, 
+        "id": 2650565, 
+        "category": "file", 
+        "git": {
+            "head": "e8f6317b4b3ef806085a1e99e64c6ff01f26948f", 
+            "fetch_head": "e8f6317b4b3ef806085a1e99e64c6ff01f26948f"
+        }, 
+        "monitor": "2deb9ccd75d5a7a3fe05b2625b03a8639d6ee36b", 
+        "package": "elf", 
+        "route": "internet", 
+        "custom": null, 
+        "machine": {
+            "status": "stopped", 
+            "name": "Ubuntu1904x642", 
+            "label": "Ubuntu1904x642", 
+            "platform": "linux", 
+            "manager": "VirtualBox", 
+            "started_on": "2022-01-15 21:42:48", 
+            "shutdown_on": "2022-01-15 21:47:22"
+        }, 
+        "platform": "linux", 
+        "version": "2.0.7", 
+        "options": "procmemdump=yes,route=internet"
+    }, 
+    "signatures": [
+        {
+            "families": [], 
+            "description": "Yara rule detected for file", 
+            "severity": 1, 
+            "ttp": {}, 
+            "markcount": 1, 
+            "references": [], 
+            "marks": [
+                {
+                    "type": "generic", 
+                    "description": "Contains an embedded PE32 file", 
+                    "rule": "embedded_pe"
+                }
+            ], 
+            "name": "file_yara"
+        }
+    ], 
+    "target": {
+        "category": "file", 
+        "file": {
+            "mimetype": "application/x-executable", 
+            "yara": [
+                {
+                    "meta": {
+                        "description": "Contains an embedded PE32 file", 
+                        "author": "nex"
+                    }, 
+                    "name": "embedded_pe", 
+                    "offsets": {
+                        "b": [
+                            [
+                                51680, 
+                                0
+                            ]
+                        ]
+                    }, 
+                    "strings": [
+                        "VGhpcyBwcm9ncmFt"
+                    ]
+                }
+            ], 
+            "sha1": "587d69be8641a1745f8ae418a163c1e378365509", 
+            "name": "gunzip", 
+            "type": "ELF 32-bit MSB executable, SPARC, version 1 (SYSV), dynamically linked, interpreter /lib/ld-linux.so.2, for GNU/Linux 2.4.1, stripped", 
+            "sha256": "40550e98f4f551bed3942f4d7fcc97c170e5784c8c0bb07d47fb515cff072736", 
+            "urls": [], 
+            "crc32": "6C93C29F", 
+            "path": "/srv/cuckoo/cwd/storage/binaries/40550e98f4f551bed3942f4d7fcc97c170e5784c8c0bb07d47fb515cff072736", 
+            "ssdeep": "768:CSp2vSzkhv+XV9s37ZGcDviFMkvNzFrerBcE4hJufMYMhOOXkq4n1NlW:bERY9MGc43dFCrx4zu0YMhOPXM", 
+            "size": 61856, 
+            "sha512": "edc6badb64b49aeead5855cba961f3bba338ad359e8c97cb770709d20f3229a1ebe3211dc32fcf9758f3ff7dd0b8737ad211a146206913ec9c225dfd662ac643", 
+            "md5": "988bd8f55269189355e5ce0f5eac3c9d"
+        }, 
+        "custom": null
+    }, 
+    "irma": {
+        "status": 0, 
+        "probes_finished": 16, 
+        "scan_id": "1b48c35c-e7ef-4e94-bd6f-19ff8fe9939d", 
+        "parent_file_sha256": null, 
+        "name": "40550e98f4f551bed3942f4d7fcc97c170e5784c8c0bb07d47fb515cff072736", 
+        "probes_total": 16, 
+        "scan_date": 1642275987, 
+        "other_results": [], 
+        "submitter": "cli", 
+        "file_infos": {
+            "mimetype": "ELF 32-bit MSB executable, SPARC, version 1 (SYSV)", 
+            "sha1": "587d69be8641a1745f8ae418a163c1e378365509", 
+            "tags": [], 
+            "timestamp_first_scan": 1642275986.72, 
+            "timestamp_last_scan": 1642275996.16, 
+            "sha256": "40550e98f4f551bed3942f4d7fcc97c170e5784c8c0bb07d47fb515cff072736", 
+            "md5": "988bd8f55269189355e5ce0f5eac3c9d", 
+            "size": 61856
+        }, 
+        "probe_results": {
+            "antivirus": {
+                "Avast Core Security (Linux)": {
+                    "status": 0, 
+                    "duration": 0.01, 
+                    "version": "3.0.3", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "F-Secure Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.03, 
+                    "version": "11.10", 
+                    "results": null, 
+                    "virus_database_version": "2022-01-13_04"
+                }, 
+                "Windows Defender (Windows)": {
+                    "status": 0, 
+                    "duration": 0.05, 
+                    "version": "1.1.18800.4", 
+                    "results": null, 
+                    "virus_database_version": "1.355.1049.0"
+                }, 
+                "Comodo Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 2.15, 
+                    "version": "1.1.268025.1", 
+                    "results": null, 
+                    "virus_database_version": "2021-11-02"
+                }, 
+                "Kaspersky Antivirus (Win)": {
+                    "status": 0, 
+                    "duration": 2.66, 
+                    "version": "21.3", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "ESET NOD32 Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 4.38, 
+                    "version": "4.0.96", 
+                    "results": null, 
+                    "virus_database_version": "6178ebd0-1e722 (2021-10-27)"
+                }, 
+                "GData (Windows)": {
+                    "status": 0, 
+                    "duration": 0.19, 
+                    "version": "5.5.20197.1358", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Forticlient (Linux)": {
+                    "status": 0, 
+                    "duration": 3.03, 
+                    "version": "unavailable", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Avira (Windows)": {
+                    "status": 0, 
+                    "duration": 4.02, 
+                    "version": "8.3.64.66", 
+                    "results": null, 
+                    "virus_database_version": "8.19.1.122"
+                }, 
+                "eScan Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 4.05, 
+                    "version": "7.0.21", 
+                    "results": null, 
+                    "virus_database_version": "7.90035 (27/10/2021)"
+                }, 
+                "McAfee CLI scanner (Linux)": {
+                    "status": 0, 
+                    "duration": 5.82, 
+                    "version": "6.0.6.653", 
+                    "results": null, 
+                    "virus_database_version": "10149"
+                }, 
+                "Sophos Anti-Virus (Linux)": {
+                    "status": 0, 
+                    "duration": 7.32, 
+                    "version": "5.85.0", 
+                    "results": null, 
+                    "virus_database_version": "5.88 (26 October 2021)"
+                }, 
+                "DrWeb Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.2, 
+                    "version": "11.1.10.2108031732", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "ClamAV (Linux)": {
+                    "status": 0, 
+                    "duration": 0.03, 
+                    "version": "0.103.2", 
+                    "results": null, 
+                    "virus_database_version": "26334"
+                }, 
+                "Bitdefender Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 6.15, 
+                    "version": "7.90123", 
+                    "results": null, 
+                    "virus_database_version": null
+                }, 
+                "Emsisoft Commandline Scanner (Windows)": {
+                    "status": 0, 
+                    "duration": 0.2, 
+                    "version": "2021.10.0.11201", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }
+            }
+        }, 
+        "path": "", 
+        "result_id": "443cc8e0-a0b3-432d-87f0-287b120a1ab0", 
+        "file_sha256": "40550e98f4f551bed3942f4d7fcc97c170e5784c8c0bb07d47fb515cff072736"
+    }, 
+    "suricata": {
+        "tls": [], 
+        "files": [], 
+        "alerts": [], 
+        "http": []
+    }, 
+    "virustotal": {
+        "summary": {
+            "error": "resource has not been scanned yet"
+        }
+    }, 
+    "network": {
+        "tls": [], 
+        "udp": [], 
+        "dns_servers": [], 
+        "http": [], 
+        "icmp": [], 
+        "smtp": [], 
+        "tcp": [], 
+        "smtp_ex": [], 
+        "geoinfo": {}, 
+        "mitm": [], 
+        "hosts": [], 
+        "pcap_sha256": "704e5e5b3234433c01fcfd1b20a306e77e985038120492dc53965c3edd38a4ea", 
+        "dns": [], 
+        "http_ex": [], 
+        "domains": [], 
+        "dead_hosts": [], 
+        "irc": [], 
+        "https_ex": []
+    }, 
+    "resubmit": {
+        "resubmit_ids": []
+    }, 
+    "snort": {
+        "alerts": []
+    }, 
+    "behavior": {
+        "generic": [
+            {
+                "process_path": null, 
+                "process_name": "gunzip", 
+                "pid": 2088, 
+                "summary": {}, 
+                "first_seen": 1642276811.031927, 
+                "ppid": 2087
+            }, 
+            {
+                "process_path": null, 
+                "process_name": "gunzip", 
+                "pid": 2087, 
+                "summary": {}, 
+                "first_seen": 1642276810.575968, 
+                "ppid": -1
+            }
+        ], 
+        "processes": [
+            {
+                "calls": [
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:10 2022.575968 gunzip@7f0dfed9ac27[2087] execve(\"/tmp/gunzip\", [\"/tmp/gunzip\"], [\"SUDO_GID=0\", \"MAIL=/var/mail/root\", \"USER=root\", \"HOME=/root\", \"SUDO_UID=0\", \"LOGNAME=root\", \"SYSTEMTAP_MODULE=stap_\", \"TERM=unknown\", \"SYSTEMTAP_VERBOSE=2\", \"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin\", \"DISPLAY=:0\", \"LANG=en_US.UTF-8\", \"XAUTHORITY=/root/.Xauthority\", \"SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/gunzip\", \"SHELL=/bin/bash\", \"SUDO_USER=root\", \"PWD=/tmp/tmpNH2UrK\"])\n", 
+                        "api": "execve", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfed9ac27", 
+                        "arguments": {
+                            "p2": [
+                                "SUDO_GID=0", 
+                                "MAIL=/var/mail/root", 
+                                "USER=root", 
+                                "HOME=/root", 
+                                "SUDO_UID=0", 
+                                "LOGNAME=root", 
+                                "SYSTEMTAP_MODULE=stap_", 
+                                "TERM=unknown", 
+                                "SYSTEMTAP_VERBOSE=2", 
+                                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin", 
+                                "DISPLAY=:0", 
+                                "LANG=en_US.UTF-8", 
+                                "XAUTHORITY=/root/.Xauthority", 
+                                "SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/gunzip", 
+                                "SHELL=/bin/bash", 
+                                "SUDO_USER=root", 
+                                "PWD=/tmp/tmpNH2UrK"
+                            ], 
+                            "p0": "/tmp/gunzip", 
+                            "p1": [
+                                "/tmp/gunzip"
+                            ]
+                        }, 
+                        "time": 1642276810.575968
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:10 2022.994062 gunzip@7f0dfed9ac27[2087] brk(0x0) = 94387702865920\n", 
+                        "api": "brk", 
+                        "return_value": "94387702865920", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfed9ac27", 
+                        "arguments": {
+                            "p0": "0x0"
+                        }, 
+                        "time": 1642276810.994062
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:10 2022.994180 gunzip@7f0dfed9b9d7[2087] access(\"/etc/ld.so.preload\", R_OK) = -2 (ENOENT)\n", 
+                        "api": "access", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfed9b9d7", 
+                        "arguments": {
+                            "p0": "/etc/ld.so.preload", 
+                            "p1": "R_OK"
+                        }, 
+                        "time": 1642276810.99418
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.001981 gunzip@7f0dfed9bb0d[2087] openat(AT_FDCWD, \"/etc/ld.so.cache\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfed9bb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/etc/ld.so.cache"
+                        }, 
+                        "time": 1642276811.001981
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.002121 gunzip@7f0dfed9b943[2087] fstat(4, 0x7fff7b7da920) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfed9b943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7fff7b7da920"
+                        }, 
+                        "time": 1642276811.002121
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.002228 gunzip@7f0dfed9bd03[2087] mmap2(0x0, 88858, PROT_READ, MAP_PRIVATE, 4, 0) = 0x7f0dfed69000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f0dfed69000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfed9bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE", 
+                            "p0": "0x0", 
+                            "p1": "88858", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642276811.002228
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.002334 gunzip@7f0dfed9b9f7[2087] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfed9b9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642276811.002334
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.002477 gunzip@7f0dfed9bb0d[2087] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfed9bb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0"
+                        }, 
+                        "time": 1642276811.002477
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.002597 gunzip@7f0dfed9bbd4[2087] read(4, 0x7fff7b7daad8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfed9bbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7fff7b7daad8"
+                        }, 
+                        "time": 1642276811.002597
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.002706 gunzip@7f0dfed9b943[2087] fstat(4, 0x7fff7b7da970) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfed9b943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7fff7b7da970"
+                        }, 
+                        "time": 1642276811.002706
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.002771 gunzip@7f0dfed9bd03[2087] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f0dfed67000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f0dfed67000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfed9bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642276811.002771
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.002828 gunzip@7f0dfed9bd03[2087] mmap2(0x0, 20600, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f0dfed61000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f0dfed61000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfed9bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "20600", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642276811.002828
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.002884 gunzip@7f0dfed9bd03[2087] mmap2(0x7f0dfed62000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 4096) = 0x7f0dfed62000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f0dfed62000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfed9bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f0dfed62000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "4096"
+                        }, 
+                        "time": 1642276811.002884
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.002952 gunzip@7f0dfed9bd03[2087] mmap2(0x7f0dfed64000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f0dfed64000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f0dfed64000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfed9bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f0dfed64000", 
+                            "p1": "4096", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642276811.002952
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.003008 gunzip@7f0dfed9bd03[2087] mmap2(0x7f0dfed65000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f0dfed65000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f0dfed65000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfed9bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f0dfed65000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642276811.003008
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.003081 gunzip@7f0dfed9b9f7[2087] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfed9b9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642276811.003081
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.003138 gunzip@7f0dfed9bb0d[2087] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfed9bb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0"
+                        }, 
+                        "time": 1642276811.003138
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.003194 gunzip@7f0dfed9bbd4[2087] read(4, 0x7fff7b7daab8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfed9bbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7fff7b7daab8"
+                        }, 
+                        "time": 1642276811.003194
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.003238 gunzip@7f0dfed9b943[2087] fstat(4, 0x7fff7b7da950) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfed9b943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7fff7b7da950"
+                        }, 
+                        "time": 1642276811.003238
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.003281 gunzip@7f0dfed9bd03[2087] mmap2(0x0, 1180072, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f0dfec40000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f0dfec40000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfed9bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1180072", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642276811.003281
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.003335 gunzip@7f0dfed9bdb7[2087] mprotect(0x7f0dfec5b000, 1060864, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfed9bdb7", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7f0dfec5b000", 
+                            "p1": "1060864"
+                        }, 
+                        "time": 1642276811.003335
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.003403 gunzip@7f0dfed9bd03[2087] mmap2(0x7f0dfec5b000, 524288, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 110592) = 0x7f0dfec5b000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f0dfec5b000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfed9bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f0dfec5b000", 
+                            "p1": "524288", 
+                            "p4": "4", 
+                            "p5": "110592"
+                        }, 
+                        "time": 1642276811.003403
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.003562 gunzip@7f0dfed9bd03[2087] mmap2(0x7f0dfecdb000, 532480, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 634880) = 0x7f0dfecdb000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f0dfecdb000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfed9bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f0dfecdb000", 
+                            "p1": "532480", 
+                            "p4": "4", 
+                            "p5": "634880"
+                        }, 
+                        "time": 1642276811.003562
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.003627 gunzip@7f0dfed9bd03[2087] mmap2(0x7f0dfed5e000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1167360) = 0x7f0dfed5e000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f0dfed5e000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfed9bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f0dfed5e000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "1167360"
+                        }, 
+                        "time": 1642276811.003627
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.003694 gunzip@7f0dfed9bd03[2087] mmap2(0x7f0dfed60000, 424, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f0dfed60000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f0dfed60000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfed9bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f0dfed60000", 
+                            "p1": "424", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642276811.003694
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.003757 gunzip@7f0dfed9b9f7[2087] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfed9b9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642276811.003757
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.003826 gunzip@7f0dfed9bb0d[2087] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/librt.so.1\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfed9bb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/librt.so.1"
+                        }, 
+                        "time": 1642276811.003826
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.003884 gunzip@7f0dfed9bbd4[2087] read(4, 0x7fff7b7daa98, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfed9bbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7fff7b7daa98"
+                        }, 
+                        "time": 1642276811.003884
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.003929 gunzip@7f0dfed9b943[2087] fstat(4, 0x7fff7b7da930) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfed9b943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7fff7b7da930"
+                        }, 
+                        "time": 1642276811.003929
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.003971 gunzip@7f0dfed9bd03[2087] mmap2(0x0, 44000, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f0dfec35000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f0dfec35000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfed9bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "44000", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642276811.003971
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.004027 gunzip@7f0dfed9bd03[2087] mmap2(0x7f0dfec38000, 16384, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f0dfec38000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f0dfec38000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfed9bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f0dfec38000", 
+                            "p1": "16384", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642276811.004027
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.004146 gunzip@7f0dfed9bd03[2087] mmap2(0x7f0dfec3c000, 8192, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 28672) = 0x7f0dfec3c000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f0dfec3c000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfed9bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f0dfec3c000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "28672"
+                        }, 
+                        "time": 1642276811.004146
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.004202 gunzip@7f0dfed9bd03[2087] mmap2(0x7f0dfec3e000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 32768) = 0x7f0dfec3e000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f0dfec3e000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfed9bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f0dfec3e000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "32768"
+                        }, 
+                        "time": 1642276811.004202
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.004279 gunzip@7f0dfed9b9f7[2087] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfed9b9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642276811.004279
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.004343 gunzip@7f0dfed9bb0d[2087] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libm.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfed9bb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libm.so.6"
+                        }, 
+                        "time": 1642276811.004343
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.004398 gunzip@7f0dfed9bbd4[2087] read(4, 0x7fff7b7daa78, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfed9bbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7fff7b7daa78"
+                        }, 
+                        "time": 1642276811.004398
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.004441 gunzip@7f0dfed9b943[2087] fstat(4, 0x7fff7b7da910) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfed9b943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7fff7b7da910"
+                        }, 
+                        "time": 1642276811.004441
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.004492 gunzip@7f0dfed9bd03[2087] mmap2(0x0, 1364240, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f0dfeae7000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f0dfeae7000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfed9bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1364240", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642276811.004492
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.004542 gunzip@7f0dfed9bd03[2087] mmap2(0x7f0dfeaf6000, 679936, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 61440) = 0x7f0dfeaf6000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f0dfeaf6000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfed9bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f0dfeaf6000", 
+                            "p1": "679936", 
+                            "p4": "4", 
+                            "p5": "61440"
+                        }, 
+                        "time": 1642276811.004542
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.004599 gunzip@7f0dfed9bd03[2087] mmap2(0x7f0dfeb9c000, 618496, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 741376) = 0x7f0dfeb9c000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f0dfeb9c000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfed9bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f0dfeb9c000", 
+                            "p1": "618496", 
+                            "p4": "4", 
+                            "p5": "741376"
+                        }, 
+                        "time": 1642276811.004599
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.004652 gunzip@7f0dfed9bd03[2087] mmap2(0x7f0dfec33000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1355776) = 0x7f0dfec33000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f0dfec33000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfed9bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f0dfec33000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "1355776"
+                        }, 
+                        "time": 1642276811.004652
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.004724 gunzip@7f0dfed9b9f7[2087] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfed9b9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642276811.004724
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.004790 gunzip@7f0dfed9bb0d[2087] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libgcc_s.so.1\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfed9bb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libgcc_s.so.1"
+                        }, 
+                        "time": 1642276811.00479
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.004842 gunzip@7f0dfed9bbd4[2087] read(4, 0x7fff7b7daa58, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfed9bbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7fff7b7daa58"
+                        }, 
+                        "time": 1642276811.004842
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.004883 gunzip@7f0dfed9b943[2087] fstat(4, 0x7fff7b7da8f0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfed9b943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7fff7b7da8f0"
+                        }, 
+                        "time": 1642276811.004883
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.004924 gunzip@7f0dfed9bd03[2087] mmap2(0x0, 103504, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f0dfeacd000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f0dfeacd000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfed9bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "103504", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642276811.004924
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.004977 gunzip@7f0dfed9bd03[2087] mmap2(0x7f0dfead0000, 69632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f0dfead0000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f0dfead0000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfed9bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f0dfead0000", 
+                            "p1": "69632", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642276811.004977
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.005035 gunzip@7f0dfed9bd03[2087] mmap2(0x7f0dfeae1000, 16384, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 81920) = 0x7f0dfeae1000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f0dfeae1000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfed9bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f0dfeae1000", 
+                            "p1": "16384", 
+                            "p4": "4", 
+                            "p5": "81920"
+                        }, 
+                        "time": 1642276811.005035
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.005087 gunzip@7f0dfed9bd03[2087] mmap2(0x7f0dfeae5000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 94208) = 0x7f0dfeae5000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f0dfeae5000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfed9bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f0dfeae5000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "94208"
+                        }, 
+                        "time": 1642276811.005087
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.005159 gunzip@7f0dfed9b9f7[2087] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfed9b9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642276811.005159
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.005222 gunzip@7f0dfed9bb0d[2087] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libpthread.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfed9bb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libpthread.so.0"
+                        }, 
+                        "time": 1642276811.005222
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.005276 gunzip@7f0dfed9bbd4[2087] read(4, 0x7fff7b7daa38, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfed9bbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7fff7b7daa38"
+                        }, 
+                        "time": 1642276811.005276
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.005320 gunzip@7f0dfed9b943[2087] fstat(4, 0x7fff7b7da8d0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfed9b943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7fff7b7da8d0"
+                        }, 
+                        "time": 1642276811.00532
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.005364 gunzip@7f0dfed9bd03[2087] mmap2(0x0, 132288, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f0dfeaac000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f0dfeaac000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfed9bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "132288", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642276811.005364
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.005417 gunzip@7f0dfed9bd03[2087] mmap2(0x7f0dfeab3000, 61440, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 28672) = 0x7f0dfeab3000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f0dfeab3000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfed9bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f0dfeab3000", 
+                            "p1": "61440", 
+                            "p4": "4", 
+                            "p5": "28672"
+                        }, 
+                        "time": 1642276811.005417
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.005484 gunzip@7f0dfed9bd03[2087] mmap2(0x7f0dfeac2000, 20480, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 90112) = 0x7f0dfeac2000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f0dfeac2000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfed9bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f0dfeac2000", 
+                            "p1": "20480", 
+                            "p4": "4", 
+                            "p5": "90112"
+                        }, 
+                        "time": 1642276811.005484
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.005537 gunzip@7f0dfed9bd03[2087] mmap2(0x7f0dfeac7000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 106496) = 0x7f0dfeac7000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f0dfeac7000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfed9bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f0dfeac7000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "106496"
+                        }, 
+                        "time": 1642276811.005537
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.005602 gunzip@7f0dfed9bd03[2087] mmap2(0x7f0dfeac9000, 13504, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f0dfeac9000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f0dfeac9000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfed9bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f0dfeac9000", 
+                            "p1": "13504", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642276811.005602
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.005670 gunzip@7f0dfed9b9f7[2087] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfed9b9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642276811.00567
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.005731 gunzip@7f0dfed9bb0d[2087] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libc.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfed9bb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libc.so.6"
+                        }, 
+                        "time": 1642276811.005731
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.005785 gunzip@7f0dfed9bbd4[2087] read(4, 0x7fff7b7daa18, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfed9bbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7fff7b7daa18"
+                        }, 
+                        "time": 1642276811.005785
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.005829 gunzip@7f0dfed9b943[2087] fstat(4, 0x7fff7b7da8b0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfed9b943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7fff7b7da8b0"
+                        }, 
+                        "time": 1642276811.005829
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.005871 gunzip@7f0dfed9bd03[2087] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f0dfeaaa000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f0dfeaaa000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfed9bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642276811.005871
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.005920 gunzip@7f0dfed9bd03[2087] mmap2(0x0, 2008696, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f0dfe8bf000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f0dfe8bf000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfed9bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "2008696", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642276811.00592
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.005967 gunzip@7f0dfed9bd03[2087] mmap2(0x7f0dfe8e4000, 1519616, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 151552) = 0x7f0dfe8e4000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f0dfe8e4000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfed9bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f0dfe8e4000", 
+                            "p1": "1519616", 
+                            "p4": "4", 
+                            "p5": "151552"
+                        }, 
+                        "time": 1642276811.005967
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.006028 gunzip@7f0dfed9bd03[2087] mmap2(0x7f0dfea57000, 299008, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1671168) = 0x7f0dfea57000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f0dfea57000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfed9bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f0dfea57000", 
+                            "p1": "299008", 
+                            "p4": "4", 
+                            "p5": "1671168"
+                        }, 
+                        "time": 1642276811.006028
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.006085 gunzip@7f0dfed9bd03[2087] mmap2(0x7f0dfeaa0000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1966080) = 0x7f0dfeaa0000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f0dfeaa0000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfed9bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f0dfeaa0000", 
+                            "p1": "24576", 
+                            "p4": "4", 
+                            "p5": "1966080"
+                        }, 
+                        "time": 1642276811.006085
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.006147 gunzip@7f0dfed9bd03[2087] mmap2(0x7f0dfeaa6000, 13944, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f0dfeaa6000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f0dfeaa6000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfed9bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f0dfeaa6000", 
+                            "p1": "13944", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642276811.006147
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.006215 gunzip@7f0dfed9b9f7[2087] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfed9b9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642276811.006215
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.006288 gunzip@7f0dfed9bb0d[2087] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libdl.so.2\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfed9bb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libdl.so.2"
+                        }, 
+                        "time": 1642276811.006288
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.006341 gunzip@7f0dfed9bbd4[2087] read(4, 0x7fff7b7da9f8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfed9bbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7fff7b7da9f8"
+                        }, 
+                        "time": 1642276811.006341
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.006385 gunzip@7f0dfed9b943[2087] fstat(4, 0x7fff7b7da890) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfed9b943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7fff7b7da890"
+                        }, 
+                        "time": 1642276811.006385
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.006429 gunzip@7f0dfed9bd03[2087] mmap2(0x0, 20752, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f0dfe8b9000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f0dfe8b9000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfed9bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "20752", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642276811.006429
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.006482 gunzip@7f0dfed9bd03[2087] mmap2(0x7f0dfe8ba000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 4096) = 0x7f0dfe8ba000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f0dfe8ba000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfed9bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f0dfe8ba000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "4096"
+                        }, 
+                        "time": 1642276811.006482
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.006544 gunzip@7f0dfed9bd03[2087] mmap2(0x7f0dfe8bc000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f0dfe8bc000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f0dfe8bc000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfed9bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f0dfe8bc000", 
+                            "p1": "4096", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642276811.006544
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.006599 gunzip@7f0dfed9bd03[2087] mmap2(0x7f0dfe8bd000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f0dfe8bd000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f0dfe8bd000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfed9bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f0dfe8bd000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642276811.006599
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.006672 gunzip@7f0dfed9b9f7[2087] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfed9b9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642276811.006672
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.006733 gunzip@7f0dfed9bb0d[2087] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libpcre.so.3\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfed9bb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libpcre.so.3"
+                        }, 
+                        "time": 1642276811.006733
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.006784 gunzip@7f0dfed9bbd4[2087] read(4, 0x7fff7b7da9d8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfed9bbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7fff7b7da9d8"
+                        }, 
+                        "time": 1642276811.006784
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.006827 gunzip@7f0dfed9b943[2087] fstat(4, 0x7fff7b7da870) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfed9b943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7fff7b7da870"
+                        }, 
+                        "time": 1642276811.006827
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.006871 gunzip@7f0dfed9bd03[2087] mmap2(0x0, 471304, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f0dfe845000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f0dfe845000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfed9bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "471304", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642276811.006871
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.006921 gunzip@7f0dfed9bd03[2087] mmap2(0x7f0dfe847000, 335872, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 8192) = 0x7f0dfe847000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f0dfe847000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfed9bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f0dfe847000", 
+                            "p1": "335872", 
+                            "p4": "4", 
+                            "p5": "8192"
+                        }, 
+                        "time": 1642276811.006921
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.006981 gunzip@7f0dfed9bd03[2087] mmap2(0x7f0dfe899000, 122880, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 344064) = 0x7f0dfe899000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f0dfe899000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfed9bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f0dfe899000", 
+                            "p1": "122880", 
+                            "p4": "4", 
+                            "p5": "344064"
+                        }, 
+                        "time": 1642276811.006981
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.007038 gunzip@7f0dfed9bd03[2087] mmap2(0x7f0dfe8b7000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 462848) = 0x7f0dfe8b7000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f0dfe8b7000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfed9bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f0dfe8b7000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "462848"
+                        }, 
+                        "time": 1642276811.007038
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.007108 gunzip@7f0dfed9b9f7[2087] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfed9b9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642276811.007108
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.009979 gunzip@7f0dfed9bd03[2087] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f0dfe843000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f0dfe843000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfed9bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642276811.009979
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.010057 gunzip@7f0dfed80f30[2087] arch_prctl(ARCH_SET_FS, 139698081382720) = 0\n", 
+                        "api": "arch_prctl", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfed80f30", 
+                        "arguments": {
+                            "p0": "ARCH_SET_FS", 
+                            "p1": "139698081382720"
+                        }, 
+                        "time": 1642276811.010057
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.014771 gunzip@7f0dfed9bdb7[2087] mprotect(0x7f0dfeaa0000, 12288, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfed9bdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f0dfeaa0000", 
+                            "p1": "12288"
+                        }, 
+                        "time": 1642276811.014771
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.014864 gunzip@7f0dfed9bdb7[2087] mprotect(0x7f0dfeac7000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfed9bdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f0dfeac7000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642276811.014864
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.014966 gunzip@7f0dfed9bdb7[2087] mprotect(0x7f0dfe8b7000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfed9bdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f0dfe8b7000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642276811.014966
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.015040 gunzip@7f0dfed9bdb7[2087] mprotect(0x7f0dfe8bd000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfed9bdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f0dfe8bd000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642276811.01504
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.015096 gunzip@7f0dfed9bdb7[2087] mprotect(0x7f0dfeae5000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfed9bdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f0dfeae5000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642276811.015096
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.015173 gunzip@7f0dfed9bdb7[2087] mprotect(0x7f0dfec33000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfed9bdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f0dfec33000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642276811.015173
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.015229 gunzip@7f0dfed9bdb7[2087] mprotect(0x7f0dfec3e000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfed9bdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f0dfec3e000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642276811.015229
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.015722 gunzip@7f0dfed9bdb7[2087] mprotect(0x7f0dfed5e000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfed9bdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f0dfed5e000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642276811.015722
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.015832 gunzip@7f0dfed9bdb7[2087] mprotect(0x7f0dfed65000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfed9bdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f0dfed65000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642276811.015832
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.023227 gunzip@7f0dfed9bdb7[2087] mprotect(0x55d856d9b000, 303104, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfed9bdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x55d856d9b000", 
+                            "p1": "303104"
+                        }, 
+                        "time": 1642276811.023227
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.023309 gunzip@7f0dfed9bdb7[2087] mprotect(0x7f0dfeda9000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfed9bdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f0dfeda9000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642276811.023309
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.023383 gunzip@7f0dfed9bd97[2087] munmap(0x7f0dfed69000, 88858) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfed9bd97", 
+                        "arguments": {
+                            "p0": "0x7f0dfed69000", 
+                            "p1": "88858"
+                        }, 
+                        "time": 1642276811.023383
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.023612 gunzip@7f0dfeab38df[2087] set_tid_address(0x7f0dfe844410) = 2087\n", 
+                        "api": "set_tid_address", 
+                        "return_value": "2087", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfeab38df", 
+                        "arguments": {
+                            "p0": "0x7f0dfe844410"
+                        }, 
+                        "time": 1642276811.023612
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.023663 gunzip@7f0dfeab394a[2087] set_robust_list(0x7f0dfe844420, 24) = 0\n", 
+                        "api": "set_robust_list", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfeab394a", 
+                        "arguments": {
+                            "p0": "0x7f0dfe844420", 
+                            "p1": "24"
+                        }, 
+                        "time": 1642276811.023663
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.023725 gunzip@7f0dfeac0010[2087] rt_sigaction(0x20, {0x7f0dfeab36c0, SA_SIGINFO|SA_RESTORER, 0x7f0dfeabff40, [EMPTY]}, 0x0, 8) = 0\n", 
+                        "api": "rt_sigaction", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfeac0010", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "0x20", 
+                            "p1": [
+                                "0x7f0dfeab36c0", 
+                                "SA_SIGINFO|SA_RESTORER", 
+                                "0x7f0dfeabff40", 
+                                [
+                                    "EMPTY]"
+                                ]
+                            ]
+                        }, 
+                        "time": 1642276811.023725
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.023774 gunzip@7f0dfeac0010[2087] rt_sigaction(0x21, {0x7f0dfeab3760, SA_RESTART|SA_SIGINFO|SA_RESTORER, 0x7f0dfeabff40, [EMPTY]}, 0x0, 8) = 0\n", 
+                        "api": "rt_sigaction", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfeac0010", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "0x21", 
+                            "p1": [
+                                "0x7f0dfeab3760", 
+                                "SA_RESTART|SA_SIGINFO|SA_RESTORER", 
+                                "0x7f0dfeabff40", 
+                                [
+                                    "EMPTY]"
+                                ]
+                            ]
+                        }, 
+                        "time": 1642276811.023774
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.023824 gunzip@7f0dfeab3a19[2087] rt_sigprocmask(SIG_UNBLOCK, [EMPTY], 0x0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfeab3a19", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "SIG_UNBLOCK", 
+                            "p1": [
+                                "EMPTY"
+                            ]
+                        }, 
+                        "time": 1642276811.023824
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.023890 gunzip@7f0dfe9d1df0[2087] prlimit64(0, RLIMIT_STACK, NULL, 0x7fff7b7db6b0) = 0\n", 
+                        "api": "prlimit64", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfe9d1df0", 
+                        "arguments": {
+                            "p2": "NULL", 
+                            "p3": "0x7fff7b7db6b0", 
+                            "p0": "0", 
+                            "p1": "RLIMIT_STACK"
+                        }, 
+                        "time": 1642276811.02389
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.024197 gunzip@7f0dfe9d22f7[2087] brk(0x0) = 94387702865920\n", 
+                        "api": "brk", 
+                        "return_value": "94387702865920", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfe9d22f7", 
+                        "arguments": {
+                            "p0": "0x0"
+                        }, 
+                        "time": 1642276811.024197
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.024242 gunzip@7f0dfe9d22f7[2087] brk(0x55d859823000) = 94387703001088\n", 
+                        "api": "brk", 
+                        "return_value": "94387703001088", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfe9d22f7", 
+                        "arguments": {
+                            "p0": "0x55d859823000"
+                        }, 
+                        "time": 1642276811.024242
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.025816 gunzip@7f0dfeabcb86[2087] rt_sigprocmask(SIG_SETMASK, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS], 0x7fff7b7db600, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfeabcb86", 
+                        "arguments": {
+                            "p2": "0x7fff7b7db600", 
+                            "p3": "8", 
+                            "p0": "SIG_SETMASK", 
+                            "p1": [
+                                "SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS"
+                            ]
+                        }, 
+                        "time": 1642276811.025816
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.031549 gunzip@7f0dfe9d64c3[2087] mmap2(0x0, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f0dfe042000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f0dfe042000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfe9d64c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK", 
+                            "p0": "0x0", 
+                            "p1": "8392704", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642276811.031549
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.031606 gunzip@7f0dfe9d6597[2087] mprotect(0x7f0dfe043000, 8388608, PROT_READ|PROT_WRITE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfe9d6597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p0": "0x7f0dfe043000", 
+                            "p1": "8388608"
+                        }, 
+                        "time": 1642276811.031606
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.031674 gunzip@7f0dfe9dcb11[2087] clone(CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, 0x7f0dfe841f70, 0x7f0dfe8429d0, 0x7f0dfe8429d0) = 2088\n", 
+                        "api": "clone", 
+                        "return_value": "2088", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfe9dcb11", 
+                        "arguments": {
+                            "p2": "0x7f0dfe8429d0", 
+                            "p3": "0x7f0dfe8429d0", 
+                            "p0": "CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID", 
+                            "p1": "0x7f0dfe841f70"
+                        }, 
+                        "time": 1642276811.031674
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.031800 gunzip@7f0dfeabcb86[2087] rt_sigprocmask(SIG_SETMASK, [EMPTY], 0x0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfeabcb86", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "SIG_SETMASK", 
+                            "p1": [
+                                "EMPTY"
+                            ]
+                        }, 
+                        "time": 1642276811.0318
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.047149 gunzip@7f0dfe9d1df0[2087] prlimit64(0, RLIMIT_STACK, NULL, 0x7fff7b7db1c0) = 0\n", 
+                        "api": "prlimit64", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfe9d1df0", 
+                        "arguments": {
+                            "p2": "NULL", 
+                            "p3": "0x7fff7b7db1c0", 
+                            "p0": "0", 
+                            "p1": "RLIMIT_STACK"
+                        }, 
+                        "time": 1642276811.047149
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.047229 gunzip@7f0dfe9d15c1[2087] openat(AT_FDCWD, \"/etc/qemu-binfmt/sparc\", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -2 (ENOENT)\n", 
+                        "api": "openat", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfe9d15c1", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/etc/qemu-binfmt/sparc"
+                        }, 
+                        "time": 1642276811.047229
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.047322 gunzip@7f0dfe9a0247[2087] uname(0x7fff7b7dae30) = 0\n", 
+                        "api": "uname", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfe9a0247", 
+                        "arguments": {
+                            "p0": "0x7fff7b7dae30"
+                        }, 
+                        "time": 1642276811.047322
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.047368 gunzip@7f0dfeabf337[2087] lseek(3, 0, SEEK_SET) = 0\n", 
+                        "api": "lseek", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfeabf337", 
+                        "arguments": {
+                            "p2": "SEEK_SET", 
+                            "p0": "3", 
+                            "p1": "0"
+                        }, 
+                        "time": 1642276811.047368
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.047411 gunzip@7f0dfeabed94[2087] read(3, 0x7fff7b7db120, 52) = 52\n", 
+                        "api": "read", 
+                        "return_value": "52", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfeabed94", 
+                        "arguments": {
+                            "p2": "52", 
+                            "p0": "3", 
+                            "p1": "0x7fff7b7db120"
+                        }, 
+                        "time": 1642276811.047411
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.047539 gunzip@7f0dfeabf337[2087] lseek(3, 0, SEEK_SET) = 0\n", 
+                        "api": "lseek", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfeabf337", 
+                        "arguments": {
+                            "p2": "SEEK_SET", 
+                            "p0": "3", 
+                            "p1": "0"
+                        }, 
+                        "time": 1642276811.047539
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.056328 gunzip@7f0dfe9d64c3[2087] mmap2(0x0, 528384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f0dfdfc1000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f0dfdfc1000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfe9d64c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "528384", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642276811.056328
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.056797 gunzip@7f0dfe9d6597[2087] mprotect(0x55d856df8000, 33550336, PROT_READ|PROT_WRITE|PROT_EXEC) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfe9d6597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE|PROT_EXEC", 
+                            "p0": "0x55d856df8000", 
+                            "p1": "33550336"
+                        }, 
+                        "time": 1642276811.056797
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.056848 gunzip@7f0dfe9d6667[2087] madvise(0x55d856df8000, 33550336, MADV_HUGEPAGE) = 0\n", 
+                        "api": "madvise", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfe9d6667", 
+                        "arguments": {
+                            "p2": "MADV_HUGEPAGE", 
+                            "p0": "0x55d856df8000", 
+                            "p1": "33550336"
+                        }, 
+                        "time": 1642276811.056848
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.057061 gunzip@7f0dfe9d64c3[2087] mmap2(0x0, 4294963200, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f0cf8001000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f0cf8001000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfe9d64c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x0", 
+                            "p1": "4294963200", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642276811.057061
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.057117 gunzip@7f0dfe9cbd59[2087] openat(AT_FDCWD, \"/proc/sys/vm/mmap_min_addr\", O_RDONLY) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfe9cbd59", 
+                        "arguments": {
+                            "p2": "O_RDONLY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/proc/sys/vm/mmap_min_addr"
+                        }, 
+                        "time": 1642276811.057117
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.057175 gunzip@7f0dfe9cb613[2087] fstat(4, 0x7fff7b7da830) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfe9cb613", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7fff7b7da830"
+                        }, 
+                        "time": 1642276811.057175
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.057217 gunzip@7f0dfe9cbfb4[2087] read(4, 0x55d85980f3d0, 1024) = 6\n", 
+                        "api": "read", 
+                        "return_value": "6", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfe9cbfb4", 
+                        "arguments": {
+                            "p2": "1024", 
+                            "p0": "4", 
+                            "p1": "0x55d85980f3d0"
+                        }, 
+                        "time": 1642276811.057217
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.057266 gunzip@7f0dfe9d13f7[2087] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfe9d13f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642276811.057266
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.057318 gunzip@7f0dfe9d62e9[2087] gettid() = 2087\n", 
+                        "api": "gettid", 
+                        "return_value": "2087", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfe9d62e9", 
+                        "arguments": {}, 
+                        "time": 1642276811.057318
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.057356 gunzip@7f0dfe9cb613[2087] fstat(3, 0x7fff7b7db0a0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfe9cb613", 
+                        "arguments": {
+                            "p0": "3", 
+                            "p1": "0x7fff7b7db0a0"
+                        }, 
+                        "time": 1642276811.057356
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.057394 gunzip@7f0dfe9a1717[2087] geteuid() = 0\n", 
+                        "api": "geteuid", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfe9a1717", 
+                        "arguments": {}, 
+                        "time": 1642276811.057394
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.057432 gunzip@7f0dfe9a1737[2087] getegid() = 0\n", 
+                        "api": "getegid", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfe9a1737", 
+                        "arguments": {}, 
+                        "time": 1642276811.057432
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.057468 gunzip@7f0dfeabed94[2087] read(3, 0x7fff7b7db2a0, 1024) = 1024\n", 
+                        "api": "read", 
+                        "return_value": "1024", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfeabed94", 
+                        "arguments": {
+                            "p2": "1024", 
+                            "p0": "3", 
+                            "p1": "0x7fff7b7db2a0"
+                        }, 
+                        "time": 1642276811.057468
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.057511 gunzip@7f0dfe9d64c3[2087] mmap2(0x7f0cf8011000, 57344, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 3, 0) = 0x7f0cf8011000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f0cf8011000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfe9d64c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED", 
+                            "p0": "0x7f0cf8011000", 
+                            "p1": "57344", 
+                            "p4": "3", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642276811.057511
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.057569 gunzip@7f0dfe9d22f7[2087] brk(0x55d859844000) = 94387703136256\n", 
+                        "api": "brk", 
+                        "return_value": "94387703136256", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfe9d22f7", 
+                        "arguments": {
+                            "p0": "0x55d859844000"
+                        }, 
+                        "time": 1642276811.057569
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.057634 gunzip@7f0dfe9d64c3[2087] mmap2(0x7f0cf802f000, 4096, PROT_READ|PROT_WRITE|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 3, 57344) = 0x7f0cf802f000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f0cf802f000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfe9d64c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED", 
+                            "p0": "0x7f0cf802f000", 
+                            "p1": "4096", 
+                            "p4": "3", 
+                            "p5": "57344"
+                        }, 
+                        "time": 1642276811.057634
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.057682 gunzip@7f0dfe9d64c3[2087] mmap2(0x7f0cf8030000, 331776, PROT_READ|PROT_WRITE|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f0cf8030000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f0cf8030000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfe9d64c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f0cf8030000", 
+                            "p1": "331776", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642276811.057682
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.057736 gunzip@7f0dfeabee27[2087] close(3) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfeabee27", 
+                        "arguments": {
+                            "p0": "3"
+                        }, 
+                        "time": 1642276811.057736
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.057817 gunzip@7f0dfe9d64c3[2087] mmap2(0x7f0df77ff000, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f0df77ff000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f0df77ff000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfe9d64c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f0df77ff000", 
+                            "p1": "8392704", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642276811.057817
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.057960 gunzip@7f0dfe9d6597[2087] mprotect(0x7f0df77ff000, 4096, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfe9d6597", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7f0df77ff000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642276811.05796
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.058020 gunzip@7f0dfeabf55e[2087] openat(AT_FDCWD, \"/lib/ld-linux.so.2\", O_RDONLY) = -2 (ENOENT)\n", 
+                        "api": "openat", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfeabf55e", 
+                        "arguments": {
+                            "p2": "O_RDONLY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/ld-linux.so.2"
+                        }, 
+                        "time": 1642276811.05802
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.058097 gunzip@7f0dfe9cc057[2087] write(2, \"/lib/ld-linux.so.2: No such file or directory\\n\", 46) = 46\n", 
+                        "api": "write", 
+                        "return_value": "46", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfe9cc057", 
+                        "arguments": {
+                            "p2": "46", 
+                            "p0": "2", 
+                            "p1": "/lib/ld-linux.so.2: No such file or directory\n"
+                        }, 
+                        "time": 1642276811.058097
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.058185 gunzip@7f0dfe9a0926[2087] exit_group(-1)\n", 
+                        "api": "exit_group", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfe9a0926", 
+                        "arguments": {
+                            "p0": "-1"
+                        }, 
+                        "time": 1642276811.058185
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2087, 
+                        "raw": "Sat Jan 15 20:00:11 2022.058228 gunzip@7f0dfe9a0926[2087] futex(0x7f0dfe844410, FUTEX_WAKE, 1) = 0\n", 
+                        "api": "futex", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfe9a0926", 
+                        "arguments": {
+                            "p2": "1", 
+                            "p0": "0x7f0dfe844410", 
+                            "p1": "FUTEX_WAKE"
+                        }, 
+                        "time": 1642276811.058228
+                    }
+                ], 
+                "pid": 2087, 
+                "process_name": "gunzip", 
+                "command_line": "/tmp/gunzip", 
+                "first_seen": 1642276810.575968, 
+                "ppid": -1, 
+                "type": "process"
+            }, 
+            {
+                "calls": [
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2088, 
+                        "raw": "Sat Jan 15 20:00:11 2022.031927 gunzip@7f0dfeab5117[2088] set_robust_list(0x7f0dfe8429e0, 24) = 0\n", 
+                        "api": "set_robust_list", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfeab5117", 
+                        "arguments": {
+                            "p0": "0x7f0dfe8429e0", 
+                            "p1": "24"
+                        }, 
+                        "time": 1642276811.031927
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2088, 
+                        "raw": "Sat Jan 15 20:00:11 2022.032015 gunzip@7f0dfe9d64c3[2088] mmap2(0x0, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f0df6042000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f0df6042000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfe9d64c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x0", 
+                            "p1": "134217728", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642276811.032015
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2088, 
+                        "raw": "Sat Jan 15 20:00:11 2022.032083 gunzip@7f0dfe9d6567[2088] munmap(0x7f0df6042000, 33284096) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfe9d6567", 
+                        "arguments": {
+                            "p0": "0x7f0df6042000", 
+                            "p1": "33284096"
+                        }, 
+                        "time": 1642276811.032083
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2088, 
+                        "raw": "Sat Jan 15 20:00:11 2022.032132 gunzip@7f0dfe9d6567[2088] munmap(0x7f0dfc000000, 33824768) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfe9d6567", 
+                        "arguments": {
+                            "p0": "0x7f0dfc000000", 
+                            "p1": "33824768"
+                        }, 
+                        "time": 1642276811.032132
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2088, 
+                        "raw": "Sat Jan 15 20:00:11 2022.032172 gunzip@7f0dfe9d6597[2088] mprotect(0x7f0df8000000, 135168, PROT_READ|PROT_WRITE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfe9d6597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p0": "0x7f0df8000000", 
+                            "p1": "135168"
+                        }, 
+                        "time": 1642276811.032172
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2088, 
+                        "raw": "Sat Jan 15 20:00:11 2022.032231 gunzip@7f0dfeabf440[2088] nanosleep([0.010000000], 0x7f0dfe841dc0) = 0\n", 
+                        "api": "nanosleep", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfeabf440", 
+                        "arguments": {
+                            "p0": [
+                                "0.010000000"
+                            ], 
+                            "p1": "0x7f0dfe841dc0"
+                        }, 
+                        "time": 1642276811.032231
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gunzip", 
+                        "pid": 2088, 
+                        "raw": "Sat Jan 15 20:00:11 2022.042460 gunzip@7f0dfe9d62e9[2088] futex(0x55d858e0a7e8, FUTEX_WAIT, -1, NULL) = -512\n", 
+                        "api": "futex", 
+                        "return_value": "-512", 
+                        "category": "process", 
+                        "instruction_pointer": "7f0dfe9d62e9", 
+                        "arguments": {
+                            "p2": "-1", 
+                            "p3": "NULL", 
+                            "p0": "0x55d858e0a7e8", 
+                            "p1": "FUTEX_WAIT"
+                        }, 
+                        "time": 1642276811.04246
+                    }
+                ], 
+                "pid": 2088, 
+                "process_name": "gunzip", 
+                "command_line": "", 
+                "first_seen": 1642276811.031927, 
+                "ppid": 2087, 
+                "type": "process"
+            }
+        ], 
+        "processtree": [
+            {
+                "track": true, 
+                "pid": 2087, 
+                "process_name": "gunzip", 
+                "command_line": "/tmp/gunzip", 
+                "first_seen": 1642276810.575968, 
+                "ppid": -1, 
+                "children": [
+                    {
+                        "track": true, 
+                        "pid": 2088, 
+                        "process_name": "gunzip", 
+                        "command_line": "", 
+                        "first_seen": 1642276811.031927, 
+                        "ppid": 2087, 
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    }, 
+    "debug": {
+        "action": [], 
+        "dbgview": [], 
+        "errors": [], 
+        "log": [
+            "2022-01-15 20:00:03,005 [root] DEBUG: Starting analyzer from: /tmp/tmpNH2UrK\n", 
+            "2022-01-15 20:00:03,005 [root] DEBUG: Storing results at: /tmp/getFdN\n", 
+            "2022-01-15 20:00:04,688 [modules.auxiliary.filecollector] INFO: FileCollector started v0.08\n", 
+            "2022-01-15 20:00:05,196 [modules.auxiliary.human] INFO: Human started v0.02\n", 
+            "2022-01-15 20:00:05,197 [modules.auxiliary.screenshots] INFO: Screenshots started v0.03\n", 
+            "2022-01-15 20:00:10,573 [lib.core.packages] INFO: Process startup took 5.37 seconds\n", 
+            "2022-01-15 20:00:10,577 [root] INFO: Added new process to list with pid: 2077\n", 
+            "2022-01-15 20:00:16,591 [root] INFO: Process with pid 2077 has terminated\n", 
+            "2022-01-15 20:00:16,593 [root] INFO: Process list is empty, terminating analysis.\n", 
+            "2022-01-15 20:00:19,598 [lib.core.packages] INFO: Package requested stop\n", 
+            "2022-01-15 20:00:19,600 [lib.core.packages] WARNING: Exception uploading log: [Errno 3] No such process\n"
+        ], 
+        "cuckoo": [
+            "2022-01-15 21:41:27,692 [cuckoo.core.scheduler] DEBUG: Task #2650565: no machine available yet\n", 
+            "2022-01-15 21:41:37,719 [cuckoo.core.scheduler] DEBUG: Task #2650565: no machine available yet\n", 
+            "2022-01-15 21:41:47,736 [cuckoo.core.scheduler] DEBUG: Task #2650565: no machine available yet\n", 
+            "2022-01-15 21:41:57,760 [cuckoo.core.scheduler] DEBUG: Task #2650565: no machine available yet\n", 
+            "2022-01-15 21:42:07,809 [cuckoo.core.scheduler] DEBUG: Task #2650565: no machine available yet\n", 
+            "2022-01-15 21:42:17,833 [cuckoo.core.scheduler] DEBUG: Task #2650565: no machine available yet\n", 
+            "2022-01-15 21:42:27,862 [cuckoo.core.scheduler] DEBUG: Task #2650565: no machine available yet\n", 
+            "2022-01-15 21:42:37,888 [cuckoo.core.scheduler] DEBUG: Task #2650565: no machine available yet\n", 
+            "2022-01-15 21:42:47,912 [cuckoo.core.scheduler] INFO: Task #2650565: acquired machine Ubuntu1904x642 (label=Ubuntu1904x642)\n", 
+            "2022-01-15 21:42:47,913 [cuckoo.core.resultserver] DEBUG: Now tracking machine 192.168.168.102 for task #2650565\n", 
+            "2022-01-15 21:42:48,040 [cuckoo.auxiliary.sniffer] INFO: Started sniffer with PID 3647923 (interface=vboxnet0, host=192.168.168.102)\n", 
+            "2022-01-15 21:42:48,421 [cuckoo.machinery.virtualbox] DEBUG: Starting vm Ubuntu1904x642\n", 
+            "2022-01-15 21:42:48,744 [cuckoo.machinery.virtualbox] DEBUG: Restoring virtual machine Ubuntu1904x642 to Snapshot\n", 
+            "2022-01-15 21:42:57,902 [cuckoo.core.guest] INFO: Starting analysis #2650565 on guest (id=Ubuntu1904x642, ip=192.168.168.102)\n", 
+            "2022-01-15 21:42:58,911 [cuckoo.core.guest] DEBUG: Ubuntu1904x642: not ready yet\n", 
+            "2022-01-15 21:43:03,929 [cuckoo.core.guest] INFO: Guest is running Cuckoo Agent 0.10 (id=Ubuntu1904x642, ip=192.168.168.102)\n", 
+            "2022-01-15 21:43:03,940 [cuckoo.core.guest] DEBUG: Uploading analyzer to guest (id=Ubuntu1904x642, ip=192.168.168.102, monitor=latest, size=72028)\n", 
+            "2022-01-15 21:43:05,094 [cuckoo.core.resultserver] DEBUG: Task #2650565: live log analysis.log initialized.\n", 
+            "2022-01-15 21:43:10,559 [cuckoo.core.resultserver] DEBUG: Task #2650565: File upload for 'shots/0001.jpg'\n", 
+            "2022-01-15 21:43:10,567 [cuckoo.core.resultserver] DEBUG: Task #2650565 uploaded file length: 171571\n", 
+            "2022-01-15 21:43:19,072 [cuckoo.core.guest] DEBUG: Ubuntu1904x642: analysis #2650565 still processing\n", 
+            "2022-01-15 21:43:21,708 [cuckoo.core.resultserver] DEBUG: Task #2650565: File upload for 'logs/all.stap'\n", 
+            "2022-01-15 21:43:21,890 [cuckoo.core.resultserver] DEBUG: Task #2650565 uploaded file length: 18819\n", 
+            "2022-01-15 21:43:34,147 [cuckoo.core.guest] DEBUG: Ubuntu1904x642: analysis #2650565 still processing\n", 
+            "2022-01-15 21:43:49,268 [cuckoo.core.guest] DEBUG: Ubuntu1904x642: analysis #2650565 still processing\n", 
+            "2022-01-15 21:44:04,332 [cuckoo.core.guest] DEBUG: Ubuntu1904x642: analysis #2650565 still processing\n", 
+            "2022-01-15 21:44:19,393 [cuckoo.core.guest] DEBUG: Ubuntu1904x642: analysis #2650565 still processing\n", 
+            "2022-01-15 21:44:34,462 [cuckoo.core.guest] DEBUG: Ubuntu1904x642: analysis #2650565 still processing\n", 
+            "2022-01-15 21:44:49,523 [cuckoo.core.guest] DEBUG: Ubuntu1904x642: analysis #2650565 still processing\n", 
+            "2022-01-15 21:45:04,586 [cuckoo.core.guest] DEBUG: Ubuntu1904x642: analysis #2650565 still processing\n", 
+            "2022-01-15 21:45:19,712 [cuckoo.core.guest] DEBUG: Ubuntu1904x642: analysis #2650565 still processing\n", 
+            "2022-01-15 21:45:34,777 [cuckoo.core.guest] DEBUG: Ubuntu1904x642: analysis #2650565 still processing\n", 
+            "2022-01-15 21:45:49,841 [cuckoo.core.guest] DEBUG: Ubuntu1904x642: analysis #2650565 still processing\n", 
+            "2022-01-15 21:46:04,902 [cuckoo.core.guest] DEBUG: Ubuntu1904x642: analysis #2650565 still processing\n", 
+            "2022-01-15 21:46:19,972 [cuckoo.core.guest] DEBUG: Ubuntu1904x642: analysis #2650565 still processing\n", 
+            "2022-01-15 21:46:35,045 [cuckoo.core.guest] DEBUG: Ubuntu1904x642: analysis #2650565 still processing\n", 
+            "2022-01-15 21:46:50,121 [cuckoo.core.guest] DEBUG: Ubuntu1904x642: analysis #2650565 still processing\n", 
+            "2022-01-15 21:47:05,188 [cuckoo.core.guest] INFO: Ubuntu1904x642: end of analysis reached!\n", 
+            "2022-01-15 21:47:05,195 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Redsocks\n", 
+            "2022-01-15 21:47:05,269 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Sniffer\n", 
+            "2022-01-15 21:47:18,399 [cuckoo.machinery.virtualbox] INFO: Successfully generated memory dump for virtual machine with label Ubuntu1904x642 to path /srv/cuckoo/cwd/storage/analyses/2650565/memory.dmp\n", 
+            "2022-01-15 21:47:18,403 [cuckoo.machinery.virtualbox] DEBUG: Stopping vm Ubuntu1904x642\n", 
+            "2022-01-15 21:47:22,580 [cuckoo.core.resultserver] DEBUG: Stopped tracking machine 192.168.168.102 for task #2650565\n", 
+            "2022-01-15 21:47:22,598 [cuckoo.core.resultserver] DEBUG: Cancel <Context for LOG> for task 2650565\n", 
+            "2022-01-15 21:47:22,844 [cuckoo.core.scheduler] DEBUG: Released database task #2650565\n", 
+            "2022-01-15 21:47:23,002 [cuckoo.core.scheduler] INFO: Task #2650565: analysis procedure completed\n"
+        ]
+    }, 
+    "strings": [
+        "/lib/ld-linux.so.2", 
+        "_Jv_RegisterClasses", 
+        "__gmon_start__", 
+        "libc.so.6", 
+        "putchar", 
+        "strcpy", 
+        "stdout", 
+        "readdir64", 
+        "getopt_long", 
+        "getenv", 
+        "fchmod", 
+        "__strtol_internal", 
+        "fchown", 
+        "memcpy", 
+        "perror", 
+        "__cxa_finalize", 
+        "malloc", 
+        "isatty", 
+        "optarg", 
+        "fflush", 
+        "strrchr", 
+        "__ctype_tolower_loc", 
+        "calloc", 
+        "fprintf", 
+        "strcat", 
+        "optind", 
+        "signal", 
+        "strncmp", 
+        "unlink", 
+        "_IO_getc", 
+        "memcmp", 
+        "__xstat64", 
+        "memset", 
+        "open64", 
+        "opendir", 
+        "strcmp", 
+        "strcspn", 
+        "stderr", 
+        "__lxstat64", 
+        "__ctype_b_loc", 
+        "fwrite", 
+        "__errno_location", 
+        "rpmatch", 
+        "_IO_putc", 
+        "fileno", 
+        "_IO_stdin_used", 
+        "strspn", 
+        "__libc_start_main", 
+        "strlen", 
+        "lseek64", 
+        "closedir", 
+        "__fxstat64", 
+        "GLIBC_2.1.3", 
+        "GLIBC_2.1", 
+        "GLIBC_2.0", 
+        "GLIBC_2.3", 
+        "GLIBC_2.2", 
+        "bad pack level", 
+        "usage: %s [-%scdfhlLnN%stvV19] [-S suffix] [file ...]", 
+        "2002-09-30", 
+        "name too short", 
+        "can't recover suffix", 
+        "internal error in shorten_name", 
+        "%s: %s: unknown method %d -- not supported", 
+        "%s: %s is encrypted -- not supported", 
+        "%s: %s is a a multi-part gzip file -- not supported", 
+        "%s: %s has flags 0x%x -- not supported", 
+        "%s: %s: part number %u", 
+        "%s: %s: extra field of %u bytes ignored", 
+        "corrupted input -- file name too large", 
+        "%s: %s: not in gzip format", 
+        "%s: %s: decompression OK, trailing zero bytes ignored", 
+        "%s: %s: decompression OK, trailing garbage ignored", 
+        "method  crc     date  time  ", 
+        "%*.*s %*.*s  ratio uncompressed_name", 
+        "compressed", 
+        "uncompressed", 
+        "                            ", 
+        " (totals)", 
+        "%5s %08lx %11s ", 
+        "read from", 
+        "written to", 
+        "%s: compressed data not %s a terminal. Use -f to force %scompression.", 
+        "For help, type: %s -h", 
+        "standard input", 
+        "%s: %s: file name too long", 
+        "%s: %s/%s: pathname too long", 
+        "%s: %s is a directory -- ignored", 
+        "%s: %s is not a directory or a regular file - ignored", 
+        "%s: %s has %lu other link%c -- unchanged", 
+        "%s: %s: unknown suffix -- ignored", 
+        "%s: %s already has %s suffix -- unchanged", 
+        "%s: %s: cannot %scompress onto itself", 
+        "%s: %s and %s are the same file", 
+        "%s: %s already exists;", 
+        " do you wish to overwrite (y or n)? ", 
+        "not overwritten", 
+        "%s: %s: warning, name truncated", 
+        "%s: %s compressed to %s", 
+        "%s: time stamp restored", 
+        " -- replaced with %s", 
+        "%s: -b operand is not an integer", 
+        "Compilation options:", 
+        "%s %s ", 
+        "DIRENT", 
+        "STDC_HEADERS ", 
+        "HAVE_UNISTD_H ", 
+        "HAVE_MEMORY_H ", 
+        "HAVE_STRING_H ", 
+        "HAVE_LSTAT ", 
+        "Written by Jean-loup Gailly.", 
+        "%s: -Z not supported in this version", 
+        "ab:cdfhH?lLmMnNqrS:tvVZ123456789", 
+        "%s: option --ascii ignored on this system", 
+        "%s: incorrect suffix '%s'", 
+        "to-stdout", 
+        "stdout", 
+        "decompress", 
+        "uncompress", 
+        "license", 
+        "no-name", 
+        "silent", 
+        "recursive", 
+        "suffix", 
+        "no-time", 
+        "verbose", 
+        "version", 
+        "rsyncable", 
+        " -c --stdout      write on standard output, keep original files unchanged", 
+        " -d --decompress  decompress", 
+        " -f --force       force overwrite of output file and compress links", 
+        " -h --help        give this help", 
+        " -l --list        list compressed file contents", 
+        " -L --license     display software license", 
+        " -n --no-name     do not save or restore the original name and time stamp", 
+        " -N --name        save or restore the original name and time stamp", 
+        " -q --quiet       suppress all warnings", 
+        " -r --recursive   operate recursively on directories", 
+        " -S .suf  --suffix .suf     use suffix .suf on compressed files", 
+        " -t --test        test compressed file integrity", 
+        " -v --verbose     verbose mode", 
+        " -V --version     display version number", 
+        " -1 --fast        compress faster", 
+        " -9 --best        compress better", 
+        "    --rsyncable   Make rsync-friendly archive", 
+        " file...          files to (de)compress. If none given, use standard input.", 
+        "Report bugs to <bug-gzip@gnu.org>.", 
+        "Copyright 2002 Free Software Foundation", 
+        "Copyright 1992-1993 Jean-loup Gailly", 
+        "This program comes with ABSOLUTELY NO WARRANTY.", 
+        "You may redistribute copies of this program", 
+        "under the terms of the GNU General Public License.", 
+        "For more information about these matters, see the file named COPYING.", 
+        " incomplete literal tree", 
+        " incomplete distance tree", 
+        "output in compress .Z format not supported", 
+        "Bad table", 
+        "%s: %s: warning, unknown flags 0x%x", 
+        "%s: %s: compressed with %d bits, can only handle %d bits", 
+        "corrupt input.", 
+        "corrupt input. Use zcat to recover some data.", 
+        "invalid compressed data -- Huffman code > 32 bits", 
+        "too many leaves in Huffman tree", 
+        "invalid compressed data--length error", 
+        "%s: %s: not a valid zip file", 
+        "%s: %s: first entry not deflated or stored -- use unzip", 
+        "%s: %s: encrypted file -- use unzip", 
+        "out of memory", 
+        "invalid compressed data--format violated", 
+        "len %ld, siz %ld", 
+        "invalid compressed data--length mismatch", 
+        "internal error, invalid method", 
+        "%s: %s: invalid compressed data--crc error", 
+        "%s: %s: invalid compressed data--length error", 
+        "%s: %s has more than one entry--rest ignored", 
+        "%s: %s has more than one entry -- unchanged", 
+        "%5.1f%%", 
+        "%s: %s: warning: %s", 
+        "%s: unexpected end of file", 
+        "%s: %s: %s", 
+        "argc<=0", 
+        "mj>zjZ", 
+        "IiGM>nw", 
+        ".shstrtab", 
+        ".interp", 
+        ".note.ABI-tag", 
+        ".dynsym", 
+        ".dynstr", 
+        ".gnu.version", 
+        ".gnu.version_r", 
+        ".rela.dyn", 
+        ".rela.plt", 
+        ".rodata", 
+        ".eh_frame_hdr", 
+        ".eh_frame", 
+        ".ctors", 
+        ".dtors", 
+        ".dynamic", 
+        "\u001f#+3;CScs"
+    ], 
+    "metadata": {
+        "output": {
+            "pcap": {
+                "basename": "dump.pcap", 
+                "sha256": "704e5e5b3234433c01fcfd1b20a306e77e985038120492dc53965c3edd38a4ea", 
+                "dirname": ""
+            }
+        }
+    }
+}
