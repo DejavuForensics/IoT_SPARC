@@ -1,0 +1,3092 @@
+{
+    "info": {
+        "added": 1642276748.201247, 
+        "started": 1642281635.801027, 
+        "duration": 1207, 
+        "ended": 1642282843.22839, 
+        "owner": null, 
+        "score": 0.0, 
+        "id": 2650526, 
+        "category": "file", 
+        "git": {
+            "head": "e8f6317b4b3ef806085a1e99e64c6ff01f26948f", 
+            "fetch_head": "e8f6317b4b3ef806085a1e99e64c6ff01f26948f"
+        }, 
+        "monitor": "2deb9ccd75d5a7a3fe05b2625b03a8639d6ee36b", 
+        "package": "elf", 
+        "route": "internet", 
+        "custom": null, 
+        "machine": {
+            "status": "stopped", 
+            "name": "Ubuntu1904x641", 
+            "label": "Ubuntu1904x641", 
+            "platform": "linux", 
+            "manager": "VirtualBox", 
+            "started_on": "2022-01-15 21:36:02", 
+            "shutdown_on": "2022-01-15 21:40:42"
+        }, 
+        "platform": "linux", 
+        "version": "2.0.7", 
+        "options": "procmemdump=yes,route=internet"
+    }, 
+    "signatures": [], 
+    "target": {
+        "category": "file", 
+        "file": {
+            "mimetype": "application/x-executable", 
+            "yara": [], 
+            "sha1": "ee9565d6457ebf6ee1f3aa5804ed59744a0f786f", 
+            "name": "getent", 
+            "type": "ELF 32-bit MSB executable, SPARC, version 1 (SYSV), dynamically linked, interpreter /lib/ld-linux.so.2, for GNU/Linux 2.4.1, stripped", 
+            "sha256": "d2073dca417834700be6173ba5a942e5811dbf8cd2072bfa36d100fb14888c80", 
+            "urls": [], 
+            "crc32": "23F9DBAA", 
+            "path": "/srv/cuckoo/cwd/storage/binaries/d2073dca417834700be6173ba5a942e5811dbf8cd2072bfa36d100fb14888c80", 
+            "ssdeep": "192:QfO0wbOAeBNoUD2f8hdIfFS8aBUjDXvgDGLzz78p55JyS4OT7qB3lZzGXo5Txn+A:WcDXZzMPv6O/ilHTxn+x9Q", 
+            "size": 18792, 
+            "sha512": "ec328a94f921ba694f80e713739b65a67810b893570e734b538488e6b562afeab17c42683da4f0a07f7634f9b809c9ce29aedef955f3d482f69ccc3a7aa8319b", 
+            "md5": "8819683450239051a38657411d7440b8"
+        }, 
+        "custom": null
+    }, 
+    "irma": {
+        "status": 0, 
+        "probes_finished": 16, 
+        "scan_id": "ceeb477b-9f7d-415d-886e-f741fe800b80", 
+        "parent_file_sha256": null, 
+        "name": "d2073dca417834700be6173ba5a942e5811dbf8cd2072bfa36d100fb14888c80", 
+        "probes_total": 16, 
+        "scan_date": 1642275645, 
+        "other_results": [], 
+        "submitter": "cli", 
+        "file_infos": {
+            "mimetype": "ELF 32-bit MSB executable, SPARC, version 1 (SYSV)", 
+            "sha1": "ee9565d6457ebf6ee1f3aa5804ed59744a0f786f", 
+            "tags": [], 
+            "timestamp_first_scan": 1642275644.89, 
+            "timestamp_last_scan": 1642275654.39, 
+            "sha256": "d2073dca417834700be6173ba5a942e5811dbf8cd2072bfa36d100fb14888c80", 
+            "md5": "8819683450239051a38657411d7440b8", 
+            "size": 18792
+        }, 
+        "probe_results": {
+            "antivirus": {
+                "Avast Core Security (Linux)": {
+                    "status": 0, 
+                    "duration": 0.01, 
+                    "version": "3.0.3", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "F-Secure Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.03, 
+                    "version": "11.10", 
+                    "results": null, 
+                    "virus_database_version": "2022-01-13_04"
+                }, 
+                "Windows Defender (Windows)": {
+                    "status": 0, 
+                    "duration": 0.05, 
+                    "version": "1.1.18800.4", 
+                    "results": null, 
+                    "virus_database_version": "1.355.1049.0"
+                }, 
+                "Comodo Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 2.09, 
+                    "version": "1.1.268025.1", 
+                    "results": null, 
+                    "virus_database_version": "2021-11-02"
+                }, 
+                "Kaspersky Antivirus (Win)": {
+                    "status": 0, 
+                    "duration": 4.34, 
+                    "version": "21.3", 
+                    "results": null, 
+                    "virus_database_version": "2022-01-04 05:53:00 (full)"
+                }, 
+                "ESET NOD32 Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 4.26, 
+                    "version": "4.0.96", 
+                    "results": null, 
+                    "virus_database_version": "6178ebd0-1e722 (2021-10-27)"
+                }, 
+                "GData (Windows)": {
+                    "status": 0, 
+                    "duration": 0.2, 
+                    "version": "5.5.20197.1358", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Forticlient (Linux)": {
+                    "status": 0, 
+                    "duration": 3.04, 
+                    "version": "unavailable", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Avira (Windows)": {
+                    "status": 0, 
+                    "duration": 3.78, 
+                    "version": "8.3.64.66", 
+                    "results": null, 
+                    "virus_database_version": "8.19.1.122"
+                }, 
+                "eScan Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 3.88, 
+                    "version": "7.0.21", 
+                    "results": null, 
+                    "virus_database_version": "7.90035 (27/10/2021)"
+                }, 
+                "McAfee CLI scanner (Linux)": {
+                    "status": 0, 
+                    "duration": 6.45, 
+                    "version": "6.0.6.653", 
+                    "results": null, 
+                    "virus_database_version": "10149"
+                }, 
+                "Sophos Anti-Virus (Linux)": {
+                    "status": 0, 
+                    "duration": 6.65, 
+                    "version": "5.85.0", 
+                    "results": null, 
+                    "virus_database_version": "5.88 (26 October 2021)"
+                }, 
+                "DrWeb Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.19, 
+                    "version": "11.1.10.2108031732", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "ClamAV (Linux)": {
+                    "status": 0, 
+                    "duration": 0.02, 
+                    "version": "0.103.2", 
+                    "results": null, 
+                    "virus_database_version": "26334"
+                }, 
+                "Bitdefender Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 6.1, 
+                    "version": "7.90123", 
+                    "results": null, 
+                    "virus_database_version": null
+                }, 
+                "Emsisoft Commandline Scanner (Windows)": {
+                    "status": 0, 
+                    "duration": 0.22, 
+                    "version": "2021.10.0.11201", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }
+            }
+        }, 
+        "path": "", 
+        "result_id": "d23ab46e-c64a-4448-9d05-9fed8d87f8ac", 
+        "file_sha256": "d2073dca417834700be6173ba5a942e5811dbf8cd2072bfa36d100fb14888c80"
+    }, 
+    "suricata": {
+        "tls": [
+            {
+                "src_ip": "192.168.168.101", 
+                "version": "TLS 1.2", 
+                "src_port": 37978, 
+                "dst_port": 443, 
+                "timestamp": "2022-01-15T21:36:41.370481+0200", 
+                "dst_ip": "91.189.92.20", 
+                "fingerprint": "97:63:1b:60:eb:d1:fa:4f:a4:fc:fa:98:66:3d:ee:22:fb:78:ce:c1", 
+                "subject": "C=GB, L=London, O=Canonical Group Ltd, CN=api.snapcraft.io", 
+                "issuer": "C=US, O=DigiCert Inc, CN=DigiCert TLS RSA SHA256 2020 CA1"
+            }
+        ], 
+        "files": [], 
+        "alerts": [], 
+        "http": []
+    }, 
+    "virustotal": {
+        "summary": {
+            "error": "resource has not been scanned yet"
+        }
+    }, 
+    "network": {
+        "udp": [], 
+        "dns_servers": [], 
+        "http": [], 
+        "smtp": [], 
+        "tcp": [], 
+        "geoinfo": {}, 
+        "mitm": [], 
+        "https_ex": [], 
+        "http_ex": [], 
+        "sorted_pcap_sha256": "e3e34aee78439d1a95449bbaf5d7f55702ee4e7016d5c8eca0df6c998262c98f", 
+        "icmp": [], 
+        "tls": [], 
+        "dead_hosts": [], 
+        "smtp_ex": [], 
+        "hosts": [], 
+        "pcap_sha256": "ebb717f545b1da4f17077619942bb40b366f1cfa312220aa05e729efd12da883", 
+        "dns": [], 
+        "domains": [], 
+        "irc": []
+    }, 
+    "resubmit": {
+        "resubmit_ids": []
+    }, 
+    "snort": {
+        "alerts": []
+    }, 
+    "behavior": {
+        "generic": [
+            {
+                "process_path": null, 
+                "process_name": "getent", 
+                "pid": 2069, 
+                "summary": {}, 
+                "first_seen": 1642276755.822951, 
+                "ppid": -1
+            }, 
+            {
+                "process_path": null, 
+                "process_name": "getent", 
+                "pid": 2070, 
+                "summary": {}, 
+                "first_seen": 1642276755.839178, 
+                "ppid": 2069
+            }
+        ], 
+        "processes": [
+            {
+                "calls": [
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.822951 getent@7f71cad08c27[2069] execve(\"/tmp/getent\", [\"/tmp/getent\"], [\"SUDO_GID=0\", \"MAIL=/var/mail/root\", \"USER=root\", \"HOME=/root\", \"SUDO_UID=0\", \"LOGNAME=root\", \"SYSTEMTAP_MODULE=stap_\", \"TERM=unknown\", \"SYSTEMTAP_VERBOSE=2\", \"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin\", \"DISPLAY=:0\", \"LANG=en_US.UTF-8\", \"XAUTHORITY=/root/.Xauthority\", \"SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/getent\", \"SHELL=/bin/bash\", \"SUDO_USER=root\", \"PWD=/tmp/tmpXIzLmM\"])\n", 
+                        "api": "execve", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71cad08c27", 
+                        "arguments": {
+                            "p2": [
+                                "SUDO_GID=0", 
+                                "MAIL=/var/mail/root", 
+                                "USER=root", 
+                                "HOME=/root", 
+                                "SUDO_UID=0", 
+                                "LOGNAME=root", 
+                                "SYSTEMTAP_MODULE=stap_", 
+                                "TERM=unknown", 
+                                "SYSTEMTAP_VERBOSE=2", 
+                                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin", 
+                                "DISPLAY=:0", 
+                                "LANG=en_US.UTF-8", 
+                                "XAUTHORITY=/root/.Xauthority", 
+                                "SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/getent", 
+                                "SHELL=/bin/bash", 
+                                "SUDO_USER=root", 
+                                "PWD=/tmp/tmpXIzLmM"
+                            ], 
+                            "p0": "/tmp/getent", 
+                            "p1": [
+                                "/tmp/getent"
+                            ]
+                        }, 
+                        "time": 1642276755.822951
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.826041 getent@7f71cad08c27[2069] brk(0x0) = 93988574920704\n", 
+                        "api": "brk", 
+                        "return_value": "93988574920704", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71cad08c27", 
+                        "arguments": {
+                            "p0": "0x0"
+                        }, 
+                        "time": 1642276755.826041
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.826164 getent@7f71cad099d7[2069] access(\"/etc/ld.so.preload\", R_OK) = -2 (ENOENT)\n", 
+                        "api": "access", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71cad099d7", 
+                        "arguments": {
+                            "p0": "/etc/ld.so.preload", 
+                            "p1": "R_OK"
+                        }, 
+                        "time": 1642276755.826164
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.827270 getent@7f71cad09b0d[2069] openat(AT_FDCWD, \"/etc/ld.so.cache\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71cad09b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/etc/ld.so.cache"
+                        }, 
+                        "time": 1642276755.82727
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.827318 getent@7f71cad09943[2069] fstat(4, 0x7ffd66715020) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71cad09943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd66715020"
+                        }, 
+                        "time": 1642276755.827318
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.827357 getent@7f71cad09d03[2069] mmap2(0x0, 88858, PROT_READ, MAP_PRIVATE, 4, 0) = 0x7f71cacd7000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f71cacd7000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71cad09d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE", 
+                            "p0": "0x0", 
+                            "p1": "88858", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642276755.827357
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.827414 getent@7f71cad099f7[2069] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71cad099f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642276755.827414
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.827490 getent@7f71cad09b0d[2069] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71cad09b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0"
+                        }, 
+                        "time": 1642276755.82749
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.827548 getent@7f71cad09bd4[2069] read(4, 0x7ffd667151d8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71cad09bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffd667151d8"
+                        }, 
+                        "time": 1642276755.827548
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.827589 getent@7f71cad09943[2069] fstat(4, 0x7ffd66715070) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71cad09943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd66715070"
+                        }, 
+                        "time": 1642276755.827589
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.827628 getent@7f71cad09d03[2069] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f71cacd5000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f71cacd5000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71cad09d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642276755.827628
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.827676 getent@7f71cad09d03[2069] mmap2(0x0, 20600, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f71caccf000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f71caccf000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71cad09d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "20600", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642276755.827676
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.827720 getent@7f71cad09d03[2069] mmap2(0x7f71cacd0000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 4096) = 0x7f71cacd0000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f71cacd0000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71cad09d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f71cacd0000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "4096"
+                        }, 
+                        "time": 1642276755.82772
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.827768 getent@7f71cad09d03[2069] mmap2(0x7f71cacd2000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f71cacd2000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f71cacd2000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71cad09d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f71cacd2000", 
+                            "p1": "4096", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642276755.827768
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.827824 getent@7f71cad09d03[2069] mmap2(0x7f71cacd3000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f71cacd3000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f71cacd3000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71cad09d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f71cacd3000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642276755.827824
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.827878 getent@7f71cad099f7[2069] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71cad099f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642276755.827878
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.827927 getent@7f71cad09b0d[2069] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71cad09b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0"
+                        }, 
+                        "time": 1642276755.827927
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.827974 getent@7f71cad09bd4[2069] read(4, 0x7ffd667151b8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71cad09bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffd667151b8"
+                        }, 
+                        "time": 1642276755.827974
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.828030 getent@7f71cad09943[2069] fstat(4, 0x7ffd66715050) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71cad09943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd66715050"
+                        }, 
+                        "time": 1642276755.82803
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.828083 getent@7f71cad09d03[2069] mmap2(0x0, 1180072, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f71cabae000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f71cabae000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71cad09d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1180072", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642276755.828083
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.828139 getent@7f71cad09db7[2069] mprotect(0x7f71cabc9000, 1060864, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71cad09db7", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7f71cabc9000", 
+                            "p1": "1060864"
+                        }, 
+                        "time": 1642276755.828139
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.828183 getent@7f71cad09d03[2069] mmap2(0x7f71cabc9000, 524288, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 110592) = 0x7f71cabc9000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f71cabc9000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71cad09d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f71cabc9000", 
+                            "p1": "524288", 
+                            "p4": "4", 
+                            "p5": "110592"
+                        }, 
+                        "time": 1642276755.828183
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.828228 getent@7f71cad09d03[2069] mmap2(0x7f71cac49000, 532480, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 634880) = 0x7f71cac49000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f71cac49000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71cad09d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f71cac49000", 
+                            "p1": "532480", 
+                            "p4": "4", 
+                            "p5": "634880"
+                        }, 
+                        "time": 1642276755.828228
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.828271 getent@7f71cad09d03[2069] mmap2(0x7f71caccc000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1167360) = 0x7f71caccc000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f71caccc000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71cad09d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f71caccc000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "1167360"
+                        }, 
+                        "time": 1642276755.828271
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.828319 getent@7f71cad09d03[2069] mmap2(0x7f71cacce000, 424, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f71cacce000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f71cacce000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71cad09d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f71cacce000", 
+                            "p1": "424", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642276755.828319
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.828373 getent@7f71cad099f7[2069] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71cad099f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642276755.828373
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.828428 getent@7f71cad09b0d[2069] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/librt.so.1\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71cad09b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/librt.so.1"
+                        }, 
+                        "time": 1642276755.828428
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.828495 getent@7f71cad09bd4[2069] read(4, 0x7ffd66715198, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71cad09bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffd66715198"
+                        }, 
+                        "time": 1642276755.828495
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.828543 getent@7f71cad09943[2069] fstat(4, 0x7ffd66715030) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71cad09943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd66715030"
+                        }, 
+                        "time": 1642276755.828543
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.828580 getent@7f71cad09d03[2069] mmap2(0x0, 44000, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f71caba3000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f71caba3000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71cad09d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "44000", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642276755.82858
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.828617 getent@7f71cad09d03[2069] mmap2(0x7f71caba6000, 16384, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f71caba6000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f71caba6000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71cad09d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f71caba6000", 
+                            "p1": "16384", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642276755.828617
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.828683 getent@7f71cad09d03[2069] mmap2(0x7f71cabaa000, 8192, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 28672) = 0x7f71cabaa000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f71cabaa000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71cad09d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f71cabaa000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "28672"
+                        }, 
+                        "time": 1642276755.828683
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.828724 getent@7f71cad09d03[2069] mmap2(0x7f71cabac000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 32768) = 0x7f71cabac000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f71cabac000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71cad09d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f71cabac000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "32768"
+                        }, 
+                        "time": 1642276755.828724
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.828793 getent@7f71cad099f7[2069] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71cad099f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642276755.828793
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.828845 getent@7f71cad09b0d[2069] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libm.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71cad09b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libm.so.6"
+                        }, 
+                        "time": 1642276755.828845
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.828891 getent@7f71cad09bd4[2069] read(4, 0x7ffd66715178, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71cad09bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffd66715178"
+                        }, 
+                        "time": 1642276755.828891
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.828931 getent@7f71cad09943[2069] fstat(4, 0x7ffd66715010) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71cad09943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd66715010"
+                        }, 
+                        "time": 1642276755.828931
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.829081 getent@7f71cad09d03[2069] mmap2(0x0, 1364240, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f71caa55000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f71caa55000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71cad09d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1364240", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642276755.829081
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.829171 getent@7f71cad09d03[2069] mmap2(0x7f71caa64000, 679936, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 61440) = 0x7f71caa64000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f71caa64000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71cad09d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f71caa64000", 
+                            "p1": "679936", 
+                            "p4": "4", 
+                            "p5": "61440"
+                        }, 
+                        "time": 1642276755.829171
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.829265 getent@7f71cad09d03[2069] mmap2(0x7f71cab0a000, 618496, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 741376) = 0x7f71cab0a000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f71cab0a000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71cad09d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f71cab0a000", 
+                            "p1": "618496", 
+                            "p4": "4", 
+                            "p5": "741376"
+                        }, 
+                        "time": 1642276755.829265
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.829320 getent@7f71cad09d03[2069] mmap2(0x7f71caba1000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1355776) = 0x7f71caba1000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f71caba1000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71cad09d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f71caba1000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "1355776"
+                        }, 
+                        "time": 1642276755.82932
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.829368 getent@7f71cad099f7[2069] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71cad099f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642276755.829368
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.829414 getent@7f71cad09b0d[2069] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libgcc_s.so.1\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71cad09b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libgcc_s.so.1"
+                        }, 
+                        "time": 1642276755.829414
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.829451 getent@7f71cad09bd4[2069] read(4, 0x7ffd66715158, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71cad09bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffd66715158"
+                        }, 
+                        "time": 1642276755.829451
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.829501 getent@7f71cad09943[2069] fstat(4, 0x7ffd66714ff0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71cad09943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd66714ff0"
+                        }, 
+                        "time": 1642276755.829501
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.829535 getent@7f71cad09d03[2069] mmap2(0x0, 103504, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f71caa3b000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f71caa3b000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71cad09d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "103504", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642276755.829535
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.829569 getent@7f71cad09d03[2069] mmap2(0x7f71caa3e000, 69632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f71caa3e000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f71caa3e000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71cad09d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f71caa3e000", 
+                            "p1": "69632", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642276755.829569
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.829605 getent@7f71cad09d03[2069] mmap2(0x7f71caa4f000, 16384, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 81920) = 0x7f71caa4f000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f71caa4f000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71cad09d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f71caa4f000", 
+                            "p1": "16384", 
+                            "p4": "4", 
+                            "p5": "81920"
+                        }, 
+                        "time": 1642276755.829605
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.829639 getent@7f71cad09d03[2069] mmap2(0x7f71caa53000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 94208) = 0x7f71caa53000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f71caa53000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71cad09d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f71caa53000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "94208"
+                        }, 
+                        "time": 1642276755.829639
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.829684 getent@7f71cad099f7[2069] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71cad099f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642276755.829684
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.829727 getent@7f71cad09b0d[2069] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libpthread.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71cad09b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libpthread.so.0"
+                        }, 
+                        "time": 1642276755.829727
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.829764 getent@7f71cad09bd4[2069] read(4, 0x7ffd66715138, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71cad09bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffd66715138"
+                        }, 
+                        "time": 1642276755.829764
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.829797 getent@7f71cad09943[2069] fstat(4, 0x7ffd66714fd0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71cad09943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd66714fd0"
+                        }, 
+                        "time": 1642276755.829797
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.829829 getent@7f71cad09d03[2069] mmap2(0x0, 132288, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f71caa1a000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f71caa1a000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71cad09d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "132288", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642276755.829829
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.829865 getent@7f71cad09d03[2069] mmap2(0x7f71caa21000, 61440, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 28672) = 0x7f71caa21000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f71caa21000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71cad09d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f71caa21000", 
+                            "p1": "61440", 
+                            "p4": "4", 
+                            "p5": "28672"
+                        }, 
+                        "time": 1642276755.829865
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.829905 getent@7f71cad09d03[2069] mmap2(0x7f71caa30000, 20480, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 90112) = 0x7f71caa30000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f71caa30000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71cad09d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f71caa30000", 
+                            "p1": "20480", 
+                            "p4": "4", 
+                            "p5": "90112"
+                        }, 
+                        "time": 1642276755.829905
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.829942 getent@7f71cad09d03[2069] mmap2(0x7f71caa35000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 106496) = 0x7f71caa35000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f71caa35000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71cad09d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f71caa35000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "106496"
+                        }, 
+                        "time": 1642276755.829942
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.829984 getent@7f71cad09d03[2069] mmap2(0x7f71caa37000, 13504, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f71caa37000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f71caa37000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71cad09d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f71caa37000", 
+                            "p1": "13504", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642276755.829984
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.830030 getent@7f71cad099f7[2069] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71cad099f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642276755.83003
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.830070 getent@7f71cad09b0d[2069] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libc.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71cad09b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libc.so.6"
+                        }, 
+                        "time": 1642276755.83007
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.830105 getent@7f71cad09bd4[2069] read(4, 0x7ffd66715118, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71cad09bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffd66715118"
+                        }, 
+                        "time": 1642276755.830105
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.830135 getent@7f71cad09943[2069] fstat(4, 0x7ffd66714fb0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71cad09943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd66714fb0"
+                        }, 
+                        "time": 1642276755.830135
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.830167 getent@7f71cad09d03[2069] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f71caa18000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f71caa18000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71cad09d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642276755.830167
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.830205 getent@7f71cad09d03[2069] mmap2(0x0, 2008696, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f71ca82d000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f71ca82d000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71cad09d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "2008696", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642276755.830205
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.830239 getent@7f71cad09d03[2069] mmap2(0x7f71ca852000, 1519616, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 151552) = 0x7f71ca852000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f71ca852000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71cad09d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f71ca852000", 
+                            "p1": "1519616", 
+                            "p4": "4", 
+                            "p5": "151552"
+                        }, 
+                        "time": 1642276755.830239
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.830275 getent@7f71cad09d03[2069] mmap2(0x7f71ca9c5000, 299008, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1671168) = 0x7f71ca9c5000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f71ca9c5000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71cad09d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f71ca9c5000", 
+                            "p1": "299008", 
+                            "p4": "4", 
+                            "p5": "1671168"
+                        }, 
+                        "time": 1642276755.830275
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.830315 getent@7f71cad09d03[2069] mmap2(0x7f71caa0e000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1966080) = 0x7f71caa0e000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f71caa0e000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71cad09d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f71caa0e000", 
+                            "p1": "24576", 
+                            "p4": "4", 
+                            "p5": "1966080"
+                        }, 
+                        "time": 1642276755.830315
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.830352 getent@7f71cad09d03[2069] mmap2(0x7f71caa14000, 13944, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f71caa14000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f71caa14000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71cad09d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f71caa14000", 
+                            "p1": "13944", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642276755.830352
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.830393 getent@7f71cad099f7[2069] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71cad099f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642276755.830393
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.830442 getent@7f71cad09b0d[2069] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libdl.so.2\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71cad09b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libdl.so.2"
+                        }, 
+                        "time": 1642276755.830442
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.830479 getent@7f71cad09bd4[2069] read(4, 0x7ffd667150f8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71cad09bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffd667150f8"
+                        }, 
+                        "time": 1642276755.830479
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.830512 getent@7f71cad09943[2069] fstat(4, 0x7ffd66714f90) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71cad09943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd66714f90"
+                        }, 
+                        "time": 1642276755.830512
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.830544 getent@7f71cad09d03[2069] mmap2(0x0, 20752, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f71ca827000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f71ca827000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71cad09d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "20752", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642276755.830544
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.830579 getent@7f71cad09d03[2069] mmap2(0x7f71ca828000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 4096) = 0x7f71ca828000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f71ca828000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71cad09d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f71ca828000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "4096"
+                        }, 
+                        "time": 1642276755.830579
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.830618 getent@7f71cad09d03[2069] mmap2(0x7f71ca82a000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f71ca82a000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f71ca82a000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71cad09d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f71ca82a000", 
+                            "p1": "4096", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642276755.830618
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.830654 getent@7f71cad09d03[2069] mmap2(0x7f71ca82b000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f71ca82b000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f71ca82b000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71cad09d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f71ca82b000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642276755.830654
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.830702 getent@7f71cad099f7[2069] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71cad099f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642276755.830702
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.830746 getent@7f71cad09b0d[2069] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libpcre.so.3\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71cad09b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libpcre.so.3"
+                        }, 
+                        "time": 1642276755.830746
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.830782 getent@7f71cad09bd4[2069] read(4, 0x7ffd667150d8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71cad09bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffd667150d8"
+                        }, 
+                        "time": 1642276755.830782
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.830813 getent@7f71cad09943[2069] fstat(4, 0x7ffd66714f70) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71cad09943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd66714f70"
+                        }, 
+                        "time": 1642276755.830813
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.830843 getent@7f71cad09d03[2069] mmap2(0x0, 471304, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f71ca7b3000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f71ca7b3000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71cad09d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "471304", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642276755.830843
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.830879 getent@7f71cad09d03[2069] mmap2(0x7f71ca7b5000, 335872, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 8192) = 0x7f71ca7b5000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f71ca7b5000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71cad09d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f71ca7b5000", 
+                            "p1": "335872", 
+                            "p4": "4", 
+                            "p5": "8192"
+                        }, 
+                        "time": 1642276755.830879
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.830916 getent@7f71cad09d03[2069] mmap2(0x7f71ca807000, 122880, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 344064) = 0x7f71ca807000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f71ca807000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71cad09d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f71ca807000", 
+                            "p1": "122880", 
+                            "p4": "4", 
+                            "p5": "344064"
+                        }, 
+                        "time": 1642276755.830916
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.830950 getent@7f71cad09d03[2069] mmap2(0x7f71ca825000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 462848) = 0x7f71ca825000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f71ca825000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71cad09d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f71ca825000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "462848"
+                        }, 
+                        "time": 1642276755.83095
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.831137 getent@7f71cad099f7[2069] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71cad099f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642276755.831137
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.832001 getent@7f71cad09d03[2069] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f71ca7b1000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f71ca7b1000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71cad09d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642276755.832001
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.832054 getent@7f71caceef30[2069] arch_prctl(ARCH_SET_FS, 140126705099072) = 0\n", 
+                        "api": "arch_prctl", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71caceef30", 
+                        "arguments": {
+                            "p0": "ARCH_SET_FS", 
+                            "p1": "140126705099072"
+                        }, 
+                        "time": 1642276755.832054
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.832657 getent@7f71cad09db7[2069] mprotect(0x7f71caa0e000, 12288, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71cad09db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f71caa0e000", 
+                            "p1": "12288"
+                        }, 
+                        "time": 1642276755.832657
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.832712 getent@7f71cad09db7[2069] mprotect(0x7f71caa35000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71cad09db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f71caa35000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642276755.832712
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.832771 getent@7f71cad09db7[2069] mprotect(0x7f71ca825000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71cad09db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f71ca825000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642276755.832771
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.832813 getent@7f71cad09db7[2069] mprotect(0x7f71ca82b000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71cad09db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f71ca82b000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642276755.832813
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.832851 getent@7f71cad09db7[2069] mprotect(0x7f71caa53000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71cad09db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f71caa53000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642276755.832851
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.832915 getent@7f71cad09db7[2069] mprotect(0x7f71caba1000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71cad09db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f71caba1000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642276755.832915
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.833053 getent@7f71cad09db7[2069] mprotect(0x7f71cabac000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71cad09db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f71cabac000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642276755.833053
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.833287 getent@7f71cad09db7[2069] mprotect(0x7f71caccc000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71cad09db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f71caccc000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642276755.833287
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.833342 getent@7f71cad09db7[2069] mprotect(0x7f71cacd3000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71cad09db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f71cacd3000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642276755.833342
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.836447 getent@7f71cad09db7[2069] mprotect(0x557b6963e000, 303104, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71cad09db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x557b6963e000", 
+                            "p1": "303104"
+                        }, 
+                        "time": 1642276755.836447
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.836504 getent@7f71cad09db7[2069] mprotect(0x7f71cad17000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71cad09db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f71cad17000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642276755.836504
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.836544 getent@7f71cad09d97[2069] munmap(0x7f71cacd7000, 88858) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71cad09d97", 
+                        "arguments": {
+                            "p0": "0x7f71cacd7000", 
+                            "p1": "88858"
+                        }, 
+                        "time": 1642276755.836544
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.836607 getent@7f71caa218df[2069] set_tid_address(0x7f71ca7b2410) = 2069\n", 
+                        "api": "set_tid_address", 
+                        "return_value": "2069", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71caa218df", 
+                        "arguments": {
+                            "p0": "0x7f71ca7b2410"
+                        }, 
+                        "time": 1642276755.836607
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.836638 getent@7f71caa2194a[2069] set_robust_list(0x7f71ca7b2420, 24) = 0\n", 
+                        "api": "set_robust_list", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71caa2194a", 
+                        "arguments": {
+                            "p0": "0x7f71ca7b2420", 
+                            "p1": "24"
+                        }, 
+                        "time": 1642276755.836638
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.836677 getent@7f71caa2e010[2069] rt_sigaction(0x20, {0x7f71caa216c0, SA_SIGINFO|SA_RESTORER, 0x7f71caa2df40, [EMPTY]}, 0x0, 8) = 0\n", 
+                        "api": "rt_sigaction", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71caa2e010", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "0x20", 
+                            "p1": [
+                                "0x7f71caa216c0", 
+                                "SA_SIGINFO|SA_RESTORER", 
+                                "0x7f71caa2df40", 
+                                [
+                                    "EMPTY]"
+                                ]
+                            ]
+                        }, 
+                        "time": 1642276755.836677
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.836711 getent@7f71caa2e010[2069] rt_sigaction(0x21, {0x7f71caa21760, SA_RESTART|SA_SIGINFO|SA_RESTORER, 0x7f71caa2df40, [EMPTY]}, 0x0, 8) = 0\n", 
+                        "api": "rt_sigaction", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71caa2e010", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "0x21", 
+                            "p1": [
+                                "0x7f71caa21760", 
+                                "SA_RESTART|SA_SIGINFO|SA_RESTORER", 
+                                "0x7f71caa2df40", 
+                                [
+                                    "EMPTY]"
+                                ]
+                            ]
+                        }, 
+                        "time": 1642276755.836711
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.836793 getent@7f71caa21a19[2069] rt_sigprocmask(SIG_UNBLOCK, [EMPTY], 0x0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71caa21a19", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "SIG_UNBLOCK", 
+                            "p1": [
+                                "EMPTY"
+                            ]
+                        }, 
+                        "time": 1642276755.836793
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.836835 getent@7f71ca93fdf0[2069] prlimit64(0, RLIMIT_STACK, NULL, 0x7ffd66715db0) = 0\n", 
+                        "api": "prlimit64", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71ca93fdf0", 
+                        "arguments": {
+                            "p2": "NULL", 
+                            "p3": "0x7ffd66715db0", 
+                            "p0": "0", 
+                            "p1": "RLIMIT_STACK"
+                        }, 
+                        "time": 1642276755.836835
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.837061 getent@7f71ca9402f7[2069] brk(0x0) = 93988574920704\n", 
+                        "api": "brk", 
+                        "return_value": "93988574920704", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71ca9402f7", 
+                        "arguments": {
+                            "p0": "0x0"
+                        }, 
+                        "time": 1642276755.837061
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.837093 getent@7f71ca9402f7[2069] brk(0x557b6ba11000) = 93988575055872\n", 
+                        "api": "brk", 
+                        "return_value": "93988575055872", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71ca9402f7", 
+                        "arguments": {
+                            "p0": "0x557b6ba11000"
+                        }, 
+                        "time": 1642276755.837093
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.838058 getent@7f71caa2ab86[2069] rt_sigprocmask(SIG_SETMASK, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS], 0x7ffd66715d00, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71caa2ab86", 
+                        "arguments": {
+                            "p2": "0x7ffd66715d00", 
+                            "p3": "8", 
+                            "p0": "SIG_SETMASK", 
+                            "p1": [
+                                "SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS"
+                            ]
+                        }, 
+                        "time": 1642276755.838058
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.838895 getent@7f71ca9444c3[2069] mmap2(0x0, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f71c9fb0000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f71c9fb0000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71ca9444c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK", 
+                            "p0": "0x0", 
+                            "p1": "8392704", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642276755.838895
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.838944 getent@7f71ca944597[2069] mprotect(0x7f71c9fb1000, 8388608, PROT_READ|PROT_WRITE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71ca944597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p0": "0x7f71c9fb1000", 
+                            "p1": "8388608"
+                        }, 
+                        "time": 1642276755.838944
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.839000 getent@7f71ca94ab11[2069] clone(CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, 0x7f71ca7aff70, 0x7f71ca7b09d0, 0x7f71ca7b09d0) = 2070\n", 
+                        "api": "clone", 
+                        "return_value": "2070", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71ca94ab11", 
+                        "arguments": {
+                            "p2": "0x7f71ca7b09d0", 
+                            "p3": "0x7f71ca7b09d0", 
+                            "p0": "CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID", 
+                            "p1": "0x7f71ca7aff70"
+                        }, 
+                        "time": 1642276755.839
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.839097 getent@7f71caa2ab86[2069] rt_sigprocmask(SIG_SETMASK, [EMPTY], 0x0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71caa2ab86", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "SIG_SETMASK", 
+                            "p1": [
+                                "EMPTY"
+                            ]
+                        }, 
+                        "time": 1642276755.839097
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.841290 getent@7f71ca93fdf0[2069] prlimit64(0, RLIMIT_STACK, NULL, 0x7ffd667158c0) = 0\n", 
+                        "api": "prlimit64", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71ca93fdf0", 
+                        "arguments": {
+                            "p2": "NULL", 
+                            "p3": "0x7ffd667158c0", 
+                            "p0": "0", 
+                            "p1": "RLIMIT_STACK"
+                        }, 
+                        "time": 1642276755.84129
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.841347 getent@7f71ca93f5c1[2069] openat(AT_FDCWD, \"/etc/qemu-binfmt/sparc\", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -2 (ENOENT)\n", 
+                        "api": "openat", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71ca93f5c1", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/etc/qemu-binfmt/sparc"
+                        }, 
+                        "time": 1642276755.841347
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.841403 getent@7f71ca90e247[2069] uname(0x7ffd66715530) = 0\n", 
+                        "api": "uname", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71ca90e247", 
+                        "arguments": {
+                            "p0": "0x7ffd66715530"
+                        }, 
+                        "time": 1642276755.841403
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.841440 getent@7f71caa2d337[2069] lseek(3, 0, SEEK_SET) = 0\n", 
+                        "api": "lseek", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71caa2d337", 
+                        "arguments": {
+                            "p2": "SEEK_SET", 
+                            "p0": "3", 
+                            "p1": "0"
+                        }, 
+                        "time": 1642276755.84144
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.841472 getent@7f71caa2cd94[2069] read(3, 0x7ffd66715820, 52) = 52\n", 
+                        "api": "read", 
+                        "return_value": "52", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71caa2cd94", 
+                        "arguments": {
+                            "p2": "52", 
+                            "p0": "3", 
+                            "p1": "0x7ffd66715820"
+                        }, 
+                        "time": 1642276755.841472
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.841505 getent@7f71caa2d337[2069] lseek(3, 0, SEEK_SET) = 0\n", 
+                        "api": "lseek", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71caa2d337", 
+                        "arguments": {
+                            "p2": "SEEK_SET", 
+                            "p0": "3", 
+                            "p1": "0"
+                        }, 
+                        "time": 1642276755.841505
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.842717 getent@7f71ca9444c3[2069] mmap2(0x0, 528384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f71c9f2f000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f71c9f2f000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71ca9444c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "528384", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642276755.842717
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.843189 getent@7f71ca944597[2069] mprotect(0x557b6969b000, 33550336, PROT_READ|PROT_WRITE|PROT_EXEC) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71ca944597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE|PROT_EXEC", 
+                            "p0": "0x557b6969b000", 
+                            "p1": "33550336"
+                        }, 
+                        "time": 1642276755.843189
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.843230 getent@7f71ca944667[2069] madvise(0x557b6969b000, 33550336, MADV_HUGEPAGE) = 0\n", 
+                        "api": "madvise", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71ca944667", 
+                        "arguments": {
+                            "p2": "MADV_HUGEPAGE", 
+                            "p0": "0x557b6969b000", 
+                            "p1": "33550336"
+                        }, 
+                        "time": 1642276755.84323
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.843386 getent@7f71ca9444c3[2069] mmap2(0x0, 4294963200, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f70c4001000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f70c4001000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71ca9444c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x0", 
+                            "p1": "4294963200", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642276755.843386
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.843426 getent@7f71ca939d59[2069] openat(AT_FDCWD, \"/proc/sys/vm/mmap_min_addr\", O_RDONLY) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71ca939d59", 
+                        "arguments": {
+                            "p2": "O_RDONLY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/proc/sys/vm/mmap_min_addr"
+                        }, 
+                        "time": 1642276755.843426
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.843475 getent@7f71ca939613[2069] fstat(4, 0x7ffd66714f30) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71ca939613", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd66714f30"
+                        }, 
+                        "time": 1642276755.843475
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.843507 getent@7f71ca939fb4[2069] read(4, 0x557b6b9fd3d0, 1024) = 6\n", 
+                        "api": "read", 
+                        "return_value": "6", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71ca939fb4", 
+                        "arguments": {
+                            "p2": "1024", 
+                            "p0": "4", 
+                            "p1": "0x557b6b9fd3d0"
+                        }, 
+                        "time": 1642276755.843507
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.843554 getent@7f71ca93f3f7[2069] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71ca93f3f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642276755.843554
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.843597 getent@7f71ca9442e9[2069] gettid() = 2069\n", 
+                        "api": "gettid", 
+                        "return_value": "2069", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71ca9442e9", 
+                        "arguments": {}, 
+                        "time": 1642276755.843597
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.843628 getent@7f71ca939613[2069] fstat(3, 0x7ffd667157a0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71ca939613", 
+                        "arguments": {
+                            "p0": "3", 
+                            "p1": "0x7ffd667157a0"
+                        }, 
+                        "time": 1642276755.843628
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.843657 getent@7f71ca90f717[2069] geteuid() = 0\n", 
+                        "api": "geteuid", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71ca90f717", 
+                        "arguments": {}, 
+                        "time": 1642276755.843657
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.843686 getent@7f71ca90f737[2069] getegid() = 0\n", 
+                        "api": "getegid", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71ca90f737", 
+                        "arguments": {}, 
+                        "time": 1642276755.843686
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.843716 getent@7f71caa2cd94[2069] read(3, 0x7ffd667159a0, 1024) = 1024\n", 
+                        "api": "read", 
+                        "return_value": "1024", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71caa2cd94", 
+                        "arguments": {
+                            "p2": "1024", 
+                            "p0": "3", 
+                            "p1": "0x7ffd667159a0"
+                        }, 
+                        "time": 1642276755.843716
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.843750 getent@7f71ca9444c3[2069] mmap2(0x7f70c4011000, 16384, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 3, 0) = 0x7f70c4011000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f70c4011000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71ca9444c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED", 
+                            "p0": "0x7f70c4011000", 
+                            "p1": "16384", 
+                            "p4": "3", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642276755.84375
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.843790 getent@7f71ca9402f7[2069] brk(0x557b6ba32000) = 93988575191040\n", 
+                        "api": "brk", 
+                        "return_value": "93988575191040", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71ca9402f7", 
+                        "arguments": {
+                            "p0": "0x557b6ba32000"
+                        }, 
+                        "time": 1642276755.84379
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.843843 getent@7f71ca9444c3[2069] mmap2(0x7f70c4024000, 8192, PROT_READ|PROT_WRITE|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 3, 12288) = 0x7f70c4024000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f70c4024000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71ca9444c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED", 
+                            "p0": "0x7f70c4024000", 
+                            "p1": "8192", 
+                            "p4": "3", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642276755.843843
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.843887 getent@7f71caa2ce27[2069] close(3) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71caa2ce27", 
+                        "arguments": {
+                            "p0": "3"
+                        }, 
+                        "time": 1642276755.843887
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.843946 getent@7f71ca9444c3[2069] mmap2(0x7f71c37ff000, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f71c37ff000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f71c37ff000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71ca9444c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f71c37ff000", 
+                            "p1": "8392704", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642276755.843946
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.844055 getent@7f71ca944597[2069] mprotect(0x7f71c37ff000, 4096, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71ca944597", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7f71c37ff000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642276755.844055
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.844102 getent@7f71caa2d55e[2069] openat(AT_FDCWD, \"/lib/ld-linux.so.2\", O_RDONLY) = -2 (ENOENT)\n", 
+                        "api": "openat", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71caa2d55e", 
+                        "arguments": {
+                            "p2": "O_RDONLY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/ld-linux.so.2"
+                        }, 
+                        "time": 1642276755.844102
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.844160 getent@7f71ca93a057[2069] write(2, \"/lib/ld-linux.so.2: No such file or directory\\n\", 46) = 46\n", 
+                        "api": "write", 
+                        "return_value": "46", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71ca93a057", 
+                        "arguments": {
+                            "p2": "46", 
+                            "p0": "2", 
+                            "p1": "/lib/ld-linux.so.2: No such file or directory\n"
+                        }, 
+                        "time": 1642276755.84416
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.844217 getent@7f71ca90e926[2069] exit_group(-1)\n", 
+                        "api": "exit_group", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71ca90e926", 
+                        "arguments": {
+                            "p0": "-1"
+                        }, 
+                        "time": 1642276755.844217
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 19:59:15 2022.844252 getent@7f71ca90e926[2069] futex(0x7f71ca7b2410, FUTEX_WAKE, 1) = 0\n", 
+                        "api": "futex", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71ca90e926", 
+                        "arguments": {
+                            "p2": "1", 
+                            "p0": "0x7f71ca7b2410", 
+                            "p1": "FUTEX_WAKE"
+                        }, 
+                        "time": 1642276755.844252
+                    }
+                ], 
+                "pid": 2069, 
+                "process_name": "getent", 
+                "command_line": "/tmp/getent", 
+                "first_seen": 1642276755.822951, 
+                "ppid": -1, 
+                "type": "process"
+            }, 
+            {
+                "calls": [
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.839178 getent@7f71caa23117[2070] set_robust_list(0x7f71ca7b09e0, 24) = 0\n", 
+                        "api": "set_robust_list", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71caa23117", 
+                        "arguments": {
+                            "p0": "0x7f71ca7b09e0", 
+                            "p1": "24"
+                        }, 
+                        "time": 1642276755.839178
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.839231 getent@7f71ca9444c3[2070] mmap2(0x0, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f71c1fb0000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f71c1fb0000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71ca9444c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x0", 
+                            "p1": "134217728", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642276755.839231
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.839285 getent@7f71ca944567[2070] munmap(0x7f71c1fb0000, 33882112) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71ca944567", 
+                        "arguments": {
+                            "p0": "0x7f71c1fb0000", 
+                            "p1": "33882112"
+                        }, 
+                        "time": 1642276755.839285
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.839330 getent@7f71ca944567[2070] munmap(0x7f71c8000000, 33226752) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71ca944567", 
+                        "arguments": {
+                            "p0": "0x7f71c8000000", 
+                            "p1": "33226752"
+                        }, 
+                        "time": 1642276755.83933
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.839374 getent@7f71ca944597[2070] mprotect(0x7f71c4000000, 135168, PROT_READ|PROT_WRITE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71ca944597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p0": "0x7f71c4000000", 
+                            "p1": "135168"
+                        }, 
+                        "time": 1642276755.839374
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "getent", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.839431 getent@7f71caa2d440[2070] nanosleep([0.010000000], 0x7f71ca7afdc0) = -516\n", 
+                        "api": "nanosleep", 
+                        "return_value": "-516", 
+                        "category": "process", 
+                        "instruction_pointer": "7f71caa2d440", 
+                        "arguments": {
+                            "p0": [
+                                "0.010000000"
+                            ], 
+                            "p1": "0x7f71ca7afdc0"
+                        }, 
+                        "time": 1642276755.839431
+                    }
+                ], 
+                "pid": 2070, 
+                "process_name": "getent", 
+                "command_line": "", 
+                "first_seen": 1642276755.839178, 
+                "ppid": 2069, 
+                "type": "process"
+            }
+        ], 
+        "processtree": [
+            {
+                "track": true, 
+                "pid": 2069, 
+                "process_name": "getent", 
+                "command_line": "/tmp/getent", 
+                "first_seen": 1642276755.822951, 
+                "ppid": -1, 
+                "children": [
+                    {
+                        "track": true, 
+                        "pid": 2070, 
+                        "process_name": "getent", 
+                        "command_line": "", 
+                        "first_seen": 1642276755.839178, 
+                        "ppid": 2069, 
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    }, 
+    "debug": {
+        "action": [], 
+        "dbgview": [], 
+        "errors": [], 
+        "log": [
+            "2022-01-15 19:59:08,003 [root] DEBUG: Starting analyzer from: /tmp/tmpXIzLmM\n", 
+            "2022-01-15 19:59:08,004 [root] DEBUG: Storing results at: /tmp/LtOvAap\n", 
+            "2022-01-15 19:59:10,203 [modules.auxiliary.filecollector] INFO: FileCollector started v0.08\n", 
+            "2022-01-15 19:59:10,206 [modules.auxiliary.human] INFO: Human started v0.02\n", 
+            "2022-01-15 19:59:10,208 [modules.auxiliary.screenshots] INFO: Screenshots started v0.03\n", 
+            "2022-01-15 19:59:15,821 [lib.core.packages] INFO: Process startup took 5.61 seconds\n", 
+            "2022-01-15 19:59:15,826 [root] INFO: Added new process to list with pid: 2060\n", 
+            "2022-01-15 19:59:21,842 [root] INFO: Process with pid 2060 has terminated\n", 
+            "2022-01-15 19:59:21,843 [root] INFO: Process list is empty, terminating analysis.\n", 
+            "2022-01-15 19:59:24,899 [lib.core.packages] INFO: Package requested stop\n", 
+            "2022-01-15 19:59:24,901 [lib.core.packages] WARNING: Exception uploading log: [Errno 3] No such process\n"
+        ], 
+        "cuckoo": [
+            "2022-01-15 21:20:36,167 [cuckoo.core.scheduler] DEBUG: Task #2650526: no machine available yet\n", 
+            "2022-01-15 21:20:46,190 [cuckoo.core.scheduler] DEBUG: Task #2650526: no machine available yet\n", 
+            "2022-01-15 21:20:56,212 [cuckoo.core.scheduler] DEBUG: Task #2650526: no machine available yet\n", 
+            "2022-01-15 21:21:06,244 [cuckoo.core.scheduler] DEBUG: Task #2650526: no machine available yet\n", 
+            "2022-01-15 21:21:16,271 [cuckoo.core.scheduler] DEBUG: Task #2650526: no machine available yet\n", 
+            "2022-01-15 21:21:26,298 [cuckoo.core.scheduler] DEBUG: Task #2650526: no machine available yet\n", 
+            "2022-01-15 21:21:36,330 [cuckoo.core.scheduler] DEBUG: Task #2650526: no machine available yet\n", 
+            "2022-01-15 21:21:46,355 [cuckoo.core.scheduler] DEBUG: Task #2650526: no machine available yet\n", 
+            "2022-01-15 21:21:56,377 [cuckoo.core.scheduler] DEBUG: Task #2650526: no machine available yet\n", 
+            "2022-01-15 21:22:06,403 [cuckoo.core.scheduler] DEBUG: Task #2650526: no machine available yet\n", 
+            "2022-01-15 21:22:16,426 [cuckoo.core.scheduler] DEBUG: Task #2650526: no machine available yet\n", 
+            "2022-01-15 21:22:26,467 [cuckoo.core.scheduler] DEBUG: Task #2650526: no machine available yet\n", 
+            "2022-01-15 21:22:36,498 [cuckoo.core.scheduler] DEBUG: Task #2650526: no machine available yet\n", 
+            "2022-01-15 21:22:46,534 [cuckoo.core.scheduler] DEBUG: Task #2650526: no machine available yet\n", 
+            "2022-01-15 21:22:56,648 [cuckoo.core.scheduler] DEBUG: Task #2650526: no machine available yet\n", 
+            "2022-01-15 21:23:06,678 [cuckoo.core.scheduler] DEBUG: Task #2650526: no machine available yet\n", 
+            "2022-01-15 21:23:16,714 [cuckoo.core.scheduler] DEBUG: Task #2650526: no machine available yet\n", 
+            "2022-01-15 21:23:26,755 [cuckoo.core.scheduler] DEBUG: Task #2650526: no machine available yet\n", 
+            "2022-01-15 21:23:36,785 [cuckoo.core.scheduler] DEBUG: Task #2650526: no machine available yet\n", 
+            "2022-01-15 21:23:46,878 [cuckoo.core.scheduler] DEBUG: Task #2650526: no machine available yet\n", 
+            "2022-01-15 21:23:56,919 [cuckoo.core.scheduler] DEBUG: Task #2650526: no machine available yet\n", 
+            "2022-01-15 21:24:06,957 [cuckoo.core.scheduler] DEBUG: Task #2650526: no machine available yet\n", 
+            "2022-01-15 21:24:16,994 [cuckoo.core.scheduler] DEBUG: Task #2650526: no machine available yet\n", 
+            "2022-01-15 21:24:27,079 [cuckoo.core.scheduler] DEBUG: Task #2650526: no machine available yet\n", 
+            "2022-01-15 21:24:37,181 [cuckoo.core.scheduler] DEBUG: Task #2650526: no machine available yet\n", 
+            "2022-01-15 21:24:47,281 [cuckoo.core.scheduler] DEBUG: Task #2650526: no machine available yet\n", 
+            "2022-01-15 21:24:57,384 [cuckoo.core.scheduler] DEBUG: Task #2650526: no machine available yet\n", 
+            "2022-01-15 21:25:07,462 [cuckoo.core.scheduler] DEBUG: Task #2650526: no machine available yet\n", 
+            "2022-01-15 21:25:17,548 [cuckoo.core.scheduler] DEBUG: Task #2650526: no machine available yet\n", 
+            "2022-01-15 21:25:27,648 [cuckoo.core.scheduler] DEBUG: Task #2650526: no machine available yet\n", 
+            "2022-01-15 21:25:37,762 [cuckoo.core.scheduler] DEBUG: Task #2650526: no machine available yet\n", 
+            "2022-01-15 21:25:47,825 [cuckoo.core.scheduler] DEBUG: Task #2650526: no machine available yet\n", 
+            "2022-01-15 21:25:57,876 [cuckoo.core.scheduler] DEBUG: Task #2650526: no machine available yet\n", 
+            "2022-01-15 21:26:07,953 [cuckoo.core.scheduler] DEBUG: Task #2650526: no machine available yet\n", 
+            "2022-01-15 21:26:18,027 [cuckoo.core.scheduler] DEBUG: Task #2650526: no machine available yet\n", 
+            "2022-01-15 21:26:28,076 [cuckoo.core.scheduler] DEBUG: Task #2650526: no machine available yet\n", 
+            "2022-01-15 21:26:38,134 [cuckoo.core.scheduler] DEBUG: Task #2650526: no machine available yet\n", 
+            "2022-01-15 21:26:48,215 [cuckoo.core.scheduler] DEBUG: Task #2650526: no machine available yet\n", 
+            "2022-01-15 21:26:58,277 [cuckoo.core.scheduler] DEBUG: Task #2650526: no machine available yet\n", 
+            "2022-01-15 21:27:08,352 [cuckoo.core.scheduler] DEBUG: Task #2650526: no machine available yet\n", 
+            "2022-01-15 21:27:18,401 [cuckoo.core.scheduler] DEBUG: Task #2650526: no machine available yet\n", 
+            "2022-01-15 21:27:28,886 [cuckoo.core.scheduler] DEBUG: Task #2650526: no machine available yet\n", 
+            "2022-01-15 21:27:38,934 [cuckoo.core.scheduler] DEBUG: Task #2650526: no machine available yet\n", 
+            "2022-01-15 21:27:48,988 [cuckoo.core.scheduler] DEBUG: Task #2650526: no machine available yet\n", 
+            "2022-01-15 21:27:59,086 [cuckoo.core.scheduler] DEBUG: Task #2650526: no machine available yet\n", 
+            "2022-01-15 21:28:09,130 [cuckoo.core.scheduler] DEBUG: Task #2650526: no machine available yet\n", 
+            "2022-01-15 21:28:19,163 [cuckoo.core.scheduler] DEBUG: Task #2650526: no machine available yet\n", 
+            "2022-01-15 21:28:29,226 [cuckoo.core.scheduler] DEBUG: Task #2650526: no machine available yet\n", 
+            "2022-01-15 21:28:39,254 [cuckoo.core.scheduler] DEBUG: Task #2650526: no machine available yet\n", 
+            "2022-01-15 21:28:49,301 [cuckoo.core.scheduler] DEBUG: Task #2650526: no machine available yet\n", 
+            "2022-01-15 21:28:59,331 [cuckoo.core.scheduler] DEBUG: Task #2650526: no machine available yet\n", 
+            "2022-01-15 21:29:09,366 [cuckoo.core.scheduler] DEBUG: Task #2650526: no machine available yet\n", 
+            "2022-01-15 21:29:19,397 [cuckoo.core.scheduler] DEBUG: Task #2650526: no machine available yet\n", 
+            "2022-01-15 21:29:29,424 [cuckoo.core.scheduler] DEBUG: Task #2650526: no machine available yet\n", 
+            "2022-01-15 21:29:39,448 [cuckoo.core.scheduler] DEBUG: Task #2650526: no machine available yet\n", 
+            "2022-01-15 21:29:49,475 [cuckoo.core.scheduler] DEBUG: Task #2650526: no machine available yet\n", 
+            "2022-01-15 21:29:59,502 [cuckoo.core.scheduler] DEBUG: Task #2650526: no machine available yet\n", 
+            "2022-01-15 21:30:09,527 [cuckoo.core.scheduler] DEBUG: Task #2650526: no machine available yet\n", 
+            "2022-01-15 21:30:19,550 [cuckoo.core.scheduler] DEBUG: Task #2650526: no machine available yet\n", 
+            "2022-01-15 21:30:29,574 [cuckoo.core.scheduler] DEBUG: Task #2650526: no machine available yet\n", 
+            "2022-01-15 21:30:39,597 [cuckoo.core.scheduler] DEBUG: Task #2650526: no machine available yet\n", 
+            "2022-01-15 21:30:49,617 [cuckoo.core.scheduler] DEBUG: Task #2650526: no machine available yet\n", 
+            "2022-01-15 21:30:59,702 [cuckoo.core.scheduler] DEBUG: Task #2650526: no machine available yet\n", 
+            "2022-01-15 21:31:09,733 [cuckoo.core.scheduler] DEBUG: Task #2650526: no machine available yet\n", 
+            "2022-01-15 21:31:19,751 [cuckoo.core.scheduler] DEBUG: Task #2650526: no machine available yet\n", 
+            "2022-01-15 21:31:29,776 [cuckoo.core.scheduler] DEBUG: Task #2650526: no machine available yet\n", 
+            "2022-01-15 21:31:39,800 [cuckoo.core.scheduler] DEBUG: Task #2650526: no machine available yet\n", 
+            "2022-01-15 21:31:49,824 [cuckoo.core.scheduler] DEBUG: Task #2650526: no machine available yet\n", 
+            "2022-01-15 21:31:59,848 [cuckoo.core.scheduler] DEBUG: Task #2650526: no machine available yet\n", 
+            "2022-01-15 21:32:09,874 [cuckoo.core.scheduler] DEBUG: Task #2650526: no machine available yet\n", 
+            "2022-01-15 21:32:19,965 [cuckoo.core.scheduler] DEBUG: Task #2650526: no machine available yet\n", 
+            "2022-01-15 21:32:29,994 [cuckoo.core.scheduler] DEBUG: Task #2650526: no machine available yet\n", 
+            "2022-01-15 21:32:40,021 [cuckoo.core.scheduler] DEBUG: Task #2650526: no machine available yet\n", 
+            "2022-01-15 21:32:50,043 [cuckoo.core.scheduler] DEBUG: Task #2650526: no machine available yet\n", 
+            "2022-01-15 21:33:00,068 [cuckoo.core.scheduler] DEBUG: Task #2650526: no machine available yet\n", 
+            "2022-01-15 21:33:10,096 [cuckoo.core.scheduler] DEBUG: Task #2650526: no machine available yet\n", 
+            "2022-01-15 21:33:20,118 [cuckoo.core.scheduler] DEBUG: Task #2650526: no machine available yet\n", 
+            "2022-01-15 21:33:30,141 [cuckoo.core.scheduler] DEBUG: Task #2650526: no machine available yet\n", 
+            "2022-01-15 21:33:40,163 [cuckoo.core.scheduler] DEBUG: Task #2650526: no machine available yet\n", 
+            "2022-01-15 21:33:50,189 [cuckoo.core.scheduler] DEBUG: Task #2650526: no machine available yet\n", 
+            "2022-01-15 21:34:00,216 [cuckoo.core.scheduler] DEBUG: Task #2650526: no machine available yet\n", 
+            "2022-01-15 21:34:10,237 [cuckoo.core.scheduler] DEBUG: Task #2650526: no machine available yet\n", 
+            "2022-01-15 21:34:20,262 [cuckoo.core.scheduler] DEBUG: Task #2650526: no machine available yet\n", 
+            "2022-01-15 21:34:30,300 [cuckoo.core.scheduler] DEBUG: Task #2650526: no machine available yet\n", 
+            "2022-01-15 21:34:40,323 [cuckoo.core.scheduler] DEBUG: Task #2650526: no machine available yet\n", 
+            "2022-01-15 21:34:50,368 [cuckoo.core.scheduler] DEBUG: Task #2650526: no machine available yet\n", 
+            "2022-01-15 21:35:00,391 [cuckoo.core.scheduler] DEBUG: Task #2650526: no machine available yet\n", 
+            "2022-01-15 21:35:10,429 [cuckoo.core.scheduler] DEBUG: Task #2650526: no machine available yet\n", 
+            "2022-01-15 21:35:20,455 [cuckoo.core.scheduler] DEBUG: Task #2650526: no machine available yet\n", 
+            "2022-01-15 21:35:30,478 [cuckoo.core.scheduler] DEBUG: Task #2650526: no machine available yet\n", 
+            "2022-01-15 21:35:40,504 [cuckoo.core.scheduler] DEBUG: Task #2650526: no machine available yet\n", 
+            "2022-01-15 21:35:50,530 [cuckoo.core.scheduler] DEBUG: Task #2650526: no machine available yet\n", 
+            "2022-01-15 21:36:00,554 [cuckoo.core.scheduler] INFO: Task #2650526: acquired machine Ubuntu1904x641 (label=Ubuntu1904x641)\n", 
+            "2022-01-15 21:36:00,554 [cuckoo.core.resultserver] DEBUG: Now tracking machine 192.168.168.101 for task #2650526\n", 
+            "2022-01-15 21:36:00,672 [cuckoo.auxiliary.sniffer] INFO: Started sniffer with PID 3424154 (interface=vboxnet0, host=192.168.168.101)\n", 
+            "2022-01-15 21:36:02,083 [cuckoo.machinery.virtualbox] DEBUG: Starting vm Ubuntu1904x641\n", 
+            "2022-01-15 21:36:09,150 [cuckoo.machinery.virtualbox] DEBUG: Restoring virtual machine Ubuntu1904x641 to Snapshot\n", 
+            "2022-01-15 21:36:18,117 [cuckoo.core.guest] INFO: Starting analysis #2650526 on guest (id=Ubuntu1904x641, ip=192.168.168.101)\n", 
+            "2022-01-15 21:36:19,120 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: not ready yet\n", 
+            "2022-01-15 21:36:24,138 [cuckoo.core.guest] INFO: Guest is running Cuckoo Agent 0.10 (id=Ubuntu1904x641, ip=192.168.168.101)\n", 
+            "2022-01-15 21:36:24,150 [cuckoo.core.guest] DEBUG: Uploading analyzer to guest (id=Ubuntu1904x641, ip=192.168.168.101, monitor=latest, size=72028)\n", 
+            "2022-01-15 21:36:25,307 [cuckoo.core.resultserver] DEBUG: Task #2650526: live log analysis.log initialized.\n", 
+            "2022-01-15 21:36:30,596 [cuckoo.core.resultserver] DEBUG: Task #2650526: File upload for 'shots/0001.jpg'\n", 
+            "2022-01-15 21:36:30,604 [cuckoo.core.resultserver] DEBUG: Task #2650526 uploaded file length: 171571\n", 
+            "2022-01-15 21:36:39,268 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2650526 still processing\n", 
+            "2022-01-15 21:36:42,226 [cuckoo.core.resultserver] DEBUG: Task #2650526: File upload for 'logs/all.stap'\n", 
+            "2022-01-15 21:36:42,230 [cuckoo.core.resultserver] DEBUG: Task #2650526 uploaded file length: 18532\n", 
+            "2022-01-15 21:36:54,329 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2650526 still processing\n", 
+            "2022-01-15 21:37:09,405 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2650526 still processing\n", 
+            "2022-01-15 21:37:24,491 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2650526 still processing\n", 
+            "2022-01-15 21:37:39,683 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2650526 still processing\n", 
+            "2022-01-15 21:37:54,919 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2650526 still processing\n", 
+            "2022-01-15 21:38:09,982 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2650526 still processing\n", 
+            "2022-01-15 21:38:25,050 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2650526 still processing\n", 
+            "2022-01-15 21:38:40,112 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2650526 still processing\n", 
+            "2022-01-15 21:38:55,311 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2650526 still processing\n", 
+            "2022-01-15 21:39:10,386 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2650526 still processing\n", 
+            "2022-01-15 21:39:25,469 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2650526 still processing\n", 
+            "2022-01-15 21:39:40,578 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2650526 still processing\n", 
+            "2022-01-15 21:39:55,637 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2650526 still processing\n", 
+            "2022-01-15 21:40:10,697 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2650526 still processing\n", 
+            "2022-01-15 21:40:25,753 [cuckoo.core.guest] INFO: Ubuntu1904x641: end of analysis reached!\n", 
+            "2022-01-15 21:40:25,768 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Redsocks\n", 
+            "2022-01-15 21:40:25,882 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Sniffer\n", 
+            "2022-01-15 21:40:38,754 [cuckoo.machinery.virtualbox] INFO: Successfully generated memory dump for virtual machine with label Ubuntu1904x641 to path /srv/cuckoo/cwd/storage/analyses/2650526/memory.dmp\n", 
+            "2022-01-15 21:40:38,756 [cuckoo.machinery.virtualbox] DEBUG: Stopping vm Ubuntu1904x641\n", 
+            "2022-01-15 21:40:42,563 [cuckoo.core.resultserver] DEBUG: Stopped tracking machine 192.168.168.101 for task #2650526\n", 
+            "2022-01-15 21:40:42,563 [cuckoo.core.resultserver] DEBUG: Cancel <Context for LOG> for task 2650526\n", 
+            "2022-01-15 21:40:42,747 [cuckoo.core.scheduler] DEBUG: Released database task #2650526\n", 
+            "2022-01-15 21:40:43,059 [cuckoo.core.scheduler] INFO: Task #2650526: analysis procedure completed\n"
+        ]
+    }, 
+    "strings": [
+        "/lib/ld-linux.so.2", 
+        "libc.so.6", 
+        "stpcpy", 
+        "setgrent", 
+        "textdomain", 
+        "getservent", 
+        "stdout", 
+        "sethostent", 
+        "setservent", 
+        "inet_pton", 
+        "endnetent", 
+        "snprintf", 
+        "getgrgid", 
+        "getprotobynumber", 
+        "__strtol_internal", 
+        "getprotobyname", 
+        "endaliasent", 
+        "getnetent", 
+        "getnetgrent", 
+        "__overflow", 
+        "malloc", 
+        "endpwent", 
+        "gethostbyaddr", 
+        "__dcgettext", 
+        "__strtoul_internal", 
+        "mempcpy", 
+        "ether_ntohost", 
+        "getrpcbyname", 
+        "freeaddrinfo", 
+        "endprotoent", 
+        "ether_hostton", 
+        "getnetbyaddr", 
+        "setprotoent", 
+        "fprintf", 
+        "fputs_unlocked", 
+        "setpwent", 
+        "getprotoent", 
+        "inet_addr", 
+        "endgrent", 
+        "getaliasbyname", 
+        "setspent", 
+        "getspnam", 
+        "program_invocation_short_name", 
+        "setnetgrent", 
+        "getrpcent", 
+        "getgrent", 
+        "endhostent", 
+        "getaliasent", 
+        "inet_ntoa", 
+        "getservbyport", 
+        "__nss_configure_lookup", 
+        "getrpcbynumber", 
+        "endrpcent", 
+        "strcmp", 
+        "argp_help", 
+        "getpwuid", 
+        "getpwnam", 
+        "getservbyname", 
+        "_libc_intl_domainname", 
+        "setlocale", 
+        "stderr", 
+        "setaliasent", 
+        "setrpcent", 
+        "getspent", 
+        "__ctype_b_loc", 
+        "getaddrinfo", 
+        "ether_aton", 
+        "gethostent", 
+        "getnetbyname", 
+        "__errno_location", 
+        "ether_ntoa", 
+        "inet_ntop", 
+        "getgrnam", 
+        "gethostbyname2", 
+        "argp_parse", 
+        "endservent", 
+        "_IO_stdin_used", 
+        "getpwent", 
+        "__libc_start_main", 
+        "strlen", 
+        "strchr", 
+        "argp_program_version_hook", 
+        "setnetent", 
+        "fputc_unlocked", 
+        "__progname", 
+        "__gmon_start__", 
+        "GLIBC_2.3", 
+        "GLIBC_2.1", 
+        "GLIBC_2.0", 
+        "%s:%s:", 
+        "%-21s %d/%s", 
+        "%-21s %s", 
+        "Enumeration not supported on %s", 
+        "netgroup", 
+        " (%s, %s, %s)", 
+        "%-15s %s", 
+        "ethers", 
+        "STREAM", 
+        "%-15s %-6s %s", 
+        "getent (GNU %s) %s", 
+        "Copyright (C) %s Free Software Foundation, Inc.", 
+        "This is free software; see the source for copying conditions.  There is NO", 
+        "warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.", 
+        "Written by %s.", 
+        "Thorsten Kukuk", 
+        "wrong number of arguments", 
+        "Unknown database: %s", 
+        "Supported databases:", 
+        "%s:%s:%lu:%lu:%s:%s:%s", 
+        "%-15s %d%s", 
+        "%-21s %d", 
+        "%s:%s:%lu:", 
+        "ahosts", 
+        "ahostsv4", 
+        "ahostsv6", 
+        "aliases", 
+        "networks", 
+        "passwd", 
+        "protocols", 
+        "services", 
+        "shadow", 
+        "service", 
+        "CONFIG", 
+        "Service configuration to be used", 
+        "database [key ...]", 
+        "Get entries from administrative database.", 
+        "For bug reporting instructions, please see:", 
+        "<http://www.gnu.org/software/libc/bugs.html>.", 
+        "getent", 
+        ".shstrtab", 
+        ".interp", 
+        ".note.ABI-tag", 
+        ".dynsym", 
+        ".dynstr", 
+        ".gnu.version", 
+        ".gnu.version_r", 
+        ".rela.dyn", 
+        ".rela.plt", 
+        ".rodata", 
+        ".eh_frame", 
+        ".ctors", 
+        ".dtors", 
+        ".dynamic", 
+        ".gnu_debuglink"
+    ], 
+    "metadata": {
+        "output": {
+            "pcap": {
+                "basename": "dump.pcap", 
+                "sha256": "ebb717f545b1da4f17077619942bb40b366f1cfa312220aa05e729efd12da883", 
+                "dirname": ""
+            }
+        }
+    }
+}
