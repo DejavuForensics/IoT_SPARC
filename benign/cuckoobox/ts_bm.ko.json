@@ -1,0 +1,610 @@
+{
+    "info": {
+        "added": 1642282689.054283, 
+        "started": 1642327704.443468, 
+        "duration": 1182, 
+        "ended": 1642328887.381686, 
+        "owner": null, 
+        "score": 0.0, 
+        "id": 2651818, 
+        "category": "file", 
+        "git": {
+            "head": "e8f6317b4b3ef806085a1e99e64c6ff01f26948f", 
+            "fetch_head": "e8f6317b4b3ef806085a1e99e64c6ff01f26948f"
+        }, 
+        "monitor": "2deb9ccd75d5a7a3fe05b2625b03a8639d6ee36b", 
+        "package": "elf", 
+        "route": "internet", 
+        "custom": null, 
+        "machine": {
+            "status": "stopped", 
+            "name": "Ubuntu1904x644", 
+            "label": "Ubuntu1904x644", 
+            "platform": "linux", 
+            "manager": "VirtualBox", 
+            "started_on": "2022-01-16 10:23:21", 
+            "shutdown_on": "2022-01-16 10:28:06"
+        }, 
+        "platform": "linux", 
+        "version": "2.0.7", 
+        "options": "procmemdump=yes,route=internet"
+    }, 
+    "signatures": [], 
+    "target": {
+        "category": "file", 
+        "file": {
+            "mimetype": "application/x-object", 
+            "yara": [], 
+            "sha1": "05fd6b42065cc352d521b9224c194a71345a931f", 
+            "name": "ts_bm.ko", 
+            "type": "ELF 32-bit MSB relocatable, SPARC, version 1 (SYSV), not stripped", 
+            "sha256": "4f39af91b336392c6ac22f8c344aba7eff635c0e02c1a3356aee3647896a273e", 
+            "urls": [], 
+            "crc32": "5C840707", 
+            "path": "/srv/cuckoo/cwd/storage/binaries/4f39af91b336392c6ac22f8c344aba7eff635c0e02c1a3356aee3647896a273e", 
+            "ssdeep": "48:erq8C35Wi+8Yw1+aKZaKJhRfsKIc0GR0W4J9/pp1ANtm4Fw+:erqRJb+Y1Uklc0GR0V9xXANtE+", 
+            "size": 3943, 
+            "sha512": "4a1cacefacc33f4e847f1afbda8582fc4f22a528c667a6d5b8595f52805cae2aebc932b1795deb4339eaff1ae729f160b952f4203139b306ecfd63401d0d98d4", 
+            "md5": "e2b844aa354bed978e029c5116d9f70b"
+        }, 
+        "custom": null
+    }, 
+    "irma": {
+        "status": 0, 
+        "probes_finished": 16, 
+        "scan_id": "98ea5e74-ebb6-42e8-a8f7-297947883bc3", 
+        "parent_file_sha256": null, 
+        "name": "4f39af91b336392c6ac22f8c344aba7eff635c0e02c1a3356aee3647896a273e", 
+        "probes_total": 16, 
+        "scan_date": 1642321690, 
+        "other_results": [], 
+        "submitter": "cli", 
+        "file_infos": {
+            "mimetype": "ELF 32-bit MSB relocatable, SPARC, version 1 (SYSV)", 
+            "sha1": "05fd6b42065cc352d521b9224c194a71345a931f", 
+            "tags": [], 
+            "timestamp_first_scan": 1642321689.63, 
+            "timestamp_last_scan": 1642321699.19, 
+            "sha256": "4f39af91b336392c6ac22f8c344aba7eff635c0e02c1a3356aee3647896a273e", 
+            "md5": "e2b844aa354bed978e029c5116d9f70b", 
+            "size": 3943
+        }, 
+        "probe_results": {
+            "antivirus": {
+                "Avast Core Security (Linux)": {
+                    "status": 0, 
+                    "duration": 0.01, 
+                    "version": "3.0.3", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "F-Secure Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.02, 
+                    "version": "11.10", 
+                    "results": null, 
+                    "virus_database_version": "2022-01-13_04"
+                }, 
+                "Windows Defender (Windows)": {
+                    "status": 0, 
+                    "duration": 0.03, 
+                    "version": "1.1.18800.4", 
+                    "results": null, 
+                    "virus_database_version": "1.355.1049.0"
+                }, 
+                "Comodo Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 2.1, 
+                    "version": "1.1.268025.1", 
+                    "results": null, 
+                    "virus_database_version": "2021-11-02"
+                }, 
+                "Kaspersky Antivirus (Win)": {
+                    "status": 0, 
+                    "duration": 2.86, 
+                    "version": "21.3", 
+                    "results": null, 
+                    "virus_database_version": "2022-01-16 02:22:00 (full)"
+                }, 
+                "ESET NOD32 Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 4.25, 
+                    "version": "4.0.96", 
+                    "results": null, 
+                    "virus_database_version": "6178ebd0-1e722 (2021-10-27)"
+                }, 
+                "GData (Windows)": {
+                    "status": 0, 
+                    "duration": 0.17, 
+                    "version": "5.5.20197.1358", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Forticlient (Linux)": {
+                    "status": 0, 
+                    "duration": 3.04, 
+                    "version": "unavailable", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Avira (Windows)": {
+                    "status": 0, 
+                    "duration": 3.77, 
+                    "version": "8.3.64.66", 
+                    "results": null, 
+                    "virus_database_version": "8.19.1.122"
+                }, 
+                "eScan Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 3.99, 
+                    "version": "7.0.21", 
+                    "results": null, 
+                    "virus_database_version": "7.90035 (27/10/2021)"
+                }, 
+                "McAfee CLI scanner (Linux)": {
+                    "status": 0, 
+                    "duration": 5.78, 
+                    "version": "6.0.6.653", 
+                    "results": null, 
+                    "virus_database_version": "10149"
+                }, 
+                "Sophos Anti-Virus (Linux)": {
+                    "status": 0, 
+                    "duration": 6.65, 
+                    "version": "5.85.0", 
+                    "results": null, 
+                    "virus_database_version": "5.88 (26 October 2021)"
+                }, 
+                "DrWeb Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.2, 
+                    "version": "11.1.10.2108031732", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "ClamAV (Linux)": {
+                    "status": 0, 
+                    "duration": 0.02, 
+                    "version": "0.103.2", 
+                    "results": null, 
+                    "virus_database_version": "26334"
+                }, 
+                "Bitdefender Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 6.09, 
+                    "version": "7.90123", 
+                    "results": null, 
+                    "virus_database_version": null
+                }, 
+                "Emsisoft Commandline Scanner (Windows)": {
+                    "status": 0, 
+                    "duration": 0.2, 
+                    "version": "2021.10.0.11201", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }
+            }
+        }, 
+        "path": "", 
+        "result_id": "e5985de9-3ef5-4fd9-83b9-393ace7a40db", 
+        "file_sha256": "4f39af91b336392c6ac22f8c344aba7eff635c0e02c1a3356aee3647896a273e"
+    }, 
+    "suricata": {
+        "tls": [], 
+        "files": [], 
+        "alerts": [], 
+        "http": []
+    }, 
+    "virustotal": {
+        "summary": {
+            "error": "resource has not been scanned yet"
+        }
+    }, 
+    "network": {
+        "tls": [], 
+        "udp": [], 
+        "dns_servers": [], 
+        "http": [], 
+        "icmp": [], 
+        "smtp": [], 
+        "tcp": [], 
+        "smtp_ex": [], 
+        "geoinfo": {}, 
+        "mitm": [], 
+        "hosts": [], 
+        "pcap_sha256": "704e5e5b3234433c01fcfd1b20a306e77e985038120492dc53965c3edd38a4ea", 
+        "dns": [], 
+        "http_ex": [], 
+        "domains": [], 
+        "dead_hosts": [], 
+        "irc": [], 
+        "https_ex": []
+    }, 
+    "resubmit": {
+        "resubmit_ids": []
+    }, 
+    "snort": {
+        "alerts": []
+    }, 
+    "behavior": {
+        "generic": [
+            {
+                "process_path": null, 
+                "process_name": "sh", 
+                "pid": 3847, 
+                "summary": {}, 
+                "first_seen": 1642282697.666138, 
+                "ppid": -1
+            }
+        ], 
+        "processes": [
+            {
+                "calls": [
+                    {
+                        "status": "ENOEXEC", 
+                        "process_name": "sh", 
+                        "pid": 3847, 
+                        "raw": "Sat Jan 15 21:38:17 2022.666138 sh@7fa9ca1c8957[3847] execve(\"/tmp/ts_bm.ko\", [\"/tmp/ts_bm.ko\"], [\"SUDO_GID=0\", \"MAIL=/var/mail/root\", \"USER=root\", \"HOME=/root\", \"SUDO_UID=0\", \"LOGNAME=root\", \"SYSTEMTAP_MODULE=stap_\", \"TERM=unknown\", \"SYSTEMTAP_VERBOSE=2\", \"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin\", \"DISPLAY=:0\", \"LANG=en_US.UTF-8\", \"XAUTHORITY=/root/.Xauthority\", \"SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/ts_bm.ko\", \"SHELL=/bin/bash\", \"SUDO_USER=root\", \"PWD=/tmp/tmpFkd02R\"]) = -8 (ENOEXEC)\n", 
+                        "api": "execve", 
+                        "return_value": "-8", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa9ca1c8957", 
+                        "arguments": {
+                            "p2": [
+                                "SUDO_GID=0", 
+                                "MAIL=/var/mail/root", 
+                                "USER=root", 
+                                "HOME=/root", 
+                                "SUDO_UID=0", 
+                                "LOGNAME=root", 
+                                "SYSTEMTAP_MODULE=stap_", 
+                                "TERM=unknown", 
+                                "SYSTEMTAP_VERBOSE=2", 
+                                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin", 
+                                "DISPLAY=:0", 
+                                "LANG=en_US.UTF-8", 
+                                "XAUTHORITY=/root/.Xauthority", 
+                                "SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/ts_bm.ko", 
+                                "SHELL=/bin/bash", 
+                                "SUDO_USER=root", 
+                                "PWD=/tmp/tmpFkd02R"
+                            ], 
+                            "p0": "/tmp/ts_bm.ko", 
+                            "p1": [
+                                "/tmp/ts_bm.ko"
+                            ]
+                        }, 
+                        "time": 1642282697.666138
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 3847, 
+                        "raw": "Sat Jan 15 21:38:17 2022.675216 sh@7fa9ca1f3cce[3847] openat(AT_FDCWD, \"/tmp/ts_bm.ko\", O_RDONLY|O_NOCTTY) = 3\n", 
+                        "api": "openat", 
+                        "return_value": "3", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa9ca1f3cce", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_NOCTTY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/tmp/ts_bm.ko"
+                        }, 
+                        "time": 1642282697.675216
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 3847, 
+                        "raw": "Sat Jan 15 21:38:17 2022.675257 sh@7fa9ca1f3f81[3847] read(3, 0x7ffd329739b0, 128) = 128\n", 
+                        "api": "read", 
+                        "return_value": "128", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa9ca1f3f81", 
+                        "arguments": {
+                            "p2": "128", 
+                            "p0": "3", 
+                            "p1": "0x7ffd329739b0"
+                        }, 
+                        "time": 1642282697.675257
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 3847, 
+                        "raw": "Sat Jan 15 21:38:17 2022.675292 sh@7fa9ca1f4674[3847] close(3) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa9ca1f4674", 
+                        "arguments": {
+                            "p0": "3"
+                        }, 
+                        "time": 1642282697.675292
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 3847, 
+                        "raw": "Sat Jan 15 21:38:17 2022.675377 sh@7fa9ca1f4024[3847] write(2, \"sh: 1: \", 7) = 7\n", 
+                        "api": "write", 
+                        "return_value": "7", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa9ca1f4024", 
+                        "arguments": {
+                            "p2": "7", 
+                            "p0": "2", 
+                            "p1": "sh: 1: "
+                        }, 
+                        "time": 1642282697.675377
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 3847, 
+                        "raw": "Sat Jan 15 21:38:17 2022.675420 sh@7fa9ca1f4024[3847] write(2, \"/tmp/ts_bm.ko: Exec format error\", 32) = 32\n", 
+                        "api": "write", 
+                        "return_value": "32", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa9ca1f4024", 
+                        "arguments": {
+                            "p2": "32", 
+                            "p0": "2", 
+                            "p1": "/tmp/ts_bm.ko: Exec format error"
+                        }, 
+                        "time": 1642282697.67542
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 3847, 
+                        "raw": "Sat Jan 15 21:38:17 2022.675458 sh@7fa9ca1f4024[3847] write(2, \"\\n\", 1) = 1\n", 
+                        "api": "write", 
+                        "return_value": "1", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa9ca1f4024", 
+                        "arguments": {
+                            "p2": "1", 
+                            "p0": "2", 
+                            "p1": "\n"
+                        }, 
+                        "time": 1642282697.675458
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 3847, 
+                        "raw": "Sat Jan 15 21:38:17 2022.675501 sh@7fa9ca1c8926[3847] exit_group(2)\n", 
+                        "api": "exit_group", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa9ca1c8926", 
+                        "arguments": {
+                            "p0": "2"
+                        }, 
+                        "time": 1642282697.675501
+                    }
+                ], 
+                "pid": 3847, 
+                "process_name": "sh", 
+                "command_line": "", 
+                "first_seen": 1642282697.666138, 
+                "ppid": -1, 
+                "type": "process"
+            }
+        ], 
+        "processtree": [
+            {
+                "track": true, 
+                "pid": 3847, 
+                "process_name": "sh", 
+                "command_line": "", 
+                "first_seen": 1642282697.666138, 
+                "ppid": -1, 
+                "children": []
+            }
+        ]
+    }, 
+    "debug": {
+        "action": [], 
+        "dbgview": [], 
+        "errors": [], 
+        "log": [
+            "2022-01-15 21:38:09,002 [root] DEBUG: Starting analyzer from: /tmp/tmpFkd02R\n", 
+            "2022-01-15 21:38:09,002 [root] DEBUG: Storing results at: /tmp/dpPvCHEz\n", 
+            "2022-01-15 21:38:11,198 [modules.auxiliary.filecollector] INFO: FileCollector started v0.08\n", 
+            "2022-01-15 21:38:11,200 [modules.auxiliary.human] INFO: Human started v0.02\n", 
+            "2022-01-15 21:38:11,702 [modules.auxiliary.screenshots] INFO: Screenshots started v0.03\n", 
+            "2022-01-15 21:38:17,662 [lib.core.packages] INFO: Process startup took 5.95 seconds\n", 
+            "2022-01-15 21:38:17,663 [root] INFO: Added new process to list with pid: 3840\n", 
+            "2022-01-15 21:38:23,673 [root] INFO: Process with pid 3840 has terminated\n", 
+            "2022-01-15 21:38:23,674 [root] INFO: Process list is empty, terminating analysis.\n", 
+            "2022-01-15 21:38:26,678 [lib.core.packages] INFO: Package requested stop\n", 
+            "2022-01-15 21:38:26,679 [lib.core.packages] WARNING: Exception uploading log: [Errno 3] No such process\n", 
+            "2022-01-15 21:42:02,289 [root] INFO: Terminating remaining processes before shutdown.\n", 
+            "2022-01-15 21:42:02,290 [root] INFO: Analysis completed.\n"
+        ], 
+        "cuckoo": [
+            "2022-01-16 10:08:45,217 [cuckoo.core.scheduler] DEBUG: Task #2651818: no machine available yet\n", 
+            "2022-01-16 10:08:55,239 [cuckoo.core.scheduler] DEBUG: Task #2651818: no machine available yet\n", 
+            "2022-01-16 10:09:05,264 [cuckoo.core.scheduler] DEBUG: Task #2651818: no machine available yet\n", 
+            "2022-01-16 10:09:15,290 [cuckoo.core.scheduler] DEBUG: Task #2651818: no machine available yet\n", 
+            "2022-01-16 10:09:25,381 [cuckoo.core.scheduler] DEBUG: Task #2651818: no machine available yet\n", 
+            "2022-01-16 10:09:35,417 [cuckoo.core.scheduler] DEBUG: Task #2651818: no machine available yet\n", 
+            "2022-01-16 10:09:45,439 [cuckoo.core.scheduler] DEBUG: Task #2651818: no machine available yet\n", 
+            "2022-01-16 10:09:55,479 [cuckoo.core.scheduler] DEBUG: Task #2651818: no machine available yet\n", 
+            "2022-01-16 10:10:05,509 [cuckoo.core.scheduler] DEBUG: Task #2651818: no machine available yet\n", 
+            "2022-01-16 10:10:15,562 [cuckoo.core.scheduler] DEBUG: Task #2651818: no machine available yet\n", 
+            "2022-01-16 10:10:25,610 [cuckoo.core.scheduler] DEBUG: Task #2651818: no machine available yet\n", 
+            "2022-01-16 10:10:35,647 [cuckoo.core.scheduler] DEBUG: Task #2651818: no machine available yet\n", 
+            "2022-01-16 10:10:45,754 [cuckoo.core.scheduler] DEBUG: Task #2651818: no machine available yet\n", 
+            "2022-01-16 10:10:55,798 [cuckoo.core.scheduler] DEBUG: Task #2651818: no machine available yet\n", 
+            "2022-01-16 10:11:05,831 [cuckoo.core.scheduler] DEBUG: Task #2651818: no machine available yet\n", 
+            "2022-01-16 10:11:15,875 [cuckoo.core.scheduler] DEBUG: Task #2651818: no machine available yet\n", 
+            "2022-01-16 10:11:25,909 [cuckoo.core.scheduler] DEBUG: Task #2651818: no machine available yet\n", 
+            "2022-01-16 10:11:35,957 [cuckoo.core.scheduler] DEBUG: Task #2651818: no machine available yet\n", 
+            "2022-01-16 10:11:45,983 [cuckoo.core.scheduler] DEBUG: Task #2651818: no machine available yet\n", 
+            "2022-01-16 10:11:56,006 [cuckoo.core.scheduler] DEBUG: Task #2651818: no machine available yet\n", 
+            "2022-01-16 10:12:06,029 [cuckoo.core.scheduler] DEBUG: Task #2651818: no machine available yet\n", 
+            "2022-01-16 10:12:16,050 [cuckoo.core.scheduler] DEBUG: Task #2651818: no machine available yet\n", 
+            "2022-01-16 10:12:26,077 [cuckoo.core.scheduler] DEBUG: Task #2651818: no machine available yet\n", 
+            "2022-01-16 10:12:36,163 [cuckoo.core.scheduler] DEBUG: Task #2651818: no machine available yet\n", 
+            "2022-01-16 10:12:46,205 [cuckoo.core.scheduler] DEBUG: Task #2651818: no machine available yet\n", 
+            "2022-01-16 10:12:56,232 [cuckoo.core.scheduler] DEBUG: Task #2651818: no machine available yet\n", 
+            "2022-01-16 10:13:06,408 [cuckoo.core.scheduler] DEBUG: Task #2651818: no machine available yet\n", 
+            "2022-01-16 10:13:16,463 [cuckoo.core.scheduler] DEBUG: Task #2651818: no machine available yet\n", 
+            "2022-01-16 10:13:26,504 [cuckoo.core.scheduler] DEBUG: Task #2651818: no machine available yet\n", 
+            "2022-01-16 10:13:36,537 [cuckoo.core.scheduler] DEBUG: Task #2651818: no machine available yet\n", 
+            "2022-01-16 10:13:46,808 [cuckoo.core.scheduler] DEBUG: Task #2651818: no machine available yet\n", 
+            "2022-01-16 10:13:56,875 [cuckoo.core.scheduler] DEBUG: Task #2651818: no machine available yet\n", 
+            "2022-01-16 10:14:06,900 [cuckoo.core.scheduler] DEBUG: Task #2651818: no machine available yet\n", 
+            "2022-01-16 10:14:16,923 [cuckoo.core.scheduler] DEBUG: Task #2651818: no machine available yet\n", 
+            "2022-01-16 10:14:26,942 [cuckoo.core.scheduler] DEBUG: Task #2651818: no machine available yet\n", 
+            "2022-01-16 10:14:36,978 [cuckoo.core.scheduler] DEBUG: Task #2651818: no machine available yet\n", 
+            "2022-01-16 10:14:47,039 [cuckoo.core.scheduler] DEBUG: Task #2651818: no machine available yet\n", 
+            "2022-01-16 10:14:57,076 [cuckoo.core.scheduler] DEBUG: Task #2651818: no machine available yet\n", 
+            "2022-01-16 10:15:07,102 [cuckoo.core.scheduler] DEBUG: Task #2651818: no machine available yet\n", 
+            "2022-01-16 10:15:17,124 [cuckoo.core.scheduler] DEBUG: Task #2651818: no machine available yet\n", 
+            "2022-01-16 10:15:27,145 [cuckoo.core.scheduler] DEBUG: Task #2651818: no machine available yet\n", 
+            "2022-01-16 10:15:37,164 [cuckoo.core.scheduler] DEBUG: Task #2651818: no machine available yet\n", 
+            "2022-01-16 10:15:47,188 [cuckoo.core.scheduler] DEBUG: Task #2651818: no machine available yet\n", 
+            "2022-01-16 10:15:57,210 [cuckoo.core.scheduler] DEBUG: Task #2651818: no machine available yet\n", 
+            "2022-01-16 10:16:07,234 [cuckoo.core.scheduler] DEBUG: Task #2651818: no machine available yet\n", 
+            "2022-01-16 10:16:17,256 [cuckoo.core.scheduler] DEBUG: Task #2651818: no machine available yet\n", 
+            "2022-01-16 10:16:27,282 [cuckoo.core.scheduler] DEBUG: Task #2651818: no machine available yet\n", 
+            "2022-01-16 10:16:37,308 [cuckoo.core.scheduler] DEBUG: Task #2651818: no machine available yet\n", 
+            "2022-01-16 10:16:47,329 [cuckoo.core.scheduler] DEBUG: Task #2651818: no machine available yet\n", 
+            "2022-01-16 10:16:57,424 [cuckoo.core.scheduler] DEBUG: Task #2651818: no machine available yet\n", 
+            "2022-01-16 10:17:07,487 [cuckoo.core.scheduler] DEBUG: Task #2651818: no machine available yet\n", 
+            "2022-01-16 10:17:17,524 [cuckoo.core.scheduler] DEBUG: Task #2651818: no machine available yet\n", 
+            "2022-01-16 10:17:27,575 [cuckoo.core.scheduler] DEBUG: Task #2651818: no machine available yet\n", 
+            "2022-01-16 10:17:37,631 [cuckoo.core.scheduler] DEBUG: Task #2651818: no machine available yet\n", 
+            "2022-01-16 10:17:47,685 [cuckoo.core.scheduler] DEBUG: Task #2651818: no machine available yet\n", 
+            "2022-01-16 10:17:57,724 [cuckoo.core.scheduler] DEBUG: Task #2651818: no machine available yet\n", 
+            "2022-01-16 10:18:07,779 [cuckoo.core.scheduler] DEBUG: Task #2651818: no machine available yet\n", 
+            "2022-01-16 10:18:17,826 [cuckoo.core.scheduler] DEBUG: Task #2651818: no machine available yet\n", 
+            "2022-01-16 10:18:27,884 [cuckoo.core.scheduler] DEBUG: Task #2651818: no machine available yet\n", 
+            "2022-01-16 10:18:37,944 [cuckoo.core.scheduler] DEBUG: Task #2651818: no machine available yet\n", 
+            "2022-01-16 10:18:48,000 [cuckoo.core.scheduler] DEBUG: Task #2651818: no machine available yet\n", 
+            "2022-01-16 10:18:58,055 [cuckoo.core.scheduler] DEBUG: Task #2651818: no machine available yet\n", 
+            "2022-01-16 10:19:08,097 [cuckoo.core.scheduler] DEBUG: Task #2651818: no machine available yet\n", 
+            "2022-01-16 10:19:19,429 [cuckoo.core.scheduler] DEBUG: Task #2651818: no machine available yet\n", 
+            "2022-01-16 10:19:29,494 [cuckoo.core.scheduler] DEBUG: Task #2651818: no machine available yet\n", 
+            "2022-01-16 10:19:39,673 [cuckoo.core.scheduler] DEBUG: Task #2651818: no machine available yet\n", 
+            "2022-01-16 10:19:49,736 [cuckoo.core.scheduler] DEBUG: Task #2651818: no machine available yet\n", 
+            "2022-01-16 10:19:59,802 [cuckoo.core.scheduler] DEBUG: Task #2651818: no machine available yet\n", 
+            "2022-01-16 10:20:09,874 [cuckoo.core.scheduler] DEBUG: Task #2651818: no machine available yet\n", 
+            "2022-01-16 10:20:19,941 [cuckoo.core.scheduler] DEBUG: Task #2651818: no machine available yet\n", 
+            "2022-01-16 10:20:30,023 [cuckoo.core.scheduler] DEBUG: Task #2651818: no machine available yet\n", 
+            "2022-01-16 10:20:40,083 [cuckoo.core.scheduler] DEBUG: Task #2651818: no machine available yet\n", 
+            "2022-01-16 10:20:50,133 [cuckoo.core.scheduler] DEBUG: Task #2651818: no machine available yet\n", 
+            "2022-01-16 10:21:00,162 [cuckoo.core.scheduler] DEBUG: Task #2651818: no machine available yet\n", 
+            "2022-01-16 10:21:10,191 [cuckoo.core.scheduler] DEBUG: Task #2651818: no machine available yet\n", 
+            "2022-01-16 10:21:20,227 [cuckoo.core.scheduler] DEBUG: Task #2651818: no machine available yet\n", 
+            "2022-01-16 10:21:30,255 [cuckoo.core.scheduler] DEBUG: Task #2651818: no machine available yet\n", 
+            "2022-01-16 10:21:40,284 [cuckoo.core.scheduler] DEBUG: Task #2651818: no machine available yet\n", 
+            "2022-01-16 10:21:50,303 [cuckoo.core.scheduler] DEBUG: Task #2651818: no machine available yet\n", 
+            "2022-01-16 10:22:00,325 [cuckoo.core.scheduler] DEBUG: Task #2651818: no machine available yet\n", 
+            "2022-01-16 10:22:10,349 [cuckoo.core.scheduler] DEBUG: Task #2651818: no machine available yet\n", 
+            "2022-01-16 10:22:20,371 [cuckoo.core.scheduler] DEBUG: Task #2651818: no machine available yet\n", 
+            "2022-01-16 10:22:30,401 [cuckoo.core.scheduler] DEBUG: Task #2651818: no machine available yet\n", 
+            "2022-01-16 10:22:40,420 [cuckoo.core.scheduler] DEBUG: Task #2651818: no machine available yet\n", 
+            "2022-01-16 10:22:50,445 [cuckoo.core.scheduler] DEBUG: Task #2651818: no machine available yet\n", 
+            "2022-01-16 10:23:00,463 [cuckoo.core.scheduler] DEBUG: Task #2651818: no machine available yet\n", 
+            "2022-01-16 10:23:10,489 [cuckoo.core.scheduler] DEBUG: Task #2651818: no machine available yet\n", 
+            "2022-01-16 10:23:20,649 [cuckoo.core.scheduler] INFO: Task #2651818: acquired machine Ubuntu1904x644 (label=Ubuntu1904x644)\n", 
+            "2022-01-16 10:23:20,654 [cuckoo.core.resultserver] DEBUG: Now tracking machine 192.168.168.104 for task #2651818\n", 
+            "2022-01-16 10:23:20,956 [cuckoo.auxiliary.sniffer] INFO: Started sniffer with PID 2396552 (interface=vboxnet0, host=192.168.168.104)\n", 
+            "2022-01-16 10:23:21,344 [cuckoo.machinery.virtualbox] DEBUG: Starting vm Ubuntu1904x644\n", 
+            "2022-01-16 10:23:21,848 [cuckoo.machinery.virtualbox] DEBUG: Restoring virtual machine Ubuntu1904x644 to Snapshot\n", 
+            "2022-01-16 10:23:43,894 [cuckoo.core.guest] INFO: Starting analysis #2651818 on guest (id=Ubuntu1904x644, ip=192.168.168.104)\n", 
+            "2022-01-16 10:23:44,899 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: not ready yet\n", 
+            "2022-01-16 10:23:49,913 [cuckoo.core.guest] INFO: Guest is running Cuckoo Agent 0.10 (id=Ubuntu1904x644, ip=192.168.168.104)\n", 
+            "2022-01-16 10:23:49,930 [cuckoo.core.guest] DEBUG: Uploading analyzer to guest (id=Ubuntu1904x644, ip=192.168.168.104, monitor=latest, size=72028)\n", 
+            "2022-01-16 10:23:50,103 [cuckoo.core.resultserver] DEBUG: Task #2651818: live log analysis.log initialized.\n", 
+            "2022-01-16 10:23:59,810 [cuckoo.core.resultserver] DEBUG: Task #2651818: File upload for 'shots/0001.jpg'\n", 
+            "2022-01-16 10:23:59,840 [cuckoo.core.resultserver] DEBUG: Task #2651818 uploaded file length: 171575\n", 
+            "2022-01-16 10:24:05,195 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2651818 still processing\n", 
+            "2022-01-16 10:24:07,827 [cuckoo.core.resultserver] DEBUG: Task #2651818: File upload for 'logs/all.stap'\n", 
+            "2022-01-16 10:24:07,839 [cuckoo.core.resultserver] DEBUG: Task #2651818 uploaded file length: 1172\n", 
+            "2022-01-16 10:24:20,299 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2651818 still processing\n", 
+            "2022-01-16 10:24:35,416 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2651818 still processing\n", 
+            "2022-01-16 10:24:50,480 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2651818 still processing\n", 
+            "2022-01-16 10:25:05,541 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2651818 still processing\n", 
+            "2022-01-16 10:25:20,610 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2651818 still processing\n", 
+            "2022-01-16 10:25:35,668 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2651818 still processing\n", 
+            "2022-01-16 10:25:50,723 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2651818 still processing\n", 
+            "2022-01-16 10:26:05,804 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2651818 still processing\n", 
+            "2022-01-16 10:26:20,881 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2651818 still processing\n", 
+            "2022-01-16 10:26:35,949 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2651818 still processing\n", 
+            "2022-01-16 10:26:51,215 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2651818 still processing\n", 
+            "2022-01-16 10:27:06,295 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2651818 still processing\n", 
+            "2022-01-16 10:27:21,441 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2651818 still processing\n", 
+            "2022-01-16 10:27:36,571 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2651818 still processing\n", 
+            "2022-01-16 10:27:45,646 [cuckoo.core.guest] INFO: Ubuntu1904x644: analysis completed successfully\n", 
+            "2022-01-16 10:27:45,655 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Redsocks\n", 
+            "2022-01-16 10:27:45,733 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Sniffer\n", 
+            "2022-01-16 10:28:02,636 [cuckoo.machinery.virtualbox] INFO: Successfully generated memory dump for virtual machine with label Ubuntu1904x644 to path /srv/cuckoo/cwd/storage/analyses/2651818/memory.dmp\n", 
+            "2022-01-16 10:28:02,737 [cuckoo.machinery.virtualbox] DEBUG: Stopping vm Ubuntu1904x644\n", 
+            "2022-01-16 10:28:06,842 [cuckoo.core.resultserver] DEBUG: Stopped tracking machine 192.168.168.104 for task #2651818\n", 
+            "2022-01-16 10:28:07,010 [cuckoo.core.scheduler] DEBUG: Released database task #2651818\n", 
+            "2022-01-16 10:28:07,259 [cuckoo.core.scheduler] INFO: Task #2651818: analysis procedure completed\n"
+        ]
+    }, 
+    "strings": [
+        "license=GPL", 
+        "vermagic=2.6.18-6-sparc32 mod_unload gcc-4.1", 
+        "depends=", 
+        "xk\\{struct_module", 
+        "s__memcpy", 
+        "c__bzero", 
+        "__kmalloc", 
+        "textsearch_register", 
+        "Ztextsearch_unregister", 
+        "GCC: (GNU) 4.1.2 20061115 (prerelease) (Debian 4.1.1-21)", 
+        "GCC: (GNU) 4.1.2 20061115 (prerelease) (Debian 4.1.1-21)", 
+        ".symtab", 
+        ".strtab", 
+        ".shstrtab", 
+        ".rela.text", 
+        ".rela.exit.text", 
+        ".rela.init.text", 
+        ".modinfo", 
+        ".rodata.str1.8", 
+        "__versions", 
+        ".rela.data", 
+        ".rela.gnu.linkonce.this_module", 
+        ".comment", 
+        ".note.GNU-stack", 
+        "ts_bm.c", 
+        "bm_get_pattern_len", 
+        "exit_bm", 
+        "bm_ops", 
+        "init_bm", 
+        "bm_find", 
+        "bm_init", 
+        "bm_get_pattern", 
+        "__mod_license190", 
+        "ts_bm.mod.c", 
+        "__mod_vermagic5", 
+        "____versions", 
+        "__module_depends", 
+        "textsearch_unregister", 
+        "__this_module", 
+        "cleanup_module", 
+        "__bzero", 
+        "init_module", 
+        "__memcpy", 
+        "textsearch_register", 
+        "__kmalloc"
+    ], 
+    "metadata": {
+        "output": {
+            "pcap": {
+                "basename": "dump.pcap", 
+                "sha256": "704e5e5b3234433c01fcfd1b20a306e77e985038120492dc53965c3edd38a4ea", 
+                "dirname": ""
+            }
+        }
+    }
+}
