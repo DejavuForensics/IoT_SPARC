@@ -1,0 +1,2877 @@
+{
+    "info": {
+        "added": 1642281321.632758, 
+        "started": 1642317720.761979, 
+        "duration": 267, 
+        "ended": 1642317988.595997, 
+        "owner": null, 
+        "score": 0.0, 
+        "id": 2651490, 
+        "category": "file", 
+        "git": {
+            "head": "e8f6317b4b3ef806085a1e99e64c6ff01f26948f", 
+            "fetch_head": "e8f6317b4b3ef806085a1e99e64c6ff01f26948f"
+        }, 
+        "monitor": "2deb9ccd75d5a7a3fe05b2625b03a8639d6ee36b", 
+        "package": "elf", 
+        "route": "internet", 
+        "custom": null, 
+        "machine": {
+            "status": "stopped", 
+            "name": "Ubuntu1904x642", 
+            "label": "Ubuntu1904x642", 
+            "platform": "linux", 
+            "manager": "VirtualBox", 
+            "started_on": "2022-01-16 07:22:52", 
+            "shutdown_on": "2022-01-16 07:26:27"
+        }, 
+        "platform": "linux", 
+        "version": "2.0.7", 
+        "options": "procmemdump=yes,route=internet"
+    }, 
+    "signatures": [], 
+    "target": {
+        "category": "file", 
+        "file": {
+            "mimetype": "application/x-executable", 
+            "yara": [], 
+            "sha1": "941b19235b801debbb8600919b6b1eea8b57a819", 
+            "name": "pivot_root", 
+            "type": "ELF 32-bit MSB executable, SPARC, version 1 (SYSV), dynamically linked, interpreter /lib/ld-linux.so.2, for GNU/Linux 2.4.1, stripped", 
+            "sha256": "26f89e56f724a77e215f7e193a43e6c88628df36ca6e489b5d6e672f366ae897", 
+            "urls": [], 
+            "crc32": "B6D40034", 
+            "path": "/srv/cuckoo/cwd/storage/binaries/26f89e56f724a77e215f7e193a43e6c88628df36ca6e489b5d6e672f366ae897", 
+            "ssdeep": "48:xDgkgh7Awbx/S8lV/DG9S/GJvrJaKZaKZaKZaKZaKZaKZaKJot8/sMAu0VYK6cM/:xDgkgh7NTj/GJZosPcJ6RCq5Zy4ZeW", 
+            "size": 3804, 
+            "sha512": "02b8d2c6eeafd7c0013b9c744ede83303235a48795ceb4a0f57c611ce3c313595f13ecc94a1a73b09bd86259a1c40562158e7dc1d11d3092e85a54618c537778", 
+            "md5": "d9f7a35bee04d3b7c9e8083a1fb84559"
+        }, 
+        "custom": null
+    }, 
+    "irma": {
+        "status": 0, 
+        "probes_finished": 16, 
+        "scan_id": "ec88b4dd-c986-4016-a75a-2d17a9f95035", 
+        "parent_file_sha256": null, 
+        "name": "26f89e56f724a77e215f7e193a43e6c88628df36ca6e489b5d6e672f366ae897", 
+        "probes_total": 16, 
+        "scan_date": 1642310789, 
+        "other_results": [], 
+        "submitter": "cli", 
+        "file_infos": {
+            "mimetype": "ELF 32-bit MSB executable, SPARC, version 1 (SYSV)", 
+            "sha1": "941b19235b801debbb8600919b6b1eea8b57a819", 
+            "tags": [], 
+            "timestamp_first_scan": 1642310789.07, 
+            "timestamp_last_scan": 1642310798.16, 
+            "sha256": "26f89e56f724a77e215f7e193a43e6c88628df36ca6e489b5d6e672f366ae897", 
+            "md5": "d9f7a35bee04d3b7c9e8083a1fb84559", 
+            "size": 3804
+        }, 
+        "probe_results": {
+            "antivirus": {
+                "Avast Core Security (Linux)": {
+                    "status": 0, 
+                    "duration": 0.01, 
+                    "version": "3.0.3", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "F-Secure Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 5.86, 
+                    "version": "11.10", 
+                    "results": null, 
+                    "virus_database_version": "2022-01-13_04"
+                }, 
+                "Windows Defender (Windows)": {
+                    "status": 0, 
+                    "duration": 0.06, 
+                    "version": "1.1.18800.4", 
+                    "results": null, 
+                    "virus_database_version": "1.355.1049.0"
+                }, 
+                "Comodo Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 2.11, 
+                    "version": "1.1.268025.1", 
+                    "results": null, 
+                    "virus_database_version": "2021-11-02"
+                }, 
+                "Kaspersky Antivirus (Win)": {
+                    "status": 0, 
+                    "duration": 2.7, 
+                    "version": "21.3", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "ESET NOD32 Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 4.43, 
+                    "version": "4.0.96", 
+                    "results": null, 
+                    "virus_database_version": "6178ebd0-1e722 (2021-10-27)"
+                }, 
+                "GData (Windows)": {
+                    "status": 0, 
+                    "duration": 0.2, 
+                    "version": "5.5.20197.1358", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Forticlient (Linux)": {
+                    "status": 0, 
+                    "duration": 3.04, 
+                    "version": "unavailable", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Avira (Windows)": {
+                    "status": 0, 
+                    "duration": 3.86, 
+                    "version": "8.3.64.66", 
+                    "results": null, 
+                    "virus_database_version": "8.19.1.122"
+                }, 
+                "eScan Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 4.09, 
+                    "version": "7.0.21", 
+                    "results": null, 
+                    "virus_database_version": "7.90035 (27/10/2021)"
+                }, 
+                "McAfee CLI scanner (Linux)": {
+                    "status": 0, 
+                    "duration": 6.0, 
+                    "version": "6.0.6.653", 
+                    "results": null, 
+                    "virus_database_version": "10149"
+                }, 
+                "Sophos Anti-Virus (Linux)": {
+                    "status": 0, 
+                    "duration": 6.89, 
+                    "version": "5.85.0", 
+                    "results": null, 
+                    "virus_database_version": "5.88 (26 October 2021)"
+                }, 
+                "DrWeb Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.19, 
+                    "version": "11.1.10.2108031732", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "ClamAV (Linux)": {
+                    "status": 0, 
+                    "duration": 0.02, 
+                    "version": "0.103.2", 
+                    "results": null, 
+                    "virus_database_version": "26334"
+                }, 
+                "Bitdefender Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 6.08, 
+                    "version": "7.90123", 
+                    "results": null, 
+                    "virus_database_version": null
+                }, 
+                "Emsisoft Commandline Scanner (Windows)": {
+                    "status": 0, 
+                    "duration": 0.22, 
+                    "version": "2021.10.0.11201", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }
+            }
+        }, 
+        "path": "", 
+        "result_id": "63dae329-2fed-4c7a-8b20-f8078626e975", 
+        "file_sha256": "26f89e56f724a77e215f7e193a43e6c88628df36ca6e489b5d6e672f366ae897"
+    }, 
+    "suricata": {
+        "tls": [], 
+        "files": [], 
+        "alerts": [], 
+        "http": []
+    }, 
+    "virustotal": {
+        "summary": {
+            "error": "resource has not been scanned yet"
+        }
+    }, 
+    "network": {
+        "tls": [], 
+        "udp": [], 
+        "dns_servers": [], 
+        "http": [], 
+        "icmp": [], 
+        "smtp": [], 
+        "tcp": [], 
+        "smtp_ex": [], 
+        "geoinfo": {}, 
+        "mitm": [], 
+        "hosts": [], 
+        "pcap_sha256": "704e5e5b3234433c01fcfd1b20a306e77e985038120492dc53965c3edd38a4ea", 
+        "dns": [], 
+        "http_ex": [], 
+        "domains": [], 
+        "dead_hosts": [], 
+        "irc": [], 
+        "https_ex": []
+    }, 
+    "resubmit": {
+        "resubmit_ids": []
+    }, 
+    "snort": {
+        "alerts": []
+    }, 
+    "behavior": {
+        "generic": [
+            {
+                "process_path": null, 
+                "process_name": "pivot_root", 
+                "pid": 2090, 
+                "summary": {}, 
+                "first_seen": 1642281328.958941, 
+                "ppid": -1
+            }, 
+            {
+                "process_path": null, 
+                "process_name": "pivot_root", 
+                "pid": 2091, 
+                "summary": {}, 
+                "first_seen": 1642281329.390101, 
+                "ppid": 2090
+            }
+        ], 
+        "processes": [
+            {
+                "calls": [
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:28 2022.958941 pivot_root@7f3476d78c27[2090] execve(\"/tmp/pivot_root\", [\"/tmp/pivot_root\"], [\"SUDO_GID=0\", \"MAIL=/var/mail/root\", \"USER=root\", \"HOME=/root\", \"SUDO_UID=0\", \"LOGNAME=root\", \"SYSTEMTAP_MODULE=stap_\", \"TERM=unknown\", \"SYSTEMTAP_VERBOSE=2\", \"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin\", \"DISPLAY=:0\", \"LANG=en_US.UTF-8\", \"XAUTHORITY=/root/.Xauthority\", \"SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/pivot_root\", \"SHELL=/bin/bash\", \"SUDO_USER=root\", \"PWD=/tmp/tmpZGIs2F\"])\n", 
+                        "api": "execve", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476d78c27", 
+                        "arguments": {
+                            "p2": [
+                                "SUDO_GID=0", 
+                                "MAIL=/var/mail/root", 
+                                "USER=root", 
+                                "HOME=/root", 
+                                "SUDO_UID=0", 
+                                "LOGNAME=root", 
+                                "SYSTEMTAP_MODULE=stap_", 
+                                "TERM=unknown", 
+                                "SYSTEMTAP_VERBOSE=2", 
+                                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin", 
+                                "DISPLAY=:0", 
+                                "LANG=en_US.UTF-8", 
+                                "XAUTHORITY=/root/.Xauthority", 
+                                "SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/pivot_root", 
+                                "SHELL=/bin/bash", 
+                                "SUDO_USER=root", 
+                                "PWD=/tmp/tmpZGIs2F"
+                            ], 
+                            "p0": "/tmp/pivot_root", 
+                            "p1": [
+                                "/tmp/pivot_root"
+                            ]
+                        }, 
+                        "time": 1642281328.958941
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.376954 pivot_root@7f3476d78c27[2090] brk(0x0) = 94864655319040\n", 
+                        "api": "brk", 
+                        "return_value": "94864655319040", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476d78c27", 
+                        "arguments": {
+                            "p0": "0x0"
+                        }, 
+                        "time": 1642281329.376954
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.377034 pivot_root@7f3476d799d7[2090] access(\"/etc/ld.so.preload\", R_OK) = -2 (ENOENT)\n", 
+                        "api": "access", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476d799d7", 
+                        "arguments": {
+                            "p0": "/etc/ld.so.preload", 
+                            "p1": "R_OK"
+                        }, 
+                        "time": 1642281329.377034
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.378019 pivot_root@7f3476d79b0d[2090] openat(AT_FDCWD, \"/etc/ld.so.cache\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476d79b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/etc/ld.so.cache"
+                        }, 
+                        "time": 1642281329.378019
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.378056 pivot_root@7f3476d79943[2090] fstat(4, 0x7ffe20a68ad0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476d79943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe20a68ad0"
+                        }, 
+                        "time": 1642281329.378056
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.378086 pivot_root@7f3476d79d03[2090] mmap2(0x0, 88858, PROT_READ, MAP_PRIVATE, 4, 0) = 0x7f3476d47000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3476d47000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476d79d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE", 
+                            "p0": "0x0", 
+                            "p1": "88858", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281329.378086
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.378133 pivot_root@7f3476d799f7[2090] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476d799f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642281329.378133
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.378191 pivot_root@7f3476d79b0d[2090] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476d79b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0"
+                        }, 
+                        "time": 1642281329.378191
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.378238 pivot_root@7f3476d79bd4[2090] read(4, 0x7ffe20a68c88, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476d79bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffe20a68c88"
+                        }, 
+                        "time": 1642281329.378238
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.378279 pivot_root@7f3476d79943[2090] fstat(4, 0x7ffe20a68b20) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476d79943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe20a68b20"
+                        }, 
+                        "time": 1642281329.378279
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.378315 pivot_root@7f3476d79d03[2090] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f3476d45000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3476d45000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476d79d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281329.378315
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.378349 pivot_root@7f3476d79d03[2090] mmap2(0x0, 20600, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f3476d3f000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3476d3f000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476d79d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "20600", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281329.378349
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.378379 pivot_root@7f3476d79d03[2090] mmap2(0x7f3476d40000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 4096) = 0x7f3476d40000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3476d40000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476d79d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f3476d40000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "4096"
+                        }, 
+                        "time": 1642281329.378379
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.378416 pivot_root@7f3476d79d03[2090] mmap2(0x7f3476d42000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f3476d42000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3476d42000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476d79d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f3476d42000", 
+                            "p1": "4096", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642281329.378416
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.378458 pivot_root@7f3476d79d03[2090] mmap2(0x7f3476d43000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f3476d43000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3476d43000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476d79d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f3476d43000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642281329.378458
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.378513 pivot_root@7f3476d799f7[2090] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476d799f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642281329.378513
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.378562 pivot_root@7f3476d79b0d[2090] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476d79b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0"
+                        }, 
+                        "time": 1642281329.378562
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.378609 pivot_root@7f3476d79bd4[2090] read(4, 0x7ffe20a68c68, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476d79bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffe20a68c68"
+                        }, 
+                        "time": 1642281329.378609
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.378642 pivot_root@7f3476d79943[2090] fstat(4, 0x7ffe20a68b00) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476d79943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe20a68b00"
+                        }, 
+                        "time": 1642281329.378642
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.378677 pivot_root@7f3476d79d03[2090] mmap2(0x0, 1180072, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f3476c1e000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3476c1e000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476d79d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1180072", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281329.378677
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.378709 pivot_root@7f3476d79db7[2090] mprotect(0x7f3476c39000, 1060864, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476d79db7", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7f3476c39000", 
+                            "p1": "1060864"
+                        }, 
+                        "time": 1642281329.378709
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.378744 pivot_root@7f3476d79d03[2090] mmap2(0x7f3476c39000, 524288, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 110592) = 0x7f3476c39000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3476c39000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476d79d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f3476c39000", 
+                            "p1": "524288", 
+                            "p4": "4", 
+                            "p5": "110592"
+                        }, 
+                        "time": 1642281329.378744
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.378775 pivot_root@7f3476d79d03[2090] mmap2(0x7f3476cb9000, 532480, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 634880) = 0x7f3476cb9000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3476cb9000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476d79d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f3476cb9000", 
+                            "p1": "532480", 
+                            "p4": "4", 
+                            "p5": "634880"
+                        }, 
+                        "time": 1642281329.378775
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.378816 pivot_root@7f3476d79d03[2090] mmap2(0x7f3476d3c000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1167360) = 0x7f3476d3c000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3476d3c000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476d79d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f3476d3c000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "1167360"
+                        }, 
+                        "time": 1642281329.378816
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.378868 pivot_root@7f3476d79d03[2090] mmap2(0x7f3476d3e000, 424, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f3476d3e000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3476d3e000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476d79d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f3476d3e000", 
+                            "p1": "424", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281329.378868
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.378917 pivot_root@7f3476d799f7[2090] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476d799f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642281329.378917
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.378972 pivot_root@7f3476d79b0d[2090] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/librt.so.1\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476d79b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/librt.so.1"
+                        }, 
+                        "time": 1642281329.378972
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.379006 pivot_root@7f3476d79bd4[2090] read(4, 0x7ffe20a68c48, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476d79bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffe20a68c48"
+                        }, 
+                        "time": 1642281329.379006
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.379033 pivot_root@7f3476d79943[2090] fstat(4, 0x7ffe20a68ae0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476d79943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe20a68ae0"
+                        }, 
+                        "time": 1642281329.379033
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.379060 pivot_root@7f3476d79d03[2090] mmap2(0x0, 44000, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f3476c13000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3476c13000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476d79d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "44000", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281329.37906
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.379090 pivot_root@7f3476d79d03[2090] mmap2(0x7f3476c16000, 16384, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f3476c16000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3476c16000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476d79d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f3476c16000", 
+                            "p1": "16384", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642281329.37909
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.379123 pivot_root@7f3476d79d03[2090] mmap2(0x7f3476c1a000, 8192, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 28672) = 0x7f3476c1a000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3476c1a000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476d79d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f3476c1a000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "28672"
+                        }, 
+                        "time": 1642281329.379123
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.379153 pivot_root@7f3476d79d03[2090] mmap2(0x7f3476c1c000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 32768) = 0x7f3476c1c000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3476c1c000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476d79d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f3476c1c000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "32768"
+                        }, 
+                        "time": 1642281329.379153
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.379197 pivot_root@7f3476d799f7[2090] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476d799f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642281329.379197
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.379243 pivot_root@7f3476d79b0d[2090] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libm.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476d79b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libm.so.6"
+                        }, 
+                        "time": 1642281329.379243
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.379288 pivot_root@7f3476d79bd4[2090] read(4, 0x7ffe20a68c28, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476d79bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffe20a68c28"
+                        }, 
+                        "time": 1642281329.379288
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.379326 pivot_root@7f3476d79943[2090] fstat(4, 0x7ffe20a68ac0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476d79943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe20a68ac0"
+                        }, 
+                        "time": 1642281329.379326
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.379368 pivot_root@7f3476d79d03[2090] mmap2(0x0, 1364240, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f3476ac5000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3476ac5000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476d79d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1364240", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281329.379368
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.379411 pivot_root@7f3476d79d03[2090] mmap2(0x7f3476ad4000, 679936, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 61440) = 0x7f3476ad4000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3476ad4000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476d79d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f3476ad4000", 
+                            "p1": "679936", 
+                            "p4": "4", 
+                            "p5": "61440"
+                        }, 
+                        "time": 1642281329.379411
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.379445 pivot_root@7f3476d79d03[2090] mmap2(0x7f3476b7a000, 618496, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 741376) = 0x7f3476b7a000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3476b7a000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476d79d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f3476b7a000", 
+                            "p1": "618496", 
+                            "p4": "4", 
+                            "p5": "741376"
+                        }, 
+                        "time": 1642281329.379445
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.379474 pivot_root@7f3476d79d03[2090] mmap2(0x7f3476c11000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1355776) = 0x7f3476c11000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3476c11000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476d79d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f3476c11000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "1355776"
+                        }, 
+                        "time": 1642281329.379474
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.379512 pivot_root@7f3476d799f7[2090] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476d799f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642281329.379512
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.379623 pivot_root@7f3476d79b0d[2090] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libgcc_s.so.1\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476d79b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libgcc_s.so.1"
+                        }, 
+                        "time": 1642281329.379623
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.379674 pivot_root@7f3476d79bd4[2090] read(4, 0x7ffe20a68c08, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476d79bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffe20a68c08"
+                        }, 
+                        "time": 1642281329.379674
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.379717 pivot_root@7f3476d79943[2090] fstat(4, 0x7ffe20a68aa0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476d79943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe20a68aa0"
+                        }, 
+                        "time": 1642281329.379717
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.379755 pivot_root@7f3476d79d03[2090] mmap2(0x0, 103504, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f3476aab000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3476aab000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476d79d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "103504", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281329.379755
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.379798 pivot_root@7f3476d79d03[2090] mmap2(0x7f3476aae000, 69632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f3476aae000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3476aae000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476d79d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f3476aae000", 
+                            "p1": "69632", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642281329.379798
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.379838 pivot_root@7f3476d79d03[2090] mmap2(0x7f3476abf000, 16384, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 81920) = 0x7f3476abf000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3476abf000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476d79d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f3476abf000", 
+                            "p1": "16384", 
+                            "p4": "4", 
+                            "p5": "81920"
+                        }, 
+                        "time": 1642281329.379838
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.379867 pivot_root@7f3476d79d03[2090] mmap2(0x7f3476ac3000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 94208) = 0x7f3476ac3000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3476ac3000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476d79d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f3476ac3000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "94208"
+                        }, 
+                        "time": 1642281329.379867
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.379905 pivot_root@7f3476d799f7[2090] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476d799f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642281329.379905
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.379939 pivot_root@7f3476d79b0d[2090] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libpthread.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476d79b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libpthread.so.0"
+                        }, 
+                        "time": 1642281329.379939
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.379973 pivot_root@7f3476d79bd4[2090] read(4, 0x7ffe20a68be8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476d79bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffe20a68be8"
+                        }, 
+                        "time": 1642281329.379973
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.380009 pivot_root@7f3476d79943[2090] fstat(4, 0x7ffe20a68a80) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476d79943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe20a68a80"
+                        }, 
+                        "time": 1642281329.380009
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.380046 pivot_root@7f3476d79d03[2090] mmap2(0x0, 132288, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f3476a8a000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3476a8a000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476d79d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "132288", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281329.380046
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.380088 pivot_root@7f3476d79d03[2090] mmap2(0x7f3476a91000, 61440, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 28672) = 0x7f3476a91000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3476a91000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476d79d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f3476a91000", 
+                            "p1": "61440", 
+                            "p4": "4", 
+                            "p5": "28672"
+                        }, 
+                        "time": 1642281329.380088
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.380136 pivot_root@7f3476d79d03[2090] mmap2(0x7f3476aa0000, 20480, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 90112) = 0x7f3476aa0000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3476aa0000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476d79d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f3476aa0000", 
+                            "p1": "20480", 
+                            "p4": "4", 
+                            "p5": "90112"
+                        }, 
+                        "time": 1642281329.380136
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.380179 pivot_root@7f3476d79d03[2090] mmap2(0x7f3476aa5000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 106496) = 0x7f3476aa5000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3476aa5000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476d79d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f3476aa5000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "106496"
+                        }, 
+                        "time": 1642281329.380179
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.380220 pivot_root@7f3476d79d03[2090] mmap2(0x7f3476aa7000, 13504, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f3476aa7000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3476aa7000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476d79d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f3476aa7000", 
+                            "p1": "13504", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281329.38022
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.380253 pivot_root@7f3476d799f7[2090] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476d799f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642281329.380253
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.380293 pivot_root@7f3476d79b0d[2090] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libc.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476d79b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libc.so.6"
+                        }, 
+                        "time": 1642281329.380293
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.380330 pivot_root@7f3476d79bd4[2090] read(4, 0x7ffe20a68bc8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476d79bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffe20a68bc8"
+                        }, 
+                        "time": 1642281329.38033
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.380356 pivot_root@7f3476d79943[2090] fstat(4, 0x7ffe20a68a60) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476d79943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe20a68a60"
+                        }, 
+                        "time": 1642281329.380356
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.380381 pivot_root@7f3476d79d03[2090] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f3476a88000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3476a88000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476d79d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281329.380381
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.380426 pivot_root@7f3476d79d03[2090] mmap2(0x0, 2008696, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f347689d000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f347689d000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476d79d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "2008696", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281329.380426
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.380467 pivot_root@7f3476d79d03[2090] mmap2(0x7f34768c2000, 1519616, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 151552) = 0x7f34768c2000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f34768c2000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476d79d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f34768c2000", 
+                            "p1": "1519616", 
+                            "p4": "4", 
+                            "p5": "151552"
+                        }, 
+                        "time": 1642281329.380467
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.380515 pivot_root@7f3476d79d03[2090] mmap2(0x7f3476a35000, 299008, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1671168) = 0x7f3476a35000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3476a35000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476d79d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f3476a35000", 
+                            "p1": "299008", 
+                            "p4": "4", 
+                            "p5": "1671168"
+                        }, 
+                        "time": 1642281329.380515
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.380561 pivot_root@7f3476d79d03[2090] mmap2(0x7f3476a7e000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1966080) = 0x7f3476a7e000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3476a7e000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476d79d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f3476a7e000", 
+                            "p1": "24576", 
+                            "p4": "4", 
+                            "p5": "1966080"
+                        }, 
+                        "time": 1642281329.380561
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.380608 pivot_root@7f3476d79d03[2090] mmap2(0x7f3476a84000, 13944, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f3476a84000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3476a84000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476d79d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f3476a84000", 
+                            "p1": "13944", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281329.380608
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.380643 pivot_root@7f3476d799f7[2090] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476d799f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642281329.380643
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.380685 pivot_root@7f3476d79b0d[2090] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libdl.so.2\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476d79b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libdl.so.2"
+                        }, 
+                        "time": 1642281329.380685
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.380726 pivot_root@7f3476d79bd4[2090] read(4, 0x7ffe20a68ba8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476d79bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffe20a68ba8"
+                        }, 
+                        "time": 1642281329.380726
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.380762 pivot_root@7f3476d79943[2090] fstat(4, 0x7ffe20a68a40) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476d79943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe20a68a40"
+                        }, 
+                        "time": 1642281329.380762
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.380801 pivot_root@7f3476d79d03[2090] mmap2(0x0, 20752, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f3476897000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3476897000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476d79d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "20752", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281329.380801
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.380844 pivot_root@7f3476d79d03[2090] mmap2(0x7f3476898000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 4096) = 0x7f3476898000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3476898000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476d79d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f3476898000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "4096"
+                        }, 
+                        "time": 1642281329.380844
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.380894 pivot_root@7f3476d79d03[2090] mmap2(0x7f347689a000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f347689a000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f347689a000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476d79d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f347689a000", 
+                            "p1": "4096", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642281329.380894
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.380928 pivot_root@7f3476d79d03[2090] mmap2(0x7f347689b000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f347689b000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f347689b000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476d79d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f347689b000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642281329.380928
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.380969 pivot_root@7f3476d799f7[2090] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476d799f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642281329.380969
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.381006 pivot_root@7f3476d79b0d[2090] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libpcre.so.3\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476d79b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libpcre.so.3"
+                        }, 
+                        "time": 1642281329.381006
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.381037 pivot_root@7f3476d79bd4[2090] read(4, 0x7ffe20a68b88, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476d79bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffe20a68b88"
+                        }, 
+                        "time": 1642281329.381037
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.381074 pivot_root@7f3476d79943[2090] fstat(4, 0x7ffe20a68a20) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476d79943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe20a68a20"
+                        }, 
+                        "time": 1642281329.381074
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.381111 pivot_root@7f3476d79d03[2090] mmap2(0x0, 471304, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f3476823000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3476823000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476d79d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "471304", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281329.381111
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.381154 pivot_root@7f3476d79d03[2090] mmap2(0x7f3476825000, 335872, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 8192) = 0x7f3476825000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3476825000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476d79d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f3476825000", 
+                            "p1": "335872", 
+                            "p4": "4", 
+                            "p5": "8192"
+                        }, 
+                        "time": 1642281329.381154
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.381203 pivot_root@7f3476d79d03[2090] mmap2(0x7f3476877000, 122880, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 344064) = 0x7f3476877000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3476877000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476d79d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f3476877000", 
+                            "p1": "122880", 
+                            "p4": "4", 
+                            "p5": "344064"
+                        }, 
+                        "time": 1642281329.381203
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.381245 pivot_root@7f3476d79d03[2090] mmap2(0x7f3476895000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 462848) = 0x7f3476895000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3476895000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476d79d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f3476895000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "462848"
+                        }, 
+                        "time": 1642281329.381245
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.381288 pivot_root@7f3476d799f7[2090] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476d799f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642281329.381288
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.382104 pivot_root@7f3476d79d03[2090] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f3476821000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3476821000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476d79d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281329.382104
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.382163 pivot_root@7f3476d5ef30[2090] arch_prctl(ARCH_SET_FS, 139863303266624) = 0\n", 
+                        "api": "arch_prctl", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476d5ef30", 
+                        "arguments": {
+                            "p0": "ARCH_SET_FS", 
+                            "p1": "139863303266624"
+                        }, 
+                        "time": 1642281329.382163
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.382764 pivot_root@7f3476d79db7[2090] mprotect(0x7f3476a7e000, 12288, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476d79db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f3476a7e000", 
+                            "p1": "12288"
+                        }, 
+                        "time": 1642281329.382764
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.382805 pivot_root@7f3476d79db7[2090] mprotect(0x7f3476aa5000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476d79db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f3476aa5000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642281329.382805
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.382851 pivot_root@7f3476d79db7[2090] mprotect(0x7f3476895000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476d79db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f3476895000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642281329.382851
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.382896 pivot_root@7f3476d79db7[2090] mprotect(0x7f347689b000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476d79db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f347689b000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642281329.382896
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.382941 pivot_root@7f3476d79db7[2090] mprotect(0x7f3476ac3000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476d79db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f3476ac3000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642281329.382941
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.383010 pivot_root@7f3476d79db7[2090] mprotect(0x7f3476c11000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476d79db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f3476c11000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642281329.38301
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.383060 pivot_root@7f3476d79db7[2090] mprotect(0x7f3476c1c000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476d79db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f3476c1c000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642281329.38306
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.383306 pivot_root@7f3476d79db7[2090] mprotect(0x7f3476d3c000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476d79db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f3476d3c000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642281329.383306
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.383371 pivot_root@7f3476d79db7[2090] mprotect(0x7f3476d43000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476d79db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f3476d43000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642281329.383371
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.386864 pivot_root@7f3476d79db7[2090] mprotect(0x564762dbb000, 303104, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476d79db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x564762dbb000", 
+                            "p1": "303104"
+                        }, 
+                        "time": 1642281329.386864
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.386925 pivot_root@7f3476d79db7[2090] mprotect(0x7f3476d87000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476d79db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f3476d87000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642281329.386925
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.386965 pivot_root@7f3476d79d97[2090] munmap(0x7f3476d47000, 88858) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476d79d97", 
+                        "arguments": {
+                            "p0": "0x7f3476d47000", 
+                            "p1": "88858"
+                        }, 
+                        "time": 1642281329.386965
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.387026 pivot_root@7f3476a918df[2090] set_tid_address(0x7f3476822410) = 2090\n", 
+                        "api": "set_tid_address", 
+                        "return_value": "2090", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476a918df", 
+                        "arguments": {
+                            "p0": "0x7f3476822410"
+                        }, 
+                        "time": 1642281329.387026
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.387066 pivot_root@7f3476a9194a[2090] set_robust_list(0x7f3476822420, 24) = 0\n", 
+                        "api": "set_robust_list", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476a9194a", 
+                        "arguments": {
+                            "p0": "0x7f3476822420", 
+                            "p1": "24"
+                        }, 
+                        "time": 1642281329.387066
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.387122 pivot_root@7f3476a9e010[2090] rt_sigaction(0x20, {0x7f3476a916c0, SA_SIGINFO|SA_RESTORER, 0x7f3476a9df40, [EMPTY]}, 0x0, 8) = 0\n", 
+                        "api": "rt_sigaction", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476a9e010", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "0x20", 
+                            "p1": [
+                                "0x7f3476a916c0", 
+                                "SA_SIGINFO|SA_RESTORER", 
+                                "0x7f3476a9df40", 
+                                [
+                                    "EMPTY]"
+                                ]
+                            ]
+                        }, 
+                        "time": 1642281329.387122
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.387172 pivot_root@7f3476a9e010[2090] rt_sigaction(0x21, {0x7f3476a91760, SA_RESTART|SA_SIGINFO|SA_RESTORER, 0x7f3476a9df40, [EMPTY]}, 0x0, 8) = 0\n", 
+                        "api": "rt_sigaction", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476a9e010", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "0x21", 
+                            "p1": [
+                                "0x7f3476a91760", 
+                                "SA_RESTART|SA_SIGINFO|SA_RESTORER", 
+                                "0x7f3476a9df40", 
+                                [
+                                    "EMPTY]"
+                                ]
+                            ]
+                        }, 
+                        "time": 1642281329.387172
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.387219 pivot_root@7f3476a91a19[2090] rt_sigprocmask(SIG_UNBLOCK, [EMPTY], 0x0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476a91a19", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "SIG_UNBLOCK", 
+                            "p1": [
+                                "EMPTY"
+                            ]
+                        }, 
+                        "time": 1642281329.387219
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.387323 pivot_root@7f34769afdf0[2090] prlimit64(0, RLIMIT_STACK, NULL, 0x7ffe20a69860) = 0\n", 
+                        "api": "prlimit64", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f34769afdf0", 
+                        "arguments": {
+                            "p2": "NULL", 
+                            "p3": "0x7ffe20a69860", 
+                            "p0": "0", 
+                            "p1": "RLIMIT_STACK"
+                        }, 
+                        "time": 1642281329.387323
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.387519 pivot_root@7f34769b02f7[2090] brk(0x0) = 94864655319040\n", 
+                        "api": "brk", 
+                        "return_value": "94864655319040", 
+                        "category": "process", 
+                        "instruction_pointer": "7f34769b02f7", 
+                        "arguments": {
+                            "p0": "0x0"
+                        }, 
+                        "time": 1642281329.387519
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.387614 pivot_root@7f34769b02f7[2090] brk(0x564766171000) = 94864655454208\n", 
+                        "api": "brk", 
+                        "return_value": "94864655454208", 
+                        "category": "process", 
+                        "instruction_pointer": "7f34769b02f7", 
+                        "arguments": {
+                            "p0": "0x564766171000"
+                        }, 
+                        "time": 1642281329.387614
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.388684 pivot_root@7f3476a9ab86[2090] rt_sigprocmask(SIG_SETMASK, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS], 0x7ffe20a697b0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476a9ab86", 
+                        "arguments": {
+                            "p2": "0x7ffe20a697b0", 
+                            "p3": "8", 
+                            "p0": "SIG_SETMASK", 
+                            "p1": [
+                                "SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS"
+                            ]
+                        }, 
+                        "time": 1642281329.388684
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.389766 pivot_root@7f34769b44c3[2090] mmap2(0x0, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f3476020000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3476020000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f34769b44c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK", 
+                            "p0": "0x0", 
+                            "p1": "8392704", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281329.389766
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.389845 pivot_root@7f34769b4597[2090] mprotect(0x7f3476021000, 8388608, PROT_READ|PROT_WRITE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f34769b4597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p0": "0x7f3476021000", 
+                            "p1": "8388608"
+                        }, 
+                        "time": 1642281329.389845
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.389918 pivot_root@7f34769bab11[2090] clone(CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, 0x7f347681ff70, 0x7f34768209d0, 0x7f34768209d0) = 2091\n", 
+                        "api": "clone", 
+                        "return_value": "2091", 
+                        "category": "process", 
+                        "instruction_pointer": "7f34769bab11", 
+                        "arguments": {
+                            "p2": "0x7f34768209d0", 
+                            "p3": "0x7f34768209d0", 
+                            "p0": "CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID", 
+                            "p1": "0x7f347681ff70"
+                        }, 
+                        "time": 1642281329.389918
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.390033 pivot_root@7f3476a9ab86[2090] rt_sigprocmask(SIG_SETMASK, [EMPTY], 0x0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476a9ab86", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "SIG_SETMASK", 
+                            "p1": [
+                                "EMPTY"
+                            ]
+                        }, 
+                        "time": 1642281329.390033
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.394452 pivot_root@7f34769afdf0[2090] prlimit64(0, RLIMIT_STACK, NULL, 0x7ffe20a69370) = 0\n", 
+                        "api": "prlimit64", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f34769afdf0", 
+                        "arguments": {
+                            "p2": "NULL", 
+                            "p3": "0x7ffe20a69370", 
+                            "p0": "0", 
+                            "p1": "RLIMIT_STACK"
+                        }, 
+                        "time": 1642281329.394452
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.394518 pivot_root@7f34769af5c1[2090] openat(AT_FDCWD, \"/etc/qemu-binfmt/sparc\", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -2 (ENOENT)\n", 
+                        "api": "openat", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f34769af5c1", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/etc/qemu-binfmt/sparc"
+                        }, 
+                        "time": 1642281329.394518
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.394582 pivot_root@7f347697e247[2090] uname(0x7ffe20a68fe0) = 0\n", 
+                        "api": "uname", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f347697e247", 
+                        "arguments": {
+                            "p0": "0x7ffe20a68fe0"
+                        }, 
+                        "time": 1642281329.394582
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.394620 pivot_root@7f3476a9d337[2090] lseek(3, 0, SEEK_SET) = 0\n", 
+                        "api": "lseek", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476a9d337", 
+                        "arguments": {
+                            "p2": "SEEK_SET", 
+                            "p0": "3", 
+                            "p1": "0"
+                        }, 
+                        "time": 1642281329.39462
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.394653 pivot_root@7f3476a9cd94[2090] read(3, 0x7ffe20a692d0, 52) = 52\n", 
+                        "api": "read", 
+                        "return_value": "52", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476a9cd94", 
+                        "arguments": {
+                            "p2": "52", 
+                            "p0": "3", 
+                            "p1": "0x7ffe20a692d0"
+                        }, 
+                        "time": 1642281329.394653
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.394689 pivot_root@7f3476a9d337[2090] lseek(3, 0, SEEK_SET) = 0\n", 
+                        "api": "lseek", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476a9d337", 
+                        "arguments": {
+                            "p2": "SEEK_SET", 
+                            "p0": "3", 
+                            "p1": "0"
+                        }, 
+                        "time": 1642281329.394689
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.396465 pivot_root@7f34769b44c3[2090] mmap2(0x0, 528384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f3475f9f000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3475f9f000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f34769b44c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "528384", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281329.396465
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.396971 pivot_root@7f34769b4597[2090] mprotect(0x564762e18000, 33550336, PROT_READ|PROT_WRITE|PROT_EXEC) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f34769b4597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE|PROT_EXEC", 
+                            "p0": "0x564762e18000", 
+                            "p1": "33550336"
+                        }, 
+                        "time": 1642281329.396971
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.397018 pivot_root@7f34769b4667[2090] madvise(0x564762e18000, 33550336, MADV_HUGEPAGE) = 0\n", 
+                        "api": "madvise", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f34769b4667", 
+                        "arguments": {
+                            "p2": "MADV_HUGEPAGE", 
+                            "p0": "0x564762e18000", 
+                            "p1": "33550336"
+                        }, 
+                        "time": 1642281329.397018
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.397178 pivot_root@7f34769b44c3[2090] mmap2(0x0, 4294963200, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f3370001000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3370001000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f34769b44c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x0", 
+                            "p1": "4294963200", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281329.397178
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.397219 pivot_root@7f34769a9d59[2090] openat(AT_FDCWD, \"/proc/sys/vm/mmap_min_addr\", O_RDONLY) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f34769a9d59", 
+                        "arguments": {
+                            "p2": "O_RDONLY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/proc/sys/vm/mmap_min_addr"
+                        }, 
+                        "time": 1642281329.397219
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.397266 pivot_root@7f34769a9613[2090] fstat(4, 0x7ffe20a689e0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f34769a9613", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe20a689e0"
+                        }, 
+                        "time": 1642281329.397266
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.397298 pivot_root@7f34769a9fb4[2090] read(4, 0x56476615d3d0, 1024) = 6\n", 
+                        "api": "read", 
+                        "return_value": "6", 
+                        "category": "process", 
+                        "instruction_pointer": "7f34769a9fb4", 
+                        "arguments": {
+                            "p2": "1024", 
+                            "p0": "4", 
+                            "p1": "0x56476615d3d0"
+                        }, 
+                        "time": 1642281329.397298
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.397336 pivot_root@7f34769af3f7[2090] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f34769af3f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642281329.397336
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.397382 pivot_root@7f34769b42e9[2090] gettid() = 2090\n", 
+                        "api": "gettid", 
+                        "return_value": "2090", 
+                        "category": "process", 
+                        "instruction_pointer": "7f34769b42e9", 
+                        "arguments": {}, 
+                        "time": 1642281329.397382
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.397413 pivot_root@7f34769a9613[2090] fstat(3, 0x7ffe20a69250) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f34769a9613", 
+                        "arguments": {
+                            "p0": "3", 
+                            "p1": "0x7ffe20a69250"
+                        }, 
+                        "time": 1642281329.397413
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.397444 pivot_root@7f347697f717[2090] geteuid() = 0\n", 
+                        "api": "geteuid", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f347697f717", 
+                        "arguments": {}, 
+                        "time": 1642281329.397444
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.397476 pivot_root@7f347697f737[2090] getegid() = 0\n", 
+                        "api": "getegid", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f347697f737", 
+                        "arguments": {}, 
+                        "time": 1642281329.397476
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.397506 pivot_root@7f3476a9cd94[2090] read(3, 0x7ffe20a69450, 1024) = 1024\n", 
+                        "api": "read", 
+                        "return_value": "1024", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476a9cd94", 
+                        "arguments": {
+                            "p2": "1024", 
+                            "p0": "3", 
+                            "p1": "0x7ffe20a69450"
+                        }, 
+                        "time": 1642281329.397506
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.397582 pivot_root@7f34769b44c3[2090] mmap2(0x7f3370011000, 4096, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 3, 0) = 0x7f3370011000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3370011000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f34769b44c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED", 
+                            "p0": "0x7f3370011000", 
+                            "p1": "4096", 
+                            "p4": "3", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281329.397582
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.397630 pivot_root@7f34769b02f7[2090] brk(0x564766192000) = 94864655589376\n", 
+                        "api": "brk", 
+                        "return_value": "94864655589376", 
+                        "category": "process", 
+                        "instruction_pointer": "7f34769b02f7", 
+                        "arguments": {
+                            "p0": "0x564766192000"
+                        }, 
+                        "time": 1642281329.39763
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.397682 pivot_root@7f34769b44c3[2090] mmap2(0x7f3370021000, 4096, PROT_READ|PROT_WRITE|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 3, 0) = 0x7f3370021000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3370021000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f34769b44c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED", 
+                            "p0": "0x7f3370021000", 
+                            "p1": "4096", 
+                            "p4": "3", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281329.397682
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.397727 pivot_root@7f3476a9ce27[2090] close(3) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476a9ce27", 
+                        "arguments": {
+                            "p0": "3"
+                        }, 
+                        "time": 1642281329.397727
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.397793 pivot_root@7f34769b44c3[2090] mmap2(0x7f346f7ff000, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f346f7ff000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f346f7ff000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f34769b44c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f346f7ff000", 
+                            "p1": "8392704", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281329.397793
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.397899 pivot_root@7f34769b4597[2090] mprotect(0x7f346f7ff000, 4096, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f34769b4597", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7f346f7ff000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642281329.397899
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.397947 pivot_root@7f3476a9d55e[2090] openat(AT_FDCWD, \"/lib/ld-linux.so.2\", O_RDONLY) = -2 (ENOENT)\n", 
+                        "api": "openat", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476a9d55e", 
+                        "arguments": {
+                            "p2": "O_RDONLY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/ld-linux.so.2"
+                        }, 
+                        "time": 1642281329.397947
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.398009 pivot_root@7f34769aa057[2090] write(2, \"/lib/ld-linux.so.2: No such file or directory\\n\", 46) = 46\n", 
+                        "api": "write", 
+                        "return_value": "46", 
+                        "category": "process", 
+                        "instruction_pointer": "7f34769aa057", 
+                        "arguments": {
+                            "p2": "46", 
+                            "p0": "2", 
+                            "p1": "/lib/ld-linux.so.2: No such file or directory\n"
+                        }, 
+                        "time": 1642281329.398009
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.398080 pivot_root@7f347697e926[2090] exit_group(-1)\n", 
+                        "api": "exit_group", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7f347697e926", 
+                        "arguments": {
+                            "p0": "-1"
+                        }, 
+                        "time": 1642281329.39808
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2090, 
+                        "raw": "Sat Jan 15 21:15:29 2022.398116 pivot_root@7f347697e926[2090] futex(0x7f3476822410, FUTEX_WAKE, 1) = 0\n", 
+                        "api": "futex", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f347697e926", 
+                        "arguments": {
+                            "p2": "1", 
+                            "p0": "0x7f3476822410", 
+                            "p1": "FUTEX_WAKE"
+                        }, 
+                        "time": 1642281329.398116
+                    }
+                ], 
+                "pid": 2090, 
+                "process_name": "pivot_root", 
+                "command_line": "/tmp/pivot_root", 
+                "first_seen": 1642281328.958941, 
+                "ppid": -1, 
+                "type": "process"
+            }, 
+            {
+                "calls": [
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 21:15:29 2022.390101 pivot_root@7f3476a93117[2091] set_robust_list(0x7f34768209e0, 24) = 0\n", 
+                        "api": "set_robust_list", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476a93117", 
+                        "arguments": {
+                            "p0": "0x7f34768209e0", 
+                            "p1": "24"
+                        }, 
+                        "time": 1642281329.390101
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 21:15:29 2022.390173 pivot_root@7f34769b44c3[2091] mmap2(0x0, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f346e020000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f346e020000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f34769b44c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x0", 
+                            "p1": "134217728", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281329.390173
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 21:15:29 2022.390225 pivot_root@7f34769b4567[2091] munmap(0x7f346e020000, 33423360) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f34769b4567", 
+                        "arguments": {
+                            "p0": "0x7f346e020000", 
+                            "p1": "33423360"
+                        }, 
+                        "time": 1642281329.390225
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 21:15:29 2022.390274 pivot_root@7f34769b4567[2091] munmap(0x7f3474000000, 33685504) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f34769b4567", 
+                        "arguments": {
+                            "p0": "0x7f3474000000", 
+                            "p1": "33685504"
+                        }, 
+                        "time": 1642281329.390274
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 21:15:29 2022.390320 pivot_root@7f34769b4597[2091] mprotect(0x7f3470000000, 135168, PROT_READ|PROT_WRITE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f34769b4597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p0": "0x7f3470000000", 
+                            "p1": "135168"
+                        }, 
+                        "time": 1642281329.39032
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pivot_root", 
+                        "pid": 2091, 
+                        "raw": "Sat Jan 15 21:15:29 2022.390386 pivot_root@7f3476a9d440[2091] nanosleep([0.010000000], 0x7f347681fdc0) = -516\n", 
+                        "api": "nanosleep", 
+                        "return_value": "-516", 
+                        "category": "process", 
+                        "instruction_pointer": "7f3476a9d440", 
+                        "arguments": {
+                            "p0": [
+                                "0.010000000"
+                            ], 
+                            "p1": "0x7f347681fdc0"
+                        }, 
+                        "time": 1642281329.390386
+                    }
+                ], 
+                "pid": 2091, 
+                "process_name": "pivot_root", 
+                "command_line": "", 
+                "first_seen": 1642281329.390101, 
+                "ppid": 2090, 
+                "type": "process"
+            }
+        ], 
+        "processtree": [
+            {
+                "track": true, 
+                "pid": 2090, 
+                "process_name": "pivot_root", 
+                "command_line": "/tmp/pivot_root", 
+                "first_seen": 1642281328.958941, 
+                "ppid": -1, 
+                "children": [
+                    {
+                        "track": true, 
+                        "pid": 2091, 
+                        "process_name": "pivot_root", 
+                        "command_line": "", 
+                        "first_seen": 1642281329.390101, 
+                        "ppid": 2090, 
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    }, 
+    "debug": {
+        "action": [], 
+        "dbgview": [], 
+        "errors": [], 
+        "log": [
+            "2022-01-15 21:15:21,002 [root] DEBUG: Starting analyzer from: /tmp/tmpZGIs2F\n", 
+            "2022-01-15 21:15:21,003 [root] DEBUG: Storing results at: /tmp/kKbMlP\n", 
+            "2022-01-15 21:15:22,545 [modules.auxiliary.filecollector] INFO: FileCollector started v0.08\n", 
+            "2022-01-15 21:15:23,049 [modules.auxiliary.human] INFO: Human started v0.02\n", 
+            "2022-01-15 21:15:23,050 [modules.auxiliary.screenshots] INFO: Screenshots started v0.03\n", 
+            "2022-01-15 21:15:28,958 [lib.core.packages] INFO: Process startup took 5.90 seconds\n", 
+            "2022-01-15 21:15:28,962 [root] INFO: Added new process to list with pid: 2080\n", 
+            "2022-01-15 21:15:37,975 [root] INFO: Process with pid 2080 has terminated\n", 
+            "2022-01-15 21:15:37,977 [root] INFO: Process list is empty, terminating analysis.\n", 
+            "2022-01-15 21:15:40,981 [lib.core.packages] INFO: Package requested stop\n", 
+            "2022-01-15 21:15:40,983 [lib.core.packages] WARNING: Exception uploading log: [Errno 3] No such process\n", 
+            "2022-01-15 21:17:05,628 [root] INFO: Terminating remaining processes before shutdown.\n", 
+            "2022-01-15 21:17:05,629 [root] INFO: Analysis completed.\n"
+        ], 
+        "cuckoo": [
+            "2022-01-16 07:22:01,676 [cuckoo.core.scheduler] DEBUG: Task #2651490: no machine available yet\n", 
+            "2022-01-16 07:22:11,704 [cuckoo.core.scheduler] DEBUG: Task #2651490: no machine available yet\n", 
+            "2022-01-16 07:22:21,782 [cuckoo.core.scheduler] DEBUG: Task #2651490: no machine available yet\n", 
+            "2022-01-16 07:22:31,835 [cuckoo.core.scheduler] DEBUG: Task #2651490: no machine available yet\n", 
+            "2022-01-16 07:22:41,859 [cuckoo.core.scheduler] DEBUG: Task #2651490: no machine available yet\n", 
+            "2022-01-16 07:22:51,889 [cuckoo.core.scheduler] INFO: Task #2651490: acquired machine Ubuntu1904x642 (label=Ubuntu1904x642)\n", 
+            "2022-01-16 07:22:51,898 [cuckoo.core.resultserver] DEBUG: Now tracking machine 192.168.168.102 for task #2651490\n", 
+            "2022-01-16 07:22:52,056 [cuckoo.auxiliary.sniffer] INFO: Started sniffer with PID 1522957 (interface=vboxnet0, host=192.168.168.102)\n", 
+            "2022-01-16 07:22:52,226 [cuckoo.machinery.virtualbox] DEBUG: Starting vm Ubuntu1904x642\n", 
+            "2022-01-16 07:22:52,582 [cuckoo.machinery.virtualbox] DEBUG: Restoring virtual machine Ubuntu1904x642 to Snapshot\n", 
+            "2022-01-16 07:23:29,519 [cuckoo.core.guest] INFO: Starting analysis #2651490 on guest (id=Ubuntu1904x642, ip=192.168.168.102)\n", 
+            "2022-01-16 07:23:30,524 [cuckoo.core.guest] DEBUG: Ubuntu1904x642: not ready yet\n", 
+            "2022-01-16 07:23:35,547 [cuckoo.core.guest] INFO: Guest is running Cuckoo Agent 0.10 (id=Ubuntu1904x642, ip=192.168.168.102)\n", 
+            "2022-01-16 07:23:35,561 [cuckoo.core.guest] DEBUG: Uploading analyzer to guest (id=Ubuntu1904x642, ip=192.168.168.102, monitor=latest, size=72028)\n", 
+            "2022-01-16 07:23:35,845 [cuckoo.core.resultserver] DEBUG: Task #2651490: live log analysis.log initialized.\n", 
+            "2022-01-16 07:23:41,843 [cuckoo.core.resultserver] DEBUG: Task #2651490: File upload for 'shots/0001.jpg'\n", 
+            "2022-01-16 07:23:44,300 [cuckoo.core.resultserver] DEBUG: Task #2651490 uploaded file length: 171554\n", 
+            "2022-01-16 07:23:50,748 [cuckoo.core.guest] DEBUG: Ubuntu1904x642: analysis #2651490 still processing\n", 
+            "2022-01-16 07:23:55,752 [cuckoo.core.resultserver] DEBUG: Task #2651490: File upload for 'logs/all.stap'\n", 
+            "2022-01-16 07:23:55,758 [cuckoo.core.resultserver] DEBUG: Task #2651490 uploaded file length: 19127\n", 
+            "2022-01-16 07:24:05,993 [cuckoo.core.guest] DEBUG: Ubuntu1904x642: analysis #2651490 still processing\n", 
+            "2022-01-16 07:24:21,049 [cuckoo.core.guest] DEBUG: Ubuntu1904x642: analysis #2651490 still processing\n", 
+            "2022-01-16 07:24:36,162 [cuckoo.core.guest] DEBUG: Ubuntu1904x642: analysis #2651490 still processing\n", 
+            "2022-01-16 07:24:51,247 [cuckoo.core.guest] DEBUG: Ubuntu1904x642: analysis #2651490 still processing\n", 
+            "2022-01-16 07:25:06,439 [cuckoo.core.guest] DEBUG: Ubuntu1904x642: analysis #2651490 still processing\n", 
+            "2022-01-16 07:25:21,536 [cuckoo.core.guest] INFO: Ubuntu1904x642: analysis completed successfully\n", 
+            "2022-01-16 07:25:21,543 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Redsocks\n", 
+            "2022-01-16 07:25:21,699 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Sniffer\n", 
+            "2022-01-16 07:25:39,262 [cuckoo.machinery.virtualbox] INFO: Successfully generated memory dump for virtual machine with label Ubuntu1904x642 to path /srv/cuckoo/cwd/storage/analyses/2651490/memory.dmp\n", 
+            "2022-01-16 07:25:39,263 [cuckoo.machinery.virtualbox] DEBUG: Stopping vm Ubuntu1904x642\n", 
+            "2022-01-16 07:26:27,754 [cuckoo.core.resultserver] DEBUG: Stopped tracking machine 192.168.168.102 for task #2651490\n", 
+            "2022-01-16 07:26:27,903 [cuckoo.core.scheduler] DEBUG: Released database task #2651490\n", 
+            "2022-01-16 07:26:28,483 [cuckoo.core.scheduler] INFO: Task #2651490: analysis procedure completed\n"
+        ]
+    }, 
+    "strings": [
+        "/lib/ld-linux.so.2", 
+        "_Jv_RegisterClasses", 
+        "__gmon_start__", 
+        "libc.so.6", 
+        "syscall", 
+        "perror", 
+        "__cxa_finalize", 
+        "fprintf", 
+        "stderr", 
+        "_IO_stdin_used", 
+        "__libc_start_main", 
+        "GLIBC_2.1.3", 
+        "GLIBC_2.0", 
+        "usage: %s new_root put_old", 
+        "pivot_root", 
+        "GCC: (GNU) 4.1.2 20061115 (prerelease) (Debian 4.1.1-21)", 
+        "GCC: (GNU) 4.1.2 20061115 (prerelease) (Debian 4.1.1-21)", 
+        "GCC: (GNU) 4.1.2 20061115 (prerelease) (Debian 4.1.1-21)", 
+        "GCC: (GNU) 4.1.2 20061115 (prerelease) (Debian 4.1.1-21)", 
+        "GCC: (GNU) 4.1.2 20061115 (prerelease) (Debian 4.1.1-21)", 
+        "GCC: (GNU) 4.1.2 20061115 (prerelease) (Debian 4.1.1-21)", 
+        "GCC: (GNU) 4.1.2 20061115 (prerelease) (Debian 4.1.1-21)", 
+        ".shstrtab", 
+        ".interp", 
+        ".note.ABI-tag", 
+        ".dynsym", 
+        ".dynstr", 
+        ".gnu.version", 
+        ".gnu.version_r", 
+        ".rela.dyn", 
+        ".rela.plt", 
+        ".rodata", 
+        ".eh_frame", 
+        ".ctors", 
+        ".dtors", 
+        ".dynamic", 
+        ".comment"
+    ], 
+    "metadata": {
+        "output": {
+            "pcap": {
+                "basename": "dump.pcap", 
+                "sha256": "704e5e5b3234433c01fcfd1b20a306e77e985038120492dc53965c3edd38a4ea", 
+                "dirname": ""
+            }
+        }
+    }
+}
