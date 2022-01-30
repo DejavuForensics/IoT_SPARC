@@ -1,0 +1,3056 @@
+{
+    "info": {
+        "added": 1642281839.048438, 
+        "started": 1642319219.110925, 
+        "duration": 691, 
+        "ended": 1642319911.00343, 
+        "owner": null, 
+        "score": 0.0, 
+        "id": 2651561, 
+        "category": "file", 
+        "git": {
+            "head": "", 
+            "fetch_head": ""
+        }, 
+        "monitor": null, 
+        "package": "elf", 
+        "route": "internet", 
+        "custom": null, 
+        "machine": {
+            "status": "stopped", 
+            "name": "Ubuntu1904x645", 
+            "label": "Ubuntu1904x645", 
+            "platform": "linux", 
+            "manager": "VirtualBox", 
+            "started_on": "2022-01-16 07:53:44", 
+            "shutdown_on": "2022-01-16 07:58:21"
+        }, 
+        "platform": "linux", 
+        "version": "2.0.7", 
+        "options": "procmemdump=yes,route=internet"
+    }, 
+    "signatures": [], 
+    "target": {
+        "category": "file", 
+        "file": {
+            "mimetype": "application/x-executable", 
+            "yara": [], 
+            "sha1": "0ca36214ee822922c8fde861f3407415852f7476", 
+            "name": "resize2fs", 
+            "type": "ELF 32-bit MSB executable, SPARC, version 1 (SYSV), dynamically linked, interpreter /lib/ld-linux.so.2, for GNU/Linux 2.4.1, stripped", 
+            "sha256": "921cc6f921cbbe8d2b387d559ff78ffe3810f101e62b7250fcbc470f5c7d682a", 
+            "urls": [], 
+            "crc32": "3354C71A", 
+            "path": "/srv/cuckoo/cwd/storage/binaries/921cc6f921cbbe8d2b387d559ff78ffe3810f101e62b7250fcbc470f5c7d682a", 
+            "ssdeep": null, 
+            "size": 28364, 
+            "sha512": "8add0a78cee82a234c984aabfd36cd06a4c5bdd35c892a138b45246d96383348053f1f3be1bb1a9ae53f332ccbd2cc8807c9617c0fea517ddc562432c62e4de2", 
+            "md5": "756aa77a411d48004d3583ed10f255c8"
+        }, 
+        "custom": null
+    }, 
+    "irma": {
+        "status": 0, 
+        "probes_finished": 16, 
+        "scan_id": "331b5def-c220-490d-9649-2992127974e8", 
+        "parent_file_sha256": null, 
+        "name": "921cc6f921cbbe8d2b387d559ff78ffe3810f101e62b7250fcbc470f5c7d682a", 
+        "probes_total": 16, 
+        "scan_date": 1642312711, 
+        "other_results": [], 
+        "submitter": "cli", 
+        "file_infos": {
+            "mimetype": "ELF 32-bit MSB executable, SPARC, version 1 (SYSV)", 
+            "sha1": "0ca36214ee822922c8fde861f3407415852f7476", 
+            "tags": [], 
+            "timestamp_first_scan": 1642312711.42, 
+            "timestamp_last_scan": 1642312720.62, 
+            "sha256": "921cc6f921cbbe8d2b387d559ff78ffe3810f101e62b7250fcbc470f5c7d682a", 
+            "md5": "756aa77a411d48004d3583ed10f255c8", 
+            "size": 28364
+        }, 
+        "probe_results": {
+            "antivirus": {
+                "Avast Core Security (Linux)": {
+                    "status": 0, 
+                    "duration": 0.01, 
+                    "version": "3.0.3", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "F-Secure Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.03, 
+                    "version": "11.10", 
+                    "results": null, 
+                    "virus_database_version": "2022-01-13_04"
+                }, 
+                "Windows Defender (Windows)": {
+                    "status": 0, 
+                    "duration": 0.05, 
+                    "version": "1.1.18800.4", 
+                    "results": null, 
+                    "virus_database_version": "1.355.1049.0"
+                }, 
+                "Comodo Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 2.09, 
+                    "version": "1.1.268025.1", 
+                    "results": null, 
+                    "virus_database_version": "2021-11-02"
+                }, 
+                "Kaspersky Antivirus (Win)": {
+                    "status": 0, 
+                    "duration": 2.67, 
+                    "version": "21.3", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "ESET NOD32 Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 4.48, 
+                    "version": "4.0.96", 
+                    "results": null, 
+                    "virus_database_version": "6178ebd0-1e722 (2021-10-27)"
+                }, 
+                "GData (Windows)": {
+                    "status": 0, 
+                    "duration": 0.19, 
+                    "version": "5.5.20197.1358", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Forticlient (Linux)": {
+                    "status": 0, 
+                    "duration": 3.03, 
+                    "version": "unavailable", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Avira (Windows)": {
+                    "status": 0, 
+                    "duration": 3.83, 
+                    "version": "8.3.64.66", 
+                    "results": null, 
+                    "virus_database_version": "8.19.1.122"
+                }, 
+                "eScan Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 3.87, 
+                    "version": "7.0.21", 
+                    "results": null, 
+                    "virus_database_version": "7.90035 (27/10/2021)"
+                }, 
+                "McAfee CLI scanner (Linux)": {
+                    "status": 0, 
+                    "duration": 6.03, 
+                    "version": "6.0.6.653", 
+                    "results": null, 
+                    "virus_database_version": "10149"
+                }, 
+                "Sophos Anti-Virus (Linux)": {
+                    "status": 0, 
+                    "duration": 7.04, 
+                    "version": "5.85.0", 
+                    "results": null, 
+                    "virus_database_version": "5.88 (26 October 2021)"
+                }, 
+                "DrWeb Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.2, 
+                    "version": "11.1.10.2108031732", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "ClamAV (Linux)": {
+                    "status": 0, 
+                    "duration": 0.02, 
+                    "version": "0.103.2", 
+                    "results": null, 
+                    "virus_database_version": "26334"
+                }, 
+                "Bitdefender Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 6.3, 
+                    "version": "7.90123", 
+                    "results": null, 
+                    "virus_database_version": null
+                }, 
+                "Emsisoft Commandline Scanner (Windows)": {
+                    "status": 0, 
+                    "duration": 0.2, 
+                    "version": "2021.10.0.11201", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }
+            }
+        }, 
+        "path": "", 
+        "result_id": "7f1340d4-bfb1-4b43-a613-30bce44e3ba0", 
+        "file_sha256": "921cc6f921cbbe8d2b387d559ff78ffe3810f101e62b7250fcbc470f5c7d682a"
+    }, 
+    "suricata": {
+        "tls": [
+            {
+                "src_ip": "192.168.168.105", 
+                "version": "TLS 1.2", 
+                "src_port": 49192, 
+                "dst_port": 443, 
+                "timestamp": "2022-01-16T07:54:14.181307+0200", 
+                "dst_ip": "91.189.92.19", 
+                "fingerprint": "97:63:1b:60:eb:d1:fa:4f:a4:fc:fa:98:66:3d:ee:22:fb:78:ce:c1", 
+                "subject": "C=GB, L=London, O=Canonical Group Ltd, CN=api.snapcraft.io", 
+                "issuer": "C=US, O=DigiCert Inc, CN=DigiCert TLS RSA SHA256 2020 CA1"
+            }
+        ], 
+        "files": [], 
+        "alerts": [], 
+        "http": []
+    }, 
+    "virustotal": {
+        "summary": {
+            "error": "resource has not been scanned yet"
+        }
+    }, 
+    "network": {
+        "udp": [], 
+        "dns_servers": [], 
+        "http": [], 
+        "smtp": [], 
+        "tcp": [], 
+        "geoinfo": {}, 
+        "mitm": [], 
+        "https_ex": [], 
+        "http_ex": [], 
+        "sorted_pcap_sha256": "4c8e84323a484a1fe5d36bdfb28e4adfa9f94100bcd9914d9d3a08d23633a154", 
+        "icmp": [], 
+        "tls": [], 
+        "dead_hosts": [], 
+        "smtp_ex": [], 
+        "hosts": [], 
+        "pcap_sha256": "b2ce7714f29ab11822a0e1a0a6ae6b488fa8ba32b8d9a8a1b8e0321a9e2cf952", 
+        "dns": [], 
+        "domains": [], 
+        "irc": []
+    }, 
+    "resubmit": {
+        "resubmit_ids": []
+    }, 
+    "snort": {
+        "alerts": []
+    }, 
+    "behavior": {
+        "generic": [
+            {
+                "process_path": null, 
+                "process_name": "resize2fs", 
+                "pid": 2076, 
+                "summary": {}, 
+                "first_seen": 1642281846.690954, 
+                "ppid": -1
+            }, 
+            {
+                "process_path": null, 
+                "process_name": "resize2fs", 
+                "pid": 2077, 
+                "summary": {}, 
+                "first_seen": 1642281846.707586, 
+                "ppid": 2076
+            }
+        ], 
+        "processes": [
+            {
+                "calls": [
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.690954 resize2fs@7f5cf8ecec27[2076] execve(\"/tmp/resize2fs\", [\"/tmp/resize2fs\"], [\"SUDO_GID=0\", \"MAIL=/var/mail/root\", \"USER=root\", \"HOME=/root\", \"SUDO_UID=0\", \"LOGNAME=root\", \"SYSTEMTAP_MODULE=stap_\", \"TERM=unknown\", \"SYSTEMTAP_VERBOSE=2\", \"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin\", \"DISPLAY=:0\", \"LANG=en_US.UTF-8\", \"XAUTHORITY=/root/.Xauthority\", \"SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/resize2fs\", \"SHELL=/bin/bash\", \"SUDO_USER=root\", \"PWD=/tmp/tmp6rQfkn\"])\n", 
+                        "api": "execve", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8ecec27", 
+                        "arguments": {
+                            "p2": [
+                                "SUDO_GID=0", 
+                                "MAIL=/var/mail/root", 
+                                "USER=root", 
+                                "HOME=/root", 
+                                "SUDO_UID=0", 
+                                "LOGNAME=root", 
+                                "SYSTEMTAP_MODULE=stap_", 
+                                "TERM=unknown", 
+                                "SYSTEMTAP_VERBOSE=2", 
+                                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin", 
+                                "DISPLAY=:0", 
+                                "LANG=en_US.UTF-8", 
+                                "XAUTHORITY=/root/.Xauthority", 
+                                "SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/resize2fs", 
+                                "SHELL=/bin/bash", 
+                                "SUDO_USER=root", 
+                                "PWD=/tmp/tmp6rQfkn"
+                            ], 
+                            "p0": "/tmp/resize2fs", 
+                            "p1": [
+                                "/tmp/resize2fs"
+                            ]
+                        }, 
+                        "time": 1642281846.690954
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.693141 resize2fs@7f5cf8ecec27[2076] brk(0x0) = 94466726117376\n", 
+                        "api": "brk", 
+                        "return_value": "94466726117376", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8ecec27", 
+                        "arguments": {
+                            "p0": "0x0"
+                        }, 
+                        "time": 1642281846.693141
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.693217 resize2fs@7f5cf8ecf9d7[2076] access(\"/etc/ld.so.preload\", R_OK) = -2 (ENOENT)\n", 
+                        "api": "access", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8ecf9d7", 
+                        "arguments": {
+                            "p0": "/etc/ld.so.preload", 
+                            "p1": "R_OK"
+                        }, 
+                        "time": 1642281846.693217
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.694223 resize2fs@7f5cf8ecfb0d[2076] openat(AT_FDCWD, \"/etc/ld.so.cache\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8ecfb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/etc/ld.so.cache"
+                        }, 
+                        "time": 1642281846.694223
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.694286 resize2fs@7f5cf8ecf943[2076] fstat(4, 0x7ffe338db780) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8ecf943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe338db780"
+                        }, 
+                        "time": 1642281846.694286
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.694343 resize2fs@7f5cf8ecfd03[2076] mmap2(0x0, 88858, PROT_READ, MAP_PRIVATE, 4, 0) = 0x7f5cf8e9d000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5cf8e9d000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8ecfd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE", 
+                            "p0": "0x0", 
+                            "p1": "88858", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281846.694343
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.694399 resize2fs@7f5cf8ecf9f7[2076] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8ecf9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642281846.694399
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.694461 resize2fs@7f5cf8ecfb0d[2076] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8ecfb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0"
+                        }, 
+                        "time": 1642281846.694461
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.694500 resize2fs@7f5cf8ecfbd4[2076] read(4, 0x7ffe338db938, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8ecfbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffe338db938"
+                        }, 
+                        "time": 1642281846.6945
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.694533 resize2fs@7f5cf8ecf943[2076] fstat(4, 0x7ffe338db7d0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8ecf943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe338db7d0"
+                        }, 
+                        "time": 1642281846.694533
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.694564 resize2fs@7f5cf8ecfd03[2076] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f5cf8e9b000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5cf8e9b000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8ecfd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281846.694564
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.694605 resize2fs@7f5cf8ecfd03[2076] mmap2(0x0, 20600, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f5cf8e95000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5cf8e95000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8ecfd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "20600", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281846.694605
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.694647 resize2fs@7f5cf8ecfd03[2076] mmap2(0x7f5cf8e96000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 4096) = 0x7f5cf8e96000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5cf8e96000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8ecfd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f5cf8e96000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "4096"
+                        }, 
+                        "time": 1642281846.694647
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.694718 resize2fs@7f5cf8ecfd03[2076] mmap2(0x7f5cf8e98000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f5cf8e98000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5cf8e98000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8ecfd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f5cf8e98000", 
+                            "p1": "4096", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642281846.694718
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.694781 resize2fs@7f5cf8ecfd03[2076] mmap2(0x7f5cf8e99000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f5cf8e99000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5cf8e99000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8ecfd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f5cf8e99000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642281846.694781
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.694857 resize2fs@7f5cf8ecf9f7[2076] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8ecf9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642281846.694857
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.694925 resize2fs@7f5cf8ecfb0d[2076] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8ecfb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0"
+                        }, 
+                        "time": 1642281846.694925
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.694979 resize2fs@7f5cf8ecfbd4[2076] read(4, 0x7ffe338db918, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8ecfbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffe338db918"
+                        }, 
+                        "time": 1642281846.694979
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.695038 resize2fs@7f5cf8ecf943[2076] fstat(4, 0x7ffe338db7b0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8ecf943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe338db7b0"
+                        }, 
+                        "time": 1642281846.695038
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.695089 resize2fs@7f5cf8ecfd03[2076] mmap2(0x0, 1180072, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f5cf8d74000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5cf8d74000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8ecfd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1180072", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281846.695089
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.695146 resize2fs@7f5cf8ecfdb7[2076] mprotect(0x7f5cf8d8f000, 1060864, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8ecfdb7", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7f5cf8d8f000", 
+                            "p1": "1060864"
+                        }, 
+                        "time": 1642281846.695146
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.695212 resize2fs@7f5cf8ecfd03[2076] mmap2(0x7f5cf8d8f000, 524288, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 110592) = 0x7f5cf8d8f000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5cf8d8f000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8ecfd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f5cf8d8f000", 
+                            "p1": "524288", 
+                            "p4": "4", 
+                            "p5": "110592"
+                        }, 
+                        "time": 1642281846.695212
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.695258 resize2fs@7f5cf8ecfd03[2076] mmap2(0x7f5cf8e0f000, 532480, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 634880) = 0x7f5cf8e0f000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5cf8e0f000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8ecfd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f5cf8e0f000", 
+                            "p1": "532480", 
+                            "p4": "4", 
+                            "p5": "634880"
+                        }, 
+                        "time": 1642281846.695258
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.695295 resize2fs@7f5cf8ecfd03[2076] mmap2(0x7f5cf8e92000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1167360) = 0x7f5cf8e92000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5cf8e92000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8ecfd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f5cf8e92000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "1167360"
+                        }, 
+                        "time": 1642281846.695295
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.695363 resize2fs@7f5cf8ecfd03[2076] mmap2(0x7f5cf8e94000, 424, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f5cf8e94000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5cf8e94000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8ecfd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f5cf8e94000", 
+                            "p1": "424", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281846.695363
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.695427 resize2fs@7f5cf8ecf9f7[2076] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8ecf9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642281846.695427
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.695506 resize2fs@7f5cf8ecfb0d[2076] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/librt.so.1\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8ecfb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/librt.so.1"
+                        }, 
+                        "time": 1642281846.695506
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.695566 resize2fs@7f5cf8ecfbd4[2076] read(4, 0x7ffe338db8f8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8ecfbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffe338db8f8"
+                        }, 
+                        "time": 1642281846.695566
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.695605 resize2fs@7f5cf8ecf943[2076] fstat(4, 0x7ffe338db790) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8ecf943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe338db790"
+                        }, 
+                        "time": 1642281846.695605
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.695656 resize2fs@7f5cf8ecfd03[2076] mmap2(0x0, 44000, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f5cf8d69000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5cf8d69000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8ecfd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "44000", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281846.695656
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.695724 resize2fs@7f5cf8ecfd03[2076] mmap2(0x7f5cf8d6c000, 16384, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f5cf8d6c000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5cf8d6c000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8ecfd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f5cf8d6c000", 
+                            "p1": "16384", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642281846.695724
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.695790 resize2fs@7f5cf8ecfd03[2076] mmap2(0x7f5cf8d70000, 8192, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 28672) = 0x7f5cf8d70000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5cf8d70000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8ecfd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f5cf8d70000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "28672"
+                        }, 
+                        "time": 1642281846.69579
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.695857 resize2fs@7f5cf8ecfd03[2076] mmap2(0x7f5cf8d72000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 32768) = 0x7f5cf8d72000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5cf8d72000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8ecfd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f5cf8d72000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "32768"
+                        }, 
+                        "time": 1642281846.695857
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.695912 resize2fs@7f5cf8ecf9f7[2076] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8ecf9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642281846.695912
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.695953 resize2fs@7f5cf8ecfb0d[2076] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libm.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8ecfb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libm.so.6"
+                        }, 
+                        "time": 1642281846.695953
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.695990 resize2fs@7f5cf8ecfbd4[2076] read(4, 0x7ffe338db8d8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8ecfbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffe338db8d8"
+                        }, 
+                        "time": 1642281846.69599
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.696023 resize2fs@7f5cf8ecf943[2076] fstat(4, 0x7ffe338db770) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8ecf943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe338db770"
+                        }, 
+                        "time": 1642281846.696023
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.696063 resize2fs@7f5cf8ecfd03[2076] mmap2(0x0, 1364240, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f5cf8c1b000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5cf8c1b000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8ecfd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1364240", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281846.696063
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.696131 resize2fs@7f5cf8ecfd03[2076] mmap2(0x7f5cf8c2a000, 679936, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 61440) = 0x7f5cf8c2a000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5cf8c2a000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8ecfd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f5cf8c2a000", 
+                            "p1": "679936", 
+                            "p4": "4", 
+                            "p5": "61440"
+                        }, 
+                        "time": 1642281846.696131
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.696194 resize2fs@7f5cf8ecfd03[2076] mmap2(0x7f5cf8cd0000, 618496, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 741376) = 0x7f5cf8cd0000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5cf8cd0000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8ecfd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f5cf8cd0000", 
+                            "p1": "618496", 
+                            "p4": "4", 
+                            "p5": "741376"
+                        }, 
+                        "time": 1642281846.696194
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.696253 resize2fs@7f5cf8ecfd03[2076] mmap2(0x7f5cf8d67000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1355776) = 0x7f5cf8d67000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5cf8d67000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8ecfd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f5cf8d67000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "1355776"
+                        }, 
+                        "time": 1642281846.696253
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.696338 resize2fs@7f5cf8ecf9f7[2076] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8ecf9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642281846.696338
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.696408 resize2fs@7f5cf8ecfb0d[2076] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libgcc_s.so.1\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8ecfb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libgcc_s.so.1"
+                        }, 
+                        "time": 1642281846.696408
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.696650 resize2fs@7f5cf8ecfbd4[2076] read(4, 0x7ffe338db8b8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8ecfbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffe338db8b8"
+                        }, 
+                        "time": 1642281846.69665
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.696689 resize2fs@7f5cf8ecf943[2076] fstat(4, 0x7ffe338db750) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8ecf943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe338db750"
+                        }, 
+                        "time": 1642281846.696689
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.696719 resize2fs@7f5cf8ecfd03[2076] mmap2(0x0, 103504, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f5cf8c01000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5cf8c01000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8ecfd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "103504", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281846.696719
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.696753 resize2fs@7f5cf8ecfd03[2076] mmap2(0x7f5cf8c04000, 69632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f5cf8c04000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5cf8c04000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8ecfd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f5cf8c04000", 
+                            "p1": "69632", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642281846.696753
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.696790 resize2fs@7f5cf8ecfd03[2076] mmap2(0x7f5cf8c15000, 16384, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 81920) = 0x7f5cf8c15000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5cf8c15000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8ecfd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f5cf8c15000", 
+                            "p1": "16384", 
+                            "p4": "4", 
+                            "p5": "81920"
+                        }, 
+                        "time": 1642281846.69679
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.696823 resize2fs@7f5cf8ecfd03[2076] mmap2(0x7f5cf8c19000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 94208) = 0x7f5cf8c19000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5cf8c19000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8ecfd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f5cf8c19000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "94208"
+                        }, 
+                        "time": 1642281846.696823
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.696888 resize2fs@7f5cf8ecf9f7[2076] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8ecf9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642281846.696888
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.696954 resize2fs@7f5cf8ecfb0d[2076] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libpthread.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8ecfb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libpthread.so.0"
+                        }, 
+                        "time": 1642281846.696954
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.697012 resize2fs@7f5cf8ecfbd4[2076] read(4, 0x7ffe338db898, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8ecfbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffe338db898"
+                        }, 
+                        "time": 1642281846.697012
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.697063 resize2fs@7f5cf8ecf943[2076] fstat(4, 0x7ffe338db730) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8ecf943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe338db730"
+                        }, 
+                        "time": 1642281846.697063
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.697106 resize2fs@7f5cf8ecfd03[2076] mmap2(0x0, 132288, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f5cf8be0000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5cf8be0000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8ecfd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "132288", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281846.697106
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.697161 resize2fs@7f5cf8ecfd03[2076] mmap2(0x7f5cf8be7000, 61440, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 28672) = 0x7f5cf8be7000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5cf8be7000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8ecfd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f5cf8be7000", 
+                            "p1": "61440", 
+                            "p4": "4", 
+                            "p5": "28672"
+                        }, 
+                        "time": 1642281846.697161
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.697225 resize2fs@7f5cf8ecfd03[2076] mmap2(0x7f5cf8bf6000, 20480, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 90112) = 0x7f5cf8bf6000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5cf8bf6000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8ecfd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f5cf8bf6000", 
+                            "p1": "20480", 
+                            "p4": "4", 
+                            "p5": "90112"
+                        }, 
+                        "time": 1642281846.697225
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.697284 resize2fs@7f5cf8ecfd03[2076] mmap2(0x7f5cf8bfb000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 106496) = 0x7f5cf8bfb000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5cf8bfb000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8ecfd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f5cf8bfb000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "106496"
+                        }, 
+                        "time": 1642281846.697284
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.697356 resize2fs@7f5cf8ecfd03[2076] mmap2(0x7f5cf8bfd000, 13504, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f5cf8bfd000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5cf8bfd000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8ecfd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f5cf8bfd000", 
+                            "p1": "13504", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281846.697356
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.697408 resize2fs@7f5cf8ecf9f7[2076] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8ecf9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642281846.697408
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.697451 resize2fs@7f5cf8ecfb0d[2076] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libc.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8ecfb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libc.so.6"
+                        }, 
+                        "time": 1642281846.697451
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.697488 resize2fs@7f5cf8ecfbd4[2076] read(4, 0x7ffe338db878, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8ecfbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffe338db878"
+                        }, 
+                        "time": 1642281846.697488
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.697518 resize2fs@7f5cf8ecf943[2076] fstat(4, 0x7ffe338db710) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8ecf943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe338db710"
+                        }, 
+                        "time": 1642281846.697518
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.697547 resize2fs@7f5cf8ecfd03[2076] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f5cf8bde000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5cf8bde000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8ecfd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281846.697547
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.697581 resize2fs@7f5cf8ecfd03[2076] mmap2(0x0, 2008696, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f5cf89f3000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5cf89f3000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8ecfd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "2008696", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281846.697581
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.697613 resize2fs@7f5cf8ecfd03[2076] mmap2(0x7f5cf8a18000, 1519616, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 151552) = 0x7f5cf8a18000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5cf8a18000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8ecfd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f5cf8a18000", 
+                            "p1": "1519616", 
+                            "p4": "4", 
+                            "p5": "151552"
+                        }, 
+                        "time": 1642281846.697613
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.697659 resize2fs@7f5cf8ecfd03[2076] mmap2(0x7f5cf8b8b000, 299008, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1671168) = 0x7f5cf8b8b000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5cf8b8b000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8ecfd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f5cf8b8b000", 
+                            "p1": "299008", 
+                            "p4": "4", 
+                            "p5": "1671168"
+                        }, 
+                        "time": 1642281846.697659
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.697697 resize2fs@7f5cf8ecfd03[2076] mmap2(0x7f5cf8bd4000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1966080) = 0x7f5cf8bd4000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5cf8bd4000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8ecfd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f5cf8bd4000", 
+                            "p1": "24576", 
+                            "p4": "4", 
+                            "p5": "1966080"
+                        }, 
+                        "time": 1642281846.697697
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.697759 resize2fs@7f5cf8ecfd03[2076] mmap2(0x7f5cf8bda000, 13944, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f5cf8bda000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5cf8bda000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8ecfd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f5cf8bda000", 
+                            "p1": "13944", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281846.697759
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.697828 resize2fs@7f5cf8ecf9f7[2076] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8ecf9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642281846.697828
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.697904 resize2fs@7f5cf8ecfb0d[2076] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libdl.so.2\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8ecfb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libdl.so.2"
+                        }, 
+                        "time": 1642281846.697904
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.697960 resize2fs@7f5cf8ecfbd4[2076] read(4, 0x7ffe338db858, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8ecfbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffe338db858"
+                        }, 
+                        "time": 1642281846.69796
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.698009 resize2fs@7f5cf8ecf943[2076] fstat(4, 0x7ffe338db6f0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8ecf943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe338db6f0"
+                        }, 
+                        "time": 1642281846.698009
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.698055 resize2fs@7f5cf8ecfd03[2076] mmap2(0x0, 20752, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f5cf89ed000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5cf89ed000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8ecfd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "20752", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281846.698055
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.698111 resize2fs@7f5cf8ecfd03[2076] mmap2(0x7f5cf89ee000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 4096) = 0x7f5cf89ee000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5cf89ee000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8ecfd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f5cf89ee000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "4096"
+                        }, 
+                        "time": 1642281846.698111
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.698175 resize2fs@7f5cf8ecfd03[2076] mmap2(0x7f5cf89f0000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f5cf89f0000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5cf89f0000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8ecfd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f5cf89f0000", 
+                            "p1": "4096", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642281846.698175
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.698230 resize2fs@7f5cf8ecfd03[2076] mmap2(0x7f5cf89f1000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f5cf89f1000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5cf89f1000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8ecfd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f5cf89f1000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642281846.69823
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.698279 resize2fs@7f5cf8ecf9f7[2076] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8ecf9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642281846.698279
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.698324 resize2fs@7f5cf8ecfb0d[2076] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libpcre.so.3\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8ecfb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libpcre.so.3"
+                        }, 
+                        "time": 1642281846.698324
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.698358 resize2fs@7f5cf8ecfbd4[2076] read(4, 0x7ffe338db838, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8ecfbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffe338db838"
+                        }, 
+                        "time": 1642281846.698358
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.698410 resize2fs@7f5cf8ecf943[2076] fstat(4, 0x7ffe338db6d0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8ecf943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe338db6d0"
+                        }, 
+                        "time": 1642281846.69841
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.698457 resize2fs@7f5cf8ecfd03[2076] mmap2(0x0, 471304, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f5cf8979000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5cf8979000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8ecfd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "471304", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281846.698457
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.698520 resize2fs@7f5cf8ecfd03[2076] mmap2(0x7f5cf897b000, 335872, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 8192) = 0x7f5cf897b000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5cf897b000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8ecfd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f5cf897b000", 
+                            "p1": "335872", 
+                            "p4": "4", 
+                            "p5": "8192"
+                        }, 
+                        "time": 1642281846.69852
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.698583 resize2fs@7f5cf8ecfd03[2076] mmap2(0x7f5cf89cd000, 122880, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 344064) = 0x7f5cf89cd000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5cf89cd000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8ecfd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f5cf89cd000", 
+                            "p1": "122880", 
+                            "p4": "4", 
+                            "p5": "344064"
+                        }, 
+                        "time": 1642281846.698583
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.698831 resize2fs@7f5cf8ecfd03[2076] mmap2(0x7f5cf89eb000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 462848) = 0x7f5cf89eb000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5cf89eb000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8ecfd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f5cf89eb000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "462848"
+                        }, 
+                        "time": 1642281846.698831
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.698901 resize2fs@7f5cf8ecf9f7[2076] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8ecf9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642281846.698901
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.699740 resize2fs@7f5cf8ecfd03[2076] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f5cf8977000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5cf8977000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8ecfd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281846.69974
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.699813 resize2fs@7f5cf8eb4f30[2076] arch_prctl(ARCH_SET_FS, 140037284397376) = 0\n", 
+                        "api": "arch_prctl", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8eb4f30", 
+                        "arguments": {
+                            "p0": "ARCH_SET_FS", 
+                            "p1": "140037284397376"
+                        }, 
+                        "time": 1642281846.699813
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.700493 resize2fs@7f5cf8ecfdb7[2076] mprotect(0x7f5cf8bd4000, 12288, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8ecfdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f5cf8bd4000", 
+                            "p1": "12288"
+                        }, 
+                        "time": 1642281846.700493
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.700669 resize2fs@7f5cf8ecfdb7[2076] mprotect(0x7f5cf8bfb000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8ecfdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f5cf8bfb000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642281846.700669
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.700728 resize2fs@7f5cf8ecfdb7[2076] mprotect(0x7f5cf89eb000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8ecfdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f5cf89eb000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642281846.700728
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.700770 resize2fs@7f5cf8ecfdb7[2076] mprotect(0x7f5cf89f1000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8ecfdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f5cf89f1000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642281846.70077
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.700830 resize2fs@7f5cf8ecfdb7[2076] mprotect(0x7f5cf8c19000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8ecfdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f5cf8c19000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642281846.70083
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.700914 resize2fs@7f5cf8ecfdb7[2076] mprotect(0x7f5cf8d67000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8ecfdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f5cf8d67000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642281846.700914
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.700978 resize2fs@7f5cf8ecfdb7[2076] mprotect(0x7f5cf8d72000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8ecfdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f5cf8d72000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642281846.700978
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.701283 resize2fs@7f5cf8ecfdb7[2076] mprotect(0x7f5cf8e92000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8ecfdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f5cf8e92000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642281846.701283
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.701345 resize2fs@7f5cf8ecfdb7[2076] mprotect(0x7f5cf8e99000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8ecfdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f5cf8e99000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642281846.701345
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.704351 resize2fs@7f5cf8ecfdb7[2076] mprotect(0x55eabc35d000, 303104, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8ecfdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x55eabc35d000", 
+                            "p1": "303104"
+                        }, 
+                        "time": 1642281846.704351
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.704485 resize2fs@7f5cf8ecfdb7[2076] mprotect(0x7f5cf8edd000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8ecfdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f5cf8edd000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642281846.704485
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.704721 resize2fs@7f5cf8ecfd97[2076] munmap(0x7f5cf8e9d000, 88858) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8ecfd97", 
+                        "arguments": {
+                            "p0": "0x7f5cf8e9d000", 
+                            "p1": "88858"
+                        }, 
+                        "time": 1642281846.704721
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.704833 resize2fs@7f5cf8be78df[2076] set_tid_address(0x7f5cf8978410) = 2076\n", 
+                        "api": "set_tid_address", 
+                        "return_value": "2076", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8be78df", 
+                        "arguments": {
+                            "p0": "0x7f5cf8978410"
+                        }, 
+                        "time": 1642281846.704833
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.704882 resize2fs@7f5cf8be794a[2076] set_robust_list(0x7f5cf8978420, 24) = 0\n", 
+                        "api": "set_robust_list", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8be794a", 
+                        "arguments": {
+                            "p0": "0x7f5cf8978420", 
+                            "p1": "24"
+                        }, 
+                        "time": 1642281846.704882
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.704945 resize2fs@7f5cf8bf4010[2076] rt_sigaction(0x20, {0x7f5cf8be76c0, SA_SIGINFO|SA_RESTORER, 0x7f5cf8bf3f40, [EMPTY]}, 0x0, 8) = 0\n", 
+                        "api": "rt_sigaction", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8bf4010", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "0x20", 
+                            "p1": [
+                                "0x7f5cf8be76c0", 
+                                "SA_SIGINFO|SA_RESTORER", 
+                                "0x7f5cf8bf3f40", 
+                                [
+                                    "EMPTY]"
+                                ]
+                            ]
+                        }, 
+                        "time": 1642281846.704945
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.704979 resize2fs@7f5cf8bf4010[2076] rt_sigaction(0x21, {0x7f5cf8be7760, SA_RESTART|SA_SIGINFO|SA_RESTORER, 0x7f5cf8bf3f40, [EMPTY]}, 0x0, 8) = 0\n", 
+                        "api": "rt_sigaction", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8bf4010", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "0x21", 
+                            "p1": [
+                                "0x7f5cf8be7760", 
+                                "SA_RESTART|SA_SIGINFO|SA_RESTORER", 
+                                "0x7f5cf8bf3f40", 
+                                [
+                                    "EMPTY]"
+                                ]
+                            ]
+                        }, 
+                        "time": 1642281846.704979
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.705008 resize2fs@7f5cf8be7a19[2076] rt_sigprocmask(SIG_UNBLOCK, [EMPTY], 0x0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8be7a19", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "SIG_UNBLOCK", 
+                            "p1": [
+                                "EMPTY"
+                            ]
+                        }, 
+                        "time": 1642281846.705008
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.705050 resize2fs@7f5cf8b05df0[2076] prlimit64(0, RLIMIT_STACK, NULL, 0x7ffe338dc510) = 0\n", 
+                        "api": "prlimit64", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8b05df0", 
+                        "arguments": {
+                            "p2": "NULL", 
+                            "p3": "0x7ffe338dc510", 
+                            "p0": "0", 
+                            "p1": "RLIMIT_STACK"
+                        }, 
+                        "time": 1642281846.70505
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.705255 resize2fs@7f5cf8b062f7[2076] brk(0x0) = 94466726117376\n", 
+                        "api": "brk", 
+                        "return_value": "94466726117376", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8b062f7", 
+                        "arguments": {
+                            "p0": "0x0"
+                        }, 
+                        "time": 1642281846.705255
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.705305 resize2fs@7f5cf8b062f7[2076] brk(0x55eabfa95000) = 94466726252544\n", 
+                        "api": "brk", 
+                        "return_value": "94466726252544", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8b062f7", 
+                        "arguments": {
+                            "p0": "0x55eabfa95000"
+                        }, 
+                        "time": 1642281846.705305
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.706327 resize2fs@7f5cf8bf0b86[2076] rt_sigprocmask(SIG_SETMASK, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS], 0x7ffe338dc460, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8bf0b86", 
+                        "arguments": {
+                            "p2": "0x7ffe338dc460", 
+                            "p3": "8", 
+                            "p0": "SIG_SETMASK", 
+                            "p1": [
+                                "SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS"
+                            ]
+                        }, 
+                        "time": 1642281846.706327
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.707265 resize2fs@7f5cf8b0a4c3[2076] mmap2(0x0, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f5cf8176000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5cf8176000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8b0a4c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK", 
+                            "p0": "0x0", 
+                            "p1": "8392704", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281846.707265
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.707319 resize2fs@7f5cf8b0a597[2076] mprotect(0x7f5cf8177000, 8388608, PROT_READ|PROT_WRITE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8b0a597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p0": "0x7f5cf8177000", 
+                            "p1": "8388608"
+                        }, 
+                        "time": 1642281846.707319
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.707385 resize2fs@7f5cf8b10b11[2076] clone(CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, 0x7f5cf8975f70, 0x7f5cf89769d0, 0x7f5cf89769d0) = 2077\n", 
+                        "api": "clone", 
+                        "return_value": "2077", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8b10b11", 
+                        "arguments": {
+                            "p2": "0x7f5cf89769d0", 
+                            "p3": "0x7f5cf89769d0", 
+                            "p0": "CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID", 
+                            "p1": "0x7f5cf8975f70"
+                        }, 
+                        "time": 1642281846.707385
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.707509 resize2fs@7f5cf8bf0b86[2076] rt_sigprocmask(SIG_SETMASK, [EMPTY], 0x0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8bf0b86", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "SIG_SETMASK", 
+                            "p1": [
+                                "EMPTY"
+                            ]
+                        }, 
+                        "time": 1642281846.707509
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.709844 resize2fs@7f5cf8b05df0[2076] prlimit64(0, RLIMIT_STACK, NULL, 0x7ffe338dc020) = 0\n", 
+                        "api": "prlimit64", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8b05df0", 
+                        "arguments": {
+                            "p2": "NULL", 
+                            "p3": "0x7ffe338dc020", 
+                            "p0": "0", 
+                            "p1": "RLIMIT_STACK"
+                        }, 
+                        "time": 1642281846.709844
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.709894 resize2fs@7f5cf8b055c1[2076] openat(AT_FDCWD, \"/etc/qemu-binfmt/sparc\", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -2 (ENOENT)\n", 
+                        "api": "openat", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8b055c1", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/etc/qemu-binfmt/sparc"
+                        }, 
+                        "time": 1642281846.709894
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.709958 resize2fs@7f5cf8ad4247[2076] uname(0x7ffe338dbc90) = 0\n", 
+                        "api": "uname", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8ad4247", 
+                        "arguments": {
+                            "p0": "0x7ffe338dbc90"
+                        }, 
+                        "time": 1642281846.709958
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.709994 resize2fs@7f5cf8bf3337[2076] lseek(3, 0, SEEK_SET) = 0\n", 
+                        "api": "lseek", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8bf3337", 
+                        "arguments": {
+                            "p2": "SEEK_SET", 
+                            "p0": "3", 
+                            "p1": "0"
+                        }, 
+                        "time": 1642281846.709994
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.710022 resize2fs@7f5cf8bf2d94[2076] read(3, 0x7ffe338dbf80, 52) = 52\n", 
+                        "api": "read", 
+                        "return_value": "52", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8bf2d94", 
+                        "arguments": {
+                            "p2": "52", 
+                            "p0": "3", 
+                            "p1": "0x7ffe338dbf80"
+                        }, 
+                        "time": 1642281846.710022
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.710053 resize2fs@7f5cf8bf3337[2076] lseek(3, 0, SEEK_SET) = 0\n", 
+                        "api": "lseek", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8bf3337", 
+                        "arguments": {
+                            "p2": "SEEK_SET", 
+                            "p0": "3", 
+                            "p1": "0"
+                        }, 
+                        "time": 1642281846.710053
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.711302 resize2fs@7f5cf8b0a4c3[2076] mmap2(0x0, 528384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f5cf80f5000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5cf80f5000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8b0a4c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "528384", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281846.711302
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.711723 resize2fs@7f5cf8b0a597[2076] mprotect(0x55eabc3ba000, 33550336, PROT_READ|PROT_WRITE|PROT_EXEC) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8b0a597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE|PROT_EXEC", 
+                            "p0": "0x55eabc3ba000", 
+                            "p1": "33550336"
+                        }, 
+                        "time": 1642281846.711723
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.711760 resize2fs@7f5cf8b0a667[2076] madvise(0x55eabc3ba000, 33550336, MADV_HUGEPAGE) = 0\n", 
+                        "api": "madvise", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8b0a667", 
+                        "arguments": {
+                            "p2": "MADV_HUGEPAGE", 
+                            "p0": "0x55eabc3ba000", 
+                            "p1": "33550336"
+                        }, 
+                        "time": 1642281846.71176
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.711903 resize2fs@7f5cf8b0a4c3[2076] mmap2(0x0, 4294963200, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f5bf4001000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5bf4001000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8b0a4c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x0", 
+                            "p1": "4294963200", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281846.711903
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.711943 resize2fs@7f5cf8affd59[2076] openat(AT_FDCWD, \"/proc/sys/vm/mmap_min_addr\", O_RDONLY) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8affd59", 
+                        "arguments": {
+                            "p2": "O_RDONLY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/proc/sys/vm/mmap_min_addr"
+                        }, 
+                        "time": 1642281846.711943
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.711993 resize2fs@7f5cf8aff613[2076] fstat(4, 0x7ffe338db690) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8aff613", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe338db690"
+                        }, 
+                        "time": 1642281846.711993
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.712023 resize2fs@7f5cf8afffb4[2076] read(4, 0x55eabfa813d0, 1024) = 6\n", 
+                        "api": "read", 
+                        "return_value": "6", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8afffb4", 
+                        "arguments": {
+                            "p2": "1024", 
+                            "p0": "4", 
+                            "p1": "0x55eabfa813d0"
+                        }, 
+                        "time": 1642281846.712023
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.712059 resize2fs@7f5cf8b053f7[2076] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8b053f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642281846.712059
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.712098 resize2fs@7f5cf8b0a2e9[2076] gettid() = 2076\n", 
+                        "api": "gettid", 
+                        "return_value": "2076", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8b0a2e9", 
+                        "arguments": {}, 
+                        "time": 1642281846.712098
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.712125 resize2fs@7f5cf8aff613[2076] fstat(3, 0x7ffe338dbf00) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8aff613", 
+                        "arguments": {
+                            "p0": "3", 
+                            "p1": "0x7ffe338dbf00"
+                        }, 
+                        "time": 1642281846.712125
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.712151 resize2fs@7f5cf8ad5717[2076] geteuid() = 0\n", 
+                        "api": "geteuid", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8ad5717", 
+                        "arguments": {}, 
+                        "time": 1642281846.712151
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.712179 resize2fs@7f5cf8ad5737[2076] getegid() = 0\n", 
+                        "api": "getegid", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8ad5737", 
+                        "arguments": {}, 
+                        "time": 1642281846.712179
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.712206 resize2fs@7f5cf8bf2d94[2076] read(3, 0x7ffe338dc100, 1024) = 1024\n", 
+                        "api": "read", 
+                        "return_value": "1024", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8bf2d94", 
+                        "arguments": {
+                            "p2": "1024", 
+                            "p0": "3", 
+                            "p1": "0x7ffe338dc100"
+                        }, 
+                        "time": 1642281846.712206
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.712236 resize2fs@7f5cf8b0a4c3[2076] mmap2(0x7f5bf4011000, 28672, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 3, 0) = 0x7f5bf4011000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5bf4011000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8b0a4c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED", 
+                            "p0": "0x7f5bf4011000", 
+                            "p1": "28672", 
+                            "p4": "3", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281846.712236
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.712276 resize2fs@7f5cf8b062f7[2076] brk(0x55eabfab6000) = 94466726387712\n", 
+                        "api": "brk", 
+                        "return_value": "94466726387712", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8b062f7", 
+                        "arguments": {
+                            "p0": "0x55eabfab6000"
+                        }, 
+                        "time": 1642281846.712276
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.712325 resize2fs@7f5cf8b0a4c3[2076] mmap2(0x7f5bf4027000, 4096, PROT_READ|PROT_WRITE|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 3, 24576) = 0x7f5bf4027000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5bf4027000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8b0a4c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED", 
+                            "p0": "0x7f5bf4027000", 
+                            "p1": "4096", 
+                            "p4": "3", 
+                            "p5": "24576"
+                        }, 
+                        "time": 1642281846.712325
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.712368 resize2fs@7f5cf8bf2e27[2076] close(3) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8bf2e27", 
+                        "arguments": {
+                            "p0": "3"
+                        }, 
+                        "time": 1642281846.712368
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.712471 resize2fs@7f5cf8b0a4c3[2076] mmap2(0x7f5cf37ff000, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f5cf37ff000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5cf37ff000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8b0a4c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f5cf37ff000", 
+                            "p1": "8392704", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281846.712471
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.712591 resize2fs@7f5cf8b0a597[2076] mprotect(0x7f5cf37ff000, 4096, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8b0a597", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7f5cf37ff000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642281846.712591
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.712636 resize2fs@7f5cf8bf355e[2076] openat(AT_FDCWD, \"/lib/ld-linux.so.2\", O_RDONLY) = -2 (ENOENT)\n", 
+                        "api": "openat", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8bf355e", 
+                        "arguments": {
+                            "p2": "O_RDONLY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/ld-linux.so.2"
+                        }, 
+                        "time": 1642281846.712636
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.712698 resize2fs@7f5cf8b00057[2076] write(2, \"/lib/ld-linux.so.2: No such file or directory\\n\", 46) = 46\n", 
+                        "api": "write", 
+                        "return_value": "46", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8b00057", 
+                        "arguments": {
+                            "p2": "46", 
+                            "p0": "2", 
+                            "p1": "/lib/ld-linux.so.2: No such file or directory\n"
+                        }, 
+                        "time": 1642281846.712698
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.712758 resize2fs@7f5cf8ad4926[2076] exit_group(-1)\n", 
+                        "api": "exit_group", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8ad4926", 
+                        "arguments": {
+                            "p0": "-1"
+                        }, 
+                        "time": 1642281846.712758
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:24:06 2022.712801 resize2fs@7f5cf8ad4926[2076] futex(0x7f5cf8978410, FUTEX_WAKE, 1) = 0\n", 
+                        "api": "futex", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8ad4926", 
+                        "arguments": {
+                            "p2": "1", 
+                            "p0": "0x7f5cf8978410", 
+                            "p1": "FUTEX_WAKE"
+                        }, 
+                        "time": 1642281846.712801
+                    }
+                ], 
+                "pid": 2076, 
+                "process_name": "resize2fs", 
+                "command_line": "/tmp/resize2fs", 
+                "first_seen": 1642281846.690954, 
+                "ppid": -1, 
+                "type": "process"
+            }, 
+            {
+                "calls": [
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2077, 
+                        "raw": "Sat Jan 15 21:24:06 2022.707586 resize2fs@7f5cf8be9117[2077] set_robust_list(0x7f5cf89769e0, 24) = 0\n", 
+                        "api": "set_robust_list", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8be9117", 
+                        "arguments": {
+                            "p0": "0x7f5cf89769e0", 
+                            "p1": "24"
+                        }, 
+                        "time": 1642281846.707586
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2077, 
+                        "raw": "Sat Jan 15 21:24:06 2022.707647 resize2fs@7f5cf8b0a4c3[2077] mmap2(0x0, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f5cf0176000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5cf0176000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8b0a4c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x0", 
+                            "p1": "134217728", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281846.707647
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2077, 
+                        "raw": "Sat Jan 15 21:24:06 2022.707701 resize2fs@7f5cf8b0a567[2077] munmap(0x7f5cf0176000, 65576960) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8b0a567", 
+                        "arguments": {
+                            "p0": "0x7f5cf0176000", 
+                            "p1": "65576960"
+                        }, 
+                        "time": 1642281846.707701
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2077, 
+                        "raw": "Sat Jan 15 21:24:06 2022.707752 resize2fs@7f5cf8b0a567[2077] munmap(0x7f5cf8000000, 1531904) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8b0a567", 
+                        "arguments": {
+                            "p0": "0x7f5cf8000000", 
+                            "p1": "1531904"
+                        }, 
+                        "time": 1642281846.707752
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2077, 
+                        "raw": "Sat Jan 15 21:24:06 2022.707799 resize2fs@7f5cf8b0a597[2077] mprotect(0x7f5cf4000000, 135168, PROT_READ|PROT_WRITE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8b0a597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p0": "0x7f5cf4000000", 
+                            "p1": "135168"
+                        }, 
+                        "time": 1642281846.707799
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "resize2fs", 
+                        "pid": 2077, 
+                        "raw": "Sat Jan 15 21:24:06 2022.707864 resize2fs@7f5cf8bf3440[2077] nanosleep([0.010000000], 0x7f5cf8975dc0) = -516\n", 
+                        "api": "nanosleep", 
+                        "return_value": "-516", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cf8bf3440", 
+                        "arguments": {
+                            "p0": [
+                                "0.010000000"
+                            ], 
+                            "p1": "0x7f5cf8975dc0"
+                        }, 
+                        "time": 1642281846.707864
+                    }
+                ], 
+                "pid": 2077, 
+                "process_name": "resize2fs", 
+                "command_line": "", 
+                "first_seen": 1642281846.707586, 
+                "ppid": 2076, 
+                "type": "process"
+            }
+        ], 
+        "processtree": [
+            {
+                "track": true, 
+                "pid": 2076, 
+                "process_name": "resize2fs", 
+                "command_line": "/tmp/resize2fs", 
+                "first_seen": 1642281846.690954, 
+                "ppid": -1, 
+                "children": [
+                    {
+                        "track": true, 
+                        "pid": 2077, 
+                        "process_name": "resize2fs", 
+                        "command_line": "", 
+                        "first_seen": 1642281846.707586, 
+                        "ppid": 2076, 
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    }, 
+    "debug": {
+        "action": [], 
+        "dbgview": [], 
+        "errors": [], 
+        "log": [
+            "2022-01-15 21:23:59,003 [root] DEBUG: Starting analyzer from: /tmp/tmp6rQfkn\n", 
+            "2022-01-15 21:23:59,003 [root] DEBUG: Storing results at: /tmp/dyXYDjTy\n", 
+            "2022-01-15 21:24:01,269 [modules.auxiliary.filecollector] INFO: FileCollector started v0.08\n", 
+            "2022-01-15 21:24:01,272 [modules.auxiliary.human] INFO: Human started v0.02\n", 
+            "2022-01-15 21:24:01,274 [modules.auxiliary.screenshots] INFO: Screenshots started v0.03\n", 
+            "2022-01-15 21:24:06,685 [lib.core.packages] INFO: Process startup took 5.40 seconds\n", 
+            "2022-01-15 21:24:06,686 [root] INFO: Added new process to list with pid: 2067\n", 
+            "2022-01-15 21:24:12,694 [root] INFO: Process with pid 2067 has terminated\n", 
+            "2022-01-15 21:24:12,695 [root] INFO: Process list is empty, terminating analysis.\n", 
+            "2022-01-15 21:24:15,698 [lib.core.packages] INFO: Package requested stop\n", 
+            "2022-01-15 21:24:15,699 [lib.core.packages] WARNING: Exception uploading log: [Errno 3] No such process\n"
+        ], 
+        "cuckoo": [
+            "2022-01-16 07:47:02,146 [cuckoo.core.scheduler] DEBUG: Task #2651561: no machine available yet\n", 
+            "2022-01-16 07:47:12,172 [cuckoo.core.scheduler] DEBUG: Task #2651561: no machine available yet\n", 
+            "2022-01-16 07:47:22,199 [cuckoo.core.scheduler] DEBUG: Task #2651561: no machine available yet\n", 
+            "2022-01-16 07:47:32,238 [cuckoo.core.scheduler] DEBUG: Task #2651561: no machine available yet\n", 
+            "2022-01-16 07:47:42,273 [cuckoo.core.scheduler] DEBUG: Task #2651561: no machine available yet\n", 
+            "2022-01-16 07:47:52,296 [cuckoo.core.scheduler] DEBUG: Task #2651561: no machine available yet\n", 
+            "2022-01-16 07:48:02,321 [cuckoo.core.scheduler] DEBUG: Task #2651561: no machine available yet\n", 
+            "2022-01-16 07:48:12,400 [cuckoo.core.scheduler] DEBUG: Task #2651561: no machine available yet\n", 
+            "2022-01-16 07:48:22,422 [cuckoo.core.scheduler] DEBUG: Task #2651561: no machine available yet\n", 
+            "2022-01-16 07:48:32,438 [cuckoo.core.scheduler] DEBUG: Task #2651561: no machine available yet\n", 
+            "2022-01-16 07:48:42,462 [cuckoo.core.scheduler] DEBUG: Task #2651561: no machine available yet\n", 
+            "2022-01-16 07:48:52,513 [cuckoo.core.scheduler] DEBUG: Task #2651561: no machine available yet\n", 
+            "2022-01-16 07:49:02,538 [cuckoo.core.scheduler] DEBUG: Task #2651561: no machine available yet\n", 
+            "2022-01-16 07:49:12,564 [cuckoo.core.scheduler] DEBUG: Task #2651561: no machine available yet\n", 
+            "2022-01-16 07:49:22,591 [cuckoo.core.scheduler] DEBUG: Task #2651561: no machine available yet\n", 
+            "2022-01-16 07:49:32,613 [cuckoo.core.scheduler] DEBUG: Task #2651561: no machine available yet\n", 
+            "2022-01-16 07:49:42,633 [cuckoo.core.scheduler] DEBUG: Task #2651561: no machine available yet\n", 
+            "2022-01-16 07:49:52,653 [cuckoo.core.scheduler] DEBUG: Task #2651561: no machine available yet\n", 
+            "2022-01-16 07:50:02,674 [cuckoo.core.scheduler] DEBUG: Task #2651561: no machine available yet\n", 
+            "2022-01-16 07:50:12,962 [cuckoo.core.scheduler] DEBUG: Task #2651561: no machine available yet\n", 
+            "2022-01-16 07:50:23,266 [cuckoo.core.scheduler] DEBUG: Task #2651561: no machine available yet\n", 
+            "2022-01-16 07:50:33,306 [cuckoo.core.scheduler] DEBUG: Task #2651561: no machine available yet\n", 
+            "2022-01-16 07:50:43,379 [cuckoo.core.scheduler] DEBUG: Task #2651561: no machine available yet\n", 
+            "2022-01-16 07:50:53,437 [cuckoo.core.scheduler] DEBUG: Task #2651561: no machine available yet\n", 
+            "2022-01-16 07:51:03,474 [cuckoo.core.scheduler] DEBUG: Task #2651561: no machine available yet\n", 
+            "2022-01-16 07:51:13,496 [cuckoo.core.scheduler] DEBUG: Task #2651561: no machine available yet\n", 
+            "2022-01-16 07:51:23,517 [cuckoo.core.scheduler] DEBUG: Task #2651561: no machine available yet\n", 
+            "2022-01-16 07:51:33,540 [cuckoo.core.scheduler] DEBUG: Task #2651561: no machine available yet\n", 
+            "2022-01-16 07:51:43,601 [cuckoo.core.scheduler] DEBUG: Task #2651561: no machine available yet\n", 
+            "2022-01-16 07:51:53,629 [cuckoo.core.scheduler] DEBUG: Task #2651561: no machine available yet\n", 
+            "2022-01-16 07:52:03,655 [cuckoo.core.scheduler] DEBUG: Task #2651561: no machine available yet\n", 
+            "2022-01-16 07:52:13,678 [cuckoo.core.scheduler] DEBUG: Task #2651561: no machine available yet\n", 
+            "2022-01-16 07:52:23,705 [cuckoo.core.scheduler] DEBUG: Task #2651561: no machine available yet\n", 
+            "2022-01-16 07:52:33,731 [cuckoo.core.scheduler] DEBUG: Task #2651561: no machine available yet\n", 
+            "2022-01-16 07:52:43,761 [cuckoo.core.scheduler] DEBUG: Task #2651561: no machine available yet\n", 
+            "2022-01-16 07:52:53,790 [cuckoo.core.scheduler] DEBUG: Task #2651561: no machine available yet\n", 
+            "2022-01-16 07:53:03,816 [cuckoo.core.scheduler] DEBUG: Task #2651561: no machine available yet\n", 
+            "2022-01-16 07:53:13,849 [cuckoo.core.scheduler] DEBUG: Task #2651561: no machine available yet\n", 
+            "2022-01-16 07:53:23,875 [cuckoo.core.scheduler] DEBUG: Task #2651561: no machine available yet\n", 
+            "2022-01-16 07:53:33,897 [cuckoo.core.scheduler] DEBUG: Task #2651561: no machine available yet\n", 
+            "2022-01-16 07:53:43,921 [cuckoo.core.scheduler] INFO: Task #2651561: acquired machine Ubuntu1904x645 (label=Ubuntu1904x645)\n", 
+            "2022-01-16 07:53:43,922 [cuckoo.core.resultserver] DEBUG: Now tracking machine 192.168.168.105 for task #2651561\n", 
+            "2022-01-16 07:53:44,076 [cuckoo.auxiliary.sniffer] INFO: Started sniffer with PID 2398202 (interface=vboxnet0, host=192.168.168.105)\n", 
+            "2022-01-16 07:53:44,233 [cuckoo.machinery.virtualbox] DEBUG: Starting vm Ubuntu1904x645\n", 
+            "2022-01-16 07:53:44,664 [cuckoo.machinery.virtualbox] DEBUG: Restoring virtual machine Ubuntu1904x645 to Snapshot\n", 
+            "2022-01-16 07:53:54,805 [cuckoo.core.guest] INFO: Starting analysis #2651561 on guest (id=Ubuntu1904x645, ip=192.168.168.105)\n", 
+            "2022-01-16 07:53:55,808 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: not ready yet\n", 
+            "2022-01-16 07:54:00,825 [cuckoo.core.guest] INFO: Guest is running Cuckoo Agent 0.10 (id=Ubuntu1904x645, ip=192.168.168.105)\n", 
+            "2022-01-16 07:54:00,839 [cuckoo.core.guest] DEBUG: Uploading analyzer to guest (id=Ubuntu1904x645, ip=192.168.168.105, monitor=latest, size=72028)\n", 
+            "2022-01-16 07:54:02,087 [cuckoo.core.resultserver] DEBUG: Task #2651561: live log analysis.log initialized.\n", 
+            "2022-01-16 07:54:07,737 [cuckoo.core.resultserver] DEBUG: Task #2651561: File upload for 'shots/0001.jpg'\n", 
+            "2022-01-16 07:54:07,752 [cuckoo.core.resultserver] DEBUG: Task #2651561 uploaded file length: 171564\n", 
+            "2022-01-16 07:54:16,155 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2651561 still processing\n", 
+            "2022-01-16 07:54:18,747 [cuckoo.core.resultserver] DEBUG: Task #2651561: File upload for 'logs/all.stap'\n", 
+            "2022-01-16 07:54:18,753 [cuckoo.core.resultserver] DEBUG: Task #2651561 uploaded file length: 18981\n", 
+            "2022-01-16 07:54:31,233 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2651561 still processing\n", 
+            "2022-01-16 07:54:46,331 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2651561 still processing\n", 
+            "2022-01-16 07:55:01,412 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2651561 still processing\n", 
+            "2022-01-16 07:55:16,492 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2651561 still processing\n", 
+            "2022-01-16 07:55:31,589 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2651561 still processing\n", 
+            "2022-01-16 07:55:46,770 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2651561 still processing\n", 
+            "2022-01-16 07:56:01,883 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2651561 still processing\n", 
+            "2022-01-16 07:56:17,074 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2651561 still processing\n", 
+            "2022-01-16 07:56:32,145 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2651561 still processing\n", 
+            "2022-01-16 07:56:47,222 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2651561 still processing\n", 
+            "2022-01-16 07:57:02,300 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2651561 still processing\n", 
+            "2022-01-16 07:57:17,376 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2651561 still processing\n", 
+            "2022-01-16 07:57:32,433 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2651561 still processing\n", 
+            "2022-01-16 07:57:47,492 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2651561 still processing\n", 
+            "2022-01-16 07:58:02,544 [cuckoo.core.guest] INFO: Ubuntu1904x645: end of analysis reached!\n", 
+            "2022-01-16 07:58:02,553 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Redsocks\n", 
+            "2022-01-16 07:58:04,267 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Sniffer\n", 
+            "2022-01-16 07:58:17,773 [cuckoo.machinery.virtualbox] INFO: Successfully generated memory dump for virtual machine with label Ubuntu1904x645 to path /srv/cuckoo/cwd/storage/analyses/2651561/memory.dmp\n", 
+            "2022-01-16 07:58:17,775 [cuckoo.machinery.virtualbox] DEBUG: Stopping vm Ubuntu1904x645\n", 
+            "2022-01-16 07:58:21,749 [cuckoo.core.resultserver] DEBUG: Stopped tracking machine 192.168.168.105 for task #2651561\n", 
+            "2022-01-16 07:58:21,750 [cuckoo.core.resultserver] DEBUG: Cancel <Context for LOG> for task 2651561\n", 
+            "2022-01-16 07:58:21,899 [cuckoo.core.scheduler] DEBUG: Released database task #2651561\n", 
+            "2022-01-16 07:58:30,852 [cuckoo.core.scheduler] INFO: Task #2651561: analysis procedure completed\n"
+        ]
+    }, 
+    "strings": [
+        "/lib/ld-linux.so.2", 
+        "libe2p.so.2", 
+        "e2p_percent", 
+        "parse_num_blocks", 
+        "_Jv_RegisterClasses", 
+        "__gmon_start__", 
+        "libext2fs.so.2", 
+        "ext2fs_reserve_super_and_bgd", 
+        "ext2fs_unmark_generic_bitmap", 
+        "ext2fs_badblocks_list_del", 
+        "initialize_ext2_error_table", 
+        "ext2fs_create_resize_inode", 
+        "ext2fs_test_bit", 
+        "ext2fs_close", 
+        "ext2fs_read_bb_inode", 
+        "ext2fs_block_iterate2", 
+        "ext2fs_add_dir_block", 
+        "ext2fs_warn_bitmap2", 
+        "ext2fs_free", 
+        "ext2fs_open_inode_scan", 
+        "test_io_manager", 
+        "ext2fs_allocate_group_table", 
+        "test_io_backing_manager", 
+        "ext2fs_flush", 
+        "ext2fs_get_device_size", 
+        "ext2fs_check_mount_point", 
+        "ext2fs_read_inode", 
+        "ext2fs_dup_handle", 
+        "ext2fs_dblist_count", 
+        "ext2fs_allocate_block_bitmap", 
+        "ext2fs_badblocks_list_free", 
+        "ext2fs_dblist_dir_iterate", 
+        "ext2fs_init_dblist", 
+        "ext2fs_read_bitmaps", 
+        "ext2fs_mark_generic_bitmap", 
+        "ext2fs_set_inode_callback", 
+        "ext2fs_resize_inode_bitmap", 
+        "ext2fs_free_block_bitmap", 
+        "ext2fs_write_inode", 
+        "ext2fs_get_next_inode", 
+        "ext2fs_resize_block_bitmap", 
+        "ext2fs_bg_has_super", 
+        "unix_io_manager", 
+        "com_err", 
+        "ext2fs_update_bb_inode", 
+        "ext2fs_llseek", 
+        "ext2fs_close_inode_scan", 
+        "ext2fs_badblocks_list_test", 
+        "ext2fs_inode_has_valid_blocks", 
+        "ext2fs_sync_device", 
+        "ext2fs_open2", 
+        "libcom_err.so.2", 
+        "libc.so.6", 
+        "putchar", 
+        "strcpy", 
+        "sysconf", 
+        "stdout", 
+        "__strtol_internal", 
+        "__cxa_finalize", 
+        "malloc", 
+        "optarg", 
+        "fflush", 
+        "fprintf", 
+        "dcgettext", 
+        "optind", 
+        "realloc", 
+        "getopt", 
+        "memset", 
+        "open64", 
+        "setlocale", 
+        "stderr", 
+        "__errno_location", 
+        "bindtextdomain", 
+        "_IO_putc", 
+        "_IO_stdin_used", 
+        "__libc_start_main", 
+        "strlen", 
+        "strchr", 
+        "__fxstat64", 
+        "ftruncate64", 
+        "_edata", 
+        "__bss_start", 
+        "GLIBC_2.2", 
+        "GLIBC_2.1.3", 
+        "GLIBC_2.1", 
+        "GLIBC_2.0", 
+        "# Extent dump:", 
+        "Num=%d, Size=%d, Cursor=%d, Sorted=%d", 
+        " %u -> %u (%d)", 
+        "inodes (%llu) must be less than %u", 
+        "Inode translate (dir=%u, name=%.*s, %u->%u)", 
+        "ino=%u, blockcnt=%lld, %u->%u", 
+        "Itable move group %d block %u->%u (diff %d)", 
+        "%d blocks of zeros...", 
+        "Inode table move finished.", 
+        "Inode moved %u->%u", 
+        "reserved blocks", 
+        "blocks to be moved", 
+        "meta-data blocks", 
+        "Number of free blocks: %u/%u, Needed: %d", 
+        "Going into desperation mode for block allocations", 
+        "Moving %d blocks %u->%u", 
+        "Should never happen: resize inode corrupt!", 
+        "e2fsprogs", 
+        "/usr/share/locale", 
+        "resize2fs %s (%s)", 
+        "1.40-WIP", 
+        "14-Nov-2006", 
+        "d:fFhpS:", 
+        "while determining whether %s is mounted.", 
+        "ext2fs_check_mount_point", 
+        "while opening %s", 
+        "while getting stat information for %s", 
+        "while trying to flush %s", 
+        "while trying to open %s", 
+        "Couldn't find valid filesystem superblock.", 
+        "while trying to determine filesystem size", 
+        "bad filesystem size - %s", 
+        "Invalid stride length", 
+        "The containing partition (or device) is only %u (%dk) blocks.", 
+        "You requested a new size of %u blocks.", 
+        "The filesystem is already %u blocks long.  Nothing to do!", 
+        "Please run 'e2fsck -f %s' first.", 
+        "Resizing the filesystem on %s to %u (%dk) blocks.", 
+        "while trying to resize %s", 
+        "The filesystem on %s is now %u blocks long.", 
+        "Usage: %s [-d debug_flags] [-f] [-F] [-p] device [new_size]", 
+        "Extending the inode table", 
+        "Relocating blocks", 
+        "Scanning inode table", 
+        "Updating inode references", 
+        "Moving inode table", 
+        "Unknown pass?!?", 
+        "Begin pass %d (max = %lu)", 
+        "Filesystem at %s is mounted on %s; on-line resizing required", 
+        "On-line shrinking from %u to %u not supported.", 
+        "old desc_blocks = %d, new_desc_blocks = %d", 
+        "Filesystem does not support online resizing", 
+        "while trying to open mountpoint %s", 
+        "Permission denied to resize filesystem", 
+        "Kernel does not support online resizing", 
+        "While checking for on-line resizing support", 
+        "Performing an on-line resize of %s to %u (%dk) blocks.", 
+        "While trying to extend the last group", 
+        "While trying to add group #%d", 
+        ".shstrtab", 
+        ".interp", 
+        ".note.ABI-tag", 
+        ".dynsym", 
+        ".dynstr", 
+        ".gnu.version", 
+        ".gnu.version_r", 
+        ".rela.dyn", 
+        ".rela.plt", 
+        ".rodata", 
+        ".eh_frame_hdr", 
+        ".eh_frame", 
+        ".ctors", 
+        ".dtors", 
+        ".dynamic"
+    ], 
+    "metadata": {
+        "output": {
+            "pcap": {
+                "basename": "dump.pcap", 
+                "sha256": "b2ce7714f29ab11822a0e1a0a6ae6b488fa8ba32b8d9a8a1b8e0321a9e2cf952", 
+                "dirname": ""
+            }
+        }
+    }
+}
