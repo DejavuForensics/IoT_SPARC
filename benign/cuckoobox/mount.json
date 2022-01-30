@@ -1,0 +1,3446 @@
+{
+    "info": {
+        "added": 1642279053.854782, 
+        "started": 1642312728.463507, 
+        "duration": 1621, 
+        "ended": 1642314349.568845, 
+        "owner": null, 
+        "score": 0.0, 
+        "id": 2651237, 
+        "category": "file", 
+        "git": {
+            "head": "e8f6317b4b3ef806085a1e99e64c6ff01f26948f", 
+            "fetch_head": "e8f6317b4b3ef806085a1e99e64c6ff01f26948f"
+        }, 
+        "monitor": "2deb9ccd75d5a7a3fe05b2625b03a8639d6ee36b", 
+        "package": "elf", 
+        "route": "internet", 
+        "custom": null, 
+        "machine": {
+            "status": "stopped", 
+            "name": "Ubuntu1904x643", 
+            "label": "Ubuntu1904x643", 
+            "platform": "linux", 
+            "manager": "VirtualBox", 
+            "started_on": "2022-01-16 06:21:00", 
+            "shutdown_on": "2022-01-16 06:25:35"
+        }, 
+        "platform": "linux", 
+        "version": "2.0.7", 
+        "options": "procmemdump=yes,route=internet"
+    }, 
+    "signatures": [], 
+    "target": {
+        "category": "file", 
+        "file": {
+            "mimetype": "application/x-executable", 
+            "yara": [], 
+            "sha1": "6077f1a9910566bde5ae318ea5595825c268776a", 
+            "name": "mount", 
+            "type": "ELF 32-bit MSB executable, SPARC, version 1 (SYSV), dynamically linked, interpreter /lib/ld-linux.so.2, for GNU/Linux 2.4.1, stripped", 
+            "sha256": "df4777d2a4779023768a9fc86482151c1f1f2e7b1a3ff8253d99f4c7bb437bbb", 
+            "urls": [], 
+            "crc32": "11D03CF7", 
+            "path": "/srv/cuckoo/cwd/storage/binaries/df4777d2a4779023768a9fc86482151c1f1f2e7b1a3ff8253d99f4c7bb437bbb", 
+            "ssdeep": "768:Be/2s4hpkQT5Z/jkXUvn2JjdIvJyNb0quX2JdT51+KrliD2RQqw6EpOaf2:w/2hWQ3IkvujdIhyNb0q3X1+KRa2RQ5G", 
+            "size": 81144, 
+            "sha512": "9a63618f3ea40e173d178a0efc5485ea6b3ca49681d88fb0ad4de76a3a34944067dfe7ee92941b0ec2d72f2fc9574ceb1a4b9f1b156448b4e6aa785adbedb429", 
+            "md5": "506c44923e449e1948d23afc6cadf403"
+        }, 
+        "custom": null
+    }, 
+    "irma": {
+        "status": 0, 
+        "probes_finished": 16, 
+        "scan_id": "3b09fd64-6cbe-4410-ae21-987144903e84", 
+        "parent_file_sha256": null, 
+        "name": "df4777d2a4779023768a9fc86482151c1f1f2e7b1a3ff8253d99f4c7bb437bbb", 
+        "probes_total": 16, 
+        "scan_date": 1642307151, 
+        "other_results": [], 
+        "submitter": "cli", 
+        "file_infos": {
+            "mimetype": "ELF 32-bit MSB executable, SPARC, version 1 (SYSV)", 
+            "sha1": "6077f1a9910566bde5ae318ea5595825c268776a", 
+            "tags": [], 
+            "timestamp_first_scan": 1642307150.85, 
+            "timestamp_last_scan": 1642307159.81, 
+            "sha256": "df4777d2a4779023768a9fc86482151c1f1f2e7b1a3ff8253d99f4c7bb437bbb", 
+            "md5": "506c44923e449e1948d23afc6cadf403", 
+            "size": 81144
+        }, 
+        "probe_results": {
+            "antivirus": {
+                "Avast Core Security (Linux)": {
+                    "status": 0, 
+                    "duration": 0.01, 
+                    "version": "3.0.3", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "F-Secure Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 2.59, 
+                    "version": "11.10", 
+                    "results": null, 
+                    "virus_database_version": "2022-01-13_04"
+                }, 
+                "Windows Defender (Windows)": {
+                    "status": 0, 
+                    "duration": 0.05, 
+                    "version": "1.1.18800.4", 
+                    "results": null, 
+                    "virus_database_version": "1.355.1049.0"
+                }, 
+                "Comodo Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 2.12, 
+                    "version": "1.1.268025.1", 
+                    "results": null, 
+                    "virus_database_version": "2021-11-02"
+                }, 
+                "Kaspersky Antivirus (Win)": {
+                    "status": 0, 
+                    "duration": 2.65, 
+                    "version": "21.3", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "ESET NOD32 Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 4.39, 
+                    "version": "4.0.96", 
+                    "results": null, 
+                    "virus_database_version": "6178ebd0-1e722 (2021-10-27)"
+                }, 
+                "GData (Windows)": {
+                    "status": 0, 
+                    "duration": 0.17, 
+                    "version": "5.5.20197.1358", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Forticlient (Linux)": {
+                    "status": 0, 
+                    "duration": 3.04, 
+                    "version": "unavailable", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Avira (Windows)": {
+                    "status": 0, 
+                    "duration": 3.89, 
+                    "version": "8.3.64.66", 
+                    "results": null, 
+                    "virus_database_version": "8.19.1.122"
+                }, 
+                "eScan Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 4.1, 
+                    "version": "7.0.21", 
+                    "results": null, 
+                    "virus_database_version": "7.90035 (27/10/2021)"
+                }, 
+                "McAfee CLI scanner (Linux)": {
+                    "status": 0, 
+                    "duration": 5.8, 
+                    "version": "6.0.6.653", 
+                    "results": null, 
+                    "virus_database_version": "10149"
+                }, 
+                "Sophos Anti-Virus (Linux)": {
+                    "status": 0, 
+                    "duration": 6.64, 
+                    "version": "5.85.0", 
+                    "results": null, 
+                    "virus_database_version": "5.88 (26 October 2021)"
+                }, 
+                "DrWeb Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.19, 
+                    "version": "11.1.10.2108031732", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "ClamAV (Linux)": {
+                    "status": 0, 
+                    "duration": 0.02, 
+                    "version": "0.103.2", 
+                    "results": null, 
+                    "virus_database_version": "26334"
+                }, 
+                "Bitdefender Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 6.12, 
+                    "version": "7.90123", 
+                    "results": null, 
+                    "virus_database_version": null
+                }, 
+                "Emsisoft Commandline Scanner (Windows)": {
+                    "status": 0, 
+                    "duration": 0.2, 
+                    "version": "2021.10.0.11201", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }
+            }
+        }, 
+        "path": "", 
+        "result_id": "afd24d4e-d784-4d03-a149-fe298fae6f3d", 
+        "file_sha256": "df4777d2a4779023768a9fc86482151c1f1f2e7b1a3ff8253d99f4c7bb437bbb"
+    }, 
+    "suricata": {
+        "tls": [], 
+        "files": [], 
+        "alerts": [], 
+        "http": []
+    }, 
+    "virustotal": {
+        "summary": {
+            "error": "resource has not been scanned yet"
+        }
+    }, 
+    "network": {
+        "tls": [], 
+        "udp": [], 
+        "dns_servers": [], 
+        "http": [], 
+        "icmp": [], 
+        "smtp": [], 
+        "tcp": [], 
+        "smtp_ex": [], 
+        "geoinfo": {}, 
+        "mitm": [], 
+        "hosts": [], 
+        "pcap_sha256": "704e5e5b3234433c01fcfd1b20a306e77e985038120492dc53965c3edd38a4ea", 
+        "dns": [], 
+        "http_ex": [], 
+        "domains": [], 
+        "dead_hosts": [], 
+        "irc": [], 
+        "https_ex": []
+    }, 
+    "resubmit": {
+        "resubmit_ids": []
+    }, 
+    "snort": {
+        "alerts": []
+    }, 
+    "behavior": {
+        "generic": [
+            {
+                "process_path": null, 
+                "process_name": "mount", 
+                "pid": 2096, 
+                "summary": {}, 
+                "first_seen": 1642279064.850252, 
+                "ppid": -1
+            }, 
+            {
+                "process_path": null, 
+                "process_name": "mount", 
+                "pid": 2097, 
+                "summary": {}, 
+                "first_seen": 1642279064.87056, 
+                "ppid": 2096
+            }
+        ], 
+        "processes": [
+            {
+                "calls": [
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.850252 mount@7f9322e6cc27[2096] execve(\"/tmp/mount\", [\"/tmp/mount\"], [\"SUDO_GID=0\", \"MAIL=/var/mail/root\", \"USER=root\", \"HOME=/root\", \"SUDO_UID=0\", \"LOGNAME=root\", \"SYSTEMTAP_MODULE=stap_\", \"TERM=unknown\", \"SYSTEMTAP_VERBOSE=2\", \"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin\", \"DISPLAY=:0\", \"LANG=en_US.UTF-8\", \"XAUTHORITY=/root/.Xauthority\", \"SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/mount\", \"SHELL=/bin/bash\", \"SUDO_USER=root\", \"PWD=/tmp/tmpzEj9gA\"])\n", 
+                        "api": "execve", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322e6cc27", 
+                        "arguments": {
+                            "p2": [
+                                "SUDO_GID=0", 
+                                "MAIL=/var/mail/root", 
+                                "USER=root", 
+                                "HOME=/root", 
+                                "SUDO_UID=0", 
+                                "LOGNAME=root", 
+                                "SYSTEMTAP_MODULE=stap_", 
+                                "TERM=unknown", 
+                                "SYSTEMTAP_VERBOSE=2", 
+                                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin", 
+                                "DISPLAY=:0", 
+                                "LANG=en_US.UTF-8", 
+                                "XAUTHORITY=/root/.Xauthority", 
+                                "SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/mount", 
+                                "SHELL=/bin/bash", 
+                                "SUDO_USER=root", 
+                                "PWD=/tmp/tmpzEj9gA"
+                            ], 
+                            "p0": "/tmp/mount", 
+                            "p1": [
+                                "/tmp/mount"
+                            ]
+                        }, 
+                        "time": 1642279064.850252
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.855561 mount@7f9322e6cc27[2096] brk(0x0) = 94545431961600\n", 
+                        "api": "brk", 
+                        "return_value": "94545431961600", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322e6cc27", 
+                        "arguments": {
+                            "p0": "0x0"
+                        }, 
+                        "time": 1642279064.855561
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.855688 mount@7f9322e6d9d7[2096] access(\"/etc/ld.so.preload\", R_OK) = -2 (ENOENT)\n", 
+                        "api": "access", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322e6d9d7", 
+                        "arguments": {
+                            "p0": "/etc/ld.so.preload", 
+                            "p1": "R_OK"
+                        }, 
+                        "time": 1642279064.855688
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.856613 mount@7f9322e6db0d[2096] openat(AT_FDCWD, \"/etc/ld.so.cache\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322e6db0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/etc/ld.so.cache"
+                        }, 
+                        "time": 1642279064.856613
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.856655 mount@7f9322e6d943[2096] fstat(4, 0x7fffa9e2c780) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322e6d943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7fffa9e2c780"
+                        }, 
+                        "time": 1642279064.856655
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.856688 mount@7f9322e6dd03[2096] mmap2(0x0, 88858, PROT_READ, MAP_PRIVATE, 4, 0) = 0x7f9322e3b000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9322e3b000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322e6dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE", 
+                            "p0": "0x0", 
+                            "p1": "88858", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642279064.856688
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.856722 mount@7f9322e6d9f7[2096] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322e6d9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642279064.856722
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.856770 mount@7f9322e6db0d[2096] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322e6db0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0"
+                        }, 
+                        "time": 1642279064.85677
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.856808 mount@7f9322e6dbd4[2096] read(4, 0x7fffa9e2c938, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322e6dbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7fffa9e2c938"
+                        }, 
+                        "time": 1642279064.856808
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.856841 mount@7f9322e6d943[2096] fstat(4, 0x7fffa9e2c7d0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322e6d943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7fffa9e2c7d0"
+                        }, 
+                        "time": 1642279064.856841
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.856871 mount@7f9322e6dd03[2096] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f9322e39000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9322e39000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322e6dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642279064.856871
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.856909 mount@7f9322e6dd03[2096] mmap2(0x0, 20600, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f9322e33000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9322e33000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322e6dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "20600", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642279064.856909
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.856945 mount@7f9322e6dd03[2096] mmap2(0x7f9322e34000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 4096) = 0x7f9322e34000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9322e34000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322e6dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f9322e34000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "4096"
+                        }, 
+                        "time": 1642279064.856945
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.856987 mount@7f9322e6dd03[2096] mmap2(0x7f9322e36000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f9322e36000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9322e36000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322e6dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f9322e36000", 
+                            "p1": "4096", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642279064.856987
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.857025 mount@7f9322e6dd03[2096] mmap2(0x7f9322e37000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f9322e37000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9322e37000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322e6dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f9322e37000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642279064.857025
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.857072 mount@7f9322e6d9f7[2096] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322e6d9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642279064.857072
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.857113 mount@7f9322e6db0d[2096] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322e6db0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0"
+                        }, 
+                        "time": 1642279064.857113
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.857150 mount@7f9322e6dbd4[2096] read(4, 0x7fffa9e2c918, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322e6dbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7fffa9e2c918"
+                        }, 
+                        "time": 1642279064.85715
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.857182 mount@7f9322e6d943[2096] fstat(4, 0x7fffa9e2c7b0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322e6d943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7fffa9e2c7b0"
+                        }, 
+                        "time": 1642279064.857182
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.857213 mount@7f9322e6dd03[2096] mmap2(0x0, 1180072, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f9322d12000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9322d12000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322e6dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1180072", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642279064.857213
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.857250 mount@7f9322e6ddb7[2096] mprotect(0x7f9322d2d000, 1060864, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322e6ddb7", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7f9322d2d000", 
+                            "p1": "1060864"
+                        }, 
+                        "time": 1642279064.85725
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.857290 mount@7f9322e6dd03[2096] mmap2(0x7f9322d2d000, 524288, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 110592) = 0x7f9322d2d000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9322d2d000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322e6dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f9322d2d000", 
+                            "p1": "524288", 
+                            "p4": "4", 
+                            "p5": "110592"
+                        }, 
+                        "time": 1642279064.85729
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.857325 mount@7f9322e6dd03[2096] mmap2(0x7f9322dad000, 532480, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 634880) = 0x7f9322dad000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9322dad000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322e6dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f9322dad000", 
+                            "p1": "532480", 
+                            "p4": "4", 
+                            "p5": "634880"
+                        }, 
+                        "time": 1642279064.857325
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.857360 mount@7f9322e6dd03[2096] mmap2(0x7f9322e30000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1167360) = 0x7f9322e30000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9322e30000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322e6dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f9322e30000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "1167360"
+                        }, 
+                        "time": 1642279064.85736
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.857401 mount@7f9322e6dd03[2096] mmap2(0x7f9322e32000, 424, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f9322e32000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9322e32000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322e6dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f9322e32000", 
+                            "p1": "424", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642279064.857401
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.857443 mount@7f9322e6d9f7[2096] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322e6d9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642279064.857443
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.857495 mount@7f9322e6db0d[2096] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/librt.so.1\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322e6db0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/librt.so.1"
+                        }, 
+                        "time": 1642279064.857495
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.857532 mount@7f9322e6dbd4[2096] read(4, 0x7fffa9e2c8f8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322e6dbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7fffa9e2c8f8"
+                        }, 
+                        "time": 1642279064.857532
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.857564 mount@7f9322e6d943[2096] fstat(4, 0x7fffa9e2c790) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322e6d943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7fffa9e2c790"
+                        }, 
+                        "time": 1642279064.857564
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.857595 mount@7f9322e6dd03[2096] mmap2(0x0, 44000, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f9322d07000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9322d07000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322e6dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "44000", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642279064.857595
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.857631 mount@7f9322e6dd03[2096] mmap2(0x7f9322d0a000, 16384, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f9322d0a000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9322d0a000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322e6dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f9322d0a000", 
+                            "p1": "16384", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642279064.857631
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.857671 mount@7f9322e6dd03[2096] mmap2(0x7f9322d0e000, 8192, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 28672) = 0x7f9322d0e000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9322d0e000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322e6dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f9322d0e000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "28672"
+                        }, 
+                        "time": 1642279064.857671
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.857707 mount@7f9322e6dd03[2096] mmap2(0x7f9322d10000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 32768) = 0x7f9322d10000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9322d10000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322e6dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f9322d10000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "32768"
+                        }, 
+                        "time": 1642279064.857707
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.857756 mount@7f9322e6d9f7[2096] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322e6d9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642279064.857756
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.857797 mount@7f9322e6db0d[2096] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libm.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322e6db0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libm.so.6"
+                        }, 
+                        "time": 1642279064.857797
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.857835 mount@7f9322e6dbd4[2096] read(4, 0x7fffa9e2c8d8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322e6dbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7fffa9e2c8d8"
+                        }, 
+                        "time": 1642279064.857835
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.857866 mount@7f9322e6d943[2096] fstat(4, 0x7fffa9e2c770) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322e6d943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7fffa9e2c770"
+                        }, 
+                        "time": 1642279064.857866
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.857900 mount@7f9322e6dd03[2096] mmap2(0x0, 1364240, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f9322bb9000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9322bb9000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322e6dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1364240", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642279064.8579
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.857935 mount@7f9322e6dd03[2096] mmap2(0x7f9322bc8000, 679936, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 61440) = 0x7f9322bc8000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9322bc8000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322e6dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f9322bc8000", 
+                            "p1": "679936", 
+                            "p4": "4", 
+                            "p5": "61440"
+                        }, 
+                        "time": 1642279064.857935
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.857974 mount@7f9322e6dd03[2096] mmap2(0x7f9322c6e000, 618496, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 741376) = 0x7f9322c6e000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9322c6e000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322e6dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f9322c6e000", 
+                            "p1": "618496", 
+                            "p4": "4", 
+                            "p5": "741376"
+                        }, 
+                        "time": 1642279064.857974
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.858009 mount@7f9322e6dd03[2096] mmap2(0x7f9322d05000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1355776) = 0x7f9322d05000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9322d05000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322e6dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f9322d05000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "1355776"
+                        }, 
+                        "time": 1642279064.858009
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.858055 mount@7f9322e6d9f7[2096] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322e6d9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642279064.858055
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.858100 mount@7f9322e6db0d[2096] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libgcc_s.so.1\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322e6db0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libgcc_s.so.1"
+                        }, 
+                        "time": 1642279064.8581
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.858135 mount@7f9322e6dbd4[2096] read(4, 0x7fffa9e2c8b8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322e6dbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7fffa9e2c8b8"
+                        }, 
+                        "time": 1642279064.858135
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.858166 mount@7f9322e6d943[2096] fstat(4, 0x7fffa9e2c750) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322e6d943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7fffa9e2c750"
+                        }, 
+                        "time": 1642279064.858166
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.858196 mount@7f9322e6dd03[2096] mmap2(0x0, 103504, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f9322b9f000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9322b9f000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322e6dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "103504", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642279064.858196
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.858231 mount@7f9322e6dd03[2096] mmap2(0x7f9322ba2000, 69632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f9322ba2000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9322ba2000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322e6dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f9322ba2000", 
+                            "p1": "69632", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642279064.858231
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.858269 mount@7f9322e6dd03[2096] mmap2(0x7f9322bb3000, 16384, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 81920) = 0x7f9322bb3000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9322bb3000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322e6dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f9322bb3000", 
+                            "p1": "16384", 
+                            "p4": "4", 
+                            "p5": "81920"
+                        }, 
+                        "time": 1642279064.858269
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.858304 mount@7f9322e6dd03[2096] mmap2(0x7f9322bb7000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 94208) = 0x7f9322bb7000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9322bb7000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322e6dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f9322bb7000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "94208"
+                        }, 
+                        "time": 1642279064.858304
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.858349 mount@7f9322e6d9f7[2096] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322e6d9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642279064.858349
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.858389 mount@7f9322e6db0d[2096] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libpthread.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322e6db0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libpthread.so.0"
+                        }, 
+                        "time": 1642279064.858389
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.858425 mount@7f9322e6dbd4[2096] read(4, 0x7fffa9e2c898, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322e6dbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7fffa9e2c898"
+                        }, 
+                        "time": 1642279064.858425
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.858457 mount@7f9322e6d943[2096] fstat(4, 0x7fffa9e2c730) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322e6d943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7fffa9e2c730"
+                        }, 
+                        "time": 1642279064.858457
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.858488 mount@7f9322e6dd03[2096] mmap2(0x0, 132288, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f9322b7e000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9322b7e000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322e6dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "132288", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642279064.858488
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.858524 mount@7f9322e6dd03[2096] mmap2(0x7f9322b85000, 61440, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 28672) = 0x7f9322b85000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9322b85000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322e6dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f9322b85000", 
+                            "p1": "61440", 
+                            "p4": "4", 
+                            "p5": "28672"
+                        }, 
+                        "time": 1642279064.858524
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.858563 mount@7f9322e6dd03[2096] mmap2(0x7f9322b94000, 20480, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 90112) = 0x7f9322b94000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9322b94000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322e6dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f9322b94000", 
+                            "p1": "20480", 
+                            "p4": "4", 
+                            "p5": "90112"
+                        }, 
+                        "time": 1642279064.858563
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.858599 mount@7f9322e6dd03[2096] mmap2(0x7f9322b99000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 106496) = 0x7f9322b99000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9322b99000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322e6dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f9322b99000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "106496"
+                        }, 
+                        "time": 1642279064.858599
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.858640 mount@7f9322e6dd03[2096] mmap2(0x7f9322b9b000, 13504, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f9322b9b000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9322b9b000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322e6dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f9322b9b000", 
+                            "p1": "13504", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642279064.85864
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.858682 mount@7f9322e6d9f7[2096] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322e6d9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642279064.858682
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.858722 mount@7f9322e6db0d[2096] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libc.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322e6db0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libc.so.6"
+                        }, 
+                        "time": 1642279064.858722
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.858757 mount@7f9322e6dbd4[2096] read(4, 0x7fffa9e2c878, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322e6dbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7fffa9e2c878"
+                        }, 
+                        "time": 1642279064.858757
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.858788 mount@7f9322e6d943[2096] fstat(4, 0x7fffa9e2c710) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322e6d943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7fffa9e2c710"
+                        }, 
+                        "time": 1642279064.858788
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.858818 mount@7f9322e6dd03[2096] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f9322b7c000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9322b7c000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322e6dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642279064.858818
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.858936 mount@7f9322e6dd03[2096] mmap2(0x0, 2008696, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f9322991000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9322991000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322e6dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "2008696", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642279064.858936
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.858973 mount@7f9322e6dd03[2096] mmap2(0x7f93229b6000, 1519616, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 151552) = 0x7f93229b6000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f93229b6000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322e6dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f93229b6000", 
+                            "p1": "1519616", 
+                            "p4": "4", 
+                            "p5": "151552"
+                        }, 
+                        "time": 1642279064.858973
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.859012 mount@7f9322e6dd03[2096] mmap2(0x7f9322b29000, 299008, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1671168) = 0x7f9322b29000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9322b29000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322e6dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f9322b29000", 
+                            "p1": "299008", 
+                            "p4": "4", 
+                            "p5": "1671168"
+                        }, 
+                        "time": 1642279064.859012
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.859047 mount@7f9322e6dd03[2096] mmap2(0x7f9322b72000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1966080) = 0x7f9322b72000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9322b72000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322e6dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f9322b72000", 
+                            "p1": "24576", 
+                            "p4": "4", 
+                            "p5": "1966080"
+                        }, 
+                        "time": 1642279064.859047
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.859087 mount@7f9322e6dd03[2096] mmap2(0x7f9322b78000, 13944, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f9322b78000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9322b78000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322e6dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f9322b78000", 
+                            "p1": "13944", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642279064.859087
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.859130 mount@7f9322e6d9f7[2096] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322e6d9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642279064.85913
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.859192 mount@7f9322e6db0d[2096] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libdl.so.2\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322e6db0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libdl.so.2"
+                        }, 
+                        "time": 1642279064.859192
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.859249 mount@7f9322e6dbd4[2096] read(4, 0x7fffa9e2c858, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322e6dbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7fffa9e2c858"
+                        }, 
+                        "time": 1642279064.859249
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.859291 mount@7f9322e6d943[2096] fstat(4, 0x7fffa9e2c6f0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322e6d943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7fffa9e2c6f0"
+                        }, 
+                        "time": 1642279064.859291
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.859323 mount@7f9322e6dd03[2096] mmap2(0x0, 20752, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f932298b000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f932298b000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322e6dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "20752", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642279064.859323
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.859365 mount@7f9322e6dd03[2096] mmap2(0x7f932298c000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 4096) = 0x7f932298c000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f932298c000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322e6dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f932298c000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "4096"
+                        }, 
+                        "time": 1642279064.859365
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.859406 mount@7f9322e6dd03[2096] mmap2(0x7f932298e000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f932298e000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f932298e000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322e6dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f932298e000", 
+                            "p1": "4096", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642279064.859406
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.859442 mount@7f9322e6dd03[2096] mmap2(0x7f932298f000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f932298f000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f932298f000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322e6dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f932298f000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642279064.859442
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.859491 mount@7f9322e6d9f7[2096] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322e6d9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642279064.859491
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.859536 mount@7f9322e6db0d[2096] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libpcre.so.3\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322e6db0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libpcre.so.3"
+                        }, 
+                        "time": 1642279064.859536
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.859573 mount@7f9322e6dbd4[2096] read(4, 0x7fffa9e2c838, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322e6dbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7fffa9e2c838"
+                        }, 
+                        "time": 1642279064.859573
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.859604 mount@7f9322e6d943[2096] fstat(4, 0x7fffa9e2c6d0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322e6d943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7fffa9e2c6d0"
+                        }, 
+                        "time": 1642279064.859604
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.859635 mount@7f9322e6dd03[2096] mmap2(0x0, 471304, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f9322917000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9322917000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322e6dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "471304", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642279064.859635
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.859670 mount@7f9322e6dd03[2096] mmap2(0x7f9322919000, 335872, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 8192) = 0x7f9322919000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9322919000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322e6dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f9322919000", 
+                            "p1": "335872", 
+                            "p4": "4", 
+                            "p5": "8192"
+                        }, 
+                        "time": 1642279064.85967
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.859709 mount@7f9322e6dd03[2096] mmap2(0x7f932296b000, 122880, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 344064) = 0x7f932296b000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f932296b000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322e6dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f932296b000", 
+                            "p1": "122880", 
+                            "p4": "4", 
+                            "p5": "344064"
+                        }, 
+                        "time": 1642279064.859709
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.859746 mount@7f9322e6dd03[2096] mmap2(0x7f9322989000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 462848) = 0x7f9322989000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9322989000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322e6dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f9322989000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "462848"
+                        }, 
+                        "time": 1642279064.859746
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.859794 mount@7f9322e6d9f7[2096] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322e6d9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642279064.859794
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.860696 mount@7f9322e6dd03[2096] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f9322915000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9322915000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322e6dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642279064.860696
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.860745 mount@7f9322e52f30[2096] arch_prctl(ARCH_SET_FS, 140269916873024) = 0\n", 
+                        "api": "arch_prctl", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322e52f30", 
+                        "arguments": {
+                            "p0": "ARCH_SET_FS", 
+                            "p1": "140269916873024"
+                        }, 
+                        "time": 1642279064.860745
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.861308 mount@7f9322e6ddb7[2096] mprotect(0x7f9322b72000, 12288, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322e6ddb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f9322b72000", 
+                            "p1": "12288"
+                        }, 
+                        "time": 1642279064.861308
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.861362 mount@7f9322e6ddb7[2096] mprotect(0x7f9322b99000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322e6ddb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f9322b99000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642279064.861362
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.861420 mount@7f9322e6ddb7[2096] mprotect(0x7f9322989000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322e6ddb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f9322989000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642279064.86142
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.861463 mount@7f9322e6ddb7[2096] mprotect(0x7f932298f000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322e6ddb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f932298f000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642279064.861463
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.861503 mount@7f9322e6ddb7[2096] mprotect(0x7f9322bb7000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322e6ddb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f9322bb7000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642279064.861503
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.861563 mount@7f9322e6ddb7[2096] mprotect(0x7f9322d05000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322e6ddb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f9322d05000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642279064.861563
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.861620 mount@7f9322e6ddb7[2096] mprotect(0x7f9322d10000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322e6ddb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f9322d10000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642279064.86162
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.861921 mount@7f9322e6ddb7[2096] mprotect(0x7f9322e30000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322e6ddb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f9322e30000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642279064.861921
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.862097 mount@7f9322e6ddb7[2096] mprotect(0x7f9322e37000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322e6ddb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f9322e37000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642279064.862097
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.865692 mount@7f9322e6ddb7[2096] mprotect(0x55fd0f66d000, 303104, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322e6ddb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x55fd0f66d000", 
+                            "p1": "303104"
+                        }, 
+                        "time": 1642279064.865692
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.865907 mount@7f9322e6ddb7[2096] mprotect(0x7f9322e7b000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322e6ddb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f9322e7b000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642279064.865907
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.866384 mount@7f9322e6dd97[2096] munmap(0x7f9322e3b000, 88858) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322e6dd97", 
+                        "arguments": {
+                            "p0": "0x7f9322e3b000", 
+                            "p1": "88858"
+                        }, 
+                        "time": 1642279064.866384
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.866557 mount@7f9322b858df[2096] set_tid_address(0x7f9322916410) = 2096\n", 
+                        "api": "set_tid_address", 
+                        "return_value": "2096", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322b858df", 
+                        "arguments": {
+                            "p0": "0x7f9322916410"
+                        }, 
+                        "time": 1642279064.866557
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.866634 mount@7f9322b8594a[2096] set_robust_list(0x7f9322916420, 24) = 0\n", 
+                        "api": "set_robust_list", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322b8594a", 
+                        "arguments": {
+                            "p0": "0x7f9322916420", 
+                            "p1": "24"
+                        }, 
+                        "time": 1642279064.866634
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.866734 mount@7f9322b92010[2096] rt_sigaction(0x20, {0x7f9322b856c0, SA_SIGINFO|SA_RESTORER, 0x7f9322b91f40, [EMPTY]}, 0x0, 8) = 0\n", 
+                        "api": "rt_sigaction", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322b92010", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "0x20", 
+                            "p1": [
+                                "0x7f9322b856c0", 
+                                "SA_SIGINFO|SA_RESTORER", 
+                                "0x7f9322b91f40", 
+                                [
+                                    "EMPTY]"
+                                ]
+                            ]
+                        }, 
+                        "time": 1642279064.866734
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.866829 mount@7f9322b92010[2096] rt_sigaction(0x21, {0x7f9322b85760, SA_RESTART|SA_SIGINFO|SA_RESTORER, 0x7f9322b91f40, [EMPTY]}, 0x0, 8) = 0\n", 
+                        "api": "rt_sigaction", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322b92010", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "0x21", 
+                            "p1": [
+                                "0x7f9322b85760", 
+                                "SA_RESTART|SA_SIGINFO|SA_RESTORER", 
+                                "0x7f9322b91f40", 
+                                [
+                                    "EMPTY]"
+                                ]
+                            ]
+                        }, 
+                        "time": 1642279064.866829
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.867120 mount@7f9322b85a19[2096] rt_sigprocmask(SIG_UNBLOCK, [EMPTY], 0x0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322b85a19", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "SIG_UNBLOCK", 
+                            "p1": [
+                                "EMPTY"
+                            ]
+                        }, 
+                        "time": 1642279064.86712
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.867245 mount@7f9322aa3df0[2096] prlimit64(0, RLIMIT_STACK, NULL, 0x7fffa9e2d510) = 0\n", 
+                        "api": "prlimit64", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322aa3df0", 
+                        "arguments": {
+                            "p2": "NULL", 
+                            "p3": "0x7fffa9e2d510", 
+                            "p0": "0", 
+                            "p1": "RLIMIT_STACK"
+                        }, 
+                        "time": 1642279064.867245
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.867705 mount@7f9322aa42f7[2096] brk(0x0) = 94545431961600\n", 
+                        "api": "brk", 
+                        "return_value": "94545431961600", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322aa42f7", 
+                        "arguments": {
+                            "p0": "0x0"
+                        }, 
+                        "time": 1642279064.867705
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.867796 mount@7f9322aa42f7[2096] brk(0x55fd12e53000) = 94545432096768\n", 
+                        "api": "brk", 
+                        "return_value": "94545432096768", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322aa42f7", 
+                        "arguments": {
+                            "p0": "0x55fd12e53000"
+                        }, 
+                        "time": 1642279064.867796
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.869267 mount@7f9322b8eb86[2096] rt_sigprocmask(SIG_SETMASK, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS], 0x7fffa9e2d460, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322b8eb86", 
+                        "arguments": {
+                            "p2": "0x7fffa9e2d460", 
+                            "p3": "8", 
+                            "p0": "SIG_SETMASK", 
+                            "p1": [
+                                "SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS"
+                            ]
+                        }, 
+                        "time": 1642279064.869267
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.870109 mount@7f9322aa84c3[2096] mmap2(0x0, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f9322114000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9322114000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322aa84c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK", 
+                            "p0": "0x0", 
+                            "p1": "8392704", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642279064.870109
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.870178 mount@7f9322aa8597[2096] mprotect(0x7f9322115000, 8388608, PROT_READ|PROT_WRITE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322aa8597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p0": "0x7f9322115000", 
+                            "p1": "8388608"
+                        }, 
+                        "time": 1642279064.870178
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.870268 mount@7f9322aaeb11[2096] clone(CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, 0x7f9322913f70, 0x7f93229149d0, 0x7f93229149d0) = 2097\n", 
+                        "api": "clone", 
+                        "return_value": "2097", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322aaeb11", 
+                        "arguments": {
+                            "p2": "0x7f93229149d0", 
+                            "p3": "0x7f93229149d0", 
+                            "p0": "CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID", 
+                            "p1": "0x7f9322913f70"
+                        }, 
+                        "time": 1642279064.870268
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.870386 mount@7f9322b8eb86[2096] rt_sigprocmask(SIG_SETMASK, [EMPTY], 0x0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322b8eb86", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "SIG_SETMASK", 
+                            "p1": [
+                                "EMPTY"
+                            ]
+                        }, 
+                        "time": 1642279064.870386
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.872966 mount@7f9322aa3df0[2096] prlimit64(0, RLIMIT_STACK, NULL, 0x7fffa9e2d020) = 0\n", 
+                        "api": "prlimit64", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322aa3df0", 
+                        "arguments": {
+                            "p2": "NULL", 
+                            "p3": "0x7fffa9e2d020", 
+                            "p0": "0", 
+                            "p1": "RLIMIT_STACK"
+                        }, 
+                        "time": 1642279064.872966
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.873050 mount@7f9322aa35c1[2096] openat(AT_FDCWD, \"/etc/qemu-binfmt/sparc\", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -2 (ENOENT)\n", 
+                        "api": "openat", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322aa35c1", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/etc/qemu-binfmt/sparc"
+                        }, 
+                        "time": 1642279064.87305
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.873172 mount@7f9322a72247[2096] uname(0x7fffa9e2cc90) = 0\n", 
+                        "api": "uname", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322a72247", 
+                        "arguments": {
+                            "p0": "0x7fffa9e2cc90"
+                        }, 
+                        "time": 1642279064.873172
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.873231 mount@7f9322b91337[2096] lseek(3, 0, SEEK_SET) = 0\n", 
+                        "api": "lseek", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322b91337", 
+                        "arguments": {
+                            "p2": "SEEK_SET", 
+                            "p0": "3", 
+                            "p1": "0"
+                        }, 
+                        "time": 1642279064.873231
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.873293 mount@7f9322b90d94[2096] read(3, 0x7fffa9e2cf80, 52) = 52\n", 
+                        "api": "read", 
+                        "return_value": "52", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322b90d94", 
+                        "arguments": {
+                            "p2": "52", 
+                            "p0": "3", 
+                            "p1": "0x7fffa9e2cf80"
+                        }, 
+                        "time": 1642279064.873293
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.873352 mount@7f9322b91337[2096] lseek(3, 0, SEEK_SET) = 0\n", 
+                        "api": "lseek", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322b91337", 
+                        "arguments": {
+                            "p2": "SEEK_SET", 
+                            "p0": "3", 
+                            "p1": "0"
+                        }, 
+                        "time": 1642279064.873352
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.874616 mount@7f9322aa84c3[2096] mmap2(0x0, 528384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f9322093000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f9322093000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322aa84c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "528384", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642279064.874616
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.875280 mount@7f9322aa8597[2096] mprotect(0x55fd0f6ca000, 33550336, PROT_READ|PROT_WRITE|PROT_EXEC) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322aa8597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE|PROT_EXEC", 
+                            "p0": "0x55fd0f6ca000", 
+                            "p1": "33550336"
+                        }, 
+                        "time": 1642279064.87528
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.876452 mount@7f9322aa8667[2096] madvise(0x55fd0f6ca000, 33550336, MADV_HUGEPAGE) = 0\n", 
+                        "api": "madvise", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322aa8667", 
+                        "arguments": {
+                            "p2": "MADV_HUGEPAGE", 
+                            "p0": "0x55fd0f6ca000", 
+                            "p1": "33550336"
+                        }, 
+                        "time": 1642279064.876452
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.876713 mount@7f9322aa84c3[2096] mmap2(0x0, 4294963200, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f921c001000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f921c001000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322aa84c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x0", 
+                            "p1": "4294963200", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642279064.876713
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.876788 mount@7f9322a9dd59[2096] openat(AT_FDCWD, \"/proc/sys/vm/mmap_min_addr\", O_RDONLY) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322a9dd59", 
+                        "arguments": {
+                            "p2": "O_RDONLY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/proc/sys/vm/mmap_min_addr"
+                        }, 
+                        "time": 1642279064.876788
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.876875 mount@7f9322a9d613[2096] fstat(4, 0x7fffa9e2c690) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322a9d613", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7fffa9e2c690"
+                        }, 
+                        "time": 1642279064.876875
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.876931 mount@7f9322a9dfb4[2096] read(4, 0x55fd12e3f3d0, 1024) = 6\n", 
+                        "api": "read", 
+                        "return_value": "6", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322a9dfb4", 
+                        "arguments": {
+                            "p2": "1024", 
+                            "p0": "4", 
+                            "p1": "0x55fd12e3f3d0"
+                        }, 
+                        "time": 1642279064.876931
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.877004 mount@7f9322aa33f7[2096] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322aa33f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642279064.877004
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.877064 mount@7f9322aa82e9[2096] gettid() = 2096\n", 
+                        "api": "gettid", 
+                        "return_value": "2096", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322aa82e9", 
+                        "arguments": {}, 
+                        "time": 1642279064.877064
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.877096 mount@7f9322a9d613[2096] fstat(3, 0x7fffa9e2cf00) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322a9d613", 
+                        "arguments": {
+                            "p0": "3", 
+                            "p1": "0x7fffa9e2cf00"
+                        }, 
+                        "time": 1642279064.877096
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.877128 mount@7f9322a73717[2096] geteuid() = 0\n", 
+                        "api": "geteuid", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322a73717", 
+                        "arguments": {}, 
+                        "time": 1642279064.877128
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.877159 mount@7f9322a73737[2096] getegid() = 0\n", 
+                        "api": "getegid", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322a73737", 
+                        "arguments": {}, 
+                        "time": 1642279064.877159
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.877189 mount@7f9322b90d94[2096] read(3, 0x7fffa9e2d100, 1024) = 1024\n", 
+                        "api": "read", 
+                        "return_value": "1024", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322b90d94", 
+                        "arguments": {
+                            "p2": "1024", 
+                            "p0": "3", 
+                            "p1": "0x7fffa9e2d100"
+                        }, 
+                        "time": 1642279064.877189
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.877225 mount@7f9322aa84c3[2096] mmap2(0x7f921c011000, 77824, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 3, 0) = 0x7f921c011000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f921c011000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322aa84c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED", 
+                            "p0": "0x7f921c011000", 
+                            "p1": "77824", 
+                            "p4": "3", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642279064.877225
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.877271 mount@7f9322aa42f7[2096] brk(0x55fd12e74000) = 94545432231936\n", 
+                        "api": "brk", 
+                        "return_value": "94545432231936", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322aa42f7", 
+                        "arguments": {
+                            "p0": "0x55fd12e74000"
+                        }, 
+                        "time": 1642279064.877271
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.877326 mount@7f9322aa84c3[2096] mmap2(0x7f921c033000, 8192, PROT_READ|PROT_WRITE|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 3, 73728) = 0x7f921c033000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f921c033000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322aa84c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED", 
+                            "p0": "0x7f921c033000", 
+                            "p1": "8192", 
+                            "p4": "3", 
+                            "p5": "73728"
+                        }, 
+                        "time": 1642279064.877326
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.877366 mount@7f9322aa84c3[2096] mmap2(0x7f921c035000, 4096, PROT_READ|PROT_WRITE|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f921c035000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f921c035000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322aa84c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f921c035000", 
+                            "p1": "4096", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642279064.877366
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.877409 mount@7f9322b90e27[2096] close(3) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322b90e27", 
+                        "arguments": {
+                            "p0": "3"
+                        }, 
+                        "time": 1642279064.877409
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.877469 mount@7f9322aa84c3[2096] mmap2(0x7f931b7ff000, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f931b7ff000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f931b7ff000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322aa84c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f931b7ff000", 
+                            "p1": "8392704", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642279064.877469
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.877576 mount@7f9322aa8597[2096] mprotect(0x7f931b7ff000, 4096, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322aa8597", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7f931b7ff000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642279064.877576
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.877633 mount@7f9322b9155e[2096] openat(AT_FDCWD, \"/lib/ld-linux.so.2\", O_RDONLY) = -2 (ENOENT)\n", 
+                        "api": "openat", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322b9155e", 
+                        "arguments": {
+                            "p2": "O_RDONLY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/ld-linux.so.2"
+                        }, 
+                        "time": 1642279064.877633
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.877734 mount@7f9322a9e057[2096] write(2, \"/lib/ld-linux.so.2: No such file or directory\\n\", 46) = 46\n", 
+                        "api": "write", 
+                        "return_value": "46", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322a9e057", 
+                        "arguments": {
+                            "p2": "46", 
+                            "p0": "2", 
+                            "p1": "/lib/ld-linux.so.2: No such file or directory\n"
+                        }, 
+                        "time": 1642279064.877734
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.877832 mount@7f9322a72926[2096] exit_group(-1)\n", 
+                        "api": "exit_group", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322a72926", 
+                        "arguments": {
+                            "p0": "-1"
+                        }, 
+                        "time": 1642279064.877832
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 20:37:44 2022.877893 mount@7f9322a72926[2096] futex(0x7f9322916410, FUTEX_WAKE, 1) = 0\n", 
+                        "api": "futex", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322a72926", 
+                        "arguments": {
+                            "p2": "1", 
+                            "p0": "0x7f9322916410", 
+                            "p1": "FUTEX_WAKE"
+                        }, 
+                        "time": 1642279064.877893
+                    }
+                ], 
+                "pid": 2096, 
+                "process_name": "mount", 
+                "command_line": "/tmp/mount", 
+                "first_seen": 1642279064.850252, 
+                "ppid": -1, 
+                "type": "process"
+            }, 
+            {
+                "calls": [
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2097, 
+                        "raw": "Sat Jan 15 20:37:44 2022.870560 mount@7f9322b87117[2097] set_robust_list(0x7f93229149e0, 24) = 0\n", 
+                        "api": "set_robust_list", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322b87117", 
+                        "arguments": {
+                            "p0": "0x7f93229149e0", 
+                            "p1": "24"
+                        }, 
+                        "time": 1642279064.87056
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2097, 
+                        "raw": "Sat Jan 15 20:37:44 2022.870646 mount@7f9322aa84c3[2097] mmap2(0x0, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f931a114000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f931a114000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322aa84c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x0", 
+                            "p1": "134217728", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642279064.870646
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2097, 
+                        "raw": "Sat Jan 15 20:37:44 2022.870722 mount@7f9322aa8567[2097] munmap(0x7f931a114000, 32423936) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322aa8567", 
+                        "arguments": {
+                            "p0": "0x7f931a114000", 
+                            "p1": "32423936"
+                        }, 
+                        "time": 1642279064.870722
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2097, 
+                        "raw": "Sat Jan 15 20:37:44 2022.870799 mount@7f9322aa8567[2097] munmap(0x7f9320000000, 34684928) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322aa8567", 
+                        "arguments": {
+                            "p0": "0x7f9320000000", 
+                            "p1": "34684928"
+                        }, 
+                        "time": 1642279064.870799
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2097, 
+                        "raw": "Sat Jan 15 20:37:44 2022.871099 mount@7f9322aa8597[2097] mprotect(0x7f931c000000, 135168, PROT_READ|PROT_WRITE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322aa8597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p0": "0x7f931c000000", 
+                            "p1": "135168"
+                        }, 
+                        "time": 1642279064.871099
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mount", 
+                        "pid": 2097, 
+                        "raw": "Sat Jan 15 20:37:44 2022.871202 mount@7f9322b91440[2097] nanosleep([0.010000000], 0x7f9322913dc0) = -516\n", 
+                        "api": "nanosleep", 
+                        "return_value": "-516", 
+                        "category": "process", 
+                        "instruction_pointer": "7f9322b91440", 
+                        "arguments": {
+                            "p0": [
+                                "0.010000000"
+                            ], 
+                            "p1": "0x7f9322913dc0"
+                        }, 
+                        "time": 1642279064.871202
+                    }
+                ], 
+                "pid": 2097, 
+                "process_name": "mount", 
+                "command_line": "", 
+                "first_seen": 1642279064.87056, 
+                "ppid": 2096, 
+                "type": "process"
+            }
+        ], 
+        "processtree": [
+            {
+                "track": true, 
+                "pid": 2096, 
+                "process_name": "mount", 
+                "command_line": "/tmp/mount", 
+                "first_seen": 1642279064.850252, 
+                "ppid": -1, 
+                "children": [
+                    {
+                        "track": true, 
+                        "pid": 2097, 
+                        "process_name": "mount", 
+                        "command_line": "", 
+                        "first_seen": 1642279064.87056, 
+                        "ppid": 2096, 
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    }, 
+    "debug": {
+        "action": [], 
+        "dbgview": [], 
+        "errors": [], 
+        "log": [
+            "2022-01-15 20:37:33,021 [root] DEBUG: Starting analyzer from: /tmp/tmpzEj9gA\n", 
+            "2022-01-15 20:37:33,022 [root] DEBUG: Storing results at: /tmp/HkAQVkF\n", 
+            "2022-01-15 20:37:35,140 [modules.auxiliary.filecollector] INFO: FileCollector started v0.08\n", 
+            "2022-01-15 20:37:35,143 [modules.auxiliary.human] INFO: Human started v0.02\n", 
+            "2022-01-15 20:37:35,145 [modules.auxiliary.screenshots] INFO: Screenshots started v0.03\n", 
+            "2022-01-15 20:37:44,847 [lib.core.packages] INFO: Process startup took 9.70 seconds\n", 
+            "2022-01-15 20:37:44,851 [root] INFO: Added new process to list with pid: 2084\n", 
+            "2022-01-15 20:37:56,869 [root] INFO: Process with pid 2084 has terminated\n", 
+            "2022-01-15 20:37:56,871 [root] INFO: Process list is empty, terminating analysis.\n", 
+            "2022-01-15 20:37:59,875 [lib.core.packages] INFO: Package requested stop\n", 
+            "2022-01-15 20:37:59,876 [lib.core.packages] WARNING: Exception uploading log: [Errno 3] No such process\n"
+        ], 
+        "cuckoo": [
+            "2022-01-16 05:59:24,540 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 05:59:34,596 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 05:59:44,644 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 05:59:54,684 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:00:04,749 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:00:14,806 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:00:24,865 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:00:34,894 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:00:44,920 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:00:54,941 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:01:04,967 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:01:14,991 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:01:25,017 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:01:35,038 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:01:45,059 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:01:55,085 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:02:05,106 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:02:15,131 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:02:25,162 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:02:35,183 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:02:45,234 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:02:55,326 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:03:05,392 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:03:15,445 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:03:25,483 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:03:35,522 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:03:45,560 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:03:55,590 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:04:05,614 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:04:15,640 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:04:25,661 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:04:35,684 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:04:45,706 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:04:55,725 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:05:05,750 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:05:15,772 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:05:25,796 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:05:35,853 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:05:45,879 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:05:55,910 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:06:05,941 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:06:15,974 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:06:26,013 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:06:36,055 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:06:46,089 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:06:56,125 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:07:06,184 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:07:16,238 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:07:26,277 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:07:36,352 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:07:46,397 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:07:56,454 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:08:06,525 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:08:16,550 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:08:26,575 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:08:36,603 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:08:46,637 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:08:56,665 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:09:06,705 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:09:16,742 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:09:26,779 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:09:36,943 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:09:47,015 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:09:57,081 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:10:07,153 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:10:17,234 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:10:27,371 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:10:37,476 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:10:47,579 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:10:57,708 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:11:07,833 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:11:17,946 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:11:28,062 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:11:38,237 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:11:48,304 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:11:58,377 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:12:08,477 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:12:18,563 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:12:28,625 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:12:38,689 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:12:48,747 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:12:58,804 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:13:08,846 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:13:18,958 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:13:29,022 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:13:39,087 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:13:49,133 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:13:59,287 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:14:09,326 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:14:19,354 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:14:29,388 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:14:39,440 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:14:49,483 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:14:59,508 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:15:09,553 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:15:19,583 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:15:29,605 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:15:39,627 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:15:49,656 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:15:59,680 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:16:09,704 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:16:19,733 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:16:29,758 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:16:39,790 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:16:49,815 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:16:59,841 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:17:09,875 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:17:19,907 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:17:29,939 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:17:39,963 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:17:50,021 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:18:00,084 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:18:10,108 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:18:20,132 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:18:30,160 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:18:40,185 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:18:50,211 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:19:00,274 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:19:10,299 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:19:20,328 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:19:30,354 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:19:40,381 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:19:50,404 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:20:00,430 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:20:10,454 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:20:20,480 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:20:30,508 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:20:40,538 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:20:50,562 [cuckoo.core.scheduler] DEBUG: Task #2651237: no machine available yet\n", 
+            "2022-01-16 06:21:00,595 [cuckoo.core.scheduler] INFO: Task #2651237: acquired machine Ubuntu1904x643 (label=Ubuntu1904x643)\n", 
+            "2022-01-16 06:21:00,596 [cuckoo.core.resultserver] DEBUG: Now tracking machine 192.168.168.103 for task #2651237\n", 
+            "2022-01-16 06:21:00,745 [cuckoo.auxiliary.sniffer] INFO: Started sniffer with PID 3942113 (interface=vboxnet0, host=192.168.168.103)\n", 
+            "2022-01-16 06:21:00,938 [cuckoo.machinery.virtualbox] DEBUG: Starting vm Ubuntu1904x643\n", 
+            "2022-01-16 06:21:01,326 [cuckoo.machinery.virtualbox] DEBUG: Restoring virtual machine Ubuntu1904x643 to Snapshot\n", 
+            "2022-01-16 06:21:10,286 [cuckoo.core.guest] INFO: Starting analysis #2651237 on guest (id=Ubuntu1904x643, ip=192.168.168.103)\n", 
+            "2022-01-16 06:21:11,290 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: not ready yet\n", 
+            "2022-01-16 06:21:16,303 [cuckoo.core.guest] INFO: Guest is running Cuckoo Agent 0.10 (id=Ubuntu1904x643, ip=192.168.168.103)\n", 
+            "2022-01-16 06:21:16,319 [cuckoo.core.guest] DEBUG: Uploading analyzer to guest (id=Ubuntu1904x643, ip=192.168.168.103, monitor=latest, size=72028)\n", 
+            "2022-01-16 06:21:17,471 [cuckoo.core.resultserver] DEBUG: Task #2651237: live log analysis.log initialized.\n", 
+            "2022-01-16 06:21:23,086 [cuckoo.core.resultserver] DEBUG: Task #2651237: File upload for 'shots/0001.jpg'\n", 
+            "2022-01-16 06:21:23,219 [cuckoo.core.resultserver] DEBUG: Task #2651237 uploaded file length: 171552\n", 
+            "2022-01-16 06:21:31,465 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: analysis #2651237 still processing\n", 
+            "2022-01-16 06:21:44,360 [cuckoo.core.resultserver] DEBUG: Task #2651237: File upload for 'logs/all.stap'\n", 
+            "2022-01-16 06:21:44,372 [cuckoo.core.resultserver] DEBUG: Task #2651237 uploaded file length: 18560\n", 
+            "2022-01-16 06:21:46,528 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: analysis #2651237 still processing\n", 
+            "2022-01-16 06:22:01,587 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: analysis #2651237 still processing\n", 
+            "2022-01-16 06:22:16,690 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: analysis #2651237 still processing\n", 
+            "2022-01-16 06:22:31,751 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: analysis #2651237 still processing\n", 
+            "2022-01-16 06:22:46,824 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: analysis #2651237 still processing\n", 
+            "2022-01-16 06:23:01,955 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: analysis #2651237 still processing\n", 
+            "2022-01-16 06:23:17,023 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: analysis #2651237 still processing\n", 
+            "2022-01-16 06:23:32,092 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: analysis #2651237 still processing\n", 
+            "2022-01-16 06:23:47,150 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: analysis #2651237 still processing\n", 
+            "2022-01-16 06:24:02,214 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: analysis #2651237 still processing\n", 
+            "2022-01-16 06:24:17,274 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: analysis #2651237 still processing\n", 
+            "2022-01-16 06:24:32,373 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: analysis #2651237 still processing\n", 
+            "2022-01-16 06:24:47,492 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: analysis #2651237 still processing\n", 
+            "2022-01-16 06:25:02,584 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: analysis #2651237 still processing\n", 
+            "2022-01-16 06:25:17,725 [cuckoo.core.guest] INFO: Ubuntu1904x643: end of analysis reached!\n", 
+            "2022-01-16 06:25:17,738 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Redsocks\n", 
+            "2022-01-16 06:25:17,801 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Sniffer\n", 
+            "2022-01-16 06:25:31,532 [cuckoo.machinery.virtualbox] INFO: Successfully generated memory dump for virtual machine with label Ubuntu1904x643 to path /srv/cuckoo/cwd/storage/analyses/2651237/memory.dmp\n", 
+            "2022-01-16 06:25:31,533 [cuckoo.machinery.virtualbox] DEBUG: Stopping vm Ubuntu1904x643\n", 
+            "2022-01-16 06:25:35,649 [cuckoo.core.resultserver] DEBUG: Stopped tracking machine 192.168.168.103 for task #2651237\n", 
+            "2022-01-16 06:25:35,650 [cuckoo.core.resultserver] DEBUG: Cancel <Context for LOG> for task 2651237\n", 
+            "2022-01-16 06:25:35,815 [cuckoo.core.scheduler] DEBUG: Released database task #2651237\n", 
+            "2022-01-16 06:25:49,437 [cuckoo.core.scheduler] INFO: Task #2651237: analysis procedure completed\n"
+        ]
+    }, 
+    "strings": [
+        "/lib/ld-linux.so.2", 
+        "libblkid.so.1", 
+        "blkid_get_tag_value", 
+        "blkid_known_fstype", 
+        "blkid_put_cache", 
+        "blkid_get_cache", 
+        "blkid_get_devname", 
+        "_Jv_RegisterClasses", 
+        "__gmon_start__", 
+        "libuuid.so.1", 
+        "libc.so.6", 
+        "putchar", 
+        "strcpy", 
+        "waitpid", 
+        "getgid", 
+        "stdout", 
+        "connect", 
+        "__strtoull_internal", 
+        "strerror", 
+        "geteuid", 
+        "getopt_long", 
+        "snprintf", 
+        "authunix_create_default", 
+        "fchmod", 
+        "__strtol_internal", 
+        "getpid", 
+        "memcpy", 
+        "pmap_getport", 
+        "readlink", 
+        "__cxa_finalize", 
+        "getuid", 
+        "getpass", 
+        "malloc", 
+        "optarg", 
+        "xdr_bytes", 
+        "socket", 
+        "__strtoul_internal", 
+        "clnt_perror", 
+        "fflush", 
+        "xdr_void", 
+        "xdr_vector", 
+        "xdr_char", 
+        "clnt_pcreateerror", 
+        "rename", 
+        "strrchr", 
+        "__ctype_tolower_loc", 
+        "xdr_enum", 
+        "strcat", 
+        "dcgettext", 
+        "xdr_short", 
+        "optind", 
+        "ferror", 
+        "strstr", 
+        "setgid", 
+        "xdr_u_char", 
+        "strncmp", 
+        "strncpy", 
+        "unlink", 
+        "strcasecmp", 
+        "realloc", 
+        "__strdup", 
+        "strtok", 
+        "sigfillset", 
+        "xdr_opaque", 
+        "sscanf", 
+        "sigaction", 
+        "inet_aton", 
+        "__xstat64", 
+        "memset", 
+        "xdr_string", 
+        "inet_ntoa", 
+        "getgroups", 
+        "xdr_u_int", 
+        "strcmp", 
+        "getpwuid", 
+        "getcwd", 
+        "gethostbyname", 
+        "strsignal", 
+        "getpwnam", 
+        "gethostname", 
+        "sprintf", 
+        "clnttcp_create", 
+        "fclose", 
+        "strcspn", 
+        "setlocale", 
+        "stderr", 
+        "sigismember", 
+        "__lxstat64", 
+        "__ctype_b_loc", 
+        "fwrite", 
+        "bindresvport", 
+        "__errno_location", 
+        "bindtextdomain", 
+        "sigdelset", 
+        "getgrnam", 
+        "xdr_pointer", 
+        "fileno", 
+        "_IO_stdin_used", 
+        "__libc_start_main", 
+        "strlen", 
+        "xdr_array", 
+        "strchr", 
+        "rpc_createerr", 
+        "setuid", 
+        "clntudp_bufcreate", 
+        "mlockall", 
+        "getfsspec", 
+        "vfprintf", 
+        "xdr_int", 
+        "getfsfile", 
+        "clnt_sperrno", 
+        "sigprocmask", 
+        "getsockname", 
+        "fopen64", 
+        "__environ", 
+        "_edata", 
+        "__bss_start", 
+        "GLIBC_2.1.3", 
+        "GLIBC_2.1", 
+        "GLIBC_2.2", 
+        "GLIBC_2.3", 
+        "GLIBC_2.0", 
+        "block device ", 
+        "mount: cannot mount %s%s read-only", 
+        "mount: %s%s is write-protected but explicit `-w' flag given", 
+        "mount: %s%s is write-protected, mounting read-only", 
+        "mount: %s", 
+        "%s on %s", 
+        " type %s", 
+        "mount: according to mtab, %s is already mounted on %s", 
+        "mount: according to mtab, %s is mounted on %s", 
+        "uid=%d", 
+        "gid=%d", 
+        ",user=", 
+        "/sbin/mount.%s", 
+        "mount: cannot set group id: %s", 
+        "mount: cannot set user id: %s", 
+        "mount: cannot fork: %s", 
+        "mount failed", 
+        "mount: only root can mount %s on %s", 
+        "mount: cannot open %s for setting speed", 
+        "mount: cannot set speed: %s", 
+        "mount: loop device specified twice", 
+        "mount: type specified twice", 
+        "mount: skipping the setup of a loop device", 
+        "mount: going to use the loop device %s", 
+        "mount: failed setting up loop device", 
+        "mount: setup loop device successfully", 
+        "%s looks like swapspace - not mounted", 
+        "unknown", 
+        "/etc/mtab", 
+        "mount: can't open %s: %s", 
+        "mount: error writing %s: %s", 
+        "mount: failed with nfs mount version 4, trying 3..", 
+        "mount: I could not determine the filesystem type, and none was specified", 
+        "mount: you must specify the filesystem type", 
+        "mount: mount failed", 
+        "mount: mount point %s is not a directory", 
+        "mount: permission denied", 
+        "mount: must be superuser to use mount", 
+        "mount: %s is busy", 
+        "/proc/version", 
+        "mount: proc already mounted", 
+        "mount: %s already mounted or %s busy", 
+        "mount: mount point %s does not exist", 
+        "mount: mount point %s is a symbolic link to nowhere", 
+        "mount: special device %s does not exist", 
+        "mount: special device %s does not exist", 
+        "       (a path prefix is not a directory)", 
+        "mount: %s not mounted already, or bad option", 
+        "mount: wrong fs type, bad option, bad superblock on %s,", 
+        "       missing codepage or other error", 
+        "       (could this be the IDE device where you in fact use", 
+        "       ide-scsi so that sr0 or sda or so is needed?)", 
+        "       (aren't you trying to mount an extended partition,", 
+        "       instead of some logical partition inside?)", 
+        "       In some cases useful info is found in syslog - try", 
+        "       dmesg | tail  or so", 
+        "mount table full", 
+        "mount: %s: can't read superblock", 
+        "mount: %s: unknown device", 
+        "mount: unknown filesystem type '%s'", 
+        "mount: probably you meant %s", 
+        "iso9660", 
+        "mount: maybe you meant 'iso9660'?", 
+        "mount: maybe you meant 'vfat'?", 
+        "mount: %s has wrong device number or fs type %s not supported", 
+        "mount: %s is not a block device, and stat fails?", 
+        "mount: the kernel does not recognize %s as a block device", 
+        "       (maybe `insmod driver'?)", 
+        "mount: %s is not a block device (maybe try `-o loop'?)", 
+        "mount: %s is not a block device", 
+        "mount: %s is not a valid block device", 
+        "uid=useruid", 
+        "gid=usergid", 
+        "mount: no type was given - I'll assume nfs because of the colon", 
+        "mount: no type was given - I'll assume smbfs because of the // prefix", 
+        "mount: backgrounding \"%s\"", 
+        "mount: giving up \"%s\"", 
+        "Usage: mount -V                 : print version", 
+        "       mount -h                 : print this help", 
+        "       mount                    : list mounted filesystems", 
+        "       mount -l                 : idem, including volume labels", 
+        "So far the informational part. Next the mounting.", 
+        "The command is `mount [-t fstype] something somewhere'.", 
+        "Details found in /etc/fstab may be omitted.", 
+        "       mount -a [-t|-O] ...     : mount all stuff from /etc/fstab", 
+        "       mount device             : mount device at the known place", 
+        "       mount directory          : mount known device here", 
+        "       mount -t type dev dir    : ordinary mount command", 
+        "Note that one does not really mount a device, one mounts", 
+        "a filesystem (of the given type) found on the device.", 
+        "One can also mount an already visible directory tree elsewhere:", 
+        "       mount --bind olddir newdir", 
+        "or move a subtree:", 
+        "       mount --move olddir newdir", 
+        "A device can be given by name, say /dev/hda1 or /dev/cdrom,", 
+        "or by label, using  -L label  or by uuid, using  -U uuid .", 
+        "Other options: [-nfFrsvw] [-o options] [-p passwdfd].", 
+        "For many more details, say  man 8 mount .", 
+        "util-linux", 
+        "/usr/share/locale", 
+        "/dev/null", 
+        "mount: argument to -p or --pass-fd must be a number", 
+        "mount: %s", 
+        "afFhilL:k:no:O:p:rsU:vVwt:", 
+        "mount: only root can do that", 
+        "mount: no %s found - creating it..", 
+        "mount: can't open %s for writing: %s", 
+        "mount: error changing mode of %s: %s", 
+        "mount: no such partition found", 
+        "mount: mounting %s", 
+        "mount: argument to --keybits or -k must be a number", 
+        "noauto", 
+        "mount: %s already mounted on %s", 
+        "waitpid", 
+        "nothing was mounted", 
+        "mount: cannot find %s in %s", 
+        "/etc/fstab", 
+        "mount: can't find %s in %s or %s", 
+        "no-mtab", 
+        "read-only", 
+        "verbose", 
+        "version", 
+        "read-write", 
+        "options", 
+        "test-opts", 
+        "pass-fd", 
+        "keybits", 
+        "replace", 
+        "before", 
+        "guess-fstype", 
+        "internal-only", 
+        "offset=", 
+        "encryption=", 
+        "keybits=", 
+        "nohashpass", 
+        "speed=", 
+        "comment=", 
+        "defaults", 
+        "noexec", 
+        "nosuid", 
+        "dirsync", 
+        "remount", 
+        "nousers", 
+        "nouser", 
+        "noowner", 
+        "nogroup", 
+        "_netdev", 
+        "comment", 
+        "nomand", 
+        "noatime", 
+        "diratime", 
+        "nodiratime", 
+        "ignore", 
+        "warning: error reading %s: %s", 
+        "warning: can't open %s: %s", 
+        "/etc/mtab~", 
+        "/proc/mounts", 
+        "mount: could not open %s - using %s instead", 
+        "/etc/mtab~%d", 
+        "can't create lock file %s: %s (use -n flag to override)", 
+        "can't link lock file %s: %s (use -n flag to override)", 
+        "can't open lock file %s: %s (use -n flag to override)", 
+        "Can't lock lock file %s: %s", 
+        "can't lock lock file %s: %s", 
+        "timed out", 
+        "Cannot create link %s", 
+        "Perhaps there is a stale lock file?", 
+        "LABEL=", 
+        "cannot open %s (%s) - mtab not updated", 
+        "/etc/mtab.tmp", 
+        "error writing %s: %s", 
+        "error changing mode of %s: %s", 
+        "can't rename %s to %s: %s", 
+        "devpts", 
+        "bug in xstrndup call", 
+        "not enough memory", 
+        "; rest of file ignored", 
+        "%s %s %s %s %d %d", 
+        "[mntent]: warning: no final newline at the end of %s", 
+        "[mntent]: line %d in %s is bad%s", 
+        "nodev %[^", 
+        "/proc/filesystems", 
+        "/etc/filesystems", 
+        "Trying %s", 
+        "mount: you didn't specify a filesystem type for %s", 
+        "       I will try all types mentioned in %s or %s", 
+        "       and it looks like this is swapspace", 
+        "       I will try type %s", 
+        "%s -- %s", 
+        "_RLD_=", 
+        "BASH_ENV=", 
+        "KRB_CONF=", 
+        "LIBPATH=", 
+        "NLSPATH=", 
+        "SHELL=", 
+        "SHLIB_PATH=", 
+        "LANGUAGE=", 
+        "retrans", 
+        "acregmin", 
+        "acregmax", 
+        "acdirmin", 
+        "acdirmax", 
+        "actimeo", 
+        "mountport", 
+        "mountprog", 
+        "mountvers", 
+        "mounthost", 
+        "nfsprog", 
+        "nfsvers", 
+        "namlen", 
+        "%s=%s,", 
+        "Warning: ignoring sec=%s option", 
+        "lipkey", 
+        "lipkey-i", 
+        "lipkey-p", 
+        "spkm3i", 
+        "spkm3p", 
+        "Warning: Unrecognized security flavor %s.", 
+        "context", 
+        "context parameter exceeds limit of %d", 
+        "broken_suid", 
+        "Unsupported nfs mount option: %s%s", 
+        "mount: excessively long option argument", 
+        "Bad nfs mount parameter: %s", 
+        "'vers=4' is not supported.  Use '-t nfs4' instead.", 
+        "NFS version %ld is not supported.", 
+        "NFS mount version %ld s not supported.", 
+        "mount: %s:%s failed, reason given by server: %s", 
+        "mount: %s:%s failed, security flavor not supported", 
+        "nfs socket", 
+        "nfs bindresvport", 
+        "nfs connect", 
+        "addr=%s", 
+        "mount: can't get address for %s", 
+        "mount: got bad hp->h_length", 
+        "unknown nfs status return value: %d", 
+        "RPC Error: %d (%s )", 
+        "System Error: %d (%s)", 
+        "mounthost=", 
+        "mountprog=", 
+        "mountport=", 
+        "nfsvers=", 
+        "mountvers=", 
+        "mount to NFS server '%s' failed", 
+        ": server is down.", 
+        ": possible invalid protocol.", 
+        ": possible invalid port.", 
+        "mount: excessively long host:dir argument", 
+        "mount: warning: multiple hostnames not supported", 
+        "mount: directory to mount not in host:dir format", 
+        "%s%saddr=%s", 
+        "Warning: Unrecognized proto= option.", 
+        "clientaddr", 
+        "Invalid client address %s", 
+        "mount: maximum number of security flavors exceeded", 
+        "mount: unknown security type %s", 
+        "mount: no security flavors passed to sec= option", 
+        "unknown nfs mount parameter: %s=%d", 
+        "unknown nfs mount option: %s%s", 
+        "mount to NFS server '%s' failed.", 
+        "mount: can't determine client address", 
+        "/var/run/rpc.idmapd.pid", 
+        "/var/run/rpc.gssd.pid", 
+        "loop: can't delete device %s: %s", 
+        "ioctl: LOOP_CLR_FD", 
+        "del_loop(%s): success", 
+        "Out of memory while reading passphrase", 
+        "/proc/crypto/cipher", 
+        "%s-cbc", 
+        "memlock", 
+        "Couldn't lock into memory, exiting.", 
+        "Password: ", 
+        "ioctl: LOOP_SET_FD", 
+        "The cipher does not exist, or a cipher module needs to be loaded into the kernel", 
+        "ioctl: LOOP_SET_STATUS", 
+        "ioctl: LOOP_SET_STATUS64", 
+        "set_loop(%s,%s,%llu): success", 
+        "/dev/loop%d", 
+        "/dev/loop/%d", 
+        "%s: could not find any device /dev/loop#", 
+        "%s: no permission to look at /dev/loop#", 
+        "%s: Could not find any loop device. Maybe this kernel does not know", 
+        "       about the loop device? (If so, recompile or `modprobe loop'.)", 
+        "%s: could not find any free loop device", 
+        "twofish", 
+        "blowfish", 
+        "serpent", 
+        "des-ede3", 
+        "rijndael", 
+        "mount-2.12r", 
+        "127.0.0.1", 
+        "GCC: (GNU) 4.1.2 20061115 (prerelease) (Debian 4.1.1-21)", 
+        "GCC: (GNU) 4.1.2 20061115 (prerelease) (Debian 4.1.1-21)", 
+        "GCC: (GNU) 4.1.2 20061115 (prerelease) (Debian 4.1.1-21)", 
+        "GCC: (GNU) 4.1.2 20061115 (prerelease) (Debian 4.1.1-21)", 
+        "GCC: (GNU) 4.1.2 20061115 (prerelease) (Debian 4.1.1-21)", 
+        "GCC: (GNU) 4.1.2 20061115 (prerelease) (Debian 4.1.1-21)", 
+        "GCC: (GNU) 4.1.2 20061115 (prerelease) (Debian 4.1.1-21)", 
+        "GCC: (GNU) 4.1.2 20061115 (prerelease) (Debian 4.1.1-21)", 
+        "GCC: (GNU) 4.1.2 20061115 (prerelease) (Debian 4.1.1-21)", 
+        "GCC: (GNU) 4.1.2 20061115 (prerelease) (Debian 4.1.1-21)", 
+        "GCC: (GNU) 4.1.2 20061115 (prerelease) (Debian 4.1.1-21)", 
+        "GCC: (GNU) 4.1.2 20061115 (prerelease) (Debian 4.1.1-21)", 
+        "GCC: (GNU) 4.1.2 20061115 (prerelease) (Debian 4.1.1-21)", 
+        "GCC: (GNU) 4.1.2 20061115 (prerelease) (Debian 4.1.1-21)", 
+        "GCC: (GNU) 4.1.2 20061115 (prerelease) (Debian 4.1.1-21)", 
+        "GCC: (GNU) 4.1.2 20061115 (prerelease) (Debian 4.1.1-21)", 
+        "GCC: (GNU) 4.1.2 20061115 (prerelease) (Debian 4.1.1-21)", 
+        "GCC: (GNU) 4.1.2 20061115 (prerelease) (Debian 4.1.1-21)", 
+        "GCC: (GNU) 4.1.2 20061115 (prerelease) (Debian 4.1.1-21)", 
+        "GCC: (GNU) 4.1.2 20061115 (prerelease) (Debian 4.1.1-21)", 
+        "GCC: (GNU) 4.1.2 20061115 (prerelease) (Debian 4.1.1-21)", 
+        "GCC: (GNU) 4.1.2 20061115 (prerelease) (Debian 4.1.1-21)", 
+        "GCC: (GNU) 4.1.2 20061115 (prerelease) (Debian 4.1.1-21)", 
+        "GCC: (GNU) 4.1.2 20061115 (prerelease) (Debian 4.1.1-21)", 
+        "GCC: (GNU) 4.1.2 20061115 (prerelease) (Debian 4.1.1-21)", 
+        "GCC: (GNU) 4.1.2 20061115 (prerelease) (Debian 4.1.1-21)", 
+        "GCC: (GNU) 4.1.2 20061115 (prerelease) (Debian 4.1.1-21)", 
+        ".shstrtab", 
+        ".interp", 
+        ".note.ABI-tag", 
+        ".dynsym", 
+        ".dynstr", 
+        ".gnu.version", 
+        ".gnu.version_r", 
+        ".rela.dyn", 
+        ".rela.plt", 
+        ".rodata", 
+        ".eh_frame", 
+        ".ctors", 
+        ".dtors", 
+        ".dynamic", 
+        ".comment"
+    ], 
+    "metadata": {
+        "output": {
+            "pcap": {
+                "basename": "dump.pcap", 
+                "sha256": "704e5e5b3234433c01fcfd1b20a306e77e985038120492dc53965c3edd38a4ea", 
+                "dirname": ""
+            }
+        }
+    }
+}
