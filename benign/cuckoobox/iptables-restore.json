@@ -1,0 +1,3272 @@
+{
+    "info": {
+        "added": 1642277455.511434, 
+        "started": 1642294567.086339, 
+        "duration": 1009, 
+        "ended": 1642295576.953126, 
+        "owner": null, 
+        "score": 0.0, 
+        "id": 2650766, 
+        "category": "file", 
+        "git": {
+            "head": "e8f6317b4b3ef806085a1e99e64c6ff01f26948f", 
+            "fetch_head": "e8f6317b4b3ef806085a1e99e64c6ff01f26948f"
+        }, 
+        "monitor": "2deb9ccd75d5a7a3fe05b2625b03a8639d6ee36b", 
+        "package": "elf", 
+        "route": "internet", 
+        "custom": null, 
+        "machine": {
+            "status": "stopped", 
+            "name": "Ubuntu1904x644", 
+            "label": "Ubuntu1904x644", 
+            "platform": "linux", 
+            "manager": "VirtualBox", 
+            "started_on": "2022-01-16 00:56:11", 
+            "shutdown_on": "2022-01-16 01:12:56"
+        }, 
+        "platform": "linux", 
+        "version": "2.0.7", 
+        "options": "procmemdump=yes,route=internet"
+    }, 
+    "signatures": [], 
+    "target": {
+        "category": "file", 
+        "file": {
+            "mimetype": "application/x-executable", 
+            "yara": [], 
+            "sha1": "75c28c29e32bbf4fc4e651cea859a339a4e98b44", 
+            "name": "iptables-restore", 
+            "type": "ELF 32-bit MSB executable, SPARC, version 1 (SYSV), dynamically linked, interpreter /lib/ld-linux.so.2, for GNU/Linux 2.4.1, stripped", 
+            "sha256": "1af50b361a4ec63791100dd990179c4d81d88bbb77bf611cd547c176bbd148af", 
+            "urls": [], 
+            "crc32": "02A42480", 
+            "path": "/srv/cuckoo/cwd/storage/binaries/1af50b361a4ec63791100dd990179c4d81d88bbb77bf611cd547c176bbd148af", 
+            "ssdeep": "768:WSx6BwY8HTBYbsLjfg3ROvh24hh7S/UbPWYpvuHvvr5b5:YBwNKMnvh24hh7S/UrWlj", 
+            "size": 52080, 
+            "sha512": "741eed08b15b233b8289e83fd0ce8fc0221c1dad328874627ad7c69974916d3dfefdbc98b9df81ea92d6d882ce45c81f05d67aea24e21e39b62d17e67e3e748c", 
+            "md5": "837862af6bae1e9000406ade3611ab5a"
+        }, 
+        "custom": null
+    }, 
+    "irma": {
+        "status": 0, 
+        "probes_finished": 16, 
+        "scan_id": "dbcd8b76-97bf-421b-b1b5-bdbf58138e59", 
+        "parent_file_sha256": null, 
+        "name": "1af50b361a4ec63791100dd990179c4d81d88bbb77bf611cd547c176bbd148af", 
+        "probes_total": 16, 
+        "scan_date": 1642288396, 
+        "other_results": [], 
+        "submitter": "cli", 
+        "file_infos": {
+            "mimetype": "ELF 32-bit MSB executable, SPARC, version 1 (SYSV)", 
+            "sha1": "75c28c29e32bbf4fc4e651cea859a339a4e98b44", 
+            "tags": [], 
+            "timestamp_first_scan": 1642288395.88, 
+            "timestamp_last_scan": 1642288410.92, 
+            "sha256": "1af50b361a4ec63791100dd990179c4d81d88bbb77bf611cd547c176bbd148af", 
+            "md5": "837862af6bae1e9000406ade3611ab5a", 
+            "size": 52080
+        }, 
+        "probe_results": {
+            "antivirus": {
+                "Avast Core Security (Linux)": {
+                    "status": 0, 
+                    "duration": 0.01, 
+                    "version": "3.0.3", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "F-Secure Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.03, 
+                    "version": "11.10", 
+                    "results": null, 
+                    "virus_database_version": "2022-01-13_04"
+                }, 
+                "Windows Defender (Windows)": {
+                    "status": 0, 
+                    "duration": 0.05, 
+                    "version": "1.1.18800.4", 
+                    "results": null, 
+                    "virus_database_version": "1.355.1049.0"
+                }, 
+                "Comodo Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 2.18, 
+                    "version": "1.1.268025.1", 
+                    "results": null, 
+                    "virus_database_version": "2021-11-02"
+                }, 
+                "Kaspersky Antivirus (Win)": {
+                    "status": 0, 
+                    "duration": 2.67, 
+                    "version": "21.3", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "ESET NOD32 Antivirus (Linux)": {
+                    "status": -1, 
+                    "version": null, 
+                    "error": "job error"
+                }, 
+                "GData (Windows)": {
+                    "status": 0, 
+                    "duration": 0.19, 
+                    "version": "5.5.20197.1358", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Forticlient (Linux)": {
+                    "status": 0, 
+                    "duration": 3.03, 
+                    "version": "unavailable", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Avira (Windows)": {
+                    "status": 0, 
+                    "duration": 4.0, 
+                    "version": "8.3.64.66", 
+                    "results": null, 
+                    "virus_database_version": "8.19.1.122"
+                }, 
+                "eScan Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 3.43, 
+                    "version": "7.0.21", 
+                    "results": null, 
+                    "virus_database_version": "7.90035 (27/10/2021)"
+                }, 
+                "McAfee CLI scanner (Linux)": {
+                    "status": 0, 
+                    "duration": 6.1, 
+                    "version": "6.0.6.653", 
+                    "results": null, 
+                    "virus_database_version": "10149"
+                }, 
+                "Sophos Anti-Virus (Linux)": {
+                    "status": 0, 
+                    "duration": 6.63, 
+                    "version": "5.85.0", 
+                    "results": null, 
+                    "virus_database_version": "5.88 (26 October 2021)"
+                }, 
+                "DrWeb Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.21, 
+                    "version": "11.1.10.2108031732", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "ClamAV (Linux)": {
+                    "status": 0, 
+                    "duration": 0.02, 
+                    "version": "0.103.2", 
+                    "results": null, 
+                    "virus_database_version": "26334"
+                }, 
+                "Bitdefender Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 6.2, 
+                    "version": "7.90123", 
+                    "results": null, 
+                    "virus_database_version": null
+                }, 
+                "Emsisoft Commandline Scanner (Windows)": {
+                    "status": 0, 
+                    "duration": 0.2, 
+                    "version": "2021.10.0.11201", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }
+            }
+        }, 
+        "path": "", 
+        "result_id": "98ccb29a-5604-4eb1-bf5e-d91bdf2adca3", 
+        "file_sha256": "1af50b361a4ec63791100dd990179c4d81d88bbb77bf611cd547c176bbd148af"
+    }, 
+    "suricata": {
+        "tls": [
+            {
+                "src_ip": "192.168.168.104", 
+                "version": "TLS 1.2", 
+                "src_port": 41710, 
+                "dst_port": 443, 
+                "timestamp": "2022-01-16T01:05:58.033561+0200", 
+                "dst_ip": "91.189.92.38", 
+                "fingerprint": "97:63:1b:60:eb:d1:fa:4f:a4:fc:fa:98:66:3d:ee:22:fb:78:ce:c1", 
+                "subject": "C=GB, L=London, O=Canonical Group Ltd, CN=api.snapcraft.io", 
+                "issuer": "C=US, O=DigiCert Inc, CN=DigiCert TLS RSA SHA256 2020 CA1"
+            }, 
+            {
+                "src_ip": "192.168.168.104", 
+                "version": "TLS 1.2", 
+                "src_port": 44474, 
+                "dst_port": 443, 
+                "timestamp": "2022-01-16T01:05:59.197528+0200", 
+                "dst_ip": "91.189.92.19", 
+                "fingerprint": "97:63:1b:60:eb:d1:fa:4f:a4:fc:fa:98:66:3d:ee:22:fb:78:ce:c1", 
+                "subject": "C=GB, L=London, O=Canonical Group Ltd, CN=api.snapcraft.io", 
+                "issuer": "C=US, O=DigiCert Inc, CN=DigiCert TLS RSA SHA256 2020 CA1"
+            }
+        ], 
+        "files": [], 
+        "alerts": [], 
+        "http": []
+    }, 
+    "virustotal": {
+        "summary": {
+            "error": "resource has not been scanned yet"
+        }
+    }, 
+    "network": {
+        "udp": [], 
+        "dns_servers": [], 
+        "http": [], 
+        "smtp": [], 
+        "tcp": [], 
+        "geoinfo": {}, 
+        "mitm": [], 
+        "https_ex": [], 
+        "http_ex": [], 
+        "sorted_pcap_sha256": "a888d8bc703c15a1087991701bac526d6615a1516e98f49c19d28d469949df17", 
+        "icmp": [], 
+        "tls": [], 
+        "dead_hosts": [], 
+        "smtp_ex": [], 
+        "hosts": [], 
+        "pcap_sha256": "27a5d333b55d029b4e2eb4407f4074ddfa98ea2bf7e83a2d61fb7b40cc0e283b", 
+        "dns": [], 
+        "domains": [], 
+        "irc": []
+    }, 
+    "resubmit": {
+        "resubmit_ids": []
+    }, 
+    "snort": {
+        "alerts": []
+    }, 
+    "behavior": {
+        "generic": [
+            {
+                "process_path": null, 
+                "process_name": "iptables-restore", 
+                "pid": 3860, 
+                "summary": {}, 
+                "first_seen": 1642277462.961413, 
+                "ppid": -1
+            }, 
+            {
+                "process_path": null, 
+                "process_name": "iptables-restor", 
+                "pid": 3861, 
+                "summary": {}, 
+                "first_seen": 1642277463.338333, 
+                "ppid": 3860
+            }
+        ], 
+        "processes": [
+            {
+                "calls": [
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:02 2022.961413 iptables-restor@7fba3563ac27[3860] execve(\"/tmp/iptables-restore\", [\"/tmp/iptables-restore\"], [\"SUDO_GID=0\", \"MAIL=/var/mail/root\", \"USER=root\", \"HOME=/root\", \"SUDO_UID=0\", \"LOGNAME=root\", \"SYSTEMTAP_MODULE=stap_\", \"TERM=unknown\", \"SYSTEMTAP_VERBOSE=2\", \"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin\", \"DISPLAY=:0\", \"LANG=en_US.UTF-8\", \"XAUTHORITY=/root/.Xauthority\", \"SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/iptables-restore\", \"SHELL=/bin/bash\", \"SUDO_USER=root\", \"PWD=/tmp/tmp6)\n", 
+                        "api": "execve", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3563ac27", 
+                        "arguments": {
+                            "p2": [
+                                "SUDO_GID=0", 
+                                "MAIL=/var/mail/root", 
+                                "USER=root", 
+                                "HOME=/root", 
+                                "SUDO_UID=0", 
+                                "LOGNAME=root", 
+                                "SYSTEMTAP_MODULE=stap_", 
+                                "TERM=unknown", 
+                                "SYSTEMTAP_VERBOSE=2", 
+                                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin", 
+                                "DISPLAY=:0", 
+                                "LANG=en_US.UTF-8", 
+                                "XAUTHORITY=/root/.Xauthority", 
+                                "SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/iptables-restore", 
+                                "SHELL=/bin/bash", 
+                                "SUDO_USER=root", 
+                                "\"PWD=/tmp/tmp6"
+                            ], 
+                            "p0": "/tmp/iptables-restore", 
+                            "p1": [
+                                "/tmp/iptables-restore"
+                            ]
+                        }, 
+                        "time": 1642277462.961413
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.284865 iptables-restor@7fba3563ac27[3860] brk(0x0) = 94459303780352\n", 
+                        "api": "brk", 
+                        "return_value": "94459303780352", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3563ac27", 
+                        "arguments": {
+                            "p0": "0x0"
+                        }, 
+                        "time": 1642277463.284865
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.284999 iptables-restor@7fba3563b9d7[3860] access(\"/etc/ld.so.preload\", R_OK) = -2 (ENOENT)\n", 
+                        "api": "access", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3563b9d7", 
+                        "arguments": {
+                            "p0": "/etc/ld.so.preload", 
+                            "p1": "R_OK"
+                        }, 
+                        "time": 1642277463.284999
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.291665 iptables-restor@7fba3563bb0d[3860] openat(AT_FDCWD, \"/etc/ld.so.cache\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3563bb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/etc/ld.so.cache"
+                        }, 
+                        "time": 1642277463.291665
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.291763 iptables-restor@7fba3563b943[3860] fstat(4, 0x7fff53f3a750) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3563b943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7fff53f3a750"
+                        }, 
+                        "time": 1642277463.291763
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.291838 iptables-restor@7fba3563bd03[3860] mmap2(0x0, 88858, PROT_READ, MAP_PRIVATE, 4, 0) = 0x7fba35609000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fba35609000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3563bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE", 
+                            "p0": "0x0", 
+                            "p1": "88858", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642277463.291838
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.291916 iptables-restor@7fba3563b9f7[3860] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3563b9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642277463.291916
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.292018 iptables-restor@7fba3563bb0d[3860] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3563bb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0"
+                        }, 
+                        "time": 1642277463.292018
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.292100 iptables-restor@7fba3563bbd4[3860] read(4, 0x7fff53f3a908, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3563bbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7fff53f3a908"
+                        }, 
+                        "time": 1642277463.2921
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.292178 iptables-restor@7fba3563b943[3860] fstat(4, 0x7fff53f3a7a0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3563b943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7fff53f3a7a0"
+                        }, 
+                        "time": 1642277463.292178
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.292245 iptables-restor@7fba3563bd03[3860] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fba35607000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fba35607000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3563bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642277463.292245
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.292330 iptables-restor@7fba3563bd03[3860] mmap2(0x0, 20600, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fba35601000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fba35601000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3563bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "20600", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642277463.29233
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.292406 iptables-restor@7fba3563bd03[3860] mmap2(0x7fba35602000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 4096) = 0x7fba35602000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fba35602000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3563bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fba35602000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "4096"
+                        }, 
+                        "time": 1642277463.292406
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.292492 iptables-restor@7fba3563bd03[3860] mmap2(0x7fba35604000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7fba35604000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fba35604000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3563bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fba35604000", 
+                            "p1": "4096", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642277463.292492
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.292677 iptables-restor@7fba3563bd03[3860] mmap2(0x7fba35605000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7fba35605000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fba35605000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3563bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fba35605000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642277463.292677
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.292794 iptables-restor@7fba3563b9f7[3860] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3563b9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642277463.292794
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.292881 iptables-restor@7fba3563bb0d[3860] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3563bb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0"
+                        }, 
+                        "time": 1642277463.292881
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.292962 iptables-restor@7fba3563bbd4[3860] read(4, 0x7fff53f3a8e8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3563bbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7fff53f3a8e8"
+                        }, 
+                        "time": 1642277463.292962
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.293031 iptables-restor@7fba3563b943[3860] fstat(4, 0x7fff53f3a780) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3563b943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7fff53f3a780"
+                        }, 
+                        "time": 1642277463.293031
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.293099 iptables-restor@7fba3563bd03[3860] mmap2(0x0, 1180072, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fba354e0000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fba354e0000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3563bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1180072", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642277463.293099
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.293172 iptables-restor@7fba3563bdb7[3860] mprotect(0x7fba354fb000, 1060864, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3563bdb7", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7fba354fb000", 
+                            "p1": "1060864"
+                        }, 
+                        "time": 1642277463.293172
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.293254 iptables-restor@7fba3563bd03[3860] mmap2(0x7fba354fb000, 524288, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 110592) = 0x7fba354fb000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fba354fb000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3563bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fba354fb000", 
+                            "p1": "524288", 
+                            "p4": "4", 
+                            "p5": "110592"
+                        }, 
+                        "time": 1642277463.293254
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.293332 iptables-restor@7fba3563bd03[3860] mmap2(0x7fba3557b000, 532480, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 634880) = 0x7fba3557b000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fba3557b000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3563bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fba3557b000", 
+                            "p1": "532480", 
+                            "p4": "4", 
+                            "p5": "634880"
+                        }, 
+                        "time": 1642277463.293332
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.293407 iptables-restor@7fba3563bd03[3860] mmap2(0x7fba355fe000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1167360) = 0x7fba355fe000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fba355fe000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3563bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fba355fe000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "1167360"
+                        }, 
+                        "time": 1642277463.293407
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.293498 iptables-restor@7fba3563bd03[3860] mmap2(0x7fba35600000, 424, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fba35600000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fba35600000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3563bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7fba35600000", 
+                            "p1": "424", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642277463.293498
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.293591 iptables-restor@7fba3563b9f7[3860] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3563b9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642277463.293591
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.293684 iptables-restor@7fba3563bb0d[3860] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/librt.so.1\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3563bb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/librt.so.1"
+                        }, 
+                        "time": 1642277463.293684
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.293761 iptables-restor@7fba3563bbd4[3860] read(4, 0x7fff53f3a8c8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3563bbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7fff53f3a8c8"
+                        }, 
+                        "time": 1642277463.293761
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.293832 iptables-restor@7fba3563b943[3860] fstat(4, 0x7fff53f3a760) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3563b943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7fff53f3a760"
+                        }, 
+                        "time": 1642277463.293832
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.293902 iptables-restor@7fba3563bd03[3860] mmap2(0x0, 44000, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fba354d5000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fba354d5000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3563bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "44000", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642277463.293902
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.293983 iptables-restor@7fba3563bd03[3860] mmap2(0x7fba354d8000, 16384, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7fba354d8000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fba354d8000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3563bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fba354d8000", 
+                            "p1": "16384", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642277463.293983
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.294070 iptables-restor@7fba3563bd03[3860] mmap2(0x7fba354dc000, 8192, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 28672) = 0x7fba354dc000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fba354dc000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3563bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fba354dc000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "28672"
+                        }, 
+                        "time": 1642277463.29407
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.294158 iptables-restor@7fba3563bd03[3860] mmap2(0x7fba354de000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 32768) = 0x7fba354de000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fba354de000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3563bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fba354de000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "32768"
+                        }, 
+                        "time": 1642277463.294158
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.294261 iptables-restor@7fba3563b9f7[3860] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3563b9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642277463.294261
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.294347 iptables-restor@7fba3563bb0d[3860] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libm.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3563bb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libm.so.6"
+                        }, 
+                        "time": 1642277463.294347
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.294523 iptables-restor@7fba3563bbd4[3860] read(4, 0x7fff53f3a8a8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3563bbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7fff53f3a8a8"
+                        }, 
+                        "time": 1642277463.294523
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.294594 iptables-restor@7fba3563b943[3860] fstat(4, 0x7fff53f3a740) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3563b943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7fff53f3a740"
+                        }, 
+                        "time": 1642277463.294594
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.294675 iptables-restor@7fba3563bd03[3860] mmap2(0x0, 1364240, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fba35387000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fba35387000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3563bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1364240", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642277463.294675
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.294753 iptables-restor@7fba3563bd03[3860] mmap2(0x7fba35396000, 679936, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 61440) = 0x7fba35396000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fba35396000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3563bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fba35396000", 
+                            "p1": "679936", 
+                            "p4": "4", 
+                            "p5": "61440"
+                        }, 
+                        "time": 1642277463.294753
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.294834 iptables-restor@7fba3563bd03[3860] mmap2(0x7fba3543c000, 618496, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 741376) = 0x7fba3543c000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fba3543c000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3563bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fba3543c000", 
+                            "p1": "618496", 
+                            "p4": "4", 
+                            "p5": "741376"
+                        }, 
+                        "time": 1642277463.294834
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.294909 iptables-restor@7fba3563bd03[3860] mmap2(0x7fba354d3000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1355776) = 0x7fba354d3000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fba354d3000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3563bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fba354d3000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "1355776"
+                        }, 
+                        "time": 1642277463.294909
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.295000 iptables-restor@7fba3563b9f7[3860] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3563b9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642277463.295
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.295091 iptables-restor@7fba3563bb0d[3860] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libgcc_s.so.1\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3563bb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libgcc_s.so.1"
+                        }, 
+                        "time": 1642277463.295091
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.295166 iptables-restor@7fba3563bbd4[3860] read(4, 0x7fff53f3a888, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3563bbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7fff53f3a888"
+                        }, 
+                        "time": 1642277463.295166
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.295236 iptables-restor@7fba3563b943[3860] fstat(4, 0x7fff53f3a720) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3563b943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7fff53f3a720"
+                        }, 
+                        "time": 1642277463.295236
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.295305 iptables-restor@7fba3563bd03[3860] mmap2(0x0, 103504, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fba3536d000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fba3536d000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3563bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "103504", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642277463.295305
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.295383 iptables-restor@7fba3563bd03[3860] mmap2(0x7fba35370000, 69632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7fba35370000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fba35370000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3563bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fba35370000", 
+                            "p1": "69632", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642277463.295383
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.295462 iptables-restor@7fba3563bd03[3860] mmap2(0x7fba35381000, 16384, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 81920) = 0x7fba35381000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fba35381000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3563bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fba35381000", 
+                            "p1": "16384", 
+                            "p4": "4", 
+                            "p5": "81920"
+                        }, 
+                        "time": 1642277463.295462
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.295534 iptables-restor@7fba3563bd03[3860] mmap2(0x7fba35385000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 94208) = 0x7fba35385000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fba35385000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3563bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fba35385000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "94208"
+                        }, 
+                        "time": 1642277463.295534
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.295627 iptables-restor@7fba3563b9f7[3860] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3563b9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642277463.295627
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.295711 iptables-restor@7fba3563bb0d[3860] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libpthread.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3563bb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libpthread.so.0"
+                        }, 
+                        "time": 1642277463.295711
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.295786 iptables-restor@7fba3563bbd4[3860] read(4, 0x7fff53f3a868, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3563bbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7fff53f3a868"
+                        }, 
+                        "time": 1642277463.295786
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.295852 iptables-restor@7fba3563b943[3860] fstat(4, 0x7fff53f3a700) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3563b943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7fff53f3a700"
+                        }, 
+                        "time": 1642277463.295852
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.295921 iptables-restor@7fba3563bd03[3860] mmap2(0x0, 132288, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fba3534c000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fba3534c000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3563bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "132288", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642277463.295921
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.295996 iptables-restor@7fba3563bd03[3860] mmap2(0x7fba35353000, 61440, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 28672) = 0x7fba35353000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fba35353000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3563bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fba35353000", 
+                            "p1": "61440", 
+                            "p4": "4", 
+                            "p5": "28672"
+                        }, 
+                        "time": 1642277463.295996
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.296080 iptables-restor@7fba3563bd03[3860] mmap2(0x7fba35362000, 20480, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 90112) = 0x7fba35362000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fba35362000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3563bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fba35362000", 
+                            "p1": "20480", 
+                            "p4": "4", 
+                            "p5": "90112"
+                        }, 
+                        "time": 1642277463.29608
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.296149 iptables-restor@7fba3563bd03[3860] mmap2(0x7fba35367000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 106496) = 0x7fba35367000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fba35367000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3563bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fba35367000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "106496"
+                        }, 
+                        "time": 1642277463.296149
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.296230 iptables-restor@7fba3563bd03[3860] mmap2(0x7fba35369000, 13504, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fba35369000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fba35369000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3563bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7fba35369000", 
+                            "p1": "13504", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642277463.29623
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.296311 iptables-restor@7fba3563b9f7[3860] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3563b9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642277463.296311
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.296396 iptables-restor@7fba3563bb0d[3860] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libc.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3563bb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libc.so.6"
+                        }, 
+                        "time": 1642277463.296396
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.296494 iptables-restor@7fba3563bbd4[3860] read(4, 0x7fff53f3a848, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3563bbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7fff53f3a848"
+                        }, 
+                        "time": 1642277463.296494
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.296730 iptables-restor@7fba3563b943[3860] fstat(4, 0x7fff53f3a6e0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3563b943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7fff53f3a6e0"
+                        }, 
+                        "time": 1642277463.29673
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.296797 iptables-restor@7fba3563bd03[3860] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fba3534a000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fba3534a000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3563bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642277463.296797
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.296876 iptables-restor@7fba3563bd03[3860] mmap2(0x0, 2008696, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fba3515f000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fba3515f000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3563bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "2008696", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642277463.296876
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.296948 iptables-restor@7fba3563bd03[3860] mmap2(0x7fba35184000, 1519616, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 151552) = 0x7fba35184000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fba35184000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3563bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fba35184000", 
+                            "p1": "1519616", 
+                            "p4": "4", 
+                            "p5": "151552"
+                        }, 
+                        "time": 1642277463.296948
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.297035 iptables-restor@7fba3563bd03[3860] mmap2(0x7fba352f7000, 299008, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1671168) = 0x7fba352f7000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fba352f7000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3563bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fba352f7000", 
+                            "p1": "299008", 
+                            "p4": "4", 
+                            "p5": "1671168"
+                        }, 
+                        "time": 1642277463.297035
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.297105 iptables-restor@7fba3563bd03[3860] mmap2(0x7fba35340000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1966080) = 0x7fba35340000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fba35340000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3563bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fba35340000", 
+                            "p1": "24576", 
+                            "p4": "4", 
+                            "p5": "1966080"
+                        }, 
+                        "time": 1642277463.297105
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.297191 iptables-restor@7fba3563bd03[3860] mmap2(0x7fba35346000, 13944, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fba35346000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fba35346000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3563bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7fba35346000", 
+                            "p1": "13944", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642277463.297191
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.297280 iptables-restor@7fba3563b9f7[3860] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3563b9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642277463.29728
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.297383 iptables-restor@7fba3563bb0d[3860] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libdl.so.2\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3563bb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libdl.so.2"
+                        }, 
+                        "time": 1642277463.297383
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.297461 iptables-restor@7fba3563bbd4[3860] read(4, 0x7fff53f3a828, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3563bbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7fff53f3a828"
+                        }, 
+                        "time": 1642277463.297461
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.297529 iptables-restor@7fba3563b943[3860] fstat(4, 0x7fff53f3a6c0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3563b943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7fff53f3a6c0"
+                        }, 
+                        "time": 1642277463.297529
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.297599 iptables-restor@7fba3563bd03[3860] mmap2(0x0, 20752, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fba35159000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fba35159000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3563bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "20752", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642277463.297599
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.297674 iptables-restor@7fba3563bd03[3860] mmap2(0x7fba3515a000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 4096) = 0x7fba3515a000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fba3515a000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3563bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fba3515a000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "4096"
+                        }, 
+                        "time": 1642277463.297674
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.297756 iptables-restor@7fba3563bd03[3860] mmap2(0x7fba3515c000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7fba3515c000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fba3515c000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3563bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fba3515c000", 
+                            "p1": "4096", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642277463.297756
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.297827 iptables-restor@7fba3563bd03[3860] mmap2(0x7fba3515d000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7fba3515d000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fba3515d000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3563bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fba3515d000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642277463.297827
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.297919 iptables-restor@7fba3563b9f7[3860] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3563b9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642277463.297919
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.298006 iptables-restor@7fba3563bb0d[3860] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libpcre.so.3\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3563bb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libpcre.so.3"
+                        }, 
+                        "time": 1642277463.298006
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.298079 iptables-restor@7fba3563bbd4[3860] read(4, 0x7fff53f3a808, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3563bbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7fff53f3a808"
+                        }, 
+                        "time": 1642277463.298079
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.298151 iptables-restor@7fba3563b943[3860] fstat(4, 0x7fff53f3a6a0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3563b943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7fff53f3a6a0"
+                        }, 
+                        "time": 1642277463.298151
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.298232 iptables-restor@7fba3563bd03[3860] mmap2(0x0, 471304, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fba350e5000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fba350e5000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3563bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "471304", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642277463.298232
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.298306 iptables-restor@7fba3563bd03[3860] mmap2(0x7fba350e7000, 335872, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 8192) = 0x7fba350e7000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fba350e7000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3563bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fba350e7000", 
+                            "p1": "335872", 
+                            "p4": "4", 
+                            "p5": "8192"
+                        }, 
+                        "time": 1642277463.298306
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.298466 iptables-restor@7fba3563bd03[3860] mmap2(0x7fba35139000, 122880, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 344064) = 0x7fba35139000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fba35139000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3563bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fba35139000", 
+                            "p1": "122880", 
+                            "p4": "4", 
+                            "p5": "344064"
+                        }, 
+                        "time": 1642277463.298466
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.298548 iptables-restor@7fba3563bd03[3860] mmap2(0x7fba35157000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 462848) = 0x7fba35157000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fba35157000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3563bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fba35157000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "462848"
+                        }, 
+                        "time": 1642277463.298548
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.298656 iptables-restor@7fba3563b9f7[3860] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3563b9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642277463.298656
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.302768 iptables-restor@7fba3563bd03[3860] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fba350e3000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fba350e3000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3563bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642277463.302768
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.302899 iptables-restor@7fba35620f30[3860] arch_prctl(ARCH_SET_FS, 140437730771264) = 0\n", 
+                        "api": "arch_prctl", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba35620f30", 
+                        "arguments": {
+                            "p0": "ARCH_SET_FS", 
+                            "p1": "140437730771264"
+                        }, 
+                        "time": 1642277463.302899
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.307585 iptables-restor@7fba3563bdb7[3860] mprotect(0x7fba35340000, 12288, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3563bdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fba35340000", 
+                            "p1": "12288"
+                        }, 
+                        "time": 1642277463.307585
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.307697 iptables-restor@7fba3563bdb7[3860] mprotect(0x7fba35367000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3563bdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fba35367000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642277463.307697
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.307818 iptables-restor@7fba3563bdb7[3860] mprotect(0x7fba35157000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3563bdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fba35157000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642277463.307818
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.307906 iptables-restor@7fba3563bdb7[3860] mprotect(0x7fba3515d000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3563bdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fba3515d000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642277463.307906
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.307990 iptables-restor@7fba3563bdb7[3860] mprotect(0x7fba35385000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3563bdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fba35385000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642277463.30799
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.308106 iptables-restor@7fba3563bdb7[3860] mprotect(0x7fba354d3000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3563bdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fba354d3000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642277463.308106
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.308195 iptables-restor@7fba3563bdb7[3860] mprotect(0x7fba354de000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3563bdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fba354de000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642277463.308195
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.308755 iptables-restor@7fba3563bdb7[3860] mprotect(0x7fba355fe000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3563bdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fba355fe000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642277463.308755
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.308870 iptables-restor@7fba3563bdb7[3860] mprotect(0x7fba35605000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3563bdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fba35605000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642277463.30887
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.329007 iptables-restor@7fba3563bdb7[3860] mprotect(0x55e902762000, 303104, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3563bdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x55e902762000", 
+                            "p1": "303104"
+                        }, 
+                        "time": 1642277463.329007
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.329119 iptables-restor@7fba3563bdb7[3860] mprotect(0x7fba35649000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3563bdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fba35649000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642277463.329119
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.329223 iptables-restor@7fba3563bd97[3860] munmap(0x7fba35609000, 88858) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3563bd97", 
+                        "arguments": {
+                            "p0": "0x7fba35609000", 
+                            "p1": "88858"
+                        }, 
+                        "time": 1642277463.329223
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.329344 iptables-restor@7fba353538df[3860] set_tid_address(0x7fba350e4410) = 3860\n", 
+                        "api": "set_tid_address", 
+                        "return_value": "3860", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba353538df", 
+                        "arguments": {
+                            "p0": "0x7fba350e4410"
+                        }, 
+                        "time": 1642277463.329344
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.329405 iptables-restor@7fba3535394a[3860] set_robust_list(0x7fba350e4420, 24) = 0\n", 
+                        "api": "set_robust_list", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3535394a", 
+                        "arguments": {
+                            "p0": "0x7fba350e4420", 
+                            "p1": "24"
+                        }, 
+                        "time": 1642277463.329405
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.329472 iptables-restor@7fba35360010[3860] rt_sigaction(0x20, {0x7fba353536c0, SA_SIGINFO|SA_RESTORER, 0x7fba3535ff40, [EMPTY]}, 0x0, 8) = 0\n", 
+                        "api": "rt_sigaction", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba35360010", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "0x20", 
+                            "p1": [
+                                "0x7fba353536c0", 
+                                "SA_SIGINFO|SA_RESTORER", 
+                                "0x7fba3535ff40", 
+                                [
+                                    "EMPTY]"
+                                ]
+                            ]
+                        }, 
+                        "time": 1642277463.329472
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.329528 iptables-restor@7fba35360010[3860] rt_sigaction(0x21, {0x7fba35353760, SA_RESTART|SA_SIGINFO|SA_RESTORER, 0x7fba3535ff40, [EMPTY]}, 0x0, 8) = 0\n", 
+                        "api": "rt_sigaction", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba35360010", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "0x21", 
+                            "p1": [
+                                "0x7fba35353760", 
+                                "SA_RESTART|SA_SIGINFO|SA_RESTORER", 
+                                "0x7fba3535ff40", 
+                                [
+                                    "EMPTY]"
+                                ]
+                            ]
+                        }, 
+                        "time": 1642277463.329528
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.329584 iptables-restor@7fba35353a19[3860] rt_sigprocmask(SIG_UNBLOCK, [EMPTY], 0x0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba35353a19", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "SIG_UNBLOCK", 
+                            "p1": [
+                                "EMPTY"
+                            ]
+                        }, 
+                        "time": 1642277463.329584
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.329655 iptables-restor@7fba35271df0[3860] prlimit64(0, RLIMIT_STACK, NULL, 0x7fff53f3b4e0) = 0\n", 
+                        "api": "prlimit64", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba35271df0", 
+                        "arguments": {
+                            "p2": "NULL", 
+                            "p3": "0x7fff53f3b4e0", 
+                            "p0": "0", 
+                            "p1": "RLIMIT_STACK"
+                        }, 
+                        "time": 1642277463.329655
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.329942 iptables-restor@7fba352722f7[3860] brk(0x0) = 94459303780352\n", 
+                        "api": "brk", 
+                        "return_value": "94459303780352", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba352722f7", 
+                        "arguments": {
+                            "p0": "0x0"
+                        }, 
+                        "time": 1642277463.329942
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.329995 iptables-restor@7fba352722f7[3860] brk(0x55e905417000) = 94459303915520\n", 
+                        "api": "brk", 
+                        "return_value": "94459303915520", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba352722f7", 
+                        "arguments": {
+                            "p0": "0x55e905417000"
+                        }, 
+                        "time": 1642277463.329995
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.336045 iptables-restor@7fba3535cb86[3860] rt_sigprocmask(SIG_SETMASK, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS], 0x7fff53f3b430, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3535cb86", 
+                        "arguments": {
+                            "p2": "0x7fff53f3b430", 
+                            "p3": "8", 
+                            "p0": "SIG_SETMASK", 
+                            "p1": [
+                                "SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS"
+                            ]
+                        }, 
+                        "time": 1642277463.336045
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.337952 iptables-restor@7fba352764c3[3860] mmap2(0x0, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7fba348e2000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fba348e2000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba352764c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK", 
+                            "p0": "0x0", 
+                            "p1": "8392704", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642277463.337952
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.338004 iptables-restor@7fba35276597[3860] mprotect(0x7fba348e3000, 8388608, PROT_READ|PROT_WRITE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba35276597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p0": "0x7fba348e3000", 
+                            "p1": "8388608"
+                        }, 
+                        "time": 1642277463.338004
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.338096 iptables-restor@7fba3527cb11[3860] clone(CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, 0x7fba350e1f70, 0x7fba350e29d0, 0x7fba350e29d0) = 3861\n", 
+                        "api": "clone", 
+                        "return_value": "3861", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3527cb11", 
+                        "arguments": {
+                            "p2": "0x7fba350e29d0", 
+                            "p3": "0x7fba350e29d0", 
+                            "p0": "CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID", 
+                            "p1": "0x7fba350e1f70"
+                        }, 
+                        "time": 1642277463.338096
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.338240 iptables-restor@7fba3535cb86[3860] rt_sigprocmask(SIG_SETMASK, [EMPTY], 0x0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3535cb86", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "SIG_SETMASK", 
+                            "p1": [
+                                "EMPTY"
+                            ]
+                        }, 
+                        "time": 1642277463.33824
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.340722 iptables-restor@7fba35271df0[3860] prlimit64(0, RLIMIT_STACK, NULL, 0x7fff53f3aff0) = 0\n", 
+                        "api": "prlimit64", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba35271df0", 
+                        "arguments": {
+                            "p2": "NULL", 
+                            "p3": "0x7fff53f3aff0", 
+                            "p0": "0", 
+                            "p1": "RLIMIT_STACK"
+                        }, 
+                        "time": 1642277463.340722
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.340819 iptables-restor@7fba352715c1[3860] openat(AT_FDCWD, \"/etc/qemu-binfmt/sparc\", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -2 (ENOENT)\n", 
+                        "api": "openat", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba352715c1", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/etc/qemu-binfmt/sparc"
+                        }, 
+                        "time": 1642277463.340819
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.340927 iptables-restor@7fba35240247[3860] uname(0x7fff53f3ac60) = 0\n", 
+                        "api": "uname", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba35240247", 
+                        "arguments": {
+                            "p0": "0x7fff53f3ac60"
+                        }, 
+                        "time": 1642277463.340927
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.340996 iptables-restor@7fba3535f337[3860] lseek(3, 0, SEEK_SET) = 0\n", 
+                        "api": "lseek", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3535f337", 
+                        "arguments": {
+                            "p2": "SEEK_SET", 
+                            "p0": "3", 
+                            "p1": "0"
+                        }, 
+                        "time": 1642277463.340996
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.341056 iptables-restor@7fba3535ed94[3860] read(3, 0x7fff53f3af50, 52) = 52\n", 
+                        "api": "read", 
+                        "return_value": "52", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3535ed94", 
+                        "arguments": {
+                            "p2": "52", 
+                            "p0": "3", 
+                            "p1": "0x7fff53f3af50"
+                        }, 
+                        "time": 1642277463.341056
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.341119 iptables-restor@7fba3535f337[3860] lseek(3, 0, SEEK_SET) = 0\n", 
+                        "api": "lseek", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3535f337", 
+                        "arguments": {
+                            "p2": "SEEK_SET", 
+                            "p0": "3", 
+                            "p1": "0"
+                        }, 
+                        "time": 1642277463.341119
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.342585 iptables-restor@7fba352764c3[3860] mmap2(0x0, 528384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fba34861000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fba34861000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba352764c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "528384", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642277463.342585
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.343235 iptables-restor@7fba35276597[3860] mprotect(0x55e9027bf000, 33550336, PROT_READ|PROT_WRITE|PROT_EXEC) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba35276597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE|PROT_EXEC", 
+                            "p0": "0x55e9027bf000", 
+                            "p1": "33550336"
+                        }, 
+                        "time": 1642277463.343235
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.343303 iptables-restor@7fba35276667[3860] madvise(0x55e9027bf000, 33550336, MADV_HUGEPAGE) = 0\n", 
+                        "api": "madvise", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba35276667", 
+                        "arguments": {
+                            "p2": "MADV_HUGEPAGE", 
+                            "p0": "0x55e9027bf000", 
+                            "p1": "33550336"
+                        }, 
+                        "time": 1642277463.343303
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.343551 iptables-restor@7fba352764c3[3860] mmap2(0x0, 4294963200, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7fb930001000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fb930001000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba352764c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x0", 
+                            "p1": "4294963200", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642277463.343551
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.343629 iptables-restor@7fba3526bd59[3860] openat(AT_FDCWD, \"/proc/sys/vm/mmap_min_addr\", O_RDONLY) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3526bd59", 
+                        "arguments": {
+                            "p2": "O_RDONLY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/proc/sys/vm/mmap_min_addr"
+                        }, 
+                        "time": 1642277463.343629
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.343719 iptables-restor@7fba3526b613[3860] fstat(4, 0x7fff53f3a660) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3526b613", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7fff53f3a660"
+                        }, 
+                        "time": 1642277463.343719
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.343777 iptables-restor@7fba3526bfb4[3860] read(4, 0x55e9054033d0, 1024) = 6\n", 
+                        "api": "read", 
+                        "return_value": "6", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3526bfb4", 
+                        "arguments": {
+                            "p2": "1024", 
+                            "p0": "4", 
+                            "p1": "0x55e9054033d0"
+                        }, 
+                        "time": 1642277463.343777
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.343845 iptables-restor@7fba352713f7[3860] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba352713f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642277463.343845
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.343921 iptables-restor@7fba352762e9[3860] gettid() = 3860\n", 
+                        "api": "gettid", 
+                        "return_value": "3860", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba352762e9", 
+                        "arguments": {}, 
+                        "time": 1642277463.343921
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.343974 iptables-restor@7fba3526b613[3860] fstat(3, 0x7fff53f3aed0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3526b613", 
+                        "arguments": {
+                            "p0": "3", 
+                            "p1": "0x7fff53f3aed0"
+                        }, 
+                        "time": 1642277463.343974
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.344031 iptables-restor@7fba35241717[3860] geteuid() = 0\n", 
+                        "api": "geteuid", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba35241717", 
+                        "arguments": {}, 
+                        "time": 1642277463.344031
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.344083 iptables-restor@7fba35241737[3860] getegid() = 0\n", 
+                        "api": "getegid", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba35241737", 
+                        "arguments": {}, 
+                        "time": 1642277463.344083
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.344137 iptables-restor@7fba3535ed94[3860] read(3, 0x7fff53f3b0d0, 1024) = 1024\n", 
+                        "api": "read", 
+                        "return_value": "1024", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3535ed94", 
+                        "arguments": {
+                            "p2": "1024", 
+                            "p0": "3", 
+                            "p1": "0x7fff53f3b0d0"
+                        }, 
+                        "time": 1642277463.344137
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.344201 iptables-restor@7fba352764c3[3860] mmap2(0x7fb930011000, 49152, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 3, 0) = 0x7fb930011000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fb930011000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba352764c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED", 
+                            "p0": "0x7fb930011000", 
+                            "p1": "49152", 
+                            "p4": "3", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642277463.344201
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.344421 iptables-restor@7fba352722f7[3860] brk(0x55e905438000) = 94459304050688\n", 
+                        "api": "brk", 
+                        "return_value": "94459304050688", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba352722f7", 
+                        "arguments": {
+                            "p0": "0x55e905438000"
+                        }, 
+                        "time": 1642277463.344421
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.344511 iptables-restor@7fba352764c3[3860] mmap2(0x7fb93002d000, 4096, PROT_READ|PROT_WRITE|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 3, 49152) = 0x7fb93002d000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fb93002d000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba352764c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED", 
+                            "p0": "0x7fb93002d000", 
+                            "p1": "4096", 
+                            "p4": "3", 
+                            "p5": "49152"
+                        }, 
+                        "time": 1642277463.344511
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.344590 iptables-restor@7fba3535ee27[3860] close(3) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3535ee27", 
+                        "arguments": {
+                            "p0": "3"
+                        }, 
+                        "time": 1642277463.34459
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.344704 iptables-restor@7fba352764c3[3860] mmap2(0x7fba2f7ff000, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fba2f7ff000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fba2f7ff000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba352764c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7fba2f7ff000", 
+                            "p1": "8392704", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642277463.344704
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.344900 iptables-restor@7fba35276597[3860] mprotect(0x7fba2f7ff000, 4096, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba35276597", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7fba2f7ff000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642277463.3449
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.344982 iptables-restor@7fba3535f55e[3860] openat(AT_FDCWD, \"/lib/ld-linux.so.2\", O_RDONLY) = -2 (ENOENT)\n", 
+                        "api": "openat", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3535f55e", 
+                        "arguments": {
+                            "p2": "O_RDONLY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/ld-linux.so.2"
+                        }, 
+                        "time": 1642277463.344982
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.345089 iptables-restor@7fba3526c057[3860] write(2, \"/lib/ld-linux.so.2: No such file or directory\\n\", 46) = 46\n", 
+                        "api": "write", 
+                        "return_value": "46", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3526c057", 
+                        "arguments": {
+                            "p2": "46", 
+                            "p0": "2", 
+                            "p1": "/lib/ld-linux.so.2: No such file or directory\n"
+                        }, 
+                        "time": 1642277463.345089
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.345190 iptables-restor@7fba35240926[3860] exit_group(-1)\n", 
+                        "api": "exit_group", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba35240926", 
+                        "arguments": {
+                            "p0": "-1"
+                        }, 
+                        "time": 1642277463.34519
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3860, 
+                        "raw": "Sat Jan 15 20:11:03 2022.345249 iptables-restor@7fba35240926[3860] futex(0x7fba350e4410, FUTEX_WAKE, 1) = 0\n", 
+                        "api": "futex", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba35240926", 
+                        "arguments": {
+                            "p2": "1", 
+                            "p0": "0x7fba350e4410", 
+                            "p1": "FUTEX_WAKE"
+                        }, 
+                        "time": 1642277463.345249
+                    }
+                ], 
+                "pid": 3860, 
+                "process_name": "iptables-restore", 
+                "command_line": "/tmp/iptables-restore", 
+                "first_seen": 1642277462.961413, 
+                "ppid": -1, 
+                "type": "process"
+            }, 
+            {
+                "calls": [
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3861, 
+                        "raw": "Sat Jan 15 20:11:03 2022.338333 iptables-restor@7fba35355117[3861] set_robust_list(0x7fba350e29e0, 24) = 0\n", 
+                        "api": "set_robust_list", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba35355117", 
+                        "arguments": {
+                            "p0": "0x7fba350e29e0", 
+                            "p1": "24"
+                        }, 
+                        "time": 1642277463.338333
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3861, 
+                        "raw": "Sat Jan 15 20:11:03 2022.338481 iptables-restor@7fba352764c3[3861] mmap2(0x0, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7fba2c8e2000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fba2c8e2000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba352764c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x0", 
+                            "p1": "134217728", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642277463.338481
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3861, 
+                        "raw": "Sat Jan 15 20:11:03 2022.338539 iptables-restor@7fba35276567[3861] munmap(0x7fba2c8e2000, 57794560) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba35276567", 
+                        "arguments": {
+                            "p0": "0x7fba2c8e2000", 
+                            "p1": "57794560"
+                        }, 
+                        "time": 1642277463.338539
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3861, 
+                        "raw": "Sat Jan 15 20:11:03 2022.338610 iptables-restor@7fba35276567[3861] munmap(0x7fba34000000, 9314304) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba35276567", 
+                        "arguments": {
+                            "p0": "0x7fba34000000", 
+                            "p1": "9314304"
+                        }, 
+                        "time": 1642277463.33861
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3861, 
+                        "raw": "Sat Jan 15 20:11:03 2022.338659 iptables-restor@7fba35276597[3861] mprotect(0x7fba30000000, 135168, PROT_READ|PROT_WRITE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba35276597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p0": "0x7fba30000000", 
+                            "p1": "135168"
+                        }, 
+                        "time": 1642277463.338659
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "iptables-restor", 
+                        "pid": 3861, 
+                        "raw": "Sat Jan 15 20:11:03 2022.338724 iptables-restor@7fba3535f440[3861] nanosleep([0.010000000], 0x7fba350e1dc0) = -516\n", 
+                        "api": "nanosleep", 
+                        "return_value": "-516", 
+                        "category": "process", 
+                        "instruction_pointer": "7fba3535f440", 
+                        "arguments": {
+                            "p0": [
+                                "0.010000000"
+                            ], 
+                            "p1": "0x7fba350e1dc0"
+                        }, 
+                        "time": 1642277463.338724
+                    }
+                ], 
+                "pid": 3861, 
+                "process_name": "iptables-restor", 
+                "command_line": "", 
+                "first_seen": 1642277463.338333, 
+                "ppid": 3860, 
+                "type": "process"
+            }
+        ], 
+        "processtree": [
+            {
+                "track": true, 
+                "pid": 3860, 
+                "process_name": "iptables-restore", 
+                "command_line": "/tmp/iptables-restore", 
+                "first_seen": 1642277462.961413, 
+                "ppid": -1, 
+                "children": [
+                    {
+                        "track": true, 
+                        "pid": 3861, 
+                        "process_name": "iptables-restor", 
+                        "command_line": "", 
+                        "first_seen": 1642277463.338333, 
+                        "ppid": 3860, 
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    }, 
+    "debug": {
+        "action": [], 
+        "dbgview": [], 
+        "errors": [], 
+        "log": [
+            "2022-01-15 20:10:55,007 [root] DEBUG: Starting analyzer from: /tmp/tmp6EOQ7N\n", 
+            "2022-01-15 20:10:55,008 [root] DEBUG: Storing results at: /tmp/SnqFXe\n", 
+            "2022-01-15 20:10:56,621 [modules.auxiliary.filecollector] INFO: FileCollector started v0.08\n", 
+            "2022-01-15 20:10:56,623 [modules.auxiliary.human] INFO: Human started v0.02\n", 
+            "2022-01-15 20:10:56,625 [modules.auxiliary.screenshots] INFO: Screenshots started v0.03\n", 
+            "2022-01-15 20:11:02,956 [lib.core.packages] INFO: Process startup took 6.33 seconds\n", 
+            "2022-01-15 20:11:02,962 [root] INFO: Added new process to list with pid: 3852\n", 
+            "2022-01-15 20:11:12,043 [root] INFO: Process with pid 3852 has terminated\n", 
+            "2022-01-15 20:11:12,044 [root] INFO: Process list is empty, terminating analysis.\n", 
+            "2022-01-15 20:11:15,115 [lib.core.packages] INFO: Package requested stop\n", 
+            "2022-01-15 20:11:15,117 [lib.core.packages] WARNING: Exception uploading log: [Errno 3] No such process\n", 
+            "2022-01-15 20:16:45,696 [root] INFO: Terminating remaining processes before shutdown.\n", 
+            "2022-01-15 20:16:45,697 [root] INFO: Analysis completed.\n"
+        ], 
+        "cuckoo": [
+            "2022-01-16 00:56:10,640 [cuckoo.core.scheduler] INFO: Task #2650766: acquired machine Ubuntu1904x644 (label=Ubuntu1904x644)\n", 
+            "2022-01-16 00:56:10,640 [cuckoo.core.resultserver] DEBUG: Now tracking machine 192.168.168.104 for task #2650766\n", 
+            "2022-01-16 00:56:10,795 [cuckoo.auxiliary.sniffer] INFO: Started sniffer with PID 2128144 (interface=vboxnet0, host=192.168.168.104)\n", 
+            "2022-01-16 00:56:11,174 [cuckoo.machinery.virtualbox] DEBUG: Starting vm Ubuntu1904x644\n", 
+            "2022-01-16 00:56:11,592 [cuckoo.machinery.virtualbox] DEBUG: Restoring virtual machine Ubuntu1904x644 to Snapshot\n", 
+            "2022-01-16 01:01:29,604 [cuckoo.core.guest] INFO: Starting analysis #2650766 on guest (id=Ubuntu1904x644, ip=192.168.168.104)\n", 
+            "2022-01-16 01:01:30,609 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: not ready yet\n", 
+            "2022-01-16 01:01:35,624 [cuckoo.core.guest] INFO: Guest is running Cuckoo Agent 0.10 (id=Ubuntu1904x644, ip=192.168.168.104)\n", 
+            "2022-01-16 01:01:35,639 [cuckoo.core.guest] DEBUG: Uploading analyzer to guest (id=Ubuntu1904x644, ip=192.168.168.104, monitor=latest, size=72028)\n", 
+            "2022-01-16 01:05:46,396 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2650766 still processing\n", 
+            "2022-01-16 01:06:01,487 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2650766 still processing\n", 
+            "2022-01-16 01:06:16,560 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2650766 still processing\n", 
+            "2022-01-16 01:06:17,420 [cuckoo.core.resultserver] DEBUG: Task #2650766: live log analysis.log initialized.\n", 
+            "2022-01-16 01:06:20,184 [cuckoo.core.resultserver] DEBUG: Task #2650766: File upload for 'logs/all.stap'\n", 
+            "2022-01-16 01:06:20,298 [cuckoo.core.resultserver] DEBUG: Task #2650766 uploaded file length: 19877\n", 
+            "2022-01-16 01:06:31,629 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2650766 still processing\n", 
+            "2022-01-16 01:06:46,799 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2650766 still processing\n", 
+            "2022-01-16 01:06:55,466 [cuckoo.core.resultserver] DEBUG: Task #2650766: File upload for 'shots/0001.jpg'\n", 
+            "2022-01-16 01:06:55,555 [cuckoo.core.resultserver] DEBUG: Task #2650766 uploaded file length: 171583\n", 
+            "2022-01-16 01:07:01,870 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2650766 still processing\n", 
+            "2022-01-16 01:07:16,954 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2650766 still processing\n", 
+            "2022-01-16 01:07:32,040 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2650766 still processing\n", 
+            "2022-01-16 01:07:47,116 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2650766 still processing\n", 
+            "2022-01-16 01:08:02,189 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2650766 still processing\n", 
+            "2022-01-16 01:08:17,255 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2650766 still processing\n", 
+            "2022-01-16 01:08:32,315 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2650766 still processing\n", 
+            "2022-01-16 01:08:47,390 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2650766 still processing\n", 
+            "2022-01-16 01:09:02,464 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2650766 still processing\n", 
+            "2022-01-16 01:09:17,532 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2650766 still processing\n", 
+            "2022-01-16 01:09:32,587 [cuckoo.core.guest] INFO: Ubuntu1904x644: end of analysis reached!\n", 
+            "2022-01-16 01:09:32,600 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Redsocks\n", 
+            "2022-01-16 01:09:32,726 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Sniffer\n", 
+            "2022-01-16 01:11:44,695 [cuckoo.machinery.virtualbox] INFO: Successfully generated memory dump for virtual machine with label Ubuntu1904x644 to path /srv/cuckoo/cwd/storage/analyses/2650766/memory.dmp\n", 
+            "2022-01-16 01:11:44,697 [cuckoo.machinery.virtualbox] DEBUG: Stopping vm Ubuntu1904x644\n", 
+            "2022-01-16 01:12:56,522 [cuckoo.core.resultserver] DEBUG: Stopped tracking machine 192.168.168.104 for task #2650766\n", 
+            "2022-01-16 01:12:56,663 [cuckoo.core.scheduler] DEBUG: Released database task #2650766\n", 
+            "2022-01-16 01:12:56,821 [cuckoo.core.scheduler] INFO: Task #2650766: analysis procedure completed\n"
+        ]
+    }, 
+    "strings": [
+        "/lib/ld-linux.so.2", 
+        "libdl.so.2", 
+        "dlerror", 
+        "_Jv_RegisterClasses", 
+        "__gmon_start__", 
+        "dlopen", 
+        "libnsl.so.1", 
+        "libselinux.so.1", 
+        "libc.so.6", 
+        "putchar", 
+        "strcpy", 
+        "stdout", 
+        "__strtoull_internal", 
+        "getopt_long", 
+        "getprotobynumber", 
+        "getenv", 
+        "getprotobyname", 
+        "memcpy", 
+        "perror", 
+        "__cxa_finalize", 
+        "malloc", 
+        "optarg", 
+        "gethostbyaddr", 
+        "opterr", 
+        "getnetbyaddr", 
+        "strrchr", 
+        "__ctype_tolower_loc", 
+        "calloc", 
+        "strcat", 
+        "setsockopt", 
+        "optind", 
+        "strncpy", 
+        "__strdup", 
+        "strtok", 
+        "sscanf", 
+        "memset", 
+        "strcmp", 
+        "gethostbyname", 
+        "getservbyname", 
+        "sprintf", 
+        "stderr", 
+        "__ctype_b_loc", 
+        "getsockopt", 
+        "fwrite", 
+        "getnetbyname", 
+        "__errno_location", 
+        "_IO_stdin_used", 
+        "__libc_start_main", 
+        "strlen", 
+        "strchr", 
+        "vfprintf", 
+        "_edata", 
+        "__bss_start", 
+        "iptc_get_raw_socket", 
+        "iptc_delete_chain", 
+        "standard_target_map", 
+        "iptc_check_packet", 
+        "iptc_next_chain", 
+        "find_target", 
+        "iptc_delete_num_entry", 
+        "parse_port", 
+        "string_to_number_l", 
+        "parse_protocol", 
+        "parse_counters", 
+        "service_to_port", 
+        "iptc_get_policy", 
+        "iptc_next_rule", 
+        "iptc_init", 
+        "addr_to_anyname", 
+        "dump_entries", 
+        "lib_dir", 
+        "__libc_csu_fini", 
+        "iptables_matches", 
+        "dotted_to_addr", 
+        "get_kernel_version", 
+        "iptc_flush_entries", 
+        "iptc_delete_entry", 
+        "exit_tryhelp", 
+        "program_name", 
+        "parse_hostnetworkmask", 
+        "for_each_chain", 
+        "iptc_free", 
+        "clear_rule_matches", 
+        "program_version", 
+        "iptc_zero_entries", 
+        "iptables_targets", 
+        "exit_printhelp", 
+        "do_command", 
+        "string_to_number", 
+        "iptc_first_chain", 
+        "create_handle", 
+        "iptc_append_entry", 
+        "mask_to_dotted", 
+        "find_match", 
+        "iptc_rename_chain", 
+        "exit_error", 
+        "iptc_strerror", 
+        "iptc_create_chain", 
+        "__libc_csu_init", 
+        "iptc_zero_counter", 
+        "addr_to_dotted", 
+        "iptc_set_counter", 
+        "iptc_commit", 
+        "iptc_get_target", 
+        "iptc_read_counter", 
+        "parse_interface", 
+        "string_to_number_ll", 
+        "register_target", 
+        "iptc_builtin", 
+        "iptc_first_rule", 
+        "iptc_get_references", 
+        "iptc_is_chain", 
+        "iptables_insmod", 
+        "iptc_insert_entry", 
+        "iptc_replace_entry", 
+        "iptc_get_rule", 
+        "check_inverse", 
+        "iptc_num_rules", 
+        "__data_start", 
+        "register_match", 
+        "iptc_set_policy", 
+        "dotted_to_mask", 
+        "GLIBC_2.1", 
+        "GLIBC_2.0", 
+        "GLIBC_2.1.3", 
+        "GLIBC_2.3", 
+        "[%llu:%llu]", 
+        "ip_tables", 
+        "%s: unable to initializetable '%s'", 
+        "iptables-restore", 
+        "IPTABLES_LIB_DIR", 
+        "/lib/iptables", 
+        "Usage: %s [-b] [-c] [-v] [-t] [-h]", 
+        "   [ --binary ]", 
+        "   [ --counters ]", 
+        "   [ --verbose ]", 
+        "   [ --test ]", 
+        "   [ --help ]", 
+        "   [ --noflush ]", 
+        "          [ --modprobe=<command>]", 
+        "bcvthnM:", 
+        "Can't open %s: %s", 
+        "Unknown arguments found on commandline", 
+        "COMMIT", 
+        "%s: line %u table name invalid", 
+        "%s: line %u chain name invalid", 
+        "error flushing chain '%s':%s", 
+        "error creating chain '%s':%s", 
+        "%s: line %u policy invalid", 
+        "invalid policy counters for chain '%s'", 
+        "Can't set policy `%s' on `%s' line %u: %s", 
+        "Bad line %u: need ]", 
+        "Bad line %u: need :", 
+        "--set-counters", 
+        "--table", 
+        "Line %u seems to have a -t table option.", 
+        "%s: line %u failed", 
+        "%s: COMMIT expected at line %u", 
+        "binary", 
+        "counters", 
+        "verbose", 
+        "noflush", 
+        "modprobe", 
+        "%lluT ", 
+        "%4lluT ", 
+        "%lluG ", 
+        "%4lluG ", 
+        "%lluM ", 
+        "%4lluM ", 
+        "%lluK ", 
+        "%4lluK ", 
+        "%5llu ", 
+        "%8llu ", 
+        "iptables: malloc failed", 
+        "iptables: calloc failed", 
+        "%s v%s", 
+        "Usage: %s -[AD] chain rule-specification [options]", 
+        "       %s -[RI] chain rulenum rule-specification [options]", 
+        "       %s -D chain rulenum [options]", 
+        "       %s -[LFZ] [chain] [options]", 
+        "       %s -[NX] chain", 
+        "       %s -E old-chain-name new-chain-name", 
+        "       %s -P chain target [options]", 
+        "       %s -h (print this help information)", 
+        "Commands:", 
+        "Either long or short options are allowed.", 
+        "  --append  -A chain", 
+        "Append to chain", 
+        "  --delete  -D chain", 
+        "Delete matching rule from chain", 
+        "  --delete  -D chain rulenum", 
+        "Delete rule rulenum (1 = first) from chain", 
+        "  --insert  -I chain [rulenum]", 
+        "Insert in chain as rulenum (default 1=first)", 
+        "  --replace -R chain rulenum", 
+        "Replace rule rulenum (1 = first) in chain", 
+        "  --list    -L [chain]", 
+        "List the rules in a chain or all chains", 
+        "  --flush   -F [chain]", 
+        "Delete all rules in  chain or all chains", 
+        "  --zero    -Z [chain]", 
+        "Zero counters in chain or all chains", 
+        "  --new     -N chain", 
+        "Create a new user-defined chain", 
+        "  --delete-chain", 
+        "            -X [chain]", 
+        "Delete a user-defined chain", 
+        "  --policy  -P chain target", 
+        "Change policy on chain to target", 
+        "  --rename-chain", 
+        "            -E old-chain new-chain", 
+        "Change chain name, (moving any references)", 
+        "Options:", 
+        "  --proto", 
+        "-p [!] proto", 
+        "protocol: by number or name, eg. `tcp'", 
+        "  --source", 
+        "-s [!] address[/mask]", 
+        "source specification", 
+        "  --destination -d [!] address[/mask]", 
+        "destination specification", 
+        "  --in-interface -i [!] input name[+]", 
+        "network interface name ([+] for wildcard)", 
+        "  --jump", 
+        "-j target", 
+        "target for rule (may load target extension)", 
+        "  --goto      -g chain", 
+        "                              jump to chain with no return", 
+        "  --match", 
+        "-m match", 
+        "extended match (may load extension)", 
+        "  --numeric", 
+        "numeric output of addresses and ports", 
+        "  --out-interface -o [!] output name[+]", 
+        "network interface name ([+] for wildcard)", 
+        "  --table", 
+        "-t table", 
+        "table to manipulate (default: `filter')", 
+        "  --verbose", 
+        "verbose mode", 
+        "  --line-numbers", 
+        "print line numbers when listing", 
+        "  --exact", 
+        "expand numbers (display exact values)", 
+        "[!] --fragment", 
+        "match second or further fragments only", 
+        "  --modprobe=<command>", 
+        "try to insert modules using this command", 
+        "  --set-counters PKTS BYTES", 
+        "set the counter during insert/append", 
+        "[!] --version", 
+        "print package version.", 
+        "Error occurred at line: %d", 
+        "Try `%s -h' or '%s --help' for more information.", 
+        "Unable to retrieve kernel version.", 
+        "%d.%d.%d", 
+        "/proc/sys/kernel/modprobe", 
+        "Deleting chain `%s'", 
+        "Zeroing chain `%s'", 
+        "Flushing chain `%s'", 
+        "Could not open socket to kernel: %s", 
+        "getsockopt failed strangely: %s", 
+        "%d.%d.%d.%d", 
+        "%s v%s: ", 
+        "Perhaps iptables or your kernel needs to be upgraded.", 
+        "ACCEPT", 
+        "RETURN", 
+        "standard", 
+        "%s/libipt_%s.so", 
+        "Couldn't load target `%s'", 
+        "Couldn't load target `%s':%s", 
+        "%s: target `%s' v%s (I'm v%s).", 
+        "%s: target `%s' has invalid name", 
+        "%s: target `%s' already registered.", 
+        "%s: target `%s' has invalid size %u.", 
+        "multiple -%c flags not allowed", 
+        "cannot have ! before -%c", 
+        "Invalid target name (too short)", 
+        "Invalid target name `%s' (%u chars max)", 
+        "Invalid target name `%s'", 
+        "Invalid rule number `%s'", 
+        "interface name `%s' must be shorter than IFNAMSIZ (%i)", 
+        "Warning: weird character in interface `%s' (No aliases, :, ! or *).", 
+        "unknown protocol `%s' specified", 
+        "Couldn't load match `%s'", 
+        "Couldn't load match `%s':%s", 
+        " %-6s ", 
+        "in %s ", 
+        "out %s ", 
+        "%-19s ", 
+        "anywhere", 
+        "[goto] ", 
+        "UNKNOWN match `%s' ", 
+        "[%u bytes of unknown target data] ", 
+        "Chain %s", 
+        " (policy %s", 
+        "packets, ", 
+        " (ERROR obtaining refs)", 
+        " (%u references)", 
+        "target", 
+        " prot ", 
+        "source", 
+        "destination", 
+        " %-19s ", 
+        "%s: match `%s' v%s (I'm v%s).", 
+        "%s: match `%s' already registered.", 
+        "%s: match `%s' has invalid size %u.", 
+        "Multiple `!' flags not allowed", 
+        "no argument following `!'", 
+        "unexpected ! flag", 
+        "Can't use -%c with -%c", 
+        "invalid mask `%s' specified", 
+        "host/network `%s' not found", 
+        "-%c requires a rule number", 
+        "chain name not allowed to start with `%c'", 
+        "chain name may not clash with target name", 
+        "-%c requires old-chain-name and new-chain-name", 
+        "-%c requires a chain and a policy", 
+        "rule would never match protocol", 
+        "unexpected ! flag before --match", 
+        "unexpected ! flag before --table", 
+        "Not %s ;-)", 
+        "%s v%s", 
+        "-%c requires packet and byte counter", 
+        "-%c packet counter not numeric", 
+        "-%c byte counter not numeric", 
+        "multiple consecutive ! not allowed", 
+        "Bad argument `%s'", 
+        "Unknown arg `%s'", 
+        "-A:D:R:I:L::M:F::Z::N:X::E:P:Vh::o:p:s:d:j:i:fbvnt:m:xc:g:", 
+        "unknown arguments found on commandline", 
+        "no command specified", 
+        "nothing appropriate following !", 
+        "0.0.0.0/0", 
+        "! not allowed with multiple source or destination IP addresses", 
+        "Replacement rule does not specify a unique address", 
+        "You need to supply the `-%c' option for this command", 
+        "Illegal option `-%c' with this command", 
+        "chain name `%s' too long (must be under %i chars)", 
+        "can't initialize iptables table `%s': %s", 
+        "PREROUTING", 
+        "Can't use -%c with %s", 
+        "POSTROUTING", 
+        "OUTPUT", 
+        "Warning: using chain %s, not extension", 
+        "goto '%s' is not a chain", 
+        "invalid port/service `%s' specified", 
+        "append", 
+        "delete", 
+        "insert", 
+        "replace", 
+        "new-chain", 
+        "delete-chain", 
+        "rename-chain", 
+        "policy", 
+        "protocol", 
+        "in-interface", 
+        "numeric", 
+        "out-interface", 
+        "fragments", 
+        "line-numbers", 
+        "set-counters", 
+        "IDDRALFZNXPE", 
+        "x     x   x x     x   xxxxxxx xxxxxxx     x   x x     x   x  xxxx  xxx xxxxxx xxxxxxxxxxx xxxxxxxxxxx xxxxxxxxxxx xxxxxxxxxxx xxxxxxxxxxx xxxxxx", 
+        "nsdpjvxiof0c", 
+        "ERROR: bad type %i", 
+        "ERROR: %d not a valid target)", 
+        "Permission denied (you must be root)", 
+        "Module is wrong version", 
+        "Table does not exist (do you need to insmod?)", 
+        "Chain is not empty", 
+        "Can't delete built-in chain", 
+        "Can't delete chain with references left", 
+        "Chain already exists", 
+        "Index of insertion too big", 
+        "Index of replacement too big", 
+        "Index of deletion too big", 
+        "Index of counter too big", 
+        "Loop found in table", 
+        "Target problem", 
+        "Bad arguments (does that interface exist?)", 
+        "Checking will most likely never get implemented", 
+        "Bad rule (does a matching rule exist in that chain?)", 
+        "Bad built-in chain name", 
+        "Bad policy name", 
+        "Incompatible with this kernel", 
+        "iptables who? (do you need to insmod?)", 
+        "Will be implemented real soon.  I promise ;)", 
+        "Memory allocation problem", 
+        "No chain/target/match by that name", 
+        "FORWARD", 
+        ".shstrtab", 
+        ".interp", 
+        ".note.ABI-tag", 
+        ".dynsym", 
+        ".dynstr", 
+        ".gnu.version", 
+        ".gnu.version_r", 
+        ".rela.dyn", 
+        ".rela.plt", 
+        ".rodata", 
+        ".eh_frame_hdr", 
+        ".eh_frame", 
+        ".ctors", 
+        ".dtors", 
+        ".dynamic"
+    ], 
+    "metadata": {
+        "output": {
+            "pcap": {
+                "basename": "dump.pcap", 
+                "sha256": "27a5d333b55d029b4e2eb4407f4074ddfa98ea2bf7e83a2d61fb7b40cc0e283b", 
+                "dirname": ""
+            }
+        }
+    }
+}
