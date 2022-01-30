@@ -1,0 +1,3055 @@
+{
+    "info": {
+        "added": 1642281224.82146, 
+        "started": 1642313673.576996, 
+        "duration": 1202, 
+        "ended": 1642314875.712172, 
+        "owner": null, 
+        "score": 0.0, 
+        "id": 2651362, 
+        "category": "file", 
+        "git": {
+            "head": "e8f6317b4b3ef806085a1e99e64c6ff01f26948f", 
+            "fetch_head": "e8f6317b4b3ef806085a1e99e64c6ff01f26948f"
+        }, 
+        "monitor": "2deb9ccd75d5a7a3fe05b2625b03a8639d6ee36b", 
+        "package": "elf", 
+        "route": "internet", 
+        "custom": null, 
+        "machine": {
+            "status": "stopped", 
+            "name": "Ubuntu1904x646", 
+            "label": "Ubuntu1904x646", 
+            "platform": "linux", 
+            "manager": "VirtualBox", 
+            "started_on": "2022-01-16 06:30:30", 
+            "shutdown_on": "2022-01-16 06:34:35"
+        }, 
+        "platform": "linux", 
+        "version": "2.0.7", 
+        "options": "procmemdump=yes,route=internet"
+    }, 
+    "signatures": [], 
+    "target": {
+        "category": "file", 
+        "file": {
+            "mimetype": "application/x-executable", 
+            "yara": [], 
+            "sha1": "f3a77d8eff25496233cee51b143df7dbe4409a30", 
+            "name": "ncal", 
+            "type": "ELF 32-bit MSB executable, SPARC, version 1 (SYSV), dynamically linked, interpreter /lib/ld-linux.so.2, for GNU/Linux 2.4.1, stripped", 
+            "sha256": "448f60f25d027bb95ae16b27a1df5095ad7d9a6716d5a21506763a1f24537953", 
+            "urls": [], 
+            "crc32": "49CE11F1", 
+            "path": "/srv/cuckoo/cwd/storage/binaries/448f60f25d027bb95ae16b27a1df5095ad7d9a6716d5a21506763a1f24537953", 
+            "ssdeep": "192:7ggS+WK9i8G1XJN0NpP4f8ALk7dLoS34PfVzkcs9vO5BBfd2qNtWHsPxZ:nN93G/NCcLk930fRkcQO5BVd5tWAxZ", 
+            "size": 20580, 
+            "sha512": "4ce0b6814880e2bd6603908faca9db5a14c5c896bedade4f6e363812ea80a6cfc776c3ed4bdd1e85c1beb90379ecfacc4e6243f61ddde38895c19e1854f85bcf", 
+            "md5": "c7778307de1e52e8a81cc750b55a9a82"
+        }, 
+        "custom": null
+    }, 
+    "irma": {
+        "status": 0, 
+        "probes_finished": 16, 
+        "scan_id": "0d7caf55-a371-4948-a43f-b053989dd623", 
+        "parent_file_sha256": null, 
+        "name": "448f60f25d027bb95ae16b27a1df5095ad7d9a6716d5a21506763a1f24537953", 
+        "probes_total": 16, 
+        "scan_date": 1642307677, 
+        "other_results": [], 
+        "submitter": "cli", 
+        "file_infos": {
+            "mimetype": "ELF 32-bit MSB executable, SPARC, version 1 (SYSV)", 
+            "sha1": "f3a77d8eff25496233cee51b143df7dbe4409a30", 
+            "tags": [], 
+            "timestamp_first_scan": 1642307676.73, 
+            "timestamp_last_scan": 1642307685.8, 
+            "sha256": "448f60f25d027bb95ae16b27a1df5095ad7d9a6716d5a21506763a1f24537953", 
+            "md5": "c7778307de1e52e8a81cc750b55a9a82", 
+            "size": 20580
+        }, 
+        "probe_results": {
+            "antivirus": {
+                "Avast Core Security (Linux)": {
+                    "status": 0, 
+                    "duration": 0.01, 
+                    "version": "3.0.3", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "F-Secure Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.03, 
+                    "version": "11.10", 
+                    "results": null, 
+                    "virus_database_version": "2022-01-13_04"
+                }, 
+                "Windows Defender (Windows)": {
+                    "status": 0, 
+                    "duration": 0.05, 
+                    "version": "1.1.18800.4", 
+                    "results": null, 
+                    "virus_database_version": "1.355.1049.0"
+                }, 
+                "Comodo Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 2.09, 
+                    "version": "1.1.268025.1", 
+                    "results": null, 
+                    "virus_database_version": "2021-11-02"
+                }, 
+                "Kaspersky Antivirus (Win)": {
+                    "status": 0, 
+                    "duration": 2.61, 
+                    "version": "21.3", 
+                    "results": null, 
+                    "virus_database_version": "2022-01-04 05:53:00 (full)"
+                }, 
+                "ESET NOD32 Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 4.54, 
+                    "version": "4.0.96", 
+                    "results": null, 
+                    "virus_database_version": "6178ebd0-1e722 (2021-10-27)"
+                }, 
+                "GData (Windows)": {
+                    "status": 0, 
+                    "duration": 0.18, 
+                    "version": "5.5.20197.1358", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Forticlient (Linux)": {
+                    "status": 0, 
+                    "duration": 3.04, 
+                    "version": "unavailable", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Avira (Windows)": {
+                    "status": 0, 
+                    "duration": 3.81, 
+                    "version": "8.3.64.66", 
+                    "results": null, 
+                    "virus_database_version": "8.19.1.122"
+                }, 
+                "eScan Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 3.84, 
+                    "version": "7.0.21", 
+                    "results": null, 
+                    "virus_database_version": "7.90035 (27/10/2021)"
+                }, 
+                "McAfee CLI scanner (Linux)": {
+                    "status": 0, 
+                    "duration": 5.87, 
+                    "version": "6.0.6.653", 
+                    "results": null, 
+                    "virus_database_version": "10149"
+                }, 
+                "Sophos Anti-Virus (Linux)": {
+                    "status": 0, 
+                    "duration": 6.94, 
+                    "version": "5.85.0", 
+                    "results": null, 
+                    "virus_database_version": "5.88 (26 October 2021)"
+                }, 
+                "DrWeb Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.19, 
+                    "version": "11.1.10.2108031732", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "ClamAV (Linux)": {
+                    "status": 0, 
+                    "duration": 0.02, 
+                    "version": "0.103.2", 
+                    "results": null, 
+                    "virus_database_version": "26334"
+                }, 
+                "Bitdefender Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 6.18, 
+                    "version": "7.90123", 
+                    "results": null, 
+                    "virus_database_version": null
+                }, 
+                "Emsisoft Commandline Scanner (Windows)": {
+                    "status": 0, 
+                    "duration": 0.2, 
+                    "version": "2021.10.0.11201", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }
+            }
+        }, 
+        "path": "", 
+        "result_id": "969be14e-4a2a-4286-ad24-8229ec695038", 
+        "file_sha256": "448f60f25d027bb95ae16b27a1df5095ad7d9a6716d5a21506763a1f24537953"
+    }, 
+    "suricata": {
+        "tls": [
+            {
+                "src_ip": "192.168.168.106", 
+                "version": "TLS 1.2", 
+                "src_port": 45446, 
+                "dst_port": 443, 
+                "timestamp": "2022-01-16T06:30:46.833740+0200", 
+                "dst_ip": "91.189.92.39", 
+                "fingerprint": "97:63:1b:60:eb:d1:fa:4f:a4:fc:fa:98:66:3d:ee:22:fb:78:ce:c1", 
+                "subject": "C=GB, L=London, O=Canonical Group Ltd, CN=api.snapcraft.io", 
+                "issuer": "C=US, O=DigiCert Inc, CN=DigiCert TLS RSA SHA256 2020 CA1"
+            }
+        ], 
+        "files": [], 
+        "alerts": [], 
+        "http": []
+    }, 
+    "virustotal": {
+        "summary": {
+            "error": "resource has not been scanned yet"
+        }
+    }, 
+    "network": {
+        "udp": [], 
+        "dns_servers": [], 
+        "http": [], 
+        "smtp": [], 
+        "tcp": [], 
+        "geoinfo": {}, 
+        "mitm": [], 
+        "https_ex": [], 
+        "http_ex": [], 
+        "sorted_pcap_sha256": "2b4d3b944e4a94ad7057d4c8a8910948e895b712dda22a8406faf90c4e0db125", 
+        "icmp": [], 
+        "tls": [], 
+        "dead_hosts": [], 
+        "smtp_ex": [], 
+        "hosts": [], 
+        "pcap_sha256": "d37db238bffe5bb65e0db1f761b8ba91072c7eca975ca5623641d57db8fe18ca", 
+        "dns": [], 
+        "domains": [], 
+        "irc": []
+    }, 
+    "resubmit": {
+        "resubmit_ids": []
+    }, 
+    "snort": {
+        "alerts": []
+    }, 
+    "behavior": {
+        "generic": [
+            {
+                "process_path": null, 
+                "process_name": "ncal", 
+                "pid": 2076, 
+                "summary": {}, 
+                "first_seen": 1642281232.059717, 
+                "ppid": -1
+            }, 
+            {
+                "process_path": null, 
+                "process_name": "ncal", 
+                "pid": 2077, 
+                "summary": {}, 
+                "first_seen": 1642281232.987158, 
+                "ppid": 2076
+            }
+        ], 
+        "processes": [
+            {
+                "calls": [
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.059717 ncal@7fdcfdca1c27[2076] execve(\"/tmp/ncal\", [\"/tmp/ncal\"], [\"SUDO_GID=0\", \"MAIL=/var/mail/root\", \"USER=root\", \"HOME=/root\", \"SUDO_UID=0\", \"LOGNAME=root\", \"SYSTEMTAP_MODULE=stap_\", \"TERM=unknown\", \"SYSTEMTAP_VERBOSE=2\", \"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin\", \"DISPLAY=:0\", \"LANG=en_US.UTF-8\", \"XAUTHORITY=/root/.Xauthority\", \"SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/ncal\", \"SHELL=/bin/bash\", \"SUDO_USER=root\", \"PWD=/tmp/tmpiBT5Y9\"])\n", 
+                        "api": "execve", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfdca1c27", 
+                        "arguments": {
+                            "p2": [
+                                "SUDO_GID=0", 
+                                "MAIL=/var/mail/root", 
+                                "USER=root", 
+                                "HOME=/root", 
+                                "SUDO_UID=0", 
+                                "LOGNAME=root", 
+                                "SYSTEMTAP_MODULE=stap_", 
+                                "TERM=unknown", 
+                                "SYSTEMTAP_VERBOSE=2", 
+                                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin", 
+                                "DISPLAY=:0", 
+                                "LANG=en_US.UTF-8", 
+                                "XAUTHORITY=/root/.Xauthority", 
+                                "SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/ncal", 
+                                "SHELL=/bin/bash", 
+                                "SUDO_USER=root", 
+                                "PWD=/tmp/tmpiBT5Y9"
+                            ], 
+                            "p0": "/tmp/ncal", 
+                            "p1": [
+                                "/tmp/ncal"
+                            ]
+                        }, 
+                        "time": 1642281232.059717
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.969545 ncal@7fdcfdca1c27[2076] brk(0x0) = 94016156536832\n", 
+                        "api": "brk", 
+                        "return_value": "94016156536832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfdca1c27", 
+                        "arguments": {
+                            "p0": "0x0"
+                        }, 
+                        "time": 1642281232.969545
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.969664 ncal@7fdcfdca29d7[2076] access(\"/etc/ld.so.preload\", R_OK) = -2 (ENOENT)\n", 
+                        "api": "access", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfdca29d7", 
+                        "arguments": {
+                            "p0": "/etc/ld.so.preload", 
+                            "p1": "R_OK"
+                        }, 
+                        "time": 1642281232.969664
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.970188 ncal@7fdcfdca2b0d[2076] openat(AT_FDCWD, \"/etc/ld.so.cache\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfdca2b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/etc/ld.so.cache"
+                        }, 
+                        "time": 1642281232.970188
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.970255 ncal@7fdcfdca2943[2076] fstat(4, 0x7ffd56da08b0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfdca2943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd56da08b0"
+                        }, 
+                        "time": 1642281232.970255
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.970311 ncal@7fdcfdca2d03[2076] mmap2(0x0, 88858, PROT_READ, MAP_PRIVATE, 4, 0) = 0x7fdcfdc70000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fdcfdc70000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfdca2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE", 
+                            "p0": "0x0", 
+                            "p1": "88858", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281232.970311
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.970369 ncal@7fdcfdca29f7[2076] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfdca29f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642281232.970369
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.970444 ncal@7fdcfdca2b0d[2076] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfdca2b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0"
+                        }, 
+                        "time": 1642281232.970444
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.970508 ncal@7fdcfdca2bd4[2076] read(4, 0x7ffd56da0a68, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfdca2bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffd56da0a68"
+                        }, 
+                        "time": 1642281232.970508
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.970563 ncal@7fdcfdca2943[2076] fstat(4, 0x7ffd56da0900) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfdca2943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd56da0900"
+                        }, 
+                        "time": 1642281232.970563
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.970612 ncal@7fdcfdca2d03[2076] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fdcfdc6e000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fdcfdc6e000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfdca2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281232.970612
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.970673 ncal@7fdcfdca2d03[2076] mmap2(0x0, 20600, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fdcfdc68000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fdcfdc68000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfdca2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "20600", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281232.970673
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.970730 ncal@7fdcfdca2d03[2076] mmap2(0x7fdcfdc69000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 4096) = 0x7fdcfdc69000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fdcfdc69000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfdca2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fdcfdc69000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "4096"
+                        }, 
+                        "time": 1642281232.97073
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.970798 ncal@7fdcfdca2d03[2076] mmap2(0x7fdcfdc6b000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7fdcfdc6b000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fdcfdc6b000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfdca2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fdcfdc6b000", 
+                            "p1": "4096", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642281232.970798
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.970857 ncal@7fdcfdca2d03[2076] mmap2(0x7fdcfdc6c000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7fdcfdc6c000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fdcfdc6c000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfdca2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fdcfdc6c000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642281232.970857
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.970936 ncal@7fdcfdca29f7[2076] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfdca29f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642281232.970936
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.971000 ncal@7fdcfdca2b0d[2076] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfdca2b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0"
+                        }, 
+                        "time": 1642281232.971
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.971059 ncal@7fdcfdca2bd4[2076] read(4, 0x7ffd56da0a48, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfdca2bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffd56da0a48"
+                        }, 
+                        "time": 1642281232.971059
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.971110 ncal@7fdcfdca2943[2076] fstat(4, 0x7ffd56da08e0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfdca2943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd56da08e0"
+                        }, 
+                        "time": 1642281232.97111
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.971160 ncal@7fdcfdca2d03[2076] mmap2(0x0, 1180072, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fdcfdb47000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fdcfdb47000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfdca2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1180072", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281232.97116
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.971217 ncal@7fdcfdca2db7[2076] mprotect(0x7fdcfdb62000, 1060864, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfdca2db7", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7fdcfdb62000", 
+                            "p1": "1060864"
+                        }, 
+                        "time": 1642281232.971217
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.971280 ncal@7fdcfdca2d03[2076] mmap2(0x7fdcfdb62000, 524288, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 110592) = 0x7fdcfdb62000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fdcfdb62000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfdca2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fdcfdb62000", 
+                            "p1": "524288", 
+                            "p4": "4", 
+                            "p5": "110592"
+                        }, 
+                        "time": 1642281232.97128
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.971336 ncal@7fdcfdca2d03[2076] mmap2(0x7fdcfdbe2000, 532480, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 634880) = 0x7fdcfdbe2000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fdcfdbe2000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfdca2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fdcfdbe2000", 
+                            "p1": "532480", 
+                            "p4": "4", 
+                            "p5": "634880"
+                        }, 
+                        "time": 1642281232.971336
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.971393 ncal@7fdcfdca2d03[2076] mmap2(0x7fdcfdc65000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1167360) = 0x7fdcfdc65000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fdcfdc65000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfdca2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fdcfdc65000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "1167360"
+                        }, 
+                        "time": 1642281232.971393
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.971459 ncal@7fdcfdca2d03[2076] mmap2(0x7fdcfdc67000, 424, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fdcfdc67000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fdcfdc67000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfdca2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7fdcfdc67000", 
+                            "p1": "424", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281232.971459
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.971524 ncal@7fdcfdca29f7[2076] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfdca29f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642281232.971524
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.971606 ncal@7fdcfdca2b0d[2076] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/librt.so.1\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfdca2b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/librt.so.1"
+                        }, 
+                        "time": 1642281232.971606
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.971663 ncal@7fdcfdca2bd4[2076] read(4, 0x7ffd56da0a28, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfdca2bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffd56da0a28"
+                        }, 
+                        "time": 1642281232.971663
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.971712 ncal@7fdcfdca2943[2076] fstat(4, 0x7ffd56da08c0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfdca2943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd56da08c0"
+                        }, 
+                        "time": 1642281232.971712
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.971762 ncal@7fdcfdca2d03[2076] mmap2(0x0, 44000, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fdcfdb3c000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fdcfdb3c000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfdca2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "44000", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281232.971762
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.971820 ncal@7fdcfdca2d03[2076] mmap2(0x7fdcfdb3f000, 16384, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7fdcfdb3f000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fdcfdb3f000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfdca2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fdcfdb3f000", 
+                            "p1": "16384", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642281232.97182
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.971884 ncal@7fdcfdca2d03[2076] mmap2(0x7fdcfdb43000, 8192, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 28672) = 0x7fdcfdb43000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fdcfdb43000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfdca2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fdcfdb43000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "28672"
+                        }, 
+                        "time": 1642281232.971884
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.971942 ncal@7fdcfdca2d03[2076] mmap2(0x7fdcfdb45000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 32768) = 0x7fdcfdb45000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fdcfdb45000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfdca2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fdcfdb45000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "32768"
+                        }, 
+                        "time": 1642281232.971942
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.972014 ncal@7fdcfdca29f7[2076] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfdca29f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642281232.972014
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.972077 ncal@7fdcfdca2b0d[2076] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libm.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfdca2b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libm.so.6"
+                        }, 
+                        "time": 1642281232.972077
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.972134 ncal@7fdcfdca2bd4[2076] read(4, 0x7ffd56da0a08, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfdca2bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffd56da0a08"
+                        }, 
+                        "time": 1642281232.972134
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.972198 ncal@7fdcfdca2943[2076] fstat(4, 0x7ffd56da08a0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfdca2943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd56da08a0"
+                        }, 
+                        "time": 1642281232.972198
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.972253 ncal@7fdcfdca2d03[2076] mmap2(0x0, 1364240, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fdcfd9ee000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fdcfd9ee000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfdca2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1364240", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281232.972253
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.972308 ncal@7fdcfdca2d03[2076] mmap2(0x7fdcfd9fd000, 679936, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 61440) = 0x7fdcfd9fd000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fdcfd9fd000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfdca2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fdcfd9fd000", 
+                            "p1": "679936", 
+                            "p4": "4", 
+                            "p5": "61440"
+                        }, 
+                        "time": 1642281232.972308
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.972371 ncal@7fdcfdca2d03[2076] mmap2(0x7fdcfdaa3000, 618496, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 741376) = 0x7fdcfdaa3000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fdcfdaa3000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfdca2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fdcfdaa3000", 
+                            "p1": "618496", 
+                            "p4": "4", 
+                            "p5": "741376"
+                        }, 
+                        "time": 1642281232.972371
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.972428 ncal@7fdcfdca2d03[2076] mmap2(0x7fdcfdb3a000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1355776) = 0x7fdcfdb3a000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fdcfdb3a000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfdca2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fdcfdb3a000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "1355776"
+                        }, 
+                        "time": 1642281232.972428
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.972502 ncal@7fdcfdca29f7[2076] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfdca29f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642281232.972502
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.972569 ncal@7fdcfdca2b0d[2076] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libgcc_s.so.1\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfdca2b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libgcc_s.so.1"
+                        }, 
+                        "time": 1642281232.972569
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.972626 ncal@7fdcfdca2bd4[2076] read(4, 0x7ffd56da09e8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfdca2bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffd56da09e8"
+                        }, 
+                        "time": 1642281232.972626
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.972677 ncal@7fdcfdca2943[2076] fstat(4, 0x7ffd56da0880) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfdca2943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd56da0880"
+                        }, 
+                        "time": 1642281232.972677
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.972727 ncal@7fdcfdca2d03[2076] mmap2(0x0, 103504, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fdcfd9d4000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fdcfd9d4000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfdca2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "103504", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281232.972727
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.972784 ncal@7fdcfdca2d03[2076] mmap2(0x7fdcfd9d7000, 69632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7fdcfd9d7000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fdcfd9d7000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfdca2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fdcfd9d7000", 
+                            "p1": "69632", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642281232.972784
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.972845 ncal@7fdcfdca2d03[2076] mmap2(0x7fdcfd9e8000, 16384, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 81920) = 0x7fdcfd9e8000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fdcfd9e8000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfdca2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fdcfd9e8000", 
+                            "p1": "16384", 
+                            "p4": "4", 
+                            "p5": "81920"
+                        }, 
+                        "time": 1642281232.972845
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.972900 ncal@7fdcfdca2d03[2076] mmap2(0x7fdcfd9ec000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 94208) = 0x7fdcfd9ec000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fdcfd9ec000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfdca2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fdcfd9ec000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "94208"
+                        }, 
+                        "time": 1642281232.9729
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.973031 ncal@7fdcfdca29f7[2076] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfdca29f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642281232.973031
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.973103 ncal@7fdcfdca2b0d[2076] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libpthread.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfdca2b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libpthread.so.0"
+                        }, 
+                        "time": 1642281232.973103
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.973161 ncal@7fdcfdca2bd4[2076] read(4, 0x7ffd56da09c8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfdca2bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffd56da09c8"
+                        }, 
+                        "time": 1642281232.973161
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.973213 ncal@7fdcfdca2943[2076] fstat(4, 0x7ffd56da0860) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfdca2943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd56da0860"
+                        }, 
+                        "time": 1642281232.973213
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.973264 ncal@7fdcfdca2d03[2076] mmap2(0x0, 132288, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fdcfd9b3000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fdcfd9b3000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfdca2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "132288", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281232.973264
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.973322 ncal@7fdcfdca2d03[2076] mmap2(0x7fdcfd9ba000, 61440, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 28672) = 0x7fdcfd9ba000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fdcfd9ba000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfdca2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fdcfd9ba000", 
+                            "p1": "61440", 
+                            "p4": "4", 
+                            "p5": "28672"
+                        }, 
+                        "time": 1642281232.973322
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.973384 ncal@7fdcfdca2d03[2076] mmap2(0x7fdcfd9c9000, 20480, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 90112) = 0x7fdcfd9c9000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fdcfd9c9000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfdca2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fdcfd9c9000", 
+                            "p1": "20480", 
+                            "p4": "4", 
+                            "p5": "90112"
+                        }, 
+                        "time": 1642281232.973384
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.973441 ncal@7fdcfdca2d03[2076] mmap2(0x7fdcfd9ce000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 106496) = 0x7fdcfd9ce000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fdcfd9ce000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfdca2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fdcfd9ce000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "106496"
+                        }, 
+                        "time": 1642281232.973441
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.973508 ncal@7fdcfdca2d03[2076] mmap2(0x7fdcfd9d0000, 13504, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fdcfd9d0000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fdcfd9d0000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfdca2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7fdcfd9d0000", 
+                            "p1": "13504", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281232.973508
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.973572 ncal@7fdcfdca29f7[2076] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfdca29f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642281232.973572
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.973637 ncal@7fdcfdca2b0d[2076] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libc.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfdca2b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libc.so.6"
+                        }, 
+                        "time": 1642281232.973637
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.973714 ncal@7fdcfdca2bd4[2076] read(4, 0x7ffd56da09a8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfdca2bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffd56da09a8"
+                        }, 
+                        "time": 1642281232.973714
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.973767 ncal@7fdcfdca2943[2076] fstat(4, 0x7ffd56da0840) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfdca2943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd56da0840"
+                        }, 
+                        "time": 1642281232.973767
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.973821 ncal@7fdcfdca2d03[2076] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fdcfd9b1000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fdcfd9b1000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfdca2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281232.973821
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.973901 ncal@7fdcfdca2d03[2076] mmap2(0x0, 2008696, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fdcfd7c6000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fdcfd7c6000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfdca2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "2008696", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281232.973901
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.974067 ncal@7fdcfdca2d03[2076] mmap2(0x7fdcfd7eb000, 1519616, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 151552) = 0x7fdcfd7eb000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fdcfd7eb000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfdca2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fdcfd7eb000", 
+                            "p1": "1519616", 
+                            "p4": "4", 
+                            "p5": "151552"
+                        }, 
+                        "time": 1642281232.974067
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.974146 ncal@7fdcfdca2d03[2076] mmap2(0x7fdcfd95e000, 299008, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1671168) = 0x7fdcfd95e000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fdcfd95e000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfdca2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fdcfd95e000", 
+                            "p1": "299008", 
+                            "p4": "4", 
+                            "p5": "1671168"
+                        }, 
+                        "time": 1642281232.974146
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.974230 ncal@7fdcfdca2d03[2076] mmap2(0x7fdcfd9a7000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1966080) = 0x7fdcfd9a7000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fdcfd9a7000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfdca2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fdcfd9a7000", 
+                            "p1": "24576", 
+                            "p4": "4", 
+                            "p5": "1966080"
+                        }, 
+                        "time": 1642281232.97423
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.974300 ncal@7fdcfdca2d03[2076] mmap2(0x7fdcfd9ad000, 13944, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fdcfd9ad000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fdcfd9ad000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfdca2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7fdcfd9ad000", 
+                            "p1": "13944", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281232.9743
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.975344 ncal@7fdcfdca29f7[2076] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfdca29f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642281232.975344
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.975427 ncal@7fdcfdca2b0d[2076] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libdl.so.2\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfdca2b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libdl.so.2"
+                        }, 
+                        "time": 1642281232.975427
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.975505 ncal@7fdcfdca2bd4[2076] read(4, 0x7ffd56da0988, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfdca2bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffd56da0988"
+                        }, 
+                        "time": 1642281232.975505
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.975563 ncal@7fdcfdca2943[2076] fstat(4, 0x7ffd56da0820) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfdca2943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd56da0820"
+                        }, 
+                        "time": 1642281232.975563
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.975618 ncal@7fdcfdca2d03[2076] mmap2(0x0, 20752, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fdcfd7c0000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fdcfd7c0000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfdca2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "20752", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281232.975618
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.975679 ncal@7fdcfdca2d03[2076] mmap2(0x7fdcfd7c1000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 4096) = 0x7fdcfd7c1000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fdcfd7c1000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfdca2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fdcfd7c1000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "4096"
+                        }, 
+                        "time": 1642281232.975679
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.975746 ncal@7fdcfdca2d03[2076] mmap2(0x7fdcfd7c3000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7fdcfd7c3000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fdcfd7c3000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfdca2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fdcfd7c3000", 
+                            "p1": "4096", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642281232.975746
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.975826 ncal@7fdcfdca2d03[2076] mmap2(0x7fdcfd7c4000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7fdcfd7c4000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fdcfd7c4000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfdca2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fdcfd7c4000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642281232.975826
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.975905 ncal@7fdcfdca29f7[2076] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfdca29f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642281232.975905
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.975980 ncal@7fdcfdca2b0d[2076] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libpcre.so.3\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfdca2b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libpcre.so.3"
+                        }, 
+                        "time": 1642281232.97598
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.976057 ncal@7fdcfdca2bd4[2076] read(4, 0x7ffd56da0968, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfdca2bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffd56da0968"
+                        }, 
+                        "time": 1642281232.976057
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.976123 ncal@7fdcfdca2943[2076] fstat(4, 0x7ffd56da0800) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfdca2943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd56da0800"
+                        }, 
+                        "time": 1642281232.976123
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.976207 ncal@7fdcfdca2d03[2076] mmap2(0x0, 471304, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fdcfd74c000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fdcfd74c000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfdca2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "471304", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281232.976207
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.976266 ncal@7fdcfdca2d03[2076] mmap2(0x7fdcfd74e000, 335872, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 8192) = 0x7fdcfd74e000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fdcfd74e000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfdca2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fdcfd74e000", 
+                            "p1": "335872", 
+                            "p4": "4", 
+                            "p5": "8192"
+                        }, 
+                        "time": 1642281232.976266
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.976343 ncal@7fdcfdca2d03[2076] mmap2(0x7fdcfd7a0000, 122880, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 344064) = 0x7fdcfd7a0000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fdcfd7a0000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfdca2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fdcfd7a0000", 
+                            "p1": "122880", 
+                            "p4": "4", 
+                            "p5": "344064"
+                        }, 
+                        "time": 1642281232.976343
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.976420 ncal@7fdcfdca2d03[2076] mmap2(0x7fdcfd7be000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 462848) = 0x7fdcfd7be000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fdcfd7be000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfdca2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fdcfd7be000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "462848"
+                        }, 
+                        "time": 1642281232.97642
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.976500 ncal@7fdcfdca29f7[2076] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfdca29f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642281232.9765
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.977526 ncal@7fdcfdca2d03[2076] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fdcfd74a000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fdcfd74a000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfdca2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281232.977526
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.977602 ncal@7fdcfdc87f30[2076] arch_prctl(ARCH_SET_FS, 140587121815872) = 0\n", 
+                        "api": "arch_prctl", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfdc87f30", 
+                        "arguments": {
+                            "p0": "ARCH_SET_FS", 
+                            "p1": "140587121815872"
+                        }, 
+                        "time": 1642281232.977602
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.978533 ncal@7fdcfdca2db7[2076] mprotect(0x7fdcfd9a7000, 12288, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfdca2db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fdcfd9a7000", 
+                            "p1": "12288"
+                        }, 
+                        "time": 1642281232.978533
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.978615 ncal@7fdcfdca2db7[2076] mprotect(0x7fdcfd9ce000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfdca2db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fdcfd9ce000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642281232.978615
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.978709 ncal@7fdcfdca2db7[2076] mprotect(0x7fdcfd7be000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfdca2db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fdcfd7be000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642281232.978709
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.978779 ncal@7fdcfdca2db7[2076] mprotect(0x7fdcfd7c4000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfdca2db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fdcfd7c4000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642281232.978779
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.978843 ncal@7fdcfdca2db7[2076] mprotect(0x7fdcfd9ec000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfdca2db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fdcfd9ec000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642281232.978843
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.978926 ncal@7fdcfdca2db7[2076] mprotect(0x7fdcfdb3a000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfdca2db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fdcfdb3a000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642281232.978926
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.978993 ncal@7fdcfdca2db7[2076] mprotect(0x7fdcfdb45000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfdca2db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fdcfdb45000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642281232.978993
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.979348 ncal@7fdcfdca2db7[2076] mprotect(0x7fdcfdc65000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfdca2db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fdcfdc65000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642281232.979348
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.979436 ncal@7fdcfdca2db7[2076] mprotect(0x7fdcfdc6c000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfdca2db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fdcfdc6c000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642281232.979436
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.983225 ncal@7fdcfdca2db7[2076] mprotect(0x5581d4501000, 303104, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfdca2db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x5581d4501000", 
+                            "p1": "303104"
+                        }, 
+                        "time": 1642281232.983225
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.983305 ncal@7fdcfdca2db7[2076] mprotect(0x7fdcfdcb0000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfdca2db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fdcfdcb0000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642281232.983305
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.983433 ncal@7fdcfdca2d97[2076] munmap(0x7fdcfdc70000, 88858) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfdca2d97", 
+                        "arguments": {
+                            "p0": "0x7fdcfdc70000", 
+                            "p1": "88858"
+                        }, 
+                        "time": 1642281232.983433
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.983527 ncal@7fdcfd9ba8df[2076] set_tid_address(0x7fdcfd74b410) = 2076\n", 
+                        "api": "set_tid_address", 
+                        "return_value": "2076", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfd9ba8df", 
+                        "arguments": {
+                            "p0": "0x7fdcfd74b410"
+                        }, 
+                        "time": 1642281232.983527
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.983580 ncal@7fdcfd9ba94a[2076] set_robust_list(0x7fdcfd74b420, 24) = 0\n", 
+                        "api": "set_robust_list", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfd9ba94a", 
+                        "arguments": {
+                            "p0": "0x7fdcfd74b420", 
+                            "p1": "24"
+                        }, 
+                        "time": 1642281232.98358
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.983640 ncal@7fdcfd9c7010[2076] rt_sigaction(0x20, {0x7fdcfd9ba6c0, SA_SIGINFO|SA_RESTORER, 0x7fdcfd9c6f40, [EMPTY]}, 0x0, 8) = 0\n", 
+                        "api": "rt_sigaction", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfd9c7010", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "0x20", 
+                            "p1": [
+                                "0x7fdcfd9ba6c0", 
+                                "SA_SIGINFO|SA_RESTORER", 
+                                "0x7fdcfd9c6f40", 
+                                [
+                                    "EMPTY]"
+                                ]
+                            ]
+                        }, 
+                        "time": 1642281232.98364
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.983695 ncal@7fdcfd9c7010[2076] rt_sigaction(0x21, {0x7fdcfd9ba760, SA_RESTART|SA_SIGINFO|SA_RESTORER, 0x7fdcfd9c6f40, [EMPTY]}, 0x0, 8) = 0\n", 
+                        "api": "rt_sigaction", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfd9c7010", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "0x21", 
+                            "p1": [
+                                "0x7fdcfd9ba760", 
+                                "SA_RESTART|SA_SIGINFO|SA_RESTORER", 
+                                "0x7fdcfd9c6f40", 
+                                [
+                                    "EMPTY]"
+                                ]
+                            ]
+                        }, 
+                        "time": 1642281232.983695
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.983746 ncal@7fdcfd9baa19[2076] rt_sigprocmask(SIG_UNBLOCK, [EMPTY], 0x0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfd9baa19", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "SIG_UNBLOCK", 
+                            "p1": [
+                                "EMPTY"
+                            ]
+                        }, 
+                        "time": 1642281232.983746
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.983817 ncal@7fdcfd8d8df0[2076] prlimit64(0, RLIMIT_STACK, NULL, 0x7ffd56da1640) = 0\n", 
+                        "api": "prlimit64", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfd8d8df0", 
+                        "arguments": {
+                            "p2": "NULL", 
+                            "p3": "0x7ffd56da1640", 
+                            "p0": "0", 
+                            "p1": "RLIMIT_STACK"
+                        }, 
+                        "time": 1642281232.983817
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.984066 ncal@7fdcfd8d92f7[2076] brk(0x0) = 94016156536832\n", 
+                        "api": "brk", 
+                        "return_value": "94016156536832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfd8d92f7", 
+                        "arguments": {
+                            "p0": "0x0"
+                        }, 
+                        "time": 1642281232.984066
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.984162 ncal@7fdcfd8d92f7[2076] brk(0x5581d79f2000) = 94016156672000\n", 
+                        "api": "brk", 
+                        "return_value": "94016156672000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfd8d92f7", 
+                        "arguments": {
+                            "p0": "0x5581d79f2000"
+                        }, 
+                        "time": 1642281232.984162
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.985434 ncal@7fdcfd9c3b86[2076] rt_sigprocmask(SIG_SETMASK, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS], 0x7ffd56da1590, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfd9c3b86", 
+                        "arguments": {
+                            "p2": "0x7ffd56da1590", 
+                            "p3": "8", 
+                            "p0": "SIG_SETMASK", 
+                            "p1": [
+                                "SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS"
+                            ]
+                        }, 
+                        "time": 1642281232.985434
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.986828 ncal@7fdcfd8dd4c3[2076] mmap2(0x0, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7fdcfcf49000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fdcfcf49000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfd8dd4c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK", 
+                            "p0": "0x0", 
+                            "p1": "8392704", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281232.986828
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.986890 ncal@7fdcfd8dd597[2076] mprotect(0x7fdcfcf4a000, 8388608, PROT_READ|PROT_WRITE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfd8dd597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p0": "0x7fdcfcf4a000", 
+                            "p1": "8388608"
+                        }, 
+                        "time": 1642281232.98689
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.986964 ncal@7fdcfd8e3b11[2076] clone(CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, 0x7fdcfd748f70, 0x7fdcfd7499d0, 0x7fdcfd7499d0) = 2077\n", 
+                        "api": "clone", 
+                        "return_value": "2077", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfd8e3b11", 
+                        "arguments": {
+                            "p2": "0x7fdcfd7499d0", 
+                            "p3": "0x7fdcfd7499d0", 
+                            "p0": "CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID", 
+                            "p1": "0x7fdcfd748f70"
+                        }, 
+                        "time": 1642281232.986964
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.987079 ncal@7fdcfd9c3b86[2076] rt_sigprocmask(SIG_SETMASK, [EMPTY], 0x0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfd9c3b86", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "SIG_SETMASK", 
+                            "p1": [
+                                "EMPTY"
+                            ]
+                        }, 
+                        "time": 1642281232.987079
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.989953 ncal@7fdcfd8d8df0[2076] prlimit64(0, RLIMIT_STACK, NULL, 0x7ffd56da1150) = 0\n", 
+                        "api": "prlimit64", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfd8d8df0", 
+                        "arguments": {
+                            "p2": "NULL", 
+                            "p3": "0x7ffd56da1150", 
+                            "p0": "0", 
+                            "p1": "RLIMIT_STACK"
+                        }, 
+                        "time": 1642281232.989953
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.990077 ncal@7fdcfd8d85c1[2076] openat(AT_FDCWD, \"/etc/qemu-binfmt/sparc\", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -2 (ENOENT)\n", 
+                        "api": "openat", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfd8d85c1", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/etc/qemu-binfmt/sparc"
+                        }, 
+                        "time": 1642281232.990077
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.990145 ncal@7fdcfd8a7247[2076] uname(0x7ffd56da0dc0) = 0\n", 
+                        "api": "uname", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfd8a7247", 
+                        "arguments": {
+                            "p0": "0x7ffd56da0dc0"
+                        }, 
+                        "time": 1642281232.990145
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.990183 ncal@7fdcfd9c6337[2076] lseek(3, 0, SEEK_SET) = 0\n", 
+                        "api": "lseek", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfd9c6337", 
+                        "arguments": {
+                            "p2": "SEEK_SET", 
+                            "p0": "3", 
+                            "p1": "0"
+                        }, 
+                        "time": 1642281232.990183
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.990218 ncal@7fdcfd9c5d94[2076] read(3, 0x7ffd56da10b0, 52) = 52\n", 
+                        "api": "read", 
+                        "return_value": "52", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfd9c5d94", 
+                        "arguments": {
+                            "p2": "52", 
+                            "p0": "3", 
+                            "p1": "0x7ffd56da10b0"
+                        }, 
+                        "time": 1642281232.990218
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.990255 ncal@7fdcfd9c6337[2076] lseek(3, 0, SEEK_SET) = 0\n", 
+                        "api": "lseek", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfd9c6337", 
+                        "arguments": {
+                            "p2": "SEEK_SET", 
+                            "p0": "3", 
+                            "p1": "0"
+                        }, 
+                        "time": 1642281232.990255
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.991596 ncal@7fdcfd8dd4c3[2076] mmap2(0x0, 528384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fdcfcec8000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fdcfcec8000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfd8dd4c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "528384", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281232.991596
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.992061 ncal@7fdcfd8dd597[2076] mprotect(0x5581d455e000, 33550336, PROT_READ|PROT_WRITE|PROT_EXEC) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfd8dd597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE|PROT_EXEC", 
+                            "p0": "0x5581d455e000", 
+                            "p1": "33550336"
+                        }, 
+                        "time": 1642281232.992061
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.992110 ncal@7fdcfd8dd667[2076] madvise(0x5581d455e000, 33550336, MADV_HUGEPAGE) = 0\n", 
+                        "api": "madvise", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfd8dd667", 
+                        "arguments": {
+                            "p2": "MADV_HUGEPAGE", 
+                            "p0": "0x5581d455e000", 
+                            "p1": "33550336"
+                        }, 
+                        "time": 1642281232.99211
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.992264 ncal@7fdcfd8dd4c3[2076] mmap2(0x0, 4294963200, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7fdbf8001000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fdbf8001000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfd8dd4c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x0", 
+                            "p1": "4294963200", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281232.992264
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.992312 ncal@7fdcfd8d2d59[2076] openat(AT_FDCWD, \"/proc/sys/vm/mmap_min_addr\", O_RDONLY) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfd8d2d59", 
+                        "arguments": {
+                            "p2": "O_RDONLY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/proc/sys/vm/mmap_min_addr"
+                        }, 
+                        "time": 1642281232.992312
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.992359 ncal@7fdcfd8d2613[2076] fstat(4, 0x7ffd56da07c0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfd8d2613", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd56da07c0"
+                        }, 
+                        "time": 1642281232.992359
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.992395 ncal@7fdcfd8d2fb4[2076] read(4, 0x5581d79de3a0, 1024) = 6\n", 
+                        "api": "read", 
+                        "return_value": "6", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfd8d2fb4", 
+                        "arguments": {
+                            "p2": "1024", 
+                            "p0": "4", 
+                            "p1": "0x5581d79de3a0"
+                        }, 
+                        "time": 1642281232.992395
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.992432 ncal@7fdcfd8d83f7[2076] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfd8d83f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642281232.992432
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.992479 ncal@7fdcfd8dd2e9[2076] gettid() = 2076\n", 
+                        "api": "gettid", 
+                        "return_value": "2076", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfd8dd2e9", 
+                        "arguments": {}, 
+                        "time": 1642281232.992479
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.992512 ncal@7fdcfd8d2613[2076] fstat(3, 0x7ffd56da1030) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfd8d2613", 
+                        "arguments": {
+                            "p0": "3", 
+                            "p1": "0x7ffd56da1030"
+                        }, 
+                        "time": 1642281232.992512
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.992544 ncal@7fdcfd8a8717[2076] geteuid() = 0\n", 
+                        "api": "geteuid", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfd8a8717", 
+                        "arguments": {}, 
+                        "time": 1642281232.992544
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.992576 ncal@7fdcfd8a8737[2076] getegid() = 0\n", 
+                        "api": "getegid", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfd8a8737", 
+                        "arguments": {}, 
+                        "time": 1642281232.992576
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.992606 ncal@7fdcfd9c5d94[2076] read(3, 0x7ffd56da1230, 1024) = 1024\n", 
+                        "api": "read", 
+                        "return_value": "1024", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfd9c5d94", 
+                        "arguments": {
+                            "p2": "1024", 
+                            "p0": "3", 
+                            "p1": "0x7ffd56da1230"
+                        }, 
+                        "time": 1642281232.992606
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.992641 ncal@7fdcfd8dd4c3[2076] mmap2(0x7fdbf8011000, 16384, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 3, 0) = 0x7fdbf8011000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fdbf8011000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfd8dd4c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED", 
+                            "p0": "0x7fdbf8011000", 
+                            "p1": "16384", 
+                            "p4": "3", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281232.992641
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.992687 ncal@7fdcfd8d92f7[2076] brk(0x5581d7a13000) = 94016156807168\n", 
+                        "api": "brk", 
+                        "return_value": "94016156807168", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfd8d92f7", 
+                        "arguments": {
+                            "p0": "0x5581d7a13000"
+                        }, 
+                        "time": 1642281232.992687
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.992740 ncal@7fdcfd8dd4c3[2076] mmap2(0x7fdbf8025000, 4096, PROT_READ|PROT_WRITE|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 3, 16384) = 0x7fdbf8025000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fdbf8025000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfd8dd4c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED", 
+                            "p0": "0x7fdbf8025000", 
+                            "p1": "4096", 
+                            "p4": "3", 
+                            "p5": "16384"
+                        }, 
+                        "time": 1642281232.99274
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.992786 ncal@7fdcfd9c5e27[2076] close(3) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfd9c5e27", 
+                        "arguments": {
+                            "p0": "3"
+                        }, 
+                        "time": 1642281232.992786
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.992845 ncal@7fdcfd8dd4c3[2076] mmap2(0x7fdcf77ff000, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fdcf77ff000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fdcf77ff000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfd8dd4c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7fdcf77ff000", 
+                            "p1": "8392704", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281232.992845
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.992951 ncal@7fdcfd8dd597[2076] mprotect(0x7fdcf77ff000, 4096, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfd8dd597", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7fdcf77ff000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642281232.992951
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.993013 ncal@7fdcfd9c655e[2076] openat(AT_FDCWD, \"/lib/ld-linux.so.2\", O_RDONLY) = -2 (ENOENT)\n", 
+                        "api": "openat", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfd9c655e", 
+                        "arguments": {
+                            "p2": "O_RDONLY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/ld-linux.so.2"
+                        }, 
+                        "time": 1642281232.993013
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.993077 ncal@7fdcfd8d3057[2076] write(2, \"/lib/ld-linux.so.2: No such file or directory\\n\", 46) = 46\n", 
+                        "api": "write", 
+                        "return_value": "46", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfd8d3057", 
+                        "arguments": {
+                            "p2": "46", 
+                            "p0": "2", 
+                            "p1": "/lib/ld-linux.so.2: No such file or directory\n"
+                        }, 
+                        "time": 1642281232.993077
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.993137 ncal@7fdcfd8a7926[2076] exit_group(-1)\n", 
+                        "api": "exit_group", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfd8a7926", 
+                        "arguments": {
+                            "p0": "-1"
+                        }, 
+                        "time": 1642281232.993137
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:13:52 2022.993171 ncal@7fdcfd8a7926[2076] futex(0x7fdcfd74b410, FUTEX_WAKE, 1) = 0\n", 
+                        "api": "futex", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfd8a7926", 
+                        "arguments": {
+                            "p2": "1", 
+                            "p0": "0x7fdcfd74b410", 
+                            "p1": "FUTEX_WAKE"
+                        }, 
+                        "time": 1642281232.993171
+                    }
+                ], 
+                "pid": 2076, 
+                "process_name": "ncal", 
+                "command_line": "/tmp/ncal", 
+                "first_seen": 1642281232.059717, 
+                "ppid": -1, 
+                "type": "process"
+            }, 
+            {
+                "calls": [
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2077, 
+                        "raw": "Sat Jan 15 21:13:52 2022.987158 ncal@7fdcfd9bc117[2077] set_robust_list(0x7fdcfd7499e0, 24) = 0\n", 
+                        "api": "set_robust_list", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfd9bc117", 
+                        "arguments": {
+                            "p0": "0x7fdcfd7499e0", 
+                            "p1": "24"
+                        }, 
+                        "time": 1642281232.987158
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2077, 
+                        "raw": "Sat Jan 15 21:13:52 2022.987223 ncal@7fdcfd8dd4c3[2077] mmap2(0x0, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7fdcf4f49000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fdcf4f49000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfd8dd4c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x0", 
+                            "p1": "134217728", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281232.987223
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2077, 
+                        "raw": "Sat Jan 15 21:13:52 2022.987281 ncal@7fdcfd8dd567[2077] munmap(0x7fdcf4f49000, 51081216) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfd8dd567", 
+                        "arguments": {
+                            "p0": "0x7fdcf4f49000", 
+                            "p1": "51081216"
+                        }, 
+                        "time": 1642281232.987281
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2077, 
+                        "raw": "Sat Jan 15 21:13:52 2022.987333 ncal@7fdcfd8dd567[2077] munmap(0x7fdcfc000000, 16027648) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfd8dd567", 
+                        "arguments": {
+                            "p0": "0x7fdcfc000000", 
+                            "p1": "16027648"
+                        }, 
+                        "time": 1642281232.987333
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2077, 
+                        "raw": "Sat Jan 15 21:13:52 2022.987378 ncal@7fdcfd8dd597[2077] mprotect(0x7fdcf8000000, 135168, PROT_READ|PROT_WRITE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfd8dd597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p0": "0x7fdcf8000000", 
+                            "p1": "135168"
+                        }, 
+                        "time": 1642281232.987378
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ncal", 
+                        "pid": 2077, 
+                        "raw": "Sat Jan 15 21:13:52 2022.987442 ncal@7fdcfd9c6440[2077] nanosleep([0.010000000], 0x7fdcfd748dc0) = -516\n", 
+                        "api": "nanosleep", 
+                        "return_value": "-516", 
+                        "category": "process", 
+                        "instruction_pointer": "7fdcfd9c6440", 
+                        "arguments": {
+                            "p0": [
+                                "0.010000000"
+                            ], 
+                            "p1": "0x7fdcfd748dc0"
+                        }, 
+                        "time": 1642281232.987442
+                    }
+                ], 
+                "pid": 2077, 
+                "process_name": "ncal", 
+                "command_line": "", 
+                "first_seen": 1642281232.987158, 
+                "ppid": 2076, 
+                "type": "process"
+            }
+        ], 
+        "processtree": [
+            {
+                "track": true, 
+                "pid": 2076, 
+                "process_name": "ncal", 
+                "command_line": "/tmp/ncal", 
+                "first_seen": 1642281232.059717, 
+                "ppid": -1, 
+                "children": [
+                    {
+                        "track": true, 
+                        "pid": 2077, 
+                        "process_name": "ncal", 
+                        "command_line": "", 
+                        "first_seen": 1642281232.987158, 
+                        "ppid": 2076, 
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    }, 
+    "debug": {
+        "action": [], 
+        "dbgview": [], 
+        "errors": [], 
+        "log": [
+            "2022-01-15 21:13:44,000 [root] DEBUG: Starting analyzer from: /tmp/tmpiBT5Y9\n", 
+            "2022-01-15 21:13:44,001 [root] DEBUG: Storing results at: /tmp/YfFIOQgsBS\n", 
+            "2022-01-15 21:13:45,589 [modules.auxiliary.filecollector] INFO: FileCollector started v0.08\n", 
+            "2022-01-15 21:13:46,090 [modules.auxiliary.human] INFO: Human started v0.02\n", 
+            "2022-01-15 21:13:46,592 [modules.auxiliary.screenshots] INFO: Screenshots started v0.03\n", 
+            "2022-01-15 21:13:52,051 [lib.core.packages] INFO: Process startup took 5.45 seconds\n", 
+            "2022-01-15 21:13:52,052 [root] INFO: Added new process to list with pid: 2065\n", 
+            "2022-01-15 21:14:01,062 [root] INFO: Process with pid 2065 has terminated\n", 
+            "2022-01-15 21:14:01,063 [root] INFO: Process list is empty, terminating analysis.\n", 
+            "2022-01-15 21:14:04,067 [lib.core.packages] INFO: Package requested stop\n", 
+            "2022-01-15 21:14:04,069 [lib.core.packages] WARNING: Exception uploading log: [Errno 3] No such process\n", 
+            "2022-01-15 21:17:04,503 [root] INFO: Terminating remaining processes before shutdown.\n", 
+            "2022-01-15 21:17:04,504 [root] INFO: Analysis completed.\n"
+        ], 
+        "cuckoo": [
+            "2022-01-16 06:14:36,234 [cuckoo.core.scheduler] DEBUG: Task #2651362: no machine available yet\n", 
+            "2022-01-16 06:14:46,259 [cuckoo.core.scheduler] DEBUG: Task #2651362: no machine available yet\n", 
+            "2022-01-16 06:14:56,274 [cuckoo.core.scheduler] DEBUG: Task #2651362: no machine available yet\n", 
+            "2022-01-16 06:15:06,296 [cuckoo.core.scheduler] DEBUG: Task #2651362: no machine available yet\n", 
+            "2022-01-16 06:15:16,316 [cuckoo.core.scheduler] DEBUG: Task #2651362: no machine available yet\n", 
+            "2022-01-16 06:15:26,340 [cuckoo.core.scheduler] DEBUG: Task #2651362: no machine available yet\n", 
+            "2022-01-16 06:15:36,360 [cuckoo.core.scheduler] DEBUG: Task #2651362: no machine available yet\n", 
+            "2022-01-16 06:15:46,382 [cuckoo.core.scheduler] DEBUG: Task #2651362: no machine available yet\n", 
+            "2022-01-16 06:15:56,413 [cuckoo.core.scheduler] DEBUG: Task #2651362: no machine available yet\n", 
+            "2022-01-16 06:16:06,440 [cuckoo.core.scheduler] DEBUG: Task #2651362: no machine available yet\n", 
+            "2022-01-16 06:16:16,462 [cuckoo.core.scheduler] DEBUG: Task #2651362: no machine available yet\n", 
+            "2022-01-16 06:16:26,486 [cuckoo.core.scheduler] DEBUG: Task #2651362: no machine available yet\n", 
+            "2022-01-16 06:16:36,511 [cuckoo.core.scheduler] DEBUG: Task #2651362: no machine available yet\n", 
+            "2022-01-16 06:16:46,533 [cuckoo.core.scheduler] DEBUG: Task #2651362: no machine available yet\n", 
+            "2022-01-16 06:16:56,561 [cuckoo.core.scheduler] DEBUG: Task #2651362: no machine available yet\n", 
+            "2022-01-16 06:17:06,584 [cuckoo.core.scheduler] DEBUG: Task #2651362: no machine available yet\n", 
+            "2022-01-16 06:17:16,618 [cuckoo.core.scheduler] DEBUG: Task #2651362: no machine available yet\n", 
+            "2022-01-16 06:17:26,643 [cuckoo.core.scheduler] DEBUG: Task #2651362: no machine available yet\n", 
+            "2022-01-16 06:17:36,669 [cuckoo.core.scheduler] DEBUG: Task #2651362: no machine available yet\n", 
+            "2022-01-16 06:17:46,695 [cuckoo.core.scheduler] DEBUG: Task #2651362: no machine available yet\n", 
+            "2022-01-16 06:17:56,720 [cuckoo.core.scheduler] DEBUG: Task #2651362: no machine available yet\n", 
+            "2022-01-16 06:18:06,744 [cuckoo.core.scheduler] DEBUG: Task #2651362: no machine available yet\n", 
+            "2022-01-16 06:18:16,777 [cuckoo.core.scheduler] DEBUG: Task #2651362: no machine available yet\n", 
+            "2022-01-16 06:18:26,804 [cuckoo.core.scheduler] DEBUG: Task #2651362: no machine available yet\n", 
+            "2022-01-16 06:18:36,833 [cuckoo.core.scheduler] DEBUG: Task #2651362: no machine available yet\n", 
+            "2022-01-16 06:18:46,853 [cuckoo.core.scheduler] DEBUG: Task #2651362: no machine available yet\n", 
+            "2022-01-16 06:18:56,877 [cuckoo.core.scheduler] DEBUG: Task #2651362: no machine available yet\n", 
+            "2022-01-16 06:19:06,913 [cuckoo.core.scheduler] DEBUG: Task #2651362: no machine available yet\n", 
+            "2022-01-16 06:19:16,967 [cuckoo.core.scheduler] DEBUG: Task #2651362: no machine available yet\n", 
+            "2022-01-16 06:19:27,035 [cuckoo.core.scheduler] DEBUG: Task #2651362: no machine available yet\n", 
+            "2022-01-16 06:19:37,087 [cuckoo.core.scheduler] DEBUG: Task #2651362: no machine available yet\n", 
+            "2022-01-16 06:19:47,150 [cuckoo.core.scheduler] DEBUG: Task #2651362: no machine available yet\n", 
+            "2022-01-16 06:19:57,186 [cuckoo.core.scheduler] DEBUG: Task #2651362: no machine available yet\n", 
+            "2022-01-16 06:20:07,237 [cuckoo.core.scheduler] DEBUG: Task #2651362: no machine available yet\n", 
+            "2022-01-16 06:20:17,274 [cuckoo.core.scheduler] DEBUG: Task #2651362: no machine available yet\n", 
+            "2022-01-16 06:20:27,307 [cuckoo.core.scheduler] DEBUG: Task #2651362: no machine available yet\n", 
+            "2022-01-16 06:20:37,345 [cuckoo.core.scheduler] DEBUG: Task #2651362: no machine available yet\n", 
+            "2022-01-16 06:20:47,388 [cuckoo.core.scheduler] DEBUG: Task #2651362: no machine available yet\n", 
+            "2022-01-16 06:20:57,421 [cuckoo.core.scheduler] DEBUG: Task #2651362: no machine available yet\n", 
+            "2022-01-16 06:21:07,445 [cuckoo.core.scheduler] DEBUG: Task #2651362: no machine available yet\n", 
+            "2022-01-16 06:21:17,465 [cuckoo.core.scheduler] DEBUG: Task #2651362: no machine available yet\n", 
+            "2022-01-16 06:21:27,492 [cuckoo.core.scheduler] DEBUG: Task #2651362: no machine available yet\n", 
+            "2022-01-16 06:21:37,515 [cuckoo.core.scheduler] DEBUG: Task #2651362: no machine available yet\n", 
+            "2022-01-16 06:21:47,540 [cuckoo.core.scheduler] DEBUG: Task #2651362: no machine available yet\n", 
+            "2022-01-16 06:21:57,571 [cuckoo.core.scheduler] DEBUG: Task #2651362: no machine available yet\n", 
+            "2022-01-16 06:22:07,658 [cuckoo.core.scheduler] DEBUG: Task #2651362: no machine available yet\n", 
+            "2022-01-16 06:22:17,705 [cuckoo.core.scheduler] DEBUG: Task #2651362: no machine available yet\n", 
+            "2022-01-16 06:22:27,770 [cuckoo.core.scheduler] DEBUG: Task #2651362: no machine available yet\n", 
+            "2022-01-16 06:22:37,822 [cuckoo.core.scheduler] DEBUG: Task #2651362: no machine available yet\n", 
+            "2022-01-16 06:22:47,862 [cuckoo.core.scheduler] DEBUG: Task #2651362: no machine available yet\n", 
+            "2022-01-16 06:22:57,926 [cuckoo.core.scheduler] DEBUG: Task #2651362: no machine available yet\n", 
+            "2022-01-16 06:23:07,964 [cuckoo.core.scheduler] DEBUG: Task #2651362: no machine available yet\n", 
+            "2022-01-16 06:23:17,992 [cuckoo.core.scheduler] DEBUG: Task #2651362: no machine available yet\n", 
+            "2022-01-16 06:23:28,021 [cuckoo.core.scheduler] DEBUG: Task #2651362: no machine available yet\n", 
+            "2022-01-16 06:23:38,047 [cuckoo.core.scheduler] DEBUG: Task #2651362: no machine available yet\n", 
+            "2022-01-16 06:23:48,067 [cuckoo.core.scheduler] DEBUG: Task #2651362: no machine available yet\n", 
+            "2022-01-16 06:23:58,089 [cuckoo.core.scheduler] DEBUG: Task #2651362: no machine available yet\n", 
+            "2022-01-16 06:24:08,115 [cuckoo.core.scheduler] DEBUG: Task #2651362: no machine available yet\n", 
+            "2022-01-16 06:24:18,148 [cuckoo.core.scheduler] DEBUG: Task #2651362: no machine available yet\n", 
+            "2022-01-16 06:24:28,188 [cuckoo.core.scheduler] DEBUG: Task #2651362: no machine available yet\n", 
+            "2022-01-16 06:24:38,216 [cuckoo.core.scheduler] DEBUG: Task #2651362: no machine available yet\n", 
+            "2022-01-16 06:24:48,322 [cuckoo.core.scheduler] DEBUG: Task #2651362: no machine available yet\n", 
+            "2022-01-16 06:24:58,362 [cuckoo.core.scheduler] DEBUG: Task #2651362: no machine available yet\n", 
+            "2022-01-16 06:25:08,408 [cuckoo.core.scheduler] DEBUG: Task #2651362: no machine available yet\n", 
+            "2022-01-16 06:25:18,442 [cuckoo.core.scheduler] DEBUG: Task #2651362: no machine available yet\n", 
+            "2022-01-16 06:25:28,471 [cuckoo.core.scheduler] DEBUG: Task #2651362: no machine available yet\n", 
+            "2022-01-16 06:25:38,494 [cuckoo.core.scheduler] DEBUG: Task #2651362: no machine available yet\n", 
+            "2022-01-16 06:25:48,520 [cuckoo.core.scheduler] DEBUG: Task #2651362: no machine available yet\n", 
+            "2022-01-16 06:25:58,584 [cuckoo.core.scheduler] DEBUG: Task #2651362: no machine available yet\n", 
+            "2022-01-16 06:26:08,609 [cuckoo.core.scheduler] DEBUG: Task #2651362: no machine available yet\n", 
+            "2022-01-16 06:26:18,635 [cuckoo.core.scheduler] DEBUG: Task #2651362: no machine available yet\n", 
+            "2022-01-16 06:26:28,663 [cuckoo.core.scheduler] DEBUG: Task #2651362: no machine available yet\n", 
+            "2022-01-16 06:26:38,700 [cuckoo.core.scheduler] DEBUG: Task #2651362: no machine available yet\n", 
+            "2022-01-16 06:26:48,724 [cuckoo.core.scheduler] DEBUG: Task #2651362: no machine available yet\n", 
+            "2022-01-16 06:26:59,758 [cuckoo.core.scheduler] DEBUG: Task #2651362: no machine available yet\n", 
+            "2022-01-16 06:27:09,833 [cuckoo.core.scheduler] DEBUG: Task #2651362: no machine available yet\n", 
+            "2022-01-16 06:27:19,903 [cuckoo.core.scheduler] DEBUG: Task #2651362: no machine available yet\n", 
+            "2022-01-16 06:27:29,954 [cuckoo.core.scheduler] DEBUG: Task #2651362: no machine available yet\n", 
+            "2022-01-16 06:27:40,000 [cuckoo.core.scheduler] DEBUG: Task #2651362: no machine available yet\n", 
+            "2022-01-16 06:27:50,024 [cuckoo.core.scheduler] DEBUG: Task #2651362: no machine available yet\n", 
+            "2022-01-16 06:28:00,072 [cuckoo.core.scheduler] DEBUG: Task #2651362: no machine available yet\n", 
+            "2022-01-16 06:28:10,102 [cuckoo.core.scheduler] DEBUG: Task #2651362: no machine available yet\n", 
+            "2022-01-16 06:28:20,124 [cuckoo.core.scheduler] DEBUG: Task #2651362: no machine available yet\n", 
+            "2022-01-16 06:28:30,150 [cuckoo.core.scheduler] DEBUG: Task #2651362: no machine available yet\n", 
+            "2022-01-16 06:28:40,173 [cuckoo.core.scheduler] DEBUG: Task #2651362: no machine available yet\n", 
+            "2022-01-16 06:28:50,193 [cuckoo.core.scheduler] DEBUG: Task #2651362: no machine available yet\n", 
+            "2022-01-16 06:29:00,218 [cuckoo.core.scheduler] DEBUG: Task #2651362: no machine available yet\n", 
+            "2022-01-16 06:29:10,243 [cuckoo.core.scheduler] DEBUG: Task #2651362: no machine available yet\n", 
+            "2022-01-16 06:29:20,271 [cuckoo.core.scheduler] DEBUG: Task #2651362: no machine available yet\n", 
+            "2022-01-16 06:29:30,293 [cuckoo.core.scheduler] DEBUG: Task #2651362: no machine available yet\n", 
+            "2022-01-16 06:29:40,310 [cuckoo.core.scheduler] DEBUG: Task #2651362: no machine available yet\n", 
+            "2022-01-16 06:29:50,336 [cuckoo.core.scheduler] DEBUG: Task #2651362: no machine available yet\n", 
+            "2022-01-16 06:30:00,359 [cuckoo.core.scheduler] DEBUG: Task #2651362: no machine available yet\n", 
+            "2022-01-16 06:30:10,380 [cuckoo.core.scheduler] DEBUG: Task #2651362: no machine available yet\n", 
+            "2022-01-16 06:30:20,405 [cuckoo.core.scheduler] DEBUG: Task #2651362: no machine available yet\n", 
+            "2022-01-16 06:30:30,432 [cuckoo.core.scheduler] INFO: Task #2651362: acquired machine Ubuntu1904x646 (label=Ubuntu1904x646)\n", 
+            "2022-01-16 06:30:30,432 [cuckoo.core.resultserver] DEBUG: Now tracking machine 192.168.168.106 for task #2651362\n", 
+            "2022-01-16 06:30:30,576 [cuckoo.auxiliary.sniffer] INFO: Started sniffer with PID 111361 (interface=vboxnet0, host=192.168.168.106)\n", 
+            "2022-01-16 06:30:30,766 [cuckoo.machinery.virtualbox] DEBUG: Starting vm Ubuntu1904x646\n", 
+            "2022-01-16 06:30:31,189 [cuckoo.machinery.virtualbox] DEBUG: Restoring virtual machine Ubuntu1904x646 to Snapshot\n", 
+            "2022-01-16 06:30:39,999 [cuckoo.core.guest] INFO: Starting analysis #2651362 on guest (id=Ubuntu1904x646, ip=192.168.168.106)\n", 
+            "2022-01-16 06:30:41,004 [cuckoo.core.guest] DEBUG: Ubuntu1904x646: not ready yet\n", 
+            "2022-01-16 06:30:46,024 [cuckoo.core.guest] INFO: Guest is running Cuckoo Agent 0.10 (id=Ubuntu1904x646, ip=192.168.168.106)\n", 
+            "2022-01-16 06:30:46,040 [cuckoo.core.guest] DEBUG: Uploading analyzer to guest (id=Ubuntu1904x646, ip=192.168.168.106, monitor=latest, size=72028)\n", 
+            "2022-01-16 06:30:46,194 [cuckoo.core.resultserver] DEBUG: Task #2651362: live log analysis.log initialized.\n", 
+            "2022-01-16 06:30:51,408 [cuckoo.core.resultserver] DEBUG: Task #2651362: File upload for 'shots/0001.jpg'\n", 
+            "2022-01-16 06:30:51,435 [cuckoo.core.resultserver] DEBUG: Task #2651362 uploaded file length: 171538\n", 
+            "2022-01-16 06:31:01,213 [cuckoo.core.guest] DEBUG: Ubuntu1904x646: analysis #2651362 still processing\n", 
+            "2022-01-16 06:31:06,271 [cuckoo.core.resultserver] DEBUG: Task #2651362: File upload for 'logs/all.stap'\n", 
+            "2022-01-16 06:31:06,279 [cuckoo.core.resultserver] DEBUG: Task #2651362 uploaded file length: 18232\n", 
+            "2022-01-16 06:31:16,272 [cuckoo.core.guest] DEBUG: Ubuntu1904x646: analysis #2651362 still processing\n", 
+            "2022-01-16 06:31:31,336 [cuckoo.core.guest] DEBUG: Ubuntu1904x646: analysis #2651362 still processing\n", 
+            "2022-01-16 06:31:46,397 [cuckoo.core.guest] DEBUG: Ubuntu1904x646: analysis #2651362 still processing\n", 
+            "2022-01-16 06:32:01,460 [cuckoo.core.guest] DEBUG: Ubuntu1904x646: analysis #2651362 still processing\n", 
+            "2022-01-16 06:32:16,529 [cuckoo.core.guest] DEBUG: Ubuntu1904x646: analysis #2651362 still processing\n", 
+            "2022-01-16 06:32:31,610 [cuckoo.core.guest] DEBUG: Ubuntu1904x646: analysis #2651362 still processing\n", 
+            "2022-01-16 06:32:46,699 [cuckoo.core.guest] DEBUG: Ubuntu1904x646: analysis #2651362 still processing\n", 
+            "2022-01-16 06:33:01,764 [cuckoo.core.guest] DEBUG: Ubuntu1904x646: analysis #2651362 still processing\n", 
+            "2022-01-16 06:33:16,821 [cuckoo.core.guest] DEBUG: Ubuntu1904x646: analysis #2651362 still processing\n", 
+            "2022-01-16 06:33:31,929 [cuckoo.core.guest] DEBUG: Ubuntu1904x646: analysis #2651362 still processing\n", 
+            "2022-01-16 06:33:47,004 [cuckoo.core.guest] DEBUG: Ubuntu1904x646: analysis #2651362 still processing\n", 
+            "2022-01-16 06:34:02,067 [cuckoo.core.guest] DEBUG: Ubuntu1904x646: analysis #2651362 still processing\n", 
+            "2022-01-16 06:34:08,091 [cuckoo.core.guest] INFO: Ubuntu1904x646: analysis completed successfully\n", 
+            "2022-01-16 06:34:08,099 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Redsocks\n", 
+            "2022-01-16 06:34:08,179 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Sniffer\n", 
+            "2022-01-16 06:34:22,658 [cuckoo.machinery.virtualbox] INFO: Successfully generated memory dump for virtual machine with label Ubuntu1904x646 to path /srv/cuckoo/cwd/storage/analyses/2651362/memory.dmp\n", 
+            "2022-01-16 06:34:22,660 [cuckoo.machinery.virtualbox] DEBUG: Stopping vm Ubuntu1904x646\n", 
+            "2022-01-16 06:34:35,278 [cuckoo.core.resultserver] DEBUG: Stopped tracking machine 192.168.168.106 for task #2651362\n", 
+            "2022-01-16 06:34:35,403 [cuckoo.core.scheduler] DEBUG: Released database task #2651362\n", 
+            "2022-01-16 06:34:35,581 [cuckoo.core.scheduler] INFO: Task #2651362: analysis procedure completed\n"
+        ]
+    }, 
+    "strings": [
+        "/lib/ld-linux.so.2", 
+        "_Jv_RegisterClasses", 
+        "__gmon_start__", 
+        "libc.so.6", 
+        "putchar", 
+        "__strtol_internal", 
+        "memcpy", 
+        "__cxa_finalize", 
+        "isatty", 
+        "optarg", 
+        "wcstombs", 
+        "mbstowcs", 
+        "calloc", 
+        "fprintf", 
+        "nl_langinfo", 
+        "optind", 
+        "strstr", 
+        "getopt", 
+        "localtime", 
+        "memset", 
+        "strcmp", 
+        "sprintf", 
+        "setlocale", 
+        "stderr", 
+        "strftime", 
+        "strptime", 
+        "_IO_stdin_used", 
+        "__libc_start_main", 
+        "strlen", 
+        "wcswidth", 
+        "GLIBC_2.1.3", 
+        "GLIBC_2.0", 
+        "setlocale", 
+        "US-ASCII", 
+        "%s: invalid country code", 
+        "3Jejmops:wy", 
+        "%s is neither a month number (1..12) nor a name", 
+        "year %d not in range 1..5875706", 
+        "%.*s%s%.*s", 
+        "    %s %d", 
+        "%c%s %-15s%4d-%02d-%02d     %c%s %-15s%4d-%02d-%02d", 
+        "%c%s %-15s%4d-%02d-%02d", 
+        "%-*s  ", 
+        " %s  %s  %s  %s  %s  %s  %s   %s  %s  %s  %s  %s  %s  %s", 
+        "%-*s  %s", 
+        "%s %s %s %s %s %s %s  %s %s %s %s %s %s %s  %s %s %s %s %s %s %s", 
+        "%-*s  %-*s  %s", 
+        "    %-*s%-*s", 
+        "%-*s%s", 
+        "%s%-*s%-*s", 
+        "  %-*s%-*s%-s", 
+        "  %-*s%-*s%-*s%-s", 
+        " %s  %s  %s  %s  %s  %s  %s", 
+        "%s %s %s %s %s %s %s", 
+        "%s %s %s %s %s %s %s  ", 
+        "%e %B %Y", 
+        "usage: cal [-3jmy] [[month] year]", 
+        "       ncal [-Jjpwy] [-s country_code] [[month] year]", 
+        "       ncal [-Jeo] [year]", 
+        "Albania", 
+        "Austria", 
+        "Australia", 
+        "Belgium", 
+        "Bulgaria", 
+        "Canada", 
+        "Switzerland", 
+        "Czech Republic", 
+        "Germany", 
+        "Denmark", 
+        "Finland", 
+        "France", 
+        "United Kingdom", 
+        "Greece", 
+        "Hungary", 
+        "Iceland", 
+        "Lithuania", 
+        "Luxembourg", 
+        "Latvia", 
+        "Netherlands", 
+        "Norway", 
+        "Poland", 
+        "Portugal", 
+        "Romania", 
+        "Russia", 
+        "Slovenia", 
+        "Sweden", 
+        "Turkey", 
+        "United States", 
+        "Yugoslavia", 
+        "     1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53", 
+        "       1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59  60  61  62  63  64  65  66  67  68  69  70  71  72  73  74  75  76  77  78  79  80  81  82  83  84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 145 146 147 148 149 150 151 152 153 154 155 156 157 158 159 160 161 162 163 164 165 166 167 168 169 170 171 172 173 174 175 176 177 178 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 195 196 197 198 199 200 201 202 203 204 205 206 207 208 209 210 211 212 213 214 215 216 217 218 219 220 221 222 223 224 225 226 227 228 229 230 231 232 233 234 235 236 237 238 239 240 241 242 243 244 245 246 247 248 249 250 251 252 253 254 255", 
+        ".shstrtab", 
+        ".interp", 
+        ".note.ABI-tag", 
+        ".dynsym", 
+        ".dynstr", 
+        ".gnu.version", 
+        ".gnu.version_r", 
+        ".rela.dyn", 
+        ".rela.plt", 
+        ".rodata", 
+        ".eh_frame", 
+        ".ctors", 
+        ".dtors", 
+        ".dynamic"
+    ], 
+    "metadata": {
+        "output": {
+            "pcap": {
+                "basename": "dump.pcap", 
+                "sha256": "d37db238bffe5bb65e0db1f761b8ba91072c7eca975ca5623641d57db8fe18ca", 
+                "dirname": ""
+            }
+        }
+    }
+}
