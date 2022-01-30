@@ -1,0 +1,2927 @@
+{
+    "info": {
+        "added": 1642282906.847481, 
+        "started": 1642330660.156781, 
+        "duration": 318, 
+        "ended": 1642330978.194189, 
+        "owner": null, 
+        "score": 0.0, 
+        "id": 2651899, 
+        "category": "file", 
+        "git": {
+            "head": "e8f6317b4b3ef806085a1e99e64c6ff01f26948f", 
+            "fetch_head": "e8f6317b4b3ef806085a1e99e64c6ff01f26948f"
+        }, 
+        "monitor": "2deb9ccd75d5a7a3fe05b2625b03a8639d6ee36b", 
+        "package": "elf", 
+        "route": "internet", 
+        "custom": null, 
+        "machine": {
+            "status": "stopped", 
+            "name": "Ubuntu1904x645", 
+            "label": "Ubuntu1904x645", 
+            "platform": "linux", 
+            "manager": "VirtualBox", 
+            "started_on": "2022-01-16 10:58:02", 
+            "shutdown_on": "2022-01-16 11:02:57"
+        }, 
+        "platform": "linux", 
+        "version": "2.0.7", 
+        "options": "procmemdump=yes,route=internet"
+    }, 
+    "signatures": [], 
+    "target": {
+        "category": "file", 
+        "file": {
+            "mimetype": "application/x-executable", 
+            "yara": [], 
+            "sha1": "ca95c9aebff9ef560a3f3350fe2fa1a74b348ffc", 
+            "name": "writevt", 
+            "type": "ELF 32-bit MSB executable, SPARC, version 1 (SYSV), dynamically linked, interpreter /lib/ld-linux.so.2, for GNU/Linux 2.4.1, stripped", 
+            "sha256": "42716ea934196cf29d2ff552324687f32ddd7abdcbe7a58afe6301f088d0ea7c", 
+            "urls": [], 
+            "crc32": "D84A76A6", 
+            "path": "/srv/cuckoo/cwd/storage/binaries/42716ea934196cf29d2ff552324687f32ddd7abdcbe7a58afe6301f088d0ea7c", 
+            "ssdeep": "96:Kc3w3uUET40m8fk876uC4sk9k3RmUm9skb/j61ZSQWsL:APETXcS6u1H9k3TIsi/Q", 
+            "size": 5864, 
+            "sha512": "6ee31e0f2afbbe666027c8b1e2eb63dd6fd1405962e31aab6b4008512da5a890d05615e8c96b569ca3c289980685a57638e543f401b9f97b5adf1c6fdeee169c", 
+            "md5": "17708c6968eeec20b3cf9b9eef10381a"
+        }, 
+        "custom": null
+    }, 
+    "irma": {
+        "status": 0, 
+        "probes_finished": 16, 
+        "scan_id": "94bd0006-4395-41d5-a25e-6d9e07de80c1", 
+        "parent_file_sha256": null, 
+        "name": "42716ea934196cf29d2ff552324687f32ddd7abdcbe7a58afe6301f088d0ea7c", 
+        "probes_total": 16, 
+        "scan_date": 1642323779, 
+        "other_results": [], 
+        "submitter": "cli", 
+        "file_infos": {
+            "mimetype": "ELF 32-bit MSB executable, SPARC, version 1 (SYSV)", 
+            "sha1": "ca95c9aebff9ef560a3f3350fe2fa1a74b348ffc", 
+            "tags": [], 
+            "timestamp_first_scan": 1642323779.3, 
+            "timestamp_last_scan": 1642323789.0, 
+            "sha256": "42716ea934196cf29d2ff552324687f32ddd7abdcbe7a58afe6301f088d0ea7c", 
+            "md5": "17708c6968eeec20b3cf9b9eef10381a", 
+            "size": 5864
+        }, 
+        "probe_results": {
+            "antivirus": {
+                "Avast Core Security (Linux)": {
+                    "status": 0, 
+                    "duration": 0.01, 
+                    "version": "3.0.3", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "F-Secure Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.03, 
+                    "version": "11.10", 
+                    "results": null, 
+                    "virus_database_version": "2022-01-13_04"
+                }, 
+                "Windows Defender (Windows)": {
+                    "status": 0, 
+                    "duration": 0.05, 
+                    "version": "1.1.18800.4", 
+                    "results": null, 
+                    "virus_database_version": "1.355.1049.0"
+                }, 
+                "Comodo Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 2.17, 
+                    "version": "1.1.268025.1", 
+                    "results": null, 
+                    "virus_database_version": "2021-11-02"
+                }, 
+                "Kaspersky Antivirus (Win)": {
+                    "status": 0, 
+                    "duration": 6.71, 
+                    "version": "21.3", 
+                    "results": null, 
+                    "virus_database_version": "2022-01-16 02:22:00 (full)"
+                }, 
+                "ESET NOD32 Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 4.26, 
+                    "version": "4.0.96", 
+                    "results": null, 
+                    "virus_database_version": "6178ebd0-1e722 (2021-10-27)"
+                }, 
+                "GData (Windows)": {
+                    "status": 0, 
+                    "duration": 0.17, 
+                    "version": "5.5.20197.1358", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Forticlient (Linux)": {
+                    "status": 0, 
+                    "duration": 3.05, 
+                    "version": "unavailable", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Avira (Windows)": {
+                    "status": 0, 
+                    "duration": 4.09, 
+                    "version": "8.3.64.66", 
+                    "results": null, 
+                    "virus_database_version": "8.19.1.122"
+                }, 
+                "eScan Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 4.06, 
+                    "version": "7.0.21", 
+                    "results": null, 
+                    "virus_database_version": "7.90035 (27/10/2021)"
+                }, 
+                "McAfee CLI scanner (Linux)": {
+                    "status": 0, 
+                    "duration": 5.79, 
+                    "version": "6.0.6.653", 
+                    "results": null, 
+                    "virus_database_version": "10149"
+                }, 
+                "Sophos Anti-Virus (Linux)": {
+                    "status": 0, 
+                    "duration": 7.39, 
+                    "version": "5.85.0", 
+                    "results": null, 
+                    "virus_database_version": "5.88 (26 October 2021)"
+                }, 
+                "DrWeb Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.23, 
+                    "version": "11.1.10.2108031732", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "ClamAV (Linux)": {
+                    "status": 0, 
+                    "duration": 0.02, 
+                    "version": "0.103.2", 
+                    "results": null, 
+                    "virus_database_version": "26334"
+                }, 
+                "Bitdefender Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 6.25, 
+                    "version": "7.90123", 
+                    "results": null, 
+                    "virus_database_version": null
+                }, 
+                "Emsisoft Commandline Scanner (Windows)": {
+                    "status": 0, 
+                    "duration": 0.22, 
+                    "version": "2021.10.0.11201", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }
+            }
+        }, 
+        "path": "", 
+        "result_id": "f7912692-f2cc-43c5-a1ee-7bdf13b03daf", 
+        "file_sha256": "42716ea934196cf29d2ff552324687f32ddd7abdcbe7a58afe6301f088d0ea7c"
+    }, 
+    "suricata": {
+        "tls": [
+            {
+                "src_ip": "192.168.168.105", 
+                "version": "TLS 1.2", 
+                "src_port": 35068, 
+                "dst_port": 443, 
+                "timestamp": "2022-01-16T10:58:32.239907+0200", 
+                "dst_ip": "91.189.92.39", 
+                "fingerprint": "97:63:1b:60:eb:d1:fa:4f:a4:fc:fa:98:66:3d:ee:22:fb:78:ce:c1", 
+                "subject": "C=GB, L=London, O=Canonical Group Ltd, CN=api.snapcraft.io", 
+                "issuer": "C=US, O=DigiCert Inc, CN=DigiCert TLS RSA SHA256 2020 CA1"
+            }
+        ], 
+        "files": [], 
+        "alerts": [], 
+        "http": []
+    }, 
+    "virustotal": {
+        "summary": {
+            "error": "resource has not been scanned yet"
+        }
+    }, 
+    "network": {
+        "udp": [], 
+        "dns_servers": [], 
+        "http": [], 
+        "smtp": [], 
+        "tcp": [], 
+        "geoinfo": {}, 
+        "mitm": [], 
+        "https_ex": [], 
+        "http_ex": [], 
+        "sorted_pcap_sha256": "1ddc1fc935183c4ccf9727f5e06ee3140ac0c64ca52750d796d72fddd257c670", 
+        "icmp": [], 
+        "tls": [], 
+        "dead_hosts": [], 
+        "smtp_ex": [], 
+        "hosts": [], 
+        "pcap_sha256": "8763bc1e489bc7476e8e7c804678fcae24465db7eede86a80bee5252f20a069e", 
+        "dns": [], 
+        "domains": [], 
+        "irc": []
+    }, 
+    "resubmit": {
+        "resubmit_ids": []
+    }, 
+    "snort": {
+        "alerts": []
+    }, 
+    "behavior": {
+        "generic": [
+            {
+                "process_path": null, 
+                "process_name": "writevt", 
+                "pid": 2068, 
+                "summary": {}, 
+                "first_seen": 1642282913.145523, 
+                "ppid": -1
+            }, 
+            {
+                "process_path": null, 
+                "process_name": "writevt", 
+                "pid": 2069, 
+                "summary": {}, 
+                "first_seen": 1642282913.161331, 
+                "ppid": 2068
+            }
+        ], 
+        "processes": [
+            {
+                "calls": [
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.145523 writevt@7fcbecbfcc27[2068] execve(\"/tmp/writevt\", [\"/tmp/writevt\"], [\"SUDO_GID=0\", \"MAIL=/var/mail/root\", \"USER=root\", \"HOME=/root\", \"SUDO_UID=0\", \"LOGNAME=root\", \"SYSTEMTAP_MODULE=stap_\", \"TERM=unknown\", \"SYSTEMTAP_VERBOSE=2\", \"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin\", \"DISPLAY=:0\", \"LANG=en_US.UTF-8\", \"XAUTHORITY=/root/.Xauthority\", \"SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/writevt\", \"SHELL=/bin/bash\", \"SUDO_USER=root\", \"PWD=/tmp/tmpeVowbR\"])\n", 
+                        "api": "execve", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbecbfcc27", 
+                        "arguments": {
+                            "p2": [
+                                "SUDO_GID=0", 
+                                "MAIL=/var/mail/root", 
+                                "USER=root", 
+                                "HOME=/root", 
+                                "SUDO_UID=0", 
+                                "LOGNAME=root", 
+                                "SYSTEMTAP_MODULE=stap_", 
+                                "TERM=unknown", 
+                                "SYSTEMTAP_VERBOSE=2", 
+                                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin", 
+                                "DISPLAY=:0", 
+                                "LANG=en_US.UTF-8", 
+                                "XAUTHORITY=/root/.Xauthority", 
+                                "SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/writevt", 
+                                "SHELL=/bin/bash", 
+                                "SUDO_USER=root", 
+                                "PWD=/tmp/tmpeVowbR"
+                            ], 
+                            "p0": "/tmp/writevt", 
+                            "p1": [
+                                "/tmp/writevt"
+                            ]
+                        }, 
+                        "time": 1642282913.145523
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.148653 writevt@7fcbecbfcc27[2068] brk(0x0) = 94394143662080\n", 
+                        "api": "brk", 
+                        "return_value": "94394143662080", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbecbfcc27", 
+                        "arguments": {
+                            "p0": "0x0"
+                        }, 
+                        "time": 1642282913.148653
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.148727 writevt@7fcbecbfd9d7[2068] access(\"/etc/ld.so.preload\", R_OK) = -2 (ENOENT)\n", 
+                        "api": "access", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbecbfd9d7", 
+                        "arguments": {
+                            "p0": "/etc/ld.so.preload", 
+                            "p1": "R_OK"
+                        }, 
+                        "time": 1642282913.148727
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.149744 writevt@7fcbecbfdb0d[2068] openat(AT_FDCWD, \"/etc/ld.so.cache\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbecbfdb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/etc/ld.so.cache"
+                        }, 
+                        "time": 1642282913.149744
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.149787 writevt@7fcbecbfd943[2068] fstat(4, 0x7ffe9c192330) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbecbfd943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe9c192330"
+                        }, 
+                        "time": 1642282913.149787
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.149822 writevt@7fcbecbfdd03[2068] mmap2(0x0, 88858, PROT_READ, MAP_PRIVATE, 4, 0) = 0x7fcbecbcb000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcbecbcb000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbecbfdd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE", 
+                            "p0": "0x0", 
+                            "p1": "88858", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642282913.149822
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.149857 writevt@7fcbecbfd9f7[2068] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbecbfd9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642282913.149857
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.149905 writevt@7fcbecbfdb0d[2068] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbecbfdb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0"
+                        }, 
+                        "time": 1642282913.149905
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.149944 writevt@7fcbecbfdbd4[2068] read(4, 0x7ffe9c1924e8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbecbfdbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffe9c1924e8"
+                        }, 
+                        "time": 1642282913.149944
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.149977 writevt@7fcbecbfd943[2068] fstat(4, 0x7ffe9c192380) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbecbfd943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe9c192380"
+                        }, 
+                        "time": 1642282913.149977
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.150009 writevt@7fcbecbfdd03[2068] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fcbecbc9000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcbecbc9000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbecbfdd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642282913.150009
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.150048 writevt@7fcbecbfdd03[2068] mmap2(0x0, 20600, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fcbecbc3000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcbecbc3000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbecbfdd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "20600", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642282913.150048
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.150086 writevt@7fcbecbfdd03[2068] mmap2(0x7fcbecbc4000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 4096) = 0x7fcbecbc4000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcbecbc4000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbecbfdd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fcbecbc4000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "4096"
+                        }, 
+                        "time": 1642282913.150086
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.150131 writevt@7fcbecbfdd03[2068] mmap2(0x7fcbecbc6000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7fcbecbc6000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcbecbc6000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbecbfdd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fcbecbc6000", 
+                            "p1": "4096", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642282913.150131
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.150170 writevt@7fcbecbfdd03[2068] mmap2(0x7fcbecbc7000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7fcbecbc7000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcbecbc7000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbecbfdd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fcbecbc7000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642282913.15017
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.150219 writevt@7fcbecbfd9f7[2068] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbecbfd9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642282913.150219
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.150261 writevt@7fcbecbfdb0d[2068] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbecbfdb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0"
+                        }, 
+                        "time": 1642282913.150261
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.150299 writevt@7fcbecbfdbd4[2068] read(4, 0x7ffe9c1924c8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbecbfdbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffe9c1924c8"
+                        }, 
+                        "time": 1642282913.150299
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.150332 writevt@7fcbecbfd943[2068] fstat(4, 0x7ffe9c192360) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbecbfd943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe9c192360"
+                        }, 
+                        "time": 1642282913.150332
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.150364 writevt@7fcbecbfdd03[2068] mmap2(0x0, 1180072, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fcbecaa2000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcbecaa2000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbecbfdd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1180072", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642282913.150364
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.150403 writevt@7fcbecbfddb7[2068] mprotect(0x7fcbecabd000, 1060864, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbecbfddb7", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7fcbecabd000", 
+                            "p1": "1060864"
+                        }, 
+                        "time": 1642282913.150403
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.150445 writevt@7fcbecbfdd03[2068] mmap2(0x7fcbecabd000, 524288, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 110592) = 0x7fcbecabd000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcbecabd000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbecbfdd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fcbecabd000", 
+                            "p1": "524288", 
+                            "p4": "4", 
+                            "p5": "110592"
+                        }, 
+                        "time": 1642282913.150445
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.150482 writevt@7fcbecbfdd03[2068] mmap2(0x7fcbecb3d000, 532480, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 634880) = 0x7fcbecb3d000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcbecb3d000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbecbfdd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fcbecb3d000", 
+                            "p1": "532480", 
+                            "p4": "4", 
+                            "p5": "634880"
+                        }, 
+                        "time": 1642282913.150482
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.150519 writevt@7fcbecbfdd03[2068] mmap2(0x7fcbecbc0000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1167360) = 0x7fcbecbc0000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcbecbc0000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbecbfdd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fcbecbc0000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "1167360"
+                        }, 
+                        "time": 1642282913.150519
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.150561 writevt@7fcbecbfdd03[2068] mmap2(0x7fcbecbc2000, 424, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fcbecbc2000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcbecbc2000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbecbfdd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7fcbecbc2000", 
+                            "p1": "424", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642282913.150561
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.150605 writevt@7fcbecbfd9f7[2068] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbecbfd9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642282913.150605
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.150656 writevt@7fcbecbfdb0d[2068] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/librt.so.1\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbecbfdb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/librt.so.1"
+                        }, 
+                        "time": 1642282913.150656
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.150694 writevt@7fcbecbfdbd4[2068] read(4, 0x7ffe9c1924a8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbecbfdbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffe9c1924a8"
+                        }, 
+                        "time": 1642282913.150694
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.150726 writevt@7fcbecbfd943[2068] fstat(4, 0x7ffe9c192340) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbecbfd943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe9c192340"
+                        }, 
+                        "time": 1642282913.150726
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.150759 writevt@7fcbecbfdd03[2068] mmap2(0x0, 44000, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fcbeca97000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcbeca97000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbecbfdd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "44000", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642282913.150759
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.150798 writevt@7fcbecbfdd03[2068] mmap2(0x7fcbeca9a000, 16384, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7fcbeca9a000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcbeca9a000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbecbfdd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fcbeca9a000", 
+                            "p1": "16384", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642282913.150798
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.150841 writevt@7fcbecbfdd03[2068] mmap2(0x7fcbeca9e000, 8192, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 28672) = 0x7fcbeca9e000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcbeca9e000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbecbfdd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fcbeca9e000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "28672"
+                        }, 
+                        "time": 1642282913.150841
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.150882 writevt@7fcbecbfdd03[2068] mmap2(0x7fcbecaa0000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 32768) = 0x7fcbecaa0000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcbecaa0000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbecbfdd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fcbecaa0000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "32768"
+                        }, 
+                        "time": 1642282913.150882
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.150933 writevt@7fcbecbfd9f7[2068] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbecbfd9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642282913.150933
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.150976 writevt@7fcbecbfdb0d[2068] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libm.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbecbfdb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libm.so.6"
+                        }, 
+                        "time": 1642282913.150976
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.151014 writevt@7fcbecbfdbd4[2068] read(4, 0x7ffe9c192488, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbecbfdbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffe9c192488"
+                        }, 
+                        "time": 1642282913.151014
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.151046 writevt@7fcbecbfd943[2068] fstat(4, 0x7ffe9c192320) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbecbfd943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe9c192320"
+                        }, 
+                        "time": 1642282913.151046
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.151080 writevt@7fcbecbfdd03[2068] mmap2(0x0, 1364240, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fcbec949000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcbec949000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbecbfdd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1364240", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642282913.15108
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.151118 writevt@7fcbecbfdd03[2068] mmap2(0x7fcbec958000, 679936, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 61440) = 0x7fcbec958000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcbec958000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbecbfdd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fcbec958000", 
+                            "p1": "679936", 
+                            "p4": "4", 
+                            "p5": "61440"
+                        }, 
+                        "time": 1642282913.151118
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.151158 writevt@7fcbecbfdd03[2068] mmap2(0x7fcbec9fe000, 618496, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 741376) = 0x7fcbec9fe000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcbec9fe000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbecbfdd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fcbec9fe000", 
+                            "p1": "618496", 
+                            "p4": "4", 
+                            "p5": "741376"
+                        }, 
+                        "time": 1642282913.151158
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.151196 writevt@7fcbecbfdd03[2068] mmap2(0x7fcbeca95000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1355776) = 0x7fcbeca95000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcbeca95000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbecbfdd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fcbeca95000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "1355776"
+                        }, 
+                        "time": 1642282913.151196
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.151244 writevt@7fcbecbfd9f7[2068] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbecbfd9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642282913.151244
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.151291 writevt@7fcbecbfdb0d[2068] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libgcc_s.so.1\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbecbfdb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libgcc_s.so.1"
+                        }, 
+                        "time": 1642282913.151291
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.151328 writevt@7fcbecbfdbd4[2068] read(4, 0x7ffe9c192468, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbecbfdbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffe9c192468"
+                        }, 
+                        "time": 1642282913.151328
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.151415 writevt@7fcbecbfd943[2068] fstat(4, 0x7ffe9c192300) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbecbfd943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe9c192300"
+                        }, 
+                        "time": 1642282913.151415
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.151449 writevt@7fcbecbfdd03[2068] mmap2(0x0, 103504, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fcbec92f000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcbec92f000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbecbfdd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "103504", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642282913.151449
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.151509 writevt@7fcbecbfdd03[2068] mmap2(0x7fcbec932000, 69632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7fcbec932000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcbec932000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbecbfdd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fcbec932000", 
+                            "p1": "69632", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642282913.151509
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.151552 writevt@7fcbecbfdd03[2068] mmap2(0x7fcbec943000, 16384, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 81920) = 0x7fcbec943000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcbec943000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbecbfdd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fcbec943000", 
+                            "p1": "16384", 
+                            "p4": "4", 
+                            "p5": "81920"
+                        }, 
+                        "time": 1642282913.151552
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.151589 writevt@7fcbecbfdd03[2068] mmap2(0x7fcbec947000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 94208) = 0x7fcbec947000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcbec947000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbecbfdd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fcbec947000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "94208"
+                        }, 
+                        "time": 1642282913.151589
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.151639 writevt@7fcbecbfd9f7[2068] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbecbfd9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642282913.151639
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.151681 writevt@7fcbecbfdb0d[2068] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libpthread.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbecbfdb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libpthread.so.0"
+                        }, 
+                        "time": 1642282913.151681
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.151725 writevt@7fcbecbfdbd4[2068] read(4, 0x7ffe9c192448, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbecbfdbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffe9c192448"
+                        }, 
+                        "time": 1642282913.151725
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.151759 writevt@7fcbecbfd943[2068] fstat(4, 0x7ffe9c1922e0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbecbfd943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe9c1922e0"
+                        }, 
+                        "time": 1642282913.151759
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.151792 writevt@7fcbecbfdd03[2068] mmap2(0x0, 132288, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fcbec90e000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcbec90e000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbecbfdd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "132288", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642282913.151792
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.151828 writevt@7fcbecbfdd03[2068] mmap2(0x7fcbec915000, 61440, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 28672) = 0x7fcbec915000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcbec915000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbecbfdd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fcbec915000", 
+                            "p1": "61440", 
+                            "p4": "4", 
+                            "p5": "28672"
+                        }, 
+                        "time": 1642282913.151828
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.151868 writevt@7fcbecbfdd03[2068] mmap2(0x7fcbec924000, 20480, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 90112) = 0x7fcbec924000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcbec924000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbecbfdd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fcbec924000", 
+                            "p1": "20480", 
+                            "p4": "4", 
+                            "p5": "90112"
+                        }, 
+                        "time": 1642282913.151868
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.151914 writevt@7fcbecbfdd03[2068] mmap2(0x7fcbec929000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 106496) = 0x7fcbec929000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcbec929000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbecbfdd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fcbec929000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "106496"
+                        }, 
+                        "time": 1642282913.151914
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.151956 writevt@7fcbecbfdd03[2068] mmap2(0x7fcbec92b000, 13504, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fcbec92b000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcbec92b000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbecbfdd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7fcbec92b000", 
+                            "p1": "13504", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642282913.151956
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.151999 writevt@7fcbecbfd9f7[2068] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbecbfd9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642282913.151999
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.152046 writevt@7fcbecbfdb0d[2068] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libc.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbecbfdb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libc.so.6"
+                        }, 
+                        "time": 1642282913.152046
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.152084 writevt@7fcbecbfdbd4[2068] read(4, 0x7ffe9c192428, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbecbfdbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffe9c192428"
+                        }, 
+                        "time": 1642282913.152084
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.152116 writevt@7fcbecbfd943[2068] fstat(4, 0x7ffe9c1922c0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbecbfd943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe9c1922c0"
+                        }, 
+                        "time": 1642282913.152116
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.152148 writevt@7fcbecbfdd03[2068] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fcbec90c000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcbec90c000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbecbfdd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642282913.152148
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.152189 writevt@7fcbecbfdd03[2068] mmap2(0x0, 2008696, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fcbec721000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcbec721000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbecbfdd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "2008696", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642282913.152189
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.152224 writevt@7fcbecbfdd03[2068] mmap2(0x7fcbec746000, 1519616, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 151552) = 0x7fcbec746000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcbec746000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbecbfdd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fcbec746000", 
+                            "p1": "1519616", 
+                            "p4": "4", 
+                            "p5": "151552"
+                        }, 
+                        "time": 1642282913.152224
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.152267 writevt@7fcbecbfdd03[2068] mmap2(0x7fcbec8b9000, 299008, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1671168) = 0x7fcbec8b9000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcbec8b9000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbecbfdd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fcbec8b9000", 
+                            "p1": "299008", 
+                            "p4": "4", 
+                            "p5": "1671168"
+                        }, 
+                        "time": 1642282913.152267
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.152304 writevt@7fcbecbfdd03[2068] mmap2(0x7fcbec902000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1966080) = 0x7fcbec902000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcbec902000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbecbfdd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fcbec902000", 
+                            "p1": "24576", 
+                            "p4": "4", 
+                            "p5": "1966080"
+                        }, 
+                        "time": 1642282913.152304
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.152345 writevt@7fcbecbfdd03[2068] mmap2(0x7fcbec908000, 13944, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fcbec908000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcbec908000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbecbfdd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7fcbec908000", 
+                            "p1": "13944", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642282913.152345
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.152390 writevt@7fcbecbfd9f7[2068] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbecbfd9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642282913.15239
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.152442 writevt@7fcbecbfdb0d[2068] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libdl.so.2\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbecbfdb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libdl.so.2"
+                        }, 
+                        "time": 1642282913.152442
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.152480 writevt@7fcbecbfdbd4[2068] read(4, 0x7ffe9c192408, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbecbfdbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffe9c192408"
+                        }, 
+                        "time": 1642282913.15248
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.152512 writevt@7fcbecbfd943[2068] fstat(4, 0x7ffe9c1922a0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbecbfd943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe9c1922a0"
+                        }, 
+                        "time": 1642282913.152512
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.152544 writevt@7fcbecbfdd03[2068] mmap2(0x0, 20752, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fcbec71b000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcbec71b000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbecbfdd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "20752", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642282913.152544
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.152584 writevt@7fcbecbfdd03[2068] mmap2(0x7fcbec71c000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 4096) = 0x7fcbec71c000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcbec71c000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbecbfdd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fcbec71c000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "4096"
+                        }, 
+                        "time": 1642282913.152584
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.152625 writevt@7fcbecbfdd03[2068] mmap2(0x7fcbec71e000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7fcbec71e000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcbec71e000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbecbfdd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fcbec71e000", 
+                            "p1": "4096", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642282913.152625
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.152663 writevt@7fcbecbfdd03[2068] mmap2(0x7fcbec71f000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7fcbec71f000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcbec71f000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbecbfdd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fcbec71f000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642282913.152663
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.152710 writevt@7fcbecbfd9f7[2068] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbecbfd9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642282913.15271
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.152754 writevt@7fcbecbfdb0d[2068] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libpcre.so.3\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbecbfdb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libpcre.so.3"
+                        }, 
+                        "time": 1642282913.152754
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.152791 writevt@7fcbecbfdbd4[2068] read(4, 0x7ffe9c1923e8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbecbfdbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffe9c1923e8"
+                        }, 
+                        "time": 1642282913.152791
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.152824 writevt@7fcbecbfd943[2068] fstat(4, 0x7ffe9c192280) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbecbfd943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe9c192280"
+                        }, 
+                        "time": 1642282913.152824
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.152856 writevt@7fcbecbfdd03[2068] mmap2(0x0, 471304, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fcbec6a7000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcbec6a7000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbecbfdd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "471304", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642282913.152856
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.152892 writevt@7fcbecbfdd03[2068] mmap2(0x7fcbec6a9000, 335872, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 8192) = 0x7fcbec6a9000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcbec6a9000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbecbfdd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fcbec6a9000", 
+                            "p1": "335872", 
+                            "p4": "4", 
+                            "p5": "8192"
+                        }, 
+                        "time": 1642282913.152892
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.152934 writevt@7fcbecbfdd03[2068] mmap2(0x7fcbec6fb000, 122880, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 344064) = 0x7fcbec6fb000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcbec6fb000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbecbfdd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fcbec6fb000", 
+                            "p1": "122880", 
+                            "p4": "4", 
+                            "p5": "344064"
+                        }, 
+                        "time": 1642282913.152934
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.152972 writevt@7fcbecbfdd03[2068] mmap2(0x7fcbec719000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 462848) = 0x7fcbec719000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcbec719000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbecbfdd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fcbec719000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "462848"
+                        }, 
+                        "time": 1642282913.152972
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.153031 writevt@7fcbecbfd9f7[2068] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbecbfd9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642282913.153031
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.153876 writevt@7fcbecbfdd03[2068] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fcbec6a5000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcbec6a5000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbecbfdd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642282913.153876
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.153940 writevt@7fcbecbe2f30[2068] arch_prctl(ARCH_SET_FS, 140513821483328) = 0\n", 
+                        "api": "arch_prctl", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbecbe2f30", 
+                        "arguments": {
+                            "p0": "ARCH_SET_FS", 
+                            "p1": "140513821483328"
+                        }, 
+                        "time": 1642282913.15394
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.154617 writevt@7fcbecbfddb7[2068] mprotect(0x7fcbec902000, 12288, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbecbfddb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fcbec902000", 
+                            "p1": "12288"
+                        }, 
+                        "time": 1642282913.154617
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.154675 writevt@7fcbecbfddb7[2068] mprotect(0x7fcbec929000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbecbfddb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fcbec929000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642282913.154675
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.154744 writevt@7fcbecbfddb7[2068] mprotect(0x7fcbec719000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbecbfddb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fcbec719000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642282913.154744
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.154789 writevt@7fcbecbfddb7[2068] mprotect(0x7fcbec71f000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbecbfddb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fcbec71f000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642282913.154789
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.154830 writevt@7fcbecbfddb7[2068] mprotect(0x7fcbec947000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbecbfddb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fcbec947000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642282913.15483
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.154898 writevt@7fcbecbfddb7[2068] mprotect(0x7fcbeca95000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbecbfddb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fcbeca95000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642282913.154898
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.154942 writevt@7fcbecbfddb7[2068] mprotect(0x7fcbecaa0000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbecbfddb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fcbecaa0000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642282913.154942
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.155205 writevt@7fcbecbfddb7[2068] mprotect(0x7fcbecbc0000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbecbfddb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fcbecbc0000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642282913.155205
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.155267 writevt@7fcbecbfddb7[2068] mprotect(0x7fcbecbc7000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbecbfddb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fcbecbc7000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642282913.155267
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.158507 writevt@7fcbecbfddb7[2068] mprotect(0x55d9d6ec4000, 303104, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbecbfddb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x55d9d6ec4000", 
+                            "p1": "303104"
+                        }, 
+                        "time": 1642282913.158507
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.158558 writevt@7fcbecbfddb7[2068] mprotect(0x7fcbecc0b000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbecbfddb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fcbecc0b000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642282913.158558
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.158602 writevt@7fcbecbfdd97[2068] munmap(0x7fcbecbcb000, 88858) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbecbfdd97", 
+                        "arguments": {
+                            "p0": "0x7fcbecbcb000", 
+                            "p1": "88858"
+                        }, 
+                        "time": 1642282913.158602
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.158668 writevt@7fcbec9158df[2068] set_tid_address(0x7fcbec6a6410) = 2068\n", 
+                        "api": "set_tid_address", 
+                        "return_value": "2068", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbec9158df", 
+                        "arguments": {
+                            "p0": "0x7fcbec6a6410"
+                        }, 
+                        "time": 1642282913.158668
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.158700 writevt@7fcbec91594a[2068] set_robust_list(0x7fcbec6a6420, 24) = 0\n", 
+                        "api": "set_robust_list", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbec91594a", 
+                        "arguments": {
+                            "p0": "0x7fcbec6a6420", 
+                            "p1": "24"
+                        }, 
+                        "time": 1642282913.1587
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.158740 writevt@7fcbec922010[2068] rt_sigaction(0x20, {0x7fcbec9156c0, SA_SIGINFO|SA_RESTORER, 0x7fcbec921f40, [EMPTY]}, 0x0, 8) = 0\n", 
+                        "api": "rt_sigaction", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbec922010", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "0x20", 
+                            "p1": [
+                                "0x7fcbec9156c0", 
+                                "SA_SIGINFO|SA_RESTORER", 
+                                "0x7fcbec921f40", 
+                                [
+                                    "EMPTY]"
+                                ]
+                            ]
+                        }, 
+                        "time": 1642282913.15874
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.158773 writevt@7fcbec922010[2068] rt_sigaction(0x21, {0x7fcbec915760, SA_RESTART|SA_SIGINFO|SA_RESTORER, 0x7fcbec921f40, [EMPTY]}, 0x0, 8) = 0\n", 
+                        "api": "rt_sigaction", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbec922010", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "0x21", 
+                            "p1": [
+                                "0x7fcbec915760", 
+                                "SA_RESTART|SA_SIGINFO|SA_RESTORER", 
+                                "0x7fcbec921f40", 
+                                [
+                                    "EMPTY]"
+                                ]
+                            ]
+                        }, 
+                        "time": 1642282913.158773
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.158802 writevt@7fcbec915a19[2068] rt_sigprocmask(SIG_UNBLOCK, [EMPTY], 0x0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbec915a19", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "SIG_UNBLOCK", 
+                            "p1": [
+                                "EMPTY"
+                            ]
+                        }, 
+                        "time": 1642282913.158802
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.158900 writevt@7fcbec833df0[2068] prlimit64(0, RLIMIT_STACK, NULL, 0x7ffe9c1930c0) = 0\n", 
+                        "api": "prlimit64", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbec833df0", 
+                        "arguments": {
+                            "p2": "NULL", 
+                            "p3": "0x7ffe9c1930c0", 
+                            "p0": "0", 
+                            "p1": "RLIMIT_STACK"
+                        }, 
+                        "time": 1642282913.1589
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.159115 writevt@7fcbec8342f7[2068] brk(0x0) = 94394143662080\n", 
+                        "api": "brk", 
+                        "return_value": "94394143662080", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbec8342f7", 
+                        "arguments": {
+                            "p0": "0x0"
+                        }, 
+                        "time": 1642282913.159115
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.159145 writevt@7fcbec8342f7[2068] brk(0x55d9d968f000) = 94394143797248\n", 
+                        "api": "brk", 
+                        "return_value": "94394143797248", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbec8342f7", 
+                        "arguments": {
+                            "p0": "0x55d9d968f000"
+                        }, 
+                        "time": 1642282913.159145
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.160111 writevt@7fcbec91eb86[2068] rt_sigprocmask(SIG_SETMASK, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS], 0x7ffe9c193010, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbec91eb86", 
+                        "arguments": {
+                            "p2": "0x7ffe9c193010", 
+                            "p3": "8", 
+                            "p0": "SIG_SETMASK", 
+                            "p1": [
+                                "SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS"
+                            ]
+                        }, 
+                        "time": 1642282913.160111
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.161055 writevt@7fcbec8384c3[2068] mmap2(0x0, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7fcbebea4000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcbebea4000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbec8384c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK", 
+                            "p0": "0x0", 
+                            "p1": "8392704", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642282913.161055
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.161095 writevt@7fcbec838597[2068] mprotect(0x7fcbebea5000, 8388608, PROT_READ|PROT_WRITE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbec838597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p0": "0x7fcbebea5000", 
+                            "p1": "8388608"
+                        }, 
+                        "time": 1642282913.161095
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.161147 writevt@7fcbec83eb11[2068] clone(CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, 0x7fcbec6a3f70, 0x7fcbec6a49d0, 0x7fcbec6a49d0) = 2069\n", 
+                        "api": "clone", 
+                        "return_value": "2069", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbec83eb11", 
+                        "arguments": {
+                            "p2": "0x7fcbec6a49d0", 
+                            "p3": "0x7fcbec6a49d0", 
+                            "p0": "CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID", 
+                            "p1": "0x7fcbec6a3f70"
+                        }, 
+                        "time": 1642282913.161147
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.161247 writevt@7fcbec91eb86[2068] rt_sigprocmask(SIG_SETMASK, [EMPTY], 0x0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbec91eb86", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "SIG_SETMASK", 
+                            "p1": [
+                                "EMPTY"
+                            ]
+                        }, 
+                        "time": 1642282913.161247
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.163580 writevt@7fcbec833df0[2068] prlimit64(0, RLIMIT_STACK, NULL, 0x7ffe9c192bd0) = 0\n", 
+                        "api": "prlimit64", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbec833df0", 
+                        "arguments": {
+                            "p2": "NULL", 
+                            "p3": "0x7ffe9c192bd0", 
+                            "p0": "0", 
+                            "p1": "RLIMIT_STACK"
+                        }, 
+                        "time": 1642282913.16358
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.163633 writevt@7fcbec8335c1[2068] openat(AT_FDCWD, \"/etc/qemu-binfmt/sparc\", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -2 (ENOENT)\n", 
+                        "api": "openat", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbec8335c1", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/etc/qemu-binfmt/sparc"
+                        }, 
+                        "time": 1642282913.163633
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.163732 writevt@7fcbec802247[2068] uname(0x7ffe9c192840) = 0\n", 
+                        "api": "uname", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbec802247", 
+                        "arguments": {
+                            "p0": "0x7ffe9c192840"
+                        }, 
+                        "time": 1642282913.163732
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.163772 writevt@7fcbec921337[2068] lseek(3, 0, SEEK_SET) = 0\n", 
+                        "api": "lseek", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbec921337", 
+                        "arguments": {
+                            "p2": "SEEK_SET", 
+                            "p0": "3", 
+                            "p1": "0"
+                        }, 
+                        "time": 1642282913.163772
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.163810 writevt@7fcbec920d94[2068] read(3, 0x7ffe9c192b30, 52) = 52\n", 
+                        "api": "read", 
+                        "return_value": "52", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbec920d94", 
+                        "arguments": {
+                            "p2": "52", 
+                            "p0": "3", 
+                            "p1": "0x7ffe9c192b30"
+                        }, 
+                        "time": 1642282913.16381
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.163850 writevt@7fcbec921337[2068] lseek(3, 0, SEEK_SET) = 0\n", 
+                        "api": "lseek", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbec921337", 
+                        "arguments": {
+                            "p2": "SEEK_SET", 
+                            "p0": "3", 
+                            "p1": "0"
+                        }, 
+                        "time": 1642282913.16385
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.165026 writevt@7fcbec8384c3[2068] mmap2(0x0, 528384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fcbebe23000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcbebe23000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbec8384c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "528384", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642282913.165026
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.165497 writevt@7fcbec838597[2068] mprotect(0x55d9d6f21000, 33550336, PROT_READ|PROT_WRITE|PROT_EXEC) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbec838597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE|PROT_EXEC", 
+                            "p0": "0x55d9d6f21000", 
+                            "p1": "33550336"
+                        }, 
+                        "time": 1642282913.165497
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.165547 writevt@7fcbec838667[2068] madvise(0x55d9d6f21000, 33550336, MADV_HUGEPAGE) = 0\n", 
+                        "api": "madvise", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbec838667", 
+                        "arguments": {
+                            "p2": "MADV_HUGEPAGE", 
+                            "p0": "0x55d9d6f21000", 
+                            "p1": "33550336"
+                        }, 
+                        "time": 1642282913.165547
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.165716 writevt@7fcbec8384c3[2068] mmap2(0x0, 4294963200, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7fcae4001000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcae4001000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbec8384c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x0", 
+                            "p1": "4294963200", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642282913.165716
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.165770 writevt@7fcbec82dd59[2068] openat(AT_FDCWD, \"/proc/sys/vm/mmap_min_addr\", O_RDONLY) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbec82dd59", 
+                        "arguments": {
+                            "p2": "O_RDONLY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/proc/sys/vm/mmap_min_addr"
+                        }, 
+                        "time": 1642282913.16577
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.165831 writevt@7fcbec82d613[2068] fstat(4, 0x7ffe9c192240) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbec82d613", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe9c192240"
+                        }, 
+                        "time": 1642282913.165831
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.165869 writevt@7fcbec82dfb4[2068] read(4, 0x55d9d967b3d0, 1024) = 6\n", 
+                        "api": "read", 
+                        "return_value": "6", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbec82dfb4", 
+                        "arguments": {
+                            "p2": "1024", 
+                            "p0": "4", 
+                            "p1": "0x55d9d967b3d0"
+                        }, 
+                        "time": 1642282913.165869
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.165916 writevt@7fcbec8333f7[2068] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbec8333f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642282913.165916
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.165967 writevt@7fcbec8382e9[2068] gettid() = 2068\n", 
+                        "api": "gettid", 
+                        "return_value": "2068", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbec8382e9", 
+                        "arguments": {}, 
+                        "time": 1642282913.165967
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.166002 writevt@7fcbec82d613[2068] fstat(3, 0x7ffe9c192ab0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbec82d613", 
+                        "arguments": {
+                            "p0": "3", 
+                            "p1": "0x7ffe9c192ab0"
+                        }, 
+                        "time": 1642282913.166002
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.166037 writevt@7fcbec803717[2068] geteuid() = 0\n", 
+                        "api": "geteuid", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbec803717", 
+                        "arguments": {}, 
+                        "time": 1642282913.166037
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.166071 writevt@7fcbec803737[2068] getegid() = 0\n", 
+                        "api": "getegid", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbec803737", 
+                        "arguments": {}, 
+                        "time": 1642282913.166071
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.166103 writevt@7fcbec920d94[2068] read(3, 0x7ffe9c192cb0, 1024) = 1024\n", 
+                        "api": "read", 
+                        "return_value": "1024", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbec920d94", 
+                        "arguments": {
+                            "p2": "1024", 
+                            "p0": "3", 
+                            "p1": "0x7ffe9c192cb0"
+                        }, 
+                        "time": 1642282913.166103
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.166144 writevt@7fcbec8384c3[2068] mmap2(0x7fcae4011000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 3, 0) = 0x7fcae4011000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcae4011000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbec8384c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED", 
+                            "p0": "0x7fcae4011000", 
+                            "p1": "8192", 
+                            "p4": "3", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642282913.166144
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.166194 writevt@7fcbec8342f7[2068] brk(0x55d9d96b0000) = 94394143932416\n", 
+                        "api": "brk", 
+                        "return_value": "94394143932416", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbec8342f7", 
+                        "arguments": {
+                            "p0": "0x55d9d96b0000"
+                        }, 
+                        "time": 1642282913.166194
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.166252 writevt@7fcbec8384c3[2068] mmap2(0x7fcae4022000, 4096, PROT_READ|PROT_WRITE|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 3, 4096) = 0x7fcae4022000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcae4022000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbec8384c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED", 
+                            "p0": "0x7fcae4022000", 
+                            "p1": "4096", 
+                            "p4": "3", 
+                            "p5": "4096"
+                        }, 
+                        "time": 1642282913.166252
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.166304 writevt@7fcbec920e27[2068] close(3) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbec920e27", 
+                        "arguments": {
+                            "p0": "3"
+                        }, 
+                        "time": 1642282913.166304
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.166372 writevt@7fcbec8384c3[2068] mmap2(0x7fcbe37ff000, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fcbe37ff000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcbe37ff000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbec8384c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7fcbe37ff000", 
+                            "p1": "8392704", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642282913.166372
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.166488 writevt@7fcbec838597[2068] mprotect(0x7fcbe37ff000, 4096, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbec838597", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7fcbe37ff000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642282913.166488
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.166542 writevt@7fcbec92155e[2068] openat(AT_FDCWD, \"/lib/ld-linux.so.2\", O_RDONLY) = -2 (ENOENT)\n", 
+                        "api": "openat", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbec92155e", 
+                        "arguments": {
+                            "p2": "O_RDONLY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/ld-linux.so.2"
+                        }, 
+                        "time": 1642282913.166542
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.166614 writevt@7fcbec82e057[2068] write(2, \"/lib/ld-linux.so.2: No such file or directory\\n\", 46) = 46\n", 
+                        "api": "write", 
+                        "return_value": "46", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbec82e057", 
+                        "arguments": {
+                            "p2": "46", 
+                            "p0": "2", 
+                            "p1": "/lib/ld-linux.so.2: No such file or directory\n"
+                        }, 
+                        "time": 1642282913.166614
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.166687 writevt@7fcbec802926[2068] exit_group(-1)\n", 
+                        "api": "exit_group", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbec802926", 
+                        "arguments": {
+                            "p0": "-1"
+                        }, 
+                        "time": 1642282913.166687
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2068, 
+                        "raw": "Sat Jan 15 21:41:53 2022.166732 writevt@7fcbec802926[2068] futex(0x7fcbec6a6410, FUTEX_WAKE, 1) = 0\n", 
+                        "api": "futex", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbec802926", 
+                        "arguments": {
+                            "p2": "1", 
+                            "p0": "0x7fcbec6a6410", 
+                            "p1": "FUTEX_WAKE"
+                        }, 
+                        "time": 1642282913.166732
+                    }
+                ], 
+                "pid": 2068, 
+                "process_name": "writevt", 
+                "command_line": "/tmp/writevt", 
+                "first_seen": 1642282913.145523, 
+                "ppid": -1, 
+                "type": "process"
+            }, 
+            {
+                "calls": [
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 21:41:53 2022.161331 writevt@7fcbec917117[2069] set_robust_list(0x7fcbec6a49e0, 24) = 0\n", 
+                        "api": "set_robust_list", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbec917117", 
+                        "arguments": {
+                            "p0": "0x7fcbec6a49e0", 
+                            "p1": "24"
+                        }, 
+                        "time": 1642282913.161331
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 21:41:53 2022.161403 writevt@7fcbec8384c3[2069] mmap2(0x0, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7fcbe3ea4000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fcbe3ea4000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbec8384c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x0", 
+                            "p1": "134217728", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642282913.161403
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 21:41:53 2022.161468 writevt@7fcbec838567[2069] munmap(0x7fcbe3ea4000, 1425408) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbec838567", 
+                        "arguments": {
+                            "p0": "0x7fcbe3ea4000", 
+                            "p1": "1425408"
+                        }, 
+                        "time": 1642282913.161468
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 21:41:53 2022.161529 writevt@7fcbec838567[2069] munmap(0x7fcbe8000000, 65683456) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbec838567", 
+                        "arguments": {
+                            "p0": "0x7fcbe8000000", 
+                            "p1": "65683456"
+                        }, 
+                        "time": 1642282913.161529
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 21:41:53 2022.161596 writevt@7fcbec838597[2069] mprotect(0x7fcbe4000000, 135168, PROT_READ|PROT_WRITE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbec838597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p0": "0x7fcbe4000000", 
+                            "p1": "135168"
+                        }, 
+                        "time": 1642282913.161596
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "writevt", 
+                        "pid": 2069, 
+                        "raw": "Sat Jan 15 21:41:53 2022.161672 writevt@7fcbec921440[2069] nanosleep([0.010000000], 0x7fcbec6a3dc0) = -516\n", 
+                        "api": "nanosleep", 
+                        "return_value": "-516", 
+                        "category": "process", 
+                        "instruction_pointer": "7fcbec921440", 
+                        "arguments": {
+                            "p0": [
+                                "0.010000000"
+                            ], 
+                            "p1": "0x7fcbec6a3dc0"
+                        }, 
+                        "time": 1642282913.161672
+                    }
+                ], 
+                "pid": 2069, 
+                "process_name": "writevt", 
+                "command_line": "", 
+                "first_seen": 1642282913.161331, 
+                "ppid": 2068, 
+                "type": "process"
+            }
+        ], 
+        "processtree": [
+            {
+                "track": true, 
+                "pid": 2068, 
+                "process_name": "writevt", 
+                "command_line": "/tmp/writevt", 
+                "first_seen": 1642282913.145523, 
+                "ppid": -1, 
+                "children": [
+                    {
+                        "track": true, 
+                        "pid": 2069, 
+                        "process_name": "writevt", 
+                        "command_line": "", 
+                        "first_seen": 1642282913.161331, 
+                        "ppid": 2068, 
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    }, 
+    "debug": {
+        "action": [], 
+        "dbgview": [], 
+        "errors": [], 
+        "log": [
+            "2022-01-15 21:41:46,001 [root] DEBUG: Starting analyzer from: /tmp/tmpeVowbR\n", 
+            "2022-01-15 21:41:46,001 [root] DEBUG: Storing results at: /tmp/kHFPcliai\n", 
+            "2022-01-15 21:41:48,135 [modules.auxiliary.filecollector] INFO: FileCollector started v0.08\n", 
+            "2022-01-15 21:41:48,137 [modules.auxiliary.human] INFO: Human started v0.02\n", 
+            "2022-01-15 21:41:48,140 [modules.auxiliary.screenshots] INFO: Screenshots started v0.03\n", 
+            "2022-01-15 21:41:53,139 [lib.core.packages] INFO: Process startup took 4.99 seconds\n", 
+            "2022-01-15 21:41:53,142 [root] INFO: Added new process to list with pid: 2058\n", 
+            "2022-01-15 21:41:56,784 [lib.common.results] ERROR: Exception uploading file /tmp/filenX0PME to host: [Errno 2] No such file or directory: '/tmp/filenX0PME'\n", 
+            "2022-01-15 21:41:59,153 [root] INFO: Process with pid 2058 has terminated\n", 
+            "2022-01-15 21:41:59,155 [root] INFO: Process list is empty, terminating analysis.\n", 
+            "2022-01-15 21:42:02,159 [lib.core.packages] INFO: Package requested stop\n", 
+            "2022-01-15 21:42:02,161 [lib.core.packages] WARNING: Exception uploading log: [Errno 3] No such process\n"
+        ], 
+        "cuckoo": [
+            "2022-01-16 10:57:41,912 [cuckoo.core.scheduler] DEBUG: Task #2651899: no machine available yet\n", 
+            "2022-01-16 10:57:51,935 [cuckoo.core.scheduler] DEBUG: Task #2651899: no machine available yet\n", 
+            "2022-01-16 10:58:01,971 [cuckoo.core.scheduler] INFO: Task #2651899: acquired machine Ubuntu1904x645 (label=Ubuntu1904x645)\n", 
+            "2022-01-16 10:58:01,972 [cuckoo.core.resultserver] DEBUG: Now tracking machine 192.168.168.105 for task #2651899\n", 
+            "2022-01-16 10:58:02,144 [cuckoo.auxiliary.sniffer] INFO: Started sniffer with PID 3365178 (interface=vboxnet0, host=192.168.168.105)\n", 
+            "2022-01-16 10:58:02,541 [cuckoo.machinery.virtualbox] DEBUG: Starting vm Ubuntu1904x645\n", 
+            "2022-01-16 10:58:02,937 [cuckoo.machinery.virtualbox] DEBUG: Restoring virtual machine Ubuntu1904x645 to Snapshot\n", 
+            "2022-01-16 10:58:12,128 [cuckoo.core.guest] INFO: Starting analysis #2651899 on guest (id=Ubuntu1904x645, ip=192.168.168.105)\n", 
+            "2022-01-16 10:58:13,132 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: not ready yet\n", 
+            "2022-01-16 10:58:18,157 [cuckoo.core.guest] INFO: Guest is running Cuckoo Agent 0.10 (id=Ubuntu1904x645, ip=192.168.168.105)\n", 
+            "2022-01-16 10:58:18,171 [cuckoo.core.guest] DEBUG: Uploading analyzer to guest (id=Ubuntu1904x645, ip=192.168.168.105, monitor=latest, size=72028)\n", 
+            "2022-01-16 10:58:19,436 [cuckoo.core.resultserver] DEBUG: Task #2651899: live log analysis.log initialized.\n", 
+            "2022-01-16 10:58:24,672 [cuckoo.core.resultserver] DEBUG: Task #2651899: File upload for 'shots/0001.jpg'\n", 
+            "2022-01-16 10:58:24,807 [cuckoo.core.resultserver] DEBUG: Task #2651899 uploaded file length: 171561\n", 
+            "2022-01-16 10:58:30,161 [cuckoo.core.resultserver] DEBUG: Task #2651899: File upload for 'files/e3b0c44298fc1c14_filenX0PME'\n", 
+            "2022-01-16 10:58:31,668 [cuckoo.core.resultserver] DEBUG: Task #2651899 uploaded file length: 0\n", 
+            "2022-01-16 10:58:33,377 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2651899 still processing\n", 
+            "2022-01-16 10:58:35,542 [cuckoo.core.resultserver] DEBUG: Task #2651899: File upload for 'logs/all.stap'\n", 
+            "2022-01-16 10:58:35,552 [cuckoo.core.resultserver] DEBUG: Task #2651899 uploaded file length: 18679\n", 
+            "2022-01-16 10:58:48,468 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2651899 still processing\n", 
+            "2022-01-16 10:59:03,578 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2651899 still processing\n", 
+            "2022-01-16 10:59:18,672 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2651899 still processing\n", 
+            "2022-01-16 10:59:33,772 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2651899 still processing\n", 
+            "2022-01-16 10:59:48,864 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2651899 still processing\n", 
+            "2022-01-16 11:00:03,960 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2651899 still processing\n", 
+            "2022-01-16 11:00:19,053 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2651899 still processing\n", 
+            "2022-01-16 11:00:34,137 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2651899 still processing\n", 
+            "2022-01-16 11:00:49,236 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2651899 still processing\n", 
+            "2022-01-16 11:01:04,316 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2651899 still processing\n", 
+            "2022-01-16 11:01:19,398 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2651899 still processing\n", 
+            "2022-01-16 11:01:34,497 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2651899 still processing\n", 
+            "2022-01-16 11:01:49,574 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2651899 still processing\n", 
+            "2022-01-16 11:02:04,646 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2651899 still processing\n", 
+            "2022-01-16 11:02:19,706 [cuckoo.core.guest] INFO: Ubuntu1904x645: end of analysis reached!\n", 
+            "2022-01-16 11:02:19,713 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Redsocks\n", 
+            "2022-01-16 11:02:19,797 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Sniffer\n", 
+            "2022-01-16 11:02:37,125 [cuckoo.machinery.virtualbox] INFO: Successfully generated memory dump for virtual machine with label Ubuntu1904x645 to path /srv/cuckoo/cwd/storage/analyses/2651899/memory.dmp\n", 
+            "2022-01-16 11:02:37,132 [cuckoo.machinery.virtualbox] DEBUG: Stopping vm Ubuntu1904x645\n", 
+            "2022-01-16 11:02:57,844 [cuckoo.core.resultserver] DEBUG: Stopped tracking machine 192.168.168.105 for task #2651899\n", 
+            "2022-01-16 11:02:57,844 [cuckoo.core.resultserver] DEBUG: Cancel <Context for LOG> for task 2651899\n", 
+            "2022-01-16 11:02:57,966 [cuckoo.core.scheduler] DEBUG: Released database task #2651899\n", 
+            "2022-01-16 11:02:58,049 [cuckoo.core.scheduler] INFO: Task #2651899: analysis procedure completed\n"
+        ]
+    }, 
+    "strings": [
+        "/lib/ld-linux.so.2", 
+        "libctutils.so.0", 
+        "_Jv_RegisterClasses", 
+        "__gmon_start__", 
+        "libc.so.6", 
+        "getopt_long", 
+        "perror", 
+        "__cxa_finalize", 
+        "optarg", 
+        "strrchr", 
+        "fprintf", 
+        "dcgettext", 
+        "optind", 
+        "setlocale", 
+        "stderr", 
+        "bindtextdomain", 
+        "_IO_stdin_used", 
+        "__libc_start_main", 
+        "_edata", 
+        "__bss_start", 
+        "GLIBC_2.1.3", 
+        "GLIBC_2.0", 
+        "console-tools", 
+        "/usr/share/locale", 
+        "t:T:Vh", 
+        "%s: No tty specified.", 
+        "%s: No text specified.", 
+        "%s: too many arguments", 
+        "%s: could not open tty", 
+        "TIOCSTI", 
+        "%s: TIOCSTI ioctl failed", 
+        "Usage: %s tty text", 
+        "Put text into the input buffer of a virtual terminal.", 
+        "valid options are:", 
+        "device name", 
+        "-t --term=tty     %s", 
+        "text to insert", 
+        "-T --text=text    %s", 
+        "display this help text and exit", 
+        "-h --help         %s", 
+        "display version information and exit", 
+        "-V --version      %s", 
+        "version", 
+        "%s: (%s) %s", 
+        "%s: Unexpected arguments.", 
+        ".shstrtab", 
+        ".interp", 
+        ".note.ABI-tag", 
+        ".dynsym", 
+        ".dynstr", 
+        ".gnu.version", 
+        ".gnu.version_r", 
+        ".rela.dyn", 
+        ".rela.plt", 
+        ".rodata", 
+        ".eh_frame", 
+        ".ctors", 
+        ".dtors", 
+        ".dynamic"
+    ], 
+    "metadata": {
+        "output": {
+            "pcap": {
+                "basename": "dump.pcap", 
+                "sha256": "8763bc1e489bc7476e8e7c804678fcae24465db7eede86a80bee5252f20a069e", 
+                "dirname": ""
+            }, 
+            "dropped": [
+                {
+                    "basename": "e3b0c44298fc1c14_filenX0PME", 
+                    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", 
+                    "dirname": "files"
+                }
+            ]
+        }
+    }
+}
