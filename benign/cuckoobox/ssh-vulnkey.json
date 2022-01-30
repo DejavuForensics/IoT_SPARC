@@ -1,0 +1,3322 @@
+{
+    "info": {
+        "added": 1642282589.282194, 
+        "started": 1642324965.169052, 
+        "duration": 402, 
+        "ended": 1642325367.393987, 
+        "owner": null, 
+        "score": 0.0, 
+        "id": 2651748, 
+        "category": "file", 
+        "git": {
+            "head": "e8f6317b4b3ef806085a1e99e64c6ff01f26948f", 
+            "fetch_head": "e8f6317b4b3ef806085a1e99e64c6ff01f26948f"
+        }, 
+        "monitor": "2deb9ccd75d5a7a3fe05b2625b03a8639d6ee36b", 
+        "package": "elf", 
+        "route": "internet", 
+        "custom": null, 
+        "machine": {
+            "status": "stopped", 
+            "name": "Ubuntu1904x644", 
+            "label": "Ubuntu1904x644", 
+            "platform": "linux", 
+            "manager": "VirtualBox", 
+            "started_on": "2022-01-16 09:24:55", 
+            "shutdown_on": "2022-01-16 09:29:26"
+        }, 
+        "platform": "linux", 
+        "version": "2.0.7", 
+        "options": "procmemdump=yes,route=internet"
+    }, 
+    "signatures": [], 
+    "target": {
+        "category": "file", 
+        "file": {
+            "mimetype": "application/x-executable", 
+            "yara": [], 
+            "sha1": "b4250123b827f535b738594d951578706bfc58c5", 
+            "name": "ssh-vulnkey", 
+            "type": "ELF 32-bit MSB executable, SPARC, version 1 (SYSV), dynamically linked, interpreter /lib/ld-linux.so.2, for GNU/Linux 2.4.1, stripped", 
+            "sha256": "bef8b8f7bce3a8349d025f4adf3adc51b94753f973d412cbad8c199fd28bf87d", 
+            "urls": [], 
+            "crc32": "B34A6182", 
+            "path": "/srv/cuckoo/cwd/storage/binaries/bef8b8f7bce3a8349d025f4adf3adc51b94753f973d412cbad8c199fd28bf87d", 
+            "ssdeep": "1536:s3WV/x7bJjPy7oa/xT0spOc4KT93Y8zOa+gvb:CWz/JjPHa5BwctdFONgvb", 
+            "size": 70064, 
+            "sha512": "ac24acfce4a6ef83e9ababa6f70d6befea0232764054e7a24f4282387c94efe853c53132352312c518580576d4047199430593fe97d33dd245ca9663330f7dd4", 
+            "md5": "958d28882fb0091d6e20716932786077"
+        }, 
+        "custom": null
+    }, 
+    "irma": {
+        "status": 0, 
+        "probes_finished": 16, 
+        "scan_id": "18aafd71-bde3-43c9-b36c-2e554e727ed4", 
+        "parent_file_sha256": null, 
+        "name": "bef8b8f7bce3a8349d025f4adf3adc51b94753f973d412cbad8c199fd28bf87d", 
+        "probes_total": 16, 
+        "scan_date": 1642318168, 
+        "other_results": [], 
+        "submitter": "cli", 
+        "file_infos": {
+            "mimetype": "ELF 32-bit MSB executable, SPARC, version 1 (SYSV)", 
+            "sha1": "b4250123b827f535b738594d951578706bfc58c5", 
+            "tags": [], 
+            "timestamp_first_scan": 1642318167.99, 
+            "timestamp_last_scan": 1642318178.69, 
+            "sha256": "bef8b8f7bce3a8349d025f4adf3adc51b94753f973d412cbad8c199fd28bf87d", 
+            "md5": "958d28882fb0091d6e20716932786077", 
+            "size": 70064
+        }, 
+        "probe_results": {
+            "antivirus": {
+                "Avast Core Security (Linux)": {
+                    "status": 0, 
+                    "duration": 0.01, 
+                    "version": "3.0.3", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "F-Secure Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.03, 
+                    "version": "11.10", 
+                    "results": null, 
+                    "virus_database_version": "2022-01-13_04"
+                }, 
+                "Windows Defender (Windows)": {
+                    "status": 0, 
+                    "duration": 0.05, 
+                    "version": "1.1.18800.4", 
+                    "results": null, 
+                    "virus_database_version": "1.355.1049.0"
+                }, 
+                "Comodo Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 2.13, 
+                    "version": "1.1.268025.1", 
+                    "results": null, 
+                    "virus_database_version": "2021-11-02"
+                }, 
+                "Kaspersky Antivirus (Win)": {
+                    "status": 0, 
+                    "duration": 8.38, 
+                    "version": "21.3", 
+                    "results": null, 
+                    "virus_database_version": "2022-01-16 02:22:00 (full)"
+                }, 
+                "ESET NOD32 Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 4.27, 
+                    "version": "4.0.96", 
+                    "results": null, 
+                    "virus_database_version": "6178ebd0-1e722 (2021-10-27)"
+                }, 
+                "GData (Windows)": {
+                    "status": 0, 
+                    "duration": 0.19, 
+                    "version": "5.5.20197.1358", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Forticlient (Linux)": {
+                    "status": 0, 
+                    "duration": 3.03, 
+                    "version": "unavailable", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Avira (Windows)": {
+                    "status": 0, 
+                    "duration": 3.78, 
+                    "version": "8.3.64.66", 
+                    "results": null, 
+                    "virus_database_version": "8.19.1.122"
+                }, 
+                "eScan Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 4.0, 
+                    "version": "7.0.21", 
+                    "results": null, 
+                    "virus_database_version": "7.90035 (27/10/2021)"
+                }, 
+                "McAfee CLI scanner (Linux)": {
+                    "status": 0, 
+                    "duration": 5.8, 
+                    "version": "6.0.6.653", 
+                    "results": null, 
+                    "virus_database_version": "10149"
+                }, 
+                "Sophos Anti-Virus (Linux)": {
+                    "status": 0, 
+                    "duration": 7.27, 
+                    "version": "5.85.0", 
+                    "results": null, 
+                    "virus_database_version": "5.88 (26 October 2021)"
+                }, 
+                "DrWeb Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.18, 
+                    "version": "11.1.10.2108031732", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "ClamAV (Linux)": {
+                    "status": 0, 
+                    "duration": 0.03, 
+                    "version": "0.103.2", 
+                    "results": null, 
+                    "virus_database_version": "26334"
+                }, 
+                "Bitdefender Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 6.15, 
+                    "version": "7.90123", 
+                    "results": null, 
+                    "virus_database_version": null
+                }, 
+                "Emsisoft Commandline Scanner (Windows)": {
+                    "status": 0, 
+                    "duration": 0.2, 
+                    "version": "2021.10.0.11201", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }
+            }
+        }, 
+        "path": "", 
+        "result_id": "b407de86-5168-4957-9ba1-0c65c58733a7", 
+        "file_sha256": "bef8b8f7bce3a8349d025f4adf3adc51b94753f973d412cbad8c199fd28bf87d"
+    }, 
+    "suricata": {
+        "tls": [], 
+        "files": [], 
+        "alerts": [], 
+        "http": []
+    }, 
+    "virustotal": {
+        "summary": {
+            "error": "resource has not been scanned yet"
+        }
+    }, 
+    "network": {
+        "tls": [], 
+        "udp": [], 
+        "dns_servers": [], 
+        "http": [], 
+        "icmp": [], 
+        "smtp": [], 
+        "tcp": [], 
+        "smtp_ex": [], 
+        "geoinfo": {}, 
+        "mitm": [], 
+        "hosts": [], 
+        "pcap_sha256": "704e5e5b3234433c01fcfd1b20a306e77e985038120492dc53965c3edd38a4ea", 
+        "dns": [], 
+        "http_ex": [], 
+        "domains": [], 
+        "dead_hosts": [], 
+        "irc": [], 
+        "https_ex": []
+    }, 
+    "resubmit": {
+        "resubmit_ids": []
+    }, 
+    "snort": {
+        "alerts": []
+    }, 
+    "behavior": {
+        "generic": [
+            {
+                "process_path": null, 
+                "process_name": "ssh-vulnkey", 
+                "pid": 3846, 
+                "summary": {}, 
+                "first_seen": 1642282596.952617, 
+                "ppid": -1
+            }, 
+            {
+                "process_path": null, 
+                "process_name": "ssh-vulnkey", 
+                "pid": 3847, 
+                "summary": {}, 
+                "first_seen": 1642282597.97072, 
+                "ppid": 3846
+            }
+        ], 
+        "processes": [
+            {
+                "calls": [
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:36 2022.952617 ssh-vulnkey@7f6c6563cc27[3846] execve(\"/tmp/ssh-vulnkey\", [\"/tmp/ssh-vulnkey\"], [\"SUDO_GID=0\", \"MAIL=/var/mail/root\", \"USER=root\", \"HOME=/root\", \"SUDO_UID=0\", \"LOGNAME=root\", \"SYSTEMTAP_MODULE=stap_\", \"TERM=unknown\", \"SYSTEMTAP_VERBOSE=2\", \"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin\", \"DISPLAY=:0\", \"LANG=en_US.UTF-8\", \"XAUTHORITY=/root/.Xauthority\", \"SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/ssh-vulnkey\", \"SHELL=/bin/bash\", \"SUDO_USER=root\", \"PWD=/tmp/tmprAVzj2\"])\n", 
+                        "api": "execve", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c6563cc27", 
+                        "arguments": {
+                            "p2": [
+                                "SUDO_GID=0", 
+                                "MAIL=/var/mail/root", 
+                                "USER=root", 
+                                "HOME=/root", 
+                                "SUDO_UID=0", 
+                                "LOGNAME=root", 
+                                "SYSTEMTAP_MODULE=stap_", 
+                                "TERM=unknown", 
+                                "SYSTEMTAP_VERBOSE=2", 
+                                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin", 
+                                "DISPLAY=:0", 
+                                "LANG=en_US.UTF-8", 
+                                "XAUTHORITY=/root/.Xauthority", 
+                                "SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/ssh-vulnkey", 
+                                "SHELL=/bin/bash", 
+                                "SUDO_USER=root", 
+                                "PWD=/tmp/tmprAVzj2"
+                            ], 
+                            "p0": "/tmp/ssh-vulnkey", 
+                            "p1": [
+                                "/tmp/ssh-vulnkey"
+                            ]
+                        }, 
+                        "time": 1642282596.952617
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.953397 ssh-vulnkey@7f6c6563cc27[3846] brk(0x0) = 94544244719616\n", 
+                        "api": "brk", 
+                        "return_value": "94544244719616", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c6563cc27", 
+                        "arguments": {
+                            "p0": "0x0"
+                        }, 
+                        "time": 1642282597.953397
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.953545 ssh-vulnkey@7f6c6563d9d7[3846] access(\"/etc/ld.so.preload\", R_OK) = -2 (ENOENT)\n", 
+                        "api": "access", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c6563d9d7", 
+                        "arguments": {
+                            "p0": "/etc/ld.so.preload", 
+                            "p1": "R_OK"
+                        }, 
+                        "time": 1642282597.953545
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.955112 ssh-vulnkey@7f6c6563db0d[3846] openat(AT_FDCWD, \"/etc/ld.so.cache\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c6563db0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/etc/ld.so.cache"
+                        }, 
+                        "time": 1642282597.955112
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.955200 ssh-vulnkey@7f6c6563d943[3846] fstat(4, 0x7ffc0de945e0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c6563d943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc0de945e0"
+                        }, 
+                        "time": 1642282597.9552
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.955274 ssh-vulnkey@7f6c6563dd03[3846] mmap2(0x0, 88858, PROT_READ, MAP_PRIVATE, 4, 0) = 0x7f6c6560b000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f6c6560b000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c6563dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE", 
+                            "p0": "0x0", 
+                            "p1": "88858", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642282597.955274
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.955345 ssh-vulnkey@7f6c6563d9f7[3846] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c6563d9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642282597.955345
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.955438 ssh-vulnkey@7f6c6563db0d[3846] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c6563db0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0"
+                        }, 
+                        "time": 1642282597.955438
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.955512 ssh-vulnkey@7f6c6563dbd4[3846] read(4, 0x7ffc0de94798, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c6563dbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc0de94798"
+                        }, 
+                        "time": 1642282597.955512
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.955578 ssh-vulnkey@7f6c6563d943[3846] fstat(4, 0x7ffc0de94630) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c6563d943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc0de94630"
+                        }, 
+                        "time": 1642282597.955578
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.955638 ssh-vulnkey@7f6c6563dd03[3846] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f6c65609000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f6c65609000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c6563dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642282597.955638
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.955712 ssh-vulnkey@7f6c6563dd03[3846] mmap2(0x0, 20600, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f6c65603000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f6c65603000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c6563dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "20600", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642282597.955712
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.955783 ssh-vulnkey@7f6c6563dd03[3846] mmap2(0x7f6c65604000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 4096) = 0x7f6c65604000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f6c65604000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c6563dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f6c65604000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "4096"
+                        }, 
+                        "time": 1642282597.955783
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.955865 ssh-vulnkey@7f6c6563dd03[3846] mmap2(0x7f6c65606000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f6c65606000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f6c65606000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c6563dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f6c65606000", 
+                            "p1": "4096", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642282597.955865
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.955937 ssh-vulnkey@7f6c6563dd03[3846] mmap2(0x7f6c65607000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f6c65607000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f6c65607000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c6563dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f6c65607000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642282597.955937
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.956030 ssh-vulnkey@7f6c6563d9f7[3846] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c6563d9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642282597.95603
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.956109 ssh-vulnkey@7f6c6563db0d[3846] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c6563db0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0"
+                        }, 
+                        "time": 1642282597.956109
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.956181 ssh-vulnkey@7f6c6563dbd4[3846] read(4, 0x7ffc0de94778, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c6563dbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc0de94778"
+                        }, 
+                        "time": 1642282597.956181
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.956243 ssh-vulnkey@7f6c6563d943[3846] fstat(4, 0x7ffc0de94610) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c6563d943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc0de94610"
+                        }, 
+                        "time": 1642282597.956243
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.956305 ssh-vulnkey@7f6c6563dd03[3846] mmap2(0x0, 1180072, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f6c654e2000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f6c654e2000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c6563dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1180072", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642282597.956305
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.956376 ssh-vulnkey@7f6c6563ddb7[3846] mprotect(0x7f6c654fd000, 1060864, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c6563ddb7", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7f6c654fd000", 
+                            "p1": "1060864"
+                        }, 
+                        "time": 1642282597.956376
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.956453 ssh-vulnkey@7f6c6563dd03[3846] mmap2(0x7f6c654fd000, 524288, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 110592) = 0x7f6c654fd000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f6c654fd000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c6563dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f6c654fd000", 
+                            "p1": "524288", 
+                            "p4": "4", 
+                            "p5": "110592"
+                        }, 
+                        "time": 1642282597.956453
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.956523 ssh-vulnkey@7f6c6563dd03[3846] mmap2(0x7f6c6557d000, 532480, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 634880) = 0x7f6c6557d000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f6c6557d000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c6563dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f6c6557d000", 
+                            "p1": "532480", 
+                            "p4": "4", 
+                            "p5": "634880"
+                        }, 
+                        "time": 1642282597.956523
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.956592 ssh-vulnkey@7f6c6563dd03[3846] mmap2(0x7f6c65600000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1167360) = 0x7f6c65600000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f6c65600000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c6563dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f6c65600000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "1167360"
+                        }, 
+                        "time": 1642282597.956592
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.956670 ssh-vulnkey@7f6c6563dd03[3846] mmap2(0x7f6c65602000, 424, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f6c65602000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f6c65602000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c6563dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f6c65602000", 
+                            "p1": "424", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642282597.95667
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.956750 ssh-vulnkey@7f6c6563d9f7[3846] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c6563d9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642282597.95675
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.956845 ssh-vulnkey@7f6c6563db0d[3846] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/librt.so.1\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c6563db0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/librt.so.1"
+                        }, 
+                        "time": 1642282597.956845
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.956915 ssh-vulnkey@7f6c6563dbd4[3846] read(4, 0x7ffc0de94758, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c6563dbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc0de94758"
+                        }, 
+                        "time": 1642282597.956915
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.956977 ssh-vulnkey@7f6c6563d943[3846] fstat(4, 0x7ffc0de945f0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c6563d943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc0de945f0"
+                        }, 
+                        "time": 1642282597.956977
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.957038 ssh-vulnkey@7f6c6563dd03[3846] mmap2(0x0, 44000, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f6c654d7000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f6c654d7000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c6563dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "44000", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642282597.957038
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.957109 ssh-vulnkey@7f6c6563dd03[3846] mmap2(0x7f6c654da000, 16384, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f6c654da000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f6c654da000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c6563dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f6c654da000", 
+                            "p1": "16384", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642282597.957109
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.957183 ssh-vulnkey@7f6c6563dd03[3846] mmap2(0x7f6c654de000, 8192, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 28672) = 0x7f6c654de000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f6c654de000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c6563dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f6c654de000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "28672"
+                        }, 
+                        "time": 1642282597.957183
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.957253 ssh-vulnkey@7f6c6563dd03[3846] mmap2(0x7f6c654e0000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 32768) = 0x7f6c654e0000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f6c654e0000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c6563dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f6c654e0000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "32768"
+                        }, 
+                        "time": 1642282597.957253
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.957344 ssh-vulnkey@7f6c6563d9f7[3846] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c6563d9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642282597.957344
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.957421 ssh-vulnkey@7f6c6563db0d[3846] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libm.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c6563db0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libm.so.6"
+                        }, 
+                        "time": 1642282597.957421
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.957490 ssh-vulnkey@7f6c6563dbd4[3846] read(4, 0x7ffc0de94738, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c6563dbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc0de94738"
+                        }, 
+                        "time": 1642282597.95749
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.957551 ssh-vulnkey@7f6c6563d943[3846] fstat(4, 0x7ffc0de945d0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c6563d943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc0de945d0"
+                        }, 
+                        "time": 1642282597.957551
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.957703 ssh-vulnkey@7f6c6563dd03[3846] mmap2(0x0, 1364240, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f6c65389000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f6c65389000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c6563dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1364240", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642282597.957703
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.957775 ssh-vulnkey@7f6c6563dd03[3846] mmap2(0x7f6c65398000, 679936, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 61440) = 0x7f6c65398000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f6c65398000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c6563dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f6c65398000", 
+                            "p1": "679936", 
+                            "p4": "4", 
+                            "p5": "61440"
+                        }, 
+                        "time": 1642282597.957775
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.957850 ssh-vulnkey@7f6c6563dd03[3846] mmap2(0x7f6c6543e000, 618496, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 741376) = 0x7f6c6543e000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f6c6543e000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c6563dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f6c6543e000", 
+                            "p1": "618496", 
+                            "p4": "4", 
+                            "p5": "741376"
+                        }, 
+                        "time": 1642282597.95785
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.957918 ssh-vulnkey@7f6c6563dd03[3846] mmap2(0x7f6c654d5000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1355776) = 0x7f6c654d5000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f6c654d5000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c6563dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f6c654d5000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "1355776"
+                        }, 
+                        "time": 1642282597.957918
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.958007 ssh-vulnkey@7f6c6563d9f7[3846] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c6563d9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642282597.958007
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.958160 ssh-vulnkey@7f6c6563db0d[3846] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libgcc_s.so.1\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c6563db0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libgcc_s.so.1"
+                        }, 
+                        "time": 1642282597.95816
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.958236 ssh-vulnkey@7f6c6563dbd4[3846] read(4, 0x7ffc0de94718, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c6563dbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc0de94718"
+                        }, 
+                        "time": 1642282597.958236
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.958299 ssh-vulnkey@7f6c6563d943[3846] fstat(4, 0x7ffc0de945b0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c6563d943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc0de945b0"
+                        }, 
+                        "time": 1642282597.958299
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.958361 ssh-vulnkey@7f6c6563dd03[3846] mmap2(0x0, 103504, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f6c6536f000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f6c6536f000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c6563dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "103504", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642282597.958361
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.958430 ssh-vulnkey@7f6c6563dd03[3846] mmap2(0x7f6c65372000, 69632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f6c65372000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f6c65372000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c6563dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f6c65372000", 
+                            "p1": "69632", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642282597.95843
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.958492 ssh-vulnkey@7f6c6563dd03[3846] mmap2(0x7f6c65383000, 16384, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 81920) = 0x7f6c65383000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f6c65383000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c6563dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f6c65383000", 
+                            "p1": "16384", 
+                            "p4": "4", 
+                            "p5": "81920"
+                        }, 
+                        "time": 1642282597.958492
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.958526 ssh-vulnkey@7f6c6563dd03[3846] mmap2(0x7f6c65387000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 94208) = 0x7f6c65387000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f6c65387000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c6563dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f6c65387000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "94208"
+                        }, 
+                        "time": 1642282597.958526
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.958575 ssh-vulnkey@7f6c6563d9f7[3846] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c6563d9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642282597.958575
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.958617 ssh-vulnkey@7f6c6563db0d[3846] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libpthread.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c6563db0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libpthread.so.0"
+                        }, 
+                        "time": 1642282597.958617
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.958654 ssh-vulnkey@7f6c6563dbd4[3846] read(4, 0x7ffc0de946f8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c6563dbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc0de946f8"
+                        }, 
+                        "time": 1642282597.958654
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.958686 ssh-vulnkey@7f6c6563d943[3846] fstat(4, 0x7ffc0de94590) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c6563d943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc0de94590"
+                        }, 
+                        "time": 1642282597.958686
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.958717 ssh-vulnkey@7f6c6563dd03[3846] mmap2(0x0, 132288, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f6c6534e000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f6c6534e000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c6563dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "132288", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642282597.958717
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.958754 ssh-vulnkey@7f6c6563dd03[3846] mmap2(0x7f6c65355000, 61440, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 28672) = 0x7f6c65355000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f6c65355000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c6563dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f6c65355000", 
+                            "p1": "61440", 
+                            "p4": "4", 
+                            "p5": "28672"
+                        }, 
+                        "time": 1642282597.958754
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.958792 ssh-vulnkey@7f6c6563dd03[3846] mmap2(0x7f6c65364000, 20480, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 90112) = 0x7f6c65364000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f6c65364000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c6563dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f6c65364000", 
+                            "p1": "20480", 
+                            "p4": "4", 
+                            "p5": "90112"
+                        }, 
+                        "time": 1642282597.958792
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.958829 ssh-vulnkey@7f6c6563dd03[3846] mmap2(0x7f6c65369000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 106496) = 0x7f6c65369000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f6c65369000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c6563dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f6c65369000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "106496"
+                        }, 
+                        "time": 1642282597.958829
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.958869 ssh-vulnkey@7f6c6563dd03[3846] mmap2(0x7f6c6536b000, 13504, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f6c6536b000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f6c6536b000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c6563dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f6c6536b000", 
+                            "p1": "13504", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642282597.958869
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.958911 ssh-vulnkey@7f6c6563d9f7[3846] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c6563d9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642282597.958911
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.958952 ssh-vulnkey@7f6c6563db0d[3846] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libc.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c6563db0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libc.so.6"
+                        }, 
+                        "time": 1642282597.958952
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.958989 ssh-vulnkey@7f6c6563dbd4[3846] read(4, 0x7ffc0de946d8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c6563dbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc0de946d8"
+                        }, 
+                        "time": 1642282597.958989
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.959020 ssh-vulnkey@7f6c6563d943[3846] fstat(4, 0x7ffc0de94570) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c6563d943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc0de94570"
+                        }, 
+                        "time": 1642282597.95902
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.959050 ssh-vulnkey@7f6c6563dd03[3846] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f6c6534c000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f6c6534c000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c6563dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642282597.95905
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.959087 ssh-vulnkey@7f6c6563dd03[3846] mmap2(0x0, 2008696, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f6c65161000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f6c65161000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c6563dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "2008696", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642282597.959087
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.959122 ssh-vulnkey@7f6c6563dd03[3846] mmap2(0x7f6c65186000, 1519616, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 151552) = 0x7f6c65186000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f6c65186000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c6563dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f6c65186000", 
+                            "p1": "1519616", 
+                            "p4": "4", 
+                            "p5": "151552"
+                        }, 
+                        "time": 1642282597.959122
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.959164 ssh-vulnkey@7f6c6563dd03[3846] mmap2(0x7f6c652f9000, 299008, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1671168) = 0x7f6c652f9000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f6c652f9000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c6563dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f6c652f9000", 
+                            "p1": "299008", 
+                            "p4": "4", 
+                            "p5": "1671168"
+                        }, 
+                        "time": 1642282597.959164
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.959200 ssh-vulnkey@7f6c6563dd03[3846] mmap2(0x7f6c65342000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1966080) = 0x7f6c65342000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f6c65342000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c6563dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f6c65342000", 
+                            "p1": "24576", 
+                            "p4": "4", 
+                            "p5": "1966080"
+                        }, 
+                        "time": 1642282597.9592
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.959241 ssh-vulnkey@7f6c6563dd03[3846] mmap2(0x7f6c65348000, 13944, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f6c65348000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f6c65348000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c6563dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f6c65348000", 
+                            "p1": "13944", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642282597.959241
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.959285 ssh-vulnkey@7f6c6563d9f7[3846] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c6563d9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642282597.959285
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.959338 ssh-vulnkey@7f6c6563db0d[3846] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libdl.so.2\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c6563db0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libdl.so.2"
+                        }, 
+                        "time": 1642282597.959338
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.959374 ssh-vulnkey@7f6c6563dbd4[3846] read(4, 0x7ffc0de946b8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c6563dbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc0de946b8"
+                        }, 
+                        "time": 1642282597.959374
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.959406 ssh-vulnkey@7f6c6563d943[3846] fstat(4, 0x7ffc0de94550) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c6563d943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc0de94550"
+                        }, 
+                        "time": 1642282597.959406
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.959437 ssh-vulnkey@7f6c6563dd03[3846] mmap2(0x0, 20752, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f6c6515b000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f6c6515b000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c6563dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "20752", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642282597.959437
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.959473 ssh-vulnkey@7f6c6563dd03[3846] mmap2(0x7f6c6515c000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 4096) = 0x7f6c6515c000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f6c6515c000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c6563dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f6c6515c000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "4096"
+                        }, 
+                        "time": 1642282597.959473
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.959513 ssh-vulnkey@7f6c6563dd03[3846] mmap2(0x7f6c6515e000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f6c6515e000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f6c6515e000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c6563dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f6c6515e000", 
+                            "p1": "4096", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642282597.959513
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.959549 ssh-vulnkey@7f6c6563dd03[3846] mmap2(0x7f6c6515f000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f6c6515f000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f6c6515f000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c6563dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f6c6515f000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642282597.959549
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.959595 ssh-vulnkey@7f6c6563d9f7[3846] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c6563d9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642282597.959595
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.959638 ssh-vulnkey@7f6c6563db0d[3846] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libpcre.so.3\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c6563db0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libpcre.so.3"
+                        }, 
+                        "time": 1642282597.959638
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.959674 ssh-vulnkey@7f6c6563dbd4[3846] read(4, 0x7ffc0de94698, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c6563dbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc0de94698"
+                        }, 
+                        "time": 1642282597.959674
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.959706 ssh-vulnkey@7f6c6563d943[3846] fstat(4, 0x7ffc0de94530) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c6563d943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc0de94530"
+                        }, 
+                        "time": 1642282597.959706
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.959737 ssh-vulnkey@7f6c6563dd03[3846] mmap2(0x0, 471304, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f6c650e7000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f6c650e7000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c6563dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "471304", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642282597.959737
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.959773 ssh-vulnkey@7f6c6563dd03[3846] mmap2(0x7f6c650e9000, 335872, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 8192) = 0x7f6c650e9000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f6c650e9000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c6563dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f6c650e9000", 
+                            "p1": "335872", 
+                            "p4": "4", 
+                            "p5": "8192"
+                        }, 
+                        "time": 1642282597.959773
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.959814 ssh-vulnkey@7f6c6563dd03[3846] mmap2(0x7f6c6513b000, 122880, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 344064) = 0x7f6c6513b000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f6c6513b000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c6563dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f6c6513b000", 
+                            "p1": "122880", 
+                            "p4": "4", 
+                            "p5": "344064"
+                        }, 
+                        "time": 1642282597.959814
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.959850 ssh-vulnkey@7f6c6563dd03[3846] mmap2(0x7f6c65159000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 462848) = 0x7f6c65159000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f6c65159000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c6563dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f6c65159000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "462848"
+                        }, 
+                        "time": 1642282597.95985
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.959910 ssh-vulnkey@7f6c6563d9f7[3846] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c6563d9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642282597.95991
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.960888 ssh-vulnkey@7f6c6563dd03[3846] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f6c650e5000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f6c650e5000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c6563dd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642282597.960888
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.960945 ssh-vulnkey@7f6c65622f30[3846] arch_prctl(ARCH_SET_FS, 140103528636736) = 0\n", 
+                        "api": "arch_prctl", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c65622f30", 
+                        "arguments": {
+                            "p0": "ARCH_SET_FS", 
+                            "p1": "140103528636736"
+                        }, 
+                        "time": 1642282597.960945
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.961836 ssh-vulnkey@7f6c6563ddb7[3846] mprotect(0x7f6c65342000, 12288, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c6563ddb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f6c65342000", 
+                            "p1": "12288"
+                        }, 
+                        "time": 1642282597.961836
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.961895 ssh-vulnkey@7f6c6563ddb7[3846] mprotect(0x7f6c65369000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c6563ddb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f6c65369000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642282597.961895
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.961961 ssh-vulnkey@7f6c6563ddb7[3846] mprotect(0x7f6c65159000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c6563ddb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f6c65159000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642282597.961961
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.962005 ssh-vulnkey@7f6c6563ddb7[3846] mprotect(0x7f6c6515f000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c6563ddb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f6c6515f000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642282597.962005
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.962057 ssh-vulnkey@7f6c6563ddb7[3846] mprotect(0x7f6c65387000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c6563ddb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f6c65387000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642282597.962057
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.962125 ssh-vulnkey@7f6c6563ddb7[3846] mprotect(0x7f6c654d5000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c6563ddb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f6c654d5000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642282597.962125
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.962170 ssh-vulnkey@7f6c6563ddb7[3846] mprotect(0x7f6c654e0000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c6563ddb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f6c654e0000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642282597.96217
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.962440 ssh-vulnkey@7f6c6563ddb7[3846] mprotect(0x7f6c65600000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c6563ddb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f6c65600000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642282597.96244
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.962503 ssh-vulnkey@7f6c6563ddb7[3846] mprotect(0x7f6c65607000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c6563ddb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f6c65607000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642282597.962503
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.966895 ssh-vulnkey@7f6c6563ddb7[3846] mprotect(0x55fcc8a05000, 303104, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c6563ddb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x55fcc8a05000", 
+                            "p1": "303104"
+                        }, 
+                        "time": 1642282597.966895
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.966951 ssh-vulnkey@7f6c6563ddb7[3846] mprotect(0x7f6c6564b000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c6563ddb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f6c6564b000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642282597.966951
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.967000 ssh-vulnkey@7f6c6563dd97[3846] munmap(0x7f6c6560b000, 88858) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c6563dd97", 
+                        "arguments": {
+                            "p0": "0x7f6c6560b000", 
+                            "p1": "88858"
+                        }, 
+                        "time": 1642282597.967
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.967073 ssh-vulnkey@7f6c653558df[3846] set_tid_address(0x7f6c650e6410) = 3846\n", 
+                        "api": "set_tid_address", 
+                        "return_value": "3846", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c653558df", 
+                        "arguments": {
+                            "p0": "0x7f6c650e6410"
+                        }, 
+                        "time": 1642282597.967073
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.967107 ssh-vulnkey@7f6c6535594a[3846] set_robust_list(0x7f6c650e6420, 24) = 0\n", 
+                        "api": "set_robust_list", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c6535594a", 
+                        "arguments": {
+                            "p0": "0x7f6c650e6420", 
+                            "p1": "24"
+                        }, 
+                        "time": 1642282597.967107
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.967154 ssh-vulnkey@7f6c65362010[3846] rt_sigaction(0x20, {0x7f6c653556c0, SA_SIGINFO|SA_RESTORER, 0x7f6c65361f40, [EMPTY]}, 0x0, 8) = 0\n", 
+                        "api": "rt_sigaction", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c65362010", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "0x20", 
+                            "p1": [
+                                "0x7f6c653556c0", 
+                                "SA_SIGINFO|SA_RESTORER", 
+                                "0x7f6c65361f40", 
+                                [
+                                    "EMPTY]"
+                                ]
+                            ]
+                        }, 
+                        "time": 1642282597.967154
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.967189 ssh-vulnkey@7f6c65362010[3846] rt_sigaction(0x21, {0x7f6c65355760, SA_RESTART|SA_SIGINFO|SA_RESTORER, 0x7f6c65361f40, [EMPTY]}, 0x0, 8) = 0\n", 
+                        "api": "rt_sigaction", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c65362010", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "0x21", 
+                            "p1": [
+                                "0x7f6c65355760", 
+                                "SA_RESTART|SA_SIGINFO|SA_RESTORER", 
+                                "0x7f6c65361f40", 
+                                [
+                                    "EMPTY]"
+                                ]
+                            ]
+                        }, 
+                        "time": 1642282597.967189
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.967222 ssh-vulnkey@7f6c65355a19[3846] rt_sigprocmask(SIG_UNBLOCK, [EMPTY], 0x0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c65355a19", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "SIG_UNBLOCK", 
+                            "p1": [
+                                "EMPTY"
+                            ]
+                        }, 
+                        "time": 1642282597.967222
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.967268 ssh-vulnkey@7f6c65273df0[3846] prlimit64(0, RLIMIT_STACK, NULL, 0x7ffc0de95370) = 0\n", 
+                        "api": "prlimit64", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c65273df0", 
+                        "arguments": {
+                            "p2": "NULL", 
+                            "p3": "0x7ffc0de95370", 
+                            "p0": "0", 
+                            "p1": "RLIMIT_STACK"
+                        }, 
+                        "time": 1642282597.967268
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.967473 ssh-vulnkey@7f6c652742f7[3846] brk(0x0) = 94544244719616\n", 
+                        "api": "brk", 
+                        "return_value": "94544244719616", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c652742f7", 
+                        "arguments": {
+                            "p0": "0x0"
+                        }, 
+                        "time": 1642282597.967473
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.967506 ssh-vulnkey@7f6c652742f7[3846] brk(0x55fccc215000) = 94544244854784\n", 
+                        "api": "brk", 
+                        "return_value": "94544244854784", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c652742f7", 
+                        "arguments": {
+                            "p0": "0x55fccc215000"
+                        }, 
+                        "time": 1642282597.967506
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.969100 ssh-vulnkey@7f6c6535eb86[3846] rt_sigprocmask(SIG_SETMASK, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS], 0x7ffc0de952c0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c6535eb86", 
+                        "arguments": {
+                            "p2": "0x7ffc0de952c0", 
+                            "p3": "8", 
+                            "p0": "SIG_SETMASK", 
+                            "p1": [
+                                "SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS"
+                            ]
+                        }, 
+                        "time": 1642282597.9691
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.970180 ssh-vulnkey@7f6c652784c3[3846] mmap2(0x0, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f6c648e4000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f6c648e4000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c652784c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK", 
+                            "p0": "0x0", 
+                            "p1": "8392704", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642282597.97018
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.970262 ssh-vulnkey@7f6c65278597[3846] mprotect(0x7f6c648e5000, 8388608, PROT_READ|PROT_WRITE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c65278597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p0": "0x7f6c648e5000", 
+                            "p1": "8388608"
+                        }, 
+                        "time": 1642282597.970262
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.970375 ssh-vulnkey@7f6c6527eb11[3846] clone(CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, 0x7f6c650e3f70, 0x7f6c650e49d0, 0x7f6c650e49d0) = 3847\n", 
+                        "api": "clone", 
+                        "return_value": "3847", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c6527eb11", 
+                        "arguments": {
+                            "p2": "0x7f6c650e49d0", 
+                            "p3": "0x7f6c650e49d0", 
+                            "p0": "CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID", 
+                            "p1": "0x7f6c650e3f70"
+                        }, 
+                        "time": 1642282597.970375
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.970549 ssh-vulnkey@7f6c6535eb86[3846] rt_sigprocmask(SIG_SETMASK, [EMPTY], 0x0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c6535eb86", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "SIG_SETMASK", 
+                            "p1": [
+                                "EMPTY"
+                            ]
+                        }, 
+                        "time": 1642282597.970549
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.973529 ssh-vulnkey@7f6c65273df0[3846] prlimit64(0, RLIMIT_STACK, NULL, 0x7ffc0de94e80) = 0\n", 
+                        "api": "prlimit64", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c65273df0", 
+                        "arguments": {
+                            "p2": "NULL", 
+                            "p3": "0x7ffc0de94e80", 
+                            "p0": "0", 
+                            "p1": "RLIMIT_STACK"
+                        }, 
+                        "time": 1642282597.973529
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.973738 ssh-vulnkey@7f6c652735c1[3846] openat(AT_FDCWD, \"/etc/qemu-binfmt/sparc\", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -2 (ENOENT)\n", 
+                        "api": "openat", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c652735c1", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/etc/qemu-binfmt/sparc"
+                        }, 
+                        "time": 1642282597.973738
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.973864 ssh-vulnkey@7f6c65242247[3846] uname(0x7ffc0de94af0) = 0\n", 
+                        "api": "uname", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c65242247", 
+                        "arguments": {
+                            "p0": "0x7ffc0de94af0"
+                        }, 
+                        "time": 1642282597.973864
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.973935 ssh-vulnkey@7f6c65361337[3846] lseek(3, 0, SEEK_SET) = 0\n", 
+                        "api": "lseek", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c65361337", 
+                        "arguments": {
+                            "p2": "SEEK_SET", 
+                            "p0": "3", 
+                            "p1": "0"
+                        }, 
+                        "time": 1642282597.973935
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.974022 ssh-vulnkey@7f6c65360d94[3846] read(3, 0x7ffc0de94de0, 52) = 52\n", 
+                        "api": "read", 
+                        "return_value": "52", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c65360d94", 
+                        "arguments": {
+                            "p2": "52", 
+                            "p0": "3", 
+                            "p1": "0x7ffc0de94de0"
+                        }, 
+                        "time": 1642282597.974022
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.974093 ssh-vulnkey@7f6c65361337[3846] lseek(3, 0, SEEK_SET) = 0\n", 
+                        "api": "lseek", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c65361337", 
+                        "arguments": {
+                            "p2": "SEEK_SET", 
+                            "p0": "3", 
+                            "p1": "0"
+                        }, 
+                        "time": 1642282597.974093
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.975589 ssh-vulnkey@7f6c652784c3[3846] mmap2(0x0, 528384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f6c64863000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f6c64863000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c652784c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "528384", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642282597.975589
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.976362 ssh-vulnkey@7f6c65278597[3846] mprotect(0x55fcc8a62000, 33550336, PROT_READ|PROT_WRITE|PROT_EXEC) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c65278597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE|PROT_EXEC", 
+                            "p0": "0x55fcc8a62000", 
+                            "p1": "33550336"
+                        }, 
+                        "time": 1642282597.976362
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.976447 ssh-vulnkey@7f6c65278667[3846] madvise(0x55fcc8a62000, 33550336, MADV_HUGEPAGE) = 0\n", 
+                        "api": "madvise", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c65278667", 
+                        "arguments": {
+                            "p2": "MADV_HUGEPAGE", 
+                            "p0": "0x55fcc8a62000", 
+                            "p1": "33550336"
+                        }, 
+                        "time": 1642282597.976447
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.976741 ssh-vulnkey@7f6c652784c3[3846] mmap2(0x0, 4294963200, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f6b60001000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f6b60001000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c652784c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x0", 
+                            "p1": "4294963200", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642282597.976741
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.976831 ssh-vulnkey@7f6c6526dd59[3846] openat(AT_FDCWD, \"/proc/sys/vm/mmap_min_addr\", O_RDONLY) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c6526dd59", 
+                        "arguments": {
+                            "p2": "O_RDONLY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/proc/sys/vm/mmap_min_addr"
+                        }, 
+                        "time": 1642282597.976831
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.976933 ssh-vulnkey@7f6c6526d613[3846] fstat(4, 0x7ffc0de944f0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c6526d613", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc0de944f0"
+                        }, 
+                        "time": 1642282597.976933
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.976998 ssh-vulnkey@7f6c6526dfb4[3846] read(4, 0x55fccc2013d0, 1024) = 6\n", 
+                        "api": "read", 
+                        "return_value": "6", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c6526dfb4", 
+                        "arguments": {
+                            "p2": "1024", 
+                            "p0": "4", 
+                            "p1": "0x55fccc2013d0"
+                        }, 
+                        "time": 1642282597.976998
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.977075 ssh-vulnkey@7f6c652733f7[3846] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c652733f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642282597.977075
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.977158 ssh-vulnkey@7f6c652782e9[3846] gettid() = 3846\n", 
+                        "api": "gettid", 
+                        "return_value": "3846", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c652782e9", 
+                        "arguments": {}, 
+                        "time": 1642282597.977158
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.977217 ssh-vulnkey@7f6c6526d613[3846] fstat(3, 0x7ffc0de94d60) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c6526d613", 
+                        "arguments": {
+                            "p0": "3", 
+                            "p1": "0x7ffc0de94d60"
+                        }, 
+                        "time": 1642282597.977217
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.977276 ssh-vulnkey@7f6c65243717[3846] geteuid() = 0\n", 
+                        "api": "geteuid", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c65243717", 
+                        "arguments": {}, 
+                        "time": 1642282597.977276
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.977334 ssh-vulnkey@7f6c65243737[3846] getegid() = 0\n", 
+                        "api": "getegid", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c65243737", 
+                        "arguments": {}, 
+                        "time": 1642282597.977334
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.977391 ssh-vulnkey@7f6c65360d94[3846] read(3, 0x7ffc0de94f60, 1024) = 1024\n", 
+                        "api": "read", 
+                        "return_value": "1024", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c65360d94", 
+                        "arguments": {
+                            "p2": "1024", 
+                            "p0": "3", 
+                            "p1": "0x7ffc0de94f60"
+                        }, 
+                        "time": 1642282597.977391
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.977464 ssh-vulnkey@7f6c652784c3[3846] mmap2(0x7f6b60011000, 69632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 3, 0) = 0x7f6b60011000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f6b60011000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c652784c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED", 
+                            "p0": "0x7f6b60011000", 
+                            "p1": "69632", 
+                            "p4": "3", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642282597.977464
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.977549 ssh-vulnkey@7f6c652742f7[3846] brk(0x55fccc236000) = 94544244989952\n", 
+                        "api": "brk", 
+                        "return_value": "94544244989952", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c652742f7", 
+                        "arguments": {
+                            "p0": "0x55fccc236000"
+                        }, 
+                        "time": 1642282597.977549
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.977798 ssh-vulnkey@7f6c652784c3[3846] mmap2(0x7f6b60031000, 4096, PROT_READ|PROT_WRITE|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 3, 65536) = 0x7f6b60031000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f6b60031000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c652784c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED", 
+                            "p0": "0x7f6b60031000", 
+                            "p1": "4096", 
+                            "p4": "3", 
+                            "p5": "65536"
+                        }, 
+                        "time": 1642282597.977798
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.977895 ssh-vulnkey@7f6c65360e27[3846] close(3) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c65360e27", 
+                        "arguments": {
+                            "p0": "3"
+                        }, 
+                        "time": 1642282597.977895
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.978071 ssh-vulnkey@7f6c652784c3[3846] mmap2(0x7f6c5f7ff000, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f6c5f7ff000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f6c5f7ff000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c652784c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f6c5f7ff000", 
+                            "p1": "8392704", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642282597.978071
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.978182 ssh-vulnkey@7f6c65278597[3846] mprotect(0x7f6c5f7ff000, 4096, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c65278597", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7f6c5f7ff000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642282597.978182
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.978236 ssh-vulnkey@7f6c6536155e[3846] openat(AT_FDCWD, \"/lib/ld-linux.so.2\", O_RDONLY) = -2 (ENOENT)\n", 
+                        "api": "openat", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c6536155e", 
+                        "arguments": {
+                            "p2": "O_RDONLY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/ld-linux.so.2"
+                        }, 
+                        "time": 1642282597.978236
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.978309 ssh-vulnkey@7f6c6526e057[3846] write(2, \"/lib/ld-linux.so.2: No such file or directory\\n\", 46) = 46\n", 
+                        "api": "write", 
+                        "return_value": "46", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c6526e057", 
+                        "arguments": {
+                            "p2": "46", 
+                            "p0": "2", 
+                            "p1": "/lib/ld-linux.so.2: No such file or directory\n"
+                        }, 
+                        "time": 1642282597.978309
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.978384 ssh-vulnkey@7f6c65242926[3846] exit_group(-1)\n", 
+                        "api": "exit_group", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c65242926", 
+                        "arguments": {
+                            "p0": "-1"
+                        }, 
+                        "time": 1642282597.978384
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3846, 
+                        "raw": "Sat Jan 15 21:36:37 2022.978421 ssh-vulnkey@7f6c65242926[3846] futex(0x7f6c650e6410, FUTEX_WAKE, 1) = 0\n", 
+                        "api": "futex", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c65242926", 
+                        "arguments": {
+                            "p2": "1", 
+                            "p0": "0x7f6c650e6410", 
+                            "p1": "FUTEX_WAKE"
+                        }, 
+                        "time": 1642282597.978421
+                    }
+                ], 
+                "pid": 3846, 
+                "process_name": "ssh-vulnkey", 
+                "command_line": "/tmp/ssh-vulnkey", 
+                "first_seen": 1642282596.952617, 
+                "ppid": -1, 
+                "type": "process"
+            }, 
+            {
+                "calls": [
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3847, 
+                        "raw": "Sat Jan 15 21:36:37 2022.970720 ssh-vulnkey@7f6c65357117[3847] set_robust_list(0x7f6c650e49e0, 24) = 0\n", 
+                        "api": "set_robust_list", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c65357117", 
+                        "arguments": {
+                            "p0": "0x7f6c650e49e0", 
+                            "p1": "24"
+                        }, 
+                        "time": 1642282597.97072
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3847, 
+                        "raw": "Sat Jan 15 21:36:37 2022.970831 ssh-vulnkey@7f6c652784c3[3847] mmap2(0x0, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f6c5c8e4000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f6c5c8e4000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c652784c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x0", 
+                            "p1": "134217728", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642282597.970831
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3847, 
+                        "raw": "Sat Jan 15 21:36:37 2022.970914 ssh-vulnkey@7f6c65278567[3847] munmap(0x7f6c5c8e4000, 57786368) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c65278567", 
+                        "arguments": {
+                            "p0": "0x7f6c5c8e4000", 
+                            "p1": "57786368"
+                        }, 
+                        "time": 1642282597.970914
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3847, 
+                        "raw": "Sat Jan 15 21:36:37 2022.970999 ssh-vulnkey@7f6c65278567[3847] munmap(0x7f6c64000000, 9322496) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c65278567", 
+                        "arguments": {
+                            "p0": "0x7f6c64000000", 
+                            "p1": "9322496"
+                        }, 
+                        "time": 1642282597.970999
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3847, 
+                        "raw": "Sat Jan 15 21:36:37 2022.971061 ssh-vulnkey@7f6c65278597[3847] mprotect(0x7f6c60000000, 135168, PROT_READ|PROT_WRITE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c65278597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p0": "0x7f6c60000000", 
+                            "p1": "135168"
+                        }, 
+                        "time": 1642282597.971061
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "ssh-vulnkey", 
+                        "pid": 3847, 
+                        "raw": "Sat Jan 15 21:36:37 2022.971151 ssh-vulnkey@7f6c65361440[3847] nanosleep([0.010000000], 0x7f6c650e3dc0) = -516\n", 
+                        "api": "nanosleep", 
+                        "return_value": "-516", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6c65361440", 
+                        "arguments": {
+                            "p0": [
+                                "0.010000000"
+                            ], 
+                            "p1": "0x7f6c650e3dc0"
+                        }, 
+                        "time": 1642282597.971151
+                    }
+                ], 
+                "pid": 3847, 
+                "process_name": "ssh-vulnkey", 
+                "command_line": "", 
+                "first_seen": 1642282597.97072, 
+                "ppid": 3846, 
+                "type": "process"
+            }
+        ], 
+        "processtree": [
+            {
+                "track": true, 
+                "pid": 3846, 
+                "process_name": "ssh-vulnkey", 
+                "command_line": "/tmp/ssh-vulnkey", 
+                "first_seen": 1642282596.952617, 
+                "ppid": -1, 
+                "children": [
+                    {
+                        "track": true, 
+                        "pid": 3847, 
+                        "process_name": "ssh-vulnkey", 
+                        "command_line": "", 
+                        "first_seen": 1642282597.97072, 
+                        "ppid": 3846, 
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    }, 
+    "debug": {
+        "action": [], 
+        "dbgview": [], 
+        "errors": [], 
+        "log": [
+            "2022-01-15 21:36:29,019 [root] DEBUG: Starting analyzer from: /tmp/tmprAVzj2\n", 
+            "2022-01-15 21:36:29,020 [root] DEBUG: Storing results at: /tmp/wGpFnQ\n", 
+            "2022-01-15 21:36:31,093 [modules.auxiliary.filecollector] INFO: FileCollector started v0.08\n", 
+            "2022-01-15 21:36:31,096 [modules.auxiliary.human] INFO: Human started v0.02\n", 
+            "2022-01-15 21:36:31,098 [modules.auxiliary.screenshots] INFO: Screenshots started v0.03\n", 
+            "2022-01-15 21:36:36,944 [lib.core.packages] INFO: Process startup took 5.84 seconds\n", 
+            "2022-01-15 21:36:36,945 [root] INFO: Added new process to list with pid: 3839\n", 
+            "2022-01-15 21:36:45,960 [root] INFO: Process with pid 3839 has terminated\n", 
+            "2022-01-15 21:36:45,962 [root] INFO: Process list is empty, terminating analysis.\n", 
+            "2022-01-15 21:36:48,965 [lib.core.packages] INFO: Package requested stop\n", 
+            "2022-01-15 21:36:48,967 [lib.core.packages] WARNING: Exception uploading log: [Errno 3] No such process\n", 
+            "2022-01-15 21:40:23,842 [root] INFO: Terminating remaining processes before shutdown.\n", 
+            "2022-01-15 21:40:23,843 [root] INFO: Analysis completed.\n"
+        ], 
+        "cuckoo": [
+            "2022-01-16 09:23:15,233 [cuckoo.core.scheduler] DEBUG: Task #2651748: no machine available yet\n", 
+            "2022-01-16 09:23:25,258 [cuckoo.core.scheduler] DEBUG: Task #2651748: no machine available yet\n", 
+            "2022-01-16 09:23:35,287 [cuckoo.core.scheduler] DEBUG: Task #2651748: no machine available yet\n", 
+            "2022-01-16 09:23:45,309 [cuckoo.core.scheduler] DEBUG: Task #2651748: no machine available yet\n", 
+            "2022-01-16 09:23:55,338 [cuckoo.core.scheduler] DEBUG: Task #2651748: no machine available yet\n", 
+            "2022-01-16 09:24:05,363 [cuckoo.core.scheduler] DEBUG: Task #2651748: no machine available yet\n", 
+            "2022-01-16 09:24:15,386 [cuckoo.core.scheduler] DEBUG: Task #2651748: no machine available yet\n", 
+            "2022-01-16 09:24:25,414 [cuckoo.core.scheduler] DEBUG: Task #2651748: no machine available yet\n", 
+            "2022-01-16 09:24:35,437 [cuckoo.core.scheduler] DEBUG: Task #2651748: no machine available yet\n", 
+            "2022-01-16 09:24:45,459 [cuckoo.core.scheduler] DEBUG: Task #2651748: no machine available yet\n", 
+            "2022-01-16 09:24:55,484 [cuckoo.core.scheduler] INFO: Task #2651748: acquired machine Ubuntu1904x644 (label=Ubuntu1904x644)\n", 
+            "2022-01-16 09:24:55,485 [cuckoo.core.resultserver] DEBUG: Now tracking machine 192.168.168.104 for task #2651748\n", 
+            "2022-01-16 09:24:55,652 [cuckoo.auxiliary.sniffer] INFO: Started sniffer with PID 784552 (interface=vboxnet0, host=192.168.168.104)\n", 
+            "2022-01-16 09:24:55,797 [cuckoo.machinery.virtualbox] DEBUG: Starting vm Ubuntu1904x644\n", 
+            "2022-01-16 09:24:56,176 [cuckoo.machinery.virtualbox] DEBUG: Restoring virtual machine Ubuntu1904x644 to Snapshot\n", 
+            "2022-01-16 09:25:07,075 [cuckoo.core.guest] INFO: Starting analysis #2651748 on guest (id=Ubuntu1904x644, ip=192.168.168.104)\n", 
+            "2022-01-16 09:25:08,079 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: not ready yet\n", 
+            "2022-01-16 09:25:13,095 [cuckoo.core.guest] INFO: Guest is running Cuckoo Agent 0.10 (id=Ubuntu1904x644, ip=192.168.168.104)\n", 
+            "2022-01-16 09:25:13,107 [cuckoo.core.guest] DEBUG: Uploading analyzer to guest (id=Ubuntu1904x644, ip=192.168.168.104, monitor=latest, size=72028)\n", 
+            "2022-01-16 09:25:13,247 [cuckoo.core.resultserver] DEBUG: Task #2651748: live log analysis.log initialized.\n", 
+            "2022-01-16 09:25:23,515 [cuckoo.core.resultserver] DEBUG: Task #2651748: File upload for 'shots/0001.jpg'\n", 
+            "2022-01-16 09:25:23,711 [cuckoo.core.resultserver] DEBUG: Task #2651748 uploaded file length: 171579\n", 
+            "2022-01-16 09:25:28,231 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2651748 still processing\n", 
+            "2022-01-16 09:25:33,224 [cuckoo.core.resultserver] DEBUG: Task #2651748: File upload for 'logs/all.stap'\n", 
+            "2022-01-16 09:25:33,325 [cuckoo.core.resultserver] DEBUG: Task #2651748 uploaded file length: 19281\n", 
+            "2022-01-16 09:25:43,449 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2651748 still processing\n", 
+            "2022-01-16 09:25:58,540 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2651748 still processing\n", 
+            "2022-01-16 09:26:13,624 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2651748 still processing\n", 
+            "2022-01-16 09:26:28,696 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2651748 still processing\n", 
+            "2022-01-16 09:26:43,766 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2651748 still processing\n", 
+            "2022-01-16 09:26:58,834 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2651748 still processing\n", 
+            "2022-01-16 09:27:14,108 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2651748 still processing\n", 
+            "2022-01-16 09:27:29,263 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2651748 still processing\n", 
+            "2022-01-16 09:27:44,335 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2651748 still processing\n", 
+            "2022-01-16 09:27:59,415 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2651748 still processing\n", 
+            "2022-01-16 09:28:14,484 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2651748 still processing\n", 
+            "2022-01-16 09:28:29,560 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2651748 still processing\n", 
+            "2022-01-16 09:28:44,638 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2651748 still processing\n", 
+            "2022-01-16 09:28:59,751 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2651748 still processing\n", 
+            "2022-01-16 09:29:08,883 [cuckoo.core.guest] INFO: Ubuntu1904x644: analysis completed successfully\n", 
+            "2022-01-16 09:29:08,897 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Redsocks\n", 
+            "2022-01-16 09:29:08,992 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Sniffer\n", 
+            "2022-01-16 09:29:22,812 [cuckoo.machinery.virtualbox] INFO: Successfully generated memory dump for virtual machine with label Ubuntu1904x644 to path /srv/cuckoo/cwd/storage/analyses/2651748/memory.dmp\n", 
+            "2022-01-16 09:29:22,814 [cuckoo.machinery.virtualbox] DEBUG: Stopping vm Ubuntu1904x644\n", 
+            "2022-01-16 09:29:26,705 [cuckoo.core.resultserver] DEBUG: Stopped tracking machine 192.168.168.104 for task #2651748\n", 
+            "2022-01-16 09:29:26,848 [cuckoo.core.scheduler] DEBUG: Released database task #2651748\n", 
+            "2022-01-16 09:29:27,008 [cuckoo.core.scheduler] INFO: Task #2651748: analysis procedure completed\n"
+        ]
+    }, 
+    "strings": [
+        "/lib/ld-linux.so.2", 
+        "libresolv.so.2", 
+        "__b64_pton", 
+        "__b64_ntop", 
+        "_Jv_RegisterClasses", 
+        "__gmon_start__", 
+        "libcrypto.so.0.9.8", 
+        "EVP_DigestInit", 
+        "EVP_enc_null", 
+        "EVP_CIPHER_CTX_init", 
+        "RSA_generate_key", 
+        "PEM_read_PrivateKey", 
+        "EVP_DigestFinal", 
+        "BN_bin2bn", 
+        "BN_CTX_new", 
+        "BN_value_one", 
+        "EVP_aes_128_cbc", 
+        "BN_bn2bin", 
+        "DSA_do_sign", 
+        "BN_sub", 
+        "OBJ_nid2sn", 
+        "PEM_write_DSAPrivateKey", 
+        "AES_set_encrypt_key", 
+        "EVP_md5", 
+        "EVP_rc4", 
+        "OPENSSL_add_all_algorithms_noconf", 
+        "DSA_generate_key", 
+        "RC4_set_key", 
+        "RSA_sign", 
+        "EVP_aes_192_cbc", 
+        "RSA_public_decrypt", 
+        "EVP_aes_256_cbc", 
+        "BN_num_bits", 
+        "DSA_new", 
+        "EVP_sha1", 
+        "DSA_free", 
+        "RSA_private_decrypt", 
+        "EVP_CipherInit", 
+        "RSA_new", 
+        "CRYPTO_free", 
+        "BN_div", 
+        "BN_bn2dec", 
+        "DSA_do_verify", 
+        "EVP_PKEY_get1_DSA", 
+        "MD5_Init", 
+        "EVP_CIPHER_CTX_cleanup", 
+        "RAND_status", 
+        "BN_dec2bn", 
+        "RSA_public_encrypt", 
+        "ERR_error_string", 
+        "MD5_Final", 
+        "EVP_DigestUpdate", 
+        "PEM_write_RSAPrivateKey", 
+        "RAND_bytes", 
+        "BN_CTX_free", 
+        "RSA_blinding_on", 
+        "EVP_cast5_cbc", 
+        "EVP_des_cbc", 
+        "AES_encrypt", 
+        "DSA_SIG_new", 
+        "RSA_free", 
+        "DSA_SIG_free", 
+        "ERR_get_error", 
+        "BN_copy", 
+        "DSA_generate_parameters", 
+        "BN_dup", 
+        "EVP_CIPHER_CTX_set_key_length", 
+        "EVP_des_ede3_cbc", 
+        "EVP_PKEY_get1_RSA", 
+        "BN_clear_free", 
+        "RSA_size", 
+        "BN_new", 
+        "EVP_PKEY_free", 
+        "MD5_Update", 
+        "BN_cmp", 
+        "EVP_bf_cbc", 
+        "EVP_get_digestbyname", 
+        "libutil.so.1", 
+        "libz.so.1", 
+        "libnsl.so.1", 
+        "libcrypt.so.1", 
+        "libgssapi_krb5.so.2", 
+        "libkrb5.so.3", 
+        "libk5crypto.so.3", 
+        "libcom_err.so.2", 
+        "libkrb5support.so.0", 
+        "libc.so.6", 
+        "sigemptyset", 
+        "strerror", 
+        "fdopen", 
+        "memmove", 
+        "__strtol_internal", 
+        "__strtoll_internal", 
+        "memcpy", 
+        "perror", 
+        "__cxa_finalize", 
+        "getuid", 
+        "malloc", 
+        "vsnprintf", 
+        "__ctype_tolower_loc", 
+        "fprintf", 
+        "setsockopt", 
+        "memchr", 
+        "__progname", 
+        "openlog", 
+        "closelog", 
+        "strncmp", 
+        "unlink", 
+        "strcasecmp", 
+        "realloc", 
+        "memcmp", 
+        "sigaction", 
+        "__xstat64", 
+        "memset", 
+        "syslog", 
+        "strcmp", 
+        "getpwuid", 
+        "getpwnam", 
+        "fclose", 
+        "stderr", 
+        "__strsep_g", 
+        "__ctype_b_loc", 
+        "getsockopt", 
+        "fwrite", 
+        "__errno_location", 
+        "_IO_stdin_used", 
+        "getpwent", 
+        "strspn", 
+        "__libc_start_main", 
+        "strlen", 
+        "lseek64", 
+        "strchr", 
+        "vasprintf", 
+        "setlogin", 
+        "__fxstat64", 
+        "strpbrk", 
+        "fopen64", 
+        "program_invocation_short_name", 
+        "_edata", 
+        "__bss_start", 
+        "GLIBC_2.1.3", 
+        "GLIBC_2.1.1", 
+        "GLIBC_2.2", 
+        "GLIBC_2.3", 
+        "GLIBC_2.1", 
+        "GLIBC_2.0", 
+        "OPENSSL_0.9.8", 
+        "%s: %u %s %s", 
+        "Unknown (no blacklist information)", 
+        "COMPROMISED", 
+        "Not blacklisted", 
+        ".ssh/id_rsa", 
+        "/etc/ssh/ssh_host_rsa_key", 
+        "usage: %s [-aq] [file ...]", 
+        "Options:", 
+        "  -a          Check keys of all users.", 
+        "  -q          Quiet mode.", 
+        "No user found with uid %u", 
+        ".ssh/id_dsa", 
+        ".ssh/identity", 
+        ".ssh/authorized_keys", 
+        ".ssh/authorized_keys2", 
+        "/etc/ssh/ssh_host_dsa_key", 
+        "/etc/ssh/ssh_host_key", 
+        "Bad passphrase supplied for key file %.200s.", 
+        "key_load_private_rsa1: RSA_blinding_on failed", 
+        "%s.%s-%u", 
+        "/etc/ssh/blacklist", 
+        "Checking blacklist file %s", 
+        "Found %s in blacklist", 
+        "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@", 
+        "@         WARNING: UNPROTECTED PRIVATE KEY FILE!          @", 
+        "Permissions 0%3.3o for '%s' are too open.", 
+        "It is recommended that your private key files are NOT accessible by others.", 
+        "This private key will be ignored.", 
+        "fstat for key file %.200s failed: %.100s", 
+        "key file %.200s too large", 
+        "Read from key file %.200s failed: %.100s", 
+        "Not a RSA1 key file %.200s.", 
+        "Unsupported cipher %d used in key file %.200s.", 
+        "fdopen failed: %s", 
+        "PEM_read_PrivateKey failed", 
+        "<unknown>", 
+        "key_load_private_pem: RSA_blinding_on failed", 
+        "dsa w/o comment", 
+        "PEM_read_PrivateKey: mismatch or unknown EVP_PKEY save_type %d", 
+        "read PEM private key done: type %s", 
+        "rsa w/o comment", 
+        "bad permissions: ignore key: %s", 
+        "save_private_key_rsa: bad cipher", 
+        "open %s failed: %s.", 
+        "write to key file %s failed: %s", 
+        "passphrase too short: have %d bytes, need > 4", 
+        "fdopen %s failed: %s.", 
+        "key_save_private: cannot save key type %d", 
+        "SSH PRIVATE KEY FILE FORMAT 1.1", 
+        "buffer_get_int: buffer error", 
+        "buffer_get_short: buffer error", 
+        "buffer_get_char_ret: buffer_get_ret failed", 
+        "buffer_get_char: buffer error", 
+        "buffer_put_cstring: s == NULL", 
+        "buffer_get_string_ret: bad string length %u", 
+        "buffer_get_string_ret: buffer_get failed", 
+        "buffer_get_string: buffer error", 
+        "buffer_get_bignum2_ret: invalid bignum", 
+        "buffer_get_bignum2_ret: negative numbers not supported", 
+        "buffer_get_bignum2_ret: cannot handle BN of size %d", 
+        "buffer_get_bignum2: buffer error", 
+        "buffer_put_bignum2_ret: negative numbers not supported", 
+        "buffer_put_bignum2_ret: BN too small", 
+        "buffer_put_bignum2_ret: BN_bn2bin() failed: oi %d != bin_size %d", 
+        "buffer_put_bignum2: buffer error", 
+        "buffer_put_bignum_ret: BN_bn2bin() failed: oi %d != bin_size %d", 
+        "buffer_put_bignum: buffer error", 
+        "buffer_get_bignum_ret: invalid length", 
+        "buffer_get_bignum_ret: cannot handle BN of size %d", 
+        "buffer_get_bignum_ret: input buffer too small", 
+        "buffer_get_bignum_ret: buffer_consume failed", 
+        "buffer_get_bignum: buffer error", 
+        "buffer_consume_end: trying to get more bytes than in buffer", 
+        "buffer_consume_ret: trying to get more bytes than in buffer", 
+        "buffer_consume: buffer error", 
+        "buffer_get_ret: trying to get more bytes %d than in buffer %d", 
+        "buffer_get: buffer error", 
+        "buffer_append_space: len %u not supported", 
+        "buffer_append_space: alloc %u not supported", 
+        "bad cipher %s [%s]", 
+        "cipher ok: %s [%s]", 
+        "ciphers ok: [%s]", 
+        "%s: bad cipher %d", 
+        "%s: wrong iv length %d != %d", 
+        "cipher_encrypt: bad plaintext length %d", 
+        "evp_crypt: EVP_Cipher failed", 
+        "cipher_cleanup: EVP_CIPHER_CTX_cleanup failed", 
+        "Warning: use of DES is strongly discouraged due to cryptographic weaknesses", 
+        "cipher_init: key length %d is insufficient for %s.", 
+        "cipher_init: iv length %d is insufficient for %s.", 
+        "cipher_init: EVP_CipherInit failed for %s", 
+        "cipher_init: set keylen (%d -> %d)", 
+        "cipher_init: set keylen failed (%d -> %d)", 
+        "cipher_init: EVP_CipherInit: set key failed for %s", 
+        "evp_crypt: EVP_Cipher failed during discard", 
+        "blowfish", 
+        "3des-cbc", 
+        "blowfish-cbc", 
+        "cast128-cbc", 
+        "arcfour", 
+        "arcfour128", 
+        "arcfour256", 
+        "aes128-cbc", 
+        "aes192-cbc", 
+        "aes256-cbc", 
+        "rijndael-cbc@lysator.liu.se", 
+        "aes128-ctr", 
+        "aes192-ctr", 
+        "aes256-ctr", 
+        "acss@openssh.org", 
+        "cipher_set_keyiv", 
+        "cipher_get_keyiv", 
+        "ssh_aes_ctr_iv: no context", 
+        "ssh1_3des_cbc: no context", 
+        "%s: bad 3des iv length: %d", 
+        "%s: no 3des context", 
+        "%s: Installed 3DES IV", 
+        "%s: Copying 3DES IV", 
+        "ssh1_3des_iv", 
+        "debug1", 
+        "debug2", 
+        "internal error", 
+        "%s: %s", 
+        "%.500s", 
+        "debug3", 
+        "Unrecognized internal syslog level code %d", 
+        "Unrecognized internal syslog facility code %d", 
+        "SILENT", 
+        "VERBOSE", 
+        "DEBUG1", 
+        "DEBUG2", 
+        "DEBUG3", 
+        "DAEMON", 
+        "AUTHPRIV", 
+        "LOCAL0", 
+        "LOCAL1", 
+        "LOCAL2", 
+        "LOCAL3", 
+        "LOCAL4", 
+        "LOCAL5", 
+        "LOCAL6", 
+        "LOCAL7", 
+        "rsa_generate_additional_parameters: BN_new failed", 
+        "rsa_generate_additional_parameters: BN_CTX_new failed", 
+        "rsa_private_decrypt() failed", 
+        "rsa_public_encrypt() exponent too small or not odd", 
+        "rsa_public_encrypt() failed", 
+        "xfree: NULL pointer given as argument", 
+        "xmalloc: zero size", 
+        "xmalloc: out of memory (allocating %lu bytes)", 
+        "xrealloc: zero size", 
+        "xrealloc: out of memory (new_size %lu bytes)", 
+        "key names ok: [%s]", 
+        "unknown", 
+        "ssh-dss", 
+        "ssh-unknown", 
+        "ssh-rsa", 
+        "key_demote: RSA_new failed", 
+        "key_demote: BN_dup failed", 
+        "key_demote: DSA_new failed", 
+        "key_free: bad key type %d", 
+        "key_verify: invalid key type %d", 
+        "key_sign: invalid key type %d", 
+        "key_to_blob: key == NULL", 
+        "key_to_blob: unsupported key type %d", 
+        "key_type_from_name: unknown key type '%s'", 
+        "write_bignum: BN_bn2dec() failed", 
+        "key_write: failed for RSA key", 
+        "key_fingerprint_raw: bad digest type %d", 
+        "key_fingerprint_raw: bad key type %d", 
+        "key_fingerprint_raw: blob is null", 
+        "key_fingerprint: null from key_fingerprint_raw()", 
+        "key_fingerprint_ex: bad digest representation %d", 
+        "key_equal: bad key type %d", 
+        "key_new: RSA_new failed", 
+        "key_new: BN_new failed", 
+        "key_new: DSA_new failed", 
+        "key_new: bad key type %d", 
+        "key_from_blob: can't read key type", 
+        "key_from_blob: can't read rsa key", 
+        "key_from_blob: can't read dsa key", 
+        "key_from_blob: cannot handle type %s", 
+        "key_from_blob: remaining bytes in key blob %d", 
+        "key_read: missing whitespace", 
+        "key_read: missing keytype", 
+        "key_read: short string", 
+        "key_read: type mismatch", 
+        "key_read: uudecode %s failed", 
+        "key_read: key_from_blob %s failed", 
+        "key_read: type mismatch: encoding error", 
+        "key_read: bad key type: %d", 
+        "key_from_private: unknown type %d", 
+        "dsa_generate_private_key: DSA_generate_parameters failed", 
+        "dsa_generate_private_key: DSA_generate_key failed.", 
+        "rsa_generate_private_key: key generation failed.", 
+        "key_generate: unknown type %d", 
+        "key_new_private: BN_new failed", 
+        "bcdfghklmnprstvzx", 
+        "/dev/null", 
+        "Couldn't open /dev/null: %s", 
+        "dup2: %s", 
+        "%s: %s line %lu exceeds size limit", 
+        "percent_expand: NULL replacement", 
+        "percent_expand: string too long", 
+        "percent_expand: too many keys", 
+        "percent_expand: unknown key %%%c", 
+        "tilde_expand_filename: ~username too long", 
+        "tilde_expand_filename: No such user %s", 
+        "tilde_expand_filename: No such uid %d", 
+        "tilde_expand_filename: Path too long", 
+        "replacearg: argument too long", 
+        "replacearg: tried to replace invalid arg %d >= %d", 
+        "addargs: argument too long", 
+        "getsockopt TCP_NODELAY: %.100s", 
+        "fd %d is TCP_NODELAY", 
+        "fd %d setting TCP_NODELAY", 
+        "setsockopt TCP_NODELAY: %.100s", 
+        "fcntl(%d, F_GETFL, 0): %s", 
+        "fd %d is not O_NONBLOCK", 
+        "fd %d clearing O_NONBLOCK", 
+        "fcntl(%d, F_SETFL, ~O_NONBLOCK): %s", 
+        "fd %d is O_NONBLOCK", 
+        "fd %d setting O_NONBLOCK", 
+        "fcntl(%d, F_SETFL, O_NONBLOCK): %s", 
+        "read_keyfile_line", 
+        "ssh_dss_verify: no DSA key", 
+        "ssh_dss_verify: cannot handle type %s", 
+        "ssh_dss_verify: remaining bytes in signature %d", 
+        "bad sigbloblen %u != SIGBLOB_LEN", 
+        "ssh_dss_verify: DSA_SIG_new failed", 
+        "ssh_dss_verify: BN_new failed", 
+        "correct", 
+        "incorrect", 
+        "ssh_dss_verify: signature %s", 
+        "ssh_dss_sign: no DSA key", 
+        "ssh_dss_sign: sign failed", 
+        "bad sig size %u %u", 
+        "ssh_rsa_verify: signature %scorrect", 
+        "ssh_rsa_verify: no RSA key", 
+        "ssh_rsa_verify: RSA modulus too small: %d < minimum %d bits", 
+        "ssh_rsa_verify: cannot handle type %s", 
+        "ssh_rsa_verify: remaining bytes in signature %d", 
+        "ssh_rsa_verify: len %u > modlen %u", 
+        "ssh_rsa_verify: add padding: modlen %u > len %u", 
+        "ssh_rsa_verify: EVP_get_digestbynid %d failed", 
+        "bad hashlen", 
+        "bad siglen", 
+        "RSA_public_decrypt failed: %s", 
+        "bad decrypted len: %d != %d + %d", 
+        "oid mismatch", 
+        "hash mismatch", 
+        "ssh_rsa_sign: no RSA key", 
+        "ssh_rsa_sign: EVP_get_digestbynid %d failed", 
+        "ssh_rsa_sign: RSA_sign failed: %s", 
+        "slen %u > len %u", 
+        "ssh_rsa_sign: slen %u slen2 %u", 
+        "PRNG is not seeded", 
+        "q91y\u001fYQ", 
+        "3s;&c#kv>~6+n.f{", 
+        "=}5$m-et<|4%l,du", 
+        "7w?\"g'or:z2/j*b", 
+        "9y1 i)ap8x0!h(`q", 
+        "Original cipher proposal: %s", 
+        "Compat cipher proposal: %s", 
+        "No available ciphers found.", 
+        "match: %s pat %s", 
+        "no match: %s", 
+        "Enabling compatibility mode for protocol 1.3", 
+        "Enabling compatibility mode for protocol 2.0", 
+        "ignoring bad proto spec: '%s'.", 
+        "OpenSSH-2.0*,OpenSSH-2.1*,OpenSSH_2.1*,OpenSSH_2.2*", 
+        "OpenSSH_2.3.0*", 
+        "OpenSSH_2.3.*", 
+        "OpenSSH_2.5.0p1*,OpenSSH_2.5.1p1*", 
+        "OpenSSH_2.5.0*,OpenSSH_2.5.1*,OpenSSH_2.5.2*", 
+        "OpenSSH_2.5.3*", 
+        "OpenSSH_2.*,OpenSSH_3.0*,OpenSSH_3.1*", 
+        "OpenSSH_3.*", 
+        "Sun_SSH_1.0*", 
+        "OpenSSH*", 
+        "*MindTerm*", 
+        "2.1.0*", 
+        "2.0.13*,2.0.14*,2.0.15*,2.0.16*,2.0.17*,2.0.18*,2.0.19*", 
+        "2.0.11*,2.0.12*", 
+        "2.2.0*,2.3.0*", 
+        "3.0 SecureCRT*", 
+        "1.7 SecureFX*", 
+        "1.2.18*,1.2.19*,1.2.20*,1.2.21*,1.2.22*", 
+        "1.3.2*", 
+        "*SSH Compatible Server*", 
+        "*OSU_0*,OSU_1.0*,OSU_1.1*,OSU_1.2*,OSU_1.3*,OSU_1.4*,OSU_1.5alpha1*,OSU_1.5alpha2*,OSU_1.5alpha3*", 
+        "*SSH_Version_Mapper*", 
+        "Probe-*", 
+        "Couldn't obtain random bytes (error %ld)", 
+        "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/", 
+        "%s: illegal option -- %c", 
+        "%s: option requires an argument -- %c", 
+        "invalid", 
+        "too small", 
+        "/dev/net/tun", 
+        "%s: failed to open tunnel control interface: %s", 
+        "%s: invalid tunnel id %x: %s", 
+        "%s: failed to configure tunnel (mode %d): %s", 
+        "%s: tunnel mode %d fd %d", 
+        "%s: %s mode %d fd %d", 
+        "sys_tun_open", 
+        ".shstrtab", 
+        ".interp", 
+        ".note.ABI-tag", 
+        ".dynsym", 
+        ".dynstr", 
+        ".gnu.version", 
+        ".gnu.version_r", 
+        ".rela.dyn", 
+        ".rela.plt", 
+        ".rodata", 
+        ".eh_frame_hdr", 
+        ".eh_frame", 
+        ".ctors", 
+        ".dtors", 
+        ".dynamic"
+    ], 
+    "metadata": {
+        "output": {
+            "pcap": {
+                "basename": "dump.pcap", 
+                "sha256": "704e5e5b3234433c01fcfd1b20a306e77e985038120492dc53965c3edd38a4ea", 
+                "dirname": ""
+            }
+        }
+    }
+}
