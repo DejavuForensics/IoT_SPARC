@@ -1,0 +1,3228 @@
+{
+    "info": {
+        "added": 1642282715.914457, 
+        "started": 1642328638.507188, 
+        "duration": 378, 
+        "ended": 1642329017.070621, 
+        "owner": null, 
+        "score": 0.1, 
+        "id": 2651839, 
+        "category": "file", 
+        "git": {
+            "head": "e8f6317b4b3ef806085a1e99e64c6ff01f26948f", 
+            "fetch_head": "e8f6317b4b3ef806085a1e99e64c6ff01f26948f"
+        }, 
+        "monitor": "2deb9ccd75d5a7a3fe05b2625b03a8639d6ee36b", 
+        "package": "elf", 
+        "route": "internet", 
+        "custom": null, 
+        "machine": {
+            "status": "stopped", 
+            "name": "Ubuntu1904x643", 
+            "label": "Ubuntu1904x643", 
+            "platform": "linux", 
+            "manager": "VirtualBox", 
+            "started_on": "2022-01-16 10:25:39", 
+            "shutdown_on": "2022-01-16 10:30:16"
+        }, 
+        "platform": "linux", 
+        "version": "2.0.7", 
+        "options": "procmemdump=yes,route=internet"
+    }, 
+    "signatures": [
+        {
+            "families": [], 
+            "description": "Yara rule detected for file", 
+            "severity": 1, 
+            "ttp": {}, 
+            "markcount": 1, 
+            "references": [], 
+            "marks": [
+                {
+                    "type": "generic", 
+                    "description": "Contains an embedded PE32 file", 
+                    "rule": "embedded_pe"
+                }
+            ], 
+            "name": "file_yara"
+        }
+    ], 
+    "target": {
+        "category": "file", 
+        "file": {
+            "mimetype": "application/x-executable", 
+            "yara": [
+                {
+                    "meta": {
+                        "description": "Contains an embedded PE32 file", 
+                        "author": "nex"
+                    }, 
+                    "name": "embedded_pe", 
+                    "offsets": {
+                        "b": [
+                            [
+                                36208, 
+                                0
+                            ]
+                        ]
+                    }, 
+                    "strings": [
+                        "VGhpcyBwcm9ncmFt"
+                    ]
+                }
+            ], 
+            "sha1": "a049e696e2ebf28cf8d3187d1640c98e080d2fb7", 
+            "name": "udevtest", 
+            "type": "ELF 32-bit MSB executable, SPARC, version 1 (SYSV), dynamically linked, interpreter /lib/ld-linux.so.2, for GNU/Linux 2.4.1, stripped", 
+            "sha256": "eaabaf5f632f44502c7fe0f85bc26431330a2d0d6c8e653353061e4895b350c0", 
+            "urls": [], 
+            "crc32": "11F585E7", 
+            "path": "/srv/cuckoo/cwd/storage/binaries/eaabaf5f632f44502c7fe0f85bc26431330a2d0d6c8e653353061e4895b350c0", 
+            "ssdeep": "768:49ty57iNCgg9MCoB0LPIIyDEGw4841ExUEqRBssl9TE/4tbUzG:487s4XoUZeEGd841Exvvsl9TE2", 
+            "size": 46132, 
+            "sha512": "984633e792f237986662e2464660073c75ab8865fd1669a415755f9ae286038e57b1c32a1f644b61bf76305a8fbbcacbd7b512918a8bf5046df2bff35125fead", 
+            "md5": "0a7a27bbffcf6695db43acac6f7f183a"
+        }, 
+        "custom": null
+    }, 
+    "irma": {
+        "status": 0, 
+        "probes_finished": 16, 
+        "scan_id": "1a002585-2b91-4324-bb7e-2c1cea6246f8", 
+        "parent_file_sha256": null, 
+        "name": "eaabaf5f632f44502c7fe0f85bc26431330a2d0d6c8e653353061e4895b350c0", 
+        "probes_total": 16, 
+        "scan_date": 1642321819, 
+        "other_results": [], 
+        "submitter": "cli", 
+        "file_infos": {
+            "mimetype": "ELF 32-bit MSB executable, SPARC, version 1 (SYSV)", 
+            "sha1": "a049e696e2ebf28cf8d3187d1640c98e080d2fb7", 
+            "tags": [], 
+            "timestamp_first_scan": 1642321818.58, 
+            "timestamp_last_scan": 1642321827.62, 
+            "sha256": "eaabaf5f632f44502c7fe0f85bc26431330a2d0d6c8e653353061e4895b350c0", 
+            "md5": "0a7a27bbffcf6695db43acac6f7f183a", 
+            "size": 46132
+        }, 
+        "probe_results": {
+            "antivirus": {
+                "Avast Core Security (Linux)": {
+                    "status": 0, 
+                    "duration": 0.01, 
+                    "version": "3.0.3", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "F-Secure Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 5.7, 
+                    "version": "11.10", 
+                    "results": null, 
+                    "virus_database_version": "2022-01-13_04"
+                }, 
+                "Windows Defender (Windows)": {
+                    "status": 0, 
+                    "duration": 0.06, 
+                    "version": "1.1.18800.4", 
+                    "results": null, 
+                    "virus_database_version": "1.355.1049.0"
+                }, 
+                "Comodo Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 2.13, 
+                    "version": "1.1.268025.1", 
+                    "results": null, 
+                    "virus_database_version": "2021-11-02"
+                }, 
+                "Kaspersky Antivirus (Win)": {
+                    "status": 0, 
+                    "duration": 5.22, 
+                    "version": "21.3", 
+                    "results": null, 
+                    "virus_database_version": "2022-01-16 02:22:00 (full)"
+                }, 
+                "ESET NOD32 Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 4.26, 
+                    "version": "4.0.96", 
+                    "results": null, 
+                    "virus_database_version": "6178ebd0-1e722 (2021-10-27)"
+                }, 
+                "GData (Windows)": {
+                    "status": 0, 
+                    "duration": 0.19, 
+                    "version": "5.5.20197.1358", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Forticlient (Linux)": {
+                    "status": 0, 
+                    "duration": 3.04, 
+                    "version": "unavailable", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Avira (Windows)": {
+                    "status": 0, 
+                    "duration": 3.78, 
+                    "version": "8.3.64.66", 
+                    "results": null, 
+                    "virus_database_version": "8.19.1.122"
+                }, 
+                "eScan Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 3.95, 
+                    "version": "7.0.21", 
+                    "results": null, 
+                    "virus_database_version": "7.90035 (27/10/2021)"
+                }, 
+                "McAfee CLI scanner (Linux)": {
+                    "status": 0, 
+                    "duration": 5.83, 
+                    "version": "6.0.6.653", 
+                    "results": null, 
+                    "virus_database_version": "10149"
+                }, 
+                "Sophos Anti-Virus (Linux)": {
+                    "status": 0, 
+                    "duration": 6.88, 
+                    "version": "5.85.0", 
+                    "results": null, 
+                    "virus_database_version": "5.88 (26 October 2021)"
+                }, 
+                "DrWeb Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.19, 
+                    "version": "11.1.10.2108031732", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "ClamAV (Linux)": {
+                    "status": 0, 
+                    "duration": 0.03, 
+                    "version": "0.103.2", 
+                    "results": null, 
+                    "virus_database_version": "26334"
+                }, 
+                "Bitdefender Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 6.1, 
+                    "version": "7.90123", 
+                    "results": null, 
+                    "virus_database_version": null
+                }, 
+                "Emsisoft Commandline Scanner (Windows)": {
+                    "status": 0, 
+                    "duration": 0.22, 
+                    "version": "2021.10.0.11201", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }
+            }
+        }, 
+        "path": "", 
+        "result_id": "0cdf40c2-917e-4d3a-a768-b4880b1a8b6d", 
+        "file_sha256": "eaabaf5f632f44502c7fe0f85bc26431330a2d0d6c8e653353061e4895b350c0"
+    }, 
+    "suricata": {
+        "tls": [], 
+        "files": [], 
+        "alerts": [], 
+        "http": []
+    }, 
+    "virustotal": {
+        "summary": {
+            "error": "resource has not been scanned yet"
+        }
+    }, 
+    "network": {
+        "tls": [], 
+        "udp": [], 
+        "dns_servers": [], 
+        "http": [], 
+        "icmp": [], 
+        "smtp": [], 
+        "tcp": [], 
+        "smtp_ex": [], 
+        "geoinfo": {}, 
+        "mitm": [], 
+        "hosts": [], 
+        "pcap_sha256": "704e5e5b3234433c01fcfd1b20a306e77e985038120492dc53965c3edd38a4ea", 
+        "dns": [], 
+        "http_ex": [], 
+        "domains": [], 
+        "dead_hosts": [], 
+        "irc": [], 
+        "https_ex": []
+    }, 
+    "resubmit": {
+        "resubmit_ids": []
+    }, 
+    "snort": {
+        "alerts": []
+    }, 
+    "behavior": {
+        "generic": [
+            {
+                "process_path": null, 
+                "process_name": "udevtest", 
+                "pid": 2099, 
+                "summary": {}, 
+                "first_seen": 1642282726.997879, 
+                "ppid": -1
+            }, 
+            {
+                "process_path": null, 
+                "process_name": "udevtest", 
+                "pid": 2100, 
+                "summary": {}, 
+                "first_seen": 1642282727.01745, 
+                "ppid": 2099
+            }
+        ], 
+        "processes": [
+            {
+                "calls": [
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:46 2022.997879 udevtest@7fe50a7b5c27[2099] execve(\"/tmp/udevtest\", [\"/tmp/udevtest\"], [\"SUDO_GID=0\", \"MAIL=/var/mail/root\", \"USER=root\", \"HOME=/root\", \"SUDO_UID=0\", \"LOGNAME=root\", \"SYSTEMTAP_MODULE=stap_\", \"TERM=unknown\", \"SYSTEMTAP_VERBOSE=2\", \"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin\", \"DISPLAY=:0\", \"LANG=en_US.UTF-8\", \"XAUTHORITY=/root/.Xauthority\", \"SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/udevtest\", \"SHELL=/bin/bash\", \"SUDO_USER=root\", \"PWD=/tmp/tmpq6TlX0\"])\n", 
+                        "api": "execve", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a7b5c27", 
+                        "arguments": {
+                            "p2": [
+                                "SUDO_GID=0", 
+                                "MAIL=/var/mail/root", 
+                                "USER=root", 
+                                "HOME=/root", 
+                                "SUDO_UID=0", 
+                                "LOGNAME=root", 
+                                "SYSTEMTAP_MODULE=stap_", 
+                                "TERM=unknown", 
+                                "SYSTEMTAP_VERBOSE=2", 
+                                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin", 
+                                "DISPLAY=:0", 
+                                "LANG=en_US.UTF-8", 
+                                "XAUTHORITY=/root/.Xauthority", 
+                                "SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/udevtest", 
+                                "SHELL=/bin/bash", 
+                                "SUDO_USER=root", 
+                                "PWD=/tmp/tmpq6TlX0"
+                            ], 
+                            "p0": "/tmp/udevtest", 
+                            "p1": [
+                                "/tmp/udevtest"
+                            ]
+                        }, 
+                        "time": 1642282726.997879
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.001405 udevtest@7fe50a7b5c27[2099] brk(0x0) = 94354046988288\n", 
+                        "api": "brk", 
+                        "return_value": "94354046988288", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a7b5c27", 
+                        "arguments": {
+                            "p0": "0x0"
+                        }, 
+                        "time": 1642282727.001405
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.001491 udevtest@7fe50a7b69d7[2099] access(\"/etc/ld.so.preload\", R_OK) = -2 (ENOENT)\n", 
+                        "api": "access", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a7b69d7", 
+                        "arguments": {
+                            "p0": "/etc/ld.so.preload", 
+                            "p1": "R_OK"
+                        }, 
+                        "time": 1642282727.001491
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.002641 udevtest@7fe50a7b6b0d[2099] openat(AT_FDCWD, \"/etc/ld.so.cache\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a7b6b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/etc/ld.so.cache"
+                        }, 
+                        "time": 1642282727.002641
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.002686 udevtest@7fe50a7b6943[2099] fstat(4, 0x7ffdc9e3e5b0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a7b6943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffdc9e3e5b0"
+                        }, 
+                        "time": 1642282727.002686
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.002724 udevtest@7fe50a7b6d03[2099] mmap2(0x0, 88858, PROT_READ, MAP_PRIVATE, 4, 0) = 0x7fe50a784000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fe50a784000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a7b6d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE", 
+                            "p0": "0x0", 
+                            "p1": "88858", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642282727.002724
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.002762 udevtest@7fe50a7b69f7[2099] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a7b69f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642282727.002762
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.002813 udevtest@7fe50a7b6b0d[2099] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a7b6b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0"
+                        }, 
+                        "time": 1642282727.002813
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.002870 udevtest@7fe50a7b6bd4[2099] read(4, 0x7ffdc9e3e768, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a7b6bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffdc9e3e768"
+                        }, 
+                        "time": 1642282727.00287
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.002927 udevtest@7fe50a7b6943[2099] fstat(4, 0x7ffdc9e3e600) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a7b6943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffdc9e3e600"
+                        }, 
+                        "time": 1642282727.002927
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.002978 udevtest@7fe50a7b6d03[2099] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fe50a782000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fe50a782000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a7b6d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642282727.002978
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.003040 udevtest@7fe50a7b6d03[2099] mmap2(0x0, 20600, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fe50a77c000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fe50a77c000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a7b6d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "20600", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642282727.00304
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.003147 udevtest@7fe50a7b6d03[2099] mmap2(0x7fe50a77d000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 4096) = 0x7fe50a77d000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fe50a77d000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a7b6d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fe50a77d000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "4096"
+                        }, 
+                        "time": 1642282727.003147
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.003198 udevtest@7fe50a7b6d03[2099] mmap2(0x7fe50a77f000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7fe50a77f000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fe50a77f000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a7b6d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fe50a77f000", 
+                            "p1": "4096", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642282727.003198
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.003239 udevtest@7fe50a7b6d03[2099] mmap2(0x7fe50a780000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7fe50a780000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fe50a780000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a7b6d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fe50a780000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642282727.003239
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.003287 udevtest@7fe50a7b69f7[2099] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a7b69f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642282727.003287
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.003331 udevtest@7fe50a7b6b0d[2099] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a7b6b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0"
+                        }, 
+                        "time": 1642282727.003331
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.003376 udevtest@7fe50a7b6bd4[2099] read(4, 0x7ffdc9e3e748, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a7b6bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffdc9e3e748"
+                        }, 
+                        "time": 1642282727.003376
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.003428 udevtest@7fe50a7b6943[2099] fstat(4, 0x7ffdc9e3e5e0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a7b6943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffdc9e3e5e0"
+                        }, 
+                        "time": 1642282727.003428
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.003493 udevtest@7fe50a7b6d03[2099] mmap2(0x0, 1180072, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fe50a65b000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fe50a65b000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a7b6d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1180072", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642282727.003493
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.003539 udevtest@7fe50a7b6db7[2099] mprotect(0x7fe50a676000, 1060864, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a7b6db7", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7fe50a676000", 
+                            "p1": "1060864"
+                        }, 
+                        "time": 1642282727.003539
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.003592 udevtest@7fe50a7b6d03[2099] mmap2(0x7fe50a676000, 524288, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 110592) = 0x7fe50a676000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fe50a676000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a7b6d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fe50a676000", 
+                            "p1": "524288", 
+                            "p4": "4", 
+                            "p5": "110592"
+                        }, 
+                        "time": 1642282727.003592
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.003729 udevtest@7fe50a7b6d03[2099] mmap2(0x7fe50a6f6000, 532480, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 634880) = 0x7fe50a6f6000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fe50a6f6000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a7b6d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fe50a6f6000", 
+                            "p1": "532480", 
+                            "p4": "4", 
+                            "p5": "634880"
+                        }, 
+                        "time": 1642282727.003729
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.003768 udevtest@7fe50a7b6d03[2099] mmap2(0x7fe50a779000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1167360) = 0x7fe50a779000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fe50a779000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a7b6d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fe50a779000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "1167360"
+                        }, 
+                        "time": 1642282727.003768
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.003816 udevtest@7fe50a7b6d03[2099] mmap2(0x7fe50a77b000, 424, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fe50a77b000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fe50a77b000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a7b6d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7fe50a77b000", 
+                            "p1": "424", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642282727.003816
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.003851 udevtest@7fe50a7b69f7[2099] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a7b69f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642282727.003851
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.003903 udevtest@7fe50a7b6b0d[2099] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/librt.so.1\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a7b6b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/librt.so.1"
+                        }, 
+                        "time": 1642282727.003903
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.003952 udevtest@7fe50a7b6bd4[2099] read(4, 0x7ffdc9e3e728, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a7b6bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffdc9e3e728"
+                        }, 
+                        "time": 1642282727.003952
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.003994 udevtest@7fe50a7b6943[2099] fstat(4, 0x7ffdc9e3e5c0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a7b6943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffdc9e3e5c0"
+                        }, 
+                        "time": 1642282727.003994
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.004036 udevtest@7fe50a7b6d03[2099] mmap2(0x0, 44000, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fe50a650000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fe50a650000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a7b6d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "44000", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642282727.004036
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.004085 udevtest@7fe50a7b6d03[2099] mmap2(0x7fe50a653000, 16384, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7fe50a653000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fe50a653000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a7b6d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fe50a653000", 
+                            "p1": "16384", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642282727.004085
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.004133 udevtest@7fe50a7b6d03[2099] mmap2(0x7fe50a657000, 8192, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 28672) = 0x7fe50a657000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fe50a657000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a7b6d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fe50a657000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "28672"
+                        }, 
+                        "time": 1642282727.004133
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.004167 udevtest@7fe50a7b6d03[2099] mmap2(0x7fe50a659000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 32768) = 0x7fe50a659000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fe50a659000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a7b6d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fe50a659000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "32768"
+                        }, 
+                        "time": 1642282727.004167
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.004209 udevtest@7fe50a7b69f7[2099] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a7b69f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642282727.004209
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.004247 udevtest@7fe50a7b6b0d[2099] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libm.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a7b6b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libm.so.6"
+                        }, 
+                        "time": 1642282727.004247
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.004280 udevtest@7fe50a7b6bd4[2099] read(4, 0x7ffdc9e3e708, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a7b6bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffdc9e3e708"
+                        }, 
+                        "time": 1642282727.00428
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.004308 udevtest@7fe50a7b6943[2099] fstat(4, 0x7ffdc9e3e5a0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a7b6943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffdc9e3e5a0"
+                        }, 
+                        "time": 1642282727.004308
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.004344 udevtest@7fe50a7b6d03[2099] mmap2(0x0, 1364240, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fe50a502000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fe50a502000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a7b6d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1364240", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642282727.004344
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.004391 udevtest@7fe50a7b6d03[2099] mmap2(0x7fe50a511000, 679936, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 61440) = 0x7fe50a511000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fe50a511000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a7b6d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fe50a511000", 
+                            "p1": "679936", 
+                            "p4": "4", 
+                            "p5": "61440"
+                        }, 
+                        "time": 1642282727.004391
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.004441 udevtest@7fe50a7b6d03[2099] mmap2(0x7fe50a5b7000, 618496, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 741376) = 0x7fe50a5b7000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fe50a5b7000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a7b6d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fe50a5b7000", 
+                            "p1": "618496", 
+                            "p4": "4", 
+                            "p5": "741376"
+                        }, 
+                        "time": 1642282727.004441
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.004482 udevtest@7fe50a7b6d03[2099] mmap2(0x7fe50a64e000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1355776) = 0x7fe50a64e000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fe50a64e000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a7b6d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fe50a64e000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "1355776"
+                        }, 
+                        "time": 1642282727.004482
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.004538 udevtest@7fe50a7b69f7[2099] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a7b69f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642282727.004538
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.004597 udevtest@7fe50a7b6b0d[2099] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libgcc_s.so.1\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a7b6b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libgcc_s.so.1"
+                        }, 
+                        "time": 1642282727.004597
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.004644 udevtest@7fe50a7b6bd4[2099] read(4, 0x7ffdc9e3e6e8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a7b6bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffdc9e3e6e8"
+                        }, 
+                        "time": 1642282727.004644
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.004685 udevtest@7fe50a7b6943[2099] fstat(4, 0x7ffdc9e3e580) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a7b6943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffdc9e3e580"
+                        }, 
+                        "time": 1642282727.004685
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.004727 udevtest@7fe50a7b6d03[2099] mmap2(0x0, 103504, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fe50a4e8000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fe50a4e8000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a7b6d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "103504", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642282727.004727
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.004771 udevtest@7fe50a7b6d03[2099] mmap2(0x7fe50a4eb000, 69632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7fe50a4eb000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fe50a4eb000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a7b6d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fe50a4eb000", 
+                            "p1": "69632", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642282727.004771
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.004808 udevtest@7fe50a7b6d03[2099] mmap2(0x7fe50a4fc000, 16384, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 81920) = 0x7fe50a4fc000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fe50a4fc000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a7b6d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fe50a4fc000", 
+                            "p1": "16384", 
+                            "p4": "4", 
+                            "p5": "81920"
+                        }, 
+                        "time": 1642282727.004808
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.004839 udevtest@7fe50a7b6d03[2099] mmap2(0x7fe50a500000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 94208) = 0x7fe50a500000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fe50a500000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a7b6d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fe50a500000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "94208"
+                        }, 
+                        "time": 1642282727.004839
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.004880 udevtest@7fe50a7b69f7[2099] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a7b69f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642282727.00488
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.004917 udevtest@7fe50a7b6b0d[2099] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libpthread.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a7b6b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libpthread.so.0"
+                        }, 
+                        "time": 1642282727.004917
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.004949 udevtest@7fe50a7b6bd4[2099] read(4, 0x7ffdc9e3e6c8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a7b6bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffdc9e3e6c8"
+                        }, 
+                        "time": 1642282727.004949
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.004978 udevtest@7fe50a7b6943[2099] fstat(4, 0x7ffdc9e3e560) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a7b6943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffdc9e3e560"
+                        }, 
+                        "time": 1642282727.004978
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.005015 udevtest@7fe50a7b6d03[2099] mmap2(0x0, 132288, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fe50a4c7000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fe50a4c7000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a7b6d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "132288", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642282727.005015
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.005063 udevtest@7fe50a7b6d03[2099] mmap2(0x7fe50a4ce000, 61440, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 28672) = 0x7fe50a4ce000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fe50a4ce000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a7b6d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fe50a4ce000", 
+                            "p1": "61440", 
+                            "p4": "4", 
+                            "p5": "28672"
+                        }, 
+                        "time": 1642282727.005063
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.005118 udevtest@7fe50a7b6d03[2099] mmap2(0x7fe50a4dd000, 20480, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 90112) = 0x7fe50a4dd000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fe50a4dd000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a7b6d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fe50a4dd000", 
+                            "p1": "20480", 
+                            "p4": "4", 
+                            "p5": "90112"
+                        }, 
+                        "time": 1642282727.005118
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.005166 udevtest@7fe50a7b6d03[2099] mmap2(0x7fe50a4e2000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 106496) = 0x7fe50a4e2000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fe50a4e2000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a7b6d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fe50a4e2000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "106496"
+                        }, 
+                        "time": 1642282727.005166
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.005222 udevtest@7fe50a7b6d03[2099] mmap2(0x7fe50a4e4000, 13504, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fe50a4e4000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fe50a4e4000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a7b6d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7fe50a4e4000", 
+                            "p1": "13504", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642282727.005222
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.005265 udevtest@7fe50a7b69f7[2099] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a7b69f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642282727.005265
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.005303 udevtest@7fe50a7b6b0d[2099] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libc.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a7b6b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libc.so.6"
+                        }, 
+                        "time": 1642282727.005303
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.005337 udevtest@7fe50a7b6bd4[2099] read(4, 0x7ffdc9e3e6a8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a7b6bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffdc9e3e6a8"
+                        }, 
+                        "time": 1642282727.005337
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.005374 udevtest@7fe50a7b6943[2099] fstat(4, 0x7ffdc9e3e540) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a7b6943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffdc9e3e540"
+                        }, 
+                        "time": 1642282727.005374
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.005418 udevtest@7fe50a7b6d03[2099] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fe50a4c5000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fe50a4c5000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a7b6d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642282727.005418
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.005463 udevtest@7fe50a7b6d03[2099] mmap2(0x0, 2008696, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fe50a2da000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fe50a2da000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a7b6d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "2008696", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642282727.005463
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.005508 udevtest@7fe50a7b6d03[2099] mmap2(0x7fe50a2ff000, 1519616, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 151552) = 0x7fe50a2ff000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fe50a2ff000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a7b6d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fe50a2ff000", 
+                            "p1": "1519616", 
+                            "p4": "4", 
+                            "p5": "151552"
+                        }, 
+                        "time": 1642282727.005508
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.005546 udevtest@7fe50a7b6d03[2099] mmap2(0x7fe50a472000, 299008, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1671168) = 0x7fe50a472000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fe50a472000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a7b6d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fe50a472000", 
+                            "p1": "299008", 
+                            "p4": "4", 
+                            "p5": "1671168"
+                        }, 
+                        "time": 1642282727.005546
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.005579 udevtest@7fe50a7b6d03[2099] mmap2(0x7fe50a4bb000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1966080) = 0x7fe50a4bb000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fe50a4bb000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a7b6d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fe50a4bb000", 
+                            "p1": "24576", 
+                            "p4": "4", 
+                            "p5": "1966080"
+                        }, 
+                        "time": 1642282727.005579
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.005624 udevtest@7fe50a7b6d03[2099] mmap2(0x7fe50a4c1000, 13944, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fe50a4c1000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fe50a4c1000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a7b6d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7fe50a4c1000", 
+                            "p1": "13944", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642282727.005624
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.005665 udevtest@7fe50a7b69f7[2099] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a7b69f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642282727.005665
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.005725 udevtest@7fe50a7b6b0d[2099] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libdl.so.2\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a7b6b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libdl.so.2"
+                        }, 
+                        "time": 1642282727.005725
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.005772 udevtest@7fe50a7b6bd4[2099] read(4, 0x7ffdc9e3e688, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a7b6bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffdc9e3e688"
+                        }, 
+                        "time": 1642282727.005772
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.005815 udevtest@7fe50a7b6943[2099] fstat(4, 0x7ffdc9e3e520) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a7b6943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffdc9e3e520"
+                        }, 
+                        "time": 1642282727.005815
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.005852 udevtest@7fe50a7b6d03[2099] mmap2(0x0, 20752, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fe50a2d4000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fe50a2d4000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a7b6d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "20752", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642282727.005852
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.005898 udevtest@7fe50a7b6d03[2099] mmap2(0x7fe50a2d5000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 4096) = 0x7fe50a2d5000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fe50a2d5000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a7b6d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fe50a2d5000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "4096"
+                        }, 
+                        "time": 1642282727.005898
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.005955 udevtest@7fe50a7b6d03[2099] mmap2(0x7fe50a2d7000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7fe50a2d7000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fe50a2d7000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a7b6d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fe50a2d7000", 
+                            "p1": "4096", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642282727.005955
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.006003 udevtest@7fe50a7b6d03[2099] mmap2(0x7fe50a2d8000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7fe50a2d8000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fe50a2d8000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a7b6d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fe50a2d8000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642282727.006003
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.006058 udevtest@7fe50a7b69f7[2099] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a7b69f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642282727.006058
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.006100 udevtest@7fe50a7b6b0d[2099] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libpcre.so.3\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a7b6b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libpcre.so.3"
+                        }, 
+                        "time": 1642282727.0061
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.006133 udevtest@7fe50a7b6bd4[2099] read(4, 0x7ffdc9e3e668, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a7b6bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffdc9e3e668"
+                        }, 
+                        "time": 1642282727.006133
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.006160 udevtest@7fe50a7b6943[2099] fstat(4, 0x7ffdc9e3e500) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a7b6943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffdc9e3e500"
+                        }, 
+                        "time": 1642282727.00616
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.006187 udevtest@7fe50a7b6d03[2099] mmap2(0x0, 471304, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fe50a260000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fe50a260000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a7b6d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "471304", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642282727.006187
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.006226 udevtest@7fe50a7b6d03[2099] mmap2(0x7fe50a262000, 335872, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 8192) = 0x7fe50a262000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fe50a262000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a7b6d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fe50a262000", 
+                            "p1": "335872", 
+                            "p4": "4", 
+                            "p5": "8192"
+                        }, 
+                        "time": 1642282727.006226
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.006276 udevtest@7fe50a7b6d03[2099] mmap2(0x7fe50a2b4000, 122880, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 344064) = 0x7fe50a2b4000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fe50a2b4000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a7b6d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fe50a2b4000", 
+                            "p1": "122880", 
+                            "p4": "4", 
+                            "p5": "344064"
+                        }, 
+                        "time": 1642282727.006276
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.006323 udevtest@7fe50a7b6d03[2099] mmap2(0x7fe50a2d2000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 462848) = 0x7fe50a2d2000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fe50a2d2000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a7b6d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fe50a2d2000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "462848"
+                        }, 
+                        "time": 1642282727.006323
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.006382 udevtest@7fe50a7b69f7[2099] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a7b69f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642282727.006382
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.007495 udevtest@7fe50a7b6d03[2099] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fe50a25e000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fe50a25e000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a7b6d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642282727.007495
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.007542 udevtest@7fe50a79bf30[2099] arch_prctl(ARCH_SET_FS, 140621694497088) = 0\n", 
+                        "api": "arch_prctl", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a79bf30", 
+                        "arguments": {
+                            "p0": "ARCH_SET_FS", 
+                            "p1": "140621694497088"
+                        }, 
+                        "time": 1642282727.007542
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.008504 udevtest@7fe50a7b6db7[2099] mprotect(0x7fe50a4bb000, 12288, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a7b6db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fe50a4bb000", 
+                            "p1": "12288"
+                        }, 
+                        "time": 1642282727.008504
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.008553 udevtest@7fe50a7b6db7[2099] mprotect(0x7fe50a4e2000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a7b6db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fe50a4e2000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642282727.008553
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.008621 udevtest@7fe50a7b6db7[2099] mprotect(0x7fe50a2d2000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a7b6db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fe50a2d2000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642282727.008621
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.008675 udevtest@7fe50a7b6db7[2099] mprotect(0x7fe50a2d8000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a7b6db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fe50a2d8000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642282727.008675
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.008724 udevtest@7fe50a7b6db7[2099] mprotect(0x7fe50a500000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a7b6db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fe50a500000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642282727.008724
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.008793 udevtest@7fe50a7b6db7[2099] mprotect(0x7fe50a64e000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a7b6db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fe50a64e000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642282727.008793
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.008850 udevtest@7fe50a7b6db7[2099] mprotect(0x7fe50a659000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a7b6db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fe50a659000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642282727.00885
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.009054 udevtest@7fe50a7b6db7[2099] mprotect(0x7fe50a779000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a7b6db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fe50a779000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642282727.009054
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.009121 udevtest@7fe50a7b6db7[2099] mprotect(0x7fe50a780000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a7b6db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fe50a780000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642282727.009121
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.013103 udevtest@7fe50a7b6db7[2099] mprotect(0x55d07ffe3000, 303104, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a7b6db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x55d07ffe3000", 
+                            "p1": "303104"
+                        }, 
+                        "time": 1642282727.013103
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.013153 udevtest@7fe50a7b6db7[2099] mprotect(0x7fe50a7c4000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a7b6db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fe50a7c4000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642282727.013153
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.013192 udevtest@7fe50a7b6d97[2099] munmap(0x7fe50a784000, 88858) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a7b6d97", 
+                        "arguments": {
+                            "p0": "0x7fe50a784000", 
+                            "p1": "88858"
+                        }, 
+                        "time": 1642282727.013192
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.013259 udevtest@7fe50a4ce8df[2099] set_tid_address(0x7fe50a25f410) = 2099\n", 
+                        "api": "set_tid_address", 
+                        "return_value": "2099", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a4ce8df", 
+                        "arguments": {
+                            "p0": "0x7fe50a25f410"
+                        }, 
+                        "time": 1642282727.013259
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.013301 udevtest@7fe50a4ce94a[2099] set_robust_list(0x7fe50a25f420, 24) = 0\n", 
+                        "api": "set_robust_list", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a4ce94a", 
+                        "arguments": {
+                            "p0": "0x7fe50a25f420", 
+                            "p1": "24"
+                        }, 
+                        "time": 1642282727.013301
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.013351 udevtest@7fe50a4db010[2099] rt_sigaction(0x20, {0x7fe50a4ce6c0, SA_SIGINFO|SA_RESTORER, 0x7fe50a4daf40, [EMPTY]}, 0x0, 8) = 0\n", 
+                        "api": "rt_sigaction", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a4db010", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "0x20", 
+                            "p1": [
+                                "0x7fe50a4ce6c0", 
+                                "SA_SIGINFO|SA_RESTORER", 
+                                "0x7fe50a4daf40", 
+                                [
+                                    "EMPTY]"
+                                ]
+                            ]
+                        }, 
+                        "time": 1642282727.013351
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.013399 udevtest@7fe50a4db010[2099] rt_sigaction(0x21, {0x7fe50a4ce760, SA_RESTART|SA_SIGINFO|SA_RESTORER, 0x7fe50a4daf40, [EMPTY]}, 0x0, 8) = 0\n", 
+                        "api": "rt_sigaction", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a4db010", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "0x21", 
+                            "p1": [
+                                "0x7fe50a4ce760", 
+                                "SA_RESTART|SA_SIGINFO|SA_RESTORER", 
+                                "0x7fe50a4daf40", 
+                                [
+                                    "EMPTY]"
+                                ]
+                            ]
+                        }, 
+                        "time": 1642282727.013399
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.013500 udevtest@7fe50a4cea19[2099] rt_sigprocmask(SIG_UNBLOCK, [EMPTY], 0x0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a4cea19", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "SIG_UNBLOCK", 
+                            "p1": [
+                                "EMPTY"
+                            ]
+                        }, 
+                        "time": 1642282727.0135
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.013558 udevtest@7fe50a3ecdf0[2099] prlimit64(0, RLIMIT_STACK, NULL, 0x7ffdc9e3f340) = 0\n", 
+                        "api": "prlimit64", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a3ecdf0", 
+                        "arguments": {
+                            "p2": "NULL", 
+                            "p3": "0x7ffdc9e3f340", 
+                            "p0": "0", 
+                            "p1": "RLIMIT_STACK"
+                        }, 
+                        "time": 1642282727.013558
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.013792 udevtest@7fe50a3ed2f7[2099] brk(0x0) = 94354046988288\n", 
+                        "api": "brk", 
+                        "return_value": "94354046988288", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a3ed2f7", 
+                        "arguments": {
+                            "p0": "0x0"
+                        }, 
+                        "time": 1642282727.013792
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.013831 udevtest@7fe50a3ed2f7[2099] brk(0x55d083764000) = 94354047123456\n", 
+                        "api": "brk", 
+                        "return_value": "94354047123456", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a3ed2f7", 
+                        "arguments": {
+                            "p0": "0x55d083764000"
+                        }, 
+                        "time": 1642282727.013831
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.014968 udevtest@7fe50a4d7b86[2099] rt_sigprocmask(SIG_SETMASK, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS], 0x7ffdc9e3f290, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a4d7b86", 
+                        "arguments": {
+                            "p2": "0x7ffdc9e3f290", 
+                            "p3": "8", 
+                            "p0": "SIG_SETMASK", 
+                            "p1": [
+                                "SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS"
+                            ]
+                        }, 
+                        "time": 1642282727.014968
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.017127 udevtest@7fe50a3f14c3[2099] mmap2(0x0, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7fe509a5d000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fe509a5d000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a3f14c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK", 
+                            "p0": "0x0", 
+                            "p1": "8392704", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642282727.017127
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.017183 udevtest@7fe50a3f1597[2099] mprotect(0x7fe509a5e000, 8388608, PROT_READ|PROT_WRITE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a3f1597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p0": "0x7fe509a5e000", 
+                            "p1": "8388608"
+                        }, 
+                        "time": 1642282727.017183
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.017237 udevtest@7fe50a3f7b11[2099] clone(CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, 0x7fe50a25cf70, 0x7fe50a25d9d0, 0x7fe50a25d9d0) = 2100\n", 
+                        "api": "clone", 
+                        "return_value": "2100", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a3f7b11", 
+                        "arguments": {
+                            "p2": "0x7fe50a25d9d0", 
+                            "p3": "0x7fe50a25d9d0", 
+                            "p0": "CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID", 
+                            "p1": "0x7fe50a25cf70"
+                        }, 
+                        "time": 1642282727.017237
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.017333 udevtest@7fe50a4d7b86[2099] rt_sigprocmask(SIG_SETMASK, [EMPTY], 0x0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a4d7b86", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "SIG_SETMASK", 
+                            "p1": [
+                                "EMPTY"
+                            ]
+                        }, 
+                        "time": 1642282727.017333
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.020018 udevtest@7fe50a3ecdf0[2099] prlimit64(0, RLIMIT_STACK, NULL, 0x7ffdc9e3ee50) = 0\n", 
+                        "api": "prlimit64", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a3ecdf0", 
+                        "arguments": {
+                            "p2": "NULL", 
+                            "p3": "0x7ffdc9e3ee50", 
+                            "p0": "0", 
+                            "p1": "RLIMIT_STACK"
+                        }, 
+                        "time": 1642282727.020018
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.020092 udevtest@7fe50a3ec5c1[2099] openat(AT_FDCWD, \"/etc/qemu-binfmt/sparc\", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -2 (ENOENT)\n", 
+                        "api": "openat", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a3ec5c1", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/etc/qemu-binfmt/sparc"
+                        }, 
+                        "time": 1642282727.020092
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.020179 udevtest@7fe50a3bb247[2099] uname(0x7ffdc9e3eac0) = 0\n", 
+                        "api": "uname", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a3bb247", 
+                        "arguments": {
+                            "p0": "0x7ffdc9e3eac0"
+                        }, 
+                        "time": 1642282727.020179
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.020222 udevtest@7fe50a4da337[2099] lseek(3, 0, SEEK_SET) = 0\n", 
+                        "api": "lseek", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a4da337", 
+                        "arguments": {
+                            "p2": "SEEK_SET", 
+                            "p0": "3", 
+                            "p1": "0"
+                        }, 
+                        "time": 1642282727.020222
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.020255 udevtest@7fe50a4d9d94[2099] read(3, 0x7ffdc9e3edb0, 52) = 52\n", 
+                        "api": "read", 
+                        "return_value": "52", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a4d9d94", 
+                        "arguments": {
+                            "p2": "52", 
+                            "p0": "3", 
+                            "p1": "0x7ffdc9e3edb0"
+                        }, 
+                        "time": 1642282727.020255
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.020290 udevtest@7fe50a4da337[2099] lseek(3, 0, SEEK_SET) = 0\n", 
+                        "api": "lseek", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a4da337", 
+                        "arguments": {
+                            "p2": "SEEK_SET", 
+                            "p0": "3", 
+                            "p1": "0"
+                        }, 
+                        "time": 1642282727.02029
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.021669 udevtest@7fe50a3f14c3[2099] mmap2(0x0, 528384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fe5099dc000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fe5099dc000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a3f14c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "528384", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642282727.021669
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.022223 udevtest@7fe50a3f1597[2099] mprotect(0x55d080040000, 33550336, PROT_READ|PROT_WRITE|PROT_EXEC) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a3f1597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE|PROT_EXEC", 
+                            "p0": "0x55d080040000", 
+                            "p1": "33550336"
+                        }, 
+                        "time": 1642282727.022223
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.022308 udevtest@7fe50a3f1667[2099] madvise(0x55d080040000, 33550336, MADV_HUGEPAGE) = 0\n", 
+                        "api": "madvise", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a3f1667", 
+                        "arguments": {
+                            "p2": "MADV_HUGEPAGE", 
+                            "p0": "0x55d080040000", 
+                            "p1": "33550336"
+                        }, 
+                        "time": 1642282727.022308
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.022539 udevtest@7fe50a3f14c3[2099] mmap2(0x0, 4294963200, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7fe404001000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fe404001000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a3f14c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x0", 
+                            "p1": "4294963200", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642282727.022539
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.022610 udevtest@7fe50a3e6d59[2099] openat(AT_FDCWD, \"/proc/sys/vm/mmap_min_addr\", O_RDONLY) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a3e6d59", 
+                        "arguments": {
+                            "p2": "O_RDONLY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/proc/sys/vm/mmap_min_addr"
+                        }, 
+                        "time": 1642282727.02261
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.022677 udevtest@7fe50a3e6613[2099] fstat(4, 0x7ffdc9e3e4c0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a3e6613", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffdc9e3e4c0"
+                        }, 
+                        "time": 1642282727.022677
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.022716 udevtest@7fe50a3e6fb4[2099] read(4, 0x55d0837503d0, 1024) = 6\n", 
+                        "api": "read", 
+                        "return_value": "6", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a3e6fb4", 
+                        "arguments": {
+                            "p2": "1024", 
+                            "p0": "4", 
+                            "p1": "0x55d0837503d0"
+                        }, 
+                        "time": 1642282727.022716
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.022768 udevtest@7fe50a3ec3f7[2099] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a3ec3f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642282727.022768
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.022820 udevtest@7fe50a3f12e9[2099] gettid() = 2099\n", 
+                        "api": "gettid", 
+                        "return_value": "2099", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a3f12e9", 
+                        "arguments": {}, 
+                        "time": 1642282727.02282
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.022856 udevtest@7fe50a3e6613[2099] fstat(3, 0x7ffdc9e3ed30) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a3e6613", 
+                        "arguments": {
+                            "p0": "3", 
+                            "p1": "0x7ffdc9e3ed30"
+                        }, 
+                        "time": 1642282727.022856
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.022891 udevtest@7fe50a3bc717[2099] geteuid() = 0\n", 
+                        "api": "geteuid", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a3bc717", 
+                        "arguments": {}, 
+                        "time": 1642282727.022891
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.022926 udevtest@7fe50a3bc737[2099] getegid() = 0\n", 
+                        "api": "getegid", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a3bc737", 
+                        "arguments": {}, 
+                        "time": 1642282727.022926
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.022971 udevtest@7fe50a4d9d94[2099] read(3, 0x7ffdc9e3ef30, 1024) = 1024\n", 
+                        "api": "read", 
+                        "return_value": "1024", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a4d9d94", 
+                        "arguments": {
+                            "p2": "1024", 
+                            "p0": "3", 
+                            "p1": "0x7ffdc9e3ef30"
+                        }, 
+                        "time": 1642282727.022971
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.023031 udevtest@7fe50a3f14c3[2099] mmap2(0x7fe404011000, 45056, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 3, 0) = 0x7fe404011000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fe404011000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a3f14c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED", 
+                            "p0": "0x7fe404011000", 
+                            "p1": "45056", 
+                            "p4": "3", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642282727.023031
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.023104 udevtest@7fe50a3ed2f7[2099] brk(0x55d083785000) = 94354047258624\n", 
+                        "api": "brk", 
+                        "return_value": "94354047258624", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a3ed2f7", 
+                        "arguments": {
+                            "p0": "0x55d083785000"
+                        }, 
+                        "time": 1642282727.023104
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.023186 udevtest@7fe50a3f14c3[2099] mmap2(0x7fe40402b000, 4096, PROT_READ|PROT_WRITE|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 3, 40960) = 0x7fe40402b000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fe40402b000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a3f14c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED", 
+                            "p0": "0x7fe40402b000", 
+                            "p1": "4096", 
+                            "p4": "3", 
+                            "p5": "40960"
+                        }, 
+                        "time": 1642282727.023186
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.023250 udevtest@7fe50a3f14c3[2099] mmap2(0x7fe40402c000, 4096, PROT_READ|PROT_WRITE|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fe40402c000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fe40402c000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a3f14c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7fe40402c000", 
+                            "p1": "4096", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642282727.02325
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.023304 udevtest@7fe50a4d9e27[2099] close(3) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a4d9e27", 
+                        "arguments": {
+                            "p0": "3"
+                        }, 
+                        "time": 1642282727.023304
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.023372 udevtest@7fe50a3f14c3[2099] mmap2(0x7fe5037ff000, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fe5037ff000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fe5037ff000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a3f14c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7fe5037ff000", 
+                            "p1": "8392704", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642282727.023372
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.023518 udevtest@7fe50a3f1597[2099] mprotect(0x7fe5037ff000, 4096, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a3f1597", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7fe5037ff000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642282727.023518
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.023599 udevtest@7fe50a4da55e[2099] openat(AT_FDCWD, \"/lib/ld-linux.so.2\", O_RDONLY) = -2 (ENOENT)\n", 
+                        "api": "openat", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a4da55e", 
+                        "arguments": {
+                            "p2": "O_RDONLY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/ld-linux.so.2"
+                        }, 
+                        "time": 1642282727.023599
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.023916 udevtest@7fe50a3e7057[2099] write(2, \"/lib/ld-linux.so.2: No such file or directory\\n\", 46) = 46\n", 
+                        "api": "write", 
+                        "return_value": "46", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a3e7057", 
+                        "arguments": {
+                            "p2": "46", 
+                            "p0": "2", 
+                            "p1": "/lib/ld-linux.so.2: No such file or directory\n"
+                        }, 
+                        "time": 1642282727.023916
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.023984 udevtest@7fe50a3bb926[2099] exit_group(-1)\n", 
+                        "api": "exit_group", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a3bb926", 
+                        "arguments": {
+                            "p0": "-1"
+                        }, 
+                        "time": 1642282727.023984
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2099, 
+                        "raw": "Sat Jan 15 21:38:47 2022.024028 udevtest@7fe50a3bb926[2099] futex(0x7fe50a25f410, FUTEX_WAKE, 1) = 0\n", 
+                        "api": "futex", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a3bb926", 
+                        "arguments": {
+                            "p2": "1", 
+                            "p0": "0x7fe50a25f410", 
+                            "p1": "FUTEX_WAKE"
+                        }, 
+                        "time": 1642282727.024028
+                    }
+                ], 
+                "pid": 2099, 
+                "process_name": "udevtest", 
+                "command_line": "/tmp/udevtest", 
+                "first_seen": 1642282726.997879, 
+                "ppid": -1, 
+                "type": "process"
+            }, 
+            {
+                "calls": [
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2100, 
+                        "raw": "Sat Jan 15 21:38:47 2022.017450 udevtest@7fe50a4d0117[2100] set_robust_list(0x7fe50a25d9e0, 24) = 0\n", 
+                        "api": "set_robust_list", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a4d0117", 
+                        "arguments": {
+                            "p0": "0x7fe50a25d9e0", 
+                            "p1": "24"
+                        }, 
+                        "time": 1642282727.01745
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2100, 
+                        "raw": "Sat Jan 15 21:38:47 2022.017531 udevtest@7fe50a3f14c3[2100] mmap2(0x0, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7fe501a5d000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fe501a5d000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a3f14c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x0", 
+                            "p1": "134217728", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642282727.017531
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2100, 
+                        "raw": "Sat Jan 15 21:38:47 2022.017603 udevtest@7fe50a3f1567[2100] munmap(0x7fe501a5d000, 39464960) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a3f1567", 
+                        "arguments": {
+                            "p0": "0x7fe501a5d000", 
+                            "p1": "39464960"
+                        }, 
+                        "time": 1642282727.017603
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2100, 
+                        "raw": "Sat Jan 15 21:38:47 2022.017667 udevtest@7fe50a3f1567[2100] munmap(0x7fe508000000, 27643904) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a3f1567", 
+                        "arguments": {
+                            "p0": "0x7fe508000000", 
+                            "p1": "27643904"
+                        }, 
+                        "time": 1642282727.017667
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2100, 
+                        "raw": "Sat Jan 15 21:38:47 2022.017722 udevtest@7fe50a3f1597[2100] mprotect(0x7fe504000000, 135168, PROT_READ|PROT_WRITE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a3f1597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p0": "0x7fe504000000", 
+                            "p1": "135168"
+                        }, 
+                        "time": 1642282727.017722
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "udevtest", 
+                        "pid": 2100, 
+                        "raw": "Sat Jan 15 21:38:47 2022.017811 udevtest@7fe50a4da440[2100] nanosleep([0.010000000], 0x7fe50a25cdc0) = -516\n", 
+                        "api": "nanosleep", 
+                        "return_value": "-516", 
+                        "category": "process", 
+                        "instruction_pointer": "7fe50a4da440", 
+                        "arguments": {
+                            "p0": [
+                                "0.010000000"
+                            ], 
+                            "p1": "0x7fe50a25cdc0"
+                        }, 
+                        "time": 1642282727.017811
+                    }
+                ], 
+                "pid": 2100, 
+                "process_name": "udevtest", 
+                "command_line": "", 
+                "first_seen": 1642282727.01745, 
+                "ppid": 2099, 
+                "type": "process"
+            }
+        ], 
+        "processtree": [
+            {
+                "track": true, 
+                "pid": 2099, 
+                "process_name": "udevtest", 
+                "command_line": "/tmp/udevtest", 
+                "first_seen": 1642282726.997879, 
+                "ppid": -1, 
+                "children": [
+                    {
+                        "track": true, 
+                        "pid": 2100, 
+                        "process_name": "udevtest", 
+                        "command_line": "", 
+                        "first_seen": 1642282727.01745, 
+                        "ppid": 2099, 
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    }, 
+    "debug": {
+        "action": [], 
+        "dbgview": [], 
+        "errors": [], 
+        "log": [
+            "2022-01-15 21:38:35,004 [root] DEBUG: Starting analyzer from: /tmp/tmpq6TlX0\n", 
+            "2022-01-15 21:38:35,004 [root] DEBUG: Storing results at: /tmp/PcUZWn\n", 
+            "2022-01-15 21:38:37,439 [modules.auxiliary.filecollector] INFO: FileCollector started v0.08\n", 
+            "2022-01-15 21:38:37,442 [modules.auxiliary.human] INFO: Human started v0.02\n", 
+            "2022-01-15 21:38:37,445 [modules.auxiliary.screenshots] INFO: Screenshots started v0.03\n", 
+            "2022-01-15 21:38:46,996 [lib.core.packages] INFO: Process startup took 9.55 seconds\n", 
+            "2022-01-15 21:38:46,999 [root] INFO: Added new process to list with pid: 2087\n", 
+            "2022-01-15 21:38:59,024 [root] INFO: Process with pid 2087 has terminated\n", 
+            "2022-01-15 21:38:59,025 [root] INFO: Process list is empty, terminating analysis.\n", 
+            "2022-01-15 21:39:02,029 [lib.core.packages] INFO: Package requested stop\n", 
+            "2022-01-15 21:39:02,030 [lib.core.packages] WARNING: Exception uploading log: [Errno 3] No such process\n"
+        ], 
+        "cuckoo": [
+            "2022-01-16 10:23:59,029 [cuckoo.core.scheduler] DEBUG: Task #2651839: no machine available yet\n", 
+            "2022-01-16 10:24:09,056 [cuckoo.core.scheduler] DEBUG: Task #2651839: no machine available yet\n", 
+            "2022-01-16 10:24:19,086 [cuckoo.core.scheduler] DEBUG: Task #2651839: no machine available yet\n", 
+            "2022-01-16 10:24:29,112 [cuckoo.core.scheduler] DEBUG: Task #2651839: no machine available yet\n", 
+            "2022-01-16 10:24:39,138 [cuckoo.core.scheduler] DEBUG: Task #2651839: no machine available yet\n", 
+            "2022-01-16 10:24:49,166 [cuckoo.core.scheduler] DEBUG: Task #2651839: no machine available yet\n", 
+            "2022-01-16 10:24:59,191 [cuckoo.core.scheduler] DEBUG: Task #2651839: no machine available yet\n", 
+            "2022-01-16 10:25:09,231 [cuckoo.core.scheduler] DEBUG: Task #2651839: no machine available yet\n", 
+            "2022-01-16 10:25:19,258 [cuckoo.core.scheduler] DEBUG: Task #2651839: no machine available yet\n", 
+            "2022-01-16 10:25:29,291 [cuckoo.core.scheduler] DEBUG: Task #2651839: no machine available yet\n", 
+            "2022-01-16 10:25:39,329 [cuckoo.core.scheduler] INFO: Task #2651839: acquired machine Ubuntu1904x643 (label=Ubuntu1904x643)\n", 
+            "2022-01-16 10:25:39,403 [cuckoo.core.resultserver] DEBUG: Now tracking machine 192.168.168.103 for task #2651839\n", 
+            "2022-01-16 10:25:39,584 [cuckoo.auxiliary.sniffer] INFO: Started sniffer with PID 2465151 (interface=vboxnet0, host=192.168.168.103)\n", 
+            "2022-01-16 10:25:39,735 [cuckoo.machinery.virtualbox] DEBUG: Starting vm Ubuntu1904x643\n", 
+            "2022-01-16 10:25:40,138 [cuckoo.machinery.virtualbox] DEBUG: Restoring virtual machine Ubuntu1904x643 to Snapshot\n", 
+            "2022-01-16 10:25:49,029 [cuckoo.core.guest] INFO: Starting analysis #2651839 on guest (id=Ubuntu1904x643, ip=192.168.168.103)\n", 
+            "2022-01-16 10:25:50,045 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: not ready yet\n", 
+            "2022-01-16 10:25:55,060 [cuckoo.core.guest] INFO: Guest is running Cuckoo Agent 0.10 (id=Ubuntu1904x643, ip=192.168.168.103)\n", 
+            "2022-01-16 10:25:55,070 [cuckoo.core.guest] DEBUG: Uploading analyzer to guest (id=Ubuntu1904x643, ip=192.168.168.103, monitor=latest, size=72028)\n", 
+            "2022-01-16 10:25:55,344 [cuckoo.core.resultserver] DEBUG: Task #2651839: live log analysis.log initialized.\n", 
+            "2022-01-16 10:26:01,260 [cuckoo.core.resultserver] DEBUG: Task #2651839: File upload for 'shots/0001.jpg'\n", 
+            "2022-01-16 10:26:02,534 [cuckoo.core.resultserver] DEBUG: Task #2651839 uploaded file length: 171575\n", 
+            "2022-01-16 10:26:10,263 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: analysis #2651839 still processing\n", 
+            "2022-01-16 10:26:22,334 [cuckoo.core.resultserver] DEBUG: Task #2651839: File upload for 'logs/all.stap'\n", 
+            "2022-01-16 10:26:22,556 [cuckoo.core.resultserver] DEBUG: Task #2651839 uploaded file length: 19013\n", 
+            "2022-01-16 10:26:25,325 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: analysis #2651839 still processing\n", 
+            "2022-01-16 10:26:40,389 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: analysis #2651839 still processing\n", 
+            "2022-01-16 10:26:55,449 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: analysis #2651839 still processing\n", 
+            "2022-01-16 10:27:10,527 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: analysis #2651839 still processing\n", 
+            "2022-01-16 10:27:25,649 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: analysis #2651839 still processing\n", 
+            "2022-01-16 10:27:40,757 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: analysis #2651839 still processing\n", 
+            "2022-01-16 10:27:55,884 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: analysis #2651839 still processing\n", 
+            "2022-01-16 10:28:10,972 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: analysis #2651839 still processing\n", 
+            "2022-01-16 10:28:26,072 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: analysis #2651839 still processing\n", 
+            "2022-01-16 10:28:41,134 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: analysis #2651839 still processing\n", 
+            "2022-01-16 10:28:56,208 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: analysis #2651839 still processing\n", 
+            "2022-01-16 10:29:11,261 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: analysis #2651839 still processing\n", 
+            "2022-01-16 10:29:26,337 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: analysis #2651839 still processing\n", 
+            "2022-01-16 10:29:41,397 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: analysis #2651839 still processing\n", 
+            "2022-01-16 10:29:56,492 [cuckoo.core.guest] INFO: Ubuntu1904x643: end of analysis reached!\n", 
+            "2022-01-16 10:29:56,499 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Redsocks\n", 
+            "2022-01-16 10:29:56,568 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Sniffer\n", 
+            "2022-01-16 10:30:09,793 [cuckoo.machinery.virtualbox] INFO: Successfully generated memory dump for virtual machine with label Ubuntu1904x643 to path /srv/cuckoo/cwd/storage/analyses/2651839/memory.dmp\n", 
+            "2022-01-16 10:30:09,794 [cuckoo.machinery.virtualbox] DEBUG: Stopping vm Ubuntu1904x643\n", 
+            "2022-01-16 10:30:16,508 [cuckoo.core.resultserver] DEBUG: Stopped tracking machine 192.168.168.103 for task #2651839\n", 
+            "2022-01-16 10:30:16,508 [cuckoo.core.resultserver] DEBUG: Cancel <Context for LOG> for task 2651839\n", 
+            "2022-01-16 10:30:16,657 [cuckoo.core.scheduler] DEBUG: Released database task #2651839\n", 
+            "2022-01-16 10:30:16,945 [cuckoo.core.scheduler] INFO: Task #2651839: analysis procedure completed\n"
+        ]
+    }, 
+    "strings": [
+        "/lib/ld-linux.so.2", 
+        "libselinux.so.1", 
+        "getfscreatecon", 
+        "is_selinux_enabled", 
+        "matchpathcon", 
+        "freecon", 
+        "matchmediacon", 
+        "matchpathcon_init_prefix", 
+        "setfscreatecon", 
+        "lsetfilecon", 
+        "_Jv_RegisterClasses", 
+        "__gmon_start__", 
+        "libc.so.6", 
+        "putchar", 
+        "strcpy", 
+        "waitpid", 
+        "readdir64", 
+        "strerror", 
+        "snprintf", 
+        "munmap", 
+        "getenv", 
+        "usleep", 
+        "memcpy", 
+        "readlink", 
+        "__cxa_finalize", 
+        "malloc", 
+        "strtoul", 
+        "socket", 
+        "select", 
+        "putenv", 
+        "strncasecmp", 
+        "strtol", 
+        "strnlen", 
+        "strrchr", 
+        "calloc", 
+        "fprintf", 
+        "vprintf", 
+        "fnmatch", 
+        "strstr", 
+        "strncmp", 
+        "unlink", 
+        "setenv", 
+        "strcasecmp", 
+        "sendto", 
+        "realloc", 
+        "sscanf", 
+        "strdup", 
+        "__xstat64", 
+        "symlink", 
+        "memset", 
+        "opendir", 
+        "__xmknod", 
+        "strcmp", 
+        "getpwnam", 
+        "sprintf", 
+        "fclose", 
+        "stderr", 
+        "mmap64", 
+        "strsep", 
+        "__lxstat64", 
+        "__ctype_b_loc", 
+        "__errno_location", 
+        "getgrnam", 
+        "_IO_stdin_used", 
+        "__libc_start_main", 
+        "strlen", 
+        "strchr", 
+        "closedir", 
+        "__fxstat64", 
+        "fopen64", 
+        "__environ", 
+        "_edata", 
+        "__bss_start", 
+        "GLIBC_2.3", 
+        "GLIBC_2.1.3", 
+        "GLIBC_2.2.3", 
+        "GLIBC_2.1", 
+        "GLIBC_2.2", 
+        "GLIBC_2.0", 
+        "%s: version %s", 
+        "--help", 
+        "Usage: udevtest [--help] <devpath>", 
+        "devpath parameter missing", 
+        "unable to open device '%s'", 
+        "error initializing device", 
+        "DEVPATH", 
+        "SUBSYSTEM", 
+        "ACTION", 
+        "This program is for debugging only, it does not create any node,", 
+        "or run any program specified by a RUN key. It may show incorrect results,", 
+        "if rules match against subsystem specfic kernel event variables.", 
+        "%s: looking at device '%s' from subsystem '%s'", 
+        "%s: run: '%s'", 
+        "/.udev/db", 
+        "change", 
+        "%s: device event will be ignored", 
+        "%s: device node creation supressed", 
+        "%s: device '%s' already in database, validate currently present symlinks", 
+        "%s: changing net interface name from '%s' to '%s'", 
+        "%s: error opening socket: %s", 
+        "%s: error changing netif name %s to %s: %s", 
+        "_rename", 
+        "%s: error changing net interface name %s to %s: %s", 
+        "%s: renamed netif to '%s'", 
+        "INTERFACE_OLD", 
+        "INTERFACE", 
+        "remove", 
+        "udev_device_event", 
+        "rename_netif", 
+        "/etc/udev/udev.conf", 
+        "/etc/udev/rules.d", 
+        "UDEV_RUN", 
+        "UDEV_CONFIG_FILE", 
+        "%s: can't open '%s' as config file: %s", 
+        "%s: line too long, conf line skipped %s, line %d", 
+        "udev_root", 
+        "udev_rules", 
+        "udev_log", 
+        "UDEV_ROOT", 
+        "UDEV_LOG", 
+        "%s: error parsing %s, line %d:%d", 
+        "parse_config_file", 
+        "%s: symlink '%s' points to a different device, skip removal", 
+        "%s: removing symlink '%s'", 
+        "DEVLINKS", 
+        "%s: device node '%s' points to a different device, skip removal", 
+        "%s: removing device node '%s'", 
+        "DEVNAME", 
+        "%s: removing all_partitions '%s[1-%i]'", 
+        "%s: garbage from udev database, skip all_partitions removal", 
+        "%s: preserve file '%s', because it has correct dev_t", 
+        "%s: unlink(%s) failed: %s", 
+        "%s: mknod(%s, %#o, %u, %u) failed: %s", 
+        "%s: chmod(%s, %#o) failed: %s", 
+        "%s: chown(%s, %u, %u) failed: %s", 
+        "%s: creating device node '%s', major = '%d', minor = '%d', mode = '%#o', uid = '%d', gid = '%d'", 
+        "%s: creating device partition nodes '%s[1-%i]'", 
+        "%s: creating symlink '%s' to '%s'", 
+        "%s: preserving symlink '%s' to '%s'", 
+        "%s: link '%s' points to different target '%s', delete it", 
+        "%s: symlink(%s, %s) failed: %s", 
+        "udev_node_remove", 
+        "udev_node_remove_symlinks", 
+        "udev_node_add", 
+        "udev_node_symlink", 
+        "udev_node_mknod", 
+        "%s: no udev_db available '%s': %s", 
+        "%s: unable to read %s: %s", 
+        "%s: found a symlink as db file", 
+        "%s: error reading db link %s: %s", 
+        "%s: unable to read db file '%s': %s", 
+        "%s: no db file to read %s: %s", 
+        "%s: error reading db file %s: %s", 
+        "%s: unable to create db link '%s': %s", 
+        "%s: unable to create db file '%s': %s", 
+        "M:%u:%u", 
+        "udev_db_get_all_entries", 
+        "udev_db_lookup_name", 
+        "udev_db_get_device", 
+        "udev_db_add_device", 
+        "/subsystem", 
+        "/class/", 
+        "/block/", 
+        "/devices/", 
+        "/drivers/", 
+        "drivers", 
+        "/module/", 
+        "module", 
+        "/driver", 
+        "/subsystem/", 
+        "/devices", 
+        "/class", 
+        "/block", 
+        "/device", 
+        "SYSFS_PATH", 
+        "%s: file '%s' appeared after %i loops", 
+        "%s: device disappeared while waiting for '%s'", 
+        "%s: wait for '%s' for %i mseconds", 
+        "%s: waiting for '%s' failed", 
+        "KERNELS", 
+        "SUBSYSTEMS", 
+        "DRIVERS", 
+        "RESULT", 
+        "%s: can't open '%s': %s", 
+        "%s: error writing ATTR{%s}: %s", 
+        "%s: error opening ATTR{%s} for writing: %s", 
+        "%s: unknown format variable '%s'", 
+        "%s: format parsing error '%s'", 
+        "%s: unknown format char '%c'", 
+        "%s: missing closing brace for format", 
+        "%s: missing file parameter for attr", 
+        "%s: %i untrusted character(s) replaced", 
+        "%s/.tmp-%u-%u", 
+        "%s: unknown substitution type=%i", 
+        "KERNEL", 
+        "DRIVER", 
+        "%s: rule applied, '%s' is ignored", 
+        "%s: reset run list", 
+        "%s: reset symlink list", 
+        "%s: add symlink '%s'", 
+        "%s: rule applied, '%s' becomes '%s'", 
+        "%s: no node name set, will use kernel name '%s'", 
+        "devpath", 
+        "number", 
+        "kernel", 
+        "result", 
+        "parent", 
+        "tempnode", 
+        "udev_rules_get_run", 
+        "match_rule", 
+        "wait_for_sysfs", 
+        "import_keys_into_env", 
+        "import_file_into_env", 
+        "udev_rules_get_name", 
+        "udev_rules_apply_format", 
+        "get_format_len", 
+        "get_format_attribute", 
+        "%s: skip, too many keys of the same type in a single rule", 
+        "%s: can't open '%s' as rules file: %s", 
+        "%s: reading '%s' as rules file", 
+        "%s: line too long, rule skipped '%s:%u'", 
+        "%s: malloc failed", 
+        "%s: invalid ACTION operation", 
+        "%s: invalid DEVPATH operation", 
+        "%s: invalid KERNEL operation", 
+        "%s: invalid SUBSYSTEM operation", 
+        "%s: invalid DRIVER operation", 
+        "%s: DRIVER== will change in a future relase, please use DRIVERS== in %s:%u", 
+        "%s: error parsing ATTR attribute", 
+        "%s: invalid KERNELS operation", 
+        "%s: invalid SUBSYSTEMS operation", 
+        "%s: invalid DRIVERS operation", 
+        "ATTRS{", 
+        "SYSFS{", 
+        "%s: error parsing ATTRS attribute", 
+        "device/", 
+        "%s: the 'device' link is deprecated and will be removed from a future kernel, please fix it in %s:%u", 
+        "%s: do not reference parent sysfs directories directly, that may break with a future kernel, please fix it in %s:%u", 
+        "%s: error parsing ENV attribute", 
+        "PHYSDEV", 
+        "PROGRAM", 
+        "%s: invalid RESULT operation", 
+        "IMPORT", 
+        "program", 
+        "/lib/udev/", 
+        "WAIT_FOR_SYSFS", 
+        "all_partitions", 
+        "ignore_remove", 
+        "SYMLINK", 
+        "OPTIONS", 
+        "last_rule", 
+        "ignore_device", 
+        "%s: unknown key '%s' in %s:%u", 
+        "%s: PHYSDEV* values are deprecated and will be removed from a future kernel, please fix it in %s:%u", 
+        "%s: realloc failed", 
+        "%s: invalid rule '%s:%u'", 
+        ".rules", 
+        "%s: could not read '%s': %s", 
+        "udev_rules_init", 
+        "parse_file", 
+        "add_to_rules", 
+        "add_rule_key_pair", 
+        "get_key_attribute", 
+        "%s: specified group '%s' unknown", 
+        "%s: error resolving group '%s': %s", 
+        "%s: specified user '%s' unknown", 
+        "%s: error resolving user '%s': %s", 
+        "%s: unable to open '%s': %s", 
+        "lookup_group", 
+        "lookup_user", 
+        "add_matching_files", 
+        " #$%+-./:=?@_,", 
+        "%s: chown(%s, 0, 0) failed: %s", 
+        "%s: chmod(%s, 0000) failed: %s", 
+        "%s: rmdir(%s) failed: %s", 
+        "unlink_secure", 
+        "delete_path", 
+        "%s: '%s'", 
+        "%s: pipe failed: %s", 
+        "/dev/null", 
+        "%s: open /dev/null failed: %s", 
+        "/dev/.initramfs", 
+        "%s: exec of program '%s' failed", 
+        "%s: fork of '%s' failed: %s", 
+        "%s: stdin read failed: %s", 
+        "%s: ressize %ld too short", 
+        "%s: '%s' (stdout) '%s'", 
+        "%s: stderr read failed: %s", 
+        "%s: '%s' (stderr) '%s'", 
+        "%s: '%s' returned with status %i", 
+        "%s: '%s' abnormal exit", 
+        "%s: passed %zi bytes to socket '%s', ", 
+        "run_program", 
+        "pass_env_to_socket", 
+        "%s: getfscreatecon failed", 
+        "%s: setfscreatecon failed: %s", 
+        "/proc/ide/%s/media", 
+        "%s: selinux_get_media(%s)='%s'", 
+        "%s: matchpathcon(%s) failed", 
+        "%s: setfscreatecon %s failed: %s", 
+        "%s: setfilecon %s failed: %s", 
+        "selinux_init", 
+        "selinux_resetfscreatecon", 
+        "selinux_setfscreatecon", 
+        "get_media", 
+        "selinux_setfilecon", 
+        ".shstrtab", 
+        ".interp", 
+        ".note.ABI-tag", 
+        ".dynsym", 
+        ".dynstr", 
+        ".gnu.version", 
+        ".gnu.version_r", 
+        ".rela.dyn", 
+        ".rela.plt", 
+        ".rodata", 
+        ".eh_frame", 
+        ".ctors", 
+        ".dtors", 
+        ".dynamic"
+    ], 
+    "metadata": {
+        "output": {
+            "pcap": {
+                "basename": "dump.pcap", 
+                "sha256": "704e5e5b3234433c01fcfd1b20a306e77e985038120492dc53965c3edd38a4ea", 
+                "dirname": ""
+            }
+        }
+    }
+}
