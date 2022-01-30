@@ -1,0 +1,3182 @@
+{
+    "info": {
+        "added": 1642279005.185605, 
+        "started": 1642310958.750599, 
+        "duration": 2159, 
+        "ended": 1642313117.771528, 
+        "owner": null, 
+        "score": 0.0, 
+        "id": 2651191, 
+        "category": "file", 
+        "git": {
+            "head": "e8f6317b4b3ef806085a1e99e64c6ff01f26948f", 
+            "fetch_head": "e8f6317b4b3ef806085a1e99e64c6ff01f26948f"
+        }, 
+        "monitor": "2deb9ccd75d5a7a3fe05b2625b03a8639d6ee36b", 
+        "package": "elf", 
+        "route": "internet", 
+        "custom": null, 
+        "machine": {
+            "status": "stopped", 
+            "name": "Ubuntu1904x641", 
+            "label": "Ubuntu1904x641", 
+            "platform": "linux", 
+            "manager": "VirtualBox", 
+            "started_on": "2022-01-16 06:00:42", 
+            "shutdown_on": "2022-01-16 06:05:17"
+        }, 
+        "platform": "linux", 
+        "version": "2.0.7", 
+        "options": "procmemdump=yes,route=internet"
+    }, 
+    "signatures": [], 
+    "target": {
+        "category": "file", 
+        "file": {
+            "mimetype": "application/x-executable", 
+            "yara": [], 
+            "sha1": "2a898906e825cb279f158565691442f7c402bce4", 
+            "name": "losetup", 
+            "type": "ELF 32-bit MSB executable, SPARC, version 1 (SYSV), dynamically linked, interpreter /lib/ld-linux.so.2, for GNU/Linux 2.4.1, stripped", 
+            "sha256": "496229a685b710e6a6560483caf06540abbfafd44fa792d19fd96e094fd99cfd", 
+            "urls": [], 
+            "crc32": "A8E1414F", 
+            "path": "/srv/cuckoo/cwd/storage/binaries/496229a685b710e6a6560483caf06540abbfafd44fa792d19fd96e094fd99cfd", 
+            "ssdeep": "384:amIMZFXNlYx9i2hQqGYTfN8N+TyKlA5zq+/Oalxw9CaJuVzZvkHQHq0TZYh9twEM:TNZz6v8KrliD2RQBZ09Of", 
+            "size": 23764, 
+            "sha512": "5bd3b88e280f3362a0a4f28f0ae0108d632ecad08306036a53914e235628220ca0284b7418a6c852668df9ccdc442ff10f3b2724b0d6a2712eda438525acffa9", 
+            "md5": "f445a4b41205959bb0b1627ca7305ea2"
+        }, 
+        "custom": null
+    }, 
+    "irma": {
+        "status": 0, 
+        "probes_finished": 16, 
+        "scan_id": "305d4f44-6e31-4343-9117-cd77c938c3ba", 
+        "parent_file_sha256": null, 
+        "name": "496229a685b710e6a6560483caf06540abbfafd44fa792d19fd96e094fd99cfd", 
+        "probes_total": 16, 
+        "scan_date": 1642305920, 
+        "other_results": [], 
+        "submitter": "cli", 
+        "file_infos": {
+            "mimetype": "ELF 32-bit MSB executable, SPARC, version 1 (SYSV)", 
+            "sha1": "2a898906e825cb279f158565691442f7c402bce4", 
+            "tags": [], 
+            "timestamp_first_scan": 1642305919.61, 
+            "timestamp_last_scan": 1642305929.43, 
+            "sha256": "496229a685b710e6a6560483caf06540abbfafd44fa792d19fd96e094fd99cfd", 
+            "md5": "f445a4b41205959bb0b1627ca7305ea2", 
+            "size": 23764
+        }, 
+        "probe_results": {
+            "antivirus": {
+                "Avast Core Security (Linux)": {
+                    "status": 0, 
+                    "duration": 0.01, 
+                    "version": "3.0.3", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "F-Secure Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.03, 
+                    "version": "11.10", 
+                    "results": null, 
+                    "virus_database_version": "2022-01-13_04"
+                }, 
+                "Windows Defender (Windows)": {
+                    "status": 0, 
+                    "duration": 0.03, 
+                    "version": "1.1.18800.4", 
+                    "results": null, 
+                    "virus_database_version": "1.355.1049.0"
+                }, 
+                "Comodo Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 2.09, 
+                    "version": "1.1.268025.1", 
+                    "results": null, 
+                    "virus_database_version": "2021-11-02"
+                }, 
+                "Kaspersky Antivirus (Win)": {
+                    "status": 0, 
+                    "duration": 2.63, 
+                    "version": "21.3", 
+                    "results": null, 
+                    "virus_database_version": "2022-01-04 05:53:00 (full)"
+                }, 
+                "ESET NOD32 Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 4.29, 
+                    "version": "4.0.96", 
+                    "results": null, 
+                    "virus_database_version": "6178ebd0-1e722 (2021-10-27)"
+                }, 
+                "GData (Windows)": {
+                    "status": 0, 
+                    "duration": 0.19, 
+                    "version": "5.5.20197.1358", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Forticlient (Linux)": {
+                    "status": 0, 
+                    "duration": 3.03, 
+                    "version": "unavailable", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Avira (Windows)": {
+                    "status": 0, 
+                    "duration": 3.83, 
+                    "version": "8.3.64.66", 
+                    "results": null, 
+                    "virus_database_version": "8.19.1.122"
+                }, 
+                "eScan Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 3.87, 
+                    "version": "7.0.21", 
+                    "results": null, 
+                    "virus_database_version": "7.90035 (27/10/2021)"
+                }, 
+                "McAfee CLI scanner (Linux)": {
+                    "status": 0, 
+                    "duration": 5.81, 
+                    "version": "6.0.6.653", 
+                    "results": null, 
+                    "virus_database_version": "10149"
+                }, 
+                "Sophos Anti-Virus (Linux)": {
+                    "status": 0, 
+                    "duration": 6.39, 
+                    "version": "5.85.0", 
+                    "results": null, 
+                    "virus_database_version": "5.88 (26 October 2021)"
+                }, 
+                "DrWeb Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.19, 
+                    "version": "11.1.10.2108031732", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "ClamAV (Linux)": {
+                    "status": 0, 
+                    "duration": 0.02, 
+                    "version": "0.103.2", 
+                    "results": null, 
+                    "virus_database_version": "26334"
+                }, 
+                "Bitdefender Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 6.13, 
+                    "version": "7.90123", 
+                    "results": null, 
+                    "virus_database_version": null
+                }, 
+                "Emsisoft Commandline Scanner (Windows)": {
+                    "status": 0, 
+                    "duration": 0.2, 
+                    "version": "2021.10.0.11201", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }
+            }
+        }, 
+        "path": "", 
+        "result_id": "6cc22cc2-3972-4bc1-85ab-b5c181ebc908", 
+        "file_sha256": "496229a685b710e6a6560483caf06540abbfafd44fa792d19fd96e094fd99cfd"
+    }, 
+    "suricata": {
+        "tls": [
+            {
+                "src_ip": "192.168.168.101", 
+                "version": "TLS 1.2", 
+                "src_port": 37752, 
+                "dst_port": 443, 
+                "timestamp": "2022-01-16T06:01:15.535997+0200", 
+                "dst_ip": "91.189.92.19", 
+                "fingerprint": "97:63:1b:60:eb:d1:fa:4f:a4:fc:fa:98:66:3d:ee:22:fb:78:ce:c1", 
+                "subject": "C=GB, L=London, O=Canonical Group Ltd, CN=api.snapcraft.io", 
+                "issuer": "C=US, O=DigiCert Inc, CN=DigiCert TLS RSA SHA256 2020 CA1"
+            }
+        ], 
+        "files": [], 
+        "alerts": [], 
+        "http": []
+    }, 
+    "virustotal": {
+        "summary": {
+            "error": "resource has not been scanned yet"
+        }
+    }, 
+    "network": {
+        "udp": [], 
+        "dns_servers": [], 
+        "http": [], 
+        "smtp": [], 
+        "tcp": [], 
+        "geoinfo": {}, 
+        "mitm": [], 
+        "https_ex": [], 
+        "http_ex": [], 
+        "sorted_pcap_sha256": "bc40e66d7ee612468eddb442bed1dccae881964efbe68f5acf1062acd9c5a3fe", 
+        "icmp": [], 
+        "tls": [], 
+        "dead_hosts": [], 
+        "smtp_ex": [], 
+        "hosts": [], 
+        "pcap_sha256": "c1e2d61fbd5cb41e91201ca5e0104260166ea6f7a361f40ffbf22de6c50e98d0", 
+        "dns": [], 
+        "domains": [], 
+        "irc": []
+    }, 
+    "resubmit": {
+        "resubmit_ids": []
+    }, 
+    "snort": {
+        "alerts": []
+    }, 
+    "behavior": {
+        "generic": [
+            {
+                "process_path": null, 
+                "process_name": "losetup", 
+                "pid": 2070, 
+                "summary": {}, 
+                "first_seen": 1642279013.176424, 
+                "ppid": -1
+            }, 
+            {
+                "process_path": null, 
+                "process_name": "losetup", 
+                "pid": 2071, 
+                "summary": {}, 
+                "first_seen": 1642279013.190634, 
+                "ppid": 2070
+            }
+        ], 
+        "processes": [
+            {
+                "calls": [
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.176424 losetup@7f313e527c27[2070] execve(\"/tmp/losetup\", [\"/tmp/losetup\"], [\"SUDO_GID=0\", \"MAIL=/var/mail/root\", \"USER=root\", \"HOME=/root\", \"SUDO_UID=0\", \"LOGNAME=root\", \"SYSTEMTAP_MODULE=stap_\", \"TERM=unknown\", \"SYSTEMTAP_VERBOSE=2\", \"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin\", \"DISPLAY=:0\", \"LANG=en_US.UTF-8\", \"XAUTHORITY=/root/.Xauthority\", \"SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/losetup\", \"SHELL=/bin/bash\", \"SUDO_USER=root\", \"PWD=/tmp/tmpGYmbCY\"])\n", 
+                        "api": "execve", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e527c27", 
+                        "arguments": {
+                            "p2": [
+                                "SUDO_GID=0", 
+                                "MAIL=/var/mail/root", 
+                                "USER=root", 
+                                "HOME=/root", 
+                                "SUDO_UID=0", 
+                                "LOGNAME=root", 
+                                "SYSTEMTAP_MODULE=stap_", 
+                                "TERM=unknown", 
+                                "SYSTEMTAP_VERBOSE=2", 
+                                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin", 
+                                "DISPLAY=:0", 
+                                "LANG=en_US.UTF-8", 
+                                "XAUTHORITY=/root/.Xauthority", 
+                                "SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/losetup", 
+                                "SHELL=/bin/bash", 
+                                "SUDO_USER=root", 
+                                "PWD=/tmp/tmpGYmbCY"
+                            ], 
+                            "p0": "/tmp/losetup", 
+                            "p1": [
+                                "/tmp/losetup"
+                            ]
+                        }, 
+                        "time": 1642279013.176424
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.179220 losetup@7f313e527c27[2070] brk(0x0) = 93835926622208\n", 
+                        "api": "brk", 
+                        "return_value": "93835926622208", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e527c27", 
+                        "arguments": {
+                            "p0": "0x0"
+                        }, 
+                        "time": 1642279013.17922
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.179275 losetup@7f313e5289d7[2070] access(\"/etc/ld.so.preload\", R_OK) = -2 (ENOENT)\n", 
+                        "api": "access", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e5289d7", 
+                        "arguments": {
+                            "p0": "/etc/ld.so.preload", 
+                            "p1": "R_OK"
+                        }, 
+                        "time": 1642279013.179275
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.180177 losetup@7f313e528b0d[2070] openat(AT_FDCWD, \"/etc/ld.so.cache\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e528b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/etc/ld.so.cache"
+                        }, 
+                        "time": 1642279013.180177
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.180211 losetup@7f313e528943[2070] fstat(4, 0x7ffcc39e30a0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e528943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffcc39e30a0"
+                        }, 
+                        "time": 1642279013.180211
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.180240 losetup@7f313e528d03[2070] mmap2(0x0, 88858, PROT_READ, MAP_PRIVATE, 4, 0) = 0x7f313e4f6000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f313e4f6000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e528d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE", 
+                            "p0": "0x0", 
+                            "p1": "88858", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642279013.18024
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.180273 losetup@7f313e5289f7[2070] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e5289f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642279013.180273
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.180309 losetup@7f313e528b0d[2070] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e528b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0"
+                        }, 
+                        "time": 1642279013.180309
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.180340 losetup@7f313e528bd4[2070] read(4, 0x7ffcc39e3258, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e528bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffcc39e3258"
+                        }, 
+                        "time": 1642279013.18034
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.180370 losetup@7f313e528943[2070] fstat(4, 0x7ffcc39e30f0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e528943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffcc39e30f0"
+                        }, 
+                        "time": 1642279013.18037
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.180399 losetup@7f313e528d03[2070] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f313e4f4000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f313e4f4000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e528d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642279013.180399
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.180430 losetup@7f313e528d03[2070] mmap2(0x0, 20600, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f313e4ee000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f313e4ee000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e528d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "20600", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642279013.18043
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.180461 losetup@7f313e528d03[2070] mmap2(0x7f313e4ef000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 4096) = 0x7f313e4ef000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f313e4ef000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e528d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f313e4ef000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "4096"
+                        }, 
+                        "time": 1642279013.180461
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.180498 losetup@7f313e528d03[2070] mmap2(0x7f313e4f1000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f313e4f1000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f313e4f1000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e528d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f313e4f1000", 
+                            "p1": "4096", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642279013.180498
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.180531 losetup@7f313e528d03[2070] mmap2(0x7f313e4f2000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f313e4f2000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f313e4f2000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e528d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f313e4f2000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642279013.180531
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.180569 losetup@7f313e5289f7[2070] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e5289f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642279013.180569
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.180615 losetup@7f313e528b0d[2070] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e528b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0"
+                        }, 
+                        "time": 1642279013.180615
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.180646 losetup@7f313e528bd4[2070] read(4, 0x7ffcc39e3238, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e528bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffcc39e3238"
+                        }, 
+                        "time": 1642279013.180646
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.180674 losetup@7f313e528943[2070] fstat(4, 0x7ffcc39e30d0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e528943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffcc39e30d0"
+                        }, 
+                        "time": 1642279013.180674
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.180703 losetup@7f313e528d03[2070] mmap2(0x0, 1180072, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f313e3cd000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f313e3cd000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e528d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1180072", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642279013.180703
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.180736 losetup@7f313e528db7[2070] mprotect(0x7f313e3e8000, 1060864, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e528db7", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7f313e3e8000", 
+                            "p1": "1060864"
+                        }, 
+                        "time": 1642279013.180736
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.180770 losetup@7f313e528d03[2070] mmap2(0x7f313e3e8000, 524288, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 110592) = 0x7f313e3e8000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f313e3e8000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e528d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f313e3e8000", 
+                            "p1": "524288", 
+                            "p4": "4", 
+                            "p5": "110592"
+                        }, 
+                        "time": 1642279013.18077
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.180806 losetup@7f313e528d03[2070] mmap2(0x7f313e468000, 532480, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 634880) = 0x7f313e468000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f313e468000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e528d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f313e468000", 
+                            "p1": "532480", 
+                            "p4": "4", 
+                            "p5": "634880"
+                        }, 
+                        "time": 1642279013.180806
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.180838 losetup@7f313e528d03[2070] mmap2(0x7f313e4eb000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1167360) = 0x7f313e4eb000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f313e4eb000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e528d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f313e4eb000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "1167360"
+                        }, 
+                        "time": 1642279013.180838
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.180873 losetup@7f313e528d03[2070] mmap2(0x7f313e4ed000, 424, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f313e4ed000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f313e4ed000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e528d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f313e4ed000", 
+                            "p1": "424", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642279013.180873
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.180908 losetup@7f313e5289f7[2070] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e5289f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642279013.180908
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.180953 losetup@7f313e528b0d[2070] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/librt.so.1\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e528b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/librt.so.1"
+                        }, 
+                        "time": 1642279013.180953
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.180984 losetup@7f313e528bd4[2070] read(4, 0x7ffcc39e3218, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e528bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffcc39e3218"
+                        }, 
+                        "time": 1642279013.180984
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.181013 losetup@7f313e528943[2070] fstat(4, 0x7ffcc39e30b0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e528943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffcc39e30b0"
+                        }, 
+                        "time": 1642279013.181013
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.181042 losetup@7f313e528d03[2070] mmap2(0x0, 44000, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f313e3c2000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f313e3c2000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e528d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "44000", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642279013.181042
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.181076 losetup@7f313e528d03[2070] mmap2(0x7f313e3c5000, 16384, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f313e3c5000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f313e3c5000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e528d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f313e3c5000", 
+                            "p1": "16384", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642279013.181076
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.181111 losetup@7f313e528d03[2070] mmap2(0x7f313e3c9000, 8192, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 28672) = 0x7f313e3c9000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f313e3c9000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e528d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f313e3c9000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "28672"
+                        }, 
+                        "time": 1642279013.181111
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.181150 losetup@7f313e528d03[2070] mmap2(0x7f313e3cb000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 32768) = 0x7f313e3cb000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f313e3cb000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e528d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f313e3cb000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "32768"
+                        }, 
+                        "time": 1642279013.18115
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.181192 losetup@7f313e5289f7[2070] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e5289f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642279013.181192
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.181225 losetup@7f313e528b0d[2070] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libm.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e528b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libm.so.6"
+                        }, 
+                        "time": 1642279013.181225
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.181394 losetup@7f313e528bd4[2070] read(4, 0x7ffcc39e31f8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e528bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffcc39e31f8"
+                        }, 
+                        "time": 1642279013.181394
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.181438 losetup@7f313e528943[2070] fstat(4, 0x7ffcc39e3090) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e528943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffcc39e3090"
+                        }, 
+                        "time": 1642279013.181438
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.181481 losetup@7f313e528d03[2070] mmap2(0x0, 1364240, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f313e274000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f313e274000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e528d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1364240", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642279013.181481
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.181526 losetup@7f313e528d03[2070] mmap2(0x7f313e283000, 679936, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 61440) = 0x7f313e283000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f313e283000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e528d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f313e283000", 
+                            "p1": "679936", 
+                            "p4": "4", 
+                            "p5": "61440"
+                        }, 
+                        "time": 1642279013.181526
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.181574 losetup@7f313e528d03[2070] mmap2(0x7f313e329000, 618496, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 741376) = 0x7f313e329000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f313e329000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e528d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f313e329000", 
+                            "p1": "618496", 
+                            "p4": "4", 
+                            "p5": "741376"
+                        }, 
+                        "time": 1642279013.181574
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.181618 losetup@7f313e528d03[2070] mmap2(0x7f313e3c0000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1355776) = 0x7f313e3c0000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f313e3c0000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e528d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f313e3c0000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "1355776"
+                        }, 
+                        "time": 1642279013.181618
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.181671 losetup@7f313e5289f7[2070] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e5289f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642279013.181671
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.181722 losetup@7f313e528b0d[2070] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libgcc_s.so.1\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e528b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libgcc_s.so.1"
+                        }, 
+                        "time": 1642279013.181722
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.181776 losetup@7f313e528bd4[2070] read(4, 0x7ffcc39e31d8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e528bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffcc39e31d8"
+                        }, 
+                        "time": 1642279013.181776
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.181812 losetup@7f313e528943[2070] fstat(4, 0x7ffcc39e3070) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e528943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffcc39e3070"
+                        }, 
+                        "time": 1642279013.181812
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.181850 losetup@7f313e528d03[2070] mmap2(0x0, 103504, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f313e25a000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f313e25a000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e528d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "103504", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642279013.18185
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.181890 losetup@7f313e528d03[2070] mmap2(0x7f313e25d000, 69632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f313e25d000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f313e25d000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e528d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f313e25d000", 
+                            "p1": "69632", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642279013.18189
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.181932 losetup@7f313e528d03[2070] mmap2(0x7f313e26e000, 16384, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 81920) = 0x7f313e26e000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f313e26e000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e528d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f313e26e000", 
+                            "p1": "16384", 
+                            "p4": "4", 
+                            "p5": "81920"
+                        }, 
+                        "time": 1642279013.181932
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.181975 losetup@7f313e528d03[2070] mmap2(0x7f313e272000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 94208) = 0x7f313e272000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f313e272000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e528d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f313e272000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "94208"
+                        }, 
+                        "time": 1642279013.181975
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.182164 losetup@7f313e5289f7[2070] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e5289f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642279013.182164
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.182211 losetup@7f313e528b0d[2070] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libpthread.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e528b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libpthread.so.0"
+                        }, 
+                        "time": 1642279013.182211
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.182245 losetup@7f313e528bd4[2070] read(4, 0x7ffcc39e31b8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e528bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffcc39e31b8"
+                        }, 
+                        "time": 1642279013.182245
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.182272 losetup@7f313e528943[2070] fstat(4, 0x7ffcc39e3050) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e528943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffcc39e3050"
+                        }, 
+                        "time": 1642279013.182272
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.182298 losetup@7f313e528d03[2070] mmap2(0x0, 132288, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f313e239000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f313e239000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e528d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "132288", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642279013.182298
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.182327 losetup@7f313e528d03[2070] mmap2(0x7f313e240000, 61440, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 28672) = 0x7f313e240000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f313e240000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e528d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f313e240000", 
+                            "p1": "61440", 
+                            "p4": "4", 
+                            "p5": "28672"
+                        }, 
+                        "time": 1642279013.182327
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.182361 losetup@7f313e528d03[2070] mmap2(0x7f313e24f000, 20480, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 90112) = 0x7f313e24f000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f313e24f000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e528d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f313e24f000", 
+                            "p1": "20480", 
+                            "p4": "4", 
+                            "p5": "90112"
+                        }, 
+                        "time": 1642279013.182361
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.182391 losetup@7f313e528d03[2070] mmap2(0x7f313e254000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 106496) = 0x7f313e254000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f313e254000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e528d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f313e254000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "106496"
+                        }, 
+                        "time": 1642279013.182391
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.182434 losetup@7f313e528d03[2070] mmap2(0x7f313e256000, 13504, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f313e256000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f313e256000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e528d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f313e256000", 
+                            "p1": "13504", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642279013.182434
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.182467 losetup@7f313e5289f7[2070] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e5289f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642279013.182467
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.182499 losetup@7f313e528b0d[2070] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libc.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e528b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libc.so.6"
+                        }, 
+                        "time": 1642279013.182499
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.182529 losetup@7f313e528bd4[2070] read(4, 0x7ffcc39e3198, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e528bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffcc39e3198"
+                        }, 
+                        "time": 1642279013.182529
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.182555 losetup@7f313e528943[2070] fstat(4, 0x7ffcc39e3030) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e528943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffcc39e3030"
+                        }, 
+                        "time": 1642279013.182555
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.182581 losetup@7f313e528d03[2070] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f313e237000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f313e237000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e528d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642279013.182581
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.182612 losetup@7f313e528d03[2070] mmap2(0x0, 2008696, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f313e04c000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f313e04c000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e528d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "2008696", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642279013.182612
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.182641 losetup@7f313e528d03[2070] mmap2(0x7f313e071000, 1519616, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 151552) = 0x7f313e071000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f313e071000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e528d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f313e071000", 
+                            "p1": "1519616", 
+                            "p4": "4", 
+                            "p5": "151552"
+                        }, 
+                        "time": 1642279013.182641
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.182673 losetup@7f313e528d03[2070] mmap2(0x7f313e1e4000, 299008, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1671168) = 0x7f313e1e4000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f313e1e4000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e528d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f313e1e4000", 
+                            "p1": "299008", 
+                            "p4": "4", 
+                            "p5": "1671168"
+                        }, 
+                        "time": 1642279013.182673
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.182704 losetup@7f313e528d03[2070] mmap2(0x7f313e22d000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1966080) = 0x7f313e22d000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f313e22d000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e528d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f313e22d000", 
+                            "p1": "24576", 
+                            "p4": "4", 
+                            "p5": "1966080"
+                        }, 
+                        "time": 1642279013.182704
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.182737 losetup@7f313e528d03[2070] mmap2(0x7f313e233000, 13944, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f313e233000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f313e233000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e528d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f313e233000", 
+                            "p1": "13944", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642279013.182737
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.182770 losetup@7f313e5289f7[2070] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e5289f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642279013.18277
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.182808 losetup@7f313e528b0d[2070] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libdl.so.2\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e528b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libdl.so.2"
+                        }, 
+                        "time": 1642279013.182808
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.182837 losetup@7f313e528bd4[2070] read(4, 0x7ffcc39e3178, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e528bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffcc39e3178"
+                        }, 
+                        "time": 1642279013.182837
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.182863 losetup@7f313e528943[2070] fstat(4, 0x7ffcc39e3010) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e528943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffcc39e3010"
+                        }, 
+                        "time": 1642279013.182863
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.182889 losetup@7f313e528d03[2070] mmap2(0x0, 20752, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f313e046000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f313e046000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e528d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "20752", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642279013.182889
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.182920 losetup@7f313e528d03[2070] mmap2(0x7f313e047000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 4096) = 0x7f313e047000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f313e047000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e528d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f313e047000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "4096"
+                        }, 
+                        "time": 1642279013.18292
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.182954 losetup@7f313e528d03[2070] mmap2(0x7f313e049000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f313e049000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f313e049000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e528d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f313e049000", 
+                            "p1": "4096", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642279013.182954
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.182984 losetup@7f313e528d03[2070] mmap2(0x7f313e04a000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f313e04a000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f313e04a000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e528d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f313e04a000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642279013.182984
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.183021 losetup@7f313e5289f7[2070] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e5289f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642279013.183021
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.183055 losetup@7f313e528b0d[2070] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libpcre.so.3\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e528b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libpcre.so.3"
+                        }, 
+                        "time": 1642279013.183055
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.183084 losetup@7f313e528bd4[2070] read(4, 0x7ffcc39e3158, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e528bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffcc39e3158"
+                        }, 
+                        "time": 1642279013.183084
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.183130 losetup@7f313e528943[2070] fstat(4, 0x7ffcc39e2ff0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e528943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffcc39e2ff0"
+                        }, 
+                        "time": 1642279013.18313
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.183160 losetup@7f313e528d03[2070] mmap2(0x0, 471304, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f313dfd2000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f313dfd2000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e528d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "471304", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642279013.18316
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.183198 losetup@7f313e528d03[2070] mmap2(0x7f313dfd4000, 335872, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 8192) = 0x7f313dfd4000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f313dfd4000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e528d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f313dfd4000", 
+                            "p1": "335872", 
+                            "p4": "4", 
+                            "p5": "8192"
+                        }, 
+                        "time": 1642279013.183198
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.183251 losetup@7f313e528d03[2070] mmap2(0x7f313e026000, 122880, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 344064) = 0x7f313e026000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f313e026000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e528d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f313e026000", 
+                            "p1": "122880", 
+                            "p4": "4", 
+                            "p5": "344064"
+                        }, 
+                        "time": 1642279013.183251
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.183286 losetup@7f313e528d03[2070] mmap2(0x7f313e044000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 462848) = 0x7f313e044000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f313e044000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e528d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f313e044000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "462848"
+                        }, 
+                        "time": 1642279013.183286
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.183322 losetup@7f313e5289f7[2070] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e5289f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642279013.183322
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.184141 losetup@7f313e528d03[2070] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f313dfd0000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f313dfd0000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e528d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642279013.184141
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.184188 losetup@7f313e50df30[2070] arch_prctl(ARCH_SET_FS, 139849470120256) = 0\n", 
+                        "api": "arch_prctl", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e50df30", 
+                        "arguments": {
+                            "p0": "ARCH_SET_FS", 
+                            "p1": "139849470120256"
+                        }, 
+                        "time": 1642279013.184188
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.184673 losetup@7f313e528db7[2070] mprotect(0x7f313e22d000, 12288, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e528db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f313e22d000", 
+                            "p1": "12288"
+                        }, 
+                        "time": 1642279013.184673
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.184718 losetup@7f313e528db7[2070] mprotect(0x7f313e254000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e528db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f313e254000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642279013.184718
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.184766 losetup@7f313e528db7[2070] mprotect(0x7f313e044000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e528db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f313e044000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642279013.184766
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.184800 losetup@7f313e528db7[2070] mprotect(0x7f313e04a000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e528db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f313e04a000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642279013.1848
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.184858 losetup@7f313e528db7[2070] mprotect(0x7f313e272000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e528db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f313e272000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642279013.184858
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.184908 losetup@7f313e528db7[2070] mprotect(0x7f313e3c0000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e528db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f313e3c0000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642279013.184908
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.184941 losetup@7f313e528db7[2070] mprotect(0x7f313e3cb000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e528db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f313e3cb000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642279013.184941
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.185140 losetup@7f313e528db7[2070] mprotect(0x7f313e4eb000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e528db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f313e4eb000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642279013.18514
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.185190 losetup@7f313e528db7[2070] mprotect(0x7f313e4f2000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e528db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f313e4f2000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642279013.18519
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.188176 losetup@7f313e528db7[2070] mprotect(0x5557dee3f000, 303104, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e528db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x5557dee3f000", 
+                            "p1": "303104"
+                        }, 
+                        "time": 1642279013.188176
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.188224 losetup@7f313e528db7[2070] mprotect(0x7f313e536000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e528db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f313e536000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642279013.188224
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.188259 losetup@7f313e528d97[2070] munmap(0x7f313e4f6000, 88858) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e528d97", 
+                        "arguments": {
+                            "p0": "0x7f313e4f6000", 
+                            "p1": "88858"
+                        }, 
+                        "time": 1642279013.188259
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.188313 losetup@7f313e2408df[2070] set_tid_address(0x7f313dfd1410) = 2070\n", 
+                        "api": "set_tid_address", 
+                        "return_value": "2070", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e2408df", 
+                        "arguments": {
+                            "p0": "0x7f313dfd1410"
+                        }, 
+                        "time": 1642279013.188313
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.188345 losetup@7f313e24094a[2070] set_robust_list(0x7f313dfd1420, 24) = 0\n", 
+                        "api": "set_robust_list", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e24094a", 
+                        "arguments": {
+                            "p0": "0x7f313dfd1420", 
+                            "p1": "24"
+                        }, 
+                        "time": 1642279013.188345
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.188382 losetup@7f313e24d010[2070] rt_sigaction(0x20, {0x7f313e2406c0, SA_SIGINFO|SA_RESTORER, 0x7f313e24cf40, [EMPTY]}, 0x0, 8) = 0\n", 
+                        "api": "rt_sigaction", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e24d010", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "0x20", 
+                            "p1": [
+                                "0x7f313e2406c0", 
+                                "SA_SIGINFO|SA_RESTORER", 
+                                "0x7f313e24cf40", 
+                                [
+                                    "EMPTY]"
+                                ]
+                            ]
+                        }, 
+                        "time": 1642279013.188382
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.188414 losetup@7f313e24d010[2070] rt_sigaction(0x21, {0x7f313e240760, SA_RESTART|SA_SIGINFO|SA_RESTORER, 0x7f313e24cf40, [EMPTY]}, 0x0, 8) = 0\n", 
+                        "api": "rt_sigaction", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e24d010", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "0x21", 
+                            "p1": [
+                                "0x7f313e240760", 
+                                "SA_RESTART|SA_SIGINFO|SA_RESTORER", 
+                                "0x7f313e24cf40", 
+                                [
+                                    "EMPTY]"
+                                ]
+                            ]
+                        }, 
+                        "time": 1642279013.188414
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.188445 losetup@7f313e240a19[2070] rt_sigprocmask(SIG_UNBLOCK, [EMPTY], 0x0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e240a19", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "SIG_UNBLOCK", 
+                            "p1": [
+                                "EMPTY"
+                            ]
+                        }, 
+                        "time": 1642279013.188445
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.188487 losetup@7f313e15edf0[2070] prlimit64(0, RLIMIT_STACK, NULL, 0x7ffcc39e3e30) = 0\n", 
+                        "api": "prlimit64", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e15edf0", 
+                        "arguments": {
+                            "p2": "NULL", 
+                            "p3": "0x7ffcc39e3e30", 
+                            "p0": "0", 
+                            "p1": "RLIMIT_STACK"
+                        }, 
+                        "time": 1642279013.188487
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.188724 losetup@7f313e15f2f7[2070] brk(0x0) = 93835926622208\n", 
+                        "api": "brk", 
+                        "return_value": "93835926622208", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e15f2f7", 
+                        "arguments": {
+                            "p0": "0x0"
+                        }, 
+                        "time": 1642279013.188724
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.188755 losetup@7f313e15f2f7[2070] brk(0x5557e114e000) = 93835926757376\n", 
+                        "api": "brk", 
+                        "return_value": "93835926757376", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e15f2f7", 
+                        "arguments": {
+                            "p0": "0x5557e114e000"
+                        }, 
+                        "time": 1642279013.188755
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.189658 losetup@7f313e249b86[2070] rt_sigprocmask(SIG_SETMASK, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS], 0x7ffcc39e3d80, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e249b86", 
+                        "arguments": {
+                            "p2": "0x7ffcc39e3d80", 
+                            "p3": "8", 
+                            "p0": "SIG_SETMASK", 
+                            "p1": [
+                                "SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS"
+                            ]
+                        }, 
+                        "time": 1642279013.189658
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.190391 losetup@7f313e1634c3[2070] mmap2(0x0, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f313d7cf000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f313d7cf000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e1634c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK", 
+                            "p0": "0x0", 
+                            "p1": "8392704", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642279013.190391
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.190428 losetup@7f313e163597[2070] mprotect(0x7f313d7d0000, 8388608, PROT_READ|PROT_WRITE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e163597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p0": "0x7f313d7d0000", 
+                            "p1": "8388608"
+                        }, 
+                        "time": 1642279013.190428
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.190474 losetup@7f313e169b11[2070] clone(CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, 0x7f313dfcef70, 0x7f313dfcf9d0, 0x7f313dfcf9d0) = 2071\n", 
+                        "api": "clone", 
+                        "return_value": "2071", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e169b11", 
+                        "arguments": {
+                            "p2": "0x7f313dfcf9d0", 
+                            "p3": "0x7f313dfcf9d0", 
+                            "p0": "CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID", 
+                            "p1": "0x7f313dfcef70"
+                        }, 
+                        "time": 1642279013.190474
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.190553 losetup@7f313e249b86[2070] rt_sigprocmask(SIG_SETMASK, [EMPTY], 0x0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e249b86", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "SIG_SETMASK", 
+                            "p1": [
+                                "EMPTY"
+                            ]
+                        }, 
+                        "time": 1642279013.190553
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.192813 losetup@7f313e15edf0[2070] prlimit64(0, RLIMIT_STACK, NULL, 0x7ffcc39e3940) = 0\n", 
+                        "api": "prlimit64", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e15edf0", 
+                        "arguments": {
+                            "p2": "NULL", 
+                            "p3": "0x7ffcc39e3940", 
+                            "p0": "0", 
+                            "p1": "RLIMIT_STACK"
+                        }, 
+                        "time": 1642279013.192813
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.192912 losetup@7f313e15e5c1[2070] openat(AT_FDCWD, \"/etc/qemu-binfmt/sparc\", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -2 (ENOENT)\n", 
+                        "api": "openat", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e15e5c1", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/etc/qemu-binfmt/sparc"
+                        }, 
+                        "time": 1642279013.192912
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.193019 losetup@7f313e12d247[2070] uname(0x7ffcc39e35b0) = 0\n", 
+                        "api": "uname", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e12d247", 
+                        "arguments": {
+                            "p0": "0x7ffcc39e35b0"
+                        }, 
+                        "time": 1642279013.193019
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.193099 losetup@7f313e24c337[2070] lseek(3, 0, SEEK_SET) = 0\n", 
+                        "api": "lseek", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e24c337", 
+                        "arguments": {
+                            "p2": "SEEK_SET", 
+                            "p0": "3", 
+                            "p1": "0"
+                        }, 
+                        "time": 1642279013.193099
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.193161 losetup@7f313e24bd94[2070] read(3, 0x7ffcc39e38a0, 52) = 52\n", 
+                        "api": "read", 
+                        "return_value": "52", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e24bd94", 
+                        "arguments": {
+                            "p2": "52", 
+                            "p0": "3", 
+                            "p1": "0x7ffcc39e38a0"
+                        }, 
+                        "time": 1642279013.193161
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.193219 losetup@7f313e24c337[2070] lseek(3, 0, SEEK_SET) = 0\n", 
+                        "api": "lseek", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e24c337", 
+                        "arguments": {
+                            "p2": "SEEK_SET", 
+                            "p0": "3", 
+                            "p1": "0"
+                        }, 
+                        "time": 1642279013.193219
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.196688 losetup@7f313e1634c3[2070] mmap2(0x0, 528384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f313d74e000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f313d74e000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e1634c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "528384", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642279013.196688
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.197487 losetup@7f313e163597[2070] mprotect(0x5557dee9c000, 33550336, PROT_READ|PROT_WRITE|PROT_EXEC) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e163597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE|PROT_EXEC", 
+                            "p0": "0x5557dee9c000", 
+                            "p1": "33550336"
+                        }, 
+                        "time": 1642279013.197487
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.197615 losetup@7f313e163667[2070] madvise(0x5557dee9c000, 33550336, MADV_HUGEPAGE) = 0\n", 
+                        "api": "madvise", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e163667", 
+                        "arguments": {
+                            "p2": "MADV_HUGEPAGE", 
+                            "p0": "0x5557dee9c000", 
+                            "p1": "33550336"
+                        }, 
+                        "time": 1642279013.197615
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.197914 losetup@7f313e1634c3[2070] mmap2(0x0, 4294963200, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f3038001000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3038001000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e1634c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x0", 
+                            "p1": "4294963200", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642279013.197914
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.198136 losetup@7f313e158d59[2070] openat(AT_FDCWD, \"/proc/sys/vm/mmap_min_addr\", O_RDONLY) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e158d59", 
+                        "arguments": {
+                            "p2": "O_RDONLY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/proc/sys/vm/mmap_min_addr"
+                        }, 
+                        "time": 1642279013.198136
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.198241 losetup@7f313e158613[2070] fstat(4, 0x7ffcc39e2fb0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e158613", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffcc39e2fb0"
+                        }, 
+                        "time": 1642279013.198241
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.198352 losetup@7f313e158fb4[2070] read(4, 0x5557e113a3d0, 1024) = 6\n", 
+                        "api": "read", 
+                        "return_value": "6", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e158fb4", 
+                        "arguments": {
+                            "p2": "1024", 
+                            "p0": "4", 
+                            "p1": "0x5557e113a3d0"
+                        }, 
+                        "time": 1642279013.198352
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.198439 losetup@7f313e15e3f7[2070] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e15e3f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642279013.198439
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.198539 losetup@7f313e1632e9[2070] gettid() = 2070\n", 
+                        "api": "gettid", 
+                        "return_value": "2070", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e1632e9", 
+                        "arguments": {}, 
+                        "time": 1642279013.198539
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.198644 losetup@7f313e158613[2070] fstat(3, 0x7ffcc39e3820) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e158613", 
+                        "arguments": {
+                            "p0": "3", 
+                            "p1": "0x7ffcc39e3820"
+                        }, 
+                        "time": 1642279013.198644
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.198704 losetup@7f313e12e717[2070] geteuid() = 0\n", 
+                        "api": "geteuid", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e12e717", 
+                        "arguments": {}, 
+                        "time": 1642279013.198704
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.198777 losetup@7f313e12e737[2070] getegid() = 0\n", 
+                        "api": "getegid", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e12e737", 
+                        "arguments": {}, 
+                        "time": 1642279013.198777
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.198862 losetup@7f313e24bd94[2070] read(3, 0x7ffcc39e3a20, 1024) = 1024\n", 
+                        "api": "read", 
+                        "return_value": "1024", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e24bd94", 
+                        "arguments": {
+                            "p2": "1024", 
+                            "p0": "3", 
+                            "p1": "0x7ffcc39e3a20"
+                        }, 
+                        "time": 1642279013.198862
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.198943 losetup@7f313e1634c3[2070] mmap2(0x7f3038011000, 24576, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 3, 0) = 0x7f3038011000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3038011000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e1634c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED", 
+                            "p0": "0x7f3038011000", 
+                            "p1": "24576", 
+                            "p4": "3", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642279013.198943
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.199038 losetup@7f313e15f2f7[2070] brk(0x5557e116f000) = 93835926892544\n", 
+                        "api": "brk", 
+                        "return_value": "93835926892544", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e15f2f7", 
+                        "arguments": {
+                            "p0": "0x5557e116f000"
+                        }, 
+                        "time": 1642279013.199038
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.199113 losetup@7f313e1634c3[2070] mmap2(0x7f3038026000, 4096, PROT_READ|PROT_WRITE|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 3, 20480) = 0x7f3038026000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3038026000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e1634c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED", 
+                            "p0": "0x7f3038026000", 
+                            "p1": "4096", 
+                            "p4": "3", 
+                            "p5": "20480"
+                        }, 
+                        "time": 1642279013.199113
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.199171 losetup@7f313e24be27[2070] close(3) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e24be27", 
+                        "arguments": {
+                            "p0": "3"
+                        }, 
+                        "time": 1642279013.199171
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.199259 losetup@7f313e1634c3[2070] mmap2(0x7f31377ff000, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f31377ff000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f31377ff000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e1634c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f31377ff000", 
+                            "p1": "8392704", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642279013.199259
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.199395 losetup@7f313e163597[2070] mprotect(0x7f31377ff000, 4096, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e163597", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7f31377ff000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642279013.199395
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.199455 losetup@7f313e24c55e[2070] openat(AT_FDCWD, \"/lib/ld-linux.so.2\", O_RDONLY) = -2 (ENOENT)\n", 
+                        "api": "openat", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e24c55e", 
+                        "arguments": {
+                            "p2": "O_RDONLY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/ld-linux.so.2"
+                        }, 
+                        "time": 1642279013.199455
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.199544 losetup@7f313e159057[2070] write(2, \"/lib/ld-linux.so.2: No such file or directory\\n\", 46) = 46\n", 
+                        "api": "write", 
+                        "return_value": "46", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e159057", 
+                        "arguments": {
+                            "p2": "46", 
+                            "p0": "2", 
+                            "p1": "/lib/ld-linux.so.2: No such file or directory\n"
+                        }, 
+                        "time": 1642279013.199544
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.199647 losetup@7f313e12d926[2070] exit_group(-1)\n", 
+                        "api": "exit_group", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e12d926", 
+                        "arguments": {
+                            "p0": "-1"
+                        }, 
+                        "time": 1642279013.199647
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:36:53 2022.199692 losetup@7f313e12d926[2070] futex(0x7f313dfd1410, FUTEX_WAKE, 1) = 0\n", 
+                        "api": "futex", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e12d926", 
+                        "arguments": {
+                            "p2": "1", 
+                            "p0": "0x7f313dfd1410", 
+                            "p1": "FUTEX_WAKE"
+                        }, 
+                        "time": 1642279013.199692
+                    }
+                ], 
+                "pid": 2070, 
+                "process_name": "losetup", 
+                "command_line": "/tmp/losetup", 
+                "first_seen": 1642279013.176424, 
+                "ppid": -1, 
+                "type": "process"
+            }, 
+            {
+                "calls": [
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:36:53 2022.190634 losetup@7f313e242117[2071] set_robust_list(0x7f313dfcf9e0, 24) = 0\n", 
+                        "api": "set_robust_list", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e242117", 
+                        "arguments": {
+                            "p0": "0x7f313dfcf9e0", 
+                            "p1": "24"
+                        }, 
+                        "time": 1642279013.190634
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:36:53 2022.190681 losetup@7f313e1634c3[2071] mmap2(0x0, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f31357cf000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f31357cf000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e1634c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x0", 
+                            "p1": "134217728", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642279013.190681
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:36:53 2022.190718 losetup@7f313e163567[2071] munmap(0x7f31357cf000, 42143744) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e163567", 
+                        "arguments": {
+                            "p0": "0x7f31357cf000", 
+                            "p1": "42143744"
+                        }, 
+                        "time": 1642279013.190718
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:36:53 2022.190763 losetup@7f313e163567[2071] munmap(0x7f313c000000, 24965120) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e163567", 
+                        "arguments": {
+                            "p0": "0x7f313c000000", 
+                            "p1": "24965120"
+                        }, 
+                        "time": 1642279013.190763
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:36:53 2022.190794 losetup@7f313e163597[2071] mprotect(0x7f3138000000, 135168, PROT_READ|PROT_WRITE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e163597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p0": "0x7f3138000000", 
+                            "p1": "135168"
+                        }, 
+                        "time": 1642279013.190794
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "losetup", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:36:53 2022.190839 losetup@7f313e24c440[2071] nanosleep([0.010000000], 0x7f313dfcedc0) = -516\n", 
+                        "api": "nanosleep", 
+                        "return_value": "-516", 
+                        "category": "process", 
+                        "instruction_pointer": "7f313e24c440", 
+                        "arguments": {
+                            "p0": [
+                                "0.010000000"
+                            ], 
+                            "p1": "0x7f313dfcedc0"
+                        }, 
+                        "time": 1642279013.190839
+                    }
+                ], 
+                "pid": 2071, 
+                "process_name": "losetup", 
+                "command_line": "", 
+                "first_seen": 1642279013.190634, 
+                "ppid": 2070, 
+                "type": "process"
+            }
+        ], 
+        "processtree": [
+            {
+                "track": true, 
+                "pid": 2070, 
+                "process_name": "losetup", 
+                "command_line": "/tmp/losetup", 
+                "first_seen": 1642279013.176424, 
+                "ppid": -1, 
+                "children": [
+                    {
+                        "track": true, 
+                        "pid": 2071, 
+                        "process_name": "losetup", 
+                        "command_line": "", 
+                        "first_seen": 1642279013.190634, 
+                        "ppid": 2070, 
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    }, 
+    "debug": {
+        "action": [], 
+        "dbgview": [], 
+        "errors": [], 
+        "log": [
+            "2022-01-15 20:36:45,002 [root] DEBUG: Starting analyzer from: /tmp/tmpGYmbCY\n", 
+            "2022-01-15 20:36:45,003 [root] DEBUG: Storing results at: /tmp/CfUuGCgBc\n", 
+            "2022-01-15 20:36:47,191 [modules.auxiliary.filecollector] INFO: FileCollector started v0.08\n", 
+            "2022-01-15 20:36:47,193 [modules.auxiliary.human] INFO: Human started v0.02\n", 
+            "2022-01-15 20:36:47,694 [modules.auxiliary.screenshots] INFO: Screenshots started v0.03\n", 
+            "2022-01-15 20:36:53,170 [lib.core.packages] INFO: Process startup took 5.47 seconds\n", 
+            "2022-01-15 20:36:53,171 [root] INFO: Added new process to list with pid: 2060\n", 
+            "2022-01-15 20:36:59,177 [root] INFO: Process with pid 2060 has terminated\n", 
+            "2022-01-15 20:36:59,178 [root] INFO: Process list is empty, terminating analysis.\n", 
+            "2022-01-15 20:37:02,181 [lib.core.packages] INFO: Package requested stop\n", 
+            "2022-01-15 20:37:02,182 [lib.core.packages] WARNING: Exception uploading log: [Errno 3] No such process\n"
+        ], 
+        "cuckoo": [
+            "2022-01-16 05:29:54,247 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:30:04,276 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:30:14,308 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:30:24,373 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:30:34,397 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:30:44,429 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:30:54,449 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:31:04,486 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:31:14,522 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:31:24,553 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:31:34,592 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:31:44,623 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:31:54,687 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:32:04,730 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:32:14,766 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:32:24,809 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:32:34,853 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:32:44,891 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:32:54,946 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:33:05,010 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:33:15,054 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:33:25,088 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:33:35,115 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:33:45,140 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:33:55,166 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:34:05,186 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:34:15,211 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:34:25,236 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:34:35,263 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:34:45,285 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:34:55,312 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:35:05,338 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:35:15,379 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:35:25,408 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:35:35,440 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:35:45,476 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:35:55,507 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:36:05,532 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:36:15,557 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:36:25,599 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:36:35,635 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:36:45,666 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:36:55,707 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:37:05,841 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:37:15,881 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:37:25,961 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:37:35,996 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:37:46,035 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:37:56,089 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:38:06,376 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:38:16,474 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:38:26,538 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:38:36,587 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:38:46,616 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:38:56,641 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:39:06,678 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:39:16,702 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:39:26,727 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:39:36,749 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:39:46,769 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:39:56,789 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:40:06,812 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:40:16,837 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:40:26,865 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:40:36,897 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:40:46,949 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:40:56,986 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:41:07,046 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:41:17,088 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:41:27,131 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:41:37,165 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:41:47,325 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:41:57,385 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:42:07,453 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:42:17,492 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:42:27,524 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:42:37,571 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:42:47,595 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:42:57,618 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:43:07,644 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:43:17,664 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:43:27,686 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:43:37,712 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:43:47,737 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:43:57,756 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:44:07,781 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:44:17,804 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:44:27,824 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:44:37,921 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:44:48,007 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:44:58,036 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:45:08,058 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:45:18,085 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:45:28,110 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:45:38,232 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:45:48,286 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:45:58,480 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:46:08,565 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:46:18,622 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:46:28,650 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:46:38,692 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:46:48,715 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:46:58,738 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:47:08,763 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:47:18,793 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:47:28,816 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:47:38,842 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:47:48,869 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:47:58,899 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:48:08,924 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:48:18,952 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:48:28,986 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:48:39,011 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:48:49,035 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:48:59,055 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:49:09,181 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:49:19,223 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:49:29,276 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:49:39,302 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:49:49,341 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:49:59,375 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:50:09,403 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:50:19,554 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:50:29,601 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:50:39,640 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:50:49,673 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:50:59,708 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:51:09,736 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:51:19,769 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:51:30,303 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:51:40,336 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:51:50,362 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:52:00,393 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:52:10,444 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:52:20,486 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:52:30,538 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:52:40,572 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:52:50,672 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:53:00,699 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:53:10,723 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:53:20,750 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:53:30,779 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:53:40,819 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:53:50,846 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:54:00,889 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:54:10,930 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:54:20,981 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:54:31,009 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:54:41,037 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:54:51,082 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:55:01,109 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:55:11,133 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:55:21,173 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:55:31,214 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:55:41,239 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:55:51,264 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:56:01,300 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:56:11,334 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:56:21,360 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:56:31,384 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:56:41,409 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:56:51,434 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:57:01,461 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:57:11,505 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:57:21,531 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:57:31,553 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:57:41,578 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:57:51,608 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:58:01,661 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:58:11,708 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:58:21,753 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:58:31,793 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:58:41,826 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:58:51,856 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:59:01,886 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:59:11,937 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:59:21,978 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:59:32,073 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:59:42,112 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 05:59:52,146 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 06:00:02,185 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 06:00:12,244 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 06:00:22,281 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 06:00:32,304 [cuckoo.core.scheduler] DEBUG: Task #2651191: no machine available yet\n", 
+            "2022-01-16 06:00:42,342 [cuckoo.core.scheduler] INFO: Task #2651191: acquired machine Ubuntu1904x641 (label=Ubuntu1904x641)\n", 
+            "2022-01-16 06:00:42,343 [cuckoo.core.resultserver] DEBUG: Now tracking machine 192.168.168.101 for task #2651191\n", 
+            "2022-01-16 06:00:42,536 [cuckoo.auxiliary.sniffer] INFO: Started sniffer with PID 3376588 (interface=vboxnet0, host=192.168.168.101)\n", 
+            "2022-01-16 06:00:42,664 [cuckoo.machinery.virtualbox] DEBUG: Starting vm Ubuntu1904x641\n", 
+            "2022-01-16 06:00:43,067 [cuckoo.machinery.virtualbox] DEBUG: Restoring virtual machine Ubuntu1904x641 to Snapshot\n", 
+            "2022-01-16 06:00:52,275 [cuckoo.core.guest] INFO: Starting analysis #2651191 on guest (id=Ubuntu1904x641, ip=192.168.168.101)\n", 
+            "2022-01-16 06:00:53,280 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: not ready yet\n", 
+            "2022-01-16 06:00:58,296 [cuckoo.core.guest] INFO: Guest is running Cuckoo Agent 0.10 (id=Ubuntu1904x641, ip=192.168.168.101)\n", 
+            "2022-01-16 06:00:58,313 [cuckoo.core.guest] DEBUG: Uploading analyzer to guest (id=Ubuntu1904x641, ip=192.168.168.101, monitor=latest, size=72028)\n", 
+            "2022-01-16 06:00:58,567 [cuckoo.core.resultserver] DEBUG: Task #2651191: live log analysis.log initialized.\n", 
+            "2022-01-16 06:01:04,104 [cuckoo.core.resultserver] DEBUG: Task #2651191: File upload for 'shots/0001.jpg'\n", 
+            "2022-01-16 06:01:04,151 [cuckoo.core.resultserver] DEBUG: Task #2651191 uploaded file length: 171580\n", 
+            "2022-01-16 06:01:06,835 [cuckoo.core.resultserver] DEBUG: Task #2651191: File upload for 'shots/0002.jpg'\n", 
+            "2022-01-16 06:01:06,850 [cuckoo.core.resultserver] DEBUG: Task #2651191 uploaded file length: 173402\n", 
+            "2022-01-16 06:01:13,482 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2651191 still processing\n", 
+            "2022-01-16 06:01:15,703 [cuckoo.core.resultserver] DEBUG: Task #2651191: File upload for 'logs/all.stap'\n", 
+            "2022-01-16 06:01:15,706 [cuckoo.core.resultserver] DEBUG: Task #2651191 uploaded file length: 18682\n", 
+            "2022-01-16 06:01:28,553 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2651191 still processing\n", 
+            "2022-01-16 06:01:43,617 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2651191 still processing\n", 
+            "2022-01-16 06:01:58,750 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2651191 still processing\n", 
+            "2022-01-16 06:02:13,805 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2651191 still processing\n", 
+            "2022-01-16 06:02:28,869 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2651191 still processing\n", 
+            "2022-01-16 06:02:43,945 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2651191 still processing\n", 
+            "2022-01-16 06:02:59,104 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2651191 still processing\n", 
+            "2022-01-16 06:03:14,161 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2651191 still processing\n", 
+            "2022-01-16 06:03:29,228 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2651191 still processing\n", 
+            "2022-01-16 06:03:44,296 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2651191 still processing\n", 
+            "2022-01-16 06:03:59,356 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2651191 still processing\n", 
+            "2022-01-16 06:04:14,416 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2651191 still processing\n", 
+            "2022-01-16 06:04:29,485 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2651191 still processing\n", 
+            "2022-01-16 06:04:44,542 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2651191 still processing\n", 
+            "2022-01-16 06:04:59,602 [cuckoo.core.guest] INFO: Ubuntu1904x641: end of analysis reached!\n", 
+            "2022-01-16 06:04:59,609 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Redsocks\n", 
+            "2022-01-16 06:04:59,677 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Sniffer\n", 
+            "2022-01-16 06:05:13,257 [cuckoo.machinery.virtualbox] INFO: Successfully generated memory dump for virtual machine with label Ubuntu1904x641 to path /srv/cuckoo/cwd/storage/analyses/2651191/memory.dmp\n", 
+            "2022-01-16 06:05:13,258 [cuckoo.machinery.virtualbox] DEBUG: Stopping vm Ubuntu1904x641\n", 
+            "2022-01-16 06:05:17,237 [cuckoo.core.resultserver] DEBUG: Stopped tracking machine 192.168.168.101 for task #2651191\n", 
+            "2022-01-16 06:05:17,238 [cuckoo.core.resultserver] DEBUG: Cancel <Context for LOG> for task 2651191\n", 
+            "2022-01-16 06:05:17,359 [cuckoo.core.scheduler] DEBUG: Released database task #2651191\n", 
+            "2022-01-16 06:05:17,654 [cuckoo.core.scheduler] INFO: Task #2651191: analysis procedure completed\n"
+        ]
+    }, 
+    "strings": [
+        "/lib/ld-linux.so.2", 
+        "_Jv_RegisterClasses", 
+        "__gmon_start__", 
+        "libc.so.6", 
+        "putchar", 
+        "strcpy", 
+        "strerror", 
+        "getopt_long", 
+        "snprintf", 
+        "__strtol_internal", 
+        "memcpy", 
+        "perror", 
+        "__cxa_finalize", 
+        "getpass", 
+        "malloc", 
+        "optarg", 
+        "strrchr", 
+        "dcgettext", 
+        "optind", 
+        "strncpy", 
+        "strcasecmp", 
+        "realloc", 
+        "__strdup", 
+        "sscanf", 
+        "__xstat64", 
+        "memset", 
+        "open64", 
+        "sprintf", 
+        "setlocale", 
+        "stderr", 
+        "__ctype_b_loc", 
+        "__errno_location", 
+        "bindtextdomain", 
+        "_IO_stdin_used", 
+        "__libc_start_main", 
+        "strlen", 
+        "mlockall", 
+        "vfprintf", 
+        "GLIBC_2.3", 
+        "GLIBC_2.1.3", 
+        "GLIBC_2.1", 
+        "GLIBC_2.2", 
+        "GLIBC_2.0", 
+        "usage:", 
+        "  %s loop_device                                      # give info", 
+        "  %s -d loop_device                                   # delete", 
+        "  %s -f                                               # find unused", 
+        "  %s [ options ] {-f|loop_device} file                # setup", 
+        "    where options include", 
+        "    --offset <num>, -o <num>", 
+        "        start at offset <num> into file.", 
+        "    --pass-fd <num>, -p <num>", 
+        "        read passphrase from file descriptor <num>", 
+        "        instead of the terminal.", 
+        "    --encryption <cipher>, -e <cipher>", 
+        "        encrypt with <cipher>.", 
+        "        Check /proc/crypto or /proc/crypto/cipher for available ciphers.", 
+        "    --nohashpass, -N", 
+        "Don't hash the password given.  (previous versions hash, non-debian doesn't.", 
+        "    --keybits <num>, -k <num>", 
+        "        specify number of bits in the hashed key given", 
+        "        to the cipher.  Some ciphers support several key", 
+        "        sizes and might be more efficient with a smaller", 
+        "        key size.  Key sizes < 128 are generally not", 
+        "        recommended", 
+        "not enough memory", 
+        "loop: can't delete device %s: %s", 
+        "ioctl: LOOP_CLR_FD", 
+        "del_loop(%s): success", 
+        "Out of memory while reading passphrase", 
+        "/proc/crypto/cipher", 
+        "%s-cbc", 
+        "memlock", 
+        "Couldn't lock into memory, exiting.", 
+        "Password: ", 
+        "ioctl: LOOP_SET_FD", 
+        "The cipher does not exist, or a cipher module needs to be loaded into the kernel", 
+        "ioctl: LOOP_SET_STATUS", 
+        "ioctl: LOOP_SET_STATUS64", 
+        "set_loop(%s,%s,%llu): success", 
+        "/dev/loop%d", 
+        "/dev/loop/%d", 
+        "%s: could not find any device /dev/loop#", 
+        "%s: no permission to look at /dev/loop#", 
+        "%s: Could not find any loop device. Maybe this kernel does not know", 
+        "       about the loop device? (If so, recompile or `modprobe loop'.)", 
+        "%s: could not find any free loop device", 
+        "util-linux", 
+        "/usr/share/locale", 
+        "de:E:fhk:No:p:v", 
+        "Loop device is %s", 
+        "loop: can't open device %s: %s", 
+        "%s: [%04llx]:%llu (%s)", 
+        ", offset %lld", 
+        ", sizelimit %lld", 
+        ", encryption %s (type %d)", 
+        "%s: [%04x]:%ld (%s)", 
+        ", offset %d", 
+        ", encryption type %d", 
+        "%s: [%04x]:%ld (%s) offset %d, %s encryption", 
+        "undefined", 
+        "loop: can't get info on device %s: %s", 
+        "twofish", 
+        "blowfish", 
+        "serpent", 
+        "des-ede3", 
+        "rijndael", 
+        "delete", 
+        "detach", 
+        "encryption", 
+        "nopasshash", 
+        "nohashpass", 
+        "offset", 
+        "pass-fd", 
+        "verbose", 
+        "keybits", 
+        "GCC: (GNU) 4.1.2 20061115 (prerelease) (Debian 4.1.1-21)", 
+        "GCC: (GNU) 4.1.2 20061115 (prerelease) (Debian 4.1.1-21)", 
+        "GCC: (GNU) 4.1.2 20061115 (prerelease) (Debian 4.1.1-21)", 
+        "GCC: (GNU) 4.1.2 20061115 (prerelease) (Debian 4.1.1-21)", 
+        "GCC: (GNU) 4.1.2 20061115 (prerelease) (Debian 4.1.1-21)", 
+        "GCC: (GNU) 4.1.2 20061115 (prerelease) (Debian 4.1.1-21)", 
+        "GCC: (GNU) 4.1.2 20061115 (prerelease) (Debian 4.1.1-21)", 
+        "GCC: (GNU) 4.1.2 20061115 (prerelease) (Debian 4.1.1-21)", 
+        "GCC: (GNU) 4.1.2 20061115 (prerelease) (Debian 4.1.1-21)", 
+        ".shstrtab", 
+        ".interp", 
+        ".note.ABI-tag", 
+        ".dynsym", 
+        ".dynstr", 
+        ".gnu.version", 
+        ".gnu.version_r", 
+        ".rela.dyn", 
+        ".rela.plt", 
+        ".rodata", 
+        ".eh_frame", 
+        ".ctors", 
+        ".dtors", 
+        ".dynamic", 
+        ".comment"
+    ], 
+    "metadata": {
+        "output": {
+            "pcap": {
+                "basename": "dump.pcap", 
+                "sha256": "c1e2d61fbd5cb41e91201ca5e0104260166ea6f7a361f40ffbf22de6c50e98d0", 
+                "dirname": ""
+            }
+        }
+    }
+}
