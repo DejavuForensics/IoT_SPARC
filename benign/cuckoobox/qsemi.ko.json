@@ -1,0 +1,551 @@
+{
+    "info": {
+        "added": 1642281803.616784, 
+        "started": 1642318655.044795, 
+        "duration": 401, 
+        "ended": 1642319056.899953, 
+        "owner": null, 
+        "score": 0.0, 
+        "id": 2651543, 
+        "category": "file", 
+        "git": {
+            "head": "e8f6317b4b3ef806085a1e99e64c6ff01f26948f", 
+            "fetch_head": "e8f6317b4b3ef806085a1e99e64c6ff01f26948f"
+        }, 
+        "monitor": "2deb9ccd75d5a7a3fe05b2625b03a8639d6ee36b", 
+        "package": "elf", 
+        "route": "internet", 
+        "custom": null, 
+        "machine": {
+            "status": "stopped", 
+            "name": "Ubuntu1904x645", 
+            "label": "Ubuntu1904x645", 
+            "platform": "linux", 
+            "manager": "VirtualBox", 
+            "started_on": "2022-01-16 07:39:17", 
+            "shutdown_on": "2022-01-16 07:44:16"
+        }, 
+        "platform": "linux", 
+        "version": "2.0.7", 
+        "options": "procmemdump=yes,route=internet"
+    }, 
+    "signatures": [], 
+    "target": {
+        "category": "file", 
+        "file": {
+            "mimetype": "application/x-object", 
+            "yara": [], 
+            "sha1": "80b7fa64a2b7c4cbe038e20645e833b2ff22e77d", 
+            "name": "qsemi.ko", 
+            "type": "ELF 32-bit MSB relocatable, SPARC, version 1 (SYSV), not stripped", 
+            "sha256": "0b481531ab799c089610474e19df5e0e0696a2a1db7aa15403766535ae3f2ccf", 
+            "urls": [], 
+            "crc32": "BB4923EF", 
+            "path": "/srv/cuckoo/cwd/storage/binaries/0b481531ab799c089610474e19df5e0e0696a2a1db7aa15403766535ae3f2ccf", 
+            "ssdeep": "48:ha72qDlZUTNaKZaKJhRfsKCN8CvnkPdlnTp0i3kZd3W1Bru:hw7lZgtkHSCvkPdV93cm1By", 
+            "size": 3851, 
+            "sha512": "4a8b6719ee437b41d6291d51748ac4c340d02f99d238678b870b1723970959ec793940a66fc25d597e6c15ea90c9c82ad20347a12966b04f86d441e54cca51aa", 
+            "md5": "04d16a7f6c3ce7529d156d5e4d87d42f"
+        }, 
+        "custom": null
+    }, 
+    "irma": {
+        "status": 0, 
+        "probes_finished": 16, 
+        "scan_id": "8caec727-284c-4539-b8df-5c2a6dd6e535", 
+        "parent_file_sha256": null, 
+        "name": "0b481531ab799c089610474e19df5e0e0696a2a1db7aa15403766535ae3f2ccf", 
+        "probes_total": 16, 
+        "scan_date": 1642311858, 
+        "other_results": [], 
+        "submitter": "cli", 
+        "file_infos": {
+            "mimetype": "ELF 32-bit MSB relocatable, SPARC, version 1 (SYSV)", 
+            "sha1": "80b7fa64a2b7c4cbe038e20645e833b2ff22e77d", 
+            "tags": [], 
+            "timestamp_first_scan": 1642311858.33, 
+            "timestamp_last_scan": 1642311867.34, 
+            "sha256": "0b481531ab799c089610474e19df5e0e0696a2a1db7aa15403766535ae3f2ccf", 
+            "md5": "04d16a7f6c3ce7529d156d5e4d87d42f", 
+            "size": 3851
+        }, 
+        "probe_results": {
+            "antivirus": {
+                "Avast Core Security (Linux)": {
+                    "status": 0, 
+                    "duration": 0.01, 
+                    "version": "3.0.3", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "F-Secure Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 5.73, 
+                    "version": "11.10", 
+                    "results": null, 
+                    "virus_database_version": "2022-01-13_04"
+                }, 
+                "Windows Defender (Windows)": {
+                    "status": 0, 
+                    "duration": 0.05, 
+                    "version": "1.1.18800.4", 
+                    "results": null, 
+                    "virus_database_version": "1.355.1049.0"
+                }, 
+                "Comodo Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 2.12, 
+                    "version": "1.1.268025.1", 
+                    "results": null, 
+                    "virus_database_version": "2021-11-02"
+                }, 
+                "Kaspersky Antivirus (Win)": {
+                    "status": 0, 
+                    "duration": 2.62, 
+                    "version": "21.3", 
+                    "results": null, 
+                    "virus_database_version": "2022-01-04 05:53:00 (full)"
+                }, 
+                "ESET NOD32 Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 4.78, 
+                    "version": "4.0.96", 
+                    "results": null, 
+                    "virus_database_version": "6178ebd0-1e722 (2021-10-27)"
+                }, 
+                "GData (Windows)": {
+                    "status": 0, 
+                    "duration": 0.17, 
+                    "version": "5.5.20197.1358", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Forticlient (Linux)": {
+                    "status": 0, 
+                    "duration": 3.04, 
+                    "version": "unavailable", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Avira (Windows)": {
+                    "status": 0, 
+                    "duration": 3.83, 
+                    "version": "8.3.64.66", 
+                    "results": null, 
+                    "virus_database_version": "8.19.1.122"
+                }, 
+                "eScan Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 3.96, 
+                    "version": "7.0.21", 
+                    "results": null, 
+                    "virus_database_version": "7.90035 (27/10/2021)"
+                }, 
+                "McAfee CLI scanner (Linux)": {
+                    "status": 0, 
+                    "duration": 5.94, 
+                    "version": "6.0.6.653", 
+                    "results": null, 
+                    "virus_database_version": "10149"
+                }, 
+                "Sophos Anti-Virus (Linux)": {
+                    "status": 0, 
+                    "duration": 6.84, 
+                    "version": "5.85.0", 
+                    "results": null, 
+                    "virus_database_version": "5.88 (26 October 2021)"
+                }, 
+                "DrWeb Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.18, 
+                    "version": "11.1.10.2108031732", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "ClamAV (Linux)": {
+                    "status": 0, 
+                    "duration": 0.02, 
+                    "version": "0.103.2", 
+                    "results": null, 
+                    "virus_database_version": "26334"
+                }, 
+                "Bitdefender Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 6.12, 
+                    "version": "7.90123", 
+                    "results": null, 
+                    "virus_database_version": null
+                }, 
+                "Emsisoft Commandline Scanner (Windows)": {
+                    "status": 0, 
+                    "duration": 0.2, 
+                    "version": "2021.10.0.11201", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }
+            }
+        }, 
+        "path": "", 
+        "result_id": "269fcd81-4116-440c-b42f-cdb89b224de9", 
+        "file_sha256": "0b481531ab799c089610474e19df5e0e0696a2a1db7aa15403766535ae3f2ccf"
+    }, 
+    "suricata": {
+        "tls": [
+            {
+                "src_ip": "192.168.168.105", 
+                "version": "TLS 1.2", 
+                "src_port": 43782, 
+                "dst_port": 443, 
+                "timestamp": "2022-01-16T07:39:46.591468+0200", 
+                "dst_ip": "91.189.92.38", 
+                "fingerprint": "97:63:1b:60:eb:d1:fa:4f:a4:fc:fa:98:66:3d:ee:22:fb:78:ce:c1", 
+                "subject": "C=GB, L=London, O=Canonical Group Ltd, CN=api.snapcraft.io", 
+                "issuer": "C=US, O=DigiCert Inc, CN=DigiCert TLS RSA SHA256 2020 CA1"
+            }
+        ], 
+        "files": [], 
+        "alerts": [], 
+        "http": []
+    }, 
+    "virustotal": {
+        "summary": {
+            "error": "resource has not been scanned yet"
+        }
+    }, 
+    "network": {
+        "udp": [], 
+        "dns_servers": [], 
+        "http": [], 
+        "smtp": [], 
+        "tcp": [], 
+        "geoinfo": {}, 
+        "mitm": [], 
+        "https_ex": [], 
+        "http_ex": [], 
+        "sorted_pcap_sha256": "da2dfc6ba5c6fb7ef8b12f16b91931656b9d7b5407d870eca1cf355f2874e3fc", 
+        "icmp": [], 
+        "tls": [], 
+        "dead_hosts": [], 
+        "smtp_ex": [], 
+        "hosts": [], 
+        "pcap_sha256": "65b239b8e3e6a72191778ad0b31525e8ba34c283a51de5b71c0bba5e6874a606", 
+        "dns": [], 
+        "domains": [], 
+        "irc": []
+    }, 
+    "resubmit": {
+        "resubmit_ids": []
+    }, 
+    "snort": {
+        "alerts": []
+    }, 
+    "behavior": {
+        "generic": [
+            {
+                "process_path": null, 
+                "process_name": "sh", 
+                "pid": 2076, 
+                "summary": {}, 
+                "first_seen": 1642281809.911632, 
+                "ppid": -1
+            }
+        ], 
+        "processes": [
+            {
+                "calls": [
+                    {
+                        "status": "ENOEXEC", 
+                        "process_name": "sh", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:23:29 2022.911632 sh@7ff1a8872957[2076] execve(\"/tmp/qsemi.ko\", [\"/tmp/qsemi.ko\"], [\"SUDO_GID=0\", \"MAIL=/var/mail/root\", \"USER=root\", \"HOME=/root\", \"SUDO_UID=0\", \"LOGNAME=root\", \"SYSTEMTAP_MODULE=stap_\", \"TERM=unknown\", \"SYSTEMTAP_VERBOSE=2\", \"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin\", \"DISPLAY=:0\", \"LANG=en_US.UTF-8\", \"XAUTHORITY=/root/.Xauthority\", \"SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/qsemi.ko\", \"SHELL=/bin/bash\", \"SUDO_USER=root\", \"PWD=/tmp/tmpCh_cK0\"]) = -8 (ENOEXEC)\n", 
+                        "api": "execve", 
+                        "return_value": "-8", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff1a8872957", 
+                        "arguments": {
+                            "p2": [
+                                "SUDO_GID=0", 
+                                "MAIL=/var/mail/root", 
+                                "USER=root", 
+                                "HOME=/root", 
+                                "SUDO_UID=0", 
+                                "LOGNAME=root", 
+                                "SYSTEMTAP_MODULE=stap_", 
+                                "TERM=unknown", 
+                                "SYSTEMTAP_VERBOSE=2", 
+                                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin", 
+                                "DISPLAY=:0", 
+                                "LANG=en_US.UTF-8", 
+                                "XAUTHORITY=/root/.Xauthority", 
+                                "SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/qsemi.ko", 
+                                "SHELL=/bin/bash", 
+                                "SUDO_USER=root", 
+                                "PWD=/tmp/tmpCh_cK0"
+                            ], 
+                            "p0": "/tmp/qsemi.ko", 
+                            "p1": [
+                                "/tmp/qsemi.ko"
+                            ]
+                        }, 
+                        "time": 1642281809.911632
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:23:29 2022.918889 sh@7ff1a889dcce[2076] openat(AT_FDCWD, \"/tmp/qsemi.ko\", O_RDONLY|O_NOCTTY) = 3\n", 
+                        "api": "openat", 
+                        "return_value": "3", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff1a889dcce", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_NOCTTY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/tmp/qsemi.ko"
+                        }, 
+                        "time": 1642281809.918889
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:23:29 2022.918939 sh@7ff1a889df81[2076] read(3, 0x7fff658f8b70, 128) = 128\n", 
+                        "api": "read", 
+                        "return_value": "128", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff1a889df81", 
+                        "arguments": {
+                            "p2": "128", 
+                            "p0": "3", 
+                            "p1": "0x7fff658f8b70"
+                        }, 
+                        "time": 1642281809.918939
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:23:29 2022.918983 sh@7ff1a889e674[2076] close(3) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff1a889e674", 
+                        "arguments": {
+                            "p0": "3"
+                        }, 
+                        "time": 1642281809.918983
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:23:29 2022.919079 sh@7ff1a889e024[2076] write(2, \"sh: 1: \", 7) = 7\n", 
+                        "api": "write", 
+                        "return_value": "7", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff1a889e024", 
+                        "arguments": {
+                            "p2": "7", 
+                            "p0": "2", 
+                            "p1": "sh: 1: "
+                        }, 
+                        "time": 1642281809.919079
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:23:29 2022.919130 sh@7ff1a889e024[2076] write(2, \"/tmp/qsemi.ko: Exec format error\", 32) = 32\n", 
+                        "api": "write", 
+                        "return_value": "32", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff1a889e024", 
+                        "arguments": {
+                            "p2": "32", 
+                            "p0": "2", 
+                            "p1": "/tmp/qsemi.ko: Exec format error"
+                        }, 
+                        "time": 1642281809.91913
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:23:29 2022.919173 sh@7ff1a889e024[2076] write(2, \"\\n\", 1) = 1\n", 
+                        "api": "write", 
+                        "return_value": "1", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff1a889e024", 
+                        "arguments": {
+                            "p2": "1", 
+                            "p0": "2", 
+                            "p1": "\n"
+                        }, 
+                        "time": 1642281809.919173
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 2076, 
+                        "raw": "Sat Jan 15 21:23:29 2022.919222 sh@7ff1a8872926[2076] exit_group(2)\n", 
+                        "api": "exit_group", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff1a8872926", 
+                        "arguments": {
+                            "p0": "2"
+                        }, 
+                        "time": 1642281809.919222
+                    }
+                ], 
+                "pid": 2076, 
+                "process_name": "sh", 
+                "command_line": "", 
+                "first_seen": 1642281809.911632, 
+                "ppid": -1, 
+                "type": "process"
+            }
+        ], 
+        "processtree": [
+            {
+                "track": true, 
+                "pid": 2076, 
+                "process_name": "sh", 
+                "command_line": "", 
+                "first_seen": 1642281809.911632, 
+                "ppid": -1, 
+                "children": []
+            }
+        ]
+    }, 
+    "debug": {
+        "action": [], 
+        "dbgview": [], 
+        "errors": [], 
+        "log": [
+            "2022-01-15 21:23:23,004 [root] DEBUG: Starting analyzer from: /tmp/tmpCh_cK0\n", 
+            "2022-01-15 21:23:23,005 [root] DEBUG: Storing results at: /tmp/iGMoVZUWn\n", 
+            "2022-01-15 21:23:25,241 [modules.auxiliary.filecollector] INFO: FileCollector started v0.08\n", 
+            "2022-01-15 21:23:25,243 [modules.auxiliary.human] INFO: Human started v0.02\n", 
+            "2022-01-15 21:23:25,245 [modules.auxiliary.screenshots] INFO: Screenshots started v0.03\n", 
+            "2022-01-15 21:23:29,906 [lib.core.packages] INFO: Process startup took 4.65 seconds\n", 
+            "2022-01-15 21:23:29,907 [root] INFO: Added new process to list with pid: 2067\n", 
+            "2022-01-15 21:23:35,914 [root] INFO: Process with pid 2067 has terminated\n", 
+            "2022-01-15 21:23:35,914 [root] INFO: Process list is empty, terminating analysis.\n", 
+            "2022-01-15 21:23:38,918 [lib.core.packages] INFO: Package requested stop\n", 
+            "2022-01-15 21:23:38,919 [lib.core.packages] WARNING: Exception uploading log: [Errno 3] No such process\n"
+        ], 
+        "cuckoo": [
+            "2022-01-16 07:37:36,407 [cuckoo.core.scheduler] DEBUG: Task #2651543: no machine available yet\n", 
+            "2022-01-16 07:37:46,429 [cuckoo.core.scheduler] DEBUG: Task #2651543: no machine available yet\n", 
+            "2022-01-16 07:37:56,459 [cuckoo.core.scheduler] DEBUG: Task #2651543: no machine available yet\n", 
+            "2022-01-16 07:38:06,481 [cuckoo.core.scheduler] DEBUG: Task #2651543: no machine available yet\n", 
+            "2022-01-16 07:38:16,514 [cuckoo.core.scheduler] DEBUG: Task #2651543: no machine available yet\n", 
+            "2022-01-16 07:38:26,543 [cuckoo.core.scheduler] DEBUG: Task #2651543: no machine available yet\n", 
+            "2022-01-16 07:38:36,571 [cuckoo.core.scheduler] DEBUG: Task #2651543: no machine available yet\n", 
+            "2022-01-16 07:38:46,600 [cuckoo.core.scheduler] DEBUG: Task #2651543: no machine available yet\n", 
+            "2022-01-16 07:38:56,621 [cuckoo.core.scheduler] DEBUG: Task #2651543: no machine available yet\n", 
+            "2022-01-16 07:39:06,670 [cuckoo.core.scheduler] DEBUG: Task #2651543: no machine available yet\n", 
+            "2022-01-16 07:39:16,698 [cuckoo.core.scheduler] INFO: Task #2651543: acquired machine Ubuntu1904x645 (label=Ubuntu1904x645)\n", 
+            "2022-01-16 07:39:16,698 [cuckoo.core.resultserver] DEBUG: Now tracking machine 192.168.168.105 for task #2651543\n", 
+            "2022-01-16 07:39:16,852 [cuckoo.auxiliary.sniffer] INFO: Started sniffer with PID 2003583 (interface=vboxnet0, host=192.168.168.105)\n", 
+            "2022-01-16 07:39:17,033 [cuckoo.machinery.virtualbox] DEBUG: Starting vm Ubuntu1904x645\n", 
+            "2022-01-16 07:39:17,467 [cuckoo.machinery.virtualbox] DEBUG: Restoring virtual machine Ubuntu1904x645 to Snapshot\n", 
+            "2022-01-16 07:39:26,498 [cuckoo.core.guest] INFO: Starting analysis #2651543 on guest (id=Ubuntu1904x645, ip=192.168.168.105)\n", 
+            "2022-01-16 07:39:27,501 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: not ready yet\n", 
+            "2022-01-16 07:39:32,520 [cuckoo.core.guest] INFO: Guest is running Cuckoo Agent 0.10 (id=Ubuntu1904x645, ip=192.168.168.105)\n", 
+            "2022-01-16 07:39:32,550 [cuckoo.core.guest] DEBUG: Uploading analyzer to guest (id=Ubuntu1904x645, ip=192.168.168.105, monitor=latest, size=72028)\n", 
+            "2022-01-16 07:39:33,715 [cuckoo.core.resultserver] DEBUG: Task #2651543: live log analysis.log initialized.\n", 
+            "2022-01-16 07:39:39,235 [cuckoo.core.resultserver] DEBUG: Task #2651543: File upload for 'shots/0001.jpg'\n", 
+            "2022-01-16 07:39:39,243 [cuckoo.core.resultserver] DEBUG: Task #2651543 uploaded file length: 171567\n", 
+            "2022-01-16 07:39:47,764 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2651543 still processing\n", 
+            "2022-01-16 07:39:49,650 [cuckoo.core.resultserver] DEBUG: Task #2651543: File upload for 'logs/all.stap'\n", 
+            "2022-01-16 07:39:49,654 [cuckoo.core.resultserver] DEBUG: Task #2651543 uploaded file length: 1172\n", 
+            "2022-01-16 07:40:02,833 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2651543 still processing\n", 
+            "2022-01-16 07:40:17,921 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2651543 still processing\n", 
+            "2022-01-16 07:40:32,981 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2651543 still processing\n", 
+            "2022-01-16 07:40:48,069 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2651543 still processing\n", 
+            "2022-01-16 07:41:03,133 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2651543 still processing\n", 
+            "2022-01-16 07:41:18,235 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2651543 still processing\n", 
+            "2022-01-16 07:41:33,295 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2651543 still processing\n", 
+            "2022-01-16 07:41:48,373 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2651543 still processing\n", 
+            "2022-01-16 07:42:03,437 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2651543 still processing\n", 
+            "2022-01-16 07:42:18,525 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2651543 still processing\n", 
+            "2022-01-16 07:42:33,619 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2651543 still processing\n", 
+            "2022-01-16 07:42:48,700 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2651543 still processing\n", 
+            "2022-01-16 07:43:03,762 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2651543 still processing\n", 
+            "2022-01-16 07:43:18,948 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2651543 still processing\n", 
+            "2022-01-16 07:43:34,032 [cuckoo.core.guest] INFO: Ubuntu1904x645: end of analysis reached!\n", 
+            "2022-01-16 07:43:34,041 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Redsocks\n", 
+            "2022-01-16 07:43:34,117 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Sniffer\n", 
+            "2022-01-16 07:43:50,950 [cuckoo.machinery.virtualbox] INFO: Successfully generated memory dump for virtual machine with label Ubuntu1904x645 to path /srv/cuckoo/cwd/storage/analyses/2651543/memory.dmp\n", 
+            "2022-01-16 07:43:50,952 [cuckoo.machinery.virtualbox] DEBUG: Stopping vm Ubuntu1904x645\n", 
+            "2022-01-16 07:44:16,400 [cuckoo.core.resultserver] DEBUG: Stopped tracking machine 192.168.168.105 for task #2651543\n", 
+            "2022-01-16 07:44:16,400 [cuckoo.core.resultserver] DEBUG: Cancel <Context for LOG> for task 2651543\n", 
+            "2022-01-16 07:44:16,541 [cuckoo.core.scheduler] DEBUG: Released database task #2651543\n", 
+            "2022-01-16 07:44:16,725 [cuckoo.core.scheduler] INFO: Task #2651543: analysis procedure completed\n"
+        ]
+    }, 
+    "strings": [
+        "description=Quality Semiconductor PHY driver", 
+        "author=Andy Fleming", 
+        "license=GPL", 
+        "vermagic=2.6.18-6-sparc32 mod_unload gcc-4.1", 
+        "depends=libphy", 
+        "QS6612", 
+        "xk\\{struct_module", 
+        "PCgenphy_read_status", 
+        "genphy_config_aneg", 
+        "phy_driver_register", 
+        "bHphy_read", 
+        "phy_write", 
+        "phy_driver_unregister", 
+        "GCC: (GNU) 4.1.2 20061115 (prerelease) (Debian 4.1.1-21)", 
+        "GCC: (GNU) 4.1.2 20061115 (prerelease) (Debian 4.1.1-21)", 
+        ".symtab", 
+        ".strtab", 
+        ".shstrtab", 
+        ".rela.text", 
+        ".rela.exit.text", 
+        ".rela.init.text", 
+        ".modinfo", 
+        ".rodata.str1.8", 
+        "__versions", 
+        ".rela.data", 
+        ".rela.gnu.linkonce.this_module", 
+        ".comment", 
+        ".note.GNU-stack", 
+        "qsemi.c", 
+        "qs6612_exit", 
+        "qs6612_driver", 
+        "qs6612_config_intr", 
+        "qs6612_config_init", 
+        "qs6612_ack_interrupt", 
+        "qs6612_init", 
+        "__mod_description60", 
+        "__mod_author61", 
+        "__mod_license62", 
+        "qsemi.mod.c", 
+        "__mod_vermagic5", 
+        "____versions", 
+        "__module_depends", 
+        "phy_read", 
+        "__this_module", 
+        "cleanup_module", 
+        "init_module", 
+        "genphy_config_aneg", 
+        "phy_driver_register", 
+        "phy_write", 
+        "phy_driver_unregister", 
+        "genphy_read_status"
+    ], 
+    "metadata": {
+        "output": {
+            "pcap": {
+                "basename": "dump.pcap", 
+                "sha256": "65b239b8e3e6a72191778ad0b31525e8ba34c283a51de5b71c0bba5e6874a606", 
+                "dirname": ""
+            }
+        }
+    }
+}
