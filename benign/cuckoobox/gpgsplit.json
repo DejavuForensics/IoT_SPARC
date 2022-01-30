@@ -1,0 +1,3082 @@
+{
+    "info": {
+        "added": 1642276748.887117, 
+        "started": 1642282173.236454, 
+        "duration": 389, 
+        "ended": 1642282562.300707, 
+        "owner": null, 
+        "score": 0.0, 
+        "id": 2650540, 
+        "category": "file", 
+        "git": {
+            "head": "", 
+            "fetch_head": ""
+        }, 
+        "monitor": null, 
+        "package": "elf", 
+        "route": "internet", 
+        "custom": null, 
+        "machine": {
+            "status": "stopped", 
+            "name": "Ubuntu1904x641", 
+            "label": "Ubuntu1904x641", 
+            "platform": "linux", 
+            "manager": "VirtualBox", 
+            "started_on": "2022-01-15 21:31:15", 
+            "shutdown_on": "2022-01-15 21:35:59"
+        }, 
+        "platform": "linux", 
+        "version": "2.0.7", 
+        "options": "procmemdump=yes,route=internet"
+    }, 
+    "signatures": [], 
+    "target": {
+        "category": "file", 
+        "file": {
+            "mimetype": "application/x-executable", 
+            "yara": [], 
+            "sha1": "86634e31b4706a639363969dd7721dcf77b1b22f", 
+            "name": "gpgsplit", 
+            "type": "ELF 32-bit MSB executable, SPARC, version 1 (SYSV), dynamically linked, interpreter /lib/ld-linux.so.2, for GNU/Linux 2.4.1, stripped", 
+            "sha256": "c82996fc740c4368d5b38446a0bff4a163d029a77a49affa8f49b3217490adcf", 
+            "urls": [
+                "http://www.gnupg.org/faq.html"
+            ], 
+            "crc32": "09EFEAB9", 
+            "path": "/srv/cuckoo/cwd/storage/binaries/c82996fc740c4368d5b38446a0bff4a163d029a77a49affa8f49b3217490adcf", 
+            "ssdeep": null, 
+            "size": 33392, 
+            "sha512": "f880f1ff57ae40c7c13faba23b348e27c737a8c74e42f946d840e1cad6ab155229c0d28fbfc040e8e10dce92df09588b9fbfd4c1a78e73c9bed100b5a2f1b20e", 
+            "md5": "bfbadfc35d7fae62cec01e3d021ac817"
+        }, 
+        "custom": null
+    }, 
+    "irma": {
+        "status": 0, 
+        "probes_finished": 16, 
+        "scan_id": "abc99581-b68d-4ab3-aa4e-e74721c759d8", 
+        "parent_file_sha256": null, 
+        "name": "c82996fc740c4368d5b38446a0bff4a163d029a77a49affa8f49b3217490adcf", 
+        "probes_total": 16, 
+        "scan_date": 1642275363, 
+        "other_results": [], 
+        "submitter": "cli", 
+        "file_infos": {
+            "mimetype": "ELF 32-bit MSB executable, SPARC, version 1 (SYSV)", 
+            "sha1": "86634e31b4706a639363969dd7721dcf77b1b22f", 
+            "tags": [], 
+            "timestamp_first_scan": 1642275363.02, 
+            "timestamp_last_scan": 1642275372.06, 
+            "sha256": "c82996fc740c4368d5b38446a0bff4a163d029a77a49affa8f49b3217490adcf", 
+            "md5": "bfbadfc35d7fae62cec01e3d021ac817", 
+            "size": 33392
+        }, 
+        "probe_results": {
+            "antivirus": {
+                "Avast Core Security (Linux)": {
+                    "status": 0, 
+                    "duration": 0.01, 
+                    "version": "3.0.3", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "F-Secure Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 5.92, 
+                    "version": "11.10", 
+                    "results": null, 
+                    "virus_database_version": "2022-01-13_04"
+                }, 
+                "Windows Defender (Windows)": {
+                    "status": 0, 
+                    "duration": 0.05, 
+                    "version": "1.1.18800.4", 
+                    "results": null, 
+                    "virus_database_version": "1.355.1049.0"
+                }, 
+                "Comodo Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 2.14, 
+                    "version": "1.1.268025.1", 
+                    "results": null, 
+                    "virus_database_version": "2021-11-02"
+                }, 
+                "Kaspersky Antivirus (Win)": {
+                    "status": 0, 
+                    "duration": 2.69, 
+                    "version": "21.3", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "ESET NOD32 Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 4.3, 
+                    "version": "4.0.96", 
+                    "results": null, 
+                    "virus_database_version": "6178ebd0-1e722 (2021-10-27)"
+                }, 
+                "GData (Windows)": {
+                    "status": 0, 
+                    "duration": 0.19, 
+                    "version": "5.5.20197.1358", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Forticlient (Linux)": {
+                    "status": 0, 
+                    "duration": 3.05, 
+                    "version": "unavailable", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Avira (Windows)": {
+                    "status": 0, 
+                    "duration": 3.89, 
+                    "version": "8.3.64.66", 
+                    "results": null, 
+                    "virus_database_version": "8.19.1.122"
+                }, 
+                "eScan Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 4.07, 
+                    "version": "7.0.21", 
+                    "results": null, 
+                    "virus_database_version": "7.90035 (27/10/2021)"
+                }, 
+                "McAfee CLI scanner (Linux)": {
+                    "status": 0, 
+                    "duration": 5.83, 
+                    "version": "6.0.6.653", 
+                    "results": null, 
+                    "virus_database_version": "10149"
+                }, 
+                "Sophos Anti-Virus (Linux)": {
+                    "status": 0, 
+                    "duration": 6.71, 
+                    "version": "5.85.0", 
+                    "results": null, 
+                    "virus_database_version": "5.88 (26 October 2021)"
+                }, 
+                "DrWeb Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.2, 
+                    "version": "11.1.10.2108031732", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "ClamAV (Linux)": {
+                    "status": 0, 
+                    "duration": 0.03, 
+                    "version": "0.103.2", 
+                    "results": null, 
+                    "virus_database_version": "26334"
+                }, 
+                "Bitdefender Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 6.19, 
+                    "version": "7.90123", 
+                    "results": null, 
+                    "virus_database_version": null
+                }, 
+                "Emsisoft Commandline Scanner (Windows)": {
+                    "status": 0, 
+                    "duration": 0.2, 
+                    "version": "2021.10.0.11201", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }
+            }
+        }, 
+        "path": "", 
+        "result_id": "88ab4ed4-bfb6-4f2e-8e24-bfb4fe4b791a", 
+        "file_sha256": "c82996fc740c4368d5b38446a0bff4a163d029a77a49affa8f49b3217490adcf"
+    }, 
+    "suricata": {
+        "tls": [
+            {
+                "src_ip": "192.168.168.101", 
+                "version": "TLS 1.2", 
+                "src_port": 37978, 
+                "dst_port": 443, 
+                "timestamp": "2022-01-15T21:31:48.107069+0200", 
+                "dst_ip": "91.189.92.20", 
+                "fingerprint": "97:63:1b:60:eb:d1:fa:4f:a4:fc:fa:98:66:3d:ee:22:fb:78:ce:c1", 
+                "subject": "C=GB, L=London, O=Canonical Group Ltd, CN=api.snapcraft.io", 
+                "issuer": "C=US, O=DigiCert Inc, CN=DigiCert TLS RSA SHA256 2020 CA1"
+            }
+        ], 
+        "files": [], 
+        "alerts": [], 
+        "http": []
+    }, 
+    "virustotal": {
+        "summary": {
+            "error": "resource has not been scanned yet"
+        }
+    }, 
+    "network": {
+        "udp": [], 
+        "dns_servers": [], 
+        "http": [], 
+        "smtp": [], 
+        "tcp": [], 
+        "geoinfo": {}, 
+        "mitm": [], 
+        "https_ex": [], 
+        "http_ex": [], 
+        "sorted_pcap_sha256": "cfc433ecdb790329e6ec60832450d481103c2381f4a3d7e69c65aee52d741755", 
+        "icmp": [], 
+        "tls": [], 
+        "dead_hosts": [], 
+        "smtp_ex": [], 
+        "hosts": [], 
+        "pcap_sha256": "0ec6f7306fead6492585dc901adbaf079f3fcc8bc37ef791038192e7f78821c2", 
+        "dns": [], 
+        "domains": [], 
+        "irc": []
+    }, 
+    "resubmit": {
+        "resubmit_ids": []
+    }, 
+    "snort": {
+        "alerts": []
+    }, 
+    "behavior": {
+        "generic": [
+            {
+                "process_path": null, 
+                "process_name": "gpgsplit", 
+                "pid": 2070, 
+                "summary": {}, 
+                "first_seen": 1642276755.523399, 
+                "ppid": -1
+            }, 
+            {
+                "process_path": null, 
+                "process_name": "gpgsplit", 
+                "pid": 2071, 
+                "summary": {}, 
+                "first_seen": 1642276755.546851, 
+                "ppid": 2070
+            }
+        ], 
+        "processes": [
+            {
+                "calls": [
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.523399 gpgsplit@7ff6811c1c27[2070] execve(\"/tmp/gpgsplit\", [\"/tmp/gpgsplit\"], [\"SUDO_GID=0\", \"MAIL=/var/mail/root\", \"USER=root\", \"HOME=/root\", \"SUDO_UID=0\", \"LOGNAME=root\", \"SYSTEMTAP_MODULE=stap_\", \"TERM=unknown\", \"SYSTEMTAP_VERBOSE=2\", \"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin\", \"DISPLAY=:0\", \"LANG=en_US.UTF-8\", \"XAUTHORITY=/root/.Xauthority\", \"SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/gpgsplit\", \"SHELL=/bin/bash\", \"SUDO_USER=root\", \"PWD=/tmp/tmpPQu09E\"])\n", 
+                        "api": "execve", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff6811c1c27", 
+                        "arguments": {
+                            "p2": [
+                                "SUDO_GID=0", 
+                                "MAIL=/var/mail/root", 
+                                "USER=root", 
+                                "HOME=/root", 
+                                "SUDO_UID=0", 
+                                "LOGNAME=root", 
+                                "SYSTEMTAP_MODULE=stap_", 
+                                "TERM=unknown", 
+                                "SYSTEMTAP_VERBOSE=2", 
+                                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin", 
+                                "DISPLAY=:0", 
+                                "LANG=en_US.UTF-8", 
+                                "XAUTHORITY=/root/.Xauthority", 
+                                "SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/gpgsplit", 
+                                "SHELL=/bin/bash", 
+                                "SUDO_USER=root", 
+                                "PWD=/tmp/tmpPQu09E"
+                            ], 
+                            "p0": "/tmp/gpgsplit", 
+                            "p1": [
+                                "/tmp/gpgsplit"
+                            ]
+                        }, 
+                        "time": 1642276755.523399
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.529052 gpgsplit@7ff6811c1c27[2070] brk(0x0) = 93913257066496\n", 
+                        "api": "brk", 
+                        "return_value": "93913257066496", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff6811c1c27", 
+                        "arguments": {
+                            "p0": "0x0"
+                        }, 
+                        "time": 1642276755.529052
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.529147 gpgsplit@7ff6811c29d7[2070] access(\"/etc/ld.so.preload\", R_OK) = -2 (ENOENT)\n", 
+                        "api": "access", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff6811c29d7", 
+                        "arguments": {
+                            "p0": "/etc/ld.so.preload", 
+                            "p1": "R_OK"
+                        }, 
+                        "time": 1642276755.529147
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.530350 gpgsplit@7ff6811c2b0d[2070] openat(AT_FDCWD, \"/etc/ld.so.cache\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff6811c2b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/etc/ld.so.cache"
+                        }, 
+                        "time": 1642276755.53035
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.530574 gpgsplit@7ff6811c2943[2070] fstat(4, 0x7ffd5c038db0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff6811c2943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd5c038db0"
+                        }, 
+                        "time": 1642276755.530574
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.530639 gpgsplit@7ff6811c2d03[2070] mmap2(0x0, 88858, PROT_READ, MAP_PRIVATE, 4, 0) = 0x7ff681190000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7ff681190000", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff6811c2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE", 
+                            "p0": "0x0", 
+                            "p1": "88858", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642276755.530639
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.530705 gpgsplit@7ff6811c29f7[2070] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff6811c29f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642276755.530705
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.530787 gpgsplit@7ff6811c2b0d[2070] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff6811c2b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0"
+                        }, 
+                        "time": 1642276755.530787
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.530861 gpgsplit@7ff6811c2bd4[2070] read(4, 0x7ffd5c038f68, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff6811c2bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffd5c038f68"
+                        }, 
+                        "time": 1642276755.530861
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.530911 gpgsplit@7ff6811c2943[2070] fstat(4, 0x7ffd5c038e00) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff6811c2943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd5c038e00"
+                        }, 
+                        "time": 1642276755.530911
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.530959 gpgsplit@7ff6811c2d03[2070] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff68118e000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7ff68118e000", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff6811c2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642276755.530959
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.531017 gpgsplit@7ff6811c2d03[2070] mmap2(0x0, 20600, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7ff681188000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7ff681188000", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff6811c2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "20600", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642276755.531017
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.531070 gpgsplit@7ff6811c2d03[2070] mmap2(0x7ff681189000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 4096) = 0x7ff681189000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7ff681189000", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff6811c2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7ff681189000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "4096"
+                        }, 
+                        "time": 1642276755.53107
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.531134 gpgsplit@7ff6811c2d03[2070] mmap2(0x7ff68118b000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7ff68118b000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7ff68118b000", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff6811c2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7ff68118b000", 
+                            "p1": "4096", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642276755.531134
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.531190 gpgsplit@7ff6811c2d03[2070] mmap2(0x7ff68118c000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7ff68118c000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7ff68118c000", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff6811c2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7ff68118c000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642276755.53119
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.531255 gpgsplit@7ff6811c29f7[2070] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff6811c29f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642276755.531255
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.531314 gpgsplit@7ff6811c2b0d[2070] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff6811c2b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0"
+                        }, 
+                        "time": 1642276755.531314
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.531372 gpgsplit@7ff6811c2bd4[2070] read(4, 0x7ffd5c038f48, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff6811c2bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffd5c038f48"
+                        }, 
+                        "time": 1642276755.531372
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.531419 gpgsplit@7ff6811c2943[2070] fstat(4, 0x7ffd5c038de0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff6811c2943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd5c038de0"
+                        }, 
+                        "time": 1642276755.531419
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.531467 gpgsplit@7ff6811c2d03[2070] mmap2(0x0, 1180072, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7ff681067000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7ff681067000", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff6811c2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1180072", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642276755.531467
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.531520 gpgsplit@7ff6811c2db7[2070] mprotect(0x7ff681082000, 1060864, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff6811c2db7", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7ff681082000", 
+                            "p1": "1060864"
+                        }, 
+                        "time": 1642276755.53152
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.531702 gpgsplit@7ff6811c2d03[2070] mmap2(0x7ff681082000, 524288, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 110592) = 0x7ff681082000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7ff681082000", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff6811c2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7ff681082000", 
+                            "p1": "524288", 
+                            "p4": "4", 
+                            "p5": "110592"
+                        }, 
+                        "time": 1642276755.531702
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.531765 gpgsplit@7ff6811c2d03[2070] mmap2(0x7ff681102000, 532480, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 634880) = 0x7ff681102000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7ff681102000", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff6811c2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7ff681102000", 
+                            "p1": "532480", 
+                            "p4": "4", 
+                            "p5": "634880"
+                        }, 
+                        "time": 1642276755.531765
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.531819 gpgsplit@7ff6811c2d03[2070] mmap2(0x7ff681185000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1167360) = 0x7ff681185000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7ff681185000", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff6811c2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7ff681185000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "1167360"
+                        }, 
+                        "time": 1642276755.531819
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.531880 gpgsplit@7ff6811c2d03[2070] mmap2(0x7ff681187000, 424, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7ff681187000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7ff681187000", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff6811c2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7ff681187000", 
+                            "p1": "424", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642276755.53188
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.531946 gpgsplit@7ff6811c29f7[2070] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff6811c29f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642276755.531946
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.532016 gpgsplit@7ff6811c2b0d[2070] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/librt.so.1\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff6811c2b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/librt.so.1"
+                        }, 
+                        "time": 1642276755.532016
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.532072 gpgsplit@7ff6811c2bd4[2070] read(4, 0x7ffd5c038f28, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff6811c2bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffd5c038f28"
+                        }, 
+                        "time": 1642276755.532072
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.532120 gpgsplit@7ff6811c2943[2070] fstat(4, 0x7ffd5c038dc0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff6811c2943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd5c038dc0"
+                        }, 
+                        "time": 1642276755.53212
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.532169 gpgsplit@7ff6811c2d03[2070] mmap2(0x0, 44000, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7ff68105c000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7ff68105c000", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff6811c2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "44000", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642276755.532169
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.532224 gpgsplit@7ff6811c2d03[2070] mmap2(0x7ff68105f000, 16384, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7ff68105f000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7ff68105f000", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff6811c2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7ff68105f000", 
+                            "p1": "16384", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642276755.532224
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.532282 gpgsplit@7ff6811c2d03[2070] mmap2(0x7ff681063000, 8192, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 28672) = 0x7ff681063000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7ff681063000", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff6811c2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7ff681063000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "28672"
+                        }, 
+                        "time": 1642276755.532282
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.532336 gpgsplit@7ff6811c2d03[2070] mmap2(0x7ff681065000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 32768) = 0x7ff681065000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7ff681065000", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff6811c2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7ff681065000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "32768"
+                        }, 
+                        "time": 1642276755.532336
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.532401 gpgsplit@7ff6811c29f7[2070] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff6811c29f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642276755.532401
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.532459 gpgsplit@7ff6811c2b0d[2070] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libm.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff6811c2b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libm.so.6"
+                        }, 
+                        "time": 1642276755.532459
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.532511 gpgsplit@7ff6811c2bd4[2070] read(4, 0x7ffd5c038f08, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff6811c2bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffd5c038f08"
+                        }, 
+                        "time": 1642276755.532511
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.532558 gpgsplit@7ff6811c2943[2070] fstat(4, 0x7ffd5c038da0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff6811c2943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd5c038da0"
+                        }, 
+                        "time": 1642276755.532558
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.532610 gpgsplit@7ff6811c2d03[2070] mmap2(0x0, 1364240, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7ff680f0e000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7ff680f0e000", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff6811c2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1364240", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642276755.53261
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.532663 gpgsplit@7ff6811c2d03[2070] mmap2(0x7ff680f1d000, 679936, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 61440) = 0x7ff680f1d000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7ff680f1d000", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff6811c2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7ff680f1d000", 
+                            "p1": "679936", 
+                            "p4": "4", 
+                            "p5": "61440"
+                        }, 
+                        "time": 1642276755.532663
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.532722 gpgsplit@7ff6811c2d03[2070] mmap2(0x7ff680fc3000, 618496, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 741376) = 0x7ff680fc3000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7ff680fc3000", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff6811c2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7ff680fc3000", 
+                            "p1": "618496", 
+                            "p4": "4", 
+                            "p5": "741376"
+                        }, 
+                        "time": 1642276755.532722
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.532776 gpgsplit@7ff6811c2d03[2070] mmap2(0x7ff68105a000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1355776) = 0x7ff68105a000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7ff68105a000", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff6811c2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7ff68105a000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "1355776"
+                        }, 
+                        "time": 1642276755.532776
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.532839 gpgsplit@7ff6811c29f7[2070] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff6811c29f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642276755.532839
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.532904 gpgsplit@7ff6811c2b0d[2070] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libgcc_s.so.1\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff6811c2b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libgcc_s.so.1"
+                        }, 
+                        "time": 1642276755.532904
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.532955 gpgsplit@7ff6811c2bd4[2070] read(4, 0x7ffd5c038ee8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff6811c2bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffd5c038ee8"
+                        }, 
+                        "time": 1642276755.532955
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.533002 gpgsplit@7ff6811c2943[2070] fstat(4, 0x7ffd5c038d80) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff6811c2943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd5c038d80"
+                        }, 
+                        "time": 1642276755.533002
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.533049 gpgsplit@7ff6811c2d03[2070] mmap2(0x0, 103504, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7ff680ef4000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7ff680ef4000", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff6811c2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "103504", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642276755.533049
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.533101 gpgsplit@7ff6811c2d03[2070] mmap2(0x7ff680ef7000, 69632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7ff680ef7000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7ff680ef7000", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff6811c2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7ff680ef7000", 
+                            "p1": "69632", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642276755.533101
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.533157 gpgsplit@7ff6811c2d03[2070] mmap2(0x7ff680f08000, 16384, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 81920) = 0x7ff680f08000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7ff680f08000", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff6811c2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7ff680f08000", 
+                            "p1": "16384", 
+                            "p4": "4", 
+                            "p5": "81920"
+                        }, 
+                        "time": 1642276755.533157
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.533210 gpgsplit@7ff6811c2d03[2070] mmap2(0x7ff680f0c000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 94208) = 0x7ff680f0c000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7ff680f0c000", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff6811c2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7ff680f0c000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "94208"
+                        }, 
+                        "time": 1642276755.53321
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.533274 gpgsplit@7ff6811c29f7[2070] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff6811c29f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642276755.533274
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.533332 gpgsplit@7ff6811c2b0d[2070] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libpthread.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff6811c2b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libpthread.so.0"
+                        }, 
+                        "time": 1642276755.533332
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.533384 gpgsplit@7ff6811c2bd4[2070] read(4, 0x7ffd5c038ec8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff6811c2bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffd5c038ec8"
+                        }, 
+                        "time": 1642276755.533384
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.533431 gpgsplit@7ff6811c2943[2070] fstat(4, 0x7ffd5c038d60) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff6811c2943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd5c038d60"
+                        }, 
+                        "time": 1642276755.533431
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.533478 gpgsplit@7ff6811c2d03[2070] mmap2(0x0, 132288, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7ff680ed3000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7ff680ed3000", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff6811c2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "132288", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642276755.533478
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.533530 gpgsplit@7ff6811c2d03[2070] mmap2(0x7ff680eda000, 61440, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 28672) = 0x7ff680eda000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7ff680eda000", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff6811c2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7ff680eda000", 
+                            "p1": "61440", 
+                            "p4": "4", 
+                            "p5": "28672"
+                        }, 
+                        "time": 1642276755.53353
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.533587 gpgsplit@7ff6811c2d03[2070] mmap2(0x7ff680ee9000, 20480, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 90112) = 0x7ff680ee9000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7ff680ee9000", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff6811c2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7ff680ee9000", 
+                            "p1": "20480", 
+                            "p4": "4", 
+                            "p5": "90112"
+                        }, 
+                        "time": 1642276755.533587
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.533640 gpgsplit@7ff6811c2d03[2070] mmap2(0x7ff680eee000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 106496) = 0x7ff680eee000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7ff680eee000", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff6811c2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7ff680eee000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "106496"
+                        }, 
+                        "time": 1642276755.53364
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.533700 gpgsplit@7ff6811c2d03[2070] mmap2(0x7ff680ef0000, 13504, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7ff680ef0000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7ff680ef0000", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff6811c2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7ff680ef0000", 
+                            "p1": "13504", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642276755.5337
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.533756 gpgsplit@7ff6811c29f7[2070] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff6811c29f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642276755.533756
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.533814 gpgsplit@7ff6811c2b0d[2070] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libc.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff6811c2b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libc.so.6"
+                        }, 
+                        "time": 1642276755.533814
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.533865 gpgsplit@7ff6811c2bd4[2070] read(4, 0x7ffd5c038ea8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff6811c2bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffd5c038ea8"
+                        }, 
+                        "time": 1642276755.533865
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.533911 gpgsplit@7ff6811c2943[2070] fstat(4, 0x7ffd5c038d40) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff6811c2943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd5c038d40"
+                        }, 
+                        "time": 1642276755.533911
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.533958 gpgsplit@7ff6811c2d03[2070] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff680ed1000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7ff680ed1000", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff6811c2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642276755.533958
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.534012 gpgsplit@7ff6811c2d03[2070] mmap2(0x0, 2008696, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7ff680ce6000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7ff680ce6000", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff6811c2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "2008696", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642276755.534012
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.534063 gpgsplit@7ff6811c2d03[2070] mmap2(0x7ff680d0b000, 1519616, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 151552) = 0x7ff680d0b000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7ff680d0b000", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff6811c2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7ff680d0b000", 
+                            "p1": "1519616", 
+                            "p4": "4", 
+                            "p5": "151552"
+                        }, 
+                        "time": 1642276755.534063
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.534118 gpgsplit@7ff6811c2d03[2070] mmap2(0x7ff680e7e000, 299008, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1671168) = 0x7ff680e7e000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7ff680e7e000", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff6811c2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7ff680e7e000", 
+                            "p1": "299008", 
+                            "p4": "4", 
+                            "p5": "1671168"
+                        }, 
+                        "time": 1642276755.534118
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.534171 gpgsplit@7ff6811c2d03[2070] mmap2(0x7ff680ec7000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1966080) = 0x7ff680ec7000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7ff680ec7000", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff6811c2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7ff680ec7000", 
+                            "p1": "24576", 
+                            "p4": "4", 
+                            "p5": "1966080"
+                        }, 
+                        "time": 1642276755.534171
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.534229 gpgsplit@7ff6811c2d03[2070] mmap2(0x7ff680ecd000, 13944, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7ff680ecd000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7ff680ecd000", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff6811c2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7ff680ecd000", 
+                            "p1": "13944", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642276755.534229
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.534288 gpgsplit@7ff6811c29f7[2070] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff6811c29f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642276755.534288
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.534354 gpgsplit@7ff6811c2b0d[2070] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libdl.so.2\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff6811c2b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libdl.so.2"
+                        }, 
+                        "time": 1642276755.534354
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.534407 gpgsplit@7ff6811c2bd4[2070] read(4, 0x7ffd5c038e88, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff6811c2bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffd5c038e88"
+                        }, 
+                        "time": 1642276755.534407
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.534453 gpgsplit@7ff6811c2943[2070] fstat(4, 0x7ffd5c038d20) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff6811c2943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd5c038d20"
+                        }, 
+                        "time": 1642276755.534453
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.534556 gpgsplit@7ff6811c2d03[2070] mmap2(0x0, 20752, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7ff680ce0000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7ff680ce0000", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff6811c2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "20752", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642276755.534556
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.534911 gpgsplit@7ff6811c2d03[2070] mmap2(0x7ff680ce1000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 4096) = 0x7ff680ce1000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7ff680ce1000", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff6811c2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7ff680ce1000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "4096"
+                        }, 
+                        "time": 1642276755.534911
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.534995 gpgsplit@7ff6811c2d03[2070] mmap2(0x7ff680ce3000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7ff680ce3000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7ff680ce3000", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff6811c2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7ff680ce3000", 
+                            "p1": "4096", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642276755.534995
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.535063 gpgsplit@7ff6811c2d03[2070] mmap2(0x7ff680ce4000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7ff680ce4000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7ff680ce4000", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff6811c2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7ff680ce4000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642276755.535063
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.535144 gpgsplit@7ff6811c29f7[2070] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff6811c29f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642276755.535144
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.535224 gpgsplit@7ff6811c2b0d[2070] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libpcre.so.3\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff6811c2b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libpcre.so.3"
+                        }, 
+                        "time": 1642276755.535224
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.535292 gpgsplit@7ff6811c2bd4[2070] read(4, 0x7ffd5c038e68, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff6811c2bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffd5c038e68"
+                        }, 
+                        "time": 1642276755.535292
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.535352 gpgsplit@7ff6811c2943[2070] fstat(4, 0x7ffd5c038d00) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff6811c2943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd5c038d00"
+                        }, 
+                        "time": 1642276755.535352
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.535412 gpgsplit@7ff6811c2d03[2070] mmap2(0x0, 471304, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7ff680c6c000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7ff680c6c000", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff6811c2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "471304", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642276755.535412
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.535477 gpgsplit@7ff6811c2d03[2070] mmap2(0x7ff680c6e000, 335872, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 8192) = 0x7ff680c6e000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7ff680c6e000", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff6811c2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7ff680c6e000", 
+                            "p1": "335872", 
+                            "p4": "4", 
+                            "p5": "8192"
+                        }, 
+                        "time": 1642276755.535477
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.535550 gpgsplit@7ff6811c2d03[2070] mmap2(0x7ff680cc0000, 122880, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 344064) = 0x7ff680cc0000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7ff680cc0000", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff6811c2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7ff680cc0000", 
+                            "p1": "122880", 
+                            "p4": "4", 
+                            "p5": "344064"
+                        }, 
+                        "time": 1642276755.53555
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.535713 gpgsplit@7ff6811c2d03[2070] mmap2(0x7ff680cde000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 462848) = 0x7ff680cde000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7ff680cde000", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff6811c2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7ff680cde000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "462848"
+                        }, 
+                        "time": 1642276755.535713
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.535804 gpgsplit@7ff6811c29f7[2070] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff6811c29f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642276755.535804
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.536931 gpgsplit@7ff6811c2d03[2070] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff680c6a000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7ff680c6a000", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff6811c2d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642276755.536931
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.537026 gpgsplit@7ff6811a7f30[2070] arch_prctl(ARCH_SET_FS, 140696699187520) = 0\n", 
+                        "api": "arch_prctl", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff6811a7f30", 
+                        "arguments": {
+                            "p0": "ARCH_SET_FS", 
+                            "p1": "140696699187520"
+                        }, 
+                        "time": 1642276755.537026
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.537890 gpgsplit@7ff6811c2db7[2070] mprotect(0x7ff680ec7000, 12288, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff6811c2db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7ff680ec7000", 
+                            "p1": "12288"
+                        }, 
+                        "time": 1642276755.53789
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.537983 gpgsplit@7ff6811c2db7[2070] mprotect(0x7ff680eee000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff6811c2db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7ff680eee000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642276755.537983
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.538077 gpgsplit@7ff6811c2db7[2070] mprotect(0x7ff680cde000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff6811c2db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7ff680cde000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642276755.538077
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.538149 gpgsplit@7ff6811c2db7[2070] mprotect(0x7ff680ce4000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff6811c2db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7ff680ce4000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642276755.538149
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.538216 gpgsplit@7ff6811c2db7[2070] mprotect(0x7ff680f0c000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff6811c2db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7ff680f0c000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642276755.538216
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.538306 gpgsplit@7ff6811c2db7[2070] mprotect(0x7ff68105a000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff6811c2db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7ff68105a000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642276755.538306
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.538376 gpgsplit@7ff6811c2db7[2070] mprotect(0x7ff681065000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff6811c2db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7ff681065000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642276755.538376
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.538753 gpgsplit@7ff6811c2db7[2070] mprotect(0x7ff681185000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff6811c2db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7ff681185000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642276755.538753
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.538845 gpgsplit@7ff6811c2db7[2070] mprotect(0x7ff68118c000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff6811c2db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7ff68118c000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642276755.538845
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.543221 gpgsplit@7ff6811c2db7[2070] mprotect(0x5569dfa5c000, 303104, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff6811c2db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x5569dfa5c000", 
+                            "p1": "303104"
+                        }, 
+                        "time": 1642276755.543221
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.543323 gpgsplit@7ff6811c2db7[2070] mprotect(0x7ff6811d0000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff6811c2db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7ff6811d0000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642276755.543323
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.543386 gpgsplit@7ff6811c2d97[2070] munmap(0x7ff681190000, 88858) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff6811c2d97", 
+                        "arguments": {
+                            "p0": "0x7ff681190000", 
+                            "p1": "88858"
+                        }, 
+                        "time": 1642276755.543386
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.543553 gpgsplit@7ff680eda8df[2070] set_tid_address(0x7ff680c6b410) = 2070\n", 
+                        "api": "set_tid_address", 
+                        "return_value": "2070", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff680eda8df", 
+                        "arguments": {
+                            "p0": "0x7ff680c6b410"
+                        }, 
+                        "time": 1642276755.543553
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.543720 gpgsplit@7ff680eda94a[2070] set_robust_list(0x7ff680c6b420, 24) = 0\n", 
+                        "api": "set_robust_list", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff680eda94a", 
+                        "arguments": {
+                            "p0": "0x7ff680c6b420", 
+                            "p1": "24"
+                        }, 
+                        "time": 1642276755.54372
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.543794 gpgsplit@7ff680ee7010[2070] rt_sigaction(0x20, {0x7ff680eda6c0, SA_SIGINFO|SA_RESTORER, 0x7ff680ee6f40, [EMPTY]}, 0x0, 8) = 0\n", 
+                        "api": "rt_sigaction", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff680ee7010", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "0x20", 
+                            "p1": [
+                                "0x7ff680eda6c0", 
+                                "SA_SIGINFO|SA_RESTORER", 
+                                "0x7ff680ee6f40", 
+                                [
+                                    "EMPTY]"
+                                ]
+                            ]
+                        }, 
+                        "time": 1642276755.543794
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.543845 gpgsplit@7ff680ee7010[2070] rt_sigaction(0x21, {0x7ff680eda760, SA_RESTART|SA_SIGINFO|SA_RESTORER, 0x7ff680ee6f40, [EMPTY]}, 0x0, 8) = 0\n", 
+                        "api": "rt_sigaction", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff680ee7010", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "0x21", 
+                            "p1": [
+                                "0x7ff680eda760", 
+                                "SA_RESTART|SA_SIGINFO|SA_RESTORER", 
+                                "0x7ff680ee6f40", 
+                                [
+                                    "EMPTY]"
+                                ]
+                            ]
+                        }, 
+                        "time": 1642276755.543845
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.543913 gpgsplit@7ff680edaa19[2070] rt_sigprocmask(SIG_UNBLOCK, [EMPTY], 0x0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff680edaa19", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "SIG_UNBLOCK", 
+                            "p1": [
+                                "EMPTY"
+                            ]
+                        }, 
+                        "time": 1642276755.543913
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.543978 gpgsplit@7ff680df8df0[2070] prlimit64(0, RLIMIT_STACK, NULL, 0x7ffd5c039b40) = 0\n", 
+                        "api": "prlimit64", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff680df8df0", 
+                        "arguments": {
+                            "p2": "NULL", 
+                            "p3": "0x7ffd5c039b40", 
+                            "p0": "0", 
+                            "p1": "RLIMIT_STACK"
+                        }, 
+                        "time": 1642276755.543978
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.544256 gpgsplit@7ff680df92f7[2070] brk(0x0) = 93913257066496\n", 
+                        "api": "brk", 
+                        "return_value": "93913257066496", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff680df92f7", 
+                        "arguments": {
+                            "p0": "0x0"
+                        }, 
+                        "time": 1642276755.544256
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.544301 gpgsplit@7ff680df92f7[2070] brk(0x5569e255d000) = 93913257201664\n", 
+                        "api": "brk", 
+                        "return_value": "93913257201664", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff680df92f7", 
+                        "arguments": {
+                            "p0": "0x5569e255d000"
+                        }, 
+                        "time": 1642276755.544301
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.545436 gpgsplit@7ff680ee3b86[2070] rt_sigprocmask(SIG_SETMASK, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS], 0x7ffd5c039a90, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff680ee3b86", 
+                        "arguments": {
+                            "p2": "0x7ffd5c039a90", 
+                            "p3": "8", 
+                            "p0": "SIG_SETMASK", 
+                            "p1": [
+                                "SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS"
+                            ]
+                        }, 
+                        "time": 1642276755.545436
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.546450 gpgsplit@7ff680dfd4c3[2070] mmap2(0x0, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7ff680469000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7ff680469000", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff680dfd4c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK", 
+                            "p0": "0x0", 
+                            "p1": "8392704", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642276755.54645
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.546513 gpgsplit@7ff680dfd597[2070] mprotect(0x7ff68046a000, 8388608, PROT_READ|PROT_WRITE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff680dfd597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p0": "0x7ff68046a000", 
+                            "p1": "8388608"
+                        }, 
+                        "time": 1642276755.546513
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.546588 gpgsplit@7ff680e03b11[2070] clone(CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, 0x7ff680c68f70, 0x7ff680c699d0, 0x7ff680c699d0) = 2071\n", 
+                        "api": "clone", 
+                        "return_value": "2071", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff680e03b11", 
+                        "arguments": {
+                            "p2": "0x7ff680c699d0", 
+                            "p3": "0x7ff680c699d0", 
+                            "p0": "CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID", 
+                            "p1": "0x7ff680c68f70"
+                        }, 
+                        "time": 1642276755.546588
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.546722 gpgsplit@7ff680ee3b86[2070] rt_sigprocmask(SIG_SETMASK, [EMPTY], 0x0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff680ee3b86", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "SIG_SETMASK", 
+                            "p1": [
+                                "EMPTY"
+                            ]
+                        }, 
+                        "time": 1642276755.546722
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.549382 gpgsplit@7ff680df8df0[2070] prlimit64(0, RLIMIT_STACK, NULL, 0x7ffd5c039650) = 0\n", 
+                        "api": "prlimit64", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff680df8df0", 
+                        "arguments": {
+                            "p2": "NULL", 
+                            "p3": "0x7ffd5c039650", 
+                            "p0": "0", 
+                            "p1": "RLIMIT_STACK"
+                        }, 
+                        "time": 1642276755.549382
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.549460 gpgsplit@7ff680df85c1[2070] openat(AT_FDCWD, \"/etc/qemu-binfmt/sparc\", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -2 (ENOENT)\n", 
+                        "api": "openat", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff680df85c1", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/etc/qemu-binfmt/sparc"
+                        }, 
+                        "time": 1642276755.54946
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.549549 gpgsplit@7ff680dc7247[2070] uname(0x7ffd5c0392c0) = 0\n", 
+                        "api": "uname", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff680dc7247", 
+                        "arguments": {
+                            "p0": "0x7ffd5c0392c0"
+                        }, 
+                        "time": 1642276755.549549
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.549600 gpgsplit@7ff680ee6337[2070] lseek(3, 0, SEEK_SET) = 0\n", 
+                        "api": "lseek", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff680ee6337", 
+                        "arguments": {
+                            "p2": "SEEK_SET", 
+                            "p0": "3", 
+                            "p1": "0"
+                        }, 
+                        "time": 1642276755.5496
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.549648 gpgsplit@7ff680ee5d94[2070] read(3, 0x7ffd5c0395b0, 52) = 52\n", 
+                        "api": "read", 
+                        "return_value": "52", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff680ee5d94", 
+                        "arguments": {
+                            "p2": "52", 
+                            "p0": "3", 
+                            "p1": "0x7ffd5c0395b0"
+                        }, 
+                        "time": 1642276755.549648
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.549699 gpgsplit@7ff680ee6337[2070] lseek(3, 0, SEEK_SET) = 0\n", 
+                        "api": "lseek", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff680ee6337", 
+                        "arguments": {
+                            "p2": "SEEK_SET", 
+                            "p0": "3", 
+                            "p1": "0"
+                        }, 
+                        "time": 1642276755.549699
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.550866 gpgsplit@7ff680dfd4c3[2070] mmap2(0x0, 528384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff6803e8000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7ff6803e8000", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff680dfd4c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "528384", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642276755.550866
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.551315 gpgsplit@7ff680dfd597[2070] mprotect(0x5569dfab9000, 33550336, PROT_READ|PROT_WRITE|PROT_EXEC) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff680dfd597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE|PROT_EXEC", 
+                            "p0": "0x5569dfab9000", 
+                            "p1": "33550336"
+                        }, 
+                        "time": 1642276755.551315
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.551358 gpgsplit@7ff680dfd667[2070] madvise(0x5569dfab9000, 33550336, MADV_HUGEPAGE) = 0\n", 
+                        "api": "madvise", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff680dfd667", 
+                        "arguments": {
+                            "p2": "MADV_HUGEPAGE", 
+                            "p0": "0x5569dfab9000", 
+                            "p1": "33550336"
+                        }, 
+                        "time": 1642276755.551358
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.551506 gpgsplit@7ff680dfd4c3[2070] mmap2(0x0, 4294963200, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7ff57c001000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7ff57c001000", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff680dfd4c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x0", 
+                            "p1": "4294963200", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642276755.551506
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.551551 gpgsplit@7ff680df2d59[2070] openat(AT_FDCWD, \"/proc/sys/vm/mmap_min_addr\", O_RDONLY) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff680df2d59", 
+                        "arguments": {
+                            "p2": "O_RDONLY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/proc/sys/vm/mmap_min_addr"
+                        }, 
+                        "time": 1642276755.551551
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.551657 gpgsplit@7ff680df2613[2070] fstat(4, 0x7ffd5c038cc0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff680df2613", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd5c038cc0"
+                        }, 
+                        "time": 1642276755.551657
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.551699 gpgsplit@7ff680df2fb4[2070] read(4, 0x5569e25493d0, 1024) = 6\n", 
+                        "api": "read", 
+                        "return_value": "6", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff680df2fb4", 
+                        "arguments": {
+                            "p2": "1024", 
+                            "p0": "4", 
+                            "p1": "0x5569e25493d0"
+                        }, 
+                        "time": 1642276755.551699
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.551749 gpgsplit@7ff680df83f7[2070] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff680df83f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642276755.551749
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.551794 gpgsplit@7ff680dfd2e9[2070] gettid() = 2070\n", 
+                        "api": "gettid", 
+                        "return_value": "2070", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff680dfd2e9", 
+                        "arguments": {}, 
+                        "time": 1642276755.551794
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.551825 gpgsplit@7ff680df2613[2070] fstat(3, 0x7ffd5c039530) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff680df2613", 
+                        "arguments": {
+                            "p0": "3", 
+                            "p1": "0x7ffd5c039530"
+                        }, 
+                        "time": 1642276755.551825
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.551856 gpgsplit@7ff680dc8717[2070] geteuid() = 0\n", 
+                        "api": "geteuid", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff680dc8717", 
+                        "arguments": {}, 
+                        "time": 1642276755.551856
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.551887 gpgsplit@7ff680dc8737[2070] getegid() = 0\n", 
+                        "api": "getegid", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff680dc8737", 
+                        "arguments": {}, 
+                        "time": 1642276755.551887
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.551916 gpgsplit@7ff680ee5d94[2070] read(3, 0x7ffd5c039730, 1024) = 1024\n", 
+                        "api": "read", 
+                        "return_value": "1024", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff680ee5d94", 
+                        "arguments": {
+                            "p2": "1024", 
+                            "p0": "3", 
+                            "p1": "0x7ffd5c039730"
+                        }, 
+                        "time": 1642276755.551916
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.551950 gpgsplit@7ff680dfd4c3[2070] mmap2(0x7ff57c011000, 32768, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 3, 0) = 0x7ff57c011000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7ff57c011000", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff680dfd4c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED", 
+                            "p0": "0x7ff57c011000", 
+                            "p1": "32768", 
+                            "p4": "3", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642276755.55195
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.551991 gpgsplit@7ff680df92f7[2070] brk(0x5569e257e000) = 93913257336832\n", 
+                        "api": "brk", 
+                        "return_value": "93913257336832", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff680df92f7", 
+                        "arguments": {
+                            "p0": "0x5569e257e000"
+                        }, 
+                        "time": 1642276755.551991
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.552039 gpgsplit@7ff680dfd4c3[2070] mmap2(0x7ff57c028000, 4096, PROT_READ|PROT_WRITE|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 3, 28672) = 0x7ff57c028000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7ff57c028000", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff680dfd4c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED", 
+                            "p0": "0x7ff57c028000", 
+                            "p1": "4096", 
+                            "p4": "3", 
+                            "p5": "28672"
+                        }, 
+                        "time": 1642276755.552039
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.552081 gpgsplit@7ff680ee5e27[2070] close(3) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff680ee5e27", 
+                        "arguments": {
+                            "p0": "3"
+                        }, 
+                        "time": 1642276755.552081
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.552140 gpgsplit@7ff680dfd4c3[2070] mmap2(0x7ff67b7ff000, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7ff67b7ff000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7ff67b7ff000", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff680dfd4c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7ff67b7ff000", 
+                            "p1": "8392704", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642276755.55214
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.552242 gpgsplit@7ff680dfd597[2070] mprotect(0x7ff67b7ff000, 4096, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff680dfd597", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7ff67b7ff000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642276755.552242
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.552290 gpgsplit@7ff680ee655e[2070] openat(AT_FDCWD, \"/lib/ld-linux.so.2\", O_RDONLY) = -2 (ENOENT)\n", 
+                        "api": "openat", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff680ee655e", 
+                        "arguments": {
+                            "p2": "O_RDONLY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/ld-linux.so.2"
+                        }, 
+                        "time": 1642276755.55229
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.552355 gpgsplit@7ff680df3057[2070] write(2, \"/lib/ld-linux.so.2: No such file or directory\\n\", 46) = 46\n", 
+                        "api": "write", 
+                        "return_value": "46", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff680df3057", 
+                        "arguments": {
+                            "p2": "46", 
+                            "p0": "2", 
+                            "p1": "/lib/ld-linux.so.2: No such file or directory\n"
+                        }, 
+                        "time": 1642276755.552355
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.552417 gpgsplit@7ff680dc7926[2070] exit_group(-1)\n", 
+                        "api": "exit_group", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff680dc7926", 
+                        "arguments": {
+                            "p0": "-1"
+                        }, 
+                        "time": 1642276755.552417
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 19:59:15 2022.552451 gpgsplit@7ff680dc7926[2070] futex(0x7ff680c6b410, FUTEX_WAKE, 1) = 0\n", 
+                        "api": "futex", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff680dc7926", 
+                        "arguments": {
+                            "p2": "1", 
+                            "p0": "0x7ff680c6b410", 
+                            "p1": "FUTEX_WAKE"
+                        }, 
+                        "time": 1642276755.552451
+                    }
+                ], 
+                "pid": 2070, 
+                "process_name": "gpgsplit", 
+                "command_line": "/tmp/gpgsplit", 
+                "first_seen": 1642276755.523399, 
+                "ppid": -1, 
+                "type": "process"
+            }, 
+            {
+                "calls": [
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 19:59:15 2022.546851 gpgsplit@7ff680edc117[2071] set_robust_list(0x7ff680c699e0, 24) = 0\n", 
+                        "api": "set_robust_list", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff680edc117", 
+                        "arguments": {
+                            "p0": "0x7ff680c699e0", 
+                            "p1": "24"
+                        }, 
+                        "time": 1642276755.546851
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 19:59:15 2022.546934 gpgsplit@7ff680dfd4c3[2071] mmap2(0x0, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7ff678469000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7ff678469000", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff680dfd4c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x0", 
+                            "p1": "134217728", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642276755.546934
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 19:59:15 2022.546999 gpgsplit@7ff680dfd567[2071] munmap(0x7ff678469000, 62484480) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff680dfd567", 
+                        "arguments": {
+                            "p0": "0x7ff678469000", 
+                            "p1": "62484480"
+                        }, 
+                        "time": 1642276755.546999
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 19:59:15 2022.547059 gpgsplit@7ff680dfd567[2071] munmap(0x7ff680000000, 4624384) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff680dfd567", 
+                        "arguments": {
+                            "p0": "0x7ff680000000", 
+                            "p1": "4624384"
+                        }, 
+                        "time": 1642276755.547059
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 19:59:15 2022.547112 gpgsplit@7ff680dfd597[2071] mprotect(0x7ff67c000000, 135168, PROT_READ|PROT_WRITE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff680dfd597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p0": "0x7ff67c000000", 
+                            "p1": "135168"
+                        }, 
+                        "time": 1642276755.547112
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "gpgsplit", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 19:59:15 2022.547193 gpgsplit@7ff680ee6440[2071] nanosleep([0.010000000], 0x7ff680c68dc0) = -516\n", 
+                        "api": "nanosleep", 
+                        "return_value": "-516", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff680ee6440", 
+                        "arguments": {
+                            "p0": [
+                                "0.010000000"
+                            ], 
+                            "p1": "0x7ff680c68dc0"
+                        }, 
+                        "time": 1642276755.547193
+                    }
+                ], 
+                "pid": 2071, 
+                "process_name": "gpgsplit", 
+                "command_line": "", 
+                "first_seen": 1642276755.546851, 
+                "ppid": 2070, 
+                "type": "process"
+            }
+        ], 
+        "processtree": [
+            {
+                "track": true, 
+                "pid": 2070, 
+                "process_name": "gpgsplit", 
+                "command_line": "/tmp/gpgsplit", 
+                "first_seen": 1642276755.523399, 
+                "ppid": -1, 
+                "children": [
+                    {
+                        "track": true, 
+                        "pid": 2071, 
+                        "process_name": "gpgsplit", 
+                        "command_line": "", 
+                        "first_seen": 1642276755.546851, 
+                        "ppid": 2070, 
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    }, 
+    "debug": {
+        "action": [], 
+        "dbgview": [], 
+        "errors": [], 
+        "log": [
+            "2022-01-15 19:59:08,008 [root] DEBUG: Starting analyzer from: /tmp/tmpPQu09E\n", 
+            "2022-01-15 19:59:08,009 [root] DEBUG: Storing results at: /tmp/aKJWNNWOZI\n", 
+            "2022-01-15 19:59:09,957 [modules.auxiliary.filecollector] INFO: FileCollector started v0.08\n", 
+            "2022-01-15 19:59:10,458 [modules.auxiliary.human] INFO: Human started v0.02\n", 
+            "2022-01-15 19:59:10,459 [modules.auxiliary.screenshots] INFO: Screenshots started v0.03\n", 
+            "2022-01-15 19:59:15,517 [lib.core.packages] INFO: Process startup took 5.05 seconds\n", 
+            "2022-01-15 19:59:15,518 [root] INFO: Added new process to list with pid: 2061\n", 
+            "2022-01-15 19:59:21,527 [root] INFO: Process with pid 2061 has terminated\n", 
+            "2022-01-15 19:59:21,528 [root] INFO: Process list is empty, terminating analysis.\n", 
+            "2022-01-15 19:59:24,531 [lib.core.packages] INFO: Package requested stop\n", 
+            "2022-01-15 19:59:24,532 [lib.core.packages] WARNING: Exception uploading log: [Errno 3] No such process\n"
+        ], 
+        "cuckoo": [
+            "2022-01-15 21:29:34,885 [cuckoo.core.scheduler] DEBUG: Task #2650540: no machine available yet\n", 
+            "2022-01-15 21:29:44,908 [cuckoo.core.scheduler] DEBUG: Task #2650540: no machine available yet\n", 
+            "2022-01-15 21:29:54,928 [cuckoo.core.scheduler] DEBUG: Task #2650540: no machine available yet\n", 
+            "2022-01-15 21:30:04,952 [cuckoo.core.scheduler] DEBUG: Task #2650540: no machine available yet\n", 
+            "2022-01-15 21:30:14,977 [cuckoo.core.scheduler] DEBUG: Task #2650540: no machine available yet\n", 
+            "2022-01-15 21:30:24,995 [cuckoo.core.scheduler] DEBUG: Task #2650540: no machine available yet\n", 
+            "2022-01-15 21:30:35,020 [cuckoo.core.scheduler] DEBUG: Task #2650540: no machine available yet\n", 
+            "2022-01-15 21:30:45,039 [cuckoo.core.scheduler] DEBUG: Task #2650540: no machine available yet\n", 
+            "2022-01-15 21:30:55,065 [cuckoo.core.scheduler] DEBUG: Task #2650540: no machine available yet\n", 
+            "2022-01-15 21:31:05,082 [cuckoo.core.scheduler] DEBUG: Task #2650540: no machine available yet\n", 
+            "2022-01-15 21:31:15,112 [cuckoo.core.scheduler] INFO: Task #2650540: acquired machine Ubuntu1904x641 (label=Ubuntu1904x641)\n", 
+            "2022-01-15 21:31:15,113 [cuckoo.core.resultserver] DEBUG: Now tracking machine 192.168.168.101 for task #2650540\n", 
+            "2022-01-15 21:31:15,288 [cuckoo.auxiliary.sniffer] INFO: Started sniffer with PID 3275044 (interface=vboxnet0, host=192.168.168.101)\n", 
+            "2022-01-15 21:31:15,441 [cuckoo.machinery.virtualbox] DEBUG: Starting vm Ubuntu1904x641\n", 
+            "2022-01-15 21:31:15,785 [cuckoo.machinery.virtualbox] DEBUG: Restoring virtual machine Ubuntu1904x641 to Snapshot\n", 
+            "2022-01-15 21:31:25,001 [cuckoo.core.guest] INFO: Starting analysis #2650540 on guest (id=Ubuntu1904x641, ip=192.168.168.101)\n", 
+            "2022-01-15 21:31:26,006 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: not ready yet\n", 
+            "2022-01-15 21:31:31,024 [cuckoo.core.guest] INFO: Guest is running Cuckoo Agent 0.10 (id=Ubuntu1904x641, ip=192.168.168.101)\n", 
+            "2022-01-15 21:31:31,036 [cuckoo.core.guest] DEBUG: Uploading analyzer to guest (id=Ubuntu1904x641, ip=192.168.168.101, monitor=latest, size=72028)\n", 
+            "2022-01-15 21:31:32,204 [cuckoo.core.resultserver] DEBUG: Task #2650540: live log analysis.log initialized.\n", 
+            "2022-01-15 21:31:37,656 [cuckoo.core.resultserver] DEBUG: Task #2650540: File upload for 'shots/0001.jpg'\n", 
+            "2022-01-15 21:31:37,672 [cuckoo.core.resultserver] DEBUG: Task #2650540 uploaded file length: 171571\n", 
+            "2022-01-15 21:31:46,214 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2650540 still processing\n", 
+            "2022-01-15 21:31:48,713 [cuckoo.core.resultserver] DEBUG: Task #2650540: File upload for 'logs/all.stap'\n", 
+            "2022-01-15 21:31:48,717 [cuckoo.core.resultserver] DEBUG: Task #2650540 uploaded file length: 18831\n", 
+            "2022-01-15 21:32:01,271 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2650540 still processing\n", 
+            "2022-01-15 21:32:16,396 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2650540 still processing\n", 
+            "2022-01-15 21:32:31,467 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2650540 still processing\n", 
+            "2022-01-15 21:32:46,620 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2650540 still processing\n", 
+            "2022-01-15 21:33:01,676 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2650540 still processing\n", 
+            "2022-01-15 21:33:16,773 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2650540 still processing\n", 
+            "2022-01-15 21:33:31,831 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2650540 still processing\n", 
+            "2022-01-15 21:33:46,941 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2650540 still processing\n", 
+            "2022-01-15 21:34:02,082 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2650540 still processing\n", 
+            "2022-01-15 21:34:17,147 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2650540 still processing\n", 
+            "2022-01-15 21:34:32,211 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2650540 still processing\n", 
+            "2022-01-15 21:34:47,338 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2650540 still processing\n", 
+            "2022-01-15 21:35:02,455 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2650540 still processing\n", 
+            "2022-01-15 21:35:17,606 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2650540 still processing\n", 
+            "2022-01-15 21:35:32,691 [cuckoo.core.guest] INFO: Ubuntu1904x641: end of analysis reached!\n", 
+            "2022-01-15 21:35:32,704 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Redsocks\n", 
+            "2022-01-15 21:35:32,785 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Sniffer\n", 
+            "2022-01-15 21:35:55,961 [cuckoo.machinery.virtualbox] INFO: Successfully generated memory dump for virtual machine with label Ubuntu1904x641 to path /srv/cuckoo/cwd/storage/analyses/2650540/memory.dmp\n", 
+            "2022-01-15 21:35:55,963 [cuckoo.machinery.virtualbox] DEBUG: Stopping vm Ubuntu1904x641\n", 
+            "2022-01-15 21:35:59,896 [cuckoo.core.resultserver] DEBUG: Stopped tracking machine 192.168.168.101 for task #2650540\n", 
+            "2022-01-15 21:35:59,897 [cuckoo.core.resultserver] DEBUG: Cancel <Context for LOG> for task 2650540\n", 
+            "2022-01-15 21:36:00,035 [cuckoo.core.scheduler] DEBUG: Released database task #2650540\n", 
+            "2022-01-15 21:36:01,935 [cuckoo.core.scheduler] INFO: Task #2650540: analysis procedure completed\n"
+        ]
+    }, 
+    "strings": [
+        "/lib/ld-linux.so.2", 
+        "libz.so.1", 
+        "inflate", 
+        "inflateInit_", 
+        "inflateEnd", 
+        "_Jv_RegisterClasses", 
+        "inflateInit2_", 
+        "__gmon_start__", 
+        "libbz2.so.1.0", 
+        "BZ2_bzDecompressInit", 
+        "BZ2_bzDecompress", 
+        "BZ2_bzDecompressEnd", 
+        "libc.so.6", 
+        "strcpy", 
+        "stdout", 
+        "strerror", 
+        "fdopen", 
+        "geteuid", 
+        "munmap", 
+        "__strtol_internal", 
+        "getpagesize", 
+        "memcpy", 
+        "__cxa_finalize", 
+        "getuid", 
+        "malloc", 
+        "iconv_open", 
+        "__strtoul_internal", 
+        "fflush", 
+        "__ctype_tolower_loc", 
+        "dcgettext", 
+        "nl_langinfo", 
+        "ferror", 
+        "strncmp", 
+        "realloc", 
+        "_IO_getc", 
+        "memset", 
+        "iconv_close", 
+        "__assert_fail", 
+        "strcmp", 
+        "sprintf", 
+        "fclose", 
+        "stderr", 
+        "mmap64", 
+        "__ctype_b_loc", 
+        "fwrite", 
+        "__errno_location", 
+        "_IO_putc", 
+        "__ctype_toupper_loc", 
+        "_IO_stdin_used", 
+        "__libc_start_main", 
+        "strlen", 
+        "strchr", 
+        "setuid", 
+        "vfprintf", 
+        "strpbrk", 
+        "fopen64", 
+        "_edata", 
+        "__bss_start", 
+        "GLIBC_2.1.3", 
+        "GLIBC_2.3", 
+        "GLIBC_2.1", 
+        "GLIBC_2.0", 
+        "can't open `%s': %s", 
+        "invalid CTB %02x", 
+        "pkttype < 1000 && pkttype >= 0", 
+        "../../tools/gpgsplit.c", 
+        "gpg_control", 
+        "unknown", 
+        "pk_enc", 
+        "sym_enc", 
+        "onepass_sig", 
+        "secret_key", 
+        "public_key", 
+        "secret_subkey", 
+        "uncompressed", 
+        "compressed", 
+        "encrypted", 
+        "marker", 
+        "plaintext", 
+        "ring_trust", 
+        "user_id", 
+        "public_subkey", 
+        "old_comment", 
+        "attribute", 
+        "encrypted_mdc", 
+        "comment", 
+        "%s%06u-%03d.%.40s", 
+        "writing `%s'", 
+        "error creating `%s': %s", 
+        "error calcualting public key length", 
+        "c >= 224 && c < 255", 
+        "!pktlen", 
+        "out of core", 
+        "invalid lib version", 
+        "unknown error", 
+        "zlib problem: %s", 
+        "zlib inflate problem: %s", 
+        "zlib inflate problem: rc=%d", 
+        "bz2lib problem: %d", 
+        "bz2lib inflate problem: %d", 
+        "invalid compression algorithm (%d)", 
+        "error closing `%s': %s", 
+        "error writing `%s': %s", 
+        "error reading `%s': %s", 
+        "premature EOF while reading `%s'", 
+        "gpgsplit", 
+        "Usage: gpgsplit [options] [files] (-h for help)", 
+        "Syntax: gpgsplit [options] [files]", 
+        "Split an OpenPGP message into packets", 
+        "gpgsplit (GnuPG)", 
+        "GNU/Linux", 
+        "Please report bugs to <bug-gnupg@gnu.org>.", 
+        "@Options:", 
+        "verbose", 
+        "prefix", 
+        "|STRING|Prepend filenames with STRING", 
+        "uncompress", 
+        "uncompress a packet", 
+        "secret-to-public", 
+        "convert secret keys to public keys", 
+        "no-split", 
+        "write to stdout and don't actually split", 
+        "write_part", 
+        "create_filename", 
+        "%s%s: %s", 
+        "?%s: %s", 
+        "ERROR: ", 
+        "WARNING: ", 
+        "Ohhhh jeeee: ", 
+        "... this is a bug (%s:%d:%s)", 
+        "fatal: ", 
+        "../../util/logger.c", 
+        "can't open fd %d for logging: %s", 
+        "log_set_logfile", 
+        "Copyright (C) 2006 Free Software Foundation, Inc.", 
+        "This program comes with ABSOLUTELY NO WARRANTY.", 
+        "This is free software, and you are welcome to redistribute it", 
+        "under certain conditions. See the file COPYING for details.", 
+        "This is free software; you can redistribute it and/or modify", 
+        "it under the terms of the GNU General Public License as published by", 
+        "the Free Software Foundation; either version 2 of the License, or", 
+        "(at your option) any later version.", 
+        "It is distributed in the hope that it will be useful,", 
+        "but WITHOUT ANY WARRANTY; without even the implied warranty of", 
+        "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the", 
+        "GNU General Public License for more details.", 
+        "You should have received a copy of the GNU General Public License", 
+        "along with this program; if not, write to the Free Software", 
+        "Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.", 
+        "%s %s; %s", 
+        "Invalid argument for ArgParse", 
+        "%s:%u: argument not expected", 
+        "%s:%u: read error", 
+        "%s:%u: keyword too long", 
+        "%s:%u: missing argument", 
+        "%s:%u: invalid command", 
+        "%s:%u: invalid alias definition", 
+        "%s:%u: invalid option", 
+        "Missing argument for option \"%.50s\"", 
+        "Option \"%.50s\" does not expect an argument", 
+        "Invalid command \"%.50s\"", 
+        "Option \"%.50s\" is ambiguous", 
+        "Command \"%.50s\" is ambiguous", 
+        "Invalid option \"%.50s\"", 
+        "Options:", 
+        "%c --%s", 
+        "(A single dash may be used instead of the double ones)", 
+        "version", 
+        "warranty", 
+        "dump-options", 
+        "--dump-options", 
+        "--help", 
+        "--version", 
+        "--warranty", 
+        "out of %s memory while allocating %u bytes", 
+        "secure", 
+        "(this may be caused by too many secret keys used simultaneously or due to excessive large key sizes)", 
+        "dummy m_size called", 
+        "secmem usage: %u/%u bytes in %u/%u blocks of pool %lu/%lu", 
+        "WARNING: using insecure memory!", 
+        "please see http://www.gnupg.org/faq.html for more information", 
+        "operation is not possible without initialized secure memory", 
+        "(you may have used the wrong program for this task)", 
+        "secure memory corrupted at block %p", 
+        "failed to drop setuid", 
+        "secure memory is disabled", 
+        "can't mmap pool of %u bytes: %s - using malloc", 
+        "can't allocate memory pool of %u bytes", 
+        "failed to reset uid: %s", 
+        "can't lock memory: %s", 
+        "Oops, secure memory pool already initialized", 
+        "conversion from `%s' to `%s' not available", 
+        "iconv_open failed: %s", 
+        "iso-8859-1", 
+        "\\x%02x", 
+        "../../util/strgutil.c", 
+        "conversion from `%s' to `%s' failed: %s", 
+        "8859-1", 
+        "ANSI_X3.4-1968", 
+        "utf8_to_native", 
+        ".shstrtab", 
+        ".interp", 
+        ".note.ABI-tag", 
+        ".dynsym", 
+        ".dynstr", 
+        ".gnu.version", 
+        ".gnu.version_r", 
+        ".rela.dyn", 
+        ".rela.plt", 
+        ".rodata", 
+        ".eh_frame", 
+        ".ctors", 
+        ".dtors", 
+        ".dynamic"
+    ], 
+    "metadata": {
+        "output": {
+            "pcap": {
+                "basename": "dump.pcap", 
+                "sha256": "0ec6f7306fead6492585dc901adbaf079f3fcc8bc37ef791038192e7f78821c2", 
+                "dirname": ""
+            }
+        }
+    }
+}
