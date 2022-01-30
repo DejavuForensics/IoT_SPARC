@@ -1,0 +1,558 @@
+{
+    "info": {
+        "added": 1642282612.598277, 
+        "started": 1642326718.545062, 
+        "duration": 413, 
+        "ended": 1642327131.861083, 
+        "owner": null, 
+        "score": 0.0, 
+        "id": 2651790, 
+        "category": "file", 
+        "git": {
+            "head": "e8f6317b4b3ef806085a1e99e64c6ff01f26948f", 
+            "fetch_head": "e8f6317b4b3ef806085a1e99e64c6ff01f26948f"
+        }, 
+        "monitor": "2deb9ccd75d5a7a3fe05b2625b03a8639d6ee36b", 
+        "package": "elf", 
+        "route": "internet", 
+        "custom": null, 
+        "machine": {
+            "status": "stopped", 
+            "name": "Ubuntu1904x641", 
+            "label": "Ubuntu1904x641", 
+            "platform": "linux", 
+            "manager": "VirtualBox", 
+            "started_on": "2022-01-16 09:54:15", 
+            "shutdown_on": "2022-01-16 09:58:51"
+        }, 
+        "platform": "linux", 
+        "version": "2.0.7", 
+        "options": "procmemdump=yes,route=internet"
+    }, 
+    "signatures": [], 
+    "target": {
+        "category": "file", 
+        "file": {
+            "mimetype": "application/x-object", 
+            "yara": [], 
+            "sha1": "2064b5680fb7a3e652a9b14d6f2a5f19c8f9cc9f", 
+            "name": "tcp_westwood.ko", 
+            "type": "ELF 32-bit MSB relocatable, SPARC, version 1 (SYSV), not stripped", 
+            "sha256": "9401a0d0079d456aade44f1f63e11595f9c0ebf87dca20fac28c72470e86aeff", 
+            "urls": [], 
+            "crc32": "E8C91710", 
+            "path": "/srv/cuckoo/cwd/storage/binaries/9401a0d0079d456aade44f1f63e11595f9c0ebf87dca20fac28c72470e86aeff", 
+            "ssdeep": "96:tPh7gD+kFud9BYTms3/FSo5QHuCNDd8HiLHz5T:tPhnd9g/woMnd+i7z5T", 
+            "size": 4895, 
+            "sha512": "ab25f3ede570ade4d3eb62f44ce32b1fb84ed58b9a92666cbbc1efc22e1a486622c643d3ade834ee6223d9b2aa40b0111eec2dc850f31dc9ef640cb16a3fdacd", 
+            "md5": "dec9971cbfab0cec8a975cbfd3e99ac5"
+        }, 
+        "custom": null
+    }, 
+    "irma": {
+        "status": 0, 
+        "probes_finished": 16, 
+        "scan_id": "d0447182-209f-40f0-aee7-2805b3c61fa9", 
+        "parent_file_sha256": null, 
+        "name": "9401a0d0079d456aade44f1f63e11595f9c0ebf87dca20fac28c72470e86aeff", 
+        "probes_total": 16, 
+        "scan_date": 1642319932, 
+        "other_results": [], 
+        "submitter": "cli", 
+        "file_infos": {
+            "mimetype": "ELF 32-bit MSB relocatable, SPARC, version 1 (SYSV)", 
+            "sha1": "2064b5680fb7a3e652a9b14d6f2a5f19c8f9cc9f", 
+            "tags": [], 
+            "timestamp_first_scan": 1642319932.27, 
+            "timestamp_last_scan": 1642319941.41, 
+            "sha256": "9401a0d0079d456aade44f1f63e11595f9c0ebf87dca20fac28c72470e86aeff", 
+            "md5": "dec9971cbfab0cec8a975cbfd3e99ac5", 
+            "size": 4895
+        }, 
+        "probe_results": {
+            "antivirus": {
+                "Avast Core Security (Linux)": {
+                    "status": 0, 
+                    "duration": 0.01, 
+                    "version": "3.0.3", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "F-Secure Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.02, 
+                    "version": "11.10", 
+                    "results": null, 
+                    "virus_database_version": "2022-01-13_04"
+                }, 
+                "Windows Defender (Windows)": {
+                    "status": 0, 
+                    "duration": 0.05, 
+                    "version": "1.1.18800.4", 
+                    "results": null, 
+                    "virus_database_version": "1.355.1049.0"
+                }, 
+                "Comodo Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 2.25, 
+                    "version": "1.1.268025.1", 
+                    "results": null, 
+                    "virus_database_version": "2021-11-02"
+                }, 
+                "Kaspersky Antivirus (Win)": {
+                    "status": 0, 
+                    "duration": 6.7, 
+                    "version": "21.3", 
+                    "results": null, 
+                    "virus_database_version": "2022-01-16 02:22:00 (full)"
+                }, 
+                "ESET NOD32 Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 4.27, 
+                    "version": "4.0.96", 
+                    "results": null, 
+                    "virus_database_version": "6178ebd0-1e722 (2021-10-27)"
+                }, 
+                "GData (Windows)": {
+                    "status": 0, 
+                    "duration": 0.19, 
+                    "version": "5.5.20197.1358", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Forticlient (Linux)": {
+                    "status": 0, 
+                    "duration": 3.03, 
+                    "version": "unavailable", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Avira (Windows)": {
+                    "status": 0, 
+                    "duration": 3.77, 
+                    "version": "8.3.64.66", 
+                    "results": null, 
+                    "virus_database_version": "8.19.1.122"
+                }, 
+                "eScan Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 4.18, 
+                    "version": "7.0.21", 
+                    "results": null, 
+                    "virus_database_version": "7.90035 (27/10/2021)"
+                }, 
+                "McAfee CLI scanner (Linux)": {
+                    "status": 0, 
+                    "duration": 6.07, 
+                    "version": "6.0.6.653", 
+                    "results": null, 
+                    "virus_database_version": "10149"
+                }, 
+                "Sophos Anti-Virus (Linux)": {
+                    "status": 0, 
+                    "duration": 6.95, 
+                    "version": "5.85.0", 
+                    "results": null, 
+                    "virus_database_version": "5.88 (26 October 2021)"
+                }, 
+                "DrWeb Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.19, 
+                    "version": "11.1.10.2108031732", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "ClamAV (Linux)": {
+                    "status": 0, 
+                    "duration": 0.02, 
+                    "version": "0.103.2", 
+                    "results": null, 
+                    "virus_database_version": "26334"
+                }, 
+                "Bitdefender Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 6.09, 
+                    "version": "7.90123", 
+                    "results": null, 
+                    "virus_database_version": null
+                }, 
+                "Emsisoft Commandline Scanner (Windows)": {
+                    "status": 0, 
+                    "duration": 0.23, 
+                    "version": "2021.10.0.11201", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }
+            }
+        }, 
+        "path": "", 
+        "result_id": "12e0b2ee-56c3-423c-b003-4ff5bc12c7e1", 
+        "file_sha256": "9401a0d0079d456aade44f1f63e11595f9c0ebf87dca20fac28c72470e86aeff"
+    }, 
+    "suricata": {
+        "tls": [
+            {
+                "src_ip": "192.168.168.101", 
+                "version": "TLS 1.2", 
+                "src_port": 37750, 
+                "dst_port": 443, 
+                "timestamp": "2022-01-16T09:54:47.790332+0200", 
+                "dst_ip": "91.189.92.19", 
+                "fingerprint": "97:63:1b:60:eb:d1:fa:4f:a4:fc:fa:98:66:3d:ee:22:fb:78:ce:c1", 
+                "subject": "C=GB, L=London, O=Canonical Group Ltd, CN=api.snapcraft.io", 
+                "issuer": "C=US, O=DigiCert Inc, CN=DigiCert TLS RSA SHA256 2020 CA1"
+            }
+        ], 
+        "files": [], 
+        "alerts": [], 
+        "http": []
+    }, 
+    "virustotal": {
+        "summary": {
+            "error": "resource has not been scanned yet"
+        }
+    }, 
+    "network": {
+        "udp": [], 
+        "dns_servers": [], 
+        "http": [], 
+        "smtp": [], 
+        "tcp": [], 
+        "geoinfo": {}, 
+        "mitm": [], 
+        "https_ex": [], 
+        "http_ex": [], 
+        "sorted_pcap_sha256": "97949da65f28da30e12bf9bb64b099f608927208fdcaa3e744362ebe0795c89f", 
+        "icmp": [], 
+        "tls": [], 
+        "dead_hosts": [], 
+        "smtp_ex": [], 
+        "hosts": [], 
+        "pcap_sha256": "ada186d5883cbb1704f6c43030c6f79be4f29dc0a5dfb7599a455017f31ffc85", 
+        "dns": [], 
+        "domains": [], 
+        "irc": []
+    }, 
+    "resubmit": {
+        "resubmit_ids": []
+    }, 
+    "snort": {
+        "alerts": []
+    }, 
+    "behavior": {
+        "generic": [
+            {
+                "process_path": null, 
+                "process_name": "sh", 
+                "pid": 2073, 
+                "summary": {}, 
+                "first_seen": 1642282619.20423, 
+                "ppid": -1
+            }
+        ], 
+        "processes": [
+            {
+                "calls": [
+                    {
+                        "status": "ENOEXEC", 
+                        "process_name": "sh", 
+                        "pid": 2073, 
+                        "raw": "Sat Jan 15 21:36:59 2022.204230 sh@7f5cdc68b957[2073] execve(\"/tmp/tcp_westwood.ko\", [\"/tmp/tcp_westwood.ko\"], [\"SUDO_GID=0\", \"MAIL=/var/mail/root\", \"USER=root\", \"HOME=/root\", \"SUDO_UID=0\", \"LOGNAME=root\", \"SYSTEMTAP_MODULE=stap_\", \"TERM=unknown\", \"SYSTEMTAP_VERBOSE=2\", \"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin\", \"DISPLAY=:0\", \"LANG=en_US.UTF-8\", \"XAUTHORITY=/root/.Xauthority\", \"SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/tcp_westwood.ko\", \"SHELL=/bin/bash\", \"SUDO_USER=root\", \"PWD=/tmp/tmpc9eV) = -8 (ENOEXEC)\n", 
+                        "api": "execve", 
+                        "return_value": "-8", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cdc68b957", 
+                        "arguments": {
+                            "p2": [
+                                "SUDO_GID=0", 
+                                "MAIL=/var/mail/root", 
+                                "USER=root", 
+                                "HOME=/root", 
+                                "SUDO_UID=0", 
+                                "LOGNAME=root", 
+                                "SYSTEMTAP_MODULE=stap_", 
+                                "TERM=unknown", 
+                                "SYSTEMTAP_VERBOSE=2", 
+                                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin", 
+                                "DISPLAY=:0", 
+                                "LANG=en_US.UTF-8", 
+                                "XAUTHORITY=/root/.Xauthority", 
+                                "SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/tcp_westwood.ko", 
+                                "SHELL=/bin/bash", 
+                                "SUDO_USER=root", 
+                                "\"PWD=/tmp/tmpc9eV"
+                            ], 
+                            "p0": "/tmp/tcp_westwood.ko", 
+                            "p1": [
+                                "/tmp/tcp_westwood.ko"
+                            ]
+                        }, 
+                        "time": 1642282619.20423
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 2073, 
+                        "raw": "Sat Jan 15 21:36:59 2022.212879 sh@7f5cdc6b6cce[2073] openat(AT_FDCWD, \"/tmp/tcp_westwood.ko\", O_RDONLY|O_NOCTTY) = 3\n", 
+                        "api": "openat", 
+                        "return_value": "3", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cdc6b6cce", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_NOCTTY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/tmp/tcp_westwood.ko"
+                        }, 
+                        "time": 1642282619.212879
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 2073, 
+                        "raw": "Sat Jan 15 21:36:59 2022.212911 sh@7f5cdc6b6f81[2073] read(3, 0x7ffe6efc2fc0, 128) = 128\n", 
+                        "api": "read", 
+                        "return_value": "128", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cdc6b6f81", 
+                        "arguments": {
+                            "p2": "128", 
+                            "p0": "3", 
+                            "p1": "0x7ffe6efc2fc0"
+                        }, 
+                        "time": 1642282619.212911
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 2073, 
+                        "raw": "Sat Jan 15 21:36:59 2022.212939 sh@7f5cdc6b7674[2073] close(3) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cdc6b7674", 
+                        "arguments": {
+                            "p0": "3"
+                        }, 
+                        "time": 1642282619.212939
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 2073, 
+                        "raw": "Sat Jan 15 21:36:59 2022.213017 sh@7f5cdc6b7024[2073] write(2, \"sh: 1: \", 7) = 7\n", 
+                        "api": "write", 
+                        "return_value": "7", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cdc6b7024", 
+                        "arguments": {
+                            "p2": "7", 
+                            "p0": "2", 
+                            "p1": "sh: 1: "
+                        }, 
+                        "time": 1642282619.213017
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 2073, 
+                        "raw": "Sat Jan 15 21:36:59 2022.213053 sh@7f5cdc6b7024[2073] write(2, \"/tmp/tcp_westwood.ko: Exec format error\", 39) = 39\n", 
+                        "api": "write", 
+                        "return_value": "39", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cdc6b7024", 
+                        "arguments": {
+                            "p2": "39", 
+                            "p0": "2", 
+                            "p1": "/tmp/tcp_westwood.ko: Exec format error"
+                        }, 
+                        "time": 1642282619.213053
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 2073, 
+                        "raw": "Sat Jan 15 21:36:59 2022.213083 sh@7f5cdc6b7024[2073] write(2, \"\\n\", 1) = 1\n", 
+                        "api": "write", 
+                        "return_value": "1", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cdc6b7024", 
+                        "arguments": {
+                            "p2": "1", 
+                            "p0": "2", 
+                            "p1": "\n"
+                        }, 
+                        "time": 1642282619.213083
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 2073, 
+                        "raw": "Sat Jan 15 21:36:59 2022.213114 sh@7f5cdc68b926[2073] exit_group(2)\n", 
+                        "api": "exit_group", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5cdc68b926", 
+                        "arguments": {
+                            "p0": "2"
+                        }, 
+                        "time": 1642282619.213114
+                    }
+                ], 
+                "pid": 2073, 
+                "process_name": "sh", 
+                "command_line": "", 
+                "first_seen": 1642282619.20423, 
+                "ppid": -1, 
+                "type": "process"
+            }
+        ], 
+        "processtree": [
+            {
+                "track": true, 
+                "pid": 2073, 
+                "process_name": "sh", 
+                "command_line": "", 
+                "first_seen": 1642282619.20423, 
+                "ppid": -1, 
+                "children": []
+            }
+        ]
+    }, 
+    "debug": {
+        "action": [], 
+        "dbgview": [], 
+        "errors": [], 
+        "log": [
+            "2022-01-15 21:36:52,007 [root] DEBUG: Starting analyzer from: /tmp/tmpc9eVr2\n", 
+            "2022-01-15 21:36:52,007 [root] DEBUG: Storing results at: /tmp/LyCHoKDNn\n", 
+            "2022-01-15 21:36:54,040 [modules.auxiliary.filecollector] INFO: FileCollector started v0.08\n", 
+            "2022-01-15 21:36:54,042 [modules.auxiliary.human] INFO: Human started v0.02\n", 
+            "2022-01-15 21:36:54,044 [modules.auxiliary.screenshots] INFO: Screenshots started v0.03\n", 
+            "2022-01-15 21:36:59,200 [lib.core.packages] INFO: Process startup took 5.15 seconds\n", 
+            "2022-01-15 21:36:59,202 [root] INFO: Added new process to list with pid: 2064\n", 
+            "2022-01-15 21:37:05,210 [root] INFO: Process with pid 2064 has terminated\n", 
+            "2022-01-15 21:37:05,211 [root] INFO: Process list is empty, terminating analysis.\n", 
+            "2022-01-15 21:37:08,221 [lib.core.packages] INFO: Package requested stop\n", 
+            "2022-01-15 21:37:08,222 [lib.core.packages] WARNING: Exception uploading log: [Errno 3] No such process\n"
+        ], 
+        "cuckoo": [
+            "2022-01-16 09:52:34,682 [cuckoo.core.scheduler] DEBUG: Task #2651790: no machine available yet\n", 
+            "2022-01-16 09:52:44,706 [cuckoo.core.scheduler] DEBUG: Task #2651790: no machine available yet\n", 
+            "2022-01-16 09:52:54,734 [cuckoo.core.scheduler] DEBUG: Task #2651790: no machine available yet\n", 
+            "2022-01-16 09:53:04,765 [cuckoo.core.scheduler] DEBUG: Task #2651790: no machine available yet\n", 
+            "2022-01-16 09:53:14,833 [cuckoo.core.scheduler] DEBUG: Task #2651790: no machine available yet\n", 
+            "2022-01-16 09:53:24,863 [cuckoo.core.scheduler] DEBUG: Task #2651790: no machine available yet\n", 
+            "2022-01-16 09:53:34,892 [cuckoo.core.scheduler] DEBUG: Task #2651790: no machine available yet\n", 
+            "2022-01-16 09:53:44,917 [cuckoo.core.scheduler] DEBUG: Task #2651790: no machine available yet\n", 
+            "2022-01-16 09:53:54,950 [cuckoo.core.scheduler] DEBUG: Task #2651790: no machine available yet\n", 
+            "2022-01-16 09:54:04,976 [cuckoo.core.scheduler] DEBUG: Task #2651790: no machine available yet\n", 
+            "2022-01-16 09:54:15,002 [cuckoo.core.scheduler] INFO: Task #2651790: acquired machine Ubuntu1904x641 (label=Ubuntu1904x641)\n", 
+            "2022-01-16 09:54:15,002 [cuckoo.core.resultserver] DEBUG: Now tracking machine 192.168.168.101 for task #2651790\n", 
+            "2022-01-16 09:54:15,173 [cuckoo.auxiliary.sniffer] INFO: Started sniffer with PID 1588376 (interface=vboxnet0, host=192.168.168.101)\n", 
+            "2022-01-16 09:54:15,343 [cuckoo.machinery.virtualbox] DEBUG: Starting vm Ubuntu1904x641\n", 
+            "2022-01-16 09:54:15,744 [cuckoo.machinery.virtualbox] DEBUG: Restoring virtual machine Ubuntu1904x641 to Snapshot\n", 
+            "2022-01-16 09:54:24,618 [cuckoo.core.guest] INFO: Starting analysis #2651790 on guest (id=Ubuntu1904x641, ip=192.168.168.101)\n", 
+            "2022-01-16 09:54:25,623 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: not ready yet\n", 
+            "2022-01-16 09:54:30,639 [cuckoo.core.guest] INFO: Guest is running Cuckoo Agent 0.10 (id=Ubuntu1904x641, ip=192.168.168.101)\n", 
+            "2022-01-16 09:54:30,654 [cuckoo.core.guest] DEBUG: Uploading analyzer to guest (id=Ubuntu1904x641, ip=192.168.168.101, monitor=latest, size=72028)\n", 
+            "2022-01-16 09:54:31,824 [cuckoo.core.resultserver] DEBUG: Task #2651790: live log analysis.log initialized.\n", 
+            "2022-01-16 09:54:36,884 [cuckoo.core.resultserver] DEBUG: Task #2651790: File upload for 'shots/0001.jpg'\n", 
+            "2022-01-16 09:54:36,909 [cuckoo.core.resultserver] DEBUG: Task #2651790 uploaded file length: 171579\n", 
+            "2022-01-16 09:54:45,781 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2651790 still processing\n", 
+            "2022-01-16 09:54:48,056 [cuckoo.core.resultserver] DEBUG: Task #2651790: File upload for 'logs/all.stap'\n", 
+            "2022-01-16 09:54:48,062 [cuckoo.core.resultserver] DEBUG: Task #2651790 uploaded file length: 1203\n", 
+            "2022-01-16 09:55:00,851 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2651790 still processing\n", 
+            "2022-01-16 09:55:15,918 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2651790 still processing\n", 
+            "2022-01-16 09:55:30,981 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2651790 still processing\n", 
+            "2022-01-16 09:55:46,049 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2651790 still processing\n", 
+            "2022-01-16 09:56:01,112 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2651790 still processing\n", 
+            "2022-01-16 09:56:16,234 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2651790 still processing\n", 
+            "2022-01-16 09:56:31,304 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2651790 still processing\n", 
+            "2022-01-16 09:56:46,373 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2651790 still processing\n", 
+            "2022-01-16 09:57:01,451 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2651790 still processing\n", 
+            "2022-01-16 09:57:16,508 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2651790 still processing\n", 
+            "2022-01-16 09:57:31,569 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2651790 still processing\n", 
+            "2022-01-16 09:57:46,640 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2651790 still processing\n", 
+            "2022-01-16 09:58:01,733 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2651790 still processing\n", 
+            "2022-01-16 09:58:16,788 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2651790 still processing\n", 
+            "2022-01-16 09:58:31,836 [cuckoo.core.guest] INFO: Ubuntu1904x641: end of analysis reached!\n", 
+            "2022-01-16 09:58:31,845 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Redsocks\n", 
+            "2022-01-16 09:58:31,929 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Sniffer\n", 
+            "2022-01-16 09:58:47,406 [cuckoo.machinery.virtualbox] INFO: Successfully generated memory dump for virtual machine with label Ubuntu1904x641 to path /srv/cuckoo/cwd/storage/analyses/2651790/memory.dmp\n", 
+            "2022-01-16 09:58:47,407 [cuckoo.machinery.virtualbox] DEBUG: Stopping vm Ubuntu1904x641\n", 
+            "2022-01-16 09:58:51,419 [cuckoo.core.resultserver] DEBUG: Stopped tracking machine 192.168.168.101 for task #2651790\n", 
+            "2022-01-16 09:58:51,419 [cuckoo.core.resultserver] DEBUG: Cancel <Context for LOG> for task 2651790\n", 
+            "2022-01-16 09:58:51,568 [cuckoo.core.scheduler] DEBUG: Released database task #2651790\n", 
+            "2022-01-16 09:58:51,742 [cuckoo.core.scheduler] INFO: Task #2651790: analysis procedure completed\n"
+        ]
+    }, 
+    "strings": [
+        "include/linux/skbuff.h", 
+        "author=Stephen Hemminger, Angelo Dell'Aera", 
+        "license=GPL", 
+        "description=TCP Westwood+", 
+        "vermagic=2.6.18-6-sparc32 mod_unload gcc-4.1", 
+        "depends=", 
+        "xk\\{struct_module", 
+        "tcp_reno_cong_avoid", 
+        "'tcp_reno_ssthresh", 
+        "c__bzero", 
+        "[skb_over_panic", 
+        ":tcp_register_congestion_control", 
+        "tcp_unregister_congestion_control", 
+        "hjiffies", 
+        "westwood", 
+        "tcp_westwood", 
+        "GCC: (GNU) 4.1.2 20061115 (prerelease) (Debian 4.1.1-21)", 
+        "GCC: (GNU) 4.1.2 20061115 (prerelease) (Debian 4.1.1-21)", 
+        ".symtab", 
+        ".strtab", 
+        ".shstrtab", 
+        ".rela.text", 
+        ".rela.exit.text", 
+        ".rela.init.text", 
+        ".rodata.str1.8", 
+        ".modinfo", 
+        "__versions", 
+        ".rela.data", 
+        ".rela.gnu.linkonce.this_module", 
+        ".comment", 
+        ".note.GNU-stack", 
+        "tcp_westwood.c", 
+        "westwood_update_window", 
+        "tcp_westwood_bw_rttmin", 
+        "tcp_westwood_unregister", 
+        "tcp_westwood", 
+        "tcp_westwood_register", 
+        "tcp_westwood_info", 
+        "tcp_westwood_event", 
+        "tcp_westwood_init", 
+        "tcp_westwood_pkts_acked", 
+        "__mod_author304", 
+        "__mod_license305", 
+        "__mod_description306", 
+        "tcp_westwood.mod.c", 
+        "__mod_vermagic5", 
+        "____versions", 
+        "__module_depends", 
+        "tcp_reno_cong_avoid", 
+        "__this_module", 
+        "cleanup_module", 
+        "__bzero", 
+        "init_module", 
+        "tcp_reno_ssthresh", 
+        "tcp_unregister_congestion_control", 
+        "skb_over_panic", 
+        "tcp_register_congestion_control", 
+        "jiffies"
+    ], 
+    "metadata": {
+        "output": {
+            "pcap": {
+                "basename": "dump.pcap", 
+                "sha256": "ada186d5883cbb1704f6c43030c6f79be4f29dc0a5dfb7599a455017f31ffc85", 
+                "dirname": ""
+            }
+        }
+    }
+}
