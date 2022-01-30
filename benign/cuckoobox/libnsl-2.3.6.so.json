@@ -1,0 +1,3490 @@
+{
+    "info": {
+        "added": 1642278832.610999, 
+        "started": 1642308607.216952, 
+        "duration": 1959, 
+        "ended": 1642310566.454508, 
+        "owner": null, 
+        "score": 0.0, 
+        "id": 2651121, 
+        "category": "file", 
+        "git": {
+            "head": "", 
+            "fetch_head": ""
+        }, 
+        "monitor": null, 
+        "package": "elf", 
+        "route": "internet", 
+        "custom": null, 
+        "machine": {
+            "status": "stopped", 
+            "name": "Ubuntu1904x644", 
+            "label": "Ubuntu1904x644", 
+            "platform": "linux", 
+            "manager": "VirtualBox", 
+            "started_on": "2022-01-16 05:17:52", 
+            "shutdown_on": "2022-01-16 05:22:45"
+        }, 
+        "platform": "linux", 
+        "version": "2.0.7", 
+        "options": "procmemdump=yes,route=internet"
+    }, 
+    "signatures": [], 
+    "target": {
+        "category": "file", 
+        "file": {
+            "mimetype": "application/x-sharedlib", 
+            "yara": [], 
+            "sha1": "e3af1f9c4c84ab1088db18b2040f772913cdc01a", 
+            "name": "libnsl-2.3.6.so", 
+            "type": "ELF 32-bit MSB shared object, SPARC, version 1 (SYSV), dynamically linked, interpreter /lib/ld-linux.so.2, for GNU/Linux 2.4.1, stripped", 
+            "sha256": "48c39f3aab8dcda1ef57c410b2d8a9549aa05445fd6d87305b2dbc18c5bc7a4b", 
+            "urls": [], 
+            "crc32": "F9E0E16E", 
+            "path": "/srv/cuckoo/cwd/storage/binaries/48c39f3aab8dcda1ef57c410b2d8a9549aa05445fd6d87305b2dbc18c5bc7a4b", 
+            "ssdeep": null, 
+            "size": 78280, 
+            "sha512": "626dd7875220d77e83b99bb86d89509f0319104fe9457150a0c56cbc6e494ef6118725def394d55152bb73656c99b288ae97cdf40c731d2c46b5e5d2a6b75150", 
+            "md5": "eeb7c1e48e5c1f1b3775dc05533eaf4b"
+        }, 
+        "custom": null
+    }, 
+    "irma": {
+        "status": 0, 
+        "probes_finished": 16, 
+        "scan_id": "f208d381-0665-4bbb-9262-e3110235cca9", 
+        "parent_file_sha256": null, 
+        "name": "48c39f3aab8dcda1ef57c410b2d8a9549aa05445fd6d87305b2dbc18c5bc7a4b", 
+        "probes_total": 16, 
+        "scan_date": 1642303367, 
+        "other_results": [], 
+        "submitter": "cli", 
+        "file_infos": {
+            "mimetype": "ELF 32-bit MSB shared object, SPARC, version 1 (SYSV)", 
+            "sha1": "e3af1f9c4c84ab1088db18b2040f772913cdc01a", 
+            "tags": [], 
+            "timestamp_first_scan": 1642303367.1, 
+            "timestamp_last_scan": 1642303376.15, 
+            "sha256": "48c39f3aab8dcda1ef57c410b2d8a9549aa05445fd6d87305b2dbc18c5bc7a4b", 
+            "md5": "eeb7c1e48e5c1f1b3775dc05533eaf4b", 
+            "size": 78280
+        }, 
+        "probe_results": {
+            "antivirus": {
+                "Avast Core Security (Linux)": {
+                    "status": 0, 
+                    "duration": 0.01, 
+                    "version": "3.0.3", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "F-Secure Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.04, 
+                    "version": "11.10", 
+                    "results": null, 
+                    "virus_database_version": "2022-01-13_04"
+                }, 
+                "Windows Defender (Windows)": {
+                    "status": 0, 
+                    "duration": 0.05, 
+                    "version": "1.1.18800.4", 
+                    "results": null, 
+                    "virus_database_version": "1.355.1049.0"
+                }, 
+                "Comodo Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 2.12, 
+                    "version": "1.1.268025.1", 
+                    "results": null, 
+                    "virus_database_version": "2021-11-02"
+                }, 
+                "Kaspersky Antivirus (Win)": {
+                    "status": 0, 
+                    "duration": 2.66, 
+                    "version": "21.3", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "ESET NOD32 Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 4.27, 
+                    "version": "4.0.96", 
+                    "results": null, 
+                    "virus_database_version": "6178ebd0-1e722 (2021-10-27)"
+                }, 
+                "GData (Windows)": {
+                    "status": 0, 
+                    "duration": 0.19, 
+                    "version": "5.5.20197.1358", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Forticlient (Linux)": {
+                    "status": 0, 
+                    "duration": 3.03, 
+                    "version": "unavailable", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Avira (Windows)": {
+                    "status": 0, 
+                    "duration": 3.88, 
+                    "version": "8.3.64.66", 
+                    "results": null, 
+                    "virus_database_version": "8.19.1.122"
+                }, 
+                "eScan Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 3.91, 
+                    "version": "7.0.21", 
+                    "results": null, 
+                    "virus_database_version": "7.90035 (27/10/2021)"
+                }, 
+                "McAfee CLI scanner (Linux)": {
+                    "status": 0, 
+                    "duration": 5.82, 
+                    "version": "6.0.6.653", 
+                    "results": null, 
+                    "virus_database_version": "10149"
+                }, 
+                "Sophos Anti-Virus (Linux)": {
+                    "status": 0, 
+                    "duration": 6.49, 
+                    "version": "5.85.0", 
+                    "results": null, 
+                    "virus_database_version": "5.88 (26 October 2021)"
+                }, 
+                "DrWeb Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.2, 
+                    "version": "11.1.10.2108031732", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "ClamAV (Linux)": {
+                    "status": 0, 
+                    "duration": 0.03, 
+                    "version": "0.103.2", 
+                    "results": null, 
+                    "virus_database_version": "26334"
+                }, 
+                "Bitdefender Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 6.18, 
+                    "version": "7.90123", 
+                    "results": null, 
+                    "virus_database_version": null
+                }, 
+                "Emsisoft Commandline Scanner (Windows)": {
+                    "status": 0, 
+                    "duration": 0.22, 
+                    "version": "2021.10.0.11201", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }
+            }
+        }, 
+        "path": "", 
+        "result_id": "4b90f6d6-f6c5-4161-9f0c-320dd9d3c72a", 
+        "file_sha256": "48c39f3aab8dcda1ef57c410b2d8a9549aa05445fd6d87305b2dbc18c5bc7a4b"
+    }, 
+    "suricata": {
+        "tls": [], 
+        "files": [], 
+        "alerts": [], 
+        "http": []
+    }, 
+    "virustotal": {
+        "summary": {
+            "error": "resource has not been scanned yet"
+        }
+    }, 
+    "network": {
+        "tls": [], 
+        "udp": [], 
+        "dns_servers": [], 
+        "http": [], 
+        "icmp": [], 
+        "smtp": [], 
+        "tcp": [], 
+        "smtp_ex": [], 
+        "geoinfo": {}, 
+        "mitm": [], 
+        "hosts": [], 
+        "pcap_sha256": "704e5e5b3234433c01fcfd1b20a306e77e985038120492dc53965c3edd38a4ea", 
+        "dns": [], 
+        "http_ex": [], 
+        "domains": [], 
+        "dead_hosts": [], 
+        "irc": [], 
+        "https_ex": []
+    }, 
+    "resubmit": {
+        "resubmit_ids": []
+    }, 
+    "snort": {
+        "alerts": []
+    }, 
+    "behavior": {
+        "generic": [
+            {
+                "process_path": null, 
+                "process_name": "libnsl-2.3.6.so", 
+                "pid": 3851, 
+                "summary": {}, 
+                "first_seen": 1642278840.021879, 
+                "ppid": -1
+            }, 
+            {
+                "process_path": null, 
+                "process_name": "libnsl-2.3.6.so", 
+                "pid": 3852, 
+                "summary": {}, 
+                "first_seen": 1642278841.067309, 
+                "ppid": 3851
+            }
+        ], 
+        "processes": [
+            {
+                "calls": [
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:00 2022.021879 libnsl-2.3.6.so@7fa356c96c27[3851] execve(\"/tmp/libnsl-2.3.6.so\", [\"/tmp/libnsl-2.3.6.so\"], [\"SUDO_GID=0\", \"MAIL=/var/mail/root\", \"USER=root\", \"HOME=/root\", \"SUDO_UID=0\", \"LOGNAME=root\", \"SYSTEMTAP_MODULE=stap_\", \"TERM=unknown\", \"SYSTEMTAP_VERBOSE=2\", \"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin\", \"DISPLAY=:0\", \"LANG=en_US.UTF-8\", \"XAUTHORITY=/root/.Xauthority\", \"SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/libnsl-2.3.6.so\", \"SHELL=/bin/bash\", \"SUDO_USER=root\", \"PWD=/tmp/tmpPP4X)\n", 
+                        "api": "execve", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa356c96c27", 
+                        "arguments": {
+                            "p2": [
+                                "SUDO_GID=0", 
+                                "MAIL=/var/mail/root", 
+                                "USER=root", 
+                                "HOME=/root", 
+                                "SUDO_UID=0", 
+                                "LOGNAME=root", 
+                                "SYSTEMTAP_MODULE=stap_", 
+                                "TERM=unknown", 
+                                "SYSTEMTAP_VERBOSE=2", 
+                                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin", 
+                                "DISPLAY=:0", 
+                                "LANG=en_US.UTF-8", 
+                                "XAUTHORITY=/root/.Xauthority", 
+                                "SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/libnsl-2.3.6.so", 
+                                "SHELL=/bin/bash", 
+                                "SUDO_USER=root", 
+                                "\"PWD=/tmp/tmpPP4X"
+                            ], 
+                            "p0": "/tmp/libnsl-2.3.6.so", 
+                            "p1": [
+                                "/tmp/libnsl-2.3.6.so"
+                            ]
+                        }, 
+                        "time": 1642278840.021879
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.051528 libnsl-2.3.6.so@7fa356c96c27[3851] brk(0x0) = 93960413872128\n", 
+                        "api": "brk", 
+                        "return_value": "93960413872128", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa356c96c27", 
+                        "arguments": {
+                            "p0": "0x0"
+                        }, 
+                        "time": 1642278841.051528
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.051628 libnsl-2.3.6.so@7fa356c979d7[3851] access(\"/etc/ld.so.preload\", R_OK) = -2 (ENOENT)\n", 
+                        "api": "access", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa356c979d7", 
+                        "arguments": {
+                            "p0": "/etc/ld.so.preload", 
+                            "p1": "R_OK"
+                        }, 
+                        "time": 1642278841.051628
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.052670 libnsl-2.3.6.so@7fa356c97b0d[3851] openat(AT_FDCWD, \"/etc/ld.so.cache\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa356c97b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/etc/ld.so.cache"
+                        }, 
+                        "time": 1642278841.05267
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.052723 libnsl-2.3.6.so@7fa356c97943[3851] fstat(4, 0x7ffd292fd160) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa356c97943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd292fd160"
+                        }, 
+                        "time": 1642278841.052723
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.052770 libnsl-2.3.6.so@7fa356c97d03[3851] mmap2(0x0, 88858, PROT_READ, MAP_PRIVATE, 4, 0) = 0x7fa356c65000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fa356c65000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa356c97d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE", 
+                            "p0": "0x0", 
+                            "p1": "88858", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642278841.05277
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.052820 libnsl-2.3.6.so@7fa356c979f7[3851] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa356c979f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642278841.05282
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.052882 libnsl-2.3.6.so@7fa356c97b0d[3851] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa356c97b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0"
+                        }, 
+                        "time": 1642278841.052882
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.052930 libnsl-2.3.6.so@7fa356c97bd4[3851] read(4, 0x7ffd292fd318, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa356c97bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffd292fd318"
+                        }, 
+                        "time": 1642278841.05293
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.052974 libnsl-2.3.6.so@7fa356c97943[3851] fstat(4, 0x7ffd292fd1b0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa356c97943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd292fd1b0"
+                        }, 
+                        "time": 1642278841.052974
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.053015 libnsl-2.3.6.so@7fa356c97d03[3851] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa356c63000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fa356c63000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa356c97d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642278841.053015
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.053067 libnsl-2.3.6.so@7fa356c97d03[3851] mmap2(0x0, 20600, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fa356c5d000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fa356c5d000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa356c97d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "20600", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642278841.053067
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.053113 libnsl-2.3.6.so@7fa356c97d03[3851] mmap2(0x7fa356c5e000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 4096) = 0x7fa356c5e000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fa356c5e000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa356c97d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fa356c5e000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "4096"
+                        }, 
+                        "time": 1642278841.053113
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.053168 libnsl-2.3.6.so@7fa356c97d03[3851] mmap2(0x7fa356c60000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7fa356c60000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fa356c60000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa356c97d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fa356c60000", 
+                            "p1": "4096", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642278841.053168
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.053217 libnsl-2.3.6.so@7fa356c97d03[3851] mmap2(0x7fa356c61000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7fa356c61000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fa356c61000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa356c97d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fa356c61000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642278841.053217
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.053276 libnsl-2.3.6.so@7fa356c979f7[3851] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa356c979f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642278841.053276
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.053418 libnsl-2.3.6.so@7fa356c97b0d[3851] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa356c97b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0"
+                        }, 
+                        "time": 1642278841.053418
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.053510 libnsl-2.3.6.so@7fa356c97bd4[3851] read(4, 0x7ffd292fd2f8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa356c97bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffd292fd2f8"
+                        }, 
+                        "time": 1642278841.05351
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.053569 libnsl-2.3.6.so@7fa356c97943[3851] fstat(4, 0x7ffd292fd190) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa356c97943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd292fd190"
+                        }, 
+                        "time": 1642278841.053569
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.053695 libnsl-2.3.6.so@7fa356c97d03[3851] mmap2(0x0, 1180072, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fa356b3c000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fa356b3c000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa356c97d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1180072", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642278841.053695
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.053759 libnsl-2.3.6.so@7fa356c97db7[3851] mprotect(0x7fa356b57000, 1060864, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa356c97db7", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7fa356b57000", 
+                            "p1": "1060864"
+                        }, 
+                        "time": 1642278841.053759
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.053830 libnsl-2.3.6.so@7fa356c97d03[3851] mmap2(0x7fa356b57000, 524288, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 110592) = 0x7fa356b57000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fa356b57000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa356c97d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fa356b57000", 
+                            "p1": "524288", 
+                            "p4": "4", 
+                            "p5": "110592"
+                        }, 
+                        "time": 1642278841.05383
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.053879 libnsl-2.3.6.so@7fa356c97d03[3851] mmap2(0x7fa356bd7000, 532480, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 634880) = 0x7fa356bd7000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fa356bd7000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa356c97d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fa356bd7000", 
+                            "p1": "532480", 
+                            "p4": "4", 
+                            "p5": "634880"
+                        }, 
+                        "time": 1642278841.053879
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.053929 libnsl-2.3.6.so@7fa356c97d03[3851] mmap2(0x7fa356c5a000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1167360) = 0x7fa356c5a000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fa356c5a000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa356c97d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fa356c5a000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "1167360"
+                        }, 
+                        "time": 1642278841.053929
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.054007 libnsl-2.3.6.so@7fa356c97d03[3851] mmap2(0x7fa356c5c000, 424, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fa356c5c000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fa356c5c000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa356c97d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7fa356c5c000", 
+                            "p1": "424", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642278841.054007
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.054085 libnsl-2.3.6.so@7fa356c979f7[3851] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa356c979f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642278841.054085
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.054159 libnsl-2.3.6.so@7fa356c97b0d[3851] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/librt.so.1\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa356c97b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/librt.so.1"
+                        }, 
+                        "time": 1642278841.054159
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.054227 libnsl-2.3.6.so@7fa356c97bd4[3851] read(4, 0x7ffd292fd2d8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa356c97bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffd292fd2d8"
+                        }, 
+                        "time": 1642278841.054227
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.054276 libnsl-2.3.6.so@7fa356c97943[3851] fstat(4, 0x7ffd292fd170) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa356c97943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd292fd170"
+                        }, 
+                        "time": 1642278841.054276
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.054331 libnsl-2.3.6.so@7fa356c97d03[3851] mmap2(0x0, 44000, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fa356b31000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fa356b31000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa356c97d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "44000", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642278841.054331
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.054391 libnsl-2.3.6.so@7fa356c97d03[3851] mmap2(0x7fa356b34000, 16384, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7fa356b34000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fa356b34000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa356c97d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fa356b34000", 
+                            "p1": "16384", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642278841.054391
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.054454 libnsl-2.3.6.so@7fa356c97d03[3851] mmap2(0x7fa356b38000, 8192, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 28672) = 0x7fa356b38000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fa356b38000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa356c97d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fa356b38000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "28672"
+                        }, 
+                        "time": 1642278841.054454
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.054531 libnsl-2.3.6.so@7fa356c97d03[3851] mmap2(0x7fa356b3a000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 32768) = 0x7fa356b3a000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fa356b3a000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa356c97d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fa356b3a000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "32768"
+                        }, 
+                        "time": 1642278841.054531
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.054618 libnsl-2.3.6.so@7fa356c979f7[3851] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa356c979f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642278841.054618
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.054692 libnsl-2.3.6.so@7fa356c97b0d[3851] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libm.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa356c97b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libm.so.6"
+                        }, 
+                        "time": 1642278841.054692
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.054753 libnsl-2.3.6.so@7fa356c97bd4[3851] read(4, 0x7ffd292fd2b8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa356c97bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffd292fd2b8"
+                        }, 
+                        "time": 1642278841.054753
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.054790 libnsl-2.3.6.so@7fa356c97943[3851] fstat(4, 0x7ffd292fd150) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa356c97943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd292fd150"
+                        }, 
+                        "time": 1642278841.05479
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.054849 libnsl-2.3.6.so@7fa356c97d03[3851] mmap2(0x0, 1364240, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fa3569e3000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fa3569e3000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa356c97d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1364240", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642278841.054849
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.054907 libnsl-2.3.6.so@7fa356c97d03[3851] mmap2(0x7fa3569f2000, 679936, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 61440) = 0x7fa3569f2000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fa3569f2000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa356c97d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fa3569f2000", 
+                            "p1": "679936", 
+                            "p4": "4", 
+                            "p5": "61440"
+                        }, 
+                        "time": 1642278841.054907
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.054972 libnsl-2.3.6.so@7fa356c97d03[3851] mmap2(0x7fa356a98000, 618496, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 741376) = 0x7fa356a98000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fa356a98000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa356c97d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fa356a98000", 
+                            "p1": "618496", 
+                            "p4": "4", 
+                            "p5": "741376"
+                        }, 
+                        "time": 1642278841.054972
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.055021 libnsl-2.3.6.so@7fa356c97d03[3851] mmap2(0x7fa356b2f000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1355776) = 0x7fa356b2f000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fa356b2f000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa356c97d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fa356b2f000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "1355776"
+                        }, 
+                        "time": 1642278841.055021
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.055081 libnsl-2.3.6.so@7fa356c979f7[3851] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa356c979f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642278841.055081
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.055133 libnsl-2.3.6.so@7fa356c97b0d[3851] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libgcc_s.so.1\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa356c97b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libgcc_s.so.1"
+                        }, 
+                        "time": 1642278841.055133
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.055176 libnsl-2.3.6.so@7fa356c97bd4[3851] read(4, 0x7ffd292fd298, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa356c97bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffd292fd298"
+                        }, 
+                        "time": 1642278841.055176
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.055212 libnsl-2.3.6.so@7fa356c97943[3851] fstat(4, 0x7ffd292fd130) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa356c97943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd292fd130"
+                        }, 
+                        "time": 1642278841.055212
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.055247 libnsl-2.3.6.so@7fa356c97d03[3851] mmap2(0x0, 103504, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fa3569c9000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fa3569c9000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa356c97d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "103504", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642278841.055247
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.055291 libnsl-2.3.6.so@7fa356c97d03[3851] mmap2(0x7fa3569cc000, 69632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7fa3569cc000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fa3569cc000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa356c97d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fa3569cc000", 
+                            "p1": "69632", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642278841.055291
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.055336 libnsl-2.3.6.so@7fa356c97d03[3851] mmap2(0x7fa3569dd000, 16384, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 81920) = 0x7fa3569dd000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fa3569dd000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa356c97d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fa3569dd000", 
+                            "p1": "16384", 
+                            "p4": "4", 
+                            "p5": "81920"
+                        }, 
+                        "time": 1642278841.055336
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.055376 libnsl-2.3.6.so@7fa356c97d03[3851] mmap2(0x7fa3569e1000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 94208) = 0x7fa3569e1000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fa3569e1000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa356c97d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fa3569e1000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "94208"
+                        }, 
+                        "time": 1642278841.055376
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.055430 libnsl-2.3.6.so@7fa356c979f7[3851] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa356c979f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642278841.05543
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.055477 libnsl-2.3.6.so@7fa356c97b0d[3851] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libpthread.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa356c97b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libpthread.so.0"
+                        }, 
+                        "time": 1642278841.055477
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.055520 libnsl-2.3.6.so@7fa356c97bd4[3851] read(4, 0x7ffd292fd278, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa356c97bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffd292fd278"
+                        }, 
+                        "time": 1642278841.05552
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.055556 libnsl-2.3.6.so@7fa356c97943[3851] fstat(4, 0x7ffd292fd110) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa356c97943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd292fd110"
+                        }, 
+                        "time": 1642278841.055556
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.055592 libnsl-2.3.6.so@7fa356c97d03[3851] mmap2(0x0, 132288, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fa3569a8000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fa3569a8000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa356c97d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "132288", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642278841.055592
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.055636 libnsl-2.3.6.so@7fa356c97d03[3851] mmap2(0x7fa3569af000, 61440, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 28672) = 0x7fa3569af000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fa3569af000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa356c97d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fa3569af000", 
+                            "p1": "61440", 
+                            "p4": "4", 
+                            "p5": "28672"
+                        }, 
+                        "time": 1642278841.055636
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.055688 libnsl-2.3.6.so@7fa356c97d03[3851] mmap2(0x7fa3569be000, 20480, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 90112) = 0x7fa3569be000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fa3569be000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa356c97d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fa3569be000", 
+                            "p1": "20480", 
+                            "p4": "4", 
+                            "p5": "90112"
+                        }, 
+                        "time": 1642278841.055688
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.055731 libnsl-2.3.6.so@7fa356c97d03[3851] mmap2(0x7fa3569c3000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 106496) = 0x7fa3569c3000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fa3569c3000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa356c97d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fa3569c3000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "106496"
+                        }, 
+                        "time": 1642278841.055731
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.055777 libnsl-2.3.6.so@7fa356c97d03[3851] mmap2(0x7fa3569c5000, 13504, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fa3569c5000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fa3569c5000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa356c97d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7fa3569c5000", 
+                            "p1": "13504", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642278841.055777
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.055823 libnsl-2.3.6.so@7fa356c979f7[3851] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa356c979f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642278841.055823
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.055869 libnsl-2.3.6.so@7fa356c97b0d[3851] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libc.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa356c97b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libc.so.6"
+                        }, 
+                        "time": 1642278841.055869
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.055909 libnsl-2.3.6.so@7fa356c97bd4[3851] read(4, 0x7ffd292fd258, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa356c97bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffd292fd258"
+                        }, 
+                        "time": 1642278841.055909
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.055944 libnsl-2.3.6.so@7fa356c97943[3851] fstat(4, 0x7ffd292fd0f0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa356c97943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd292fd0f0"
+                        }, 
+                        "time": 1642278841.055944
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.055979 libnsl-2.3.6.so@7fa356c97d03[3851] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa3569a6000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fa3569a6000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa356c97d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642278841.055979
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.056021 libnsl-2.3.6.so@7fa356c97d03[3851] mmap2(0x0, 2008696, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fa3567bb000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fa3567bb000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa356c97d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "2008696", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642278841.056021
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.056059 libnsl-2.3.6.so@7fa356c97d03[3851] mmap2(0x7fa3567e0000, 1519616, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 151552) = 0x7fa3567e0000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fa3567e0000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa356c97d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fa3567e0000", 
+                            "p1": "1519616", 
+                            "p4": "4", 
+                            "p5": "151552"
+                        }, 
+                        "time": 1642278841.056059
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.056106 libnsl-2.3.6.so@7fa356c97d03[3851] mmap2(0x7fa356953000, 299008, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1671168) = 0x7fa356953000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fa356953000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa356c97d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fa356953000", 
+                            "p1": "299008", 
+                            "p4": "4", 
+                            "p5": "1671168"
+                        }, 
+                        "time": 1642278841.056106
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.056146 libnsl-2.3.6.so@7fa356c97d03[3851] mmap2(0x7fa35699c000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1966080) = 0x7fa35699c000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fa35699c000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa356c97d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fa35699c000", 
+                            "p1": "24576", 
+                            "p4": "4", 
+                            "p5": "1966080"
+                        }, 
+                        "time": 1642278841.056146
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.056197 libnsl-2.3.6.so@7fa356c97d03[3851] mmap2(0x7fa3569a2000, 13944, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fa3569a2000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fa3569a2000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa356c97d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7fa3569a2000", 
+                            "p1": "13944", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642278841.056197
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.056246 libnsl-2.3.6.so@7fa356c979f7[3851] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa356c979f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642278841.056246
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.056301 libnsl-2.3.6.so@7fa356c97b0d[3851] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libdl.so.2\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa356c97b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libdl.so.2"
+                        }, 
+                        "time": 1642278841.056301
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.056342 libnsl-2.3.6.so@7fa356c97bd4[3851] read(4, 0x7ffd292fd238, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa356c97bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffd292fd238"
+                        }, 
+                        "time": 1642278841.056342
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.056377 libnsl-2.3.6.so@7fa356c97943[3851] fstat(4, 0x7ffd292fd0d0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa356c97943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd292fd0d0"
+                        }, 
+                        "time": 1642278841.056377
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.056412 libnsl-2.3.6.so@7fa356c97d03[3851] mmap2(0x0, 20752, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fa3567b5000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fa3567b5000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa356c97d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "20752", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642278841.056412
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.056453 libnsl-2.3.6.so@7fa356c97d03[3851] mmap2(0x7fa3567b6000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 4096) = 0x7fa3567b6000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fa3567b6000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa356c97d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fa3567b6000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "4096"
+                        }, 
+                        "time": 1642278841.056453
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.056498 libnsl-2.3.6.so@7fa356c97d03[3851] mmap2(0x7fa3567b8000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7fa3567b8000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fa3567b8000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa356c97d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fa3567b8000", 
+                            "p1": "4096", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642278841.056498
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.056539 libnsl-2.3.6.so@7fa356c97d03[3851] mmap2(0x7fa3567b9000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7fa3567b9000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fa3567b9000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa356c97d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fa3567b9000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642278841.056539
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.056591 libnsl-2.3.6.so@7fa356c979f7[3851] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa356c979f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642278841.056591
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.056638 libnsl-2.3.6.so@7fa356c97b0d[3851] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libpcre.so.3\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa356c97b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libpcre.so.3"
+                        }, 
+                        "time": 1642278841.056638
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.056679 libnsl-2.3.6.so@7fa356c97bd4[3851] read(4, 0x7ffd292fd218, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa356c97bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffd292fd218"
+                        }, 
+                        "time": 1642278841.056679
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.056715 libnsl-2.3.6.so@7fa356c97943[3851] fstat(4, 0x7ffd292fd0b0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa356c97943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd292fd0b0"
+                        }, 
+                        "time": 1642278841.056715
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.056750 libnsl-2.3.6.so@7fa356c97d03[3851] mmap2(0x0, 471304, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fa356741000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fa356741000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa356c97d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "471304", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642278841.05675
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.056790 libnsl-2.3.6.so@7fa356c97d03[3851] mmap2(0x7fa356743000, 335872, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 8192) = 0x7fa356743000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fa356743000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa356c97d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fa356743000", 
+                            "p1": "335872", 
+                            "p4": "4", 
+                            "p5": "8192"
+                        }, 
+                        "time": 1642278841.05679
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.056835 libnsl-2.3.6.so@7fa356c97d03[3851] mmap2(0x7fa356795000, 122880, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 344064) = 0x7fa356795000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fa356795000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa356c97d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fa356795000", 
+                            "p1": "122880", 
+                            "p4": "4", 
+                            "p5": "344064"
+                        }, 
+                        "time": 1642278841.056835
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.056875 libnsl-2.3.6.so@7fa356c97d03[3851] mmap2(0x7fa3567b3000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 462848) = 0x7fa3567b3000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fa3567b3000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa356c97d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fa3567b3000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "462848"
+                        }, 
+                        "time": 1642278841.056875
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.056928 libnsl-2.3.6.so@7fa356c979f7[3851] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa356c979f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642278841.056928
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.057821 libnsl-2.3.6.so@7fa356c97d03[3851] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa35673f000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fa35673f000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa356c97d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642278841.057821
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.057881 libnsl-2.3.6.so@7fa356c7cf30[3851] arch_prctl(ARCH_SET_FS, 140339506839872) = 0\n", 
+                        "api": "arch_prctl", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa356c7cf30", 
+                        "arguments": {
+                            "p0": "ARCH_SET_FS", 
+                            "p1": "140339506839872"
+                        }, 
+                        "time": 1642278841.057881
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.058662 libnsl-2.3.6.so@7fa356c97db7[3851] mprotect(0x7fa35699c000, 12288, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa356c97db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fa35699c000", 
+                            "p1": "12288"
+                        }, 
+                        "time": 1642278841.058662
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.058718 libnsl-2.3.6.so@7fa356c97db7[3851] mprotect(0x7fa3569c3000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa356c97db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fa3569c3000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642278841.058718
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.058780 libnsl-2.3.6.so@7fa356c97db7[3851] mprotect(0x7fa3567b3000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa356c97db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fa3567b3000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642278841.05878
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.058824 libnsl-2.3.6.so@7fa356c97db7[3851] mprotect(0x7fa3567b9000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa356c97db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fa3567b9000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642278841.058824
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.058864 libnsl-2.3.6.so@7fa356c97db7[3851] mprotect(0x7fa3569e1000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa356c97db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fa3569e1000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642278841.058864
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.058930 libnsl-2.3.6.so@7fa356c97db7[3851] mprotect(0x7fa356b2f000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa356c97db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fa356b2f000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642278841.05893
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.058975 libnsl-2.3.6.so@7fa356c97db7[3851] mprotect(0x7fa356b3a000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa356c97db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fa356b3a000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642278841.058975
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.059205 libnsl-2.3.6.so@7fa356c97db7[3851] mprotect(0x7fa356c5a000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa356c97db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fa356c5a000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642278841.059205
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.059262 libnsl-2.3.6.so@7fa356c97db7[3851] mprotect(0x7fa356c61000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa356c97db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fa356c61000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642278841.059262
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.063639 libnsl-2.3.6.so@7fa356c97db7[3851] mprotect(0x5574dac93000, 303104, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa356c97db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x5574dac93000", 
+                            "p1": "303104"
+                        }, 
+                        "time": 1642278841.063639
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.063772 libnsl-2.3.6.so@7fa356c97db7[3851] mprotect(0x7fa356ca5000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa356c97db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fa356ca5000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642278841.063772
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.063887 libnsl-2.3.6.so@7fa356c97d97[3851] munmap(0x7fa356c65000, 88858) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa356c97d97", 
+                        "arguments": {
+                            "p0": "0x7fa356c65000", 
+                            "p1": "88858"
+                        }, 
+                        "time": 1642278841.063887
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.064029 libnsl-2.3.6.so@7fa3569af8df[3851] set_tid_address(0x7fa356740410) = 3851\n", 
+                        "api": "set_tid_address", 
+                        "return_value": "3851", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa3569af8df", 
+                        "arguments": {
+                            "p0": "0x7fa356740410"
+                        }, 
+                        "time": 1642278841.064029
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.064094 libnsl-2.3.6.so@7fa3569af94a[3851] set_robust_list(0x7fa356740420, 24) = 0\n", 
+                        "api": "set_robust_list", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa3569af94a", 
+                        "arguments": {
+                            "p0": "0x7fa356740420", 
+                            "p1": "24"
+                        }, 
+                        "time": 1642278841.064094
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.064195 libnsl-2.3.6.so@7fa3569bc010[3851] rt_sigaction(0x20, {0x7fa3569af6c0, SA_SIGINFO|SA_RESTORER, 0x7fa3569bbf40, [EMPTY]}, 0x0, 8) = 0\n", 
+                        "api": "rt_sigaction", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa3569bc010", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "0x20", 
+                            "p1": [
+                                "0x7fa3569af6c0", 
+                                "SA_SIGINFO|SA_RESTORER", 
+                                "0x7fa3569bbf40", 
+                                [
+                                    "EMPTY]"
+                                ]
+                            ]
+                        }, 
+                        "time": 1642278841.064195
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.064279 libnsl-2.3.6.so@7fa3569bc010[3851] rt_sigaction(0x21, {0x7fa3569af760, SA_RESTART|SA_SIGINFO|SA_RESTORER, 0x7fa3569bbf40, [EMPTY]}, 0x0, 8) = 0\n", 
+                        "api": "rt_sigaction", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa3569bc010", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "0x21", 
+                            "p1": [
+                                "0x7fa3569af760", 
+                                "SA_RESTART|SA_SIGINFO|SA_RESTORER", 
+                                "0x7fa3569bbf40", 
+                                [
+                                    "EMPTY]"
+                                ]
+                            ]
+                        }, 
+                        "time": 1642278841.064279
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.064360 libnsl-2.3.6.so@7fa3569afa19[3851] rt_sigprocmask(SIG_UNBLOCK, [EMPTY], 0x0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa3569afa19", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "SIG_UNBLOCK", 
+                            "p1": [
+                                "EMPTY"
+                            ]
+                        }, 
+                        "time": 1642278841.06436
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.064461 libnsl-2.3.6.so@7fa3568cddf0[3851] prlimit64(0, RLIMIT_STACK, NULL, 0x7ffd292fdef0) = 0\n", 
+                        "api": "prlimit64", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa3568cddf0", 
+                        "arguments": {
+                            "p2": "NULL", 
+                            "p3": "0x7ffd292fdef0", 
+                            "p0": "0", 
+                            "p1": "RLIMIT_STACK"
+                        }, 
+                        "time": 1642278841.064461
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.064809 libnsl-2.3.6.so@7fa3568ce2f7[3851] brk(0x0) = 93960413872128\n", 
+                        "api": "brk", 
+                        "return_value": "93960413872128", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa3568ce2f7", 
+                        "arguments": {
+                            "p0": "0x0"
+                        }, 
+                        "time": 1642278841.064809
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.064860 libnsl-2.3.6.so@7fa3568ce2f7[3851] brk(0x5574dd199000) = 93960414007296\n", 
+                        "api": "brk", 
+                        "return_value": "93960414007296", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa3568ce2f7", 
+                        "arguments": {
+                            "p0": "0x5574dd199000"
+                        }, 
+                        "time": 1642278841.06486
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.065884 libnsl-2.3.6.so@7fa3569b8b86[3851] rt_sigprocmask(SIG_SETMASK, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS], 0x7ffd292fde40, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa3569b8b86", 
+                        "arguments": {
+                            "p2": "0x7ffd292fde40", 
+                            "p3": "8", 
+                            "p0": "SIG_SETMASK", 
+                            "p1": [
+                                "SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS"
+                            ]
+                        }, 
+                        "time": 1642278841.065884
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.066944 libnsl-2.3.6.so@7fa3568d24c3[3851] mmap2(0x0, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7fa355f3e000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fa355f3e000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa3568d24c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK", 
+                            "p0": "0x0", 
+                            "p1": "8392704", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642278841.066944
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.067004 libnsl-2.3.6.so@7fa3568d2597[3851] mprotect(0x7fa355f3f000, 8388608, PROT_READ|PROT_WRITE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa3568d2597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p0": "0x7fa355f3f000", 
+                            "p1": "8388608"
+                        }, 
+                        "time": 1642278841.067004
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.067082 libnsl-2.3.6.so@7fa3568d8b11[3851] clone(CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, 0x7fa35673df70, 0x7fa35673e9d0, 0x7fa35673e9d0) = 3852\n", 
+                        "api": "clone", 
+                        "return_value": "3852", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa3568d8b11", 
+                        "arguments": {
+                            "p2": "0x7fa35673e9d0", 
+                            "p3": "0x7fa35673e9d0", 
+                            "p0": "CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID", 
+                            "p1": "0x7fa35673df70"
+                        }, 
+                        "time": 1642278841.067082
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.067221 libnsl-2.3.6.so@7fa3569b8b86[3851] rt_sigprocmask(SIG_SETMASK, [EMPTY], 0x0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa3569b8b86", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "SIG_SETMASK", 
+                            "p1": [
+                                "EMPTY"
+                            ]
+                        }, 
+                        "time": 1642278841.067221
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.069913 libnsl-2.3.6.so@7fa3568cddf0[3851] prlimit64(0, RLIMIT_STACK, NULL, 0x7ffd292fda00) = 0\n", 
+                        "api": "prlimit64", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa3568cddf0", 
+                        "arguments": {
+                            "p2": "NULL", 
+                            "p3": "0x7ffd292fda00", 
+                            "p0": "0", 
+                            "p1": "RLIMIT_STACK"
+                        }, 
+                        "time": 1642278841.069913
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.069966 libnsl-2.3.6.so@7fa3568cd5c1[3851] openat(AT_FDCWD, \"/etc/qemu-binfmt/sparc\", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -2 (ENOENT)\n", 
+                        "api": "openat", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa3568cd5c1", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/etc/qemu-binfmt/sparc"
+                        }, 
+                        "time": 1642278841.069966
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.070034 libnsl-2.3.6.so@7fa35689c247[3851] uname(0x7ffd292fd670) = 0\n", 
+                        "api": "uname", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa35689c247", 
+                        "arguments": {
+                            "p0": "0x7ffd292fd670"
+                        }, 
+                        "time": 1642278841.070034
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.070072 libnsl-2.3.6.so@7fa3569bb337[3851] lseek(3, 0, SEEK_SET) = 0\n", 
+                        "api": "lseek", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa3569bb337", 
+                        "arguments": {
+                            "p2": "SEEK_SET", 
+                            "p0": "3", 
+                            "p1": "0"
+                        }, 
+                        "time": 1642278841.070072
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.070107 libnsl-2.3.6.so@7fa3569bad94[3851] read(3, 0x7ffd292fd960, 52) = 52\n", 
+                        "api": "read", 
+                        "return_value": "52", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa3569bad94", 
+                        "arguments": {
+                            "p2": "52", 
+                            "p0": "3", 
+                            "p1": "0x7ffd292fd960"
+                        }, 
+                        "time": 1642278841.070107
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.070145 libnsl-2.3.6.so@7fa3569bb337[3851] lseek(3, 0, SEEK_SET) = 0\n", 
+                        "api": "lseek", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa3569bb337", 
+                        "arguments": {
+                            "p2": "SEEK_SET", 
+                            "p0": "3", 
+                            "p1": "0"
+                        }, 
+                        "time": 1642278841.070145
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.071372 libnsl-2.3.6.so@7fa3568d24c3[3851] mmap2(0x0, 528384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fa355ebd000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fa355ebd000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa3568d24c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "528384", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642278841.071372
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.071742 libnsl-2.3.6.so@7fa3568d2597[3851] mprotect(0x5574dacf0000, 33550336, PROT_READ|PROT_WRITE|PROT_EXEC) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa3568d2597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE|PROT_EXEC", 
+                            "p0": "0x5574dacf0000", 
+                            "p1": "33550336"
+                        }, 
+                        "time": 1642278841.071742
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.071789 libnsl-2.3.6.so@7fa3568d2667[3851] madvise(0x5574dacf0000, 33550336, MADV_HUGEPAGE) = 0\n", 
+                        "api": "madvise", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa3568d2667", 
+                        "arguments": {
+                            "p2": "MADV_HUGEPAGE", 
+                            "p0": "0x5574dacf0000", 
+                            "p1": "33550336"
+                        }, 
+                        "time": 1642278841.071789
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.072009 libnsl-2.3.6.so@7fa3568d24c3[3851] mmap2(0x0, 4294963200, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7fa250001000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fa250001000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa3568d24c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x0", 
+                            "p1": "4294963200", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642278841.072009
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.072054 libnsl-2.3.6.so@7fa3568c7d59[3851] openat(AT_FDCWD, \"/proc/sys/vm/mmap_min_addr\", O_RDONLY) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa3568c7d59", 
+                        "arguments": {
+                            "p2": "O_RDONLY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/proc/sys/vm/mmap_min_addr"
+                        }, 
+                        "time": 1642278841.072054
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.072108 libnsl-2.3.6.so@7fa3568c7613[3851] fstat(4, 0x7ffd292fd070) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa3568c7613", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd292fd070"
+                        }, 
+                        "time": 1642278841.072108
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.072143 libnsl-2.3.6.so@7fa3568c7fb4[3851] read(4, 0x5574dd1853d0, 1024) = 6\n", 
+                        "api": "read", 
+                        "return_value": "6", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa3568c7fb4", 
+                        "arguments": {
+                            "p2": "1024", 
+                            "p0": "4", 
+                            "p1": "0x5574dd1853d0"
+                        }, 
+                        "time": 1642278841.072143
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.072206 libnsl-2.3.6.so@7fa3568cd3f7[3851] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa3568cd3f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642278841.072206
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.072265 libnsl-2.3.6.so@7fa3568d22e9[3851] gettid() = 3851\n", 
+                        "api": "gettid", 
+                        "return_value": "3851", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa3568d22e9", 
+                        "arguments": {}, 
+                        "time": 1642278841.072265
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.072303 libnsl-2.3.6.so@7fa3568c7613[3851] fstat(3, 0x7ffd292fd8e0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa3568c7613", 
+                        "arguments": {
+                            "p0": "3", 
+                            "p1": "0x7ffd292fd8e0"
+                        }, 
+                        "time": 1642278841.072303
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.072337 libnsl-2.3.6.so@7fa35689d717[3851] geteuid() = 0\n", 
+                        "api": "geteuid", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa35689d717", 
+                        "arguments": {}, 
+                        "time": 1642278841.072337
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.072367 libnsl-2.3.6.so@7fa35689d737[3851] getegid() = 0\n", 
+                        "api": "getegid", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa35689d737", 
+                        "arguments": {}, 
+                        "time": 1642278841.072367
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.072398 libnsl-2.3.6.so@7fa3569bad94[3851] read(3, 0x7ffd292fdae0, 1024) = 1024\n", 
+                        "api": "read", 
+                        "return_value": "1024", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa3569bad94", 
+                        "arguments": {
+                            "p2": "1024", 
+                            "p0": "3", 
+                            "p1": "0x7ffd292fdae0"
+                        }, 
+                        "time": 1642278841.072398
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.072439 libnsl-2.3.6.so@7fa3568d24c3[3851] mmap2(0x7fa34ffdb000, 151552, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7fa34ffdb000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fa34ffdb000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa3568d24c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x7fa34ffdb000", 
+                            "p1": "151552", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642278841.072439
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.072478 libnsl-2.3.6.so@7fa3568ce2f7[3851] brk(0x5574dd1ba000) = 93960414142464\n", 
+                        "api": "brk", 
+                        "return_value": "93960414142464", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa3568ce2f7", 
+                        "arguments": {
+                            "p0": "0x5574dd1ba000"
+                        }, 
+                        "time": 1642278841.072478
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.072532 libnsl-2.3.6.so@7fa3569bb67f[3851] pread(3, 0x5574dd181620, 24, 66680) = 24\n", 
+                        "api": "pread", 
+                        "return_value": "24", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa3569bb67f", 
+                        "arguments": {
+                            "p2": "24", 
+                            "p3": "66680", 
+                            "p0": "3", 
+                            "p1": "0x5574dd181620"
+                        }, 
+                        "time": 1642278841.072532
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.072572 libnsl-2.3.6.so@7fa3568d24c3[3851] mmap2(0x7fa34ffdb000, 69632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 3, 0) = 0x7fa34ffdb000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fa34ffdb000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa3568d24c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED", 
+                            "p0": "0x7fa34ffdb000", 
+                            "p1": "69632", 
+                            "p4": "3", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642278841.072572
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.072611 libnsl-2.3.6.so@7fa3568d24c3[3851] mmap2(0x7fa34fffc000, 8192, PROT_READ|PROT_WRITE|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 3, 69632) = 0x7fa34fffc000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fa34fffc000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa3568d24c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED", 
+                            "p0": "0x7fa34fffc000", 
+                            "p1": "8192", 
+                            "p4": "3", 
+                            "p5": "69632"
+                        }, 
+                        "time": 1642278841.072611
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.072646 libnsl-2.3.6.so@7fa3568d24c3[3851] mmap2(0x7fa34fffe000, 8192, PROT_READ|PROT_WRITE|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fa34fffe000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fa34fffe000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa3568d24c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7fa34fffe000", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642278841.072646
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.072689 libnsl-2.3.6.so@7fa3569bae27[3851] close(3) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa3569bae27", 
+                        "arguments": {
+                            "p0": "3"
+                        }, 
+                        "time": 1642278841.072689
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.072746 libnsl-2.3.6.so@7fa3568d24c3[3851] mmap2(0x7fa34f7da000, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fa34f7da000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fa34f7da000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa3568d24c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7fa34f7da000", 
+                            "p1": "8392704", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642278841.072746
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.072834 libnsl-2.3.6.so@7fa3568d2597[3851] mprotect(0x7fa34f7da000, 4096, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa3568d2597", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7fa34f7da000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642278841.072834
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.072879 libnsl-2.3.6.so@7fa3569bb55e[3851] openat(AT_FDCWD, \"/lib/ld-linux.so.2\", O_RDONLY) = -2 (ENOENT)\n", 
+                        "api": "openat", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa3569bb55e", 
+                        "arguments": {
+                            "p2": "O_RDONLY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/ld-linux.so.2"
+                        }, 
+                        "time": 1642278841.072879
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.073088 libnsl-2.3.6.so@7fa3568c8057[3851] write(2, \"/lib/ld-linux.so.2: No such file or directory\\n\", 46) = 46\n", 
+                        "api": "write", 
+                        "return_value": "46", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa3568c8057", 
+                        "arguments": {
+                            "p2": "46", 
+                            "p0": "2", 
+                            "p1": "/lib/ld-linux.so.2: No such file or directory\n"
+                        }, 
+                        "time": 1642278841.073088
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.073151 libnsl-2.3.6.so@7fa35689c926[3851] exit_group(-1)\n", 
+                        "api": "exit_group", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa35689c926", 
+                        "arguments": {
+                            "p0": "-1"
+                        }, 
+                        "time": 1642278841.073151
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:34:01 2022.073191 libnsl-2.3.6.so@7fa35689c926[3851] futex(0x7fa356740410, FUTEX_WAKE, 1) = 0\n", 
+                        "api": "futex", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa35689c926", 
+                        "arguments": {
+                            "p2": "1", 
+                            "p0": "0x7fa356740410", 
+                            "p1": "FUTEX_WAKE"
+                        }, 
+                        "time": 1642278841.073191
+                    }
+                ], 
+                "pid": 3851, 
+                "process_name": "libnsl-2.3.6.so", 
+                "command_line": "/tmp/libnsl-2.3.6.so", 
+                "first_seen": 1642278840.021879, 
+                "ppid": -1, 
+                "type": "process"
+            }, 
+            {
+                "calls": [
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3852, 
+                        "raw": "Sat Jan 15 20:34:01 2022.067309 libnsl-2.3.6.so@7fa3569b1117[3852] set_robust_list(0x7fa35673e9e0, 24) = 0\n", 
+                        "api": "set_robust_list", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa3569b1117", 
+                        "arguments": {
+                            "p0": "0x7fa35673e9e0", 
+                            "p1": "24"
+                        }, 
+                        "time": 1642278841.067309
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3852, 
+                        "raw": "Sat Jan 15 20:34:01 2022.067354 libnsl-2.3.6.so@7fa3568d24c3[3852] mmap2(0x0, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7fa34df3e000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fa34df3e000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa3568d24c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x0", 
+                            "p1": "134217728", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642278841.067354
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3852, 
+                        "raw": "Sat Jan 15 20:34:01 2022.067395 libnsl-2.3.6.so@7fa3568d2567[3852] munmap(0x7fa34df3e000, 34349056) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa3568d2567", 
+                        "arguments": {
+                            "p0": "0x7fa34df3e000", 
+                            "p1": "34349056"
+                        }, 
+                        "time": 1642278841.067395
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3852, 
+                        "raw": "Sat Jan 15 20:34:01 2022.067434 libnsl-2.3.6.so@7fa3568d2567[3852] munmap(0x7fa354000000, 32759808) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa3568d2567", 
+                        "arguments": {
+                            "p0": "0x7fa354000000", 
+                            "p1": "32759808"
+                        }, 
+                        "time": 1642278841.067434
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3852, 
+                        "raw": "Sat Jan 15 20:34:01 2022.067466 libnsl-2.3.6.so@7fa3568d2597[3852] mprotect(0x7fa350000000, 135168, PROT_READ|PROT_WRITE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa3568d2597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p0": "0x7fa350000000", 
+                            "p1": "135168"
+                        }, 
+                        "time": 1642278841.067466
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3852, 
+                        "raw": "Sat Jan 15 20:34:01 2022.067522 libnsl-2.3.6.so@7fa3569bb440[3852] nanosleep([0.010000000], 0x7fa35673ddc0) = -516\n", 
+                        "api": "nanosleep", 
+                        "return_value": "-516", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa3569bb440", 
+                        "arguments": {
+                            "p0": [
+                                "0.010000000"
+                            ], 
+                            "p1": "0x7fa35673ddc0"
+                        }, 
+                        "time": 1642278841.067522
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "pid": 3852, 
+                        "raw": "Sat Jan 15 20:34:01 2022.073245 libnsl-2.3.6.so@7fa3569bb440[3852] futex(0x7fa35673e9d0, FUTEX_WAKE, 1) = 0\n", 
+                        "api": "futex", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fa3569bb440", 
+                        "arguments": {
+                            "p2": "1", 
+                            "p0": "0x7fa35673e9d0", 
+                            "p1": "FUTEX_WAKE"
+                        }, 
+                        "time": 1642278841.073245
+                    }
+                ], 
+                "pid": 3852, 
+                "process_name": "libnsl-2.3.6.so", 
+                "command_line": "", 
+                "first_seen": 1642278841.067309, 
+                "ppid": 3851, 
+                "type": "process"
+            }
+        ], 
+        "processtree": [
+            {
+                "track": true, 
+                "pid": 3851, 
+                "process_name": "libnsl-2.3.6.so", 
+                "command_line": "/tmp/libnsl-2.3.6.so", 
+                "first_seen": 1642278840.021879, 
+                "ppid": -1, 
+                "children": [
+                    {
+                        "track": true, 
+                        "pid": 3852, 
+                        "process_name": "libnsl-2.3.6.so", 
+                        "command_line": "", 
+                        "first_seen": 1642278841.067309, 
+                        "ppid": 3851, 
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    }, 
+    "debug": {
+        "action": [], 
+        "dbgview": [], 
+        "errors": [], 
+        "log": [
+            "2022-01-15 20:33:52,008 [root] DEBUG: Starting analyzer from: /tmp/tmpPP4XLV\n", 
+            "2022-01-15 20:33:52,008 [root] DEBUG: Storing results at: /tmp/lImQTdLtfh\n", 
+            "2022-01-15 20:33:54,158 [modules.auxiliary.filecollector] INFO: FileCollector started v0.08\n", 
+            "2022-01-15 20:33:54,160 [modules.auxiliary.human] INFO: Human started v0.02\n", 
+            "2022-01-15 20:33:54,669 [modules.auxiliary.screenshots] INFO: Screenshots started v0.03\n", 
+            "2022-01-15 20:34:00,019 [lib.core.packages] INFO: Process startup took 5.35 seconds\n", 
+            "2022-01-15 20:34:00,021 [root] INFO: Added new process to list with pid: 3844\n", 
+            "2022-01-15 20:34:09,034 [root] INFO: Process with pid 3844 has terminated\n", 
+            "2022-01-15 20:34:09,035 [root] INFO: Process list is empty, terminating analysis.\n", 
+            "2022-01-15 20:34:12,050 [lib.core.packages] INFO: Package requested stop\n", 
+            "2022-01-15 20:34:12,051 [lib.core.packages] WARNING: Exception uploading log: [Errno 3] No such process\n", 
+            "2022-01-15 20:37:45,387 [root] INFO: Terminating remaining processes before shutdown.\n", 
+            "2022-01-15 20:37:45,387 [root] INFO: Analysis completed.\n"
+        ], 
+        "cuckoo": [
+            "2022-01-16 04:50:12,612 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 04:50:22,631 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 04:50:32,656 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 04:50:42,680 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 04:50:52,702 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 04:51:02,726 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 04:51:12,750 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 04:51:22,772 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 04:51:32,795 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 04:51:42,827 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 04:51:52,949 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 04:52:02,978 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 04:52:13,003 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 04:52:23,025 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 04:52:33,053 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 04:52:43,073 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 04:52:53,098 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 04:53:03,380 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 04:53:13,519 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 04:53:23,654 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 04:53:33,790 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 04:53:43,899 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 04:53:53,994 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 04:54:04,291 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 04:54:14,449 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 04:54:24,553 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 04:54:34,653 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 04:54:44,768 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 04:54:54,848 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 04:55:04,923 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 04:55:14,997 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 04:55:25,086 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 04:55:35,154 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 04:55:45,277 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 04:55:55,342 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 04:56:05,407 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 04:56:15,459 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 04:56:25,534 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 04:56:35,603 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 04:56:45,677 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 04:56:55,733 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 04:57:05,792 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 04:57:15,846 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 04:57:25,917 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 04:57:36,262 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 04:57:46,340 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 04:57:56,502 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 04:58:06,528 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 04:58:16,549 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 04:58:26,655 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 04:58:36,745 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 04:58:46,802 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 04:58:56,906 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 04:59:06,978 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 04:59:17,062 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 04:59:27,128 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 04:59:37,197 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 04:59:47,290 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 04:59:57,364 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 05:00:07,391 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 05:00:17,424 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 05:00:27,446 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 05:00:37,470 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 05:00:47,496 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 05:00:57,518 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 05:01:07,542 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 05:01:17,571 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 05:01:27,602 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 05:01:37,629 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 05:01:47,651 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 05:01:57,673 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 05:02:07,699 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 05:02:17,725 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 05:02:27,749 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 05:02:37,771 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 05:02:47,795 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 05:02:57,816 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 05:03:07,839 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 05:03:17,858 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 05:03:27,884 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 05:03:37,909 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 05:03:47,932 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 05:03:57,960 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 05:04:07,980 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 05:04:18,003 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 05:04:28,040 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 05:04:38,059 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 05:04:48,101 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 05:04:58,226 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 05:05:08,264 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 05:05:18,286 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 05:05:28,310 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 05:05:38,336 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 05:05:48,357 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 05:05:58,375 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 05:06:08,398 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 05:06:18,431 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 05:06:28,455 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 05:06:38,475 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 05:06:48,502 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 05:06:58,528 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 05:07:08,550 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 05:07:18,575 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 05:07:28,606 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 05:07:38,629 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 05:07:48,650 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 05:07:58,674 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 05:08:08,712 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 05:08:18,733 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 05:08:28,753 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 05:08:38,788 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 05:08:48,811 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 05:08:58,832 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 05:09:08,852 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 05:09:18,876 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 05:09:28,896 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 05:09:38,921 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 05:09:48,944 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 05:09:58,966 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 05:10:08,991 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 05:10:19,015 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 05:10:29,048 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 05:10:39,072 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 05:10:49,093 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 05:10:59,117 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 05:11:09,141 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 05:11:19,165 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 05:11:29,190 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 05:11:39,215 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 05:11:49,241 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 05:11:59,261 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 05:12:09,288 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 05:12:19,311 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 05:12:29,340 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 05:12:39,363 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 05:12:49,390 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 05:12:59,413 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 05:13:09,452 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 05:13:19,474 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 05:13:29,505 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 05:13:39,527 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 05:13:49,558 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 05:13:59,580 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 05:14:09,603 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 05:14:19,632 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 05:14:29,682 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 05:14:39,730 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 05:14:49,755 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 05:14:59,782 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 05:15:09,811 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 05:15:19,840 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 05:15:31,319 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 05:15:41,345 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 05:15:51,379 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 05:16:01,415 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 05:16:11,447 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 05:16:21,472 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 05:16:31,493 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 05:16:41,524 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 05:16:51,547 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 05:17:01,574 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 05:17:11,598 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 05:17:21,619 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 05:17:31,646 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 05:17:41,671 [cuckoo.core.scheduler] DEBUG: Task #2651121: no machine available yet\n", 
+            "2022-01-16 05:17:51,697 [cuckoo.core.scheduler] INFO: Task #2651121: acquired machine Ubuntu1904x644 (label=Ubuntu1904x644)\n", 
+            "2022-01-16 05:17:51,698 [cuckoo.core.resultserver] DEBUG: Now tracking machine 192.168.168.104 for task #2651121\n", 
+            "2022-01-16 05:17:51,978 [cuckoo.auxiliary.sniffer] INFO: Started sniffer with PID 2249103 (interface=vboxnet0, host=192.168.168.104)\n", 
+            "2022-01-16 05:17:52,883 [cuckoo.machinery.virtualbox] DEBUG: Starting vm Ubuntu1904x644\n", 
+            "2022-01-16 05:17:53,279 [cuckoo.machinery.virtualbox] DEBUG: Restoring virtual machine Ubuntu1904x644 to Snapshot\n", 
+            "2022-01-16 05:18:04,421 [cuckoo.core.guest] INFO: Starting analysis #2651121 on guest (id=Ubuntu1904x644, ip=192.168.168.104)\n", 
+            "2022-01-16 05:18:05,426 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: not ready yet\n", 
+            "2022-01-16 05:18:10,445 [cuckoo.core.guest] INFO: Guest is running Cuckoo Agent 0.10 (id=Ubuntu1904x644, ip=192.168.168.104)\n", 
+            "2022-01-16 05:18:10,462 [cuckoo.core.guest] DEBUG: Uploading analyzer to guest (id=Ubuntu1904x644, ip=192.168.168.104, monitor=latest, size=72028)\n", 
+            "2022-01-16 05:18:10,727 [cuckoo.core.resultserver] DEBUG: Task #2651121: live log analysis.log initialized.\n", 
+            "2022-01-16 05:18:25,682 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2651121 still processing\n", 
+            "2022-01-16 05:18:28,634 [cuckoo.core.resultserver] DEBUG: Task #2651121: File upload for 'shots/0001.jpg'\n", 
+            "2022-01-16 05:18:29,025 [cuckoo.core.resultserver] DEBUG: Task #2651121 uploaded file length: 171577\n", 
+            "2022-01-16 05:18:30,721 [cuckoo.core.resultserver] DEBUG: Task #2651121: File upload for 'logs/all.stap'\n", 
+            "2022-01-16 05:18:30,866 [cuckoo.core.resultserver] DEBUG: Task #2651121 uploaded file length: 20465\n", 
+            "2022-01-16 05:18:40,747 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2651121 still processing\n", 
+            "2022-01-16 05:18:55,825 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2651121 still processing\n", 
+            "2022-01-16 05:19:10,890 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2651121 still processing\n", 
+            "2022-01-16 05:19:25,992 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2651121 still processing\n", 
+            "2022-01-16 05:19:41,055 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2651121 still processing\n", 
+            "2022-01-16 05:19:56,123 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2651121 still processing\n", 
+            "2022-01-16 05:20:11,185 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2651121 still processing\n", 
+            "2022-01-16 05:20:26,275 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2651121 still processing\n", 
+            "2022-01-16 05:20:41,405 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2651121 still processing\n", 
+            "2022-01-16 05:20:56,634 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2651121 still processing\n", 
+            "2022-01-16 05:21:11,742 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2651121 still processing\n", 
+            "2022-01-16 05:21:26,814 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2651121 still processing\n", 
+            "2022-01-16 05:21:41,881 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2651121 still processing\n", 
+            "2022-01-16 05:21:56,950 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2651121 still processing\n", 
+            "2022-01-16 05:22:05,994 [cuckoo.core.guest] INFO: Ubuntu1904x644: analysis completed successfully\n", 
+            "2022-01-16 05:22:06,004 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Redsocks\n", 
+            "2022-01-16 05:22:06,116 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Sniffer\n", 
+            "2022-01-16 05:22:19,402 [cuckoo.machinery.virtualbox] INFO: Successfully generated memory dump for virtual machine with label Ubuntu1904x644 to path /srv/cuckoo/cwd/storage/analyses/2651121/memory.dmp\n", 
+            "2022-01-16 05:22:19,403 [cuckoo.machinery.virtualbox] DEBUG: Stopping vm Ubuntu1904x644\n", 
+            "2022-01-16 05:22:45,822 [cuckoo.core.resultserver] DEBUG: Stopped tracking machine 192.168.168.104 for task #2651121\n", 
+            "2022-01-16 05:22:45,992 [cuckoo.core.scheduler] DEBUG: Released database task #2651121\n", 
+            "2022-01-16 05:22:46,326 [cuckoo.core.scheduler] INFO: Task #2651121: analysis procedure completed\n"
+        ]
+    }, 
+    "strings": [
+        "__gmon_start__", 
+        "__cxa_finalize", 
+        "_Jv_RegisterClasses", 
+        "xdr_opaque", 
+        "xdr_enum", 
+        "xdr_ypbind_resp", 
+        "xdr_u_int", 
+        "xdr_yppushresp_xfr", 
+        "xdr_ypresp_xfr", 
+        "xdr_ypresp_order", 
+        "xdr_ypresp_maplist", 
+        "xdr_ypmaplist", 
+        "xdr_pointer", 
+        "xdr_bytes", 
+        "xdr_ypresp_val", 
+        "xdr_ypall", 
+        "xdr_bool", 
+        "xdr_string", 
+        "xdr_ypresp_master", 
+        "xdr_ypbind_setdom", 
+        "xdr_ypreq_nokey", 
+        "xdr_ypreq_key", 
+        "xdr_ypreq_xfr", 
+        "xdr_ypstat", 
+        "xdr_ypxfrstat", 
+        "xdr_domainname", 
+        "xdr_mapname", 
+        "xdr_peername", 
+        "xdr_keydat", 
+        "xdr_valdat", 
+        "xdr_ypmap_parms", 
+        "xdr_ypresp_key_val", 
+        "xdr_ypresp_all", 
+        "xdr_yppush_status", 
+        "xdr_ypbind_resptype", 
+        "xdr_ypbind_binding", 
+        "_libc_intl_domainname", 
+        "__dcgettext", 
+        "yperr_string", 
+        "clnt_perror", 
+        "strcmp", 
+        "yp_unbind", 
+        "__pthread_mutex_lock", 
+        "__pthread_mutex_unlock", 
+        "strncpy", 
+        "clntudp_create", 
+        "strlen", 
+        "snprintf", 
+        "clnttcp_create", 
+        "stderr", 
+        "fprintf", 
+        "calloc", 
+        "yp_all", 
+        "__errno_location", 
+        "yp_maplist", 
+        "xdr_free", 
+        "memcpy", 
+        "yp_order", 
+        "__strdup", 
+        "yp_update", 
+        "host2netname", 
+        "xdr_ypupdate_args", 
+        "clnt_create", 
+        "clnt_pcreateerror", 
+        "xdr_ypdelete_args", 
+        "authdes_create", 
+        "authunix_create_default", 
+        "yp_next", 
+        "malloc", 
+        "yp_first", 
+        "yp_match", 
+        "getdomainname", 
+        "__yp_check", 
+        "yp_bind", 
+        "yp_get_default_domain", 
+        "yp_master", 
+        "ypprot_err", 
+        "ypbinderr_string", 
+        "xdr_yp_buf", 
+        "mempcpy", 
+        "nis_name_of", 
+        "nis_leaf_of", 
+        "getenv", 
+        "strchr", 
+        "stpcpy", 
+        "realloc", 
+        "strcpy", 
+        "nis_leaf_of_r", 
+        "nis_name_of_r", 
+        "nis_getnames", 
+        "nis_freenames", 
+        "nis_dir_cmp", 
+        "nis_destroy_object", 
+        "gethostname", 
+        "geteuid", 
+        "nis_local_group", 
+        "nis_local_directory", 
+        "nis_local_principal", 
+        "nis_local_host", 
+        "__free_fdresult", 
+        "nis_free_request", 
+        "nis_free_directory", 
+        "nis_free_object", 
+        "nis_freeresult", 
+        "nis_write_obj", 
+        "xdrstdio_create", 
+        "fclose", 
+        "nis_read_obj", 
+        "writeColdStartFile", 
+        "readColdStartFile", 
+        "stdout", 
+        "fwrite", 
+        "nis_print_result", 
+        "nis_print_rights", 
+        "nis_print_directory", 
+        "nis_print_group", 
+        "nis_print_table", 
+        "nis_print_link", 
+        "nis_print_entry", 
+        "nis_print_object", 
+        "sprintf", 
+        "nis_sperror", 
+        "nis_lerror", 
+        "syslog", 
+        "nis_perror", 
+        "nis_sperrno", 
+        "nis_sperror_r", 
+        "xdrmem_create", 
+        "inet_addr", 
+        "authdes_pk_create", 
+        "__nisbind_destroy", 
+        "__nisbind_next", 
+        "__nisbind_connect", 
+        "__nisbind_create", 
+        "nis_lookup", 
+        "nis_next_entry", 
+        "nis_first_entry", 
+        "nis_remove_entry", 
+        "nis_modify_entry", 
+        "nis_add_entry", 
+        "nis_list", 
+        "xdr_cback_data", 
+        "xdr_obj_p", 
+        "xdr_array", 
+        "xdr_uint32_t", 
+        "xdr_netobj", 
+        "xdr_int", 
+        "xdr_u_char", 
+        "nis_freetags", 
+        "nis_stats", 
+        "nis_servstate", 
+        "nis_ping", 
+        "xdr_void", 
+        "nis_checkpoint", 
+        "nis_mkdir", 
+        "nis_rmdir", 
+        "nis_freeservlist", 
+        "nis_getservlist", 
+        "nis_verifygroup", 
+        "nis_ismember", 
+        "nis_addmember", 
+        "__assert_fail", 
+        "__nis_hash", 
+        "__nis_finddirectory", 
+        "nis_removemember", 
+        "nis_creategroup", 
+        "nis_destroygroup", 
+        "nis_print_group_entry", 
+        "nis_domain_of", 
+        "nis_domain_of_r", 
+        "nis_modify", 
+        "nis_remove", 
+        "nis_add", 
+        "strstr", 
+        "__strndup", 
+        "__strtol_internal", 
+        "__nis_default_ttl", 
+        "__nis_default_owner", 
+        "__nis_default_group", 
+        "__nis_default_access", 
+        "clntudp_bufcreate", 
+        "xdr_pmap", 
+        "xdr_u_short", 
+        "rpc_createerr", 
+        "getpid", 
+        "socket", 
+        "xprt_unregister", 
+        "svcudp_bufcreate", 
+        "svc_register", 
+        "getsockname", 
+        "get_myaddress", 
+        "inet_ntoa", 
+        "svctcp_create", 
+        "key_secretkey_is_set", 
+        "svcerr_noproc", 
+        "svc_sendreply", 
+        "svcerr_decode", 
+        "svcerr_systemerr", 
+        "__rpc_thread_svc_max_pollfd", 
+        "__rpc_thread_svc_pollfd", 
+        "__poll", 
+        "svc_getreq_poll", 
+        "nis_clone_directory", 
+        "xdr_sizeof", 
+        "nis_clone_object", 
+        "nis_clone_result", 
+        "libc.so.6", 
+        "libnsl.so.1", 
+        "GLIBC_2.0", 
+        "GLIBC_2.1", 
+        "GLIBC_2.2", 
+        "GLIBC_2.1.3", 
+        "GLIBC_2.2.3", 
+        "Success", 
+        "Internal ypbind error", 
+        "Domain not bound", 
+        "System resource allocation failure", 
+        "Unknown ypbind error", 
+        "Request arguments bad", 
+        "RPC failure on NIS operation", 
+        "Can't bind to server which serves this domain", 
+        "No such map in server's domain", 
+        "No such key in map", 
+        "Internal NIS error", 
+        "Local resource allocation failure", 
+        "No more records in map database", 
+        "Can't communicate with portmapper", 
+        "Can't communicate with ypbind", 
+        "Can't communicate with ypserv", 
+        "Local domain name not set", 
+        "NIS map database is bad", 
+        "NIS client/server version mismatch - can't supply service", 
+        "Permission denied", 
+        "Database is busy", 
+        "Unknown NIS error code", 
+        "do_ypcall: clnt_call", 
+        "fcntl: F_SETFD", 
+        "%s/%s.%u", 
+        "/var/yp/binding", 
+        "YPBINDPROC_DOMAIN: %s", 
+        "yp_all: clnt_call", 
+        "yp_update: cannot convert host to netname", 
+        "yp_update: clnt_create", 
+        "yp_update: cannot get server address", 
+        "yp_update: clnt_call", 
+        "(none)", 
+        "NIS_PATH", 
+        "[auth_name=%d,auth_type=LOCAL],cred.org_dir.%s", 
+        "LOCAL entry for UID %d in directory %s not unique", 
+        "NIS_GROUP", 
+        "/var/nis/NIS_COLD_START", 
+        "UNKNOWN", 
+        "%u:%u:%u", 
+        "Group Flags :", 
+        "0x%08X", 
+        "Group Members :", 
+        "BOGUS OBJECT", 
+        "NO OBJECT", 
+        "DIRECTORY", 
+        "PRIVATE", 
+        "(Unknown object)", 
+        "Linked Object Type : ", 
+        "Linked to : %s", 
+        "Entry data of type %s", 
+        "[%u] - [%u bytes] ", 
+        "Encrypted data", 
+        "Binary data", 
+        "'(nil)'", 
+        "'%.*s'", 
+        "Table Type          : %s", 
+        "Number of Columns   : %d", 
+        "Character Separator : %c", 
+        "Search Path         : %s", 
+        "Columns             :", 
+        "Name          : %s", 
+        "Attributes    : ", 
+        "SEARCHABLE, ", 
+        "BINARY DATA", 
+        ", XDR ENCODED", 
+        ", ASN.1 ENCODED", 
+        ", ENCRYPTED", 
+        "TEXTUAL DATA", 
+        ", CASE INSENSITIVE", 
+        ", CASE SENSITIVE", 
+        "Access Rights : ", 
+        "Name : `%s'", 
+        "Type : %s", 
+        "Master Server :", 
+        "Replicate :", 
+        "Name       : %s", 
+        "Public Key : ", 
+        "Diffie-Hellmann (%d bits)", 
+        "RSA (%d bits)", 
+        "Kerberos.", 
+        "Unknown (type = %d, bits = %d)", 
+        "Universal addresses (%u)", 
+        "[%d] - ", 
+        "Time to live : ", 
+        "Default Access rights :", 
+        "Type         : %s", 
+        "Access rights: ", 
+        "Object Name   : %s", 
+        "Directory     : %s", 
+        "Owner         : %s", 
+        "Group         : %s", 
+        "Access Rights : ", 
+        "Time to Live  : ", 
+        "Creation Time : %s", 
+        "Mod. Time     : %s", 
+        "Object Type   : ", 
+        "    Data Length = %u", 
+        "Status            : %s", 
+        "Number of objects : %u", 
+        "Object #%d:", 
+        "%s: %s", 
+        "%s: %s", 
+        "Probable success", 
+        "Not found", 
+        "Probably not found", 
+        "Cache expired", 
+        "NIS+ servers unreachable", 
+        "Unknown object", 
+        "Server busy, try again", 
+        "Generic system error", 
+        "First/next chain broken", 
+        "Not owner", 
+        "Name not served by this server", 
+        "Server out of memory", 
+        "Object with same name exists", 
+        "Not master server for this domain", 
+        "Invalid object for operation", 
+        "Malformed name, or illegal name", 
+        "Unable to create callback", 
+        "Results sent to callback proc", 
+        "Not found, no such name", 
+        "Name/entry isn't unique", 
+        "Modification failed", 
+        "Database for table does not exist", 
+        "Entry/table type mismatch", 
+        "Link points to illegal name", 
+        "Partial success", 
+        "Too many attributes", 
+        "Error in RPC subsystem", 
+        "Missing or malformed attribute", 
+        "Named object is not searchable", 
+        "Error while talking to callback proc", 
+        "Non NIS+ namespace encountered", 
+        "Illegal object type for operation", 
+        "Passed object is not the same object on server", 
+        "Modify operation failed", 
+        "Query illegal for named table", 
+        "Attempt to remove a non-empty table", 
+        "Error in accessing NIS+ cold start file.  Is NIS+ installed?", 
+        "Full resync required for directory", 
+        "NIS+ operation failed", 
+        "NIS+ service is unavailable or not installed", 
+        "Yes, 42 is the meaning of life", 
+        "Unable to authenticate NIS+ server", 
+        "Unable to authenticate NIS+ client", 
+        "No file space on server", 
+        "Unable to create process on server", 
+        "Master server busy, full dump rescheduled.", 
+        ".groups_dir", 
+        "strlen (((res)->objects.objects_val)->zo_name) + 1 < grouplen + 14", 
+        "nis_addmember.c", 
+        "nis_addmember", 
+        "k <= ((res)->objects.objects_val)->zo_data.objdata_u.gr_data.gr_members.gr_members_len", 
+        "nis_removemember.c", 
+        "nis_removemember", 
+        "Group entry for \"%s.%s\" group:", 
+        "    Explicit members:", 
+        "    No explicit members", 
+        "    Implicit members:", 
+        "    No implicit members", 
+        "    Recursive members:", 
+        "    No recursive members", 
+        "    Explicit nonmembers:", 
+        "    No explicit nonmembers", 
+        "    Implicit nonmembers:", 
+        "    No implicit nonmembers", 
+        "    No recursive nonmembers", 
+        "access=", 
+        "NIS_DEFAULTS", 
+        "group=", 
+        "owner=", 
+        "NIS+: failed to register callback dispatcher", 
+        "NIS+: failed to read local socket info", 
+        "%s.%d.%d", 
+        "NIS+: out of memory allocating callback", 
+        "unable to free arguments", 
+        "NIS+: callback timed out", 
+        "/lib/ld-linux.so.2", 
+        "libnsl-2.3.6.so", 
+        ".shstrtab", 
+        ".note.ABI-tag", 
+        ".dynsym", 
+        ".dynstr", 
+        ".gnu.version", 
+        ".gnu.version_d", 
+        ".gnu.version_r", 
+        ".rela.dyn", 
+        ".rela.plt", 
+        ".rodata", 
+        ".interp", 
+        ".eh_frame", 
+        ".ctors", 
+        ".dtors", 
+        ".data.rel.ro", 
+        ".dynamic", 
+        ".gnu_debuglink"
+    ], 
+    "metadata": {
+        "output": {
+            "pcap": {
+                "basename": "dump.pcap", 
+                "sha256": "704e5e5b3234433c01fcfd1b20a306e77e985038120492dc53965c3edd38a4ea", 
+                "dirname": ""
+            }
+        }
+    }
+}
