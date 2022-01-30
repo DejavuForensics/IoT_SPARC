@@ -1,0 +1,3268 @@
+{
+    "info": {
+        "added": 1642279052.004894, 
+        "started": 1642312477.08256, 
+        "duration": 3148, 
+        "ended": 1642315625.843321, 
+        "owner": null, 
+        "score": 0.0, 
+        "id": 2651225, 
+        "category": "file", 
+        "git": {
+            "head": "e8f6317b4b3ef806085a1e99e64c6ff01f26948f", 
+            "fetch_head": "e8f6317b4b3ef806085a1e99e64c6ff01f26948f"
+        }, 
+        "monitor": "2deb9ccd75d5a7a3fe05b2625b03a8639d6ee36b", 
+        "package": "elf", 
+        "route": "internet", 
+        "custom": null, 
+        "machine": {
+            "status": "stopped", 
+            "name": "Ubuntu1904x644", 
+            "label": "Ubuntu1904x644", 
+            "platform": "linux", 
+            "manager": "VirtualBox", 
+            "started_on": "2022-01-16 06:42:03", 
+            "shutdown_on": "2022-01-16 06:47:05"
+        }, 
+        "platform": "linux", 
+        "version": "2.0.7", 
+        "options": "procmemdump=yes,route=internet"
+    }, 
+    "signatures": [], 
+    "target": {
+        "category": "file", 
+        "file": {
+            "mimetype": "application/x-executable", 
+            "yara": [], 
+            "sha1": "a411529a0b1674e624243def0e78d6f09550509e", 
+            "name": "mkdir", 
+            "type": "ELF 32-bit MSB executable, SPARC, version 1 (SYSV), dynamically linked, interpreter /lib/ld-linux.so.2, for GNU/Linux 2.4.1, stripped", 
+            "sha256": "c3a5d26a3a9373f2a3f18981bd1612663ad7e3f7d71c18fa3ade037562d09d06", 
+            "urls": [], 
+            "crc32": "172D69F7", 
+            "path": "/srv/cuckoo/cwd/storage/binaries/c3a5d26a3a9373f2a3f18981bd1612663ad7e3f7d71c18fa3ade037562d09d06", 
+            "ssdeep": "384:yd68delitJzvF6KqGfYZcFBc3dc0oO22cEy5/uhnfiqboayOP:yh2CF6KmGc3cVEeCfiqboha", 
+            "size": 22672, 
+            "sha512": "745ee713cec2e9abf9be1a3d9e9c586160bbb6321adcd4ab656c3df8b69b537475bb5e950f267ad4ce43d1c0f9d11b7991f4de31354ba307b6064f11a7869ff2", 
+            "md5": "eb9b4002f5a4f79623a5ed73805249ce"
+        }, 
+        "custom": null
+    }, 
+    "irma": {
+        "status": 0, 
+        "probes_finished": 16, 
+        "scan_id": "26a3cd77-d9b2-4e44-8cbc-fd55a227ffe7", 
+        "parent_file_sha256": null, 
+        "name": "c3a5d26a3a9373f2a3f18981bd1612663ad7e3f7d71c18fa3ade037562d09d06", 
+        "probes_total": 16, 
+        "scan_date": 1642308429, 
+        "other_results": [], 
+        "submitter": "cli", 
+        "file_infos": {
+            "mimetype": "ELF 32-bit MSB executable, SPARC, version 1 (SYSV)", 
+            "sha1": "a411529a0b1674e624243def0e78d6f09550509e", 
+            "tags": [], 
+            "timestamp_first_scan": 1642308428.7, 
+            "timestamp_last_scan": 1642308438.1, 
+            "sha256": "c3a5d26a3a9373f2a3f18981bd1612663ad7e3f7d71c18fa3ade037562d09d06", 
+            "md5": "eb9b4002f5a4f79623a5ed73805249ce", 
+            "size": 22672
+        }, 
+        "probe_results": {
+            "antivirus": {
+                "Avast Core Security (Linux)": {
+                    "status": 0, 
+                    "duration": 0.01, 
+                    "version": "3.0.3", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "F-Secure Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.02, 
+                    "version": "11.10", 
+                    "results": null, 
+                    "virus_database_version": "2022-01-13_04"
+                }, 
+                "Windows Defender (Windows)": {
+                    "status": 0, 
+                    "duration": 0.05, 
+                    "version": "1.1.18800.4", 
+                    "results": null, 
+                    "virus_database_version": "1.355.1049.0"
+                }, 
+                "Comodo Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 2.1, 
+                    "version": "1.1.268025.1", 
+                    "results": null, 
+                    "virus_database_version": "2021-11-02"
+                }, 
+                "Kaspersky Antivirus (Win)": {
+                    "status": 0, 
+                    "duration": 2.64, 
+                    "version": "21.3", 
+                    "results": null, 
+                    "virus_database_version": "2022-01-04 05:53:00 (full)"
+                }, 
+                "ESET NOD32 Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 4.31, 
+                    "version": "4.0.96", 
+                    "results": null, 
+                    "virus_database_version": "6178ebd0-1e722 (2021-10-27)"
+                }, 
+                "GData (Windows)": {
+                    "status": 0, 
+                    "duration": 0.19, 
+                    "version": "5.5.20197.1358", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Forticlient (Linux)": {
+                    "status": 0, 
+                    "duration": 3.03, 
+                    "version": "unavailable", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Avira (Windows)": {
+                    "status": 0, 
+                    "duration": 3.81, 
+                    "version": "8.3.64.66", 
+                    "results": null, 
+                    "virus_database_version": "8.19.1.122"
+                }, 
+                "eScan Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 3.96, 
+                    "version": "7.0.21", 
+                    "results": null, 
+                    "virus_database_version": "7.90035 (27/10/2021)"
+                }, 
+                "McAfee CLI scanner (Linux)": {
+                    "status": 0, 
+                    "duration": 5.83, 
+                    "version": "6.0.6.653", 
+                    "results": null, 
+                    "virus_database_version": "10149"
+                }, 
+                "Sophos Anti-Virus (Linux)": {
+                    "status": 0, 
+                    "duration": 6.74, 
+                    "version": "5.85.0", 
+                    "results": null, 
+                    "virus_database_version": "5.88 (26 October 2021)"
+                }, 
+                "DrWeb Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.19, 
+                    "version": "11.1.10.2108031732", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "ClamAV (Linux)": {
+                    "status": 0, 
+                    "duration": 0.02, 
+                    "version": "0.103.2", 
+                    "results": null, 
+                    "virus_database_version": "26334"
+                }, 
+                "Bitdefender Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 6.17, 
+                    "version": "7.90123", 
+                    "results": null, 
+                    "virus_database_version": null
+                }, 
+                "Emsisoft Commandline Scanner (Windows)": {
+                    "status": 0, 
+                    "duration": 0.22, 
+                    "version": "2021.10.0.11201", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }
+            }
+        }, 
+        "path": "", 
+        "result_id": "72fda27a-4f47-4eaf-9de8-3a5c60af4b6b", 
+        "file_sha256": "c3a5d26a3a9373f2a3f18981bd1612663ad7e3f7d71c18fa3ade037562d09d06"
+    }, 
+    "suricata": {
+        "tls": [], 
+        "files": [], 
+        "alerts": [], 
+        "http": []
+    }, 
+    "virustotal": {
+        "summary": {
+            "error": "resource has not been scanned yet"
+        }
+    }, 
+    "network": {
+        "tls": [], 
+        "udp": [], 
+        "dns_servers": [], 
+        "http": [], 
+        "icmp": [], 
+        "smtp": [], 
+        "tcp": [], 
+        "smtp_ex": [], 
+        "geoinfo": {}, 
+        "mitm": [], 
+        "hosts": [], 
+        "pcap_sha256": "704e5e5b3234433c01fcfd1b20a306e77e985038120492dc53965c3edd38a4ea", 
+        "dns": [], 
+        "http_ex": [], 
+        "domains": [], 
+        "dead_hosts": [], 
+        "irc": [], 
+        "https_ex": []
+    }, 
+    "resubmit": {
+        "resubmit_ids": []
+    }, 
+    "snort": {
+        "alerts": []
+    }, 
+    "behavior": {
+        "generic": [
+            {
+                "process_path": null, 
+                "process_name": "mkdir", 
+                "pid": 3851, 
+                "summary": {}, 
+                "first_seen": 1642279059.320633, 
+                "ppid": -1
+            }, 
+            {
+                "process_path": null, 
+                "process_name": "mkdir", 
+                "pid": 3852, 
+                "summary": {}, 
+                "first_seen": 1642279060.519685, 
+                "ppid": 3851
+            }
+        ], 
+        "processes": [
+            {
+                "calls": [
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:39 2022.320633 mkdir@7f6572581c27[3851] execve(\"/tmp/mkdir\", [\"/tmp/mkdir\"], [\"SUDO_GID=0\", \"MAIL=/var/mail/root\", \"USER=root\", \"HOME=/root\", \"SUDO_UID=0\", \"LOGNAME=root\", \"SYSTEMTAP_MODULE=stap_\", \"TERM=unknown\", \"SYSTEMTAP_VERBOSE=2\", \"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin\", \"DISPLAY=:0\", \"LANG=en_US.UTF-8\", \"XAUTHORITY=/root/.Xauthority\", \"SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/mkdir\", \"SHELL=/bin/bash\", \"SUDO_USER=root\", \"PWD=/tmp/tmpRNilMK\"])\n", 
+                        "api": "execve", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6572581c27", 
+                        "arguments": {
+                            "p2": [
+                                "SUDO_GID=0", 
+                                "MAIL=/var/mail/root", 
+                                "USER=root", 
+                                "HOME=/root", 
+                                "SUDO_UID=0", 
+                                "LOGNAME=root", 
+                                "SYSTEMTAP_MODULE=stap_", 
+                                "TERM=unknown", 
+                                "SYSTEMTAP_VERBOSE=2", 
+                                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin", 
+                                "DISPLAY=:0", 
+                                "LANG=en_US.UTF-8", 
+                                "XAUTHORITY=/root/.Xauthority", 
+                                "SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/mkdir", 
+                                "SHELL=/bin/bash", 
+                                "SUDO_USER=root", 
+                                "PWD=/tmp/tmpRNilMK"
+                            ], 
+                            "p0": "/tmp/mkdir", 
+                            "p1": [
+                                "/tmp/mkdir"
+                            ]
+                        }, 
+                        "time": 1642279059.320633
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.503038 mkdir@7f6572581c27[3851] brk(0x0) = 94785632813056\n", 
+                        "api": "brk", 
+                        "return_value": "94785632813056", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6572581c27", 
+                        "arguments": {
+                            "p0": "0x0"
+                        }, 
+                        "time": 1642279060.503038
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.503179 mkdir@7f65725829d7[3851] access(\"/etc/ld.so.preload\", R_OK) = -2 (ENOENT)\n", 
+                        "api": "access", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f65725829d7", 
+                        "arguments": {
+                            "p0": "/etc/ld.so.preload", 
+                            "p1": "R_OK"
+                        }, 
+                        "time": 1642279060.503179
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.504209 mkdir@7f6572582b0d[3851] openat(AT_FDCWD, \"/etc/ld.so.cache\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6572582b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/etc/ld.so.cache"
+                        }, 
+                        "time": 1642279060.504209
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.504285 mkdir@7f6572582943[3851] fstat(4, 0x7ffe852bc0b0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6572582943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe852bc0b0"
+                        }, 
+                        "time": 1642279060.504285
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.504367 mkdir@7f6572582d03[3851] mmap2(0x0, 88858, PROT_READ, MAP_PRIVATE, 4, 0) = 0x7f6572550000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f6572550000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6572582d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE", 
+                            "p0": "0x0", 
+                            "p1": "88858", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642279060.504367
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.504449 mkdir@7f65725829f7[3851] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f65725829f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642279060.504449
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.504533 mkdir@7f6572582b0d[3851] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6572582b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0"
+                        }, 
+                        "time": 1642279060.504533
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.504595 mkdir@7f6572582bd4[3851] read(4, 0x7ffe852bc268, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6572582bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffe852bc268"
+                        }, 
+                        "time": 1642279060.504595
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.504662 mkdir@7f6572582943[3851] fstat(4, 0x7ffe852bc100) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6572582943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe852bc100"
+                        }, 
+                        "time": 1642279060.504662
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.504740 mkdir@7f6572582d03[3851] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f657254e000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f657254e000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6572582d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642279060.50474
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.504826 mkdir@7f6572582d03[3851] mmap2(0x0, 20600, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f6572548000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f6572548000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6572582d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "20600", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642279060.504826
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.504915 mkdir@7f6572582d03[3851] mmap2(0x7f6572549000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 4096) = 0x7f6572549000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f6572549000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6572582d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f6572549000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "4096"
+                        }, 
+                        "time": 1642279060.504915
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.504995 mkdir@7f6572582d03[3851] mmap2(0x7f657254b000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f657254b000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f657254b000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6572582d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f657254b000", 
+                            "p1": "4096", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642279060.504995
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.505086 mkdir@7f6572582d03[3851] mmap2(0x7f657254c000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f657254c000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f657254c000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6572582d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f657254c000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642279060.505086
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.505173 mkdir@7f65725829f7[3851] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f65725829f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642279060.505173
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.505254 mkdir@7f6572582b0d[3851] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6572582b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0"
+                        }, 
+                        "time": 1642279060.505254
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.505340 mkdir@7f6572582bd4[3851] read(4, 0x7ffe852bc248, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6572582bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffe852bc248"
+                        }, 
+                        "time": 1642279060.50534
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.505433 mkdir@7f6572582943[3851] fstat(4, 0x7ffe852bc0e0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6572582943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe852bc0e0"
+                        }, 
+                        "time": 1642279060.505433
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.505515 mkdir@7f6572582d03[3851] mmap2(0x0, 1180072, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f6572427000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f6572427000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6572582d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1180072", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642279060.505515
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.505602 mkdir@7f6572582db7[3851] mprotect(0x7f6572442000, 1060864, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6572582db7", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7f6572442000", 
+                            "p1": "1060864"
+                        }, 
+                        "time": 1642279060.505602
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.505714 mkdir@7f6572582d03[3851] mmap2(0x7f6572442000, 524288, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 110592) = 0x7f6572442000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f6572442000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6572582d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f6572442000", 
+                            "p1": "524288", 
+                            "p4": "4", 
+                            "p5": "110592"
+                        }, 
+                        "time": 1642279060.505714
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.505802 mkdir@7f6572582d03[3851] mmap2(0x7f65724c2000, 532480, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 634880) = 0x7f65724c2000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f65724c2000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6572582d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f65724c2000", 
+                            "p1": "532480", 
+                            "p4": "4", 
+                            "p5": "634880"
+                        }, 
+                        "time": 1642279060.505802
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.505889 mkdir@7f6572582d03[3851] mmap2(0x7f6572545000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1167360) = 0x7f6572545000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f6572545000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6572582d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f6572545000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "1167360"
+                        }, 
+                        "time": 1642279060.505889
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.505970 mkdir@7f6572582d03[3851] mmap2(0x7f6572547000, 424, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f6572547000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f6572547000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6572582d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f6572547000", 
+                            "p1": "424", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642279060.50597
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.506052 mkdir@7f65725829f7[3851] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f65725829f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642279060.506052
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.506156 mkdir@7f6572582b0d[3851] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/librt.so.1\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6572582b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/librt.so.1"
+                        }, 
+                        "time": 1642279060.506156
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.506239 mkdir@7f6572582bd4[3851] read(4, 0x7ffe852bc228, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6572582bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffe852bc228"
+                        }, 
+                        "time": 1642279060.506239
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.506339 mkdir@7f6572582943[3851] fstat(4, 0x7ffe852bc0c0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6572582943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe852bc0c0"
+                        }, 
+                        "time": 1642279060.506339
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.506401 mkdir@7f6572582d03[3851] mmap2(0x0, 44000, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f657241c000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f657241c000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6572582d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "44000", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642279060.506401
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.506516 mkdir@7f6572582d03[3851] mmap2(0x7f657241f000, 16384, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f657241f000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f657241f000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6572582d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f657241f000", 
+                            "p1": "16384", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642279060.506516
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.506609 mkdir@7f6572582d03[3851] mmap2(0x7f6572423000, 8192, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 28672) = 0x7f6572423000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f6572423000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6572582d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f6572423000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "28672"
+                        }, 
+                        "time": 1642279060.506609
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.506696 mkdir@7f6572582d03[3851] mmap2(0x7f6572425000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 32768) = 0x7f6572425000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f6572425000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6572582d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f6572425000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "32768"
+                        }, 
+                        "time": 1642279060.506696
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.506795 mkdir@7f65725829f7[3851] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f65725829f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642279060.506795
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.506885 mkdir@7f6572582b0d[3851] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libm.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6572582b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libm.so.6"
+                        }, 
+                        "time": 1642279060.506885
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.506972 mkdir@7f6572582bd4[3851] read(4, 0x7ffe852bc208, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6572582bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffe852bc208"
+                        }, 
+                        "time": 1642279060.506972
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.507052 mkdir@7f6572582943[3851] fstat(4, 0x7ffe852bc0a0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6572582943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe852bc0a0"
+                        }, 
+                        "time": 1642279060.507052
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.507136 mkdir@7f6572582d03[3851] mmap2(0x0, 1364240, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f65722ce000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f65722ce000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6572582d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1364240", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642279060.507136
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.507222 mkdir@7f6572582d03[3851] mmap2(0x7f65722dd000, 679936, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 61440) = 0x7f65722dd000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f65722dd000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6572582d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f65722dd000", 
+                            "p1": "679936", 
+                            "p4": "4", 
+                            "p5": "61440"
+                        }, 
+                        "time": 1642279060.507222
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.507312 mkdir@7f6572582d03[3851] mmap2(0x7f6572383000, 618496, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 741376) = 0x7f6572383000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f6572383000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6572582d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f6572383000", 
+                            "p1": "618496", 
+                            "p4": "4", 
+                            "p5": "741376"
+                        }, 
+                        "time": 1642279060.507312
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.507396 mkdir@7f6572582d03[3851] mmap2(0x7f657241a000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1355776) = 0x7f657241a000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f657241a000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6572582d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f657241a000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "1355776"
+                        }, 
+                        "time": 1642279060.507396
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.507498 mkdir@7f65725829f7[3851] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f65725829f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642279060.507498
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.507583 mkdir@7f6572582b0d[3851] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libgcc_s.so.1\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6572582b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libgcc_s.so.1"
+                        }, 
+                        "time": 1642279060.507583
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.507668 mkdir@7f6572582bd4[3851] read(4, 0x7ffe852bc1e8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6572582bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffe852bc1e8"
+                        }, 
+                        "time": 1642279060.507668
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.507731 mkdir@7f6572582943[3851] fstat(4, 0x7ffe852bc080) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6572582943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe852bc080"
+                        }, 
+                        "time": 1642279060.507731
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.507793 mkdir@7f6572582d03[3851] mmap2(0x0, 103504, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f65722b4000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f65722b4000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6572582d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "103504", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642279060.507793
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.507876 mkdir@7f6572582d03[3851] mmap2(0x7f65722b7000, 69632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f65722b7000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f65722b7000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6572582d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f65722b7000", 
+                            "p1": "69632", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642279060.507876
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.507951 mkdir@7f6572582d03[3851] mmap2(0x7f65722c8000, 16384, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 81920) = 0x7f65722c8000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f65722c8000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6572582d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f65722c8000", 
+                            "p1": "16384", 
+                            "p4": "4", 
+                            "p5": "81920"
+                        }, 
+                        "time": 1642279060.507951
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.508058 mkdir@7f6572582d03[3851] mmap2(0x7f65722cc000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 94208) = 0x7f65722cc000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f65722cc000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6572582d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f65722cc000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "94208"
+                        }, 
+                        "time": 1642279060.508058
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.508145 mkdir@7f65725829f7[3851] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f65725829f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642279060.508145
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.508235 mkdir@7f6572582b0d[3851] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libpthread.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6572582b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libpthread.so.0"
+                        }, 
+                        "time": 1642279060.508235
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.508321 mkdir@7f6572582bd4[3851] read(4, 0x7ffe852bc1c8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6572582bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffe852bc1c8"
+                        }, 
+                        "time": 1642279060.508321
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.508386 mkdir@7f6572582943[3851] fstat(4, 0x7ffe852bc060) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6572582943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe852bc060"
+                        }, 
+                        "time": 1642279060.508386
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.508450 mkdir@7f6572582d03[3851] mmap2(0x0, 132288, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f6572293000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f6572293000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6572582d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "132288", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642279060.50845
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.508520 mkdir@7f6572582d03[3851] mmap2(0x7f657229a000, 61440, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 28672) = 0x7f657229a000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f657229a000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6572582d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f657229a000", 
+                            "p1": "61440", 
+                            "p4": "4", 
+                            "p5": "28672"
+                        }, 
+                        "time": 1642279060.50852
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.508605 mkdir@7f6572582d03[3851] mmap2(0x7f65722a9000, 20480, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 90112) = 0x7f65722a9000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f65722a9000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6572582d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f65722a9000", 
+                            "p1": "20480", 
+                            "p4": "4", 
+                            "p5": "90112"
+                        }, 
+                        "time": 1642279060.508605
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.508701 mkdir@7f6572582d03[3851] mmap2(0x7f65722ae000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 106496) = 0x7f65722ae000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f65722ae000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6572582d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f65722ae000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "106496"
+                        }, 
+                        "time": 1642279060.508701
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.508779 mkdir@7f6572582d03[3851] mmap2(0x7f65722b0000, 13504, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f65722b0000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f65722b0000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6572582d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f65722b0000", 
+                            "p1": "13504", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642279060.508779
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.508886 mkdir@7f65725829f7[3851] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f65725829f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642279060.508886
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.508967 mkdir@7f6572582b0d[3851] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libc.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6572582b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libc.so.6"
+                        }, 
+                        "time": 1642279060.508967
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.509059 mkdir@7f6572582bd4[3851] read(4, 0x7ffe852bc1a8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6572582bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffe852bc1a8"
+                        }, 
+                        "time": 1642279060.509059
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.509143 mkdir@7f6572582943[3851] fstat(4, 0x7ffe852bc040) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6572582943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe852bc040"
+                        }, 
+                        "time": 1642279060.509143
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.509208 mkdir@7f6572582d03[3851] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f6572291000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f6572291000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6572582d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642279060.509208
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.509301 mkdir@7f6572582d03[3851] mmap2(0x0, 2008696, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f65720a6000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f65720a6000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6572582d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "2008696", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642279060.509301
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.509368 mkdir@7f6572582d03[3851] mmap2(0x7f65720cb000, 1519616, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 151552) = 0x7f65720cb000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f65720cb000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6572582d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f65720cb000", 
+                            "p1": "1519616", 
+                            "p4": "4", 
+                            "p5": "151552"
+                        }, 
+                        "time": 1642279060.509368
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.509452 mkdir@7f6572582d03[3851] mmap2(0x7f657223e000, 299008, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1671168) = 0x7f657223e000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f657223e000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6572582d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f657223e000", 
+                            "p1": "299008", 
+                            "p4": "4", 
+                            "p5": "1671168"
+                        }, 
+                        "time": 1642279060.509452
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.509524 mkdir@7f6572582d03[3851] mmap2(0x7f6572287000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1966080) = 0x7f6572287000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f6572287000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6572582d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f6572287000", 
+                            "p1": "24576", 
+                            "p4": "4", 
+                            "p5": "1966080"
+                        }, 
+                        "time": 1642279060.509524
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.509603 mkdir@7f6572582d03[3851] mmap2(0x7f657228d000, 13944, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f657228d000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f657228d000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6572582d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f657228d000", 
+                            "p1": "13944", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642279060.509603
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.509714 mkdir@7f65725829f7[3851] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f65725829f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642279060.509714
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.509825 mkdir@7f6572582b0d[3851] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libdl.so.2\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6572582b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libdl.so.2"
+                        }, 
+                        "time": 1642279060.509825
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.509912 mkdir@7f6572582bd4[3851] read(4, 0x7ffe852bc188, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6572582bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffe852bc188"
+                        }, 
+                        "time": 1642279060.509912
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.509964 mkdir@7f6572582943[3851] fstat(4, 0x7ffe852bc020) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6572582943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe852bc020"
+                        }, 
+                        "time": 1642279060.509964
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.510022 mkdir@7f6572582d03[3851] mmap2(0x0, 20752, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f65720a0000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f65720a0000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6572582d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "20752", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642279060.510022
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.510082 mkdir@7f6572582d03[3851] mmap2(0x7f65720a1000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 4096) = 0x7f65720a1000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f65720a1000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6572582d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f65720a1000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "4096"
+                        }, 
+                        "time": 1642279060.510082
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.510147 mkdir@7f6572582d03[3851] mmap2(0x7f65720a3000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f65720a3000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f65720a3000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6572582d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f65720a3000", 
+                            "p1": "4096", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642279060.510147
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.510208 mkdir@7f6572582d03[3851] mmap2(0x7f65720a4000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f65720a4000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f65720a4000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6572582d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f65720a4000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642279060.510208
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.510377 mkdir@7f65725829f7[3851] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f65725829f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642279060.510377
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.510467 mkdir@7f6572582b0d[3851] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libpcre.so.3\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6572582b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libpcre.so.3"
+                        }, 
+                        "time": 1642279060.510467
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.510531 mkdir@7f6572582bd4[3851] read(4, 0x7ffe852bc168, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6572582bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffe852bc168"
+                        }, 
+                        "time": 1642279060.510531
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.510584 mkdir@7f6572582943[3851] fstat(4, 0x7ffe852bc000) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6572582943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe852bc000"
+                        }, 
+                        "time": 1642279060.510584
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.510638 mkdir@7f6572582d03[3851] mmap2(0x0, 471304, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f657202c000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f657202c000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6572582d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "471304", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642279060.510638
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.510752 mkdir@7f6572582d03[3851] mmap2(0x7f657202e000, 335872, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 8192) = 0x7f657202e000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f657202e000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6572582d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f657202e000", 
+                            "p1": "335872", 
+                            "p4": "4", 
+                            "p5": "8192"
+                        }, 
+                        "time": 1642279060.510752
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.510822 mkdir@7f6572582d03[3851] mmap2(0x7f6572080000, 122880, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 344064) = 0x7f6572080000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f6572080000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6572582d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f6572080000", 
+                            "p1": "122880", 
+                            "p4": "4", 
+                            "p5": "344064"
+                        }, 
+                        "time": 1642279060.510822
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.510886 mkdir@7f6572582d03[3851] mmap2(0x7f657209e000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 462848) = 0x7f657209e000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f657209e000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6572582d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f657209e000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "462848"
+                        }, 
+                        "time": 1642279060.510886
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.510966 mkdir@7f65725829f7[3851] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f65725829f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642279060.510966
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.511897 mkdir@7f6572582d03[3851] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f657202a000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f657202a000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6572582d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642279060.511897
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.511967 mkdir@7f6572567f30[3851] arch_prctl(ARCH_SET_FS, 140073681203520) = 0\n", 
+                        "api": "arch_prctl", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6572567f30", 
+                        "arguments": {
+                            "p0": "ARCH_SET_FS", 
+                            "p1": "140073681203520"
+                        }, 
+                        "time": 1642279060.511967
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.512618 mkdir@7f6572582db7[3851] mprotect(0x7f6572287000, 12288, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6572582db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f6572287000", 
+                            "p1": "12288"
+                        }, 
+                        "time": 1642279060.512618
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.512691 mkdir@7f6572582db7[3851] mprotect(0x7f65722ae000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6572582db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f65722ae000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642279060.512691
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.512777 mkdir@7f6572582db7[3851] mprotect(0x7f657209e000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6572582db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f657209e000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642279060.512777
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.512838 mkdir@7f6572582db7[3851] mprotect(0x7f65720a4000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6572582db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f65720a4000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642279060.512838
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.512896 mkdir@7f6572582db7[3851] mprotect(0x7f65722cc000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6572582db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f65722cc000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642279060.512896
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.512973 mkdir@7f6572582db7[3851] mprotect(0x7f657241a000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6572582db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f657241a000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642279060.512973
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.513035 mkdir@7f6572582db7[3851] mprotect(0x7f6572425000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6572582db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f6572425000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642279060.513035
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.513344 mkdir@7f6572582db7[3851] mprotect(0x7f6572545000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6572582db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f6572545000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642279060.513344
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.513426 mkdir@7f6572582db7[3851] mprotect(0x7f657254c000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6572582db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f657254c000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642279060.513426
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.517007 mkdir@7f6572582db7[3851] mprotect(0x5634fc83b000, 303104, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6572582db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x5634fc83b000", 
+                            "p1": "303104"
+                        }, 
+                        "time": 1642279060.517007
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.517151 mkdir@7f6572582db7[3851] mprotect(0x7f6572590000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6572582db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f6572590000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642279060.517151
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.517218 mkdir@7f6572582d97[3851] munmap(0x7f6572550000, 88858) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6572582d97", 
+                        "arguments": {
+                            "p0": "0x7f6572550000", 
+                            "p1": "88858"
+                        }, 
+                        "time": 1642279060.517218
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.517317 mkdir@7f657229a8df[3851] set_tid_address(0x7f657202b410) = 3851\n", 
+                        "api": "set_tid_address", 
+                        "return_value": "3851", 
+                        "category": "process", 
+                        "instruction_pointer": "7f657229a8df", 
+                        "arguments": {
+                            "p0": "0x7f657202b410"
+                        }, 
+                        "time": 1642279060.517317
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.517365 mkdir@7f657229a94a[3851] set_robust_list(0x7f657202b420, 24) = 0\n", 
+                        "api": "set_robust_list", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f657229a94a", 
+                        "arguments": {
+                            "p0": "0x7f657202b420", 
+                            "p1": "24"
+                        }, 
+                        "time": 1642279060.517365
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.517425 mkdir@7f65722a7010[3851] rt_sigaction(0x20, {0x7f657229a6c0, SA_SIGINFO|SA_RESTORER, 0x7f65722a6f40, [EMPTY]}, 0x0, 8) = 0\n", 
+                        "api": "rt_sigaction", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f65722a7010", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "0x20", 
+                            "p1": [
+                                "0x7f657229a6c0", 
+                                "SA_SIGINFO|SA_RESTORER", 
+                                "0x7f65722a6f40", 
+                                [
+                                    "EMPTY]"
+                                ]
+                            ]
+                        }, 
+                        "time": 1642279060.517425
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.517475 mkdir@7f65722a7010[3851] rt_sigaction(0x21, {0x7f657229a760, SA_RESTART|SA_SIGINFO|SA_RESTORER, 0x7f65722a6f40, [EMPTY]}, 0x0, 8) = 0\n", 
+                        "api": "rt_sigaction", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f65722a7010", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "0x21", 
+                            "p1": [
+                                "0x7f657229a760", 
+                                "SA_RESTART|SA_SIGINFO|SA_RESTORER", 
+                                "0x7f65722a6f40", 
+                                [
+                                    "EMPTY]"
+                                ]
+                            ]
+                        }, 
+                        "time": 1642279060.517475
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.517522 mkdir@7f657229aa19[3851] rt_sigprocmask(SIG_UNBLOCK, [EMPTY], 0x0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f657229aa19", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "SIG_UNBLOCK", 
+                            "p1": [
+                                "EMPTY"
+                            ]
+                        }, 
+                        "time": 1642279060.517522
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.517581 mkdir@7f65721b8df0[3851] prlimit64(0, RLIMIT_STACK, NULL, 0x7ffe852bce40) = 0\n", 
+                        "api": "prlimit64", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f65721b8df0", 
+                        "arguments": {
+                            "p2": "NULL", 
+                            "p3": "0x7ffe852bce40", 
+                            "p0": "0", 
+                            "p1": "RLIMIT_STACK"
+                        }, 
+                        "time": 1642279060.517581
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.517823 mkdir@7f65721b92f7[3851] brk(0x0) = 94785632813056\n", 
+                        "api": "brk", 
+                        "return_value": "94785632813056", 
+                        "category": "process", 
+                        "instruction_pointer": "7f65721b92f7", 
+                        "arguments": {
+                            "p0": "0x0"
+                        }, 
+                        "time": 1642279060.517823
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.517873 mkdir@7f65721b92f7[3851] brk(0x5634fffb5000) = 94785632948224\n", 
+                        "api": "brk", 
+                        "return_value": "94785632948224", 
+                        "category": "process", 
+                        "instruction_pointer": "7f65721b92f7", 
+                        "arguments": {
+                            "p0": "0x5634fffb5000"
+                        }, 
+                        "time": 1642279060.517873
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.518538 mkdir@7f65722a3b86[3851] rt_sigprocmask(SIG_SETMASK, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS], 0x7ffe852bcd90, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f65722a3b86", 
+                        "arguments": {
+                            "p2": "0x7ffe852bcd90", 
+                            "p3": "8", 
+                            "p0": "SIG_SETMASK", 
+                            "p1": [
+                                "SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS"
+                            ]
+                        }, 
+                        "time": 1642279060.518538
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.519314 mkdir@7f65721bd4c3[3851] mmap2(0x0, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f6571829000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f6571829000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f65721bd4c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK", 
+                            "p0": "0x0", 
+                            "p1": "8392704", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642279060.519314
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.519372 mkdir@7f65721bd597[3851] mprotect(0x7f657182a000, 8388608, PROT_READ|PROT_WRITE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f65721bd597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p0": "0x7f657182a000", 
+                            "p1": "8388608"
+                        }, 
+                        "time": 1642279060.519372
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.519443 mkdir@7f65721c3b11[3851] clone(CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, 0x7f6572028f70, 0x7f65720299d0, 0x7f65720299d0) = 3852\n", 
+                        "api": "clone", 
+                        "return_value": "3852", 
+                        "category": "process", 
+                        "instruction_pointer": "7f65721c3b11", 
+                        "arguments": {
+                            "p2": "0x7f65720299d0", 
+                            "p3": "0x7f65720299d0", 
+                            "p0": "CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID", 
+                            "p1": "0x7f6572028f70"
+                        }, 
+                        "time": 1642279060.519443
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.519572 mkdir@7f65722a3b86[3851] rt_sigprocmask(SIG_SETMASK, [EMPTY], 0x0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f65722a3b86", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "SIG_SETMASK", 
+                            "p1": [
+                                "EMPTY"
+                            ]
+                        }, 
+                        "time": 1642279060.519572
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.523038 mkdir@7f65721b8df0[3851] prlimit64(0, RLIMIT_STACK, NULL, 0x7ffe852bc950) = 0\n", 
+                        "api": "prlimit64", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f65721b8df0", 
+                        "arguments": {
+                            "p2": "NULL", 
+                            "p3": "0x7ffe852bc950", 
+                            "p0": "0", 
+                            "p1": "RLIMIT_STACK"
+                        }, 
+                        "time": 1642279060.523038
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.523112 mkdir@7f65721b85c1[3851] openat(AT_FDCWD, \"/etc/qemu-binfmt/sparc\", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -2 (ENOENT)\n", 
+                        "api": "openat", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f65721b85c1", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/etc/qemu-binfmt/sparc"
+                        }, 
+                        "time": 1642279060.523112
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.523214 mkdir@7f6572187247[3851] uname(0x7ffe852bc5c0) = 0\n", 
+                        "api": "uname", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6572187247", 
+                        "arguments": {
+                            "p0": "0x7ffe852bc5c0"
+                        }, 
+                        "time": 1642279060.523214
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.523266 mkdir@7f65722a6337[3851] lseek(3, 0, SEEK_SET) = 0\n", 
+                        "api": "lseek", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f65722a6337", 
+                        "arguments": {
+                            "p2": "SEEK_SET", 
+                            "p0": "3", 
+                            "p1": "0"
+                        }, 
+                        "time": 1642279060.523266
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.523316 mkdir@7f65722a5d94[3851] read(3, 0x7ffe852bc8b0, 52) = 52\n", 
+                        "api": "read", 
+                        "return_value": "52", 
+                        "category": "process", 
+                        "instruction_pointer": "7f65722a5d94", 
+                        "arguments": {
+                            "p2": "52", 
+                            "p0": "3", 
+                            "p1": "0x7ffe852bc8b0"
+                        }, 
+                        "time": 1642279060.523316
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.523368 mkdir@7f65722a6337[3851] lseek(3, 0, SEEK_SET) = 0\n", 
+                        "api": "lseek", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f65722a6337", 
+                        "arguments": {
+                            "p2": "SEEK_SET", 
+                            "p0": "3", 
+                            "p1": "0"
+                        }, 
+                        "time": 1642279060.523368
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.524640 mkdir@7f65721bd4c3[3851] mmap2(0x0, 528384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f65717a8000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f65717a8000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f65721bd4c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "528384", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642279060.52464
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.525130 mkdir@7f65721bd597[3851] mprotect(0x5634fc898000, 33550336, PROT_READ|PROT_WRITE|PROT_EXEC) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f65721bd597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE|PROT_EXEC", 
+                            "p0": "0x5634fc898000", 
+                            "p1": "33550336"
+                        }, 
+                        "time": 1642279060.52513
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.525191 mkdir@7f65721bd667[3851] madvise(0x5634fc898000, 33550336, MADV_HUGEPAGE) = 0\n", 
+                        "api": "madvise", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f65721bd667", 
+                        "arguments": {
+                            "p2": "MADV_HUGEPAGE", 
+                            "p0": "0x5634fc898000", 
+                            "p1": "33550336"
+                        }, 
+                        "time": 1642279060.525191
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.525420 mkdir@7f65721bd4c3[3851] mmap2(0x0, 4294963200, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f646c001000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f646c001000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f65721bd4c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x0", 
+                            "p1": "4294963200", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642279060.52542
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.525484 mkdir@7f65721b2d59[3851] openat(AT_FDCWD, \"/proc/sys/vm/mmap_min_addr\", O_RDONLY) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f65721b2d59", 
+                        "arguments": {
+                            "p2": "O_RDONLY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/proc/sys/vm/mmap_min_addr"
+                        }, 
+                        "time": 1642279060.525484
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.525554 mkdir@7f65721b2613[3851] fstat(4, 0x7ffe852bbfc0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f65721b2613", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe852bbfc0"
+                        }, 
+                        "time": 1642279060.525554
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.525605 mkdir@7f65721b2fb4[3851] read(4, 0x5634fffa13d0, 1024) = 6\n", 
+                        "api": "read", 
+                        "return_value": "6", 
+                        "category": "process", 
+                        "instruction_pointer": "7f65721b2fb4", 
+                        "arguments": {
+                            "p2": "1024", 
+                            "p0": "4", 
+                            "p1": "0x5634fffa13d0"
+                        }, 
+                        "time": 1642279060.525605
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.525661 mkdir@7f65721b83f7[3851] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f65721b83f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642279060.525661
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.525728 mkdir@7f65721bd2e9[3851] gettid() = 3851\n", 
+                        "api": "gettid", 
+                        "return_value": "3851", 
+                        "category": "process", 
+                        "instruction_pointer": "7f65721bd2e9", 
+                        "arguments": {}, 
+                        "time": 1642279060.525728
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.525771 mkdir@7f65721b2613[3851] fstat(3, 0x7ffe852bc830) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f65721b2613", 
+                        "arguments": {
+                            "p0": "3", 
+                            "p1": "0x7ffe852bc830"
+                        }, 
+                        "time": 1642279060.525771
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.525814 mkdir@7f6572188717[3851] geteuid() = 0\n", 
+                        "api": "geteuid", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6572188717", 
+                        "arguments": {}, 
+                        "time": 1642279060.525814
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.525866 mkdir@7f6572188737[3851] getegid() = 0\n", 
+                        "api": "getegid", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6572188737", 
+                        "arguments": {}, 
+                        "time": 1642279060.525866
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.525910 mkdir@7f65722a5d94[3851] read(3, 0x7ffe852bca30, 1024) = 1024\n", 
+                        "api": "read", 
+                        "return_value": "1024", 
+                        "category": "process", 
+                        "instruction_pointer": "7f65722a5d94", 
+                        "arguments": {
+                            "p2": "1024", 
+                            "p0": "3", 
+                            "p1": "0x7ffe852bca30"
+                        }, 
+                        "time": 1642279060.52591
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.525962 mkdir@7f65721bd4c3[3851] mmap2(0x7f646c011000, 20480, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 3, 0) = 0x7f646c011000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f646c011000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f65721bd4c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED", 
+                            "p0": "0x7f646c011000", 
+                            "p1": "20480", 
+                            "p4": "3", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642279060.525962
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.526026 mkdir@7f65721b92f7[3851] brk(0x5634fffd6000) = 94785633083392\n", 
+                        "api": "brk", 
+                        "return_value": "94785633083392", 
+                        "category": "process", 
+                        "instruction_pointer": "7f65721b92f7", 
+                        "arguments": {
+                            "p0": "0x5634fffd6000"
+                        }, 
+                        "time": 1642279060.526026
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.526098 mkdir@7f65721bd4c3[3851] mmap2(0x7f646c025000, 8192, PROT_READ|PROT_WRITE|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 3, 16384) = 0x7f646c025000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f646c025000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f65721bd4c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED", 
+                            "p0": "0x7f646c025000", 
+                            "p1": "8192", 
+                            "p4": "3", 
+                            "p5": "16384"
+                        }, 
+                        "time": 1642279060.526098
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.526166 mkdir@7f65722a5e27[3851] close(3) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f65722a5e27", 
+                        "arguments": {
+                            "p0": "3"
+                        }, 
+                        "time": 1642279060.526166
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.526262 mkdir@7f65721bd4c3[3851] mmap2(0x7f656b7ff000, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f656b7ff000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f656b7ff000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f65721bd4c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f656b7ff000", 
+                            "p1": "8392704", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642279060.526262
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.526483 mkdir@7f65721bd597[3851] mprotect(0x7f656b7ff000, 4096, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f65721bd597", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7f656b7ff000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642279060.526483
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.526555 mkdir@7f65722a655e[3851] openat(AT_FDCWD, \"/lib/ld-linux.so.2\", O_RDONLY) = -2 (ENOENT)\n", 
+                        "api": "openat", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f65722a655e", 
+                        "arguments": {
+                            "p2": "O_RDONLY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/ld-linux.so.2"
+                        }, 
+                        "time": 1642279060.526555
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.526659 mkdir@7f65721b3057[3851] write(2, \"/lib/ld-linux.so.2: No such file or directory\\n\", 46) = 46\n", 
+                        "api": "write", 
+                        "return_value": "46", 
+                        "category": "process", 
+                        "instruction_pointer": "7f65721b3057", 
+                        "arguments": {
+                            "p2": "46", 
+                            "p0": "2", 
+                            "p1": "/lib/ld-linux.so.2: No such file or directory\n"
+                        }, 
+                        "time": 1642279060.526659
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.526744 mkdir@7f6572187926[3851] exit_group(-1)\n", 
+                        "api": "exit_group", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6572187926", 
+                        "arguments": {
+                            "p0": "-1"
+                        }, 
+                        "time": 1642279060.526744
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3851, 
+                        "raw": "Sat Jan 15 20:37:40 2022.526794 mkdir@7f6572187926[3851] futex(0x7f657202b410, FUTEX_WAKE, 1) = 0\n", 
+                        "api": "futex", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f6572187926", 
+                        "arguments": {
+                            "p2": "1", 
+                            "p0": "0x7f657202b410", 
+                            "p1": "FUTEX_WAKE"
+                        }, 
+                        "time": 1642279060.526794
+                    }
+                ], 
+                "pid": 3851, 
+                "process_name": "mkdir", 
+                "command_line": "/tmp/mkdir", 
+                "first_seen": 1642279059.320633, 
+                "ppid": -1, 
+                "type": "process"
+            }, 
+            {
+                "calls": [
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3852, 
+                        "raw": "Sat Jan 15 20:37:40 2022.519685 mkdir@7f657229c117[3852] set_robust_list(0x7f65720299e0, 24) = 0\n", 
+                        "api": "set_robust_list", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f657229c117", 
+                        "arguments": {
+                            "p0": "0x7f65720299e0", 
+                            "p1": "24"
+                        }, 
+                        "time": 1642279060.519685
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3852, 
+                        "raw": "Sat Jan 15 20:37:40 2022.519758 mkdir@7f65721bd4c3[3852] mmap2(0x0, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f6569829000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f6569829000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f65721bd4c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x0", 
+                            "p1": "134217728", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642279060.519758
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3852, 
+                        "raw": "Sat Jan 15 20:37:40 2022.519805 mkdir@7f65721bd567[3852] munmap(0x7f6569829000, 41775104) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f65721bd567", 
+                        "arguments": {
+                            "p0": "0x7f6569829000", 
+                            "p1": "41775104"
+                        }, 
+                        "time": 1642279060.519805
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3852, 
+                        "raw": "Sat Jan 15 20:37:40 2022.519849 mkdir@7f65721bd567[3852] munmap(0x7f6570000000, 25333760) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f65721bd567", 
+                        "arguments": {
+                            "p0": "0x7f6570000000", 
+                            "p1": "25333760"
+                        }, 
+                        "time": 1642279060.519849
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3852, 
+                        "raw": "Sat Jan 15 20:37:40 2022.519889 mkdir@7f65721bd597[3852] mprotect(0x7f656c000000, 135168, PROT_READ|PROT_WRITE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f65721bd597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p0": "0x7f656c000000", 
+                            "p1": "135168"
+                        }, 
+                        "time": 1642279060.519889
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "mkdir", 
+                        "pid": 3852, 
+                        "raw": "Sat Jan 15 20:37:40 2022.519949 mkdir@7f65722a6440[3852] nanosleep([0.010000000], 0x7f6572028dc0) = -516\n", 
+                        "api": "nanosleep", 
+                        "return_value": "-516", 
+                        "category": "process", 
+                        "instruction_pointer": "7f65722a6440", 
+                        "arguments": {
+                            "p0": [
+                                "0.010000000"
+                            ], 
+                            "p1": "0x7f6572028dc0"
+                        }, 
+                        "time": 1642279060.519949
+                    }
+                ], 
+                "pid": 3852, 
+                "process_name": "mkdir", 
+                "command_line": "", 
+                "first_seen": 1642279060.519685, 
+                "ppid": 3851, 
+                "type": "process"
+            }
+        ], 
+        "processtree": [
+            {
+                "track": true, 
+                "pid": 3851, 
+                "process_name": "mkdir", 
+                "command_line": "/tmp/mkdir", 
+                "first_seen": 1642279059.320633, 
+                "ppid": -1, 
+                "children": [
+                    {
+                        "track": true, 
+                        "pid": 3852, 
+                        "process_name": "mkdir", 
+                        "command_line": "", 
+                        "first_seen": 1642279060.519685, 
+                        "ppid": 3851, 
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    }, 
+    "debug": {
+        "action": [], 
+        "dbgview": [], 
+        "errors": [], 
+        "log": [
+            "2022-01-15 20:37:32,023 [root] DEBUG: Starting analyzer from: /tmp/tmpRNilMK\n", 
+            "2022-01-15 20:37:32,024 [root] DEBUG: Storing results at: /tmp/lBYPGtm\n", 
+            "2022-01-15 20:37:34,115 [modules.auxiliary.filecollector] INFO: FileCollector started v0.08\n", 
+            "2022-01-15 20:37:34,117 [modules.auxiliary.human] INFO: Human started v0.02\n", 
+            "2022-01-15 20:37:34,120 [modules.auxiliary.screenshots] INFO: Screenshots started v0.03\n", 
+            "2022-01-15 20:37:39,313 [lib.core.packages] INFO: Process startup took 5.19 seconds\n", 
+            "2022-01-15 20:37:39,315 [root] INFO: Added new process to list with pid: 3844\n", 
+            "2022-01-15 20:37:48,329 [root] INFO: Process with pid 3844 has terminated\n", 
+            "2022-01-15 20:37:48,331 [root] INFO: Process list is empty, terminating analysis.\n", 
+            "2022-01-15 20:37:51,335 [lib.core.packages] INFO: Package requested stop\n", 
+            "2022-01-15 20:37:51,337 [lib.core.packages] WARNING: Exception uploading log: [Errno 3] No such process\n", 
+            "2022-01-15 20:41:26,043 [root] INFO: Terminating remaining processes before shutdown.\n", 
+            "2022-01-15 20:41:26,044 [root] INFO: Analysis completed.\n"
+        ], 
+        "cuckoo": [
+            "2022-01-16 05:55:49,517 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 05:55:59,539 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 05:56:09,564 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 05:56:19,587 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 05:56:29,632 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 05:56:39,653 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 05:56:49,680 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 05:56:59,702 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 05:57:09,728 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 05:57:19,753 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 05:57:29,773 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 05:57:39,798 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 05:57:49,823 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 05:57:59,854 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 05:58:09,880 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 05:58:19,906 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 05:58:29,932 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 05:58:39,955 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 05:58:49,978 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 05:59:00,001 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 05:59:10,026 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 05:59:20,052 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 05:59:30,076 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 05:59:40,098 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 05:59:50,122 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:00:00,148 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:00:10,171 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:00:20,214 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:00:30,239 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:00:40,262 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:00:50,292 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:01:00,312 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:01:10,336 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:01:20,396 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:01:30,419 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:01:40,439 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:01:50,461 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:02:00,488 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:02:10,509 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:02:20,542 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:02:30,571 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:02:40,605 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:02:50,634 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:03:00,658 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:03:10,689 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:03:20,740 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:03:30,762 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:03:40,992 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:03:51,037 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:04:01,073 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:04:11,111 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:04:21,139 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:04:31,178 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:04:41,215 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:04:51,251 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:05:01,288 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:05:11,318 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:05:21,350 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:05:31,389 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:05:41,433 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:05:51,471 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:06:01,504 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:06:11,535 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:06:21,686 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:06:31,834 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:06:41,978 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:06:52,087 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:07:02,168 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:07:12,261 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:07:22,346 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:07:32,439 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:07:42,530 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:07:52,597 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:08:02,666 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:08:12,955 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:08:23,163 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:08:33,321 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:08:43,459 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:08:53,577 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:09:03,674 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:09:13,767 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:09:23,881 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:09:33,983 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:09:44,069 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:09:54,173 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:10:04,204 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:10:14,244 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:10:24,651 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:10:34,714 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:10:44,763 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:10:54,810 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:11:04,840 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:11:14,869 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:11:24,890 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:11:34,915 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:11:44,938 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:11:54,981 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:12:05,056 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:12:15,104 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:12:25,138 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:12:35,163 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:12:45,184 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:12:55,209 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:13:05,229 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:13:15,247 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:13:25,273 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:13:35,300 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:13:45,324 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:13:55,345 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:14:05,367 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:14:15,386 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:14:25,408 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:14:35,558 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:14:45,630 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:14:55,683 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:15:05,738 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:15:15,774 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:15:25,811 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:15:35,851 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:15:45,877 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:15:55,928 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:16:06,011 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:16:16,046 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:16:26,082 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:16:36,124 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:16:46,151 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:16:56,177 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:17:06,216 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:17:16,248 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:17:26,273 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:17:36,297 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:17:46,319 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:17:56,343 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:18:06,368 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:18:16,387 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:18:26,673 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:18:36,728 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:18:46,778 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:18:56,833 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:19:06,896 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:19:16,983 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:19:27,039 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:19:37,094 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:19:47,143 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:19:57,192 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:20:07,219 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:20:17,265 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:20:27,308 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:20:37,358 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:20:47,400 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:20:57,442 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:21:07,474 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:21:17,500 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:21:27,530 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:21:37,559 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:21:47,597 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:21:57,637 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:22:07,677 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:22:17,715 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:22:27,758 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:22:37,798 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:22:47,866 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:22:57,939 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:23:07,988 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:23:18,012 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:23:28,045 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:23:38,072 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:23:48,094 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:23:58,115 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:24:08,139 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:24:18,178 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:24:28,210 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:24:38,246 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:24:48,345 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:24:58,391 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:25:08,422 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:25:18,460 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:25:28,501 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:25:38,546 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:25:48,579 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:25:58,622 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:26:08,657 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:26:18,695 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:26:28,728 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:26:38,754 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:26:48,779 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:26:59,777 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:27:09,837 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:27:19,932 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:27:29,979 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:27:40,017 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:27:50,053 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:28:00,097 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:28:10,155 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:28:20,194 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:28:30,241 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:28:40,274 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:28:50,296 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:29:00,322 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:29:10,351 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:29:20,375 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:29:30,397 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:29:40,420 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:29:50,443 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:30:00,469 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:30:10,488 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:30:20,511 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:30:30,543 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:30:40,569 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:30:50,592 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:31:00,612 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:31:10,630 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:31:20,653 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:31:30,669 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:31:40,693 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:31:50,719 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:32:00,746 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:32:10,771 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:32:20,791 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:32:30,819 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:32:40,844 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:32:50,864 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:33:00,886 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:33:10,914 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:33:20,948 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:33:30,972 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:33:40,992 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:33:51,019 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:34:01,039 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:34:11,061 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:34:21,085 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:34:31,110 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:34:41,138 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:34:51,196 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:35:01,218 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:35:11,244 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:35:21,271 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:35:31,297 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:35:41,322 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:35:51,346 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:36:01,370 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:36:11,392 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:36:21,416 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:36:31,453 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:36:41,480 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:36:51,505 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:37:01,534 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:37:11,562 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:37:21,589 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:37:31,613 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:37:41,635 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:37:51,686 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:38:01,729 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:38:11,755 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:38:21,781 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:38:31,809 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:38:41,848 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:38:51,886 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:39:01,927 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:39:11,956 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:39:22,039 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:39:32,088 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:39:42,144 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:39:52,209 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:40:02,262 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:40:12,326 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:40:22,394 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:40:32,431 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:40:42,452 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:40:52,476 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:41:02,504 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:41:12,520 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:41:22,540 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:41:32,569 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:41:42,938 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:41:52,969 [cuckoo.core.scheduler] DEBUG: Task #2651225: no machine available yet\n", 
+            "2022-01-16 06:42:03,026 [cuckoo.core.scheduler] INFO: Task #2651225: acquired machine Ubuntu1904x644 (label=Ubuntu1904x644)\n", 
+            "2022-01-16 06:42:03,027 [cuckoo.core.resultserver] DEBUG: Now tracking machine 192.168.168.104 for task #2651225\n", 
+            "2022-01-16 06:42:03,196 [cuckoo.auxiliary.sniffer] INFO: Started sniffer with PID 394319 (interface=vboxnet0, host=192.168.168.104)\n", 
+            "2022-01-16 06:42:03,380 [cuckoo.machinery.virtualbox] DEBUG: Starting vm Ubuntu1904x644\n", 
+            "2022-01-16 06:42:03,759 [cuckoo.machinery.virtualbox] DEBUG: Restoring virtual machine Ubuntu1904x644 to Snapshot\n", 
+            "2022-01-16 06:42:39,218 [cuckoo.core.guest] INFO: Starting analysis #2651225 on guest (id=Ubuntu1904x644, ip=192.168.168.104)\n", 
+            "2022-01-16 06:42:40,222 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: not ready yet\n", 
+            "2022-01-16 06:42:45,242 [cuckoo.core.guest] INFO: Guest is running Cuckoo Agent 0.10 (id=Ubuntu1904x644, ip=192.168.168.104)\n", 
+            "2022-01-16 06:42:45,259 [cuckoo.core.guest] DEBUG: Uploading analyzer to guest (id=Ubuntu1904x644, ip=192.168.168.104, monitor=latest, size=72028)\n", 
+            "2022-01-16 06:42:45,426 [cuckoo.core.resultserver] DEBUG: Task #2651225: live log analysis.log initialized.\n", 
+            "2022-01-16 06:42:55,416 [cuckoo.core.resultserver] DEBUG: Task #2651225: File upload for 'shots/0001.jpg'\n", 
+            "2022-01-16 06:42:56,482 [cuckoo.core.resultserver] DEBUG: Task #2651225 uploaded file length: 171552\n", 
+            "2022-01-16 06:43:00,410 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2651225 still processing\n", 
+            "2022-01-16 06:43:04,774 [cuckoo.core.resultserver] DEBUG: Task #2651225: File upload for 'logs/all.stap'\n", 
+            "2022-01-16 06:43:04,951 [cuckoo.core.resultserver] DEBUG: Task #2651225 uploaded file length: 18382\n", 
+            "2022-01-16 06:43:15,472 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2651225 still processing\n", 
+            "2022-01-16 06:43:30,533 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2651225 still processing\n", 
+            "2022-01-16 06:43:45,599 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2651225 still processing\n", 
+            "2022-01-16 06:44:00,659 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2651225 still processing\n", 
+            "2022-01-16 06:44:15,759 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2651225 still processing\n", 
+            "2022-01-16 06:44:30,835 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2651225 still processing\n", 
+            "2022-01-16 06:44:45,960 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2651225 still processing\n", 
+            "2022-01-16 06:45:01,022 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2651225 still processing\n", 
+            "2022-01-16 06:45:16,074 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2651225 still processing\n", 
+            "2022-01-16 06:45:31,163 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2651225 still processing\n", 
+            "2022-01-16 06:45:46,222 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2651225 still processing\n", 
+            "2022-01-16 06:46:01,341 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2651225 still processing\n", 
+            "2022-01-16 06:46:16,469 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2651225 still processing\n", 
+            "2022-01-16 06:46:31,548 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2651225 still processing\n", 
+            "2022-01-16 06:46:40,603 [cuckoo.core.guest] INFO: Ubuntu1904x644: analysis completed successfully\n", 
+            "2022-01-16 06:46:40,614 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Redsocks\n", 
+            "2022-01-16 06:46:40,743 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Sniffer\n", 
+            "2022-01-16 06:47:01,500 [cuckoo.machinery.virtualbox] INFO: Successfully generated memory dump for virtual machine with label Ubuntu1904x644 to path /srv/cuckoo/cwd/storage/analyses/2651225/memory.dmp\n", 
+            "2022-01-16 06:47:01,501 [cuckoo.machinery.virtualbox] DEBUG: Stopping vm Ubuntu1904x644\n", 
+            "2022-01-16 06:47:05,452 [cuckoo.core.resultserver] DEBUG: Stopped tracking machine 192.168.168.104 for task #2651225\n", 
+            "2022-01-16 06:47:05,612 [cuckoo.core.scheduler] DEBUG: Released database task #2651225\n", 
+            "2022-01-16 06:47:05,718 [cuckoo.core.scheduler] INFO: Task #2651225: analysis procedure completed\n"
+        ]
+    }, 
+    "strings": [
+        "/lib/ld-linux.so.2", 
+        "libselinux.so.1", 
+        "is_selinux_enabled", 
+        "setfscreatecon", 
+        "_Jv_RegisterClasses", 
+        "__gmon_start__", 
+        "libc.so.6", 
+        "strcpy", 
+        "stdout", 
+        "memrchr", 
+        "getopt_long", 
+        "__fpending", 
+        "fchdir", 
+        "memcpy", 
+        "__cxa_finalize", 
+        "mbrtowc", 
+        "malloc", 
+        "optarg", 
+        "iswprint", 
+        "calloc", 
+        "__ctype_get_mb_cur_max", 
+        "fputs_unlocked", 
+        "dcgettext", 
+        "optind", 
+        "memchr", 
+        "unlink", 
+        "realloc", 
+        "memcmp", 
+        "__xstat64", 
+        "memset", 
+        "open64", 
+        "opendir", 
+        "__assert_fail", 
+        "getcwd", 
+        "fclose", 
+        "setlocale", 
+        "stderr", 
+        "__lxstat64", 
+        "__ctype_b_loc", 
+        "fwrite", 
+        "__errno_location", 
+        "bindtextdomain", 
+        "_IO_stdin_used", 
+        "strspn", 
+        "__libc_start_main", 
+        "strlen", 
+        "strchr", 
+        "vfprintf", 
+        "mbsinit", 
+        "__cxa_atexit", 
+        "_edata", 
+        "__bss_start", 
+        "GLIBC_2.3", 
+        "GLIBC_2.1.3", 
+        "GLIBC_2.1", 
+        "GLIBC_2.2", 
+        "GLIBC_2.0", 
+        "coreutils", 
+        "/usr/share/locale", 
+        "created directory %s", 
+        "Sorry, --context (-Z) can be used only on a selinux-enabled kernel.", 
+        "Sorry, cannot set default context to %s.", 
+        "GNU coreutils", 
+        "David MacKenzie", 
+        "pm:vZ:", 
+        "missing operand", 
+        "invalid mode %s", 
+        "cannot return to working directory", 
+        "cannot create directory %s", 
+        "cannot set permissions of directory %s", 
+        "Try `%s --help' for more information.", 
+        "Usage: %s [OPTION] DIRECTORY...", 
+        "Create the DIRECTORY(ies), if they do not already exist.", 
+        "  -Z, --context=CONTEXT (SELinux) set security context to CONTEXT", 
+        "Mandatory arguments to long options are mandatory for short options too.", 
+        "  -m, --mode=MODE   set permission mode (as in chmod), not rwxrwxrwx - umask", 
+        "  -p, --parents     no error if existing, make parent directories as needed", 
+        "  -v, --verbose     print a message for each created directory", 
+        "      --help     display this help and exit", 
+        "      --version  output version information and exit", 
+        "Report bugs to <%s>.", 
+        "bug-coreutils@gnu.org", 
+        "context", 
+        "parents", 
+        "verbose", 
+        "version", 
+        "write error", 
+        "%s: %s", 
+        "%s exists but is not a directory", 
+        "cannot change owner and/or group of %s", 
+        "cannot chdir to directory %s", 
+        "cannot change permissions of %s", 
+        "literal", 
+        "shell-always", 
+        "escape", 
+        "locale", 
+        "clocale", 
+        "! close_fail", 
+        "chdir-long.c", 
+        "0 < len", 
+        "4096 <= len", 
+        "*dir != '/'", 
+        "dir <= dir_end", 
+        "slash - dir < 4096", 
+        "chdir_long", 
+        "cdb_free", 
+        "%s (%s) %s", 
+        "This is free software.  You may redistribute copies of it under the terms of", 
+        "the GNU General Public License <http://www.gnu.org/licenses/gpl.html>.", 
+        "There is NO WARRANTY, to the extent permitted by law.", 
+        "Written by %s.", 
+        "Written by %s and %s.", 
+        "Written by %s, %s, and %s.", 
+        "Written by %s, %s, %s,", 
+        "and %s.", 
+        "Written by %s, %s, %s,", 
+        "%s, and %s.", 
+        "Written by %s, %s, %s,", 
+        "%s, %s, and %s.", 
+        "Written by %s, %s, %s,", 
+        "%s, %s, %s, and %s.", 
+        "Written by %s, %s, %s,", 
+        "%s, %s, %s, %s,", 
+        "and %s.", 
+        "Written by %s, %s, %s,", 
+        "%s, %s, %s, %s,", 
+        "%s, and %s.", 
+        "Written by %s, %s, %s,", 
+        "%s, %s, %s, %s,", 
+        "%s, %s, and others.", 
+        "memory exhausted", 
+        "failed to return to initial working directory", 
+        "unable to record current working directory", 
+        "Copyright %s %d Free Software Foundation, Inc.", 
+        ".shstrtab", 
+        ".interp", 
+        ".note.ABI-tag", 
+        ".dynsym", 
+        ".dynstr", 
+        ".gnu.version", 
+        ".gnu.version_r", 
+        ".rela.dyn", 
+        ".rela.plt", 
+        ".rodata", 
+        ".eh_frame", 
+        ".ctors", 
+        ".dtors", 
+        ".dynamic"
+    ], 
+    "metadata": {
+        "output": {
+            "pcap": {
+                "basename": "dump.pcap", 
+                "sha256": "704e5e5b3234433c01fcfd1b20a306e77e985038120492dc53965c3edd38a4ea", 
+                "dirname": ""
+            }
+        }
+    }
+}
