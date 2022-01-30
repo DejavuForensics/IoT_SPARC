@@ -1,0 +1,3300 @@
+{
+    "info": {
+        "added": 1642277148.895996, 
+        "started": 1642286924.125196, 
+        "duration": 3815, 
+        "ended": 1642290739.227002, 
+        "owner": null, 
+        "score": 0.1, 
+        "id": 2650683, 
+        "category": "file", 
+        "git": {
+            "head": "", 
+            "fetch_head": ""
+        }, 
+        "monitor": null, 
+        "package": "elf", 
+        "route": "internet", 
+        "custom": null, 
+        "machine": {
+            "status": "stopped", 
+            "name": "Ubuntu1904x642", 
+            "label": "Ubuntu1904x642", 
+            "platform": "linux", 
+            "manager": "VirtualBox", 
+            "started_on": "2022-01-15 22:55:27", 
+            "shutdown_on": "2022-01-15 23:52:01"
+        }, 
+        "platform": "linux", 
+        "version": "2.0.7", 
+        "options": "procmemdump=yes,route=internet"
+    }, 
+    "signatures": [
+        {
+            "families": [], 
+            "description": "Yara rules detected for file", 
+            "severity": 1, 
+            "ttp": {}, 
+            "markcount": 4, 
+            "references": [], 
+            "marks": [
+                {
+                    "type": "generic", 
+                    "description": "Equation Group hack tool leaked by ShadowBrokers- file porkserver", 
+                    "rule": "EquationGroup_porkserver"
+                }, 
+                {
+                    "type": "generic", 
+                    "description": "Equation Group hack tool set", 
+                    "rule": "EquationGroup_porkserver_v3_0_0"
+                }, 
+                {
+                    "type": "generic", 
+                    "description": "Equation Group hack tool leaked by ShadowBrokers- file porkserver", 
+                    "rule": "EquationGroup_porkserver"
+                }, 
+                {
+                    "type": "generic", 
+                    "description": "Equation Group hack tool set", 
+                    "rule": "EquationGroup_porkserver_v3_0_0"
+                }
+            ], 
+            "name": "file_yara"
+        }
+    ], 
+    "target": {
+        "category": "file", 
+        "file": {
+            "mimetype": "application/x-executable", 
+            "yara": [
+                {
+                    "meta": {
+                        "hash1": "7b5f86e289047dd673e8a09438d49ec43832b561bac39b95098f5bf4095b8b4a", 
+                        "description": "Equation Group hack tool leaked by ShadowBrokers- file porkserver", 
+                        "reference": "https://medium.com/@shadowbrokerss/dont-forget-your-base-867d304a94b1", 
+                        "author": "Florian Roth", 
+                        "date": "2017-04-08"
+                    }, 
+                    "name": "EquationGroup_porkserver", 
+                    "offsets": {
+                        "s3": [
+                            [
+                                24128, 
+                                3
+                            ]
+                        ], 
+                        "s2": [
+                            [
+                                23936, 
+                                2
+                            ]
+                        ], 
+                        "s1": [
+                            [
+                                23792, 
+                                1
+                            ]
+                        ], 
+                        "s4": [
+                            [
+                                25096, 
+                                0
+                            ]
+                        ]
+                    }, 
+                    "strings": [
+                        "JXMvJXM6IHVua25vd24gc2VydmljZQ==", 
+                        "JXMvJXMgc2VydmVyIGZhaWxpbmcgKGxvb3BpbmcpLCBzZXJ2aWNlIHRlcm1pbmF0ZWQ=", 
+                        "Z2V0cHduYW06ICVzOiBObyBzdWNoIHVzZXI=", 
+                        "ZXhlY3YgJXM6ICVt"
+                    ]
+                }, 
+                {
+                    "meta": {
+                        "hash1": "7b5f86e289047dd673e8a09438d49ec43832b561bac39b95098f5bf4095b8b4a", 
+                        "description": "Equation Group hack tool set", 
+                        "reference": "https://medium.com/@shadowbrokerss/dont-forget-your-base-867d304a94b1", 
+                        "author": "Florian Roth", 
+                        "date": "2017-04-09"
+                    }, 
+                    "name": "EquationGroup_porkserver_v3_0_0", 
+                    "offsets": {
+                        "s3": [
+                            [
+                                23936, 
+                                2
+                            ]
+                        ], 
+                        "s2": [
+                            [
+                                23792, 
+                                1
+                            ]
+                        ], 
+                        "s5": [
+                            [
+                                24704, 
+                                0
+                            ]
+                        ], 
+                        "s4": [
+                            [
+                                24128, 
+                                3
+                            ]
+                        ]
+                    }, 
+                    "strings": [
+                        "JXMvJXM6IGdldHNvY2tuYW1lOiAlbQ==", 
+                        "JXMvJXMgc2VydmVyIGZhaWxpbmcgKGxvb3BpbmcpLCBzZXJ2aWNlIHRlcm1pbmF0ZWQ=", 
+                        "Z2V0cHduYW06ICVzOiBObyBzdWNoIHVzZXI=", 
+                        "ZXhlY3YgJXM6ICVt"
+                    ]
+                }, 
+                {
+                    "meta": {
+                        "hash1": "7b5f86e289047dd673e8a09438d49ec43832b561bac39b95098f5bf4095b8b4a", 
+                        "description": "Equation Group hack tool leaked by ShadowBrokers- file porkserver", 
+                        "license": "https://creativecommons.org/licenses/by-nc/4.0/", 
+                        "author": "Florian Roth", 
+                        "date": "2017-04-08", 
+                        "reference": "https://medium.com/@shadowbrokerss/dont-forget-your-base-867d304a94b1"
+                    }, 
+                    "name": "EquationGroup_porkserver", 
+                    "offsets": {
+                        "s3": [
+                            [
+                                24128, 
+                                3
+                            ]
+                        ], 
+                        "s2": [
+                            [
+                                23936, 
+                                2
+                            ]
+                        ], 
+                        "s1": [
+                            [
+                                23792, 
+                                1
+                            ]
+                        ], 
+                        "s4": [
+                            [
+                                25096, 
+                                0
+                            ]
+                        ]
+                    }, 
+                    "strings": [
+                        "JXMvJXM6IHVua25vd24gc2VydmljZQ==", 
+                        "JXMvJXMgc2VydmVyIGZhaWxpbmcgKGxvb3BpbmcpLCBzZXJ2aWNlIHRlcm1pbmF0ZWQ=", 
+                        "Z2V0cHduYW06ICVzOiBObyBzdWNoIHVzZXI=", 
+                        "ZXhlY3YgJXM6ICVt"
+                    ]
+                }, 
+                {
+                    "meta": {
+                        "hash1": "7b5f86e289047dd673e8a09438d49ec43832b561bac39b95098f5bf4095b8b4a", 
+                        "description": "Equation Group hack tool set", 
+                        "license": "https://creativecommons.org/licenses/by-nc/4.0/", 
+                        "author": "Florian Roth", 
+                        "date": "2017-04-09", 
+                        "reference": "https://medium.com/@shadowbrokerss/dont-forget-your-base-867d304a94b1"
+                    }, 
+                    "name": "EquationGroup_porkserver_v3_0_0", 
+                    "offsets": {
+                        "s3": [
+                            [
+                                23936, 
+                                2
+                            ]
+                        ], 
+                        "s2": [
+                            [
+                                23792, 
+                                1
+                            ]
+                        ], 
+                        "s5": [
+                            [
+                                24704, 
+                                0
+                            ]
+                        ], 
+                        "s4": [
+                            [
+                                24128, 
+                                3
+                            ]
+                        ]
+                    }, 
+                    "strings": [
+                        "JXMvJXM6IGdldHNvY2tuYW1lOiAlbQ==", 
+                        "JXMvJXMgc2VydmVyIGZhaWxpbmcgKGxvb3BpbmcpLCBzZXJ2aWNlIHRlcm1pbmF0ZWQ=", 
+                        "Z2V0cHduYW06ICVzOiBObyBzdWNoIHVzZXI=", 
+                        "ZXhlY3YgJXM6ICVt"
+                    ]
+                }
+            ], 
+            "sha1": "492b01ffe13010a5f13ba707cde498ac0db88daf", 
+            "name": "inetd", 
+            "type": "ELF 32-bit MSB executable, SPARC, version 1 (SYSV), dynamically linked, interpreter /lib/ld-linux.so.2, for GNU/Linux 2.4.1, stripped", 
+            "sha256": "08ec6223c953d40eb4ccc28b62655fb35a515ce898bf5cbab182bccff63acbb1", 
+            "urls": [], 
+            "crc32": "54466AF1", 
+            "path": "/srv/cuckoo/cwd/storage/binaries/08ec6223c953d40eb4ccc28b62655fb35a515ce898bf5cbab182bccff63acbb1", 
+            "ssdeep": null, 
+            "size": 28816, 
+            "sha512": "f1c26eb36ffa9fc70c3bbe2d8ef757ee2027f8409231095eb03f782ad0a155b533dff413f4248422d4bcd3b7cb4a7fcc129e544ec1b5941cd2206132fed492f0", 
+            "md5": "3bec3b001c3e47e91839c5b396b276e5"
+        }, 
+        "custom": null
+    }, 
+    "irma": {
+        "status": 0, 
+        "probes_finished": 16, 
+        "scan_id": "3ec3987d-3854-46b7-8aaa-ebaed0e89b18", 
+        "parent_file_sha256": null, 
+        "name": "08ec6223c953d40eb4ccc28b62655fb35a515ce898bf5cbab182bccff63acbb1", 
+        "probes_total": 16, 
+        "scan_date": 1642283540, 
+        "other_results": [], 
+        "submitter": "cli", 
+        "file_infos": {
+            "mimetype": "ELF 32-bit MSB executable, SPARC, version 1 (SYSV)", 
+            "sha1": "492b01ffe13010a5f13ba707cde498ac0db88daf", 
+            "tags": [], 
+            "timestamp_first_scan": 1642283540.07, 
+            "timestamp_last_scan": 1642283549.37, 
+            "sha256": "08ec6223c953d40eb4ccc28b62655fb35a515ce898bf5cbab182bccff63acbb1", 
+            "md5": "3bec3b001c3e47e91839c5b396b276e5", 
+            "size": 28816
+        }, 
+        "probe_results": {
+            "antivirus": {
+                "Avast Core Security (Linux)": {
+                    "status": 0, 
+                    "duration": 0.01, 
+                    "version": "3.0.3", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "F-Secure Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.02, 
+                    "version": "11.10", 
+                    "results": null, 
+                    "virus_database_version": "2022-01-13_04"
+                }, 
+                "Windows Defender (Windows)": {
+                    "status": 0, 
+                    "duration": 0.05, 
+                    "version": "1.1.18800.4", 
+                    "results": null, 
+                    "virus_database_version": "1.355.1049.0"
+                }, 
+                "Comodo Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 2.37, 
+                    "version": "1.1.268025.1", 
+                    "results": null, 
+                    "virus_database_version": "2021-11-02"
+                }, 
+                "Kaspersky Antivirus (Win)": {
+                    "status": 0, 
+                    "duration": 2.77, 
+                    "version": "21.3", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "ESET NOD32 Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 4.28, 
+                    "version": "4.0.96", 
+                    "results": null, 
+                    "virus_database_version": "6178ebd0-1e722 (2021-10-27)"
+                }, 
+                "GData (Windows)": {
+                    "status": 0, 
+                    "duration": 0.21, 
+                    "version": "5.5.20197.1358", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Forticlient (Linux)": {
+                    "status": 0, 
+                    "duration": 3.04, 
+                    "version": "unavailable", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Avira (Windows)": {
+                    "status": 0, 
+                    "duration": 4.27, 
+                    "version": "8.3.64.66", 
+                    "results": null, 
+                    "virus_database_version": "8.19.1.122"
+                }, 
+                "eScan Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 4.13, 
+                    "version": "7.0.21", 
+                    "results": null, 
+                    "virus_database_version": "7.90035 (27/10/2021)"
+                }, 
+                "McAfee CLI scanner (Linux)": {
+                    "status": 0, 
+                    "duration": 5.83, 
+                    "version": "6.0.6.653", 
+                    "results": null, 
+                    "virus_database_version": "10149"
+                }, 
+                "Sophos Anti-Virus (Linux)": {
+                    "status": 0, 
+                    "duration": 7.22, 
+                    "version": "5.85.0", 
+                    "results": null, 
+                    "virus_database_version": "5.88 (26 October 2021)"
+                }, 
+                "DrWeb Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.19, 
+                    "version": "11.1.10.2108031732", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "ClamAV (Linux)": {
+                    "status": 0, 
+                    "duration": 0.02, 
+                    "version": "0.103.2", 
+                    "results": null, 
+                    "virus_database_version": "26334"
+                }, 
+                "Bitdefender Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 6.48, 
+                    "version": "7.90123", 
+                    "results": null, 
+                    "virus_database_version": null
+                }, 
+                "Emsisoft Commandline Scanner (Windows)": {
+                    "status": 0, 
+                    "duration": 0.2, 
+                    "version": "2021.10.0.11201", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }
+            }
+        }, 
+        "path": "", 
+        "result_id": "8de0834a-8869-45c3-8905-2bdf3c1045bd", 
+        "file_sha256": "08ec6223c953d40eb4ccc28b62655fb35a515ce898bf5cbab182bccff63acbb1"
+    }, 
+    "suricata": {
+        "tls": [], 
+        "files": [], 
+        "alerts": [], 
+        "http": []
+    }, 
+    "virustotal": {
+        "summary": {
+            "error": "resource has not been scanned yet"
+        }
+    }, 
+    "network": {
+        "tls": [], 
+        "udp": [], 
+        "dns_servers": [], 
+        "http": [], 
+        "icmp": [], 
+        "smtp": [], 
+        "tcp": [], 
+        "smtp_ex": [], 
+        "geoinfo": {}, 
+        "mitm": [], 
+        "hosts": [], 
+        "pcap_sha256": "704e5e5b3234433c01fcfd1b20a306e77e985038120492dc53965c3edd38a4ea", 
+        "dns": [], 
+        "http_ex": [], 
+        "domains": [], 
+        "dead_hosts": [], 
+        "irc": [], 
+        "https_ex": []
+    }, 
+    "resubmit": {
+        "resubmit_ids": []
+    }, 
+    "snort": {
+        "alerts": []
+    }, 
+    "behavior": {
+        "generic": [
+            {
+                "process_path": null, 
+                "process_name": "inetd", 
+                "pid": 2093, 
+                "summary": {}, 
+                "first_seen": 1642277156.049136, 
+                "ppid": -1
+            }, 
+            {
+                "process_path": null, 
+                "process_name": "inetd", 
+                "pid": 2095, 
+                "summary": {}, 
+                "first_seen": 1642277157.289184, 
+                "ppid": 2093
+            }
+        ], 
+        "processes": [
+            {
+                "calls": [
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:56 2022.049136 inetd@7f4bcb0efc27[2093] execve(\"/tmp/inetd\", [\"/tmp/inetd\"], [\"SUDO_GID=0\", \"MAIL=/var/mail/root\", \"USER=root\", \"HOME=/root\", \"SUDO_UID=0\", \"LOGNAME=root\", \"SYSTEMTAP_MODULE=stap_\", \"TERM=unknown\", \"SYSTEMTAP_VERBOSE=2\", \"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin\", \"DISPLAY=:0\", \"LANG=en_US.UTF-8\", \"XAUTHORITY=/root/.Xauthority\", \"SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/inetd\", \"SHELL=/bin/bash\", \"SUDO_USER=root\", \"PWD=/tmp/tmpBTRjZo\"])\n", 
+                        "api": "execve", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcb0efc27", 
+                        "arguments": {
+                            "p2": [
+                                "SUDO_GID=0", 
+                                "MAIL=/var/mail/root", 
+                                "USER=root", 
+                                "HOME=/root", 
+                                "SUDO_UID=0", 
+                                "LOGNAME=root", 
+                                "SYSTEMTAP_MODULE=stap_", 
+                                "TERM=unknown", 
+                                "SYSTEMTAP_VERBOSE=2", 
+                                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin", 
+                                "DISPLAY=:0", 
+                                "LANG=en_US.UTF-8", 
+                                "XAUTHORITY=/root/.Xauthority", 
+                                "SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/inetd", 
+                                "SHELL=/bin/bash", 
+                                "SUDO_USER=root", 
+                                "PWD=/tmp/tmpBTRjZo"
+                            ], 
+                            "p0": "/tmp/inetd", 
+                            "p1": [
+                                "/tmp/inetd"
+                            ]
+                        }, 
+                        "time": 1642277156.049136
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.264195 inetd@7f4bcb0efc27[2093] brk(0x0) = 93911432400896\n", 
+                        "api": "brk", 
+                        "return_value": "93911432400896", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcb0efc27", 
+                        "arguments": {
+                            "p0": "0x0"
+                        }, 
+                        "time": 1642277157.264195
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.264301 inetd@7f4bcb0f09d7[2093] access(\"/etc/ld.so.preload\", R_OK) = -2 (ENOENT)\n", 
+                        "api": "access", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcb0f09d7", 
+                        "arguments": {
+                            "p0": "/etc/ld.so.preload", 
+                            "p1": "R_OK"
+                        }, 
+                        "time": 1642277157.264301
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.268296 inetd@7f4bcb0f0b0d[2093] openat(AT_FDCWD, \"/etc/ld.so.cache\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcb0f0b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/etc/ld.so.cache"
+                        }, 
+                        "time": 1642277157.268296
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.268370 inetd@7f4bcb0f0943[2093] fstat(4, 0x7ffe85c733e0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcb0f0943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe85c733e0"
+                        }, 
+                        "time": 1642277157.26837
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.268420 inetd@7f4bcb0f0d03[2093] mmap2(0x0, 88858, PROT_READ, MAP_PRIVATE, 4, 0) = 0x7f4bcb0be000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f4bcb0be000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcb0f0d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE", 
+                            "p0": "0x0", 
+                            "p1": "88858", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642277157.26842
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.268470 inetd@7f4bcb0f09f7[2093] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcb0f09f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642277157.26847
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.268533 inetd@7f4bcb0f0b0d[2093] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcb0f0b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0"
+                        }, 
+                        "time": 1642277157.268533
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.268586 inetd@7f4bcb0f0bd4[2093] read(4, 0x7ffe85c73598, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcb0f0bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffe85c73598"
+                        }, 
+                        "time": 1642277157.268586
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.268635 inetd@7f4bcb0f0943[2093] fstat(4, 0x7ffe85c73430) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcb0f0943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe85c73430"
+                        }, 
+                        "time": 1642277157.268635
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.268710 inetd@7f4bcb0f0d03[2093] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f4bcb0bc000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f4bcb0bc000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcb0f0d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642277157.26871
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.268762 inetd@7f4bcb0f0d03[2093] mmap2(0x0, 20600, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f4bcb0b6000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f4bcb0b6000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcb0f0d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "20600", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642277157.268762
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.268809 inetd@7f4bcb0f0d03[2093] mmap2(0x7f4bcb0b7000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 4096) = 0x7f4bcb0b7000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f4bcb0b7000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcb0f0d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f4bcb0b7000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "4096"
+                        }, 
+                        "time": 1642277157.268809
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.268863 inetd@7f4bcb0f0d03[2093] mmap2(0x7f4bcb0b9000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f4bcb0b9000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f4bcb0b9000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcb0f0d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f4bcb0b9000", 
+                            "p1": "4096", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642277157.268863
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.268910 inetd@7f4bcb0f0d03[2093] mmap2(0x7f4bcb0ba000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f4bcb0ba000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f4bcb0ba000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcb0f0d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f4bcb0ba000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642277157.26891
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.268969 inetd@7f4bcb0f09f7[2093] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcb0f09f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642277157.268969
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.269021 inetd@7f4bcb0f0b0d[2093] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcb0f0b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0"
+                        }, 
+                        "time": 1642277157.269021
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.269068 inetd@7f4bcb0f0bd4[2093] read(4, 0x7ffe85c73578, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcb0f0bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffe85c73578"
+                        }, 
+                        "time": 1642277157.269068
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.269108 inetd@7f4bcb0f0943[2093] fstat(4, 0x7ffe85c73410) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcb0f0943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe85c73410"
+                        }, 
+                        "time": 1642277157.269108
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.269149 inetd@7f4bcb0f0d03[2093] mmap2(0x0, 1180072, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f4bcaf95000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f4bcaf95000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcb0f0d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1180072", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642277157.269149
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.269199 inetd@7f4bcb0f0db7[2093] mprotect(0x7f4bcafb0000, 1060864, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcb0f0db7", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7f4bcafb0000", 
+                            "p1": "1060864"
+                        }, 
+                        "time": 1642277157.269199
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.269254 inetd@7f4bcb0f0d03[2093] mmap2(0x7f4bcafb0000, 524288, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 110592) = 0x7f4bcafb0000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f4bcafb0000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcb0f0d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f4bcafb0000", 
+                            "p1": "524288", 
+                            "p4": "4", 
+                            "p5": "110592"
+                        }, 
+                        "time": 1642277157.269254
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.269298 inetd@7f4bcb0f0d03[2093] mmap2(0x7f4bcb030000, 532480, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 634880) = 0x7f4bcb030000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f4bcb030000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcb0f0d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f4bcb030000", 
+                            "p1": "532480", 
+                            "p4": "4", 
+                            "p5": "634880"
+                        }, 
+                        "time": 1642277157.269298
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.269341 inetd@7f4bcb0f0d03[2093] mmap2(0x7f4bcb0b3000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1167360) = 0x7f4bcb0b3000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f4bcb0b3000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcb0f0d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f4bcb0b3000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "1167360"
+                        }, 
+                        "time": 1642277157.269341
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.269394 inetd@7f4bcb0f0d03[2093] mmap2(0x7f4bcb0b5000, 424, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f4bcb0b5000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f4bcb0b5000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcb0f0d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f4bcb0b5000", 
+                            "p1": "424", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642277157.269394
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.269445 inetd@7f4bcb0f09f7[2093] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcb0f09f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642277157.269445
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.269508 inetd@7f4bcb0f0b0d[2093] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/librt.so.1\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcb0f0b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/librt.so.1"
+                        }, 
+                        "time": 1642277157.269508
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.269555 inetd@7f4bcb0f0bd4[2093] read(4, 0x7ffe85c73558, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcb0f0bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffe85c73558"
+                        }, 
+                        "time": 1642277157.269555
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.269594 inetd@7f4bcb0f0943[2093] fstat(4, 0x7ffe85c733f0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcb0f0943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe85c733f0"
+                        }, 
+                        "time": 1642277157.269594
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.269634 inetd@7f4bcb0f0d03[2093] mmap2(0x0, 44000, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f4bcaf8a000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f4bcaf8a000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcb0f0d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "44000", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642277157.269634
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.269682 inetd@7f4bcb0f0d03[2093] mmap2(0x7f4bcaf8d000, 16384, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f4bcaf8d000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f4bcaf8d000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcb0f0d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f4bcaf8d000", 
+                            "p1": "16384", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642277157.269682
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.269732 inetd@7f4bcb0f0d03[2093] mmap2(0x7f4bcaf91000, 8192, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 28672) = 0x7f4bcaf91000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f4bcaf91000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcb0f0d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f4bcaf91000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "28672"
+                        }, 
+                        "time": 1642277157.269732
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.269778 inetd@7f4bcb0f0d03[2093] mmap2(0x7f4bcaf93000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 32768) = 0x7f4bcaf93000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f4bcaf93000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcb0f0d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f4bcaf93000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "32768"
+                        }, 
+                        "time": 1642277157.269778
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.269836 inetd@7f4bcb0f09f7[2093] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcb0f09f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642277157.269836
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.269886 inetd@7f4bcb0f0b0d[2093] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libm.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcb0f0b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libm.so.6"
+                        }, 
+                        "time": 1642277157.269886
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.269932 inetd@7f4bcb0f0bd4[2093] read(4, 0x7ffe85c73538, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcb0f0bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffe85c73538"
+                        }, 
+                        "time": 1642277157.269932
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.269970 inetd@7f4bcb0f0943[2093] fstat(4, 0x7ffe85c733d0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcb0f0943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe85c733d0"
+                        }, 
+                        "time": 1642277157.26997
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.270013 inetd@7f4bcb0f0d03[2093] mmap2(0x0, 1364240, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f4bcae3c000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f4bcae3c000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcb0f0d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1364240", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642277157.270013
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.270057 inetd@7f4bcb0f0d03[2093] mmap2(0x7f4bcae4b000, 679936, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 61440) = 0x7f4bcae4b000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f4bcae4b000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcb0f0d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f4bcae4b000", 
+                            "p1": "679936", 
+                            "p4": "4", 
+                            "p5": "61440"
+                        }, 
+                        "time": 1642277157.270057
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.270105 inetd@7f4bcb0f0d03[2093] mmap2(0x7f4bcaef1000, 618496, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 741376) = 0x7f4bcaef1000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f4bcaef1000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcb0f0d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f4bcaef1000", 
+                            "p1": "618496", 
+                            "p4": "4", 
+                            "p5": "741376"
+                        }, 
+                        "time": 1642277157.270105
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.270150 inetd@7f4bcb0f0d03[2093] mmap2(0x7f4bcaf88000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1355776) = 0x7f4bcaf88000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f4bcaf88000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcb0f0d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f4bcaf88000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "1355776"
+                        }, 
+                        "time": 1642277157.27015
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.270206 inetd@7f4bcb0f09f7[2093] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcb0f09f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642277157.270206
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.270257 inetd@7f4bcb0f0b0d[2093] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libgcc_s.so.1\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcb0f0b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libgcc_s.so.1"
+                        }, 
+                        "time": 1642277157.270257
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.270300 inetd@7f4bcb0f0bd4[2093] read(4, 0x7ffe85c73518, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcb0f0bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffe85c73518"
+                        }, 
+                        "time": 1642277157.2703
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.270341 inetd@7f4bcb0f0943[2093] fstat(4, 0x7ffe85c733b0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcb0f0943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe85c733b0"
+                        }, 
+                        "time": 1642277157.270341
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.270380 inetd@7f4bcb0f0d03[2093] mmap2(0x0, 103504, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f4bcae22000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f4bcae22000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcb0f0d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "103504", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642277157.27038
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.270424 inetd@7f4bcb0f0d03[2093] mmap2(0x7f4bcae25000, 69632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f4bcae25000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f4bcae25000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcb0f0d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f4bcae25000", 
+                            "p1": "69632", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642277157.270424
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.270471 inetd@7f4bcb0f0d03[2093] mmap2(0x7f4bcae36000, 16384, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 81920) = 0x7f4bcae36000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f4bcae36000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcb0f0d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f4bcae36000", 
+                            "p1": "16384", 
+                            "p4": "4", 
+                            "p5": "81920"
+                        }, 
+                        "time": 1642277157.270471
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.270517 inetd@7f4bcb0f0d03[2093] mmap2(0x7f4bcae3a000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 94208) = 0x7f4bcae3a000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f4bcae3a000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcb0f0d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f4bcae3a000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "94208"
+                        }, 
+                        "time": 1642277157.270517
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.270573 inetd@7f4bcb0f09f7[2093] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcb0f09f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642277157.270573
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.270623 inetd@7f4bcb0f0b0d[2093] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libpthread.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcb0f0b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libpthread.so.0"
+                        }, 
+                        "time": 1642277157.270623
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.270669 inetd@7f4bcb0f0bd4[2093] read(4, 0x7ffe85c734f8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcb0f0bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffe85c734f8"
+                        }, 
+                        "time": 1642277157.270669
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.270708 inetd@7f4bcb0f0943[2093] fstat(4, 0x7ffe85c73390) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcb0f0943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe85c73390"
+                        }, 
+                        "time": 1642277157.270708
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.270747 inetd@7f4bcb0f0d03[2093] mmap2(0x0, 132288, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f4bcae01000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f4bcae01000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcb0f0d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "132288", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642277157.270747
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.270791 inetd@7f4bcb0f0d03[2093] mmap2(0x7f4bcae08000, 61440, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 28672) = 0x7f4bcae08000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f4bcae08000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcb0f0d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f4bcae08000", 
+                            "p1": "61440", 
+                            "p4": "4", 
+                            "p5": "28672"
+                        }, 
+                        "time": 1642277157.270791
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.270840 inetd@7f4bcb0f0d03[2093] mmap2(0x7f4bcae17000, 20480, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 90112) = 0x7f4bcae17000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f4bcae17000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcb0f0d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f4bcae17000", 
+                            "p1": "20480", 
+                            "p4": "4", 
+                            "p5": "90112"
+                        }, 
+                        "time": 1642277157.27084
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.270886 inetd@7f4bcb0f0d03[2093] mmap2(0x7f4bcae1c000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 106496) = 0x7f4bcae1c000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f4bcae1c000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcb0f0d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f4bcae1c000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "106496"
+                        }, 
+                        "time": 1642277157.270886
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.270936 inetd@7f4bcb0f0d03[2093] mmap2(0x7f4bcae1e000, 13504, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f4bcae1e000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f4bcae1e000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcb0f0d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f4bcae1e000", 
+                            "p1": "13504", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642277157.270936
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.270987 inetd@7f4bcb0f09f7[2093] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcb0f09f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642277157.270987
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.271041 inetd@7f4bcb0f0b0d[2093] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libc.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcb0f0b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libc.so.6"
+                        }, 
+                        "time": 1642277157.271041
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.271085 inetd@7f4bcb0f0bd4[2093] read(4, 0x7ffe85c734d8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcb0f0bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffe85c734d8"
+                        }, 
+                        "time": 1642277157.271085
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.271124 inetd@7f4bcb0f0943[2093] fstat(4, 0x7ffe85c73370) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcb0f0943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe85c73370"
+                        }, 
+                        "time": 1642277157.271124
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.271165 inetd@7f4bcb0f0d03[2093] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f4bcadff000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f4bcadff000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcb0f0d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642277157.271165
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.271215 inetd@7f4bcb0f0d03[2093] mmap2(0x0, 2008696, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f4bcac14000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f4bcac14000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcb0f0d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "2008696", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642277157.271215
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.271262 inetd@7f4bcb0f0d03[2093] mmap2(0x7f4bcac39000, 1519616, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 151552) = 0x7f4bcac39000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f4bcac39000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcb0f0d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f4bcac39000", 
+                            "p1": "1519616", 
+                            "p4": "4", 
+                            "p5": "151552"
+                        }, 
+                        "time": 1642277157.271262
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.271312 inetd@7f4bcb0f0d03[2093] mmap2(0x7f4bcadac000, 299008, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1671168) = 0x7f4bcadac000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f4bcadac000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcb0f0d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f4bcadac000", 
+                            "p1": "299008", 
+                            "p4": "4", 
+                            "p5": "1671168"
+                        }, 
+                        "time": 1642277157.271312
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.271358 inetd@7f4bcb0f0d03[2093] mmap2(0x7f4bcadf5000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1966080) = 0x7f4bcadf5000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f4bcadf5000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcb0f0d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f4bcadf5000", 
+                            "p1": "24576", 
+                            "p4": "4", 
+                            "p5": "1966080"
+                        }, 
+                        "time": 1642277157.271358
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.271410 inetd@7f4bcb0f0d03[2093] mmap2(0x7f4bcadfb000, 13944, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f4bcadfb000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f4bcadfb000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcb0f0d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f4bcadfb000", 
+                            "p1": "13944", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642277157.27141
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.271464 inetd@7f4bcb0f09f7[2093] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcb0f09f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642277157.271464
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.271523 inetd@7f4bcb0f0b0d[2093] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libdl.so.2\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcb0f0b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libdl.so.2"
+                        }, 
+                        "time": 1642277157.271523
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.271569 inetd@7f4bcb0f0bd4[2093] read(4, 0x7ffe85c734b8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcb0f0bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffe85c734b8"
+                        }, 
+                        "time": 1642277157.271569
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.271609 inetd@7f4bcb0f0943[2093] fstat(4, 0x7ffe85c73350) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcb0f0943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe85c73350"
+                        }, 
+                        "time": 1642277157.271609
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.271646 inetd@7f4bcb0f0d03[2093] mmap2(0x0, 20752, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f4bcac0e000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f4bcac0e000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcb0f0d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "20752", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642277157.271646
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.271692 inetd@7f4bcb0f0d03[2093] mmap2(0x7f4bcac0f000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 4096) = 0x7f4bcac0f000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f4bcac0f000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcb0f0d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f4bcac0f000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "4096"
+                        }, 
+                        "time": 1642277157.271692
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.271743 inetd@7f4bcb0f0d03[2093] mmap2(0x7f4bcac11000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f4bcac11000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f4bcac11000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcb0f0d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f4bcac11000", 
+                            "p1": "4096", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642277157.271743
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.271790 inetd@7f4bcb0f0d03[2093] mmap2(0x7f4bcac12000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f4bcac12000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f4bcac12000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcb0f0d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f4bcac12000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642277157.27179
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.271847 inetd@7f4bcb0f09f7[2093] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcb0f09f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642277157.271847
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.271900 inetd@7f4bcb0f0b0d[2093] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libpcre.so.3\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcb0f0b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libpcre.so.3"
+                        }, 
+                        "time": 1642277157.2719
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.271947 inetd@7f4bcb0f0bd4[2093] read(4, 0x7ffe85c73498, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcb0f0bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffe85c73498"
+                        }, 
+                        "time": 1642277157.271947
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.271987 inetd@7f4bcb0f0943[2093] fstat(4, 0x7ffe85c73330) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcb0f0943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe85c73330"
+                        }, 
+                        "time": 1642277157.271987
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.272024 inetd@7f4bcb0f0d03[2093] mmap2(0x0, 471304, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f4bcab9a000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f4bcab9a000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcb0f0d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "471304", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642277157.272024
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.272069 inetd@7f4bcb0f0d03[2093] mmap2(0x7f4bcab9c000, 335872, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 8192) = 0x7f4bcab9c000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f4bcab9c000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcb0f0d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f4bcab9c000", 
+                            "p1": "335872", 
+                            "p4": "4", 
+                            "p5": "8192"
+                        }, 
+                        "time": 1642277157.272069
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.272121 inetd@7f4bcb0f0d03[2093] mmap2(0x7f4bcabee000, 122880, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 344064) = 0x7f4bcabee000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f4bcabee000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcb0f0d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f4bcabee000", 
+                            "p1": "122880", 
+                            "p4": "4", 
+                            "p5": "344064"
+                        }, 
+                        "time": 1642277157.272121
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.272166 inetd@7f4bcb0f0d03[2093] mmap2(0x7f4bcac0c000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 462848) = 0x7f4bcac0c000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f4bcac0c000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcb0f0d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f4bcac0c000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "462848"
+                        }, 
+                        "time": 1642277157.272166
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.272223 inetd@7f4bcb0f09f7[2093] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcb0f09f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642277157.272223
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.274397 inetd@7f4bcb0f0d03[2093] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f4bcab98000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f4bcab98000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcb0f0d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642277157.274397
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.274460 inetd@7f4bcb0d5f30[2093] arch_prctl(ARCH_SET_FS, 139963500433728) = 0\n", 
+                        "api": "arch_prctl", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcb0d5f30", 
+                        "arguments": {
+                            "p0": "ARCH_SET_FS", 
+                            "p1": "139963500433728"
+                        }, 
+                        "time": 1642277157.27446
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.278384 inetd@7f4bcb0f0db7[2093] mprotect(0x7f4bcadf5000, 12288, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcb0f0db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f4bcadf5000", 
+                            "p1": "12288"
+                        }, 
+                        "time": 1642277157.278384
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.278449 inetd@7f4bcb0f0db7[2093] mprotect(0x7f4bcae1c000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcb0f0db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f4bcae1c000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642277157.278449
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.278522 inetd@7f4bcb0f0db7[2093] mprotect(0x7f4bcac0c000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcb0f0db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f4bcac0c000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642277157.278522
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.278576 inetd@7f4bcb0f0db7[2093] mprotect(0x7f4bcac12000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcb0f0db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f4bcac12000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642277157.278576
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.278626 inetd@7f4bcb0f0db7[2093] mprotect(0x7f4bcae3a000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcb0f0db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f4bcae3a000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642277157.278626
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.278694 inetd@7f4bcb0f0db7[2093] mprotect(0x7f4bcaf88000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcb0f0db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f4bcaf88000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642277157.278694
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.278746 inetd@7f4bcb0f0db7[2093] mprotect(0x7f4bcaf93000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcb0f0db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f4bcaf93000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642277157.278746
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.279006 inetd@7f4bcb0f0db7[2093] mprotect(0x7f4bcb0b3000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcb0f0db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f4bcb0b3000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642277157.279006
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.279074 inetd@7f4bcb0f0db7[2093] mprotect(0x7f4bcb0ba000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcb0f0db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f4bcb0ba000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642277157.279074
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.286069 inetd@7f4bcb0f0db7[2093] mprotect(0x5569727d6000, 303104, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcb0f0db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x5569727d6000", 
+                            "p1": "303104"
+                        }, 
+                        "time": 1642277157.286069
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.286146 inetd@7f4bcb0f0db7[2093] mprotect(0x7f4bcb0fe000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcb0f0db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f4bcb0fe000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642277157.286146
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.286212 inetd@7f4bcb0f0d97[2093] munmap(0x7f4bcb0be000, 88858) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcb0f0d97", 
+                        "arguments": {
+                            "p0": "0x7f4bcb0be000", 
+                            "p1": "88858"
+                        }, 
+                        "time": 1642277157.286212
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.286301 inetd@7f4bcae088df[2093] set_tid_address(0x7f4bcab99410) = 2093\n", 
+                        "api": "set_tid_address", 
+                        "return_value": "2093", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcae088df", 
+                        "arguments": {
+                            "p0": "0x7f4bcab99410"
+                        }, 
+                        "time": 1642277157.286301
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.286348 inetd@7f4bcae0894a[2093] set_robust_list(0x7f4bcab99420, 24) = 0\n", 
+                        "api": "set_robust_list", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcae0894a", 
+                        "arguments": {
+                            "p0": "0x7f4bcab99420", 
+                            "p1": "24"
+                        }, 
+                        "time": 1642277157.286348
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.286408 inetd@7f4bcae15010[2093] rt_sigaction(0x20, {0x7f4bcae086c0, SA_SIGINFO|SA_RESTORER, 0x7f4bcae14f40, [EMPTY]}, 0x0, 8) = 0\n", 
+                        "api": "rt_sigaction", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcae15010", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "0x20", 
+                            "p1": [
+                                "0x7f4bcae086c0", 
+                                "SA_SIGINFO|SA_RESTORER", 
+                                "0x7f4bcae14f40", 
+                                [
+                                    "EMPTY]"
+                                ]
+                            ]
+                        }, 
+                        "time": 1642277157.286408
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.286457 inetd@7f4bcae15010[2093] rt_sigaction(0x21, {0x7f4bcae08760, SA_RESTART|SA_SIGINFO|SA_RESTORER, 0x7f4bcae14f40, [EMPTY]}, 0x0, 8) = 0\n", 
+                        "api": "rt_sigaction", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcae15010", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "0x21", 
+                            "p1": [
+                                "0x7f4bcae08760", 
+                                "SA_RESTART|SA_SIGINFO|SA_RESTORER", 
+                                "0x7f4bcae14f40", 
+                                [
+                                    "EMPTY]"
+                                ]
+                            ]
+                        }, 
+                        "time": 1642277157.286457
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.286504 inetd@7f4bcae08a19[2093] rt_sigprocmask(SIG_UNBLOCK, [EMPTY], 0x0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcae08a19", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "SIG_UNBLOCK", 
+                            "p1": [
+                                "EMPTY"
+                            ]
+                        }, 
+                        "time": 1642277157.286504
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.286565 inetd@7f4bcad26df0[2093] prlimit64(0, RLIMIT_STACK, NULL, 0x7ffe85c74170) = 0\n", 
+                        "api": "prlimit64", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcad26df0", 
+                        "arguments": {
+                            "p2": "NULL", 
+                            "p3": "0x7ffe85c74170", 
+                            "p0": "0", 
+                            "p1": "RLIMIT_STACK"
+                        }, 
+                        "time": 1642277157.286565
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.286801 inetd@7f4bcad272f7[2093] brk(0x0) = 93911432400896\n", 
+                        "api": "brk", 
+                        "return_value": "93911432400896", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcad272f7", 
+                        "arguments": {
+                            "p0": "0x0"
+                        }, 
+                        "time": 1642277157.286801
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.286845 inetd@7f4bcad272f7[2093] brk(0x55697593a000) = 93911432536064\n", 
+                        "api": "brk", 
+                        "return_value": "93911432536064", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcad272f7", 
+                        "arguments": {
+                            "p0": "0x55697593a000"
+                        }, 
+                        "time": 1642277157.286845
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.287860 inetd@7f4bcae11b86[2093] rt_sigprocmask(SIG_SETMASK, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS], 0x7ffe85c740c0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcae11b86", 
+                        "arguments": {
+                            "p2": "0x7ffe85c740c0", 
+                            "p3": "8", 
+                            "p0": "SIG_SETMASK", 
+                            "p1": [
+                                "SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS"
+                            ]
+                        }, 
+                        "time": 1642277157.28786
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.288848 inetd@7f4bcad2b4c3[2093] mmap2(0x0, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f4bca397000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f4bca397000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcad2b4c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK", 
+                            "p0": "0x0", 
+                            "p1": "8392704", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642277157.288848
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.288903 inetd@7f4bcad2b597[2093] mprotect(0x7f4bca398000, 8388608, PROT_READ|PROT_WRITE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcad2b597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p0": "0x7f4bca398000", 
+                            "p1": "8388608"
+                        }, 
+                        "time": 1642277157.288903
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.288975 inetd@7f4bcad31b11[2093] clone(CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, 0x7f4bcab96f70, 0x7f4bcab979d0, 0x7f4bcab979d0) = 2095\n", 
+                        "api": "clone", 
+                        "return_value": "2095", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcad31b11", 
+                        "arguments": {
+                            "p2": "0x7f4bcab979d0", 
+                            "p3": "0x7f4bcab979d0", 
+                            "p0": "CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID", 
+                            "p1": "0x7f4bcab96f70"
+                        }, 
+                        "time": 1642277157.288975
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.289111 inetd@7f4bcae11b86[2093] rt_sigprocmask(SIG_SETMASK, [EMPTY], 0x0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcae11b86", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "SIG_SETMASK", 
+                            "p1": [
+                                "EMPTY"
+                            ]
+                        }, 
+                        "time": 1642277157.289111
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.291582 inetd@7f4bcad26df0[2093] prlimit64(0, RLIMIT_STACK, NULL, 0x7ffe85c73c80) = 0\n", 
+                        "api": "prlimit64", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcad26df0", 
+                        "arguments": {
+                            "p2": "NULL", 
+                            "p3": "0x7ffe85c73c80", 
+                            "p0": "0", 
+                            "p1": "RLIMIT_STACK"
+                        }, 
+                        "time": 1642277157.291582
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.291655 inetd@7f4bcad265c1[2093] openat(AT_FDCWD, \"/etc/qemu-binfmt/sparc\", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -2 (ENOENT)\n", 
+                        "api": "openat", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcad265c1", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/etc/qemu-binfmt/sparc"
+                        }, 
+                        "time": 1642277157.291655
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.291742 inetd@7f4bcacf5247[2093] uname(0x7ffe85c738f0) = 0\n", 
+                        "api": "uname", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcacf5247", 
+                        "arguments": {
+                            "p0": "0x7ffe85c738f0"
+                        }, 
+                        "time": 1642277157.291742
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.291793 inetd@7f4bcae14337[2093] lseek(3, 0, SEEK_SET) = 0\n", 
+                        "api": "lseek", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcae14337", 
+                        "arguments": {
+                            "p2": "SEEK_SET", 
+                            "p0": "3", 
+                            "p1": "0"
+                        }, 
+                        "time": 1642277157.291793
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.291838 inetd@7f4bcae13d94[2093] read(3, 0x7ffe85c73be0, 52) = 52\n", 
+                        "api": "read", 
+                        "return_value": "52", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcae13d94", 
+                        "arguments": {
+                            "p2": "52", 
+                            "p0": "3", 
+                            "p1": "0x7ffe85c73be0"
+                        }, 
+                        "time": 1642277157.291838
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.291887 inetd@7f4bcae14337[2093] lseek(3, 0, SEEK_SET) = 0\n", 
+                        "api": "lseek", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcae14337", 
+                        "arguments": {
+                            "p2": "SEEK_SET", 
+                            "p0": "3", 
+                            "p1": "0"
+                        }, 
+                        "time": 1642277157.291887
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.293305 inetd@7f4bcad2b4c3[2093] mmap2(0x0, 528384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f4bca316000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f4bca316000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcad2b4c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "528384", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642277157.293305
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.293849 inetd@7f4bcad2b597[2093] mprotect(0x556972833000, 33550336, PROT_READ|PROT_WRITE|PROT_EXEC) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcad2b597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE|PROT_EXEC", 
+                            "p0": "0x556972833000", 
+                            "p1": "33550336"
+                        }, 
+                        "time": 1642277157.293849
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.293907 inetd@7f4bcad2b667[2093] madvise(0x556972833000, 33550336, MADV_HUGEPAGE) = 0\n", 
+                        "api": "madvise", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcad2b667", 
+                        "arguments": {
+                            "p2": "MADV_HUGEPAGE", 
+                            "p0": "0x556972833000", 
+                            "p1": "33550336"
+                        }, 
+                        "time": 1642277157.293907
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.294128 inetd@7f4bcad2b4c3[2093] mmap2(0x0, 4294963200, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f4ac4001000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f4ac4001000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcad2b4c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x0", 
+                            "p1": "4294963200", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642277157.294128
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.294187 inetd@7f4bcad20d59[2093] openat(AT_FDCWD, \"/proc/sys/vm/mmap_min_addr\", O_RDONLY) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcad20d59", 
+                        "arguments": {
+                            "p2": "O_RDONLY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/proc/sys/vm/mmap_min_addr"
+                        }, 
+                        "time": 1642277157.294187
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.294256 inetd@7f4bcad20613[2093] fstat(4, 0x7ffe85c732f0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcad20613", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffe85c732f0"
+                        }, 
+                        "time": 1642277157.294256
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.294304 inetd@7f4bcad20fb4[2093] read(4, 0x5569759263d0, 1024) = 6\n", 
+                        "api": "read", 
+                        "return_value": "6", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcad20fb4", 
+                        "arguments": {
+                            "p2": "1024", 
+                            "p0": "4", 
+                            "p1": "0x5569759263d0"
+                        }, 
+                        "time": 1642277157.294304
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.294361 inetd@7f4bcad263f7[2093] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcad263f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642277157.294361
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.294424 inetd@7f4bcad2b2e9[2093] gettid() = 2093\n", 
+                        "api": "gettid", 
+                        "return_value": "2093", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcad2b2e9", 
+                        "arguments": {}, 
+                        "time": 1642277157.294424
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.294469 inetd@7f4bcad20613[2093] fstat(3, 0x7ffe85c73b60) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcad20613", 
+                        "arguments": {
+                            "p0": "3", 
+                            "p1": "0x7ffe85c73b60"
+                        }, 
+                        "time": 1642277157.294469
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.294512 inetd@7f4bcacf6717[2093] geteuid() = 0\n", 
+                        "api": "geteuid", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcacf6717", 
+                        "arguments": {}, 
+                        "time": 1642277157.294512
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.294554 inetd@7f4bcacf6737[2093] getegid() = 0\n", 
+                        "api": "getegid", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcacf6737", 
+                        "arguments": {}, 
+                        "time": 1642277157.294554
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.294595 inetd@7f4bcae13d94[2093] read(3, 0x7ffe85c73d60, 1024) = 1024\n", 
+                        "api": "read", 
+                        "return_value": "1024", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcae13d94", 
+                        "arguments": {
+                            "p2": "1024", 
+                            "p0": "3", 
+                            "p1": "0x7ffe85c73d60"
+                        }, 
+                        "time": 1642277157.294595
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.294651 inetd@7f4bcad2b4c3[2093] mmap2(0x7f4ac4011000, 28672, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 3, 0) = 0x7f4ac4011000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f4ac4011000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcad2b4c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED", 
+                            "p0": "0x7f4ac4011000", 
+                            "p1": "28672", 
+                            "p4": "3", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642277157.294651
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.294710 inetd@7f4bcad272f7[2093] brk(0x55697595b000) = 93911432671232\n", 
+                        "api": "brk", 
+                        "return_value": "93911432671232", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcad272f7", 
+                        "arguments": {
+                            "p0": "0x55697595b000"
+                        }, 
+                        "time": 1642277157.29471
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.294781 inetd@7f4bcad2b4c3[2093] mmap2(0x7f4ac4027000, 4096, PROT_READ|PROT_WRITE|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 3, 24576) = 0x7f4ac4027000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f4ac4027000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcad2b4c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED", 
+                            "p0": "0x7f4ac4027000", 
+                            "p1": "4096", 
+                            "p4": "3", 
+                            "p5": "24576"
+                        }, 
+                        "time": 1642277157.294781
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.294839 inetd@7f4bcad2b4c3[2093] mmap2(0x7f4ac4028000, 4096, PROT_READ|PROT_WRITE|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f4ac4028000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f4ac4028000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcad2b4c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f4ac4028000", 
+                            "p1": "4096", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642277157.294839
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.294906 inetd@7f4bcae13e27[2093] close(3) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcae13e27", 
+                        "arguments": {
+                            "p0": "3"
+                        }, 
+                        "time": 1642277157.294906
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.294992 inetd@7f4bcad2b4c3[2093] mmap2(0x7f4bc37ff000, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f4bc37ff000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f4bc37ff000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcad2b4c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f4bc37ff000", 
+                            "p1": "8392704", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642277157.294992
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.295139 inetd@7f4bcad2b597[2093] mprotect(0x7f4bc37ff000, 4096, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcad2b597", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7f4bc37ff000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642277157.295139
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.295208 inetd@7f4bcae1455e[2093] openat(AT_FDCWD, \"/lib/ld-linux.so.2\", O_RDONLY) = -2 (ENOENT)\n", 
+                        "api": "openat", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcae1455e", 
+                        "arguments": {
+                            "p2": "O_RDONLY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/ld-linux.so.2"
+                        }, 
+                        "time": 1642277157.295208
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.295299 inetd@7f4bcad21057[2093] write(2, \"/lib/ld-linux.so.2: No such file or directory\\n\", 46) = 46\n", 
+                        "api": "write", 
+                        "return_value": "46", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcad21057", 
+                        "arguments": {
+                            "p2": "46", 
+                            "p0": "2", 
+                            "p1": "/lib/ld-linux.so.2: No such file or directory\n"
+                        }, 
+                        "time": 1642277157.295299
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.295378 inetd@7f4bcacf5926[2093] exit_group(-1)\n", 
+                        "api": "exit_group", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcacf5926", 
+                        "arguments": {
+                            "p0": "-1"
+                        }, 
+                        "time": 1642277157.295378
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:05:57 2022.295429 inetd@7f4bcacf5926[2093] futex(0x7f4bcab99410, FUTEX_WAKE, 1) = 0\n", 
+                        "api": "futex", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcacf5926", 
+                        "arguments": {
+                            "p2": "1", 
+                            "p0": "0x7f4bcab99410", 
+                            "p1": "FUTEX_WAKE"
+                        }, 
+                        "time": 1642277157.295429
+                    }
+                ], 
+                "pid": 2093, 
+                "process_name": "inetd", 
+                "command_line": "/tmp/inetd", 
+                "first_seen": 1642277156.049136, 
+                "ppid": -1, 
+                "type": "process"
+            }, 
+            {
+                "calls": [
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2095, 
+                        "raw": "Sat Jan 15 20:05:57 2022.289184 inetd@7f4bcae0a117[2095] set_robust_list(0x7f4bcab979e0, 24) = 0\n", 
+                        "api": "set_robust_list", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcae0a117", 
+                        "arguments": {
+                            "p0": "0x7f4bcab979e0", 
+                            "p1": "24"
+                        }, 
+                        "time": 1642277157.289184
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2095, 
+                        "raw": "Sat Jan 15 20:05:57 2022.289243 inetd@7f4bcad2b4c3[2095] mmap2(0x0, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f4bc2397000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f4bc2397000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcad2b4c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x0", 
+                            "p1": "134217728", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642277157.289243
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2095, 
+                        "raw": "Sat Jan 15 20:05:57 2022.289295 inetd@7f4bcad2b567[2095] munmap(0x7f4bc2397000, 29790208) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcad2b567", 
+                        "arguments": {
+                            "p0": "0x7f4bc2397000", 
+                            "p1": "29790208"
+                        }, 
+                        "time": 1642277157.289295
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2095, 
+                        "raw": "Sat Jan 15 20:05:57 2022.289338 inetd@7f4bcad2b567[2095] munmap(0x7f4bc8000000, 37318656) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcad2b567", 
+                        "arguments": {
+                            "p0": "0x7f4bc8000000", 
+                            "p1": "37318656"
+                        }, 
+                        "time": 1642277157.289338
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2095, 
+                        "raw": "Sat Jan 15 20:05:57 2022.289367 inetd@7f4bcad2b597[2095] mprotect(0x7f4bc4000000, 135168, PROT_READ|PROT_WRITE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcad2b597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p0": "0x7f4bc4000000", 
+                            "p1": "135168"
+                        }, 
+                        "time": 1642277157.289367
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "inetd", 
+                        "pid": 2095, 
+                        "raw": "Sat Jan 15 20:05:57 2022.289410 inetd@7f4bcae14440[2095] nanosleep([0.010000000], 0x7f4bcab96dc0) = -516\n", 
+                        "api": "nanosleep", 
+                        "return_value": "-516", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4bcae14440", 
+                        "arguments": {
+                            "p0": [
+                                "0.010000000"
+                            ], 
+                            "p1": "0x7f4bcab96dc0"
+                        }, 
+                        "time": 1642277157.28941
+                    }
+                ], 
+                "pid": 2095, 
+                "process_name": "inetd", 
+                "command_line": "", 
+                "first_seen": 1642277157.289184, 
+                "ppid": 2093, 
+                "type": "process"
+            }
+        ], 
+        "processtree": [
+            {
+                "track": true, 
+                "pid": 2093, 
+                "process_name": "inetd", 
+                "command_line": "/tmp/inetd", 
+                "first_seen": 1642277156.049136, 
+                "ppid": -1, 
+                "children": [
+                    {
+                        "track": true, 
+                        "pid": 2095, 
+                        "process_name": "inetd", 
+                        "command_line": "", 
+                        "first_seen": 1642277157.289184, 
+                        "ppid": 2093, 
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    }, 
+    "debug": {
+        "action": [], 
+        "dbgview": [], 
+        "errors": [], 
+        "log": [
+            "2022-01-15 20:05:48,009 [root] DEBUG: Starting analyzer from: /tmp/tmpBTRjZo\n", 
+            "2022-01-15 20:05:48,009 [root] DEBUG: Storing results at: /tmp/lhYNpcNcpk\n", 
+            "2022-01-15 20:05:49,623 [modules.auxiliary.filecollector] INFO: FileCollector started v0.08\n", 
+            "2022-01-15 20:05:49,626 [modules.auxiliary.human] INFO: Human started v0.02\n", 
+            "2022-01-15 20:05:50,129 [modules.auxiliary.screenshots] INFO: Screenshots started v0.03\n", 
+            "2022-01-15 20:05:56,042 [lib.core.packages] INFO: Process startup took 5.91 seconds\n", 
+            "2022-01-15 20:05:56,048 [root] INFO: Added new process to list with pid: 2083\n", 
+            "2022-01-15 20:06:05,059 [root] INFO: Process with pid 2083 has terminated\n", 
+            "2022-01-15 20:06:05,060 [root] INFO: Process list is empty, terminating analysis.\n", 
+            "2022-01-15 20:06:08,064 [lib.core.packages] INFO: Package requested stop\n", 
+            "2022-01-15 20:06:08,069 [lib.core.packages] WARNING: Exception uploading log: [Errno 3] No such process\n"
+        ], 
+        "cuckoo": [
+            "2022-01-15 22:48:45,692 [cuckoo.core.scheduler] DEBUG: Task #2650683: no machine available yet\n", 
+            "2022-01-15 22:48:55,716 [cuckoo.core.scheduler] DEBUG: Task #2650683: no machine available yet\n", 
+            "2022-01-15 22:49:05,742 [cuckoo.core.scheduler] DEBUG: Task #2650683: no machine available yet\n", 
+            "2022-01-15 22:49:15,769 [cuckoo.core.scheduler] DEBUG: Task #2650683: no machine available yet\n", 
+            "2022-01-15 22:49:25,791 [cuckoo.core.scheduler] DEBUG: Task #2650683: no machine available yet\n", 
+            "2022-01-15 22:49:35,816 [cuckoo.core.scheduler] DEBUG: Task #2650683: no machine available yet\n", 
+            "2022-01-15 22:49:45,843 [cuckoo.core.scheduler] DEBUG: Task #2650683: no machine available yet\n", 
+            "2022-01-15 22:49:55,864 [cuckoo.core.scheduler] DEBUG: Task #2650683: no machine available yet\n", 
+            "2022-01-15 22:50:05,889 [cuckoo.core.scheduler] DEBUG: Task #2650683: no machine available yet\n", 
+            "2022-01-15 22:50:15,914 [cuckoo.core.scheduler] DEBUG: Task #2650683: no machine available yet\n", 
+            "2022-01-15 22:50:25,952 [cuckoo.core.scheduler] DEBUG: Task #2650683: no machine available yet\n", 
+            "2022-01-15 22:50:35,979 [cuckoo.core.scheduler] DEBUG: Task #2650683: no machine available yet\n", 
+            "2022-01-15 22:50:46,003 [cuckoo.core.scheduler] DEBUG: Task #2650683: no machine available yet\n", 
+            "2022-01-15 22:50:56,024 [cuckoo.core.scheduler] DEBUG: Task #2650683: no machine available yet\n", 
+            "2022-01-15 22:51:06,048 [cuckoo.core.scheduler] DEBUG: Task #2650683: no machine available yet\n", 
+            "2022-01-15 22:51:16,069 [cuckoo.core.scheduler] DEBUG: Task #2650683: no machine available yet\n", 
+            "2022-01-15 22:51:26,104 [cuckoo.core.scheduler] DEBUG: Task #2650683: no machine available yet\n", 
+            "2022-01-15 22:51:36,140 [cuckoo.core.scheduler] DEBUG: Task #2650683: no machine available yet\n", 
+            "2022-01-15 22:51:46,278 [cuckoo.core.scheduler] DEBUG: Task #2650683: no machine available yet\n", 
+            "2022-01-15 22:51:56,305 [cuckoo.core.scheduler] DEBUG: Task #2650683: no machine available yet\n", 
+            "2022-01-15 22:52:06,330 [cuckoo.core.scheduler] DEBUG: Task #2650683: no machine available yet\n", 
+            "2022-01-15 22:52:16,360 [cuckoo.core.scheduler] DEBUG: Task #2650683: no machine available yet\n", 
+            "2022-01-15 22:52:26,381 [cuckoo.core.scheduler] DEBUG: Task #2650683: no machine available yet\n", 
+            "2022-01-15 22:52:36,499 [cuckoo.core.scheduler] DEBUG: Task #2650683: no machine available yet\n", 
+            "2022-01-15 22:52:46,526 [cuckoo.core.scheduler] DEBUG: Task #2650683: no machine available yet\n", 
+            "2022-01-15 22:52:56,550 [cuckoo.core.scheduler] DEBUG: Task #2650683: no machine available yet\n", 
+            "2022-01-15 22:53:06,575 [cuckoo.core.scheduler] DEBUG: Task #2650683: no machine available yet\n", 
+            "2022-01-15 22:53:16,597 [cuckoo.core.scheduler] DEBUG: Task #2650683: no machine available yet\n", 
+            "2022-01-15 22:53:26,633 [cuckoo.core.scheduler] DEBUG: Task #2650683: no machine available yet\n", 
+            "2022-01-15 22:53:36,654 [cuckoo.core.scheduler] DEBUG: Task #2650683: no machine available yet\n", 
+            "2022-01-15 22:53:46,679 [cuckoo.core.scheduler] DEBUG: Task #2650683: no machine available yet\n", 
+            "2022-01-15 22:53:56,705 [cuckoo.core.scheduler] DEBUG: Task #2650683: no machine available yet\n", 
+            "2022-01-15 22:54:06,726 [cuckoo.core.scheduler] DEBUG: Task #2650683: no machine available yet\n", 
+            "2022-01-15 22:54:16,748 [cuckoo.core.scheduler] DEBUG: Task #2650683: no machine available yet\n", 
+            "2022-01-15 22:54:26,771 [cuckoo.core.scheduler] DEBUG: Task #2650683: no machine available yet\n", 
+            "2022-01-15 22:54:36,798 [cuckoo.core.scheduler] DEBUG: Task #2650683: no machine available yet\n", 
+            "2022-01-15 22:54:46,824 [cuckoo.core.scheduler] DEBUG: Task #2650683: no machine available yet\n", 
+            "2022-01-15 22:54:56,849 [cuckoo.core.scheduler] DEBUG: Task #2650683: no machine available yet\n", 
+            "2022-01-15 22:55:06,872 [cuckoo.core.scheduler] DEBUG: Task #2650683: no machine available yet\n", 
+            "2022-01-15 22:55:16,897 [cuckoo.core.scheduler] DEBUG: Task #2650683: no machine available yet\n", 
+            "2022-01-15 22:55:26,939 [cuckoo.core.scheduler] INFO: Task #2650683: acquired machine Ubuntu1904x642 (label=Ubuntu1904x642)\n", 
+            "2022-01-15 22:55:26,940 [cuckoo.core.resultserver] DEBUG: Now tracking machine 192.168.168.102 for task #2650683\n", 
+            "2022-01-15 22:55:27,081 [cuckoo.auxiliary.sniffer] INFO: Started sniffer with PID 1387769 (interface=vboxnet0, host=192.168.168.102)\n", 
+            "2022-01-15 22:55:27,302 [cuckoo.machinery.virtualbox] DEBUG: Starting vm Ubuntu1904x642\n", 
+            "2022-01-15 22:55:27,641 [cuckoo.machinery.virtualbox] DEBUG: Restoring virtual machine Ubuntu1904x642 to Snapshot\n", 
+            "2022-01-15 22:55:38,239 [cuckoo.core.guest] INFO: Starting analysis #2650683 on guest (id=Ubuntu1904x642, ip=192.168.168.102)\n", 
+            "2022-01-15 22:55:39,243 [cuckoo.core.guest] DEBUG: Ubuntu1904x642: not ready yet\n", 
+            "2022-01-15 22:55:44,266 [cuckoo.core.guest] INFO: Guest is running Cuckoo Agent 0.10 (id=Ubuntu1904x642, ip=192.168.168.102)\n", 
+            "2022-01-15 22:55:44,283 [cuckoo.core.guest] DEBUG: Uploading analyzer to guest (id=Ubuntu1904x642, ip=192.168.168.102, monitor=latest, size=72028)\n", 
+            "2022-01-15 22:55:45,516 [cuckoo.core.resultserver] DEBUG: Task #2650683: live log analysis.log initialized.\n", 
+            "2022-01-15 22:55:51,074 [cuckoo.core.resultserver] DEBUG: Task #2650683: File upload for 'shots/0001.jpg'\n", 
+            "2022-01-15 22:55:51,450 [cuckoo.core.resultserver] DEBUG: Task #2650683 uploaded file length: 171560\n", 
+            "2022-01-15 22:55:59,568 [cuckoo.core.guest] DEBUG: Ubuntu1904x642: analysis #2650683 still processing\n", 
+            "2022-01-15 22:56:05,549 [cuckoo.core.resultserver] DEBUG: Task #2650683: File upload for 'logs/all.stap'\n", 
+            "2022-01-15 22:56:05,553 [cuckoo.core.resultserver] DEBUG: Task #2650683 uploaded file length: 18560\n", 
+            "2022-01-15 22:56:14,716 [cuckoo.core.guest] DEBUG: Ubuntu1904x642: analysis #2650683 still processing\n", 
+            "2022-01-15 22:56:29,796 [cuckoo.core.guest] DEBUG: Ubuntu1904x642: analysis #2650683 still processing\n", 
+            "2022-01-15 22:56:44,895 [cuckoo.core.guest] DEBUG: Ubuntu1904x642: analysis #2650683 still processing\n", 
+            "2022-01-15 22:57:00,074 [cuckoo.core.guest] DEBUG: Ubuntu1904x642: analysis #2650683 still processing\n", 
+            "2022-01-15 22:57:15,177 [cuckoo.core.guest] DEBUG: Ubuntu1904x642: analysis #2650683 still processing\n", 
+            "2022-01-15 22:57:30,236 [cuckoo.core.guest] DEBUG: Ubuntu1904x642: analysis #2650683 still processing\n", 
+            "2022-01-15 22:57:45,301 [cuckoo.core.guest] DEBUG: Ubuntu1904x642: analysis #2650683 still processing\n", 
+            "2022-01-15 22:58:00,386 [cuckoo.core.guest] DEBUG: Ubuntu1904x642: analysis #2650683 still processing\n", 
+            "2022-01-15 22:58:15,465 [cuckoo.core.guest] DEBUG: Ubuntu1904x642: analysis #2650683 still processing\n", 
+            "2022-01-15 22:58:30,524 [cuckoo.core.guest] DEBUG: Ubuntu1904x642: analysis #2650683 still processing\n", 
+            "2022-01-15 22:58:45,586 [cuckoo.core.guest] DEBUG: Ubuntu1904x642: analysis #2650683 still processing\n", 
+            "2022-01-15 22:59:00,645 [cuckoo.core.guest] DEBUG: Ubuntu1904x642: analysis #2650683 still processing\n", 
+            "2022-01-15 22:59:15,727 [cuckoo.core.guest] DEBUG: Ubuntu1904x642: analysis #2650683 still processing\n", 
+            "2022-01-15 22:59:30,800 [cuckoo.core.guest] DEBUG: Ubuntu1904x642: analysis #2650683 still processing\n", 
+            "2022-01-15 22:59:45,852 [cuckoo.core.guest] INFO: Ubuntu1904x642: end of analysis reached!\n", 
+            "2022-01-15 22:59:45,861 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Redsocks\n", 
+            "2022-01-15 22:59:45,917 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Sniffer\n", 
+            "2022-01-15 23:51:57,352 [cuckoo.machinery.virtualbox] INFO: Successfully generated memory dump for virtual machine with label Ubuntu1904x642 to path /srv/cuckoo/cwd/storage/analyses/2650683/memory.dmp\n", 
+            "2022-01-15 23:51:57,353 [cuckoo.machinery.virtualbox] DEBUG: Stopping vm Ubuntu1904x642\n", 
+            "2022-01-15 23:52:01,373 [cuckoo.core.resultserver] DEBUG: Stopped tracking machine 192.168.168.102 for task #2650683\n", 
+            "2022-01-15 23:52:01,374 [cuckoo.core.resultserver] DEBUG: Cancel <Context for LOG> for task 2650683\n", 
+            "2022-01-15 23:52:01,552 [cuckoo.core.scheduler] DEBUG: Released database task #2650683\n", 
+            "2022-01-15 23:52:19,057 [cuckoo.core.scheduler] INFO: Task #2650683: analysis procedure completed\n"
+        ]
+    }, 
+    "strings": [
+        "/lib/ld-linux.so.2", 
+        "libwrap.so.0", 
+        "_Jv_RegisterClasses", 
+        "__gmon_start__", 
+        "request_init", 
+        "sock_host", 
+        "hosts_access", 
+        "allow_severity", 
+        "eval_client", 
+        "deny_severity", 
+        "libc.so.6", 
+        "__strtoul_internal", 
+        "_IO_getc", 
+        "calloc", 
+        "__errno_location", 
+        "setrlimit", 
+        "daemon", 
+        "fwrite", 
+        "__ctype_b_loc", 
+        "memcpy", 
+        "getrlimit", 
+        "realloc", 
+        "getprotobyname", 
+        "getsockname", 
+        "gettimeofday", 
+        "openlog", 
+        "getnameinfo", 
+        "setenv", 
+        "__cxa_finalize", 
+        "freeaddrinfo", 
+        "malloc", 
+        "strrchr", 
+        "pmap_unset", 
+        "strncmp", 
+        "strlen", 
+        "sendto", 
+        "_IO_stdin_used", 
+        "__strtol_internal", 
+        "__strdup", 
+        "select", 
+        "initgroups", 
+        "getpid", 
+        "sigprocmask", 
+        "memmove", 
+        "fclose", 
+        "setsockopt", 
+        "getpeername", 
+        "stderr", 
+        "__libc_start_main", 
+        "getrpcbyname", 
+        "getpwnam", 
+        "setsid", 
+        "gai_strerror", 
+        "sigaction", 
+        "strncpy", 
+        "sigaddset", 
+        "optind", 
+        "setuid", 
+        "pmap_set", 
+        "unlink", 
+        "closelog", 
+        "memset", 
+        "getuid", 
+        "fprintf", 
+        "setgroups", 
+        "vsnprintf", 
+        "recvfrom", 
+        "syslog", 
+        "sigemptyset", 
+        "socket", 
+        "__environ", 
+        "__strsep_g", 
+        "strcmp", 
+        "getopt", 
+        "ungetc", 
+        "accept", 
+        "strchr", 
+        "getgid", 
+        "listen", 
+        "getgrnam", 
+        "getservbyname", 
+        "setgid", 
+        "sigsuspend", 
+        "getaddrinfo", 
+        "optarg", 
+        "bindresvport", 
+        "strcpy", 
+        "_edata", 
+        "__bss_start", 
+        "GLIBC_2.3", 
+        "GLIBC_2.1.3", 
+        "GLIBC_2.1.1", 
+        "GLIBC_2.1", 
+        "GLIBC_2.0", 
+        "strdup: %m", 
+        "%s: %s ", 
+        "%s: %s:%s ", 
+        "rpcprog=%d, rpcvers=%d/%d, proto=%s,", 
+        "proto=%s,", 
+        "(default)", 
+        " wait.max=%hd.%d user:group=%s:%s builtin=%lx server=%s", 
+        "getrlimit: %m", 
+        "bump_nofile: cannot extend file limit, max = %d", 
+        "setrlimit: %m", 
+        "/var/run/inetd.pid", 
+        "-%s [%s]", 
+        "-%s [?]", 
+        "Out of memory.", 
+        "%s/%s server failing (looping), service terminated for %d min", 
+        "fork: %m", 
+        "/usr/sbin/tcpd", 
+        "refused connection from %.500s, service %s (%s)", 
+        "getpwnam: %s: No such user", 
+        "%s: setsid: %m", 
+        "getgrnam: %s: No such group", 
+        "%s/%s: can't set gid %d: %m", 
+        "%s/%s: can't initgroups(%s): %m", 
+        "%s/%s: can't set uid %d: %m", 
+        "%ld execv %s", 
+        "execv %s: %m", 
+        "malloc: %m", 
+        "syntax error in inetd config file", 
+        "stream", 
+        "seqpacket", 
+        "%s: too many buffer sizes", 
+        "%s: malformed buffer size option `%s'", 
+        "%s: invalid buffer size `%s'", 
+        "sndbuf", 
+        "rcvbuf", 
+        "%s/%s: %s: the address family is not supported by the kernel", 
+        "%s: no rpc version", 
+        "%s/%s: bad rpc version", 
+        "%s: illegal max field \"%s\", setting to %d", 
+        "internal", 
+        "internal service %s unknown", 
+        "%s/%s: %s: %s", 
+        "pmap_unset(%u, %u)", 
+        "pmap_unset(%u, %u)", 
+        "%s: getproto: %m", 
+        "%s/%s: getsockname: %m", 
+        "pmap_set: %u %u %u %u", 
+        "%s %s: pmap_set: %u %u %u %u: %m", 
+        "accept, ctrl %d", 
+        "accept (for %s): %m", 
+        "could not getpeername", 
+        "%s/%s: socket: %m", 
+        "setsockopt (SO_DEBUG): %m", 
+        "setsockopt (IPV6_V6ONLY): %m", 
+        "setsockopt (SO_REUSEADDR): %m", 
+        "%s/%s: bind: %m", 
+        "%s: %m", 
+        "%s/%s: UNIX domain socket path too long", 
+        "%s: unknown rpc service", 
+        "%s/%s: unknown service", 
+        "reaping asked for", 
+        "%ld reaped, status %x", 
+        "%s: exit status %d", 
+        "%s: exit signal %d", 
+        "restored %s, fd %d", 
+        "-R %s: bad value for service invocation rate", 
+        "usage: %s [-q len] [-R rate] [-di] [conf]", 
+        "dilEq:R:", 
+        "%s: non-root must specify a config file", 
+        "inetd_dummy", 
+        "select: %m", 
+        "someone wants %s", 
+        "discard", 
+        "daytime", 
+        "chargen", 
+        "/etc/inetd.conf", 
+        "DISPLAY=", 
+        "EDITOR=", 
+        "GROUP=", 
+        "LOGNAME=", 
+        "PRINTER=", 
+        "SHELL=", 
+        "SHLVL=", 
+        "VISUAL=", 
+        "@(#) Copyright (c) 1983 Regents of the University of California.", 
+        " All rights reserved.", 
+        "$Id: setproctitle.c,v 1.3 1997/05/19 12:58:15 dholland Exp $", 
+        ".shstrtab", 
+        ".interp", 
+        ".note.ABI-tag", 
+        ".dynsym", 
+        ".dynstr", 
+        ".gnu.version", 
+        ".gnu.version_r", 
+        ".rela.dyn", 
+        ".rela.plt", 
+        ".rodata", 
+        ".eh_frame", 
+        ".ctors", 
+        ".dtors", 
+        ".dynamic"
+    ], 
+    "metadata": {
+        "output": {
+            "pcap": {
+                "basename": "dump.pcap", 
+                "sha256": "704e5e5b3234433c01fcfd1b20a306e77e985038120492dc53965c3edd38a4ea", 
+                "dirname": ""
+            }
+        }
+    }
+}
