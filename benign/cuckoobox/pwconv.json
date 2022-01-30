@@ -1,0 +1,3022 @@
+{
+    "info": {
+        "added": 1642281803.415523, 
+        "started": 1642318403.497736, 
+        "duration": 496, 
+        "ended": 1642318899.98983, 
+        "owner": null, 
+        "score": 0.0, 
+        "id": 2651536, 
+        "category": "file", 
+        "git": {
+            "head": "", 
+            "fetch_head": ""
+        }, 
+        "monitor": null, 
+        "package": "elf", 
+        "route": "internet", 
+        "custom": null, 
+        "machine": {
+            "status": "stopped", 
+            "name": "Ubuntu1904x641", 
+            "label": "Ubuntu1904x641", 
+            "platform": "linux", 
+            "manager": "VirtualBox", 
+            "started_on": "2022-01-16 07:37:02", 
+            "shutdown_on": "2022-01-16 07:41:39"
+        }, 
+        "platform": "linux", 
+        "version": "2.0.7", 
+        "options": "procmemdump=yes,route=internet"
+    }, 
+    "signatures": [], 
+    "target": {
+        "category": "file", 
+        "file": {
+            "mimetype": "application/x-executable", 
+            "yara": [], 
+            "sha1": "48a19b8d0b203d8e0952f80a980e4a3314fa40a9", 
+            "name": "pwconv", 
+            "type": "ELF 32-bit MSB executable, SPARC, version 1 (SYSV), dynamically linked, interpreter /lib/ld-linux.so.2, for GNU/Linux 2.4.1, stripped", 
+            "sha256": "f858dadcc84447879bbff0c634cb4cb012779d7cb5774e522e26e8a790809c7c", 
+            "urls": [], 
+            "crc32": "88AE8BD4", 
+            "path": "/srv/cuckoo/cwd/storage/binaries/f858dadcc84447879bbff0c634cb4cb012779d7cb5774e522e26e8a790809c7c", 
+            "ssdeep": null, 
+            "size": 23008, 
+            "sha512": "d43aed8d4defb9003f8be5aab2b1bd2dacbb485d793dcac8d39e14ff3499d9adf31e5fe5fa1459b788047a1ecefb17382392385bb7947a437eb2ad7002f3f37b", 
+            "md5": "649f68982db0c6862866749204359fd6"
+        }, 
+        "custom": null
+    }, 
+    "irma": {
+        "status": 0, 
+        "probes_finished": 16, 
+        "scan_id": "5c7d2dfe-19d0-4657-87af-f3dc89b07a5c", 
+        "parent_file_sha256": null, 
+        "name": "f858dadcc84447879bbff0c634cb4cb012779d7cb5774e522e26e8a790809c7c", 
+        "probes_total": 16, 
+        "scan_date": 1642311700, 
+        "other_results": [], 
+        "submitter": "cli", 
+        "file_infos": {
+            "mimetype": "ELF 32-bit MSB executable, SPARC, version 1 (SYSV)", 
+            "sha1": "48a19b8d0b203d8e0952f80a980e4a3314fa40a9", 
+            "tags": [], 
+            "timestamp_first_scan": 1642311700.41, 
+            "timestamp_last_scan": 1642311709.51, 
+            "sha256": "f858dadcc84447879bbff0c634cb4cb012779d7cb5774e522e26e8a790809c7c", 
+            "md5": "649f68982db0c6862866749204359fd6", 
+            "size": 23008
+        }, 
+        "probe_results": {
+            "antivirus": {
+                "Avast Core Security (Linux)": {
+                    "status": 0, 
+                    "duration": 0.01, 
+                    "version": "3.0.3", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "F-Secure Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.03, 
+                    "version": "11.10", 
+                    "results": null, 
+                    "virus_database_version": "2022-01-13_04"
+                }, 
+                "Windows Defender (Windows)": {
+                    "status": 0, 
+                    "duration": 0.05, 
+                    "version": "1.1.18800.4", 
+                    "results": null, 
+                    "virus_database_version": "1.355.1049.0"
+                }, 
+                "Comodo Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 2.09, 
+                    "version": "1.1.268025.1", 
+                    "results": null, 
+                    "virus_database_version": "2021-11-02"
+                }, 
+                "Kaspersky Antivirus (Win)": {
+                    "status": 0, 
+                    "duration": 2.65, 
+                    "version": "21.3", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "ESET NOD32 Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 4.46, 
+                    "version": "4.0.96", 
+                    "results": null, 
+                    "virus_database_version": "6178ebd0-1e722 (2021-10-27)"
+                }, 
+                "GData (Windows)": {
+                    "status": 0, 
+                    "duration": 0.19, 
+                    "version": "5.5.20197.1358", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Forticlient (Linux)": {
+                    "status": 0, 
+                    "duration": 3.04, 
+                    "version": "unavailable", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Avira (Windows)": {
+                    "status": 0, 
+                    "duration": 3.81, 
+                    "version": "8.3.64.66", 
+                    "results": null, 
+                    "virus_database_version": "8.19.1.122"
+                }, 
+                "eScan Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 3.89, 
+                    "version": "7.0.21", 
+                    "results": null, 
+                    "virus_database_version": "7.90035 (27/10/2021)"
+                }, 
+                "McAfee CLI scanner (Linux)": {
+                    "status": 0, 
+                    "duration": 6.07, 
+                    "version": "6.0.6.653", 
+                    "results": null, 
+                    "virus_database_version": "10149"
+                }, 
+                "Sophos Anti-Virus (Linux)": {
+                    "status": 0, 
+                    "duration": 6.51, 
+                    "version": "5.85.0", 
+                    "results": null, 
+                    "virus_database_version": "5.88 (26 October 2021)"
+                }, 
+                "DrWeb Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.19, 
+                    "version": "11.1.10.2108031732", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "ClamAV (Linux)": {
+                    "status": 0, 
+                    "duration": 0.03, 
+                    "version": "0.103.2", 
+                    "results": null, 
+                    "virus_database_version": "26334"
+                }, 
+                "Bitdefender Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 6.18, 
+                    "version": "7.90123", 
+                    "results": null, 
+                    "virus_database_version": null
+                }, 
+                "Emsisoft Commandline Scanner (Windows)": {
+                    "status": 0, 
+                    "duration": 0.22, 
+                    "version": "2021.10.0.11201", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }
+            }
+        }, 
+        "path": "", 
+        "result_id": "61e1af4d-3d50-4c6a-bbbd-13ff7a744d21", 
+        "file_sha256": "f858dadcc84447879bbff0c634cb4cb012779d7cb5774e522e26e8a790809c7c"
+    }, 
+    "suricata": {
+        "tls": [
+            {
+                "src_ip": "192.168.168.101", 
+                "version": "TLS 1.2", 
+                "src_port": 37978, 
+                "dst_port": 443, 
+                "timestamp": "2022-01-16T07:37:35.000208+0200", 
+                "dst_ip": "91.189.92.20", 
+                "fingerprint": "97:63:1b:60:eb:d1:fa:4f:a4:fc:fa:98:66:3d:ee:22:fb:78:ce:c1", 
+                "subject": "C=GB, L=London, O=Canonical Group Ltd, CN=api.snapcraft.io", 
+                "issuer": "C=US, O=DigiCert Inc, CN=DigiCert TLS RSA SHA256 2020 CA1"
+            }
+        ], 
+        "files": [], 
+        "alerts": [], 
+        "http": []
+    }, 
+    "virustotal": {
+        "summary": {
+            "error": "resource has not been scanned yet"
+        }
+    }, 
+    "network": {
+        "udp": [], 
+        "dns_servers": [], 
+        "http": [], 
+        "smtp": [], 
+        "tcp": [], 
+        "geoinfo": {}, 
+        "mitm": [], 
+        "https_ex": [], 
+        "http_ex": [], 
+        "sorted_pcap_sha256": "a3de195420237d21e14ea13a53c18ef790a6b8b1ffcfefaba3a14fa3cbcb022f", 
+        "icmp": [], 
+        "tls": [], 
+        "dead_hosts": [], 
+        "smtp_ex": [], 
+        "hosts": [], 
+        "pcap_sha256": "abb1b1bdcfb07009a7dae1bd55616b4d844b3fd1960731b66da02b2bc6a8f26c", 
+        "dns": [], 
+        "domains": [], 
+        "irc": []
+    }, 
+    "resubmit": {
+        "resubmit_ids": []
+    }, 
+    "snort": {
+        "alerts": []
+    }, 
+    "behavior": {
+        "generic": [
+            {
+                "process_path": null, 
+                "process_name": "pwconv", 
+                "pid": 2070, 
+                "summary": {}, 
+                "first_seen": 1642281810.54711, 
+                "ppid": -1
+            }, 
+            {
+                "process_path": null, 
+                "process_name": "pwconv", 
+                "pid": 2071, 
+                "summary": {}, 
+                "first_seen": 1642281810.565504, 
+                "ppid": 2070
+            }
+        ], 
+        "processes": [
+            {
+                "calls": [
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.547110 pwconv@7f1411a15c27[2070] execve(\"/tmp/pwconv\", [\"/tmp/pwconv\"], [\"SUDO_GID=0\", \"MAIL=/var/mail/root\", \"USER=root\", \"HOME=/root\", \"SUDO_UID=0\", \"LOGNAME=root\", \"SYSTEMTAP_MODULE=stap_\", \"TERM=unknown\", \"SYSTEMTAP_VERBOSE=2\", \"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin\", \"DISPLAY=:0\", \"LANG=en_US.UTF-8\", \"XAUTHORITY=/root/.Xauthority\", \"SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/pwconv\", \"SHELL=/bin/bash\", \"SUDO_USER=root\", \"PWD=/tmp/tmpqCmzfy\"])\n", 
+                        "api": "execve", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411a15c27", 
+                        "arguments": {
+                            "p2": [
+                                "SUDO_GID=0", 
+                                "MAIL=/var/mail/root", 
+                                "USER=root", 
+                                "HOME=/root", 
+                                "SUDO_UID=0", 
+                                "LOGNAME=root", 
+                                "SYSTEMTAP_MODULE=stap_", 
+                                "TERM=unknown", 
+                                "SYSTEMTAP_VERBOSE=2", 
+                                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin", 
+                                "DISPLAY=:0", 
+                                "LANG=en_US.UTF-8", 
+                                "XAUTHORITY=/root/.Xauthority", 
+                                "SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/pwconv", 
+                                "SHELL=/bin/bash", 
+                                "SUDO_USER=root", 
+                                "PWD=/tmp/tmpqCmzfy"
+                            ], 
+                            "p0": "/tmp/pwconv", 
+                            "p1": [
+                                "/tmp/pwconv"
+                            ]
+                        }, 
+                        "time": 1642281810.54711
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.550114 pwconv@7f1411a15c27[2070] brk(0x0) = 94694671405056\n", 
+                        "api": "brk", 
+                        "return_value": "94694671405056", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411a15c27", 
+                        "arguments": {
+                            "p0": "0x0"
+                        }, 
+                        "time": 1642281810.550114
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.550208 pwconv@7f1411a169d7[2070] access(\"/etc/ld.so.preload\", R_OK) = -2 (ENOENT)\n", 
+                        "api": "access", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411a169d7", 
+                        "arguments": {
+                            "p0": "/etc/ld.so.preload", 
+                            "p1": "R_OK"
+                        }, 
+                        "time": 1642281810.550208
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.551228 pwconv@7f1411a16b0d[2070] openat(AT_FDCWD, \"/etc/ld.so.cache\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411a16b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/etc/ld.so.cache"
+                        }, 
+                        "time": 1642281810.551228
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.551305 pwconv@7f1411a16943[2070] fstat(4, 0x7ffc33df7330) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411a16943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc33df7330"
+                        }, 
+                        "time": 1642281810.551305
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.551361 pwconv@7f1411a16d03[2070] mmap2(0x0, 88858, PROT_READ, MAP_PRIVATE, 4, 0) = 0x7f14119e4000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f14119e4000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411a16d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE", 
+                            "p0": "0x0", 
+                            "p1": "88858", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281810.551361
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.551706 pwconv@7f1411a169f7[2070] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411a169f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642281810.551706
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.551803 pwconv@7f1411a16b0d[2070] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411a16b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0"
+                        }, 
+                        "time": 1642281810.551803
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.551883 pwconv@7f1411a16bd4[2070] read(4, 0x7ffc33df74e8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411a16bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc33df74e8"
+                        }, 
+                        "time": 1642281810.551883
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.551940 pwconv@7f1411a16943[2070] fstat(4, 0x7ffc33df7380) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411a16943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc33df7380"
+                        }, 
+                        "time": 1642281810.55194
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.551992 pwconv@7f1411a16d03[2070] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f14119e2000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f14119e2000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411a16d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281810.551992
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.552048 pwconv@7f1411a16d03[2070] mmap2(0x0, 20600, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f14119dc000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f14119dc000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411a16d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "20600", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281810.552048
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.552094 pwconv@7f1411a16d03[2070] mmap2(0x7f14119dd000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 4096) = 0x7f14119dd000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f14119dd000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411a16d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f14119dd000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "4096"
+                        }, 
+                        "time": 1642281810.552094
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.552177 pwconv@7f1411a16d03[2070] mmap2(0x7f14119df000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f14119df000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f14119df000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411a16d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f14119df000", 
+                            "p1": "4096", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642281810.552177
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.552231 pwconv@7f1411a16d03[2070] mmap2(0x7f14119e0000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f14119e0000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f14119e0000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411a16d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f14119e0000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642281810.552231
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.552295 pwconv@7f1411a169f7[2070] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411a169f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642281810.552295
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.552363 pwconv@7f1411a16b0d[2070] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411a16b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0"
+                        }, 
+                        "time": 1642281810.552363
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.552415 pwconv@7f1411a16bd4[2070] read(4, 0x7ffc33df74c8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411a16bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc33df74c8"
+                        }, 
+                        "time": 1642281810.552415
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.552461 pwconv@7f1411a16943[2070] fstat(4, 0x7ffc33df7360) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411a16943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc33df7360"
+                        }, 
+                        "time": 1642281810.552461
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.552507 pwconv@7f1411a16d03[2070] mmap2(0x0, 1180072, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f14118bb000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f14118bb000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411a16d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1180072", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281810.552507
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.552558 pwconv@7f1411a16db7[2070] mprotect(0x7f14118d6000, 1060864, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411a16db7", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7f14118d6000", 
+                            "p1": "1060864"
+                        }, 
+                        "time": 1642281810.552558
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.552614 pwconv@7f1411a16d03[2070] mmap2(0x7f14118d6000, 524288, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 110592) = 0x7f14118d6000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f14118d6000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411a16d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f14118d6000", 
+                            "p1": "524288", 
+                            "p4": "4", 
+                            "p5": "110592"
+                        }, 
+                        "time": 1642281810.552614
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.552667 pwconv@7f1411a16d03[2070] mmap2(0x7f1411956000, 532480, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 634880) = 0x7f1411956000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1411956000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411a16d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f1411956000", 
+                            "p1": "532480", 
+                            "p4": "4", 
+                            "p5": "634880"
+                        }, 
+                        "time": 1642281810.552667
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.552717 pwconv@7f1411a16d03[2070] mmap2(0x7f14119d9000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1167360) = 0x7f14119d9000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f14119d9000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411a16d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f14119d9000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "1167360"
+                        }, 
+                        "time": 1642281810.552717
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.552774 pwconv@7f1411a16d03[2070] mmap2(0x7f14119db000, 424, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f14119db000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f14119db000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411a16d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f14119db000", 
+                            "p1": "424", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281810.552774
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.552829 pwconv@7f1411a169f7[2070] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411a169f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642281810.552829
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.552894 pwconv@7f1411a16b0d[2070] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/librt.so.1\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411a16b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/librt.so.1"
+                        }, 
+                        "time": 1642281810.552894
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.552945 pwconv@7f1411a16bd4[2070] read(4, 0x7ffc33df74a8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411a16bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc33df74a8"
+                        }, 
+                        "time": 1642281810.552945
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.552990 pwconv@7f1411a16943[2070] fstat(4, 0x7ffc33df7340) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411a16943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc33df7340"
+                        }, 
+                        "time": 1642281810.55299
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.553035 pwconv@7f1411a16d03[2070] mmap2(0x0, 44000, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f14118b0000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f14118b0000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411a16d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "44000", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281810.553035
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.553087 pwconv@7f1411a16d03[2070] mmap2(0x7f14118b3000, 16384, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f14118b3000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f14118b3000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411a16d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f14118b3000", 
+                            "p1": "16384", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642281810.553087
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.553143 pwconv@7f1411a16d03[2070] mmap2(0x7f14118b7000, 8192, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 28672) = 0x7f14118b7000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f14118b7000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411a16d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f14118b7000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "28672"
+                        }, 
+                        "time": 1642281810.553143
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.553197 pwconv@7f1411a16d03[2070] mmap2(0x7f14118b9000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 32768) = 0x7f14118b9000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f14118b9000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411a16d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f14118b9000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "32768"
+                        }, 
+                        "time": 1642281810.553197
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.553260 pwconv@7f1411a169f7[2070] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411a169f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642281810.55326
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.553315 pwconv@7f1411a16b0d[2070] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libm.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411a16b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libm.so.6"
+                        }, 
+                        "time": 1642281810.553315
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.553374 pwconv@7f1411a16bd4[2070] read(4, 0x7ffc33df7488, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411a16bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc33df7488"
+                        }, 
+                        "time": 1642281810.553374
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.553423 pwconv@7f1411a16943[2070] fstat(4, 0x7ffc33df7320) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411a16943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc33df7320"
+                        }, 
+                        "time": 1642281810.553423
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.553472 pwconv@7f1411a16d03[2070] mmap2(0x0, 1364240, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f1411762000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1411762000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411a16d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1364240", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281810.553472
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.553522 pwconv@7f1411a16d03[2070] mmap2(0x7f1411771000, 679936, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 61440) = 0x7f1411771000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1411771000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411a16d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f1411771000", 
+                            "p1": "679936", 
+                            "p4": "4", 
+                            "p5": "61440"
+                        }, 
+                        "time": 1642281810.553522
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.553585 pwconv@7f1411a16d03[2070] mmap2(0x7f1411817000, 618496, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 741376) = 0x7f1411817000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1411817000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411a16d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f1411817000", 
+                            "p1": "618496", 
+                            "p4": "4", 
+                            "p5": "741376"
+                        }, 
+                        "time": 1642281810.553585
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.553638 pwconv@7f1411a16d03[2070] mmap2(0x7f14118ae000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1355776) = 0x7f14118ae000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f14118ae000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411a16d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f14118ae000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "1355776"
+                        }, 
+                        "time": 1642281810.553638
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.553700 pwconv@7f1411a169f7[2070] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411a169f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642281810.5537
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.553748 pwconv@7f1411a16b0d[2070] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libgcc_s.so.1\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411a16b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libgcc_s.so.1"
+                        }, 
+                        "time": 1642281810.553748
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.553782 pwconv@7f1411a16bd4[2070] read(4, 0x7ffc33df7468, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411a16bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc33df7468"
+                        }, 
+                        "time": 1642281810.553782
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.553813 pwconv@7f1411a16943[2070] fstat(4, 0x7ffc33df7300) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411a16943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc33df7300"
+                        }, 
+                        "time": 1642281810.553813
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.553844 pwconv@7f1411a16d03[2070] mmap2(0x0, 103504, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f1411748000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1411748000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411a16d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "103504", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281810.553844
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.553878 pwconv@7f1411a16d03[2070] mmap2(0x7f141174b000, 69632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f141174b000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f141174b000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411a16d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f141174b000", 
+                            "p1": "69632", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642281810.553878
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.553916 pwconv@7f1411a16d03[2070] mmap2(0x7f141175c000, 16384, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 81920) = 0x7f141175c000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f141175c000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411a16d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f141175c000", 
+                            "p1": "16384", 
+                            "p4": "4", 
+                            "p5": "81920"
+                        }, 
+                        "time": 1642281810.553916
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.553951 pwconv@7f1411a16d03[2070] mmap2(0x7f1411760000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 94208) = 0x7f1411760000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1411760000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411a16d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f1411760000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "94208"
+                        }, 
+                        "time": 1642281810.553951
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.553996 pwconv@7f1411a169f7[2070] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411a169f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642281810.553996
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.554051 pwconv@7f1411a16b0d[2070] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libpthread.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411a16b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libpthread.so.0"
+                        }, 
+                        "time": 1642281810.554051
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.554101 pwconv@7f1411a16bd4[2070] read(4, 0x7ffc33df7448, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411a16bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc33df7448"
+                        }, 
+                        "time": 1642281810.554101
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.554143 pwconv@7f1411a16943[2070] fstat(4, 0x7ffc33df72e0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411a16943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc33df72e0"
+                        }, 
+                        "time": 1642281810.554143
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.554185 pwconv@7f1411a16d03[2070] mmap2(0x0, 132288, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f1411727000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1411727000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411a16d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "132288", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281810.554185
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.554238 pwconv@7f1411a16d03[2070] mmap2(0x7f141172e000, 61440, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 28672) = 0x7f141172e000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f141172e000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411a16d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f141172e000", 
+                            "p1": "61440", 
+                            "p4": "4", 
+                            "p5": "28672"
+                        }, 
+                        "time": 1642281810.554238
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.554294 pwconv@7f1411a16d03[2070] mmap2(0x7f141173d000, 20480, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 90112) = 0x7f141173d000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f141173d000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411a16d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f141173d000", 
+                            "p1": "20480", 
+                            "p4": "4", 
+                            "p5": "90112"
+                        }, 
+                        "time": 1642281810.554294
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.554347 pwconv@7f1411a16d03[2070] mmap2(0x7f1411742000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 106496) = 0x7f1411742000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1411742000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411a16d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f1411742000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "106496"
+                        }, 
+                        "time": 1642281810.554347
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.554407 pwconv@7f1411a16d03[2070] mmap2(0x7f1411744000, 13504, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f1411744000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1411744000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411a16d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f1411744000", 
+                            "p1": "13504", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281810.554407
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.554462 pwconv@7f1411a169f7[2070] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411a169f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642281810.554462
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.554518 pwconv@7f1411a16b0d[2070] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libc.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411a16b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libc.so.6"
+                        }, 
+                        "time": 1642281810.554518
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.554569 pwconv@7f1411a16bd4[2070] read(4, 0x7ffc33df7428, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411a16bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc33df7428"
+                        }, 
+                        "time": 1642281810.554569
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.554614 pwconv@7f1411a16943[2070] fstat(4, 0x7ffc33df72c0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411a16943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc33df72c0"
+                        }, 
+                        "time": 1642281810.554614
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.554757 pwconv@7f1411a16d03[2070] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f1411725000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1411725000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411a16d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281810.554757
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.554826 pwconv@7f1411a16d03[2070] mmap2(0x0, 2008696, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f141153a000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f141153a000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411a16d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "2008696", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281810.554826
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.554874 pwconv@7f1411a16d03[2070] mmap2(0x7f141155f000, 1519616, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 151552) = 0x7f141155f000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f141155f000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411a16d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f141155f000", 
+                            "p1": "1519616", 
+                            "p4": "4", 
+                            "p5": "151552"
+                        }, 
+                        "time": 1642281810.554874
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.554931 pwconv@7f1411a16d03[2070] mmap2(0x7f14116d2000, 299008, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1671168) = 0x7f14116d2000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f14116d2000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411a16d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f14116d2000", 
+                            "p1": "299008", 
+                            "p4": "4", 
+                            "p5": "1671168"
+                        }, 
+                        "time": 1642281810.554931
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.554982 pwconv@7f1411a16d03[2070] mmap2(0x7f141171b000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1966080) = 0x7f141171b000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f141171b000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411a16d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f141171b000", 
+                            "p1": "24576", 
+                            "p4": "4", 
+                            "p5": "1966080"
+                        }, 
+                        "time": 1642281810.554982
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.555040 pwconv@7f1411a16d03[2070] mmap2(0x7f1411721000, 13944, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f1411721000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1411721000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411a16d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f1411721000", 
+                            "p1": "13944", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281810.55504
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.555108 pwconv@7f1411a169f7[2070] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411a169f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642281810.555108
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.555174 pwconv@7f1411a16b0d[2070] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libdl.so.2\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411a16b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libdl.so.2"
+                        }, 
+                        "time": 1642281810.555174
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.555225 pwconv@7f1411a16bd4[2070] read(4, 0x7ffc33df7408, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411a16bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc33df7408"
+                        }, 
+                        "time": 1642281810.555225
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.555270 pwconv@7f1411a16943[2070] fstat(4, 0x7ffc33df72a0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411a16943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc33df72a0"
+                        }, 
+                        "time": 1642281810.55527
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.555316 pwconv@7f1411a16d03[2070] mmap2(0x0, 20752, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f1411534000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1411534000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411a16d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "20752", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281810.555316
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.555373 pwconv@7f1411a16d03[2070] mmap2(0x7f1411535000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 4096) = 0x7f1411535000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1411535000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411a16d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f1411535000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "4096"
+                        }, 
+                        "time": 1642281810.555373
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.555431 pwconv@7f1411a16d03[2070] mmap2(0x7f1411537000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f1411537000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1411537000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411a16d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f1411537000", 
+                            "p1": "4096", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642281810.555431
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.555491 pwconv@7f1411a16d03[2070] mmap2(0x7f1411538000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f1411538000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1411538000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411a16d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f1411538000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642281810.555491
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.555595 pwconv@7f1411a169f7[2070] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411a169f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642281810.555595
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.555664 pwconv@7f1411a16b0d[2070] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libpcre.so.3\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411a16b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libpcre.so.3"
+                        }, 
+                        "time": 1642281810.555664
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.555716 pwconv@7f1411a16bd4[2070] read(4, 0x7ffc33df73e8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411a16bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc33df73e8"
+                        }, 
+                        "time": 1642281810.555716
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.555761 pwconv@7f1411a16943[2070] fstat(4, 0x7ffc33df7280) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411a16943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc33df7280"
+                        }, 
+                        "time": 1642281810.555761
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.555806 pwconv@7f1411a16d03[2070] mmap2(0x0, 471304, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f14114c0000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f14114c0000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411a16d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "471304", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281810.555806
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.555858 pwconv@7f1411a16d03[2070] mmap2(0x7f14114c2000, 335872, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 8192) = 0x7f14114c2000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f14114c2000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411a16d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f14114c2000", 
+                            "p1": "335872", 
+                            "p4": "4", 
+                            "p5": "8192"
+                        }, 
+                        "time": 1642281810.555858
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.555915 pwconv@7f1411a16d03[2070] mmap2(0x7f1411514000, 122880, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 344064) = 0x7f1411514000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1411514000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411a16d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f1411514000", 
+                            "p1": "122880", 
+                            "p4": "4", 
+                            "p5": "344064"
+                        }, 
+                        "time": 1642281810.555915
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.555969 pwconv@7f1411a16d03[2070] mmap2(0x7f1411532000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 462848) = 0x7f1411532000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1411532000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411a16d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f1411532000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "462848"
+                        }, 
+                        "time": 1642281810.555969
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.556032 pwconv@7f1411a169f7[2070] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411a169f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642281810.556032
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.556944 pwconv@7f1411a16d03[2070] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f14114be000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f14114be000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411a16d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281810.556944
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.557013 pwconv@7f14119fbf30[2070] arch_prctl(ARCH_SET_FS, 139724166263104) = 0\n", 
+                        "api": "arch_prctl", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f14119fbf30", 
+                        "arguments": {
+                            "p0": "ARCH_SET_FS", 
+                            "p1": "139724166263104"
+                        }, 
+                        "time": 1642281810.557013
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.557730 pwconv@7f1411a16db7[2070] mprotect(0x7f141171b000, 12288, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411a16db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f141171b000", 
+                            "p1": "12288"
+                        }, 
+                        "time": 1642281810.55773
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.557803 pwconv@7f1411a16db7[2070] mprotect(0x7f1411742000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411a16db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f1411742000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642281810.557803
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.557876 pwconv@7f1411a16db7[2070] mprotect(0x7f1411532000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411a16db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f1411532000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642281810.557876
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.557934 pwconv@7f1411a16db7[2070] mprotect(0x7f1411538000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411a16db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f1411538000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642281810.557934
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.557985 pwconv@7f1411a16db7[2070] mprotect(0x7f1411760000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411a16db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f1411760000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642281810.557985
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.558058 pwconv@7f1411a16db7[2070] mprotect(0x7f14118ae000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411a16db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f14118ae000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642281810.558058
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.558112 pwconv@7f1411a16db7[2070] mprotect(0x7f14118b9000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411a16db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f14118b9000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642281810.558112
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.558397 pwconv@7f1411a16db7[2070] mprotect(0x7f14119d9000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411a16db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f14119d9000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642281810.558397
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.558473 pwconv@7f1411a16db7[2070] mprotect(0x7f14119e0000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411a16db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f14119e0000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642281810.558473
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.562157 pwconv@7f1411a16db7[2070] mprotect(0x561fce9a3000, 303104, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411a16db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x561fce9a3000", 
+                            "p1": "303104"
+                        }, 
+                        "time": 1642281810.562157
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.562226 pwconv@7f1411a16db7[2070] mprotect(0x7f1411a24000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411a16db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f1411a24000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642281810.562226
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.562280 pwconv@7f1411a16d97[2070] munmap(0x7f14119e4000, 88858) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411a16d97", 
+                        "arguments": {
+                            "p0": "0x7f14119e4000", 
+                            "p1": "88858"
+                        }, 
+                        "time": 1642281810.56228
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.562413 pwconv@7f141172e8df[2070] set_tid_address(0x7f14114bf410) = 2070\n", 
+                        "api": "set_tid_address", 
+                        "return_value": "2070", 
+                        "category": "process", 
+                        "instruction_pointer": "7f141172e8df", 
+                        "arguments": {
+                            "p0": "0x7f14114bf410"
+                        }, 
+                        "time": 1642281810.562413
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.562462 pwconv@7f141172e94a[2070] set_robust_list(0x7f14114bf420, 24) = 0\n", 
+                        "api": "set_robust_list", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f141172e94a", 
+                        "arguments": {
+                            "p0": "0x7f14114bf420", 
+                            "p1": "24"
+                        }, 
+                        "time": 1642281810.562462
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.562587 pwconv@7f141173b010[2070] rt_sigaction(0x20, {0x7f141172e6c0, SA_SIGINFO|SA_RESTORER, 0x7f141173af40, [EMPTY]}, 0x0, 8) = 0\n", 
+                        "api": "rt_sigaction", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f141173b010", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "0x20", 
+                            "p1": [
+                                "0x7f141172e6c0", 
+                                "SA_SIGINFO|SA_RESTORER", 
+                                "0x7f141173af40", 
+                                [
+                                    "EMPTY]"
+                                ]
+                            ]
+                        }, 
+                        "time": 1642281810.562587
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.562637 pwconv@7f141173b010[2070] rt_sigaction(0x21, {0x7f141172e760, SA_RESTART|SA_SIGINFO|SA_RESTORER, 0x7f141173af40, [EMPTY]}, 0x0, 8) = 0\n", 
+                        "api": "rt_sigaction", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f141173b010", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "0x21", 
+                            "p1": [
+                                "0x7f141172e760", 
+                                "SA_RESTART|SA_SIGINFO|SA_RESTORER", 
+                                "0x7f141173af40", 
+                                [
+                                    "EMPTY]"
+                                ]
+                            ]
+                        }, 
+                        "time": 1642281810.562637
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.562781 pwconv@7f141172ea19[2070] rt_sigprocmask(SIG_UNBLOCK, [EMPTY], 0x0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f141172ea19", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "SIG_UNBLOCK", 
+                            "p1": [
+                                "EMPTY"
+                            ]
+                        }, 
+                        "time": 1642281810.562781
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.562845 pwconv@7f141164cdf0[2070] prlimit64(0, RLIMIT_STACK, NULL, 0x7ffc33df80c0) = 0\n", 
+                        "api": "prlimit64", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f141164cdf0", 
+                        "arguments": {
+                            "p2": "NULL", 
+                            "p3": "0x7ffc33df80c0", 
+                            "p0": "0", 
+                            "p1": "RLIMIT_STACK"
+                        }, 
+                        "time": 1642281810.562845
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.563077 pwconv@7f141164d2f7[2070] brk(0x0) = 94694671405056\n", 
+                        "api": "brk", 
+                        "return_value": "94694671405056", 
+                        "category": "process", 
+                        "instruction_pointer": "7f141164d2f7", 
+                        "arguments": {
+                            "p0": "0x0"
+                        }, 
+                        "time": 1642281810.563077
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.563121 pwconv@7f141164d2f7[2070] brk(0x561fd2426000) = 94694671540224\n", 
+                        "api": "brk", 
+                        "return_value": "94694671540224", 
+                        "category": "process", 
+                        "instruction_pointer": "7f141164d2f7", 
+                        "arguments": {
+                            "p0": "0x561fd2426000"
+                        }, 
+                        "time": 1642281810.563121
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.564264 pwconv@7f1411737b86[2070] rt_sigprocmask(SIG_SETMASK, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS], 0x7ffc33df8010, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411737b86", 
+                        "arguments": {
+                            "p2": "0x7ffc33df8010", 
+                            "p3": "8", 
+                            "p0": "SIG_SETMASK", 
+                            "p1": [
+                                "SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS"
+                            ]
+                        }, 
+                        "time": 1642281810.564264
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.565152 pwconv@7f14116514c3[2070] mmap2(0x0, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f1410cbd000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1410cbd000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f14116514c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK", 
+                            "p0": "0x0", 
+                            "p1": "8392704", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281810.565152
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.565206 pwconv@7f1411651597[2070] mprotect(0x7f1410cbe000, 8388608, PROT_READ|PROT_WRITE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411651597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p0": "0x7f1410cbe000", 
+                            "p1": "8388608"
+                        }, 
+                        "time": 1642281810.565206
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.565276 pwconv@7f1411657b11[2070] clone(CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, 0x7f14114bcf70, 0x7f14114bd9d0, 0x7f14114bd9d0) = 2071\n", 
+                        "api": "clone", 
+                        "return_value": "2071", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411657b11", 
+                        "arguments": {
+                            "p2": "0x7f14114bd9d0", 
+                            "p3": "0x7f14114bd9d0", 
+                            "p0": "CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID", 
+                            "p1": "0x7f14114bcf70"
+                        }, 
+                        "time": 1642281810.565276
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.565412 pwconv@7f1411737b86[2070] rt_sigprocmask(SIG_SETMASK, [EMPTY], 0x0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411737b86", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "SIG_SETMASK", 
+                            "p1": [
+                                "EMPTY"
+                            ]
+                        }, 
+                        "time": 1642281810.565412
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.567958 pwconv@7f141164cdf0[2070] prlimit64(0, RLIMIT_STACK, NULL, 0x7ffc33df7bd0) = 0\n", 
+                        "api": "prlimit64", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f141164cdf0", 
+                        "arguments": {
+                            "p2": "NULL", 
+                            "p3": "0x7ffc33df7bd0", 
+                            "p0": "0", 
+                            "p1": "RLIMIT_STACK"
+                        }, 
+                        "time": 1642281810.567958
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.568023 pwconv@7f141164c5c1[2070] openat(AT_FDCWD, \"/etc/qemu-binfmt/sparc\", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -2 (ENOENT)\n", 
+                        "api": "openat", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f141164c5c1", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/etc/qemu-binfmt/sparc"
+                        }, 
+                        "time": 1642281810.568023
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.568098 pwconv@7f141161b247[2070] uname(0x7ffc33df7840) = 0\n", 
+                        "api": "uname", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f141161b247", 
+                        "arguments": {
+                            "p0": "0x7ffc33df7840"
+                        }, 
+                        "time": 1642281810.568098
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.568150 pwconv@7f141173a337[2070] lseek(3, 0, SEEK_SET) = 0\n", 
+                        "api": "lseek", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f141173a337", 
+                        "arguments": {
+                            "p2": "SEEK_SET", 
+                            "p0": "3", 
+                            "p1": "0"
+                        }, 
+                        "time": 1642281810.56815
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.568198 pwconv@7f1411739d94[2070] read(3, 0x7ffc33df7b30, 52) = 52\n", 
+                        "api": "read", 
+                        "return_value": "52", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411739d94", 
+                        "arguments": {
+                            "p2": "52", 
+                            "p0": "3", 
+                            "p1": "0x7ffc33df7b30"
+                        }, 
+                        "time": 1642281810.568198
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.568245 pwconv@7f141173a337[2070] lseek(3, 0, SEEK_SET) = 0\n", 
+                        "api": "lseek", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f141173a337", 
+                        "arguments": {
+                            "p2": "SEEK_SET", 
+                            "p0": "3", 
+                            "p1": "0"
+                        }, 
+                        "time": 1642281810.568245
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.569531 pwconv@7f14116514c3[2070] mmap2(0x0, 528384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f1410c3c000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1410c3c000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f14116514c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "528384", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281810.569531
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.570102 pwconv@7f1411651597[2070] mprotect(0x561fcea00000, 33550336, PROT_READ|PROT_WRITE|PROT_EXEC) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411651597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE|PROT_EXEC", 
+                            "p0": "0x561fcea00000", 
+                            "p1": "33550336"
+                        }, 
+                        "time": 1642281810.570102
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.570163 pwconv@7f1411651667[2070] madvise(0x561fcea00000, 33550336, MADV_HUGEPAGE) = 0\n", 
+                        "api": "madvise", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411651667", 
+                        "arguments": {
+                            "p2": "MADV_HUGEPAGE", 
+                            "p0": "0x561fcea00000", 
+                            "p1": "33550336"
+                        }, 
+                        "time": 1642281810.570163
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.570355 pwconv@7f14116514c3[2070] mmap2(0x0, 4294963200, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f130c001000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f130c001000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f14116514c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x0", 
+                            "p1": "4294963200", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281810.570355
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.570414 pwconv@7f1411646d59[2070] openat(AT_FDCWD, \"/proc/sys/vm/mmap_min_addr\", O_RDONLY) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411646d59", 
+                        "arguments": {
+                            "p2": "O_RDONLY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/proc/sys/vm/mmap_min_addr"
+                        }, 
+                        "time": 1642281810.570414
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.570477 pwconv@7f1411646613[2070] fstat(4, 0x7ffc33df7240) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411646613", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc33df7240"
+                        }, 
+                        "time": 1642281810.570477
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.570525 pwconv@7f1411646fb4[2070] read(4, 0x561fd24123d0, 1024) = 6\n", 
+                        "api": "read", 
+                        "return_value": "6", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411646fb4", 
+                        "arguments": {
+                            "p2": "1024", 
+                            "p0": "4", 
+                            "p1": "0x561fd24123d0"
+                        }, 
+                        "time": 1642281810.570525
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.570587 pwconv@7f141164c3f7[2070] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f141164c3f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642281810.570587
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.570651 pwconv@7f14116512e9[2070] gettid() = 2070\n", 
+                        "api": "gettid", 
+                        "return_value": "2070", 
+                        "category": "process", 
+                        "instruction_pointer": "7f14116512e9", 
+                        "arguments": {}, 
+                        "time": 1642281810.570651
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.570808 pwconv@7f1411646613[2070] fstat(3, 0x7ffc33df7ab0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411646613", 
+                        "arguments": {
+                            "p0": "3", 
+                            "p1": "0x7ffc33df7ab0"
+                        }, 
+                        "time": 1642281810.570808
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.570862 pwconv@7f141161c717[2070] geteuid() = 0\n", 
+                        "api": "geteuid", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f141161c717", 
+                        "arguments": {}, 
+                        "time": 1642281810.570862
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.570906 pwconv@7f141161c737[2070] getegid() = 0\n", 
+                        "api": "getegid", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f141161c737", 
+                        "arguments": {}, 
+                        "time": 1642281810.570906
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.570949 pwconv@7f1411739d94[2070] read(3, 0x7ffc33df7cb0, 1024) = 1024\n", 
+                        "api": "read", 
+                        "return_value": "1024", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411739d94", 
+                        "arguments": {
+                            "p2": "1024", 
+                            "p0": "3", 
+                            "p1": "0x7ffc33df7cb0"
+                        }, 
+                        "time": 1642281810.570949
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.571000 pwconv@7f14116514c3[2070] mmap2(0x7f130c011000, 20480, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 3, 0) = 0x7f130c011000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f130c011000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f14116514c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED", 
+                            "p0": "0x7f130c011000", 
+                            "p1": "20480", 
+                            "p4": "3", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281810.571
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.571061 pwconv@7f141164d2f7[2070] brk(0x561fd2447000) = 94694671675392\n", 
+                        "api": "brk", 
+                        "return_value": "94694671675392", 
+                        "category": "process", 
+                        "instruction_pointer": "7f141164d2f7", 
+                        "arguments": {
+                            "p0": "0x561fd2447000"
+                        }, 
+                        "time": 1642281810.571061
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.571129 pwconv@7f14116514c3[2070] mmap2(0x7f130c025000, 8192, PROT_READ|PROT_WRITE|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 3, 16384) = 0x7f130c025000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f130c025000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f14116514c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED", 
+                            "p0": "0x7f130c025000", 
+                            "p1": "8192", 
+                            "p4": "3", 
+                            "p5": "16384"
+                        }, 
+                        "time": 1642281810.571129
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.571189 pwconv@7f1411739e27[2070] close(3) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411739e27", 
+                        "arguments": {
+                            "p0": "3"
+                        }, 
+                        "time": 1642281810.571189
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.571285 pwconv@7f14116514c3[2070] mmap2(0x7f140b7ff000, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f140b7ff000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f140b7ff000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f14116514c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f140b7ff000", 
+                            "p1": "8392704", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281810.571285
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.571490 pwconv@7f1411651597[2070] mprotect(0x7f140b7ff000, 4096, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411651597", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7f140b7ff000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642281810.57149
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.571563 pwconv@7f141173a55e[2070] openat(AT_FDCWD, \"/lib/ld-linux.so.2\", O_RDONLY) = -2 (ENOENT)\n", 
+                        "api": "openat", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f141173a55e", 
+                        "arguments": {
+                            "p2": "O_RDONLY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/ld-linux.so.2"
+                        }, 
+                        "time": 1642281810.571563
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.571650 pwconv@7f1411647057[2070] write(2, \"/lib/ld-linux.so.2: No such file or directory\\n\", 46) = 46\n", 
+                        "api": "write", 
+                        "return_value": "46", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411647057", 
+                        "arguments": {
+                            "p2": "46", 
+                            "p0": "2", 
+                            "p1": "/lib/ld-linux.so.2: No such file or directory\n"
+                        }, 
+                        "time": 1642281810.57165
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.571731 pwconv@7f141161b926[2070] exit_group(-1)\n", 
+                        "api": "exit_group", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7f141161b926", 
+                        "arguments": {
+                            "p0": "-1"
+                        }, 
+                        "time": 1642281810.571731
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 21:23:30 2022.571778 pwconv@7f141161b926[2070] futex(0x7f14114bf410, FUTEX_WAKE, 1) = 0\n", 
+                        "api": "futex", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f141161b926", 
+                        "arguments": {
+                            "p2": "1", 
+                            "p0": "0x7f14114bf410", 
+                            "p1": "FUTEX_WAKE"
+                        }, 
+                        "time": 1642281810.571778
+                    }
+                ], 
+                "pid": 2070, 
+                "process_name": "pwconv", 
+                "command_line": "/tmp/pwconv", 
+                "first_seen": 1642281810.54711, 
+                "ppid": -1, 
+                "type": "process"
+            }, 
+            {
+                "calls": [
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 21:23:30 2022.565504 pwconv@7f1411730117[2071] set_robust_list(0x7f14114bd9e0, 24) = 0\n", 
+                        "api": "set_robust_list", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411730117", 
+                        "arguments": {
+                            "p0": "0x7f14114bd9e0", 
+                            "p1": "24"
+                        }, 
+                        "time": 1642281810.565504
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 21:23:30 2022.565571 pwconv@7f14116514c3[2071] mmap2(0x0, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f1408cbd000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1408cbd000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f14116514c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x0", 
+                            "p1": "134217728", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281810.565571
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 21:23:30 2022.565627 pwconv@7f1411651567[2071] munmap(0x7f1408cbd000, 53751808) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411651567", 
+                        "arguments": {
+                            "p0": "0x7f1408cbd000", 
+                            "p1": "53751808"
+                        }, 
+                        "time": 1642281810.565627
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 21:23:30 2022.565686 pwconv@7f1411651567[2071] munmap(0x7f1410000000, 13357056) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411651567", 
+                        "arguments": {
+                            "p0": "0x7f1410000000", 
+                            "p1": "13357056"
+                        }, 
+                        "time": 1642281810.565686
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 21:23:30 2022.565735 pwconv@7f1411651597[2071] mprotect(0x7f140c000000, 135168, PROT_READ|PROT_WRITE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1411651597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p0": "0x7f140c000000", 
+                            "p1": "135168"
+                        }, 
+                        "time": 1642281810.565735
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "pwconv", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 21:23:30 2022.565803 pwconv@7f141173a440[2071] nanosleep([0.010000000], 0x7f14114bcdc0) = -516\n", 
+                        "api": "nanosleep", 
+                        "return_value": "-516", 
+                        "category": "process", 
+                        "instruction_pointer": "7f141173a440", 
+                        "arguments": {
+                            "p0": [
+                                "0.010000000"
+                            ], 
+                            "p1": "0x7f14114bcdc0"
+                        }, 
+                        "time": 1642281810.565803
+                    }
+                ], 
+                "pid": 2071, 
+                "process_name": "pwconv", 
+                "command_line": "", 
+                "first_seen": 1642281810.565504, 
+                "ppid": 2070, 
+                "type": "process"
+            }
+        ], 
+        "processtree": [
+            {
+                "track": true, 
+                "pid": 2070, 
+                "process_name": "pwconv", 
+                "command_line": "/tmp/pwconv", 
+                "first_seen": 1642281810.54711, 
+                "ppid": -1, 
+                "children": [
+                    {
+                        "track": true, 
+                        "pid": 2071, 
+                        "process_name": "pwconv", 
+                        "command_line": "", 
+                        "first_seen": 1642281810.565504, 
+                        "ppid": 2070, 
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    }, 
+    "debug": {
+        "action": [], 
+        "dbgview": [], 
+        "errors": [], 
+        "log": [
+            "2022-01-15 21:23:23,003 [root] DEBUG: Starting analyzer from: /tmp/tmpqCmzfy\n", 
+            "2022-01-15 21:23:23,004 [root] DEBUG: Storing results at: /tmp/RiLfdFSuAP\n", 
+            "2022-01-15 21:23:25,269 [modules.auxiliary.filecollector] INFO: FileCollector started v0.08\n", 
+            "2022-01-15 21:23:25,271 [modules.auxiliary.human] INFO: Human started v0.02\n", 
+            "2022-01-15 21:23:25,274 [modules.auxiliary.screenshots] INFO: Screenshots started v0.03\n", 
+            "2022-01-15 21:23:30,546 [lib.core.packages] INFO: Process startup took 5.27 seconds\n", 
+            "2022-01-15 21:23:30,550 [root] INFO: Added new process to list with pid: 2061\n", 
+            "2022-01-15 21:23:36,559 [root] INFO: Process with pid 2061 has terminated\n", 
+            "2022-01-15 21:23:36,559 [root] INFO: Process list is empty, terminating analysis.\n", 
+            "2022-01-15 21:23:39,564 [lib.core.packages] INFO: Package requested stop\n", 
+            "2022-01-15 21:23:39,566 [lib.core.packages] WARNING: Exception uploading log: [Errno 3] No such process\n"
+        ], 
+        "cuckoo": [
+            "2022-01-16 07:33:40,193 [cuckoo.core.scheduler] DEBUG: Task #2651536: no machine available yet\n", 
+            "2022-01-16 07:33:50,215 [cuckoo.core.scheduler] DEBUG: Task #2651536: no machine available yet\n", 
+            "2022-01-16 07:34:00,238 [cuckoo.core.scheduler] DEBUG: Task #2651536: no machine available yet\n", 
+            "2022-01-16 07:34:10,262 [cuckoo.core.scheduler] DEBUG: Task #2651536: no machine available yet\n", 
+            "2022-01-16 07:34:20,287 [cuckoo.core.scheduler] DEBUG: Task #2651536: no machine available yet\n", 
+            "2022-01-16 07:34:30,318 [cuckoo.core.scheduler] DEBUG: Task #2651536: no machine available yet\n", 
+            "2022-01-16 07:34:40,411 [cuckoo.core.scheduler] DEBUG: Task #2651536: no machine available yet\n", 
+            "2022-01-16 07:34:50,448 [cuckoo.core.scheduler] DEBUG: Task #2651536: no machine available yet\n", 
+            "2022-01-16 07:35:00,469 [cuckoo.core.scheduler] DEBUG: Task #2651536: no machine available yet\n", 
+            "2022-01-16 07:35:10,497 [cuckoo.core.scheduler] DEBUG: Task #2651536: no machine available yet\n", 
+            "2022-01-16 07:35:20,520 [cuckoo.core.scheduler] DEBUG: Task #2651536: no machine available yet\n", 
+            "2022-01-16 07:35:30,543 [cuckoo.core.scheduler] DEBUG: Task #2651536: no machine available yet\n", 
+            "2022-01-16 07:35:40,568 [cuckoo.core.scheduler] DEBUG: Task #2651536: no machine available yet\n", 
+            "2022-01-16 07:35:50,591 [cuckoo.core.scheduler] DEBUG: Task #2651536: no machine available yet\n", 
+            "2022-01-16 07:36:00,616 [cuckoo.core.scheduler] DEBUG: Task #2651536: no machine available yet\n", 
+            "2022-01-16 07:36:10,639 [cuckoo.core.scheduler] DEBUG: Task #2651536: no machine available yet\n", 
+            "2022-01-16 07:36:20,667 [cuckoo.core.scheduler] DEBUG: Task #2651536: no machine available yet\n", 
+            "2022-01-16 07:36:30,696 [cuckoo.core.scheduler] DEBUG: Task #2651536: no machine available yet\n", 
+            "2022-01-16 07:36:40,716 [cuckoo.core.scheduler] DEBUG: Task #2651536: no machine available yet\n", 
+            "2022-01-16 07:36:50,738 [cuckoo.core.scheduler] DEBUG: Task #2651536: no machine available yet\n", 
+            "2022-01-16 07:37:00,766 [cuckoo.core.scheduler] INFO: Task #2651536: acquired machine Ubuntu1904x641 (label=Ubuntu1904x641)\n", 
+            "2022-01-16 07:37:00,766 [cuckoo.core.resultserver] DEBUG: Now tracking machine 192.168.168.101 for task #2651536\n", 
+            "2022-01-16 07:37:00,947 [cuckoo.auxiliary.sniffer] INFO: Started sniffer with PID 1941703 (interface=vboxnet0, host=192.168.168.101)\n", 
+            "2022-01-16 07:37:02,186 [cuckoo.machinery.virtualbox] DEBUG: Starting vm Ubuntu1904x641\n", 
+            "2022-01-16 07:37:02,577 [cuckoo.machinery.virtualbox] DEBUG: Restoring virtual machine Ubuntu1904x641 to Snapshot\n", 
+            "2022-01-16 07:37:14,259 [cuckoo.core.guest] INFO: Starting analysis #2651536 on guest (id=Ubuntu1904x641, ip=192.168.168.101)\n", 
+            "2022-01-16 07:37:15,280 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: not ready yet\n", 
+            "2022-01-16 07:37:20,309 [cuckoo.core.guest] INFO: Guest is running Cuckoo Agent 0.10 (id=Ubuntu1904x641, ip=192.168.168.101)\n", 
+            "2022-01-16 07:37:20,325 [cuckoo.core.guest] DEBUG: Uploading analyzer to guest (id=Ubuntu1904x641, ip=192.168.168.101, monitor=latest, size=72028)\n", 
+            "2022-01-16 07:37:21,475 [cuckoo.core.resultserver] DEBUG: Task #2651536: live log analysis.log initialized.\n", 
+            "2022-01-16 07:37:26,832 [cuckoo.core.resultserver] DEBUG: Task #2651536: File upload for 'shots/0001.jpg'\n", 
+            "2022-01-16 07:37:26,868 [cuckoo.core.resultserver] DEBUG: Task #2651536 uploaded file length: 171567\n", 
+            "2022-01-16 07:37:35,559 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2651536 still processing\n", 
+            "2022-01-16 07:37:38,053 [cuckoo.core.resultserver] DEBUG: Task #2651536: File upload for 'logs/all.stap'\n", 
+            "2022-01-16 07:37:38,188 [cuckoo.core.resultserver] DEBUG: Task #2651536 uploaded file length: 18532\n", 
+            "2022-01-16 07:37:50,630 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2651536 still processing\n", 
+            "2022-01-16 07:38:05,696 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2651536 still processing\n", 
+            "2022-01-16 07:38:20,827 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2651536 still processing\n", 
+            "2022-01-16 07:38:35,889 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2651536 still processing\n", 
+            "2022-01-16 07:38:50,952 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2651536 still processing\n", 
+            "2022-01-16 07:39:06,013 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2651536 still processing\n", 
+            "2022-01-16 07:39:21,077 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2651536 still processing\n", 
+            "2022-01-16 07:39:36,138 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2651536 still processing\n", 
+            "2022-01-16 07:39:51,201 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2651536 still processing\n", 
+            "2022-01-16 07:40:06,267 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2651536 still processing\n", 
+            "2022-01-16 07:40:21,345 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2651536 still processing\n", 
+            "2022-01-16 07:40:36,424 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2651536 still processing\n", 
+            "2022-01-16 07:40:51,503 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2651536 still processing\n", 
+            "2022-01-16 07:41:06,572 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2651536 still processing\n", 
+            "2022-01-16 07:41:21,642 [cuckoo.core.guest] INFO: Ubuntu1904x641: end of analysis reached!\n", 
+            "2022-01-16 07:41:21,653 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Redsocks\n", 
+            "2022-01-16 07:41:21,725 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Sniffer\n", 
+            "2022-01-16 07:41:35,055 [cuckoo.machinery.virtualbox] INFO: Successfully generated memory dump for virtual machine with label Ubuntu1904x641 to path /srv/cuckoo/cwd/storage/analyses/2651536/memory.dmp\n", 
+            "2022-01-16 07:41:35,056 [cuckoo.machinery.virtualbox] DEBUG: Stopping vm Ubuntu1904x641\n", 
+            "2022-01-16 07:41:39,143 [cuckoo.core.resultserver] DEBUG: Stopped tracking machine 192.168.168.101 for task #2651536\n", 
+            "2022-01-16 07:41:39,143 [cuckoo.core.resultserver] DEBUG: Cancel <Context for LOG> for task 2651536\n", 
+            "2022-01-16 07:41:39,343 [cuckoo.core.scheduler] DEBUG: Released database task #2651536\n", 
+            "2022-01-16 07:41:39,625 [cuckoo.core.scheduler] INFO: Task #2651536: analysis procedure completed\n"
+        ]
+    }, 
+    "strings": [
+        "/lib/ld-linux.so.2", 
+        "libcrypt.so.1", 
+        "_Jv_RegisterClasses", 
+        "__gmon_start__", 
+        "libselinux.so.1", 
+        "getfscreatecon", 
+        "fgetfilecon", 
+        "is_selinux_enabled", 
+        "freecon", 
+        "setfscreatecon", 
+        "libc.so.6", 
+        "strcpy", 
+        "writev", 
+        "putspent", 
+        "connect", 
+        "snprintf", 
+        "ulckpwdf", 
+        "fchmod", 
+        "__strtol_internal", 
+        "getpid", 
+        "fchown", 
+        "memcpy", 
+        "perror", 
+        "__cxa_finalize", 
+        "malloc", 
+        "socket", 
+        "__strtoul_internal", 
+        "fflush", 
+        "rename", 
+        "strrchr", 
+        "fprintf", 
+        "dcgettext", 
+        "ferror", 
+        "unlink", 
+        "strcasecmp", 
+        "realloc", 
+        "__strdup", 
+        "_IO_getc", 
+        "__xstat64", 
+        "syslog", 
+        "strcmp", 
+        "fclose", 
+        "strcspn", 
+        "setlocale", 
+        "stderr", 
+        "__lxstat64", 
+        "__ctype_b_loc", 
+        "access", 
+        "__errno_location", 
+        "bindtextdomain", 
+        "getgrnam", 
+        "_IO_putc", 
+        "fileno", 
+        "_IO_stdin_used", 
+        "strspn", 
+        "__libc_start_main", 
+        "strlen", 
+        "realpath", 
+        "putpwent", 
+        "sgetspent", 
+        "__fxstat64", 
+        "fopen64", 
+        "_edata", 
+        "__bss_start", 
+        "GLIBC_2.3", 
+        "GLIBC_2.1.3", 
+        "GLIBC_2.1", 
+        "GLIBC_2.2", 
+        "GLIBC_2.0", 
+        "shadow", 
+        "/usr/share/locale", 
+        "%s: can't lock passwd file", 
+        "%s: can't open passwd file", 
+        "%s: can't lock shadow file", 
+        "%s: can't open shadow file", 
+        "%s: can't remove shadow entry for %s", 
+        "PASS_MIN_DAYS", 
+        "PASS_MAX_DAYS", 
+        "PASS_WARN_AGE", 
+        "%s: can't update shadow entry for %s", 
+        "%s: can't update passwd entry for %s", 
+        "%s: can't update shadow file", 
+        "%s: can't update passwd file", 
+        "/etc/passwd-", 
+        "passwd", 
+        "configuration error - unknown item '%s' (notify administrator)", 
+        "unknown configuration item `%s'", 
+        "Could not allocate space for config info.", 
+        "could not allocate space for config info", 
+        "cannot open login definitions %s [%m]", 
+        "cannot read login definitions %s [%m]", 
+        "CHFN_RESTRICT", 
+        "CONSOLE_GROUPS", 
+        "CONSOLE", 
+        "CREATE_HOME", 
+        "DEFAULT_HOME", 
+        "ENV_PATH", 
+        "ENV_SUPATH", 
+        "ERASECHAR", 
+        "FAILLOG_ENAB", 
+        "FAKE_SHELL", 
+        "FTMP_FILE", 
+        "GID_MAX", 
+        "GID_MIN", 
+        "HUSHLOGIN_FILE", 
+        "KILLCHAR", 
+        "LOGIN_RETRIES", 
+        "LOGIN_TIMEOUT", 
+        "LOG_OK_LOGINS", 
+        "LOG_UNKFAIL_ENAB", 
+        "MAIL_DIR", 
+        "MAIL_FILE", 
+        "SULOG_FILE", 
+        "SU_NAME", 
+        "TTYGROUP", 
+        "TTYPERM", 
+        "TTYTYPE_FILE", 
+        "UID_MAX", 
+        "UID_MIN", 
+        "USERDEL_CMD", 
+        "USERGROUPS_ENAB", 
+        "MD5_CRYPT_ENAB", 
+        "SYSLOG_SG_ENAB", 
+        "SYSLOG_SU_ENAB", 
+        "/var/run/nscd/socket", 
+        "/var/run/.nscd_socket", 
+        "realpath in lrename()", 
+        "%s.lock", 
+        "%s.%ld", 
+        "/etc/login.defs", 
+        "/etc/passwd", 
+        "/etc/shadow", 
+        ".shstrtab", 
+        ".interp", 
+        ".note.ABI-tag", 
+        ".dynsym", 
+        ".dynstr", 
+        ".gnu.version", 
+        ".gnu.version_r", 
+        ".rela.dyn", 
+        ".rela.plt", 
+        ".rodata", 
+        ".eh_frame", 
+        ".ctors", 
+        ".dtors", 
+        ".dynamic"
+    ], 
+    "metadata": {
+        "output": {
+            "pcap": {
+                "basename": "dump.pcap", 
+                "sha256": "abb1b1bdcfb07009a7dae1bd55616b4d844b3fd1960731b66da02b2bc6a8f26c", 
+                "dirname": ""
+            }
+        }
+    }
+}
