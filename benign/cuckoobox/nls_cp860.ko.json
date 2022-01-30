@@ -1,0 +1,580 @@
+{
+    "info": {
+        "added": 1642281248.238061, 
+        "started": 1642314598.973311, 
+        "duration": 609, 
+        "ended": 1642315208.106466, 
+        "owner": null, 
+        "score": 0.0, 
+        "id": 2651389, 
+        "category": "file", 
+        "git": {
+            "head": "e8f6317b4b3ef806085a1e99e64c6ff01f26948f", 
+            "fetch_head": "e8f6317b4b3ef806085a1e99e64c6ff01f26948f"
+        }, 
+        "monitor": "2deb9ccd75d5a7a3fe05b2625b03a8639d6ee36b", 
+        "package": "elf", 
+        "route": "internet", 
+        "custom": null, 
+        "machine": {
+            "status": "stopped", 
+            "name": "Ubuntu1904x641", 
+            "label": "Ubuntu1904x641", 
+            "platform": "linux", 
+            "manager": "VirtualBox", 
+            "started_on": "2022-01-16 06:36:27", 
+            "shutdown_on": "2022-01-16 06:40:07"
+        }, 
+        "platform": "linux", 
+        "version": "2.0.7", 
+        "options": "procmemdump=yes,route=internet"
+    }, 
+    "signatures": [], 
+    "target": {
+        "category": "file", 
+        "file": {
+            "mimetype": "application/x-object", 
+            "yara": [], 
+            "sha1": "96aa24a81cd8fdef9beda720fe9bc7ffb4182524", 
+            "name": "nls_cp860.ko", 
+            "type": "ELF 32-bit MSB relocatable, SPARC, version 1 (SYSV), not stripped", 
+            "sha256": "d34aeb607be5dd0af25d1b5840ad54a86ebb06c232d7532120eb79b3088d1b38", 
+            "urls": [], 
+            "crc32": "324E1FA2", 
+            "path": "/srv/cuckoo/cwd/storage/binaries/d34aeb607be5dd0af25d1b5840ad54a86ebb06c232d7532120eb79b3088d1b38", 
+            "ssdeep": "96:WEULOCw2Lf3X3X3dzO3PeL3Pf33P/v/W3P8Pf33Pf3kYmn1FnvQzudwN/Y3332QA:WE4OCw2Lx2ejnfeMnpmJ3ntgT1", 
+            "size": 7102, 
+            "sha512": "13d6150f02f67d68d4f9c62edee719d258389f443718f187beb4e0727c1a56803725ab0a8bfca9fe31ab081356949fdb0adf849efcec9b8655c2c3636e794269", 
+            "md5": "ccc81edfb62a0be8e7fdeb927d1dbcc3"
+        }, 
+        "custom": null
+    }, 
+    "irma": {
+        "status": 0, 
+        "probes_finished": 16, 
+        "scan_id": "14d06111-9c30-4ba7-86fc-d2038dfc2615", 
+        "parent_file_sha256": null, 
+        "name": "d34aeb607be5dd0af25d1b5840ad54a86ebb06c232d7532120eb79b3088d1b38", 
+        "probes_total": 16, 
+        "scan_date": 1642308009, 
+        "other_results": [], 
+        "submitter": "cli", 
+        "file_infos": {
+            "mimetype": "ELF 32-bit MSB relocatable, SPARC, version 1 (SYSV)", 
+            "sha1": "96aa24a81cd8fdef9beda720fe9bc7ffb4182524", 
+            "tags": [], 
+            "timestamp_first_scan": 1642308009.07, 
+            "timestamp_last_scan": 1642308018.04, 
+            "sha256": "d34aeb607be5dd0af25d1b5840ad54a86ebb06c232d7532120eb79b3088d1b38", 
+            "md5": "ccc81edfb62a0be8e7fdeb927d1dbcc3", 
+            "size": 7102
+        }, 
+        "probe_results": {
+            "antivirus": {
+                "Avast Core Security (Linux)": {
+                    "status": 0, 
+                    "duration": 0.01, 
+                    "version": "3.0.3", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "F-Secure Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.03, 
+                    "version": "11.10", 
+                    "results": null, 
+                    "virus_database_version": "2022-01-13_04"
+                }, 
+                "Windows Defender (Windows)": {
+                    "status": 0, 
+                    "duration": 0.05, 
+                    "version": "1.1.18800.4", 
+                    "results": null, 
+                    "virus_database_version": "1.355.1049.0"
+                }, 
+                "Comodo Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 2.1, 
+                    "version": "1.1.268025.1", 
+                    "results": null, 
+                    "virus_database_version": "2021-11-02"
+                }, 
+                "Kaspersky Antivirus (Win)": {
+                    "status": 0, 
+                    "duration": 2.64, 
+                    "version": "21.3", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "ESET NOD32 Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 4.29, 
+                    "version": "4.0.96", 
+                    "results": null, 
+                    "virus_database_version": "6178ebd0-1e722 (2021-10-27)"
+                }, 
+                "GData (Windows)": {
+                    "status": 0, 
+                    "duration": 0.19, 
+                    "version": "5.5.20197.1358", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Forticlient (Linux)": {
+                    "status": 0, 
+                    "duration": 3.04, 
+                    "version": "unavailable", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Avira (Windows)": {
+                    "status": 0, 
+                    "duration": 3.78, 
+                    "version": "8.3.64.66", 
+                    "results": null, 
+                    "virus_database_version": "8.19.1.122"
+                }, 
+                "eScan Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 4.0, 
+                    "version": "7.0.21", 
+                    "results": null, 
+                    "virus_database_version": "7.90035 (27/10/2021)"
+                }, 
+                "McAfee CLI scanner (Linux)": {
+                    "status": 0, 
+                    "duration": 5.77, 
+                    "version": "6.0.6.653", 
+                    "results": null, 
+                    "virus_database_version": "10149"
+                }, 
+                "Sophos Anti-Virus (Linux)": {
+                    "status": 0, 
+                    "duration": 6.64, 
+                    "version": "5.85.0", 
+                    "results": null, 
+                    "virus_database_version": "5.88 (26 October 2021)"
+                }, 
+                "DrWeb Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.18, 
+                    "version": "11.1.10.2108031732", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "ClamAV (Linux)": {
+                    "status": 0, 
+                    "duration": 0.02, 
+                    "version": "0.103.2", 
+                    "results": null, 
+                    "virus_database_version": "26334"
+                }, 
+                "Bitdefender Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 6.1, 
+                    "version": "7.90123", 
+                    "results": null, 
+                    "virus_database_version": null
+                }, 
+                "Emsisoft Commandline Scanner (Windows)": {
+                    "status": 0, 
+                    "duration": 0.22, 
+                    "version": "2021.10.0.11201", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }
+            }
+        }, 
+        "path": "", 
+        "result_id": "dcd3d468-f5a1-4ebe-8227-b180d03712cf", 
+        "file_sha256": "d34aeb607be5dd0af25d1b5840ad54a86ebb06c232d7532120eb79b3088d1b38"
+    }, 
+    "suricata": {
+        "tls": [
+            {
+                "src_ip": "192.168.168.101", 
+                "version": "TLS 1.2", 
+                "src_port": 45926, 
+                "dst_port": 443, 
+                "timestamp": "2022-01-16T06:37:07.832387+0200", 
+                "dst_ip": "91.189.92.39", 
+                "fingerprint": "97:63:1b:60:eb:d1:fa:4f:a4:fc:fa:98:66:3d:ee:22:fb:78:ce:c1", 
+                "subject": "C=GB, L=London, O=Canonical Group Ltd, CN=api.snapcraft.io", 
+                "issuer": "C=US, O=DigiCert Inc, CN=DigiCert TLS RSA SHA256 2020 CA1"
+            }
+        ], 
+        "files": [], 
+        "alerts": [], 
+        "http": []
+    }, 
+    "virustotal": {
+        "summary": {
+            "error": "resource has not been scanned yet"
+        }
+    }, 
+    "network": {
+        "udp": [], 
+        "dns_servers": [], 
+        "http": [], 
+        "smtp": [], 
+        "tcp": [], 
+        "geoinfo": {}, 
+        "mitm": [], 
+        "https_ex": [], 
+        "http_ex": [], 
+        "sorted_pcap_sha256": "df093f011ec43c5e32677fe0b819e81ad763ca5f04756f9f814c96841d1590ef", 
+        "icmp": [], 
+        "tls": [], 
+        "dead_hosts": [], 
+        "smtp_ex": [], 
+        "hosts": [], 
+        "pcap_sha256": "7dfdf3cf55629af70dec5389cfbb9bb00a006a204e0420621b779f70cc41d046", 
+        "dns": [], 
+        "domains": [], 
+        "irc": []
+    }, 
+    "resubmit": {
+        "resubmit_ids": []
+    }, 
+    "snort": {
+        "alerts": []
+    }, 
+    "behavior": {
+        "generic": [
+            {
+                "process_path": null, 
+                "process_name": "sh", 
+                "pid": 2073, 
+                "summary": {}, 
+                "first_seen": 1642281255.932902, 
+                "ppid": -1
+            }
+        ], 
+        "processes": [
+            {
+                "calls": [
+                    {
+                        "status": "ENOEXEC", 
+                        "process_name": "sh", 
+                        "pid": 2073, 
+                        "raw": "Sat Jan 15 21:14:15 2022.932902 sh@7ff3401b0957[2073] execve(\"/tmp/nls_cp860.ko\", [\"/tmp/nls_cp860.ko\"], [\"SUDO_GID=0\", \"MAIL=/var/mail/root\", \"USER=root\", \"HOME=/root\", \"SUDO_UID=0\", \"LOGNAME=root\", \"SYSTEMTAP_MODULE=stap_\", \"TERM=unknown\", \"SYSTEMTAP_VERBOSE=2\", \"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin\", \"DISPLAY=:0\", \"LANG=en_US.UTF-8\", \"XAUTHORITY=/root/.Xauthority\", \"SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/nls_cp860.ko\", \"SHELL=/bin/bash\", \"SUDO_USER=root\", \"PWD=/tmp/tmpW8Bm7D\"]) = -8 (ENOEXEC)\n", 
+                        "api": "execve", 
+                        "return_value": "-8", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff3401b0957", 
+                        "arguments": {
+                            "p2": [
+                                "SUDO_GID=0", 
+                                "MAIL=/var/mail/root", 
+                                "USER=root", 
+                                "HOME=/root", 
+                                "SUDO_UID=0", 
+                                "LOGNAME=root", 
+                                "SYSTEMTAP_MODULE=stap_", 
+                                "TERM=unknown", 
+                                "SYSTEMTAP_VERBOSE=2", 
+                                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin", 
+                                "DISPLAY=:0", 
+                                "LANG=en_US.UTF-8", 
+                                "XAUTHORITY=/root/.Xauthority", 
+                                "SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/nls_cp860.ko", 
+                                "SHELL=/bin/bash", 
+                                "SUDO_USER=root", 
+                                "PWD=/tmp/tmpW8Bm7D"
+                            ], 
+                            "p0": "/tmp/nls_cp860.ko", 
+                            "p1": [
+                                "/tmp/nls_cp860.ko"
+                            ]
+                        }, 
+                        "time": 1642281255.932902
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 2073, 
+                        "raw": "Sat Jan 15 21:14:15 2022.943838 sh@7ff3401dbcce[2073] openat(AT_FDCWD, \"/tmp/nls_cp860.ko\", O_RDONLY|O_NOCTTY) = 3\n", 
+                        "api": "openat", 
+                        "return_value": "3", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff3401dbcce", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_NOCTTY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/tmp/nls_cp860.ko"
+                        }, 
+                        "time": 1642281255.943838
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 2073, 
+                        "raw": "Sat Jan 15 21:14:15 2022.943901 sh@7ff3401dbf81[2073] read(3, 0x7fff63d0e3b0, 128) = 128\n", 
+                        "api": "read", 
+                        "return_value": "128", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff3401dbf81", 
+                        "arguments": {
+                            "p2": "128", 
+                            "p0": "3", 
+                            "p1": "0x7fff63d0e3b0"
+                        }, 
+                        "time": 1642281255.943901
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 2073, 
+                        "raw": "Sat Jan 15 21:14:15 2022.943955 sh@7ff3401dc674[2073] close(3) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff3401dc674", 
+                        "arguments": {
+                            "p0": "3"
+                        }, 
+                        "time": 1642281255.943955
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 2073, 
+                        "raw": "Sat Jan 15 21:14:15 2022.944085 sh@7ff3401dc024[2073] write(2, \"sh: 1: \", 7) = 7\n", 
+                        "api": "write", 
+                        "return_value": "7", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff3401dc024", 
+                        "arguments": {
+                            "p2": "7", 
+                            "p0": "2", 
+                            "p1": "sh: 1: "
+                        }, 
+                        "time": 1642281255.944085
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 2073, 
+                        "raw": "Sat Jan 15 21:14:15 2022.944150 sh@7ff3401dc024[2073] write(2, \"/tmp/nls_cp860.ko: Exec format error\", 36) = 36\n", 
+                        "api": "write", 
+                        "return_value": "36", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff3401dc024", 
+                        "arguments": {
+                            "p2": "36", 
+                            "p0": "2", 
+                            "p1": "/tmp/nls_cp860.ko: Exec format error"
+                        }, 
+                        "time": 1642281255.94415
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 2073, 
+                        "raw": "Sat Jan 15 21:14:15 2022.944210 sh@7ff3401dc024[2073] write(2, \"\\n\", 1) = 1\n", 
+                        "api": "write", 
+                        "return_value": "1", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff3401dc024", 
+                        "arguments": {
+                            "p2": "1", 
+                            "p0": "2", 
+                            "p1": "\n"
+                        }, 
+                        "time": 1642281255.94421
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 2073, 
+                        "raw": "Sat Jan 15 21:14:15 2022.944268 sh@7ff3401b0926[2073] exit_group(2)\n", 
+                        "api": "exit_group", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7ff3401b0926", 
+                        "arguments": {
+                            "p0": "2"
+                        }, 
+                        "time": 1642281255.944268
+                    }
+                ], 
+                "pid": 2073, 
+                "process_name": "sh", 
+                "command_line": "", 
+                "first_seen": 1642281255.932902, 
+                "ppid": -1, 
+                "type": "process"
+            }
+        ], 
+        "processtree": [
+            {
+                "track": true, 
+                "pid": 2073, 
+                "process_name": "sh", 
+                "command_line": "", 
+                "first_seen": 1642281255.932902, 
+                "ppid": -1, 
+                "children": []
+            }
+        ]
+    }, 
+    "debug": {
+        "action": [], 
+        "dbgview": [], 
+        "errors": [], 
+        "log": [
+            "2022-01-15 21:14:08,002 [root] DEBUG: Starting analyzer from: /tmp/tmpW8Bm7D\n", 
+            "2022-01-15 21:14:08,002 [root] DEBUG: Storing results at: /tmp/ONHJjc\n", 
+            "2022-01-15 21:14:10,127 [modules.auxiliary.filecollector] INFO: FileCollector started v0.08\n", 
+            "2022-01-15 21:14:10,628 [modules.auxiliary.human] INFO: Human started v0.02\n", 
+            "2022-01-15 21:14:10,629 [modules.auxiliary.screenshots] INFO: Screenshots started v0.03\n", 
+            "2022-01-15 21:14:15,931 [lib.core.packages] INFO: Process startup took 5.30 seconds\n", 
+            "2022-01-15 21:14:15,932 [root] INFO: Added new process to list with pid: 2064\n", 
+            "2022-01-15 21:14:21,942 [root] INFO: Process with pid 2064 has terminated\n", 
+            "2022-01-15 21:14:21,944 [root] INFO: Process list is empty, terminating analysis.\n", 
+            "2022-01-15 21:14:24,948 [lib.core.packages] INFO: Package requested stop\n", 
+            "2022-01-15 21:14:24,949 [lib.core.packages] WARNING: Exception uploading log: [Errno 3] No such process\n", 
+            "2022-01-15 21:17:05,379 [root] INFO: Terminating remaining processes before shutdown.\n", 
+            "2022-01-15 21:17:05,379 [root] INFO: Analysis completed.\n"
+        ], 
+        "cuckoo": [
+            "2022-01-16 06:30:04,340 [cuckoo.core.scheduler] DEBUG: Task #2651389: no machine available yet\n", 
+            "2022-01-16 06:30:14,364 [cuckoo.core.scheduler] DEBUG: Task #2651389: no machine available yet\n", 
+            "2022-01-16 06:30:24,385 [cuckoo.core.scheduler] DEBUG: Task #2651389: no machine available yet\n", 
+            "2022-01-16 06:30:34,413 [cuckoo.core.scheduler] DEBUG: Task #2651389: no machine available yet\n", 
+            "2022-01-16 06:30:44,438 [cuckoo.core.scheduler] DEBUG: Task #2651389: no machine available yet\n", 
+            "2022-01-16 06:30:54,466 [cuckoo.core.scheduler] DEBUG: Task #2651389: no machine available yet\n", 
+            "2022-01-16 06:31:04,489 [cuckoo.core.scheduler] DEBUG: Task #2651389: no machine available yet\n", 
+            "2022-01-16 06:31:14,513 [cuckoo.core.scheduler] DEBUG: Task #2651389: no machine available yet\n", 
+            "2022-01-16 06:31:24,541 [cuckoo.core.scheduler] DEBUG: Task #2651389: no machine available yet\n", 
+            "2022-01-16 06:31:34,568 [cuckoo.core.scheduler] DEBUG: Task #2651389: no machine available yet\n", 
+            "2022-01-16 06:31:44,590 [cuckoo.core.scheduler] DEBUG: Task #2651389: no machine available yet\n", 
+            "2022-01-16 06:31:54,616 [cuckoo.core.scheduler] DEBUG: Task #2651389: no machine available yet\n", 
+            "2022-01-16 06:32:04,642 [cuckoo.core.scheduler] DEBUG: Task #2651389: no machine available yet\n", 
+            "2022-01-16 06:32:14,660 [cuckoo.core.scheduler] DEBUG: Task #2651389: no machine available yet\n", 
+            "2022-01-16 06:32:24,691 [cuckoo.core.scheduler] DEBUG: Task #2651389: no machine available yet\n", 
+            "2022-01-16 06:32:34,716 [cuckoo.core.scheduler] DEBUG: Task #2651389: no machine available yet\n", 
+            "2022-01-16 06:32:44,743 [cuckoo.core.scheduler] DEBUG: Task #2651389: no machine available yet\n", 
+            "2022-01-16 06:32:54,767 [cuckoo.core.scheduler] DEBUG: Task #2651389: no machine available yet\n", 
+            "2022-01-16 06:33:04,790 [cuckoo.core.scheduler] DEBUG: Task #2651389: no machine available yet\n", 
+            "2022-01-16 06:33:14,820 [cuckoo.core.scheduler] DEBUG: Task #2651389: no machine available yet\n", 
+            "2022-01-16 06:33:24,843 [cuckoo.core.scheduler] DEBUG: Task #2651389: no machine available yet\n", 
+            "2022-01-16 06:33:34,866 [cuckoo.core.scheduler] DEBUG: Task #2651389: no machine available yet\n", 
+            "2022-01-16 06:33:44,894 [cuckoo.core.scheduler] DEBUG: Task #2651389: no machine available yet\n", 
+            "2022-01-16 06:33:56,268 [cuckoo.core.scheduler] DEBUG: Task #2651389: no machine available yet\n", 
+            "2022-01-16 06:34:06,353 [cuckoo.core.scheduler] DEBUG: Task #2651389: no machine available yet\n", 
+            "2022-01-16 06:34:16,400 [cuckoo.core.scheduler] DEBUG: Task #2651389: no machine available yet\n", 
+            "2022-01-16 06:34:26,434 [cuckoo.core.scheduler] DEBUG: Task #2651389: no machine available yet\n", 
+            "2022-01-16 06:34:36,597 [cuckoo.core.scheduler] DEBUG: Task #2651389: no machine available yet\n", 
+            "2022-01-16 06:34:46,672 [cuckoo.core.scheduler] DEBUG: Task #2651389: no machine available yet\n", 
+            "2022-01-16 06:34:56,696 [cuckoo.core.scheduler] DEBUG: Task #2651389: no machine available yet\n", 
+            "2022-01-16 06:35:06,735 [cuckoo.core.scheduler] DEBUG: Task #2651389: no machine available yet\n", 
+            "2022-01-16 06:35:16,767 [cuckoo.core.scheduler] DEBUG: Task #2651389: no machine available yet\n", 
+            "2022-01-16 06:35:26,796 [cuckoo.core.scheduler] DEBUG: Task #2651389: no machine available yet\n", 
+            "2022-01-16 06:35:36,854 [cuckoo.core.scheduler] DEBUG: Task #2651389: no machine available yet\n", 
+            "2022-01-16 06:35:46,876 [cuckoo.core.scheduler] DEBUG: Task #2651389: no machine available yet\n", 
+            "2022-01-16 06:35:56,904 [cuckoo.core.scheduler] DEBUG: Task #2651389: no machine available yet\n", 
+            "2022-01-16 06:36:06,931 [cuckoo.core.scheduler] DEBUG: Task #2651389: no machine available yet\n", 
+            "2022-01-16 06:36:16,958 [cuckoo.core.scheduler] DEBUG: Task #2651389: no machine available yet\n", 
+            "2022-01-16 06:36:26,988 [cuckoo.core.scheduler] INFO: Task #2651389: acquired machine Ubuntu1904x641 (label=Ubuntu1904x641)\n", 
+            "2022-01-16 06:36:26,990 [cuckoo.core.resultserver] DEBUG: Now tracking machine 192.168.168.101 for task #2651389\n", 
+            "2022-01-16 06:36:27,162 [cuckoo.auxiliary.sniffer] INFO: Started sniffer with PID 240724 (interface=vboxnet0, host=192.168.168.101)\n", 
+            "2022-01-16 06:36:27,331 [cuckoo.machinery.virtualbox] DEBUG: Starting vm Ubuntu1904x641\n", 
+            "2022-01-16 06:36:34,366 [cuckoo.machinery.virtualbox] DEBUG: Restoring virtual machine Ubuntu1904x641 to Snapshot\n", 
+            "2022-01-16 06:36:44,625 [cuckoo.core.guest] INFO: Starting analysis #2651389 on guest (id=Ubuntu1904x641, ip=192.168.168.101)\n", 
+            "2022-01-16 06:36:45,630 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: not ready yet\n", 
+            "2022-01-16 06:36:50,650 [cuckoo.core.guest] INFO: Guest is running Cuckoo Agent 0.10 (id=Ubuntu1904x641, ip=192.168.168.101)\n", 
+            "2022-01-16 06:36:50,666 [cuckoo.core.guest] DEBUG: Uploading analyzer to guest (id=Ubuntu1904x641, ip=192.168.168.101, monitor=latest, size=72028)\n", 
+            "2022-01-16 06:36:50,812 [cuckoo.core.resultserver] DEBUG: Task #2651389: live log analysis.log initialized.\n", 
+            "2022-01-16 06:36:56,467 [cuckoo.core.resultserver] DEBUG: Task #2651389: File upload for 'shots/0001.jpg'\n", 
+            "2022-01-16 06:36:56,636 [cuckoo.core.resultserver] DEBUG: Task #2651389 uploaded file length: 171554\n", 
+            "2022-01-16 06:37:05,867 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2651389 still processing\n", 
+            "2022-01-16 06:37:07,778 [cuckoo.core.resultserver] DEBUG: Task #2651389: File upload for 'logs/all.stap'\n", 
+            "2022-01-16 06:37:07,787 [cuckoo.core.resultserver] DEBUG: Task #2651389 uploaded file length: 1192\n", 
+            "2022-01-16 06:37:20,959 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2651389 still processing\n", 
+            "2022-01-16 06:37:36,088 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2651389 still processing\n", 
+            "2022-01-16 06:37:51,200 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2651389 still processing\n", 
+            "2022-01-16 06:38:06,275 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2651389 still processing\n", 
+            "2022-01-16 06:38:21,429 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2651389 still processing\n", 
+            "2022-01-16 06:38:36,489 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2651389 still processing\n", 
+            "2022-01-16 06:38:51,547 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2651389 still processing\n", 
+            "2022-01-16 06:39:06,609 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2651389 still processing\n", 
+            "2022-01-16 06:39:21,692 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2651389 still processing\n", 
+            "2022-01-16 06:39:36,764 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2651389 still processing\n", 
+            "2022-01-16 06:39:48,830 [cuckoo.core.guest] INFO: Ubuntu1904x641: analysis completed successfully\n", 
+            "2022-01-16 06:39:48,840 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Redsocks\n", 
+            "2022-01-16 06:39:48,903 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Sniffer\n", 
+            "2022-01-16 06:40:03,880 [cuckoo.machinery.virtualbox] INFO: Successfully generated memory dump for virtual machine with label Ubuntu1904x641 to path /srv/cuckoo/cwd/storage/analyses/2651389/memory.dmp\n", 
+            "2022-01-16 06:40:03,881 [cuckoo.machinery.virtualbox] DEBUG: Stopping vm Ubuntu1904x641\n", 
+            "2022-01-16 06:40:07,746 [cuckoo.core.resultserver] DEBUG: Stopped tracking machine 192.168.168.101 for task #2651389\n", 
+            "2022-01-16 06:40:07,878 [cuckoo.core.scheduler] DEBUG: Released database task #2651389\n", 
+            "2022-01-16 06:40:07,981 [cuckoo.core.scheduler] INFO: Task #2651389: analysis procedure completed\n"
+        ]
+    }, 
+    "strings": [
+        "%$%a%b%V%U%c%Q%W%]%\\%[%", 
+        "%<%^%_%Z%T%i%f%`%P%l%g%h%d%e%Y%X%R%S%k%j%", 
+        "\"e\"d# #!", 
+        "license=Dual BSD/GPL", 
+        "vermagic=2.6.18-6-sparc32 mod_unload gcc-4.1", 
+        "depends=", 
+        "xk\\{struct_module", 
+        "register_nls", 
+        "unregister_nls", 
+        "\u001f !\"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~", 
+        "\u001f !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~", 
+        "\u001f !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~", 
+        "nls_cp860", 
+        "GCC: (GNU) 4.1.2 20061115 (prerelease) (Debian 4.1.1-21)", 
+        "GCC: (GNU) 4.1.2 20061115 (prerelease) (Debian 4.1.1-21)", 
+        ".symtab", 
+        ".strtab", 
+        ".shstrtab", 
+        ".rela.text", 
+        ".rela.exit.text", 
+        ".rela.init.text", 
+        ".rela.rodata", 
+        ".modinfo", 
+        ".rodata.str1.8", 
+        "__versions", 
+        ".rela.data", 
+        ".rela.gnu.linkonce.this_module", 
+        ".comment", 
+        ".note.GNU-stack", 
+        "nls_cp860.c", 
+        "uni2char", 
+        "page_uni2charset", 
+        "char2uni", 
+        "charset2uni", 
+        "exit_nls_cp860", 
+        "init_nls_cp860", 
+        "__mod_license365", 
+        "charset2lower", 
+        "charset2upper", 
+        "page00", 
+        "page03", 
+        "page20", 
+        "page22", 
+        "page23", 
+        "page25", 
+        "nls_cp860.mod.c", 
+        "__mod_vermagic5", 
+        "____versions", 
+        "__module_depends", 
+        "__this_module", 
+        "register_nls", 
+        "cleanup_module", 
+        "init_module", 
+        "unregister_nls", 
+        "\u001f !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~"
+    ], 
+    "metadata": {
+        "output": {
+            "pcap": {
+                "basename": "dump.pcap", 
+                "sha256": "7dfdf3cf55629af70dec5389cfbb9bb00a006a204e0420621b779f70cc41d046", 
+                "dirname": ""
+            }
+        }
+    }
+}
