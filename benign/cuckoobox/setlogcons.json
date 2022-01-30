@@ -1,0 +1,3087 @@
+{
+    "info": {
+        "added": 1642281903.752734, 
+        "started": 1642321649.662323, 
+        "duration": 2385, 
+        "ended": 1642324035.270368, 
+        "owner": null, 
+        "score": 0.0, 
+        "id": 2651630, 
+        "category": "file", 
+        "git": {
+            "head": "e8f6317b4b3ef806085a1e99e64c6ff01f26948f", 
+            "fetch_head": "e8f6317b4b3ef806085a1e99e64c6ff01f26948f"
+        }, 
+        "monitor": "2deb9ccd75d5a7a3fe05b2625b03a8639d6ee36b", 
+        "package": "elf", 
+        "route": "internet", 
+        "custom": null, 
+        "machine": {
+            "status": "stopped", 
+            "name": "Ubuntu1904x643", 
+            "label": "Ubuntu1904x643", 
+            "platform": "linux", 
+            "manager": "VirtualBox", 
+            "started_on": "2022-01-16 09:02:40", 
+            "shutdown_on": "2022-01-16 09:07:14"
+        }, 
+        "platform": "linux", 
+        "version": "2.0.7", 
+        "options": "procmemdump=yes,route=internet"
+    }, 
+    "signatures": [], 
+    "target": {
+        "category": "file", 
+        "file": {
+            "mimetype": "application/x-executable", 
+            "yara": [], 
+            "sha1": "4b97edcee5d95c380c11479c491b9865229d7f2c", 
+            "name": "setlogcons", 
+            "type": "ELF 32-bit MSB executable, SPARC, version 1 (SYSV), dynamically linked, interpreter /lib/ld-linux.so.2, for GNU/Linux 2.4.1, stripped", 
+            "sha256": "ac16f8d98e3977cfcfe382d0d8e67c7d75334108aa5dffa139384e829c28b8bd", 
+            "urls": [], 
+            "crc32": "9E494AA5", 
+            "path": "/srv/cuckoo/cwd/storage/binaries/ac16f8d98e3977cfcfe382d0d8e67c7d75334108aa5dffa139384e829c28b8bd", 
+            "ssdeep": "48:FolBFCYPkLxqXKEN5IytpO8lVlHIZ+HEW0RXwsq5zt8/sMA6MZC6nxqJuFp0:izXOqXKEDIwXxQRRXP2sgI6nxqAFp0", 
+            "size": 3992, 
+            "sha512": "cd077a4deae236c07a9e29cb86cd078adbb68553e15bdb26e610080dbb4e4d05d254c288389ef0861d3d91cdd6ac3cf58e5e9dacd03908d16ef30f2a1b4102f5", 
+            "md5": "49a01d7ba2d64fb597671c1a32b2917e"
+        }, 
+        "custom": null
+    }, 
+    "irma": {
+        "status": 0, 
+        "probes_finished": 16, 
+        "scan_id": "5ef6984d-1c06-47a8-b56b-8a28888a8fc9", 
+        "parent_file_sha256": null, 
+        "name": "ac16f8d98e3977cfcfe382d0d8e67c7d75334108aa5dffa139384e829c28b8bd", 
+        "probes_total": 16, 
+        "scan_date": 1642316837, 
+        "other_results": [], 
+        "submitter": "cli", 
+        "file_infos": {
+            "mimetype": "ELF 32-bit MSB executable, SPARC, version 1 (SYSV)", 
+            "sha1": "4b97edcee5d95c380c11479c491b9865229d7f2c", 
+            "tags": [], 
+            "timestamp_first_scan": 1642316836.46, 
+            "timestamp_last_scan": 1642316845.35, 
+            "sha256": "ac16f8d98e3977cfcfe382d0d8e67c7d75334108aa5dffa139384e829c28b8bd", 
+            "md5": "49a01d7ba2d64fb597671c1a32b2917e", 
+            "size": 3992
+        }, 
+        "probe_results": {
+            "antivirus": {
+                "Avast Core Security (Linux)": {
+                    "status": 0, 
+                    "duration": 0.01, 
+                    "version": "3.0.3", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "F-Secure Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.03, 
+                    "version": "11.10", 
+                    "results": null, 
+                    "virus_database_version": "2022-01-13_04"
+                }, 
+                "Windows Defender (Windows)": {
+                    "status": 0, 
+                    "duration": 0.05, 
+                    "version": "1.1.18800.4", 
+                    "results": null, 
+                    "virus_database_version": "1.355.1049.0"
+                }, 
+                "Comodo Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 2.09, 
+                    "version": "1.1.268025.1", 
+                    "results": null, 
+                    "virus_database_version": "2021-11-02"
+                }, 
+                "Kaspersky Antivirus (Win)": {
+                    "status": 0, 
+                    "duration": 2.6, 
+                    "version": "21.3", 
+                    "results": null, 
+                    "virus_database_version": "2022-01-16 02:22:00 (full)"
+                }, 
+                "ESET NOD32 Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 4.26, 
+                    "version": "4.0.96", 
+                    "results": null, 
+                    "virus_database_version": "6178ebd0-1e722 (2021-10-27)"
+                }, 
+                "GData (Windows)": {
+                    "status": 0, 
+                    "duration": 0.17, 
+                    "version": "5.5.20197.1358", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Forticlient (Linux)": {
+                    "status": 0, 
+                    "duration": 3.02, 
+                    "version": "unavailable", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Avira (Windows)": {
+                    "status": 0, 
+                    "duration": 3.77, 
+                    "version": "8.3.64.66", 
+                    "results": null, 
+                    "virus_database_version": "8.19.1.122"
+                }, 
+                "eScan Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 3.88, 
+                    "version": "7.0.21", 
+                    "results": null, 
+                    "virus_database_version": "7.90035 (27/10/2021)"
+                }, 
+                "McAfee CLI scanner (Linux)": {
+                    "status": 0, 
+                    "duration": 5.77, 
+                    "version": "6.0.6.653", 
+                    "results": null, 
+                    "virus_database_version": "10149"
+                }, 
+                "Sophos Anti-Virus (Linux)": {
+                    "status": 0, 
+                    "duration": 6.5, 
+                    "version": "5.85.0", 
+                    "results": null, 
+                    "virus_database_version": "5.88 (26 October 2021)"
+                }, 
+                "DrWeb Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.19, 
+                    "version": "11.1.10.2108031732", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "ClamAV (Linux)": {
+                    "status": 0, 
+                    "duration": 0.02, 
+                    "version": "0.103.2", 
+                    "results": null, 
+                    "virus_database_version": "26334"
+                }, 
+                "Bitdefender Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 6.09, 
+                    "version": "7.90123", 
+                    "results": null, 
+                    "virus_database_version": null
+                }, 
+                "Emsisoft Commandline Scanner (Windows)": {
+                    "status": 0, 
+                    "duration": 0.2, 
+                    "version": "2021.10.0.11201", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }
+            }
+        }, 
+        "path": "", 
+        "result_id": "548273a9-b025-4238-a841-470d89441eff", 
+        "file_sha256": "ac16f8d98e3977cfcfe382d0d8e67c7d75334108aa5dffa139384e829c28b8bd"
+    }, 
+    "suricata": {
+        "tls": [], 
+        "files": [], 
+        "alerts": [], 
+        "http": []
+    }, 
+    "virustotal": {
+        "summary": {
+            "error": "resource has not been scanned yet"
+        }
+    }, 
+    "network": {
+        "tls": [], 
+        "udp": [], 
+        "dns_servers": [], 
+        "http": [], 
+        "icmp": [], 
+        "smtp": [], 
+        "tcp": [], 
+        "smtp_ex": [], 
+        "geoinfo": {}, 
+        "mitm": [], 
+        "hosts": [], 
+        "pcap_sha256": "704e5e5b3234433c01fcfd1b20a306e77e985038120492dc53965c3edd38a4ea", 
+        "dns": [], 
+        "http_ex": [], 
+        "domains": [], 
+        "dead_hosts": [], 
+        "irc": [], 
+        "https_ex": []
+    }, 
+    "resubmit": {
+        "resubmit_ids": []
+    }, 
+    "snort": {
+        "alerts": []
+    }, 
+    "behavior": {
+        "generic": [
+            {
+                "process_path": null, 
+                "process_name": "setlogcons", 
+                "pid": 2096, 
+                "summary": {}, 
+                "first_seen": 1642281914.302058, 
+                "ppid": -1
+            }, 
+            {
+                "process_path": null, 
+                "process_name": "setlogcons", 
+                "pid": 2097, 
+                "summary": {}, 
+                "first_seen": 1642281914.318171, 
+                "ppid": 2096
+            }
+        ], 
+        "processes": [
+            {
+                "calls": [
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.302058 setlogcons@7f4665dbbc27[2096] execve(\"/tmp/setlogcons\", [\"/tmp/setlogcons\"], [\"SUDO_GID=0\", \"MAIL=/var/mail/root\", \"USER=root\", \"HOME=/root\", \"SUDO_UID=0\", \"LOGNAME=root\", \"SYSTEMTAP_MODULE=stap_\", \"TERM=unknown\", \"SYSTEMTAP_VERBOSE=2\", \"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin\", \"DISPLAY=:0\", \"LANG=en_US.UTF-8\", \"XAUTHORITY=/root/.Xauthority\", \"SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/setlogcons\", \"SHELL=/bin/bash\", \"SUDO_USER=root\", \"PWD=/tmp/tmp3oAsYS\"])\n", 
+                        "api": "execve", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665dbbc27", 
+                        "arguments": {
+                            "p2": [
+                                "SUDO_GID=0", 
+                                "MAIL=/var/mail/root", 
+                                "USER=root", 
+                                "HOME=/root", 
+                                "SUDO_UID=0", 
+                                "LOGNAME=root", 
+                                "SYSTEMTAP_MODULE=stap_", 
+                                "TERM=unknown", 
+                                "SYSTEMTAP_VERBOSE=2", 
+                                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin", 
+                                "DISPLAY=:0", 
+                                "LANG=en_US.UTF-8", 
+                                "XAUTHORITY=/root/.Xauthority", 
+                                "SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/setlogcons", 
+                                "SHELL=/bin/bash", 
+                                "SUDO_USER=root", 
+                                "PWD=/tmp/tmp3oAsYS"
+                            ], 
+                            "p0": "/tmp/setlogcons", 
+                            "p1": [
+                                "/tmp/setlogcons"
+                            ]
+                        }, 
+                        "time": 1642281914.302058
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.305103 setlogcons@7f4665dbbc27[2096] brk(0x0) = 94703385935872\n", 
+                        "api": "brk", 
+                        "return_value": "94703385935872", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665dbbc27", 
+                        "arguments": {
+                            "p0": "0x0"
+                        }, 
+                        "time": 1642281914.305103
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.305180 setlogcons@7f4665dbc9d7[2096] access(\"/etc/ld.so.preload\", R_OK) = -2 (ENOENT)\n", 
+                        "api": "access", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665dbc9d7", 
+                        "arguments": {
+                            "p0": "/etc/ld.so.preload", 
+                            "p1": "R_OK"
+                        }, 
+                        "time": 1642281914.30518
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.306273 setlogcons@7f4665dbcb0d[2096] openat(AT_FDCWD, \"/etc/ld.so.cache\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665dbcb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/etc/ld.so.cache"
+                        }, 
+                        "time": 1642281914.306273
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.306336 setlogcons@7f4665dbc943[2096] fstat(4, 0x7ffcef03d1d0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665dbc943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffcef03d1d0"
+                        }, 
+                        "time": 1642281914.306336
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.306368 setlogcons@7f4665dbcd03[2096] mmap2(0x0, 88858, PROT_READ, MAP_PRIVATE, 4, 0) = 0x7f4665d8a000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f4665d8a000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665dbcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE", 
+                            "p0": "0x0", 
+                            "p1": "88858", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281914.306368
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.306403 setlogcons@7f4665dbc9f7[2096] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665dbc9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642281914.306403
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.306448 setlogcons@7f4665dbcb0d[2096] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665dbcb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0"
+                        }, 
+                        "time": 1642281914.306448
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.306485 setlogcons@7f4665dbcbd4[2096] read(4, 0x7ffcef03d388, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665dbcbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffcef03d388"
+                        }, 
+                        "time": 1642281914.306485
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.306519 setlogcons@7f4665dbc943[2096] fstat(4, 0x7ffcef03d220) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665dbc943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffcef03d220"
+                        }, 
+                        "time": 1642281914.306519
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.306549 setlogcons@7f4665dbcd03[2096] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f4665d88000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f4665d88000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665dbcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281914.306549
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.306590 setlogcons@7f4665dbcd03[2096] mmap2(0x0, 20600, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f4665d82000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f4665d82000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665dbcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "20600", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281914.30659
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.306626 setlogcons@7f4665dbcd03[2096] mmap2(0x7f4665d83000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 4096) = 0x7f4665d83000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f4665d83000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665dbcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f4665d83000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "4096"
+                        }, 
+                        "time": 1642281914.306626
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.306670 setlogcons@7f4665dbcd03[2096] mmap2(0x7f4665d85000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f4665d85000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f4665d85000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665dbcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f4665d85000", 
+                            "p1": "4096", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642281914.30667
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.306709 setlogcons@7f4665dbcd03[2096] mmap2(0x7f4665d86000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f4665d86000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f4665d86000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665dbcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f4665d86000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642281914.306709
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.306756 setlogcons@7f4665dbc9f7[2096] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665dbc9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642281914.306756
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.306798 setlogcons@7f4665dbcb0d[2096] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665dbcb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0"
+                        }, 
+                        "time": 1642281914.306798
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.306835 setlogcons@7f4665dbcbd4[2096] read(4, 0x7ffcef03d368, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665dbcbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffcef03d368"
+                        }, 
+                        "time": 1642281914.306835
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.306867 setlogcons@7f4665dbc943[2096] fstat(4, 0x7ffcef03d200) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665dbc943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffcef03d200"
+                        }, 
+                        "time": 1642281914.306867
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.306897 setlogcons@7f4665dbcd03[2096] mmap2(0x0, 1180072, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f4665c61000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f4665c61000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665dbcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1180072", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281914.306897
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.306933 setlogcons@7f4665dbcdb7[2096] mprotect(0x7f4665c7c000, 1060864, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665dbcdb7", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7f4665c7c000", 
+                            "p1": "1060864"
+                        }, 
+                        "time": 1642281914.306933
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.306973 setlogcons@7f4665dbcd03[2096] mmap2(0x7f4665c7c000, 524288, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 110592) = 0x7f4665c7c000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f4665c7c000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665dbcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f4665c7c000", 
+                            "p1": "524288", 
+                            "p4": "4", 
+                            "p5": "110592"
+                        }, 
+                        "time": 1642281914.306973
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.307009 setlogcons@7f4665dbcd03[2096] mmap2(0x7f4665cfc000, 532480, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 634880) = 0x7f4665cfc000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f4665cfc000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665dbcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f4665cfc000", 
+                            "p1": "532480", 
+                            "p4": "4", 
+                            "p5": "634880"
+                        }, 
+                        "time": 1642281914.307009
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.307045 setlogcons@7f4665dbcd03[2096] mmap2(0x7f4665d7f000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1167360) = 0x7f4665d7f000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f4665d7f000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665dbcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f4665d7f000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "1167360"
+                        }, 
+                        "time": 1642281914.307045
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.307088 setlogcons@7f4665dbcd03[2096] mmap2(0x7f4665d81000, 424, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f4665d81000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f4665d81000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665dbcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f4665d81000", 
+                            "p1": "424", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281914.307088
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.307129 setlogcons@7f4665dbc9f7[2096] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665dbc9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642281914.307129
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.307176 setlogcons@7f4665dbcb0d[2096] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/librt.so.1\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665dbcb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/librt.so.1"
+                        }, 
+                        "time": 1642281914.307176
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.307213 setlogcons@7f4665dbcbd4[2096] read(4, 0x7ffcef03d348, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665dbcbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffcef03d348"
+                        }, 
+                        "time": 1642281914.307213
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.307245 setlogcons@7f4665dbc943[2096] fstat(4, 0x7ffcef03d1e0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665dbc943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffcef03d1e0"
+                        }, 
+                        "time": 1642281914.307245
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.307276 setlogcons@7f4665dbcd03[2096] mmap2(0x0, 44000, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f4665c56000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f4665c56000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665dbcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "44000", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281914.307276
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.307313 setlogcons@7f4665dbcd03[2096] mmap2(0x7f4665c59000, 16384, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f4665c59000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f4665c59000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665dbcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f4665c59000", 
+                            "p1": "16384", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642281914.307313
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.307538 setlogcons@7f4665dbcd03[2096] mmap2(0x7f4665c5d000, 8192, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 28672) = 0x7f4665c5d000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f4665c5d000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665dbcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f4665c5d000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "28672"
+                        }, 
+                        "time": 1642281914.307538
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.307582 setlogcons@7f4665dbcd03[2096] mmap2(0x7f4665c5f000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 32768) = 0x7f4665c5f000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f4665c5f000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665dbcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f4665c5f000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "32768"
+                        }, 
+                        "time": 1642281914.307582
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.307643 setlogcons@7f4665dbc9f7[2096] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665dbc9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642281914.307643
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.307686 setlogcons@7f4665dbcb0d[2096] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libm.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665dbcb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libm.so.6"
+                        }, 
+                        "time": 1642281914.307686
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.307724 setlogcons@7f4665dbcbd4[2096] read(4, 0x7ffcef03d328, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665dbcbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffcef03d328"
+                        }, 
+                        "time": 1642281914.307724
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.307758 setlogcons@7f4665dbc943[2096] fstat(4, 0x7ffcef03d1c0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665dbc943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffcef03d1c0"
+                        }, 
+                        "time": 1642281914.307758
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.307793 setlogcons@7f4665dbcd03[2096] mmap2(0x0, 1364240, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f4665b08000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f4665b08000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665dbcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1364240", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281914.307793
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.307829 setlogcons@7f4665dbcd03[2096] mmap2(0x7f4665b17000, 679936, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 61440) = 0x7f4665b17000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f4665b17000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665dbcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f4665b17000", 
+                            "p1": "679936", 
+                            "p4": "4", 
+                            "p5": "61440"
+                        }, 
+                        "time": 1642281914.307829
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.307878 setlogcons@7f4665dbcd03[2096] mmap2(0x7f4665bbd000, 618496, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 741376) = 0x7f4665bbd000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f4665bbd000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665dbcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f4665bbd000", 
+                            "p1": "618496", 
+                            "p4": "4", 
+                            "p5": "741376"
+                        }, 
+                        "time": 1642281914.307878
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.307917 setlogcons@7f4665dbcd03[2096] mmap2(0x7f4665c54000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1355776) = 0x7f4665c54000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f4665c54000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665dbcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f4665c54000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "1355776"
+                        }, 
+                        "time": 1642281914.307917
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.307964 setlogcons@7f4665dbc9f7[2096] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665dbc9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642281914.307964
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.308009 setlogcons@7f4665dbcb0d[2096] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libgcc_s.so.1\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665dbcb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libgcc_s.so.1"
+                        }, 
+                        "time": 1642281914.308009
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.308044 setlogcons@7f4665dbcbd4[2096] read(4, 0x7ffcef03d308, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665dbcbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffcef03d308"
+                        }, 
+                        "time": 1642281914.308044
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.308077 setlogcons@7f4665dbc943[2096] fstat(4, 0x7ffcef03d1a0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665dbc943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffcef03d1a0"
+                        }, 
+                        "time": 1642281914.308077
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.308108 setlogcons@7f4665dbcd03[2096] mmap2(0x0, 103504, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f4665aee000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f4665aee000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665dbcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "103504", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281914.308108
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.308143 setlogcons@7f4665dbcd03[2096] mmap2(0x7f4665af1000, 69632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f4665af1000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f4665af1000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665dbcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f4665af1000", 
+                            "p1": "69632", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642281914.308143
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.308179 setlogcons@7f4665dbcd03[2096] mmap2(0x7f4665b02000, 16384, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 81920) = 0x7f4665b02000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f4665b02000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665dbcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f4665b02000", 
+                            "p1": "16384", 
+                            "p4": "4", 
+                            "p5": "81920"
+                        }, 
+                        "time": 1642281914.308179
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.308215 setlogcons@7f4665dbcd03[2096] mmap2(0x7f4665b06000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 94208) = 0x7f4665b06000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f4665b06000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665dbcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f4665b06000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "94208"
+                        }, 
+                        "time": 1642281914.308215
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.308262 setlogcons@7f4665dbc9f7[2096] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665dbc9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642281914.308262
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.308302 setlogcons@7f4665dbcb0d[2096] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libpthread.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665dbcb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libpthread.so.0"
+                        }, 
+                        "time": 1642281914.308302
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.308337 setlogcons@7f4665dbcbd4[2096] read(4, 0x7ffcef03d2e8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665dbcbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffcef03d2e8"
+                        }, 
+                        "time": 1642281914.308337
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.308368 setlogcons@7f4665dbc943[2096] fstat(4, 0x7ffcef03d180) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665dbc943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffcef03d180"
+                        }, 
+                        "time": 1642281914.308368
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.308399 setlogcons@7f4665dbcd03[2096] mmap2(0x0, 132288, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f4665acd000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f4665acd000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665dbcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "132288", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281914.308399
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.308435 setlogcons@7f4665dbcd03[2096] mmap2(0x7f4665ad4000, 61440, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 28672) = 0x7f4665ad4000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f4665ad4000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665dbcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f4665ad4000", 
+                            "p1": "61440", 
+                            "p4": "4", 
+                            "p5": "28672"
+                        }, 
+                        "time": 1642281914.308435
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.308476 setlogcons@7f4665dbcd03[2096] mmap2(0x7f4665ae3000, 20480, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 90112) = 0x7f4665ae3000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f4665ae3000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665dbcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f4665ae3000", 
+                            "p1": "20480", 
+                            "p4": "4", 
+                            "p5": "90112"
+                        }, 
+                        "time": 1642281914.308476
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.308512 setlogcons@7f4665dbcd03[2096] mmap2(0x7f4665ae8000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 106496) = 0x7f4665ae8000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f4665ae8000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665dbcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f4665ae8000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "106496"
+                        }, 
+                        "time": 1642281914.308512
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.308553 setlogcons@7f4665dbcd03[2096] mmap2(0x7f4665aea000, 13504, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f4665aea000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f4665aea000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665dbcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f4665aea000", 
+                            "p1": "13504", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281914.308553
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.308595 setlogcons@7f4665dbc9f7[2096] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665dbc9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642281914.308595
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.308637 setlogcons@7f4665dbcb0d[2096] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libc.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665dbcb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libc.so.6"
+                        }, 
+                        "time": 1642281914.308637
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.308672 setlogcons@7f4665dbcbd4[2096] read(4, 0x7ffcef03d2c8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665dbcbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffcef03d2c8"
+                        }, 
+                        "time": 1642281914.308672
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.308702 setlogcons@7f4665dbc943[2096] fstat(4, 0x7ffcef03d160) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665dbc943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffcef03d160"
+                        }, 
+                        "time": 1642281914.308702
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.308732 setlogcons@7f4665dbcd03[2096] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f4665acb000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f4665acb000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665dbcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281914.308732
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.308771 setlogcons@7f4665dbcd03[2096] mmap2(0x0, 2008696, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f46658e0000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f46658e0000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665dbcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "2008696", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281914.308771
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.308806 setlogcons@7f4665dbcd03[2096] mmap2(0x7f4665905000, 1519616, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 151552) = 0x7f4665905000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f4665905000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665dbcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f4665905000", 
+                            "p1": "1519616", 
+                            "p4": "4", 
+                            "p5": "151552"
+                        }, 
+                        "time": 1642281914.308806
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.308845 setlogcons@7f4665dbcd03[2096] mmap2(0x7f4665a78000, 299008, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1671168) = 0x7f4665a78000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f4665a78000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665dbcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f4665a78000", 
+                            "p1": "299008", 
+                            "p4": "4", 
+                            "p5": "1671168"
+                        }, 
+                        "time": 1642281914.308845
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.308880 setlogcons@7f4665dbcd03[2096] mmap2(0x7f4665ac1000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1966080) = 0x7f4665ac1000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f4665ac1000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665dbcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f4665ac1000", 
+                            "p1": "24576", 
+                            "p4": "4", 
+                            "p5": "1966080"
+                        }, 
+                        "time": 1642281914.30888
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.308920 setlogcons@7f4665dbcd03[2096] mmap2(0x7f4665ac7000, 13944, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f4665ac7000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f4665ac7000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665dbcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f4665ac7000", 
+                            "p1": "13944", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281914.30892
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.308964 setlogcons@7f4665dbc9f7[2096] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665dbc9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642281914.308964
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.309012 setlogcons@7f4665dbcb0d[2096] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libdl.so.2\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665dbcb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libdl.so.2"
+                        }, 
+                        "time": 1642281914.309012
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.309050 setlogcons@7f4665dbcbd4[2096] read(4, 0x7ffcef03d2a8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665dbcbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffcef03d2a8"
+                        }, 
+                        "time": 1642281914.30905
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.309082 setlogcons@7f4665dbc943[2096] fstat(4, 0x7ffcef03d140) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665dbc943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffcef03d140"
+                        }, 
+                        "time": 1642281914.309082
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.309113 setlogcons@7f4665dbcd03[2096] mmap2(0x0, 20752, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f46658da000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f46658da000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665dbcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "20752", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281914.309113
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.309149 setlogcons@7f4665dbcd03[2096] mmap2(0x7f46658db000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 4096) = 0x7f46658db000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f46658db000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665dbcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f46658db000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "4096"
+                        }, 
+                        "time": 1642281914.309149
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.309189 setlogcons@7f4665dbcd03[2096] mmap2(0x7f46658dd000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f46658dd000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f46658dd000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665dbcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f46658dd000", 
+                            "p1": "4096", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642281914.309189
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.309225 setlogcons@7f4665dbcd03[2096] mmap2(0x7f46658de000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f46658de000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f46658de000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665dbcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f46658de000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642281914.309225
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.309270 setlogcons@7f4665dbc9f7[2096] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665dbc9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642281914.30927
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.309312 setlogcons@7f4665dbcb0d[2096] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libpcre.so.3\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665dbcb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libpcre.so.3"
+                        }, 
+                        "time": 1642281914.309312
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.309347 setlogcons@7f4665dbcbd4[2096] read(4, 0x7ffcef03d288, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665dbcbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffcef03d288"
+                        }, 
+                        "time": 1642281914.309347
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.309378 setlogcons@7f4665dbc943[2096] fstat(4, 0x7ffcef03d120) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665dbc943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffcef03d120"
+                        }, 
+                        "time": 1642281914.309378
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.309409 setlogcons@7f4665dbcd03[2096] mmap2(0x0, 471304, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f4665866000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f4665866000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665dbcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "471304", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281914.309409
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.309444 setlogcons@7f4665dbcd03[2096] mmap2(0x7f4665868000, 335872, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 8192) = 0x7f4665868000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f4665868000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665dbcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f4665868000", 
+                            "p1": "335872", 
+                            "p4": "4", 
+                            "p5": "8192"
+                        }, 
+                        "time": 1642281914.309444
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.309483 setlogcons@7f4665dbcd03[2096] mmap2(0x7f46658ba000, 122880, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 344064) = 0x7f46658ba000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f46658ba000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665dbcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f46658ba000", 
+                            "p1": "122880", 
+                            "p4": "4", 
+                            "p5": "344064"
+                        }, 
+                        "time": 1642281914.309483
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.309519 setlogcons@7f4665dbcd03[2096] mmap2(0x7f46658d8000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 462848) = 0x7f46658d8000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f46658d8000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665dbcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f46658d8000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "462848"
+                        }, 
+                        "time": 1642281914.309519
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.309572 setlogcons@7f4665dbc9f7[2096] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665dbc9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642281914.309572
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.310426 setlogcons@7f4665dbcd03[2096] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f4665864000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f4665864000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665dbcd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281914.310426
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.310480 setlogcons@7f4665da1f30[2096] arch_prctl(ARCH_SET_FS, 139940327739712) = 0\n", 
+                        "api": "arch_prctl", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665da1f30", 
+                        "arguments": {
+                            "p0": "ARCH_SET_FS", 
+                            "p1": "139940327739712"
+                        }, 
+                        "time": 1642281914.31048
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.311147 setlogcons@7f4665dbcdb7[2096] mprotect(0x7f4665ac1000, 12288, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665dbcdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f4665ac1000", 
+                            "p1": "12288"
+                        }, 
+                        "time": 1642281914.311147
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.311202 setlogcons@7f4665dbcdb7[2096] mprotect(0x7f4665ae8000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665dbcdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f4665ae8000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642281914.311202
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.311262 setlogcons@7f4665dbcdb7[2096] mprotect(0x7f46658d8000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665dbcdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f46658d8000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642281914.311262
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.311310 setlogcons@7f4665dbcdb7[2096] mprotect(0x7f46658de000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665dbcdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f46658de000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642281914.31131
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.311419 setlogcons@7f4665dbcdb7[2096] mprotect(0x7f4665b06000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665dbcdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f4665b06000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642281914.311419
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.311492 setlogcons@7f4665dbcdb7[2096] mprotect(0x7f4665c54000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665dbcdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f4665c54000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642281914.311492
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.311534 setlogcons@7f4665dbcdb7[2096] mprotect(0x7f4665c5f000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665dbcdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f4665c5f000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642281914.311534
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.311792 setlogcons@7f4665dbcdb7[2096] mprotect(0x7f4665d7f000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665dbcdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f4665d7f000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642281914.311792
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.311865 setlogcons@7f4665dbcdb7[2096] mprotect(0x7f4665d86000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665dbcdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f4665d86000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642281914.311865
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.315005 setlogcons@7f4665dbcdb7[2096] mprotect(0x5621d5f65000, 303104, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665dbcdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x5621d5f65000", 
+                            "p1": "303104"
+                        }, 
+                        "time": 1642281914.315005
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.315066 setlogcons@7f4665dbcdb7[2096] mprotect(0x7f4665dca000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665dbcdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f4665dca000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642281914.315066
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.315109 setlogcons@7f4665dbcd97[2096] munmap(0x7f4665d8a000, 88858) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665dbcd97", 
+                        "arguments": {
+                            "p0": "0x7f4665d8a000", 
+                            "p1": "88858"
+                        }, 
+                        "time": 1642281914.315109
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.315178 setlogcons@7f4665ad48df[2096] set_tid_address(0x7f4665865410) = 2096\n", 
+                        "api": "set_tid_address", 
+                        "return_value": "2096", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665ad48df", 
+                        "arguments": {
+                            "p0": "0x7f4665865410"
+                        }, 
+                        "time": 1642281914.315178
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.315271 setlogcons@7f4665ad494a[2096] set_robust_list(0x7f4665865420, 24) = 0\n", 
+                        "api": "set_robust_list", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665ad494a", 
+                        "arguments": {
+                            "p0": "0x7f4665865420", 
+                            "p1": "24"
+                        }, 
+                        "time": 1642281914.315271
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.315319 setlogcons@7f4665ae1010[2096] rt_sigaction(0x20, {0x7f4665ad46c0, SA_SIGINFO|SA_RESTORER, 0x7f4665ae0f40, [EMPTY]}, 0x0, 8) = 0\n", 
+                        "api": "rt_sigaction", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665ae1010", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "0x20", 
+                            "p1": [
+                                "0x7f4665ad46c0", 
+                                "SA_SIGINFO|SA_RESTORER", 
+                                "0x7f4665ae0f40", 
+                                [
+                                    "EMPTY]"
+                                ]
+                            ]
+                        }, 
+                        "time": 1642281914.315319
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.315460 setlogcons@7f4665ae1010[2096] rt_sigaction(0x21, {0x7f4665ad4760, SA_RESTART|SA_SIGINFO|SA_RESTORER, 0x7f4665ae0f40, [EMPTY]}, 0x0, 8) = 0\n", 
+                        "api": "rt_sigaction", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665ae1010", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "0x21", 
+                            "p1": [
+                                "0x7f4665ad4760", 
+                                "SA_RESTART|SA_SIGINFO|SA_RESTORER", 
+                                "0x7f4665ae0f40", 
+                                [
+                                    "EMPTY]"
+                                ]
+                            ]
+                        }, 
+                        "time": 1642281914.31546
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.315662 setlogcons@7f4665ad4a19[2096] rt_sigprocmask(SIG_UNBLOCK, [EMPTY], 0x0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665ad4a19", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "SIG_UNBLOCK", 
+                            "p1": [
+                                "EMPTY"
+                            ]
+                        }, 
+                        "time": 1642281914.315662
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.315710 setlogcons@7f46659f2df0[2096] prlimit64(0, RLIMIT_STACK, NULL, 0x7ffcef03df60) = 0\n", 
+                        "api": "prlimit64", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f46659f2df0", 
+                        "arguments": {
+                            "p2": "NULL", 
+                            "p3": "0x7ffcef03df60", 
+                            "p0": "0", 
+                            "p1": "RLIMIT_STACK"
+                        }, 
+                        "time": 1642281914.31571
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.315889 setlogcons@7f46659f32f7[2096] brk(0x0) = 94703385935872\n", 
+                        "api": "brk", 
+                        "return_value": "94703385935872", 
+                        "category": "process", 
+                        "instruction_pointer": "7f46659f32f7", 
+                        "arguments": {
+                            "p0": "0x0"
+                        }, 
+                        "time": 1642281914.315889
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.315918 setlogcons@7f46659f32f7[2096] brk(0x5621d9af9000) = 94703386071040\n", 
+                        "api": "brk", 
+                        "return_value": "94703386071040", 
+                        "category": "process", 
+                        "instruction_pointer": "7f46659f32f7", 
+                        "arguments": {
+                            "p0": "0x5621d9af9000"
+                        }, 
+                        "time": 1642281914.315918
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.317024 setlogcons@7f4665addb86[2096] rt_sigprocmask(SIG_SETMASK, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS], 0x7ffcef03deb0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665addb86", 
+                        "arguments": {
+                            "p2": "0x7ffcef03deb0", 
+                            "p3": "8", 
+                            "p0": "SIG_SETMASK", 
+                            "p1": [
+                                "SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS"
+                            ]
+                        }, 
+                        "time": 1642281914.317024
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.317833 setlogcons@7f46659f74c3[2096] mmap2(0x0, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f4665063000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f4665063000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f46659f74c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK", 
+                            "p0": "0x0", 
+                            "p1": "8392704", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281914.317833
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.317873 setlogcons@7f46659f7597[2096] mprotect(0x7f4665064000, 8388608, PROT_READ|PROT_WRITE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f46659f7597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p0": "0x7f4665064000", 
+                            "p1": "8388608"
+                        }, 
+                        "time": 1642281914.317873
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.317922 setlogcons@7f46659fdb11[2096] clone(CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, 0x7f4665862f70, 0x7f46658639d0, 0x7f46658639d0) = 2097\n", 
+                        "api": "clone", 
+                        "return_value": "2097", 
+                        "category": "process", 
+                        "instruction_pointer": "7f46659fdb11", 
+                        "arguments": {
+                            "p2": "0x7f46658639d0", 
+                            "p3": "0x7f46658639d0", 
+                            "p0": "CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID", 
+                            "p1": "0x7f4665862f70"
+                        }, 
+                        "time": 1642281914.317922
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.318009 setlogcons@7f4665addb86[2096] rt_sigprocmask(SIG_SETMASK, [EMPTY], 0x0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665addb86", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "SIG_SETMASK", 
+                            "p1": [
+                                "EMPTY"
+                            ]
+                        }, 
+                        "time": 1642281914.318009
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.320381 setlogcons@7f46659f2df0[2096] prlimit64(0, RLIMIT_STACK, NULL, 0x7ffcef03da70) = 0\n", 
+                        "api": "prlimit64", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f46659f2df0", 
+                        "arguments": {
+                            "p2": "NULL", 
+                            "p3": "0x7ffcef03da70", 
+                            "p0": "0", 
+                            "p1": "RLIMIT_STACK"
+                        }, 
+                        "time": 1642281914.320381
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.320439 setlogcons@7f46659f25c1[2096] openat(AT_FDCWD, \"/etc/qemu-binfmt/sparc\", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -2 (ENOENT)\n", 
+                        "api": "openat", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f46659f25c1", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/etc/qemu-binfmt/sparc"
+                        }, 
+                        "time": 1642281914.320439
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.320495 setlogcons@7f46659c1247[2096] uname(0x7ffcef03d6e0) = 0\n", 
+                        "api": "uname", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f46659c1247", 
+                        "arguments": {
+                            "p0": "0x7ffcef03d6e0"
+                        }, 
+                        "time": 1642281914.320495
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.320530 setlogcons@7f4665ae0337[2096] lseek(3, 0, SEEK_SET) = 0\n", 
+                        "api": "lseek", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665ae0337", 
+                        "arguments": {
+                            "p2": "SEEK_SET", 
+                            "p0": "3", 
+                            "p1": "0"
+                        }, 
+                        "time": 1642281914.32053
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.320561 setlogcons@7f4665adfd94[2096] read(3, 0x7ffcef03d9d0, 52) = 52\n", 
+                        "api": "read", 
+                        "return_value": "52", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665adfd94", 
+                        "arguments": {
+                            "p2": "52", 
+                            "p0": "3", 
+                            "p1": "0x7ffcef03d9d0"
+                        }, 
+                        "time": 1642281914.320561
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.320594 setlogcons@7f4665ae0337[2096] lseek(3, 0, SEEK_SET) = 0\n", 
+                        "api": "lseek", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665ae0337", 
+                        "arguments": {
+                            "p2": "SEEK_SET", 
+                            "p0": "3", 
+                            "p1": "0"
+                        }, 
+                        "time": 1642281914.320594
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.321810 setlogcons@7f46659f74c3[2096] mmap2(0x0, 528384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f4664fe2000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f4664fe2000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f46659f74c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "528384", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281914.32181
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.322285 setlogcons@7f46659f7597[2096] mprotect(0x5621d5fc2000, 33550336, PROT_READ|PROT_WRITE|PROT_EXEC) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f46659f7597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE|PROT_EXEC", 
+                            "p0": "0x5621d5fc2000", 
+                            "p1": "33550336"
+                        }, 
+                        "time": 1642281914.322285
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.322331 setlogcons@7f46659f7667[2096] madvise(0x5621d5fc2000, 33550336, MADV_HUGEPAGE) = 0\n", 
+                        "api": "madvise", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f46659f7667", 
+                        "arguments": {
+                            "p2": "MADV_HUGEPAGE", 
+                            "p0": "0x5621d5fc2000", 
+                            "p1": "33550336"
+                        }, 
+                        "time": 1642281914.322331
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.322492 setlogcons@7f46659f74c3[2096] mmap2(0x0, 4294963200, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f4560001000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f4560001000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f46659f74c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x0", 
+                            "p1": "4294963200", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281914.322492
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.322546 setlogcons@7f46659ecd59[2096] openat(AT_FDCWD, \"/proc/sys/vm/mmap_min_addr\", O_RDONLY) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f46659ecd59", 
+                        "arguments": {
+                            "p2": "O_RDONLY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/proc/sys/vm/mmap_min_addr"
+                        }, 
+                        "time": 1642281914.322546
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.322601 setlogcons@7f46659ec613[2096] fstat(4, 0x7ffcef03d0e0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f46659ec613", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffcef03d0e0"
+                        }, 
+                        "time": 1642281914.322601
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.322637 setlogcons@7f46659ecfb4[2096] read(4, 0x5621d9ae53d0, 1024) = 6\n", 
+                        "api": "read", 
+                        "return_value": "6", 
+                        "category": "process", 
+                        "instruction_pointer": "7f46659ecfb4", 
+                        "arguments": {
+                            "p2": "1024", 
+                            "p0": "4", 
+                            "p1": "0x5621d9ae53d0"
+                        }, 
+                        "time": 1642281914.322637
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.322682 setlogcons@7f46659f23f7[2096] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f46659f23f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642281914.322682
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.322730 setlogcons@7f46659f72e9[2096] gettid() = 2096\n", 
+                        "api": "gettid", 
+                        "return_value": "2096", 
+                        "category": "process", 
+                        "instruction_pointer": "7f46659f72e9", 
+                        "arguments": {}, 
+                        "time": 1642281914.32273
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.322763 setlogcons@7f46659ec613[2096] fstat(3, 0x7ffcef03d950) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f46659ec613", 
+                        "arguments": {
+                            "p0": "3", 
+                            "p1": "0x7ffcef03d950"
+                        }, 
+                        "time": 1642281914.322763
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.322797 setlogcons@7f46659c2717[2096] geteuid() = 0\n", 
+                        "api": "geteuid", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f46659c2717", 
+                        "arguments": {}, 
+                        "time": 1642281914.322797
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.322831 setlogcons@7f46659c2737[2096] getegid() = 0\n", 
+                        "api": "getegid", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f46659c2737", 
+                        "arguments": {}, 
+                        "time": 1642281914.322831
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.322863 setlogcons@7f4665adfd94[2096] read(3, 0x7ffcef03db50, 1024) = 1024\n", 
+                        "api": "read", 
+                        "return_value": "1024", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665adfd94", 
+                        "arguments": {
+                            "p2": "1024", 
+                            "p0": "3", 
+                            "p1": "0x7ffcef03db50"
+                        }, 
+                        "time": 1642281914.322863
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.322903 setlogcons@7f46659f74c3[2096] mmap2(0x7f4560011000, 4096, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 3, 0) = 0x7f4560011000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f4560011000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f46659f74c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED", 
+                            "p0": "0x7f4560011000", 
+                            "p1": "4096", 
+                            "p4": "3", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281914.322903
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.322948 setlogcons@7f46659f32f7[2096] brk(0x5621d9b1a000) = 94703386206208\n", 
+                        "api": "brk", 
+                        "return_value": "94703386206208", 
+                        "category": "process", 
+                        "instruction_pointer": "7f46659f32f7", 
+                        "arguments": {
+                            "p0": "0x5621d9b1a000"
+                        }, 
+                        "time": 1642281914.322948
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.323002 setlogcons@7f46659f74c3[2096] mmap2(0x7f4560021000, 4096, PROT_READ|PROT_WRITE|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 3, 0) = 0x7f4560021000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f4560021000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f46659f74c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED", 
+                            "p0": "0x7f4560021000", 
+                            "p1": "4096", 
+                            "p4": "3", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281914.323002
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.323055 setlogcons@7f4665adfe27[2096] close(3) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665adfe27", 
+                        "arguments": {
+                            "p0": "3"
+                        }, 
+                        "time": 1642281914.323055
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.323120 setlogcons@7f46659f74c3[2096] mmap2(0x7f465f7ff000, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f465f7ff000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f465f7ff000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f46659f74c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f465f7ff000", 
+                            "p1": "8392704", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281914.32312
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.323243 setlogcons@7f46659f7597[2096] mprotect(0x7f465f7ff000, 4096, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f46659f7597", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7f465f7ff000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642281914.323243
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.323298 setlogcons@7f4665ae055e[2096] openat(AT_FDCWD, \"/lib/ld-linux.so.2\", O_RDONLY) = -2 (ENOENT)\n", 
+                        "api": "openat", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665ae055e", 
+                        "arguments": {
+                            "p2": "O_RDONLY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/ld-linux.so.2"
+                        }, 
+                        "time": 1642281914.323298
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.323414 setlogcons@7f46659ed057[2096] write(2, \"/lib/ld-linux.so.2: No such file or directory\\n\", 46) = 46\n", 
+                        "api": "write", 
+                        "return_value": "46", 
+                        "category": "process", 
+                        "instruction_pointer": "7f46659ed057", 
+                        "arguments": {
+                            "p2": "46", 
+                            "p0": "2", 
+                            "p1": "/lib/ld-linux.so.2: No such file or directory\n"
+                        }, 
+                        "time": 1642281914.323414
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.323478 setlogcons@7f46659c1926[2096] exit_group(-1)\n", 
+                        "api": "exit_group", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7f46659c1926", 
+                        "arguments": {
+                            "p0": "-1"
+                        }, 
+                        "time": 1642281914.323478
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2096, 
+                        "raw": "Sat Jan 15 21:25:14 2022.323524 setlogcons@7f46659c1926[2096] futex(0x7f4665865410, FUTEX_WAKE, 1) = 0\n", 
+                        "api": "futex", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f46659c1926", 
+                        "arguments": {
+                            "p2": "1", 
+                            "p0": "0x7f4665865410", 
+                            "p1": "FUTEX_WAKE"
+                        }, 
+                        "time": 1642281914.323524
+                    }
+                ], 
+                "pid": 2096, 
+                "process_name": "setlogcons", 
+                "command_line": "/tmp/setlogcons", 
+                "first_seen": 1642281914.302058, 
+                "ppid": -1, 
+                "type": "process"
+            }, 
+            {
+                "calls": [
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2097, 
+                        "raw": "Sat Jan 15 21:25:14 2022.318171 setlogcons@7f4665ad6117[2097] set_robust_list(0x7f46658639e0, 24) = 0\n", 
+                        "api": "set_robust_list", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665ad6117", 
+                        "arguments": {
+                            "p0": "0x7f46658639e0", 
+                            "p1": "24"
+                        }, 
+                        "time": 1642281914.318171
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2097, 
+                        "raw": "Sat Jan 15 21:25:14 2022.318243 setlogcons@7f46659f74c3[2097] mmap2(0x0, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f465d063000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f465d063000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f46659f74c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x0", 
+                            "p1": "134217728", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642281914.318243
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2097, 
+                        "raw": "Sat Jan 15 21:25:14 2022.318309 setlogcons@7f46659f7567[2097] munmap(0x7f465d063000, 49926144) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f46659f7567", 
+                        "arguments": {
+                            "p0": "0x7f465d063000", 
+                            "p1": "49926144"
+                        }, 
+                        "time": 1642281914.318309
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2097, 
+                        "raw": "Sat Jan 15 21:25:14 2022.318377 setlogcons@7f46659f7567[2097] munmap(0x7f4664000000, 17182720) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f46659f7567", 
+                        "arguments": {
+                            "p0": "0x7f4664000000", 
+                            "p1": "17182720"
+                        }, 
+                        "time": 1642281914.318377
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2097, 
+                        "raw": "Sat Jan 15 21:25:14 2022.318434 setlogcons@7f46659f7597[2097] mprotect(0x7f4660000000, 135168, PROT_READ|PROT_WRITE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f46659f7597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p0": "0x7f4660000000", 
+                            "p1": "135168"
+                        }, 
+                        "time": 1642281914.318434
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "setlogcons", 
+                        "pid": 2097, 
+                        "raw": "Sat Jan 15 21:25:14 2022.318513 setlogcons@7f4665ae0440[2097] nanosleep([0.010000000], 0x7f4665862dc0) = -516\n", 
+                        "api": "nanosleep", 
+                        "return_value": "-516", 
+                        "category": "process", 
+                        "instruction_pointer": "7f4665ae0440", 
+                        "arguments": {
+                            "p0": [
+                                "0.010000000"
+                            ], 
+                            "p1": "0x7f4665862dc0"
+                        }, 
+                        "time": 1642281914.318513
+                    }
+                ], 
+                "pid": 2097, 
+                "process_name": "setlogcons", 
+                "command_line": "", 
+                "first_seen": 1642281914.318171, 
+                "ppid": 2096, 
+                "type": "process"
+            }
+        ], 
+        "processtree": [
+            {
+                "track": true, 
+                "pid": 2096, 
+                "process_name": "setlogcons", 
+                "command_line": "/tmp/setlogcons", 
+                "first_seen": 1642281914.302058, 
+                "ppid": -1, 
+                "children": [
+                    {
+                        "track": true, 
+                        "pid": 2097, 
+                        "process_name": "setlogcons", 
+                        "command_line": "", 
+                        "first_seen": 1642281914.318171, 
+                        "ppid": 2096, 
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    }, 
+    "debug": {
+        "action": [], 
+        "dbgview": [], 
+        "errors": [], 
+        "log": [
+            "2022-01-15 21:25:03,010 [root] DEBUG: Starting analyzer from: /tmp/tmp3oAsYS\n", 
+            "2022-01-15 21:25:03,010 [root] DEBUG: Storing results at: /tmp/gXckNsvQvZ\n", 
+            "2022-01-15 21:25:05,277 [modules.auxiliary.filecollector] INFO: FileCollector started v0.08\n", 
+            "2022-01-15 21:25:05,280 [modules.auxiliary.human] INFO: Human started v0.02\n", 
+            "2022-01-15 21:25:05,783 [modules.auxiliary.screenshots] INFO: Screenshots started v0.03\n", 
+            "2022-01-15 21:25:14,295 [lib.core.packages] INFO: Process startup took 8.51 seconds\n", 
+            "2022-01-15 21:25:14,297 [root] INFO: Added new process to list with pid: 2084\n", 
+            "2022-01-15 21:25:26,318 [root] INFO: Process with pid 2084 has terminated\n", 
+            "2022-01-15 21:25:26,318 [root] INFO: Process list is empty, terminating analysis.\n", 
+            "2022-01-15 21:25:29,324 [lib.core.packages] INFO: Package requested stop\n", 
+            "2022-01-15 21:25:29,325 [lib.core.packages] WARNING: Exception uploading log: [Errno 3] No such process\n"
+        ], 
+        "cuckoo": [
+            "2022-01-16 08:27:35,356 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:27:45,385 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:27:55,410 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:28:05,436 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:28:15,459 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:28:25,484 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:28:35,508 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:28:45,536 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:28:55,557 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:29:05,578 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:29:15,629 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:29:25,657 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:29:35,687 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:29:45,718 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:29:55,740 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:30:05,760 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:30:15,786 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:30:25,816 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:30:35,836 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:30:45,856 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:30:55,886 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:31:05,919 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:31:15,954 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:31:25,980 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:31:36,004 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:31:46,024 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:31:56,047 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:32:06,070 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:32:16,120 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:32:26,144 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:32:36,166 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:32:46,197 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:32:56,232 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:33:06,252 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:33:16,301 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:33:26,331 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:33:36,361 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:33:46,404 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:33:56,434 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:34:06,467 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:34:16,504 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:34:26,541 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:34:36,572 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:34:46,606 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:34:56,630 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:35:06,666 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:35:16,702 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:35:26,739 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:35:36,774 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:35:46,822 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:35:56,859 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:36:06,884 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:36:16,908 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:36:26,935 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:36:36,970 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:36:47,007 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:36:57,044 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:37:07,082 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:37:17,117 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:37:27,161 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:37:37,272 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:37:47,311 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:37:57,355 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:38:07,416 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:38:17,461 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:38:27,488 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:38:37,518 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:38:47,538 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:38:57,562 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:39:07,595 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:39:17,636 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:39:27,673 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:39:37,697 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:39:47,727 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:39:57,768 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:40:07,805 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:40:17,849 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:40:27,890 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:40:37,924 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:40:47,954 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:40:58,068 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:41:08,107 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:41:18,179 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:41:28,216 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:41:38,263 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:41:48,302 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:41:58,370 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:42:08,434 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:42:18,468 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:42:28,506 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:42:38,544 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:42:48,577 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:42:58,600 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:43:08,623 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:43:18,647 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:43:28,672 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:43:38,697 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:43:48,723 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:43:58,747 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:44:08,772 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:44:18,793 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:44:28,818 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:44:38,842 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:44:48,869 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:44:58,891 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:45:08,915 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:45:18,938 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:45:28,978 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:45:39,003 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:45:49,026 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:45:59,102 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:46:09,143 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:46:19,186 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:46:29,245 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:46:39,294 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:46:49,329 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:46:59,381 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:47:09,417 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:47:19,442 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:47:29,463 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:47:39,486 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:47:49,512 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:47:59,537 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:48:09,560 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:48:19,613 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:48:29,643 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:48:39,674 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:48:49,706 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:48:59,730 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:49:09,761 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:49:19,795 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:49:29,834 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:49:39,864 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:49:49,887 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:49:59,914 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:50:09,942 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:50:19,965 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:50:29,986 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:50:40,008 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:50:50,029 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:51:00,059 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:51:10,081 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:51:20,102 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:51:30,130 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:51:40,149 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:51:50,178 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:52:00,206 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:52:10,252 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:52:20,288 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:52:30,343 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:52:40,479 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:52:50,532 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:53:00,573 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:53:10,639 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:53:20,669 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:53:30,691 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:53:40,722 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:53:50,793 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:54:00,849 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:54:10,899 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:54:20,950 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:54:31,098 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:54:41,135 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:54:51,157 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:55:01,888 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:55:12,233 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:55:22,271 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:55:32,306 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:55:42,340 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:55:52,370 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:56:02,406 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:56:12,445 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:56:22,482 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:56:32,518 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:56:42,551 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:56:52,583 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:57:02,626 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:57:12,690 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:57:22,738 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:57:32,788 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:57:42,845 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:57:52,917 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:58:02,977 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:58:13,061 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:58:23,135 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:58:33,196 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:58:43,237 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:58:53,266 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:59:03,293 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:59:13,319 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:59:23,342 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:59:33,374 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:59:43,398 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 08:59:53,444 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 09:00:03,468 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 09:00:13,490 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 09:00:23,515 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 09:00:33,553 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 09:00:43,578 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 09:00:53,609 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 09:01:03,636 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 09:01:13,660 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 09:01:23,688 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 09:01:33,752 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 09:01:43,775 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 09:01:53,801 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 09:02:03,823 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 09:02:13,850 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 09:02:23,875 [cuckoo.core.scheduler] DEBUG: Task #2651630: no machine available yet\n", 
+            "2022-01-16 09:02:33,904 [cuckoo.core.scheduler] INFO: Task #2651630: acquired machine Ubuntu1904x643 (label=Ubuntu1904x643)\n", 
+            "2022-01-16 09:02:33,904 [cuckoo.core.resultserver] DEBUG: Now tracking machine 192.168.168.103 for task #2651630\n", 
+            "2022-01-16 09:02:34,054 [cuckoo.auxiliary.sniffer] INFO: Started sniffer with PID 123224 (interface=vboxnet0, host=192.168.168.103)\n", 
+            "2022-01-16 09:02:40,315 [cuckoo.machinery.virtualbox] DEBUG: Starting vm Ubuntu1904x643\n", 
+            "2022-01-16 09:02:40,696 [cuckoo.machinery.virtualbox] DEBUG: Restoring virtual machine Ubuntu1904x643 to Snapshot\n", 
+            "2022-01-16 09:02:49,934 [cuckoo.core.guest] INFO: Starting analysis #2651630 on guest (id=Ubuntu1904x643, ip=192.168.168.103)\n", 
+            "2022-01-16 09:02:50,939 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: not ready yet\n", 
+            "2022-01-16 09:02:55,954 [cuckoo.core.guest] INFO: Guest is running Cuckoo Agent 0.10 (id=Ubuntu1904x643, ip=192.168.168.103)\n", 
+            "2022-01-16 09:02:55,967 [cuckoo.core.guest] DEBUG: Uploading analyzer to guest (id=Ubuntu1904x643, ip=192.168.168.103, monitor=latest, size=72028)\n", 
+            "2022-01-16 09:02:57,201 [cuckoo.core.resultserver] DEBUG: Task #2651630: live log analysis.log initialized.\n", 
+            "2022-01-16 09:03:02,954 [cuckoo.core.resultserver] DEBUG: Task #2651630: File upload for 'shots/0001.jpg'\n", 
+            "2022-01-16 09:03:02,969 [cuckoo.core.resultserver] DEBUG: Task #2651630 uploaded file length: 171527\n", 
+            "2022-01-16 09:03:11,099 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: analysis #2651630 still processing\n", 
+            "2022-01-16 09:03:23,537 [cuckoo.core.resultserver] DEBUG: Task #2651630: File upload for 'logs/all.stap'\n", 
+            "2022-01-16 09:03:23,547 [cuckoo.core.resultserver] DEBUG: Task #2651630 uploaded file length: 19127\n", 
+            "2022-01-16 09:03:26,143 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: analysis #2651630 still processing\n", 
+            "2022-01-16 09:03:41,220 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: analysis #2651630 still processing\n", 
+            "2022-01-16 09:03:56,283 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: analysis #2651630 still processing\n", 
+            "2022-01-16 09:04:11,378 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: analysis #2651630 still processing\n", 
+            "2022-01-16 09:04:26,479 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: analysis #2651630 still processing\n", 
+            "2022-01-16 09:04:41,543 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: analysis #2651630 still processing\n", 
+            "2022-01-16 09:04:56,604 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: analysis #2651630 still processing\n", 
+            "2022-01-16 09:05:11,664 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: analysis #2651630 still processing\n", 
+            "2022-01-16 09:05:26,724 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: analysis #2651630 still processing\n", 
+            "2022-01-16 09:05:41,777 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: analysis #2651630 still processing\n", 
+            "2022-01-16 09:05:56,842 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: analysis #2651630 still processing\n", 
+            "2022-01-16 09:06:11,901 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: analysis #2651630 still processing\n", 
+            "2022-01-16 09:06:26,961 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: analysis #2651630 still processing\n", 
+            "2022-01-16 09:06:42,021 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: analysis #2651630 still processing\n", 
+            "2022-01-16 09:06:57,068 [cuckoo.core.guest] INFO: Ubuntu1904x643: end of analysis reached!\n", 
+            "2022-01-16 09:06:57,076 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Redsocks\n", 
+            "2022-01-16 09:06:57,153 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Sniffer\n", 
+            "2022-01-16 09:07:10,763 [cuckoo.machinery.virtualbox] INFO: Successfully generated memory dump for virtual machine with label Ubuntu1904x643 to path /srv/cuckoo/cwd/storage/analyses/2651630/memory.dmp\n", 
+            "2022-01-16 09:07:10,764 [cuckoo.machinery.virtualbox] DEBUG: Stopping vm Ubuntu1904x643\n", 
+            "2022-01-16 09:07:14,740 [cuckoo.core.resultserver] DEBUG: Stopped tracking machine 192.168.168.103 for task #2651630\n", 
+            "2022-01-16 09:07:14,741 [cuckoo.core.resultserver] DEBUG: Cancel <Context for LOG> for task 2651630\n", 
+            "2022-01-16 09:07:14,940 [cuckoo.core.scheduler] DEBUG: Released database task #2651630\n", 
+            "2022-01-16 09:07:15,080 [cuckoo.core.scheduler] INFO: Task #2651630: analysis procedure completed\n"
+        ]
+    }, 
+    "strings": [
+        "/lib/ld-linux.so.2", 
+        "libconsole.so.0", 
+        "get_console_fd", 
+        "_Jv_RegisterClasses", 
+        "__gmon_start__", 
+        "libctutils.so.0", 
+        "libc.so.6", 
+        "__strtol_internal", 
+        "perror", 
+        "__cxa_finalize", 
+        "setlocale", 
+        "bindtextdomain", 
+        "_IO_stdin_used", 
+        "__libc_start_main", 
+        "_edata", 
+        "__bss_start", 
+        "GLIBC_2.1.3", 
+        "GLIBC_2.0", 
+        "console-tools", 
+        "/usr/share/locale", 
+        "TIOCLINUX", 
+        ".shstrtab", 
+        ".interp", 
+        ".note.ABI-tag", 
+        ".dynsym", 
+        ".dynstr", 
+        ".gnu.version", 
+        ".gnu.version_r", 
+        ".rela.dyn", 
+        ".rela.plt", 
+        ".rodata", 
+        ".eh_frame", 
+        ".ctors", 
+        ".dtors", 
+        ".dynamic"
+    ], 
+    "metadata": {
+        "output": {
+            "pcap": {
+                "basename": "dump.pcap", 
+                "sha256": "704e5e5b3234433c01fcfd1b20a306e77e985038120492dc53965c3edd38a4ea", 
+                "dirname": ""
+            }
+        }
+    }
+}
