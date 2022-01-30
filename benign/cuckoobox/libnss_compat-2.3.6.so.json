@@ -1,0 +1,3054 @@
+{
+    "info": {
+        "added": 1642278832.630296, 
+        "started": 1642308619.659081, 
+        "duration": 937, 
+        "ended": 1642309557.300432, 
+        "owner": null, 
+        "score": 0.0, 
+        "id": 2651122, 
+        "category": "file", 
+        "git": {
+            "head": "e8f6317b4b3ef806085a1e99e64c6ff01f26948f", 
+            "fetch_head": "e8f6317b4b3ef806085a1e99e64c6ff01f26948f"
+        }, 
+        "monitor": "2deb9ccd75d5a7a3fe05b2625b03a8639d6ee36b", 
+        "package": "elf", 
+        "route": "internet", 
+        "custom": null, 
+        "machine": {
+            "status": "stopped", 
+            "name": "Ubuntu1904x645", 
+            "label": "Ubuntu1904x645", 
+            "platform": "linux", 
+            "manager": "VirtualBox", 
+            "started_on": "2022-01-16 05:01:14", 
+            "shutdown_on": "2022-01-16 05:05:56"
+        }, 
+        "platform": "linux", 
+        "version": "2.0.7", 
+        "options": "procmemdump=yes,route=internet"
+    }, 
+    "signatures": [], 
+    "target": {
+        "category": "file", 
+        "file": {
+            "mimetype": "application/x-sharedlib", 
+            "yara": [], 
+            "sha1": "c2b17f92fc114efaecdb7f6a696608ead9e365a9", 
+            "name": "libnss_compat-2.3.6.so", 
+            "type": "ELF 32-bit MSB shared object, SPARC, version 1 (SYSV), dynamically linked, interpreter /lib/ld-linux.so.2, for GNU/Linux 2.4.1, stripped", 
+            "sha256": "aad3d774e73de1a7df3c8dd09a48f12650e2120b4de6cbea56fdb403e46161fb", 
+            "urls": [], 
+            "crc32": "48794D20", 
+            "path": "/srv/cuckoo/cwd/storage/binaries/aad3d774e73de1a7df3c8dd09a48f12650e2120b4de6cbea56fdb403e46161fb", 
+            "ssdeep": "768:FTOAT1a5m8VP8GIFBbUUDAVyvMTc6+OXW0:tOAT1aDV9IF9UwAVyUTV+Ol", 
+            "size": 35100, 
+            "sha512": "f57898280c0ac02cde8b8e52d982de59e3f4f5ff9c53b90b498dc29e0d9b299ce5ec7d05a1e53b6cc8e6f6924517399d5eee01e20829feb5176cbae3f1ad50e6", 
+            "md5": "1a239d343adb69189a43f77a33fe6eb6"
+        }, 
+        "custom": null
+    }, 
+    "irma": {
+        "status": 0, 
+        "probes_finished": 16, 
+        "scan_id": "c2f53a44-c3d7-4344-94c5-d9e7651a76e0", 
+        "parent_file_sha256": null, 
+        "name": "aad3d774e73de1a7df3c8dd09a48f12650e2120b4de6cbea56fdb403e46161fb", 
+        "probes_total": 16, 
+        "scan_date": 1642302359, 
+        "other_results": [], 
+        "submitter": "cli", 
+        "file_infos": {
+            "mimetype": "ELF 32-bit MSB shared object, SPARC, version 1 (SYSV)", 
+            "sha1": "c2b17f92fc114efaecdb7f6a696608ead9e365a9", 
+            "tags": [], 
+            "timestamp_first_scan": 1642302359.05, 
+            "timestamp_last_scan": 1642302368.26, 
+            "sha256": "aad3d774e73de1a7df3c8dd09a48f12650e2120b4de6cbea56fdb403e46161fb", 
+            "md5": "1a239d343adb69189a43f77a33fe6eb6", 
+            "size": 35100
+        }, 
+        "probe_results": {
+            "antivirus": {
+                "Avast Core Security (Linux)": {
+                    "status": 0, 
+                    "duration": 0.01, 
+                    "version": "3.0.3", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "F-Secure Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.04, 
+                    "version": "11.10", 
+                    "results": null, 
+                    "virus_database_version": "2022-01-13_04"
+                }, 
+                "Windows Defender (Windows)": {
+                    "status": 0, 
+                    "duration": 0.05, 
+                    "version": "1.1.18800.4", 
+                    "results": null, 
+                    "virus_database_version": "1.355.1049.0"
+                }, 
+                "Comodo Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 2.09, 
+                    "version": "1.1.268025.1", 
+                    "results": null, 
+                    "virus_database_version": "2021-11-02"
+                }, 
+                "Kaspersky Antivirus (Win)": {
+                    "status": 0, 
+                    "duration": 2.68, 
+                    "version": "21.3", 
+                    "results": null, 
+                    "virus_database_version": "2022-01-04 05:53:00 (full)"
+                }, 
+                "ESET NOD32 Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 4.28, 
+                    "version": "4.0.96", 
+                    "results": null, 
+                    "virus_database_version": "6178ebd0-1e722 (2021-10-27)"
+                }, 
+                "GData (Windows)": {
+                    "status": 0, 
+                    "duration": 0.17, 
+                    "version": "5.5.20197.1358", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Forticlient (Linux)": {
+                    "status": 0, 
+                    "duration": 3.05, 
+                    "version": "unavailable", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Avira (Windows)": {
+                    "status": 0, 
+                    "duration": 3.92, 
+                    "version": "8.3.64.66", 
+                    "results": null, 
+                    "virus_database_version": "8.19.1.122"
+                }, 
+                "eScan Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 3.96, 
+                    "version": "7.0.21", 
+                    "results": null, 
+                    "virus_database_version": "7.90035 (27/10/2021)"
+                }, 
+                "McAfee CLI scanner (Linux)": {
+                    "status": 0, 
+                    "duration": 5.83, 
+                    "version": "6.0.6.653", 
+                    "results": null, 
+                    "virus_database_version": "10149"
+                }, 
+                "Sophos Anti-Virus (Linux)": {
+                    "status": 0, 
+                    "duration": 6.49, 
+                    "version": "5.85.0", 
+                    "results": null, 
+                    "virus_database_version": "5.88 (26 October 2021)"
+                }, 
+                "DrWeb Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.22, 
+                    "version": "11.1.10.2108031732", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "ClamAV (Linux)": {
+                    "status": 0, 
+                    "duration": 0.03, 
+                    "version": "0.103.2", 
+                    "results": null, 
+                    "virus_database_version": "26334"
+                }, 
+                "Bitdefender Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 6.27, 
+                    "version": "7.90123", 
+                    "results": null, 
+                    "virus_database_version": null
+                }, 
+                "Emsisoft Commandline Scanner (Windows)": {
+                    "status": 0, 
+                    "duration": 0.2, 
+                    "version": "2021.10.0.11201", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }
+            }
+        }, 
+        "path": "", 
+        "result_id": "50041225-bbc0-4a79-887d-40048f0d1582", 
+        "file_sha256": "aad3d774e73de1a7df3c8dd09a48f12650e2120b4de6cbea56fdb403e46161fb"
+    }, 
+    "suricata": {
+        "tls": [
+            {
+                "src_ip": "192.168.168.105", 
+                "version": "TLS 1.2", 
+                "src_port": 51640, 
+                "dst_port": 443, 
+                "timestamp": "2022-01-16T05:01:47.911888+0200", 
+                "dst_ip": "91.189.92.40", 
+                "fingerprint": "97:63:1b:60:eb:d1:fa:4f:a4:fc:fa:98:66:3d:ee:22:fb:78:ce:c1", 
+                "subject": "C=GB, L=London, O=Canonical Group Ltd, CN=api.snapcraft.io", 
+                "issuer": "C=US, O=DigiCert Inc, CN=DigiCert TLS RSA SHA256 2020 CA1"
+            }
+        ], 
+        "files": [], 
+        "alerts": [], 
+        "http": []
+    }, 
+    "virustotal": {
+        "summary": {
+            "error": "resource has not been scanned yet"
+        }
+    }, 
+    "network": {
+        "udp": [], 
+        "dns_servers": [], 
+        "http": [], 
+        "smtp": [], 
+        "tcp": [], 
+        "geoinfo": {}, 
+        "mitm": [], 
+        "https_ex": [], 
+        "http_ex": [], 
+        "sorted_pcap_sha256": "722a43ad6876dfd9a991d931142d0dccf14fffc3655f8bc0d6057faf9d511f5c", 
+        "icmp": [], 
+        "tls": [], 
+        "dead_hosts": [], 
+        "smtp_ex": [], 
+        "hosts": [], 
+        "pcap_sha256": "e72b3b341af512b612f06155745003aa2f124b1020733be3c85df0eb31505417", 
+        "dns": [], 
+        "domains": [], 
+        "irc": []
+    }, 
+    "resubmit": {
+        "resubmit_ids": []
+    }, 
+    "snort": {
+        "alerts": []
+    }, 
+    "behavior": {
+        "generic": [
+            {
+                "process_path": null, 
+                "process_name": "libnss_compat-2", 
+                "pid": 2072, 
+                "summary": {}, 
+                "first_seen": 1642278839.425153, 
+                "ppid": 2071
+            }, 
+            {
+                "process_path": null, 
+                "process_name": "libnss_compat-2.3.6.so", 
+                "pid": 2071, 
+                "summary": {}, 
+                "first_seen": 1642278839.407532, 
+                "ppid": -1
+            }
+        ], 
+        "processes": [
+            {
+                "calls": [
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.407532 libnss_compat-2@7fd96503ec27[2071] execve(\"/tmp/libnss_compat-2.3.6.so\", [\"/tmp/libnss_compat-2.3.6.so\"], [\"SUDO_GID=0\", \"MAIL=/var/mail/root\", \"USER=root\", \"HOME=/root\", \"SUDO_UID=0\", \"LOGNAME=root\", \"SYSTEMTAP_MODULE=stap_\", \"TERM=unknown\", \"SYSTEMTAP_VERBOSE=2\", \"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin\", \"DISPLAY=:0\", \"LANG=en_US.UTF-8\", \"XAUTHORITY=/root/.Xauthority\", \"SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/libnss_compat-2.3.6.so\", \"SHELL=/bin/bash\", \"SUDO_USER=roo)\n", 
+                        "api": "execve", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd96503ec27", 
+                        "arguments": {
+                            "p2": [
+                                "SUDO_GID=0", 
+                                "MAIL=/var/mail/root", 
+                                "USER=root", 
+                                "HOME=/root", 
+                                "SUDO_UID=0", 
+                                "LOGNAME=root", 
+                                "SYSTEMTAP_MODULE=stap_", 
+                                "TERM=unknown", 
+                                "SYSTEMTAP_VERBOSE=2", 
+                                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin", 
+                                "DISPLAY=:0", 
+                                "LANG=en_US.UTF-8", 
+                                "XAUTHORITY=/root/.Xauthority", 
+                                "SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/libnss_compat-2.3.6.so", 
+                                "SHELL=/bin/bash", 
+                                "\"SUDO_USER=roo"
+                            ], 
+                            "p0": "/tmp/libnss_compat-2.3.6.so", 
+                            "p1": [
+                                "/tmp/libnss_compat-2.3.6.so"
+                            ]
+                        }, 
+                        "time": 1642278839.407532
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.409904 libnss_compat-2@7fd96503ec27[2071] brk(0x0) = 94667180441600\n", 
+                        "api": "brk", 
+                        "return_value": "94667180441600", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd96503ec27", 
+                        "arguments": {
+                            "p0": "0x0"
+                        }, 
+                        "time": 1642278839.409904
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.410008 libnss_compat-2@7fd96503f9d7[2071] access(\"/etc/ld.so.preload\", R_OK) = -2 (ENOENT)\n", 
+                        "api": "access", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd96503f9d7", 
+                        "arguments": {
+                            "p0": "/etc/ld.so.preload", 
+                            "p1": "R_OK"
+                        }, 
+                        "time": 1642278839.410008
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.411009 libnss_compat-2@7fd96503fb0d[2071] openat(AT_FDCWD, \"/etc/ld.so.cache\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd96503fb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/etc/ld.so.cache"
+                        }, 
+                        "time": 1642278839.411009
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.411067 libnss_compat-2@7fd96503f943[2071] fstat(4, 0x7ffc3feadf30) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd96503f943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc3feadf30"
+                        }, 
+                        "time": 1642278839.411067
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.411116 libnss_compat-2@7fd96503fd03[2071] mmap2(0x0, 88858, PROT_READ, MAP_PRIVATE, 4, 0) = 0x7fd96500d000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fd96500d000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd96503fd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE", 
+                            "p0": "0x0", 
+                            "p1": "88858", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642278839.411116
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.411167 libnss_compat-2@7fd96503f9f7[2071] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd96503f9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642278839.411167
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.411234 libnss_compat-2@7fd96503fb0d[2071] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd96503fb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0"
+                        }, 
+                        "time": 1642278839.411234
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.411288 libnss_compat-2@7fd96503fbd4[2071] read(4, 0x7ffc3feae0e8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd96503fbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc3feae0e8"
+                        }, 
+                        "time": 1642278839.411288
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.411336 libnss_compat-2@7fd96503f943[2071] fstat(4, 0x7ffc3feadf80) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd96503f943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc3feadf80"
+                        }, 
+                        "time": 1642278839.411336
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.411381 libnss_compat-2@7fd96503fd03[2071] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fd96500b000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fd96500b000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd96503fd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642278839.411381
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.411435 libnss_compat-2@7fd96503fd03[2071] mmap2(0x0, 20600, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fd965005000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fd965005000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd96503fd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "20600", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642278839.411435
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.411488 libnss_compat-2@7fd96503fd03[2071] mmap2(0x7fd965006000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 4096) = 0x7fd965006000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fd965006000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd96503fd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fd965006000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "4096"
+                        }, 
+                        "time": 1642278839.411488
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.411559 libnss_compat-2@7fd96503fd03[2071] mmap2(0x7fd965008000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7fd965008000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fd965008000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd96503fd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fd965008000", 
+                            "p1": "4096", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642278839.411559
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.411615 libnss_compat-2@7fd96503fd03[2071] mmap2(0x7fd965009000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7fd965009000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fd965009000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd96503fd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fd965009000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642278839.411615
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.411683 libnss_compat-2@7fd96503f9f7[2071] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd96503f9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642278839.411683
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.411744 libnss_compat-2@7fd96503fb0d[2071] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd96503fb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0"
+                        }, 
+                        "time": 1642278839.411744
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.411798 libnss_compat-2@7fd96503fbd4[2071] read(4, 0x7ffc3feae0c8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd96503fbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc3feae0c8"
+                        }, 
+                        "time": 1642278839.411798
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.411844 libnss_compat-2@7fd96503f943[2071] fstat(4, 0x7ffc3feadf60) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd96503f943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc3feadf60"
+                        }, 
+                        "time": 1642278839.411844
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.411891 libnss_compat-2@7fd96503fd03[2071] mmap2(0x0, 1180072, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fd964ee4000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fd964ee4000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd96503fd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1180072", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642278839.411891
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.411945 libnss_compat-2@7fd96503fdb7[2071] mprotect(0x7fd964eff000, 1060864, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd96503fdb7", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7fd964eff000", 
+                            "p1": "1060864"
+                        }, 
+                        "time": 1642278839.411945
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.412002 libnss_compat-2@7fd96503fd03[2071] mmap2(0x7fd964eff000, 524288, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 110592) = 0x7fd964eff000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fd964eff000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd96503fd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fd964eff000", 
+                            "p1": "524288", 
+                            "p4": "4", 
+                            "p5": "110592"
+                        }, 
+                        "time": 1642278839.412002
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.412056 libnss_compat-2@7fd96503fd03[2071] mmap2(0x7fd964f7f000, 532480, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 634880) = 0x7fd964f7f000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fd964f7f000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd96503fd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fd964f7f000", 
+                            "p1": "532480", 
+                            "p4": "4", 
+                            "p5": "634880"
+                        }, 
+                        "time": 1642278839.412056
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.412109 libnss_compat-2@7fd96503fd03[2071] mmap2(0x7fd965002000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1167360) = 0x7fd965002000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fd965002000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd96503fd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fd965002000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "1167360"
+                        }, 
+                        "time": 1642278839.412109
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.412169 libnss_compat-2@7fd96503fd03[2071] mmap2(0x7fd965004000, 424, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fd965004000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fd965004000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd96503fd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7fd965004000", 
+                            "p1": "424", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642278839.412169
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.412231 libnss_compat-2@7fd96503f9f7[2071] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd96503f9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642278839.412231
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.412306 libnss_compat-2@7fd96503fb0d[2071] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/librt.so.1\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd96503fb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/librt.so.1"
+                        }, 
+                        "time": 1642278839.412306
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.412361 libnss_compat-2@7fd96503fbd4[2071] read(4, 0x7ffc3feae0a8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd96503fbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc3feae0a8"
+                        }, 
+                        "time": 1642278839.412361
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.412408 libnss_compat-2@7fd96503f943[2071] fstat(4, 0x7ffc3feadf40) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd96503f943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc3feadf40"
+                        }, 
+                        "time": 1642278839.412408
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.412454 libnss_compat-2@7fd96503fd03[2071] mmap2(0x0, 44000, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fd964ed9000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fd964ed9000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd96503fd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "44000", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642278839.412454
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.412508 libnss_compat-2@7fd96503fd03[2071] mmap2(0x7fd964edc000, 16384, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7fd964edc000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fd964edc000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd96503fd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fd964edc000", 
+                            "p1": "16384", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642278839.412508
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.412574 libnss_compat-2@7fd96503fd03[2071] mmap2(0x7fd964ee0000, 8192, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 28672) = 0x7fd964ee0000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fd964ee0000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd96503fd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fd964ee0000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "28672"
+                        }, 
+                        "time": 1642278839.412574
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.412628 libnss_compat-2@7fd96503fd03[2071] mmap2(0x7fd964ee2000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 32768) = 0x7fd964ee2000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fd964ee2000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd96503fd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fd964ee2000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "32768"
+                        }, 
+                        "time": 1642278839.412628
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.412700 libnss_compat-2@7fd96503f9f7[2071] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd96503f9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642278839.4127
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.412759 libnss_compat-2@7fd96503fb0d[2071] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libm.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd96503fb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libm.so.6"
+                        }, 
+                        "time": 1642278839.412759
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.412829 libnss_compat-2@7fd96503fbd4[2071] read(4, 0x7ffc3feae088, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd96503fbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc3feae088"
+                        }, 
+                        "time": 1642278839.412829
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.412876 libnss_compat-2@7fd96503f943[2071] fstat(4, 0x7ffc3feadf20) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd96503f943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc3feadf20"
+                        }, 
+                        "time": 1642278839.412876
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.412928 libnss_compat-2@7fd96503fd03[2071] mmap2(0x0, 1364240, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fd964d8b000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fd964d8b000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd96503fd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1364240", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642278839.412928
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.412981 libnss_compat-2@7fd96503fd03[2071] mmap2(0x7fd964d9a000, 679936, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 61440) = 0x7fd964d9a000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fd964d9a000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd96503fd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fd964d9a000", 
+                            "p1": "679936", 
+                            "p4": "4", 
+                            "p5": "61440"
+                        }, 
+                        "time": 1642278839.412981
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.413041 libnss_compat-2@7fd96503fd03[2071] mmap2(0x7fd964e40000, 618496, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 741376) = 0x7fd964e40000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fd964e40000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd96503fd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fd964e40000", 
+                            "p1": "618496", 
+                            "p4": "4", 
+                            "p5": "741376"
+                        }, 
+                        "time": 1642278839.413041
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.413093 libnss_compat-2@7fd96503fd03[2071] mmap2(0x7fd964ed7000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1355776) = 0x7fd964ed7000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fd964ed7000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd96503fd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fd964ed7000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "1355776"
+                        }, 
+                        "time": 1642278839.413093
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.413168 libnss_compat-2@7fd96503f9f7[2071] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd96503f9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642278839.413168
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.413236 libnss_compat-2@7fd96503fb0d[2071] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libgcc_s.so.1\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd96503fb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libgcc_s.so.1"
+                        }, 
+                        "time": 1642278839.413236
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.414423 libnss_compat-2@7fd96503fbd4[2071] read(4, 0x7ffc3feae068, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd96503fbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc3feae068"
+                        }, 
+                        "time": 1642278839.414423
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.414475 libnss_compat-2@7fd96503f943[2071] fstat(4, 0x7ffc3feadf00) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd96503f943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc3feadf00"
+                        }, 
+                        "time": 1642278839.414475
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.414523 libnss_compat-2@7fd96503fd03[2071] mmap2(0x0, 103504, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fd964d71000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fd964d71000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd96503fd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "103504", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642278839.414523
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.414579 libnss_compat-2@7fd96503fd03[2071] mmap2(0x7fd964d74000, 69632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7fd964d74000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fd964d74000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd96503fd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fd964d74000", 
+                            "p1": "69632", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642278839.414579
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.414637 libnss_compat-2@7fd96503fd03[2071] mmap2(0x7fd964d85000, 16384, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 81920) = 0x7fd964d85000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fd964d85000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd96503fd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fd964d85000", 
+                            "p1": "16384", 
+                            "p4": "4", 
+                            "p5": "81920"
+                        }, 
+                        "time": 1642278839.414637
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.414690 libnss_compat-2@7fd96503fd03[2071] mmap2(0x7fd964d89000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 94208) = 0x7fd964d89000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fd964d89000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd96503fd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fd964d89000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "94208"
+                        }, 
+                        "time": 1642278839.41469
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.414759 libnss_compat-2@7fd96503f9f7[2071] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd96503f9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642278839.414759
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.414829 libnss_compat-2@7fd96503fb0d[2071] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libpthread.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd96503fb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libpthread.so.0"
+                        }, 
+                        "time": 1642278839.414829
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.414886 libnss_compat-2@7fd96503fbd4[2071] read(4, 0x7ffc3feae048, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd96503fbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc3feae048"
+                        }, 
+                        "time": 1642278839.414886
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.414932 libnss_compat-2@7fd96503f943[2071] fstat(4, 0x7ffc3feadee0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd96503f943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc3feadee0"
+                        }, 
+                        "time": 1642278839.414932
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.414978 libnss_compat-2@7fd96503fd03[2071] mmap2(0x0, 132288, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fd964d50000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fd964d50000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd96503fd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "132288", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642278839.414978
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.415030 libnss_compat-2@7fd96503fd03[2071] mmap2(0x7fd964d57000, 61440, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 28672) = 0x7fd964d57000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fd964d57000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd96503fd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fd964d57000", 
+                            "p1": "61440", 
+                            "p4": "4", 
+                            "p5": "28672"
+                        }, 
+                        "time": 1642278839.41503
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.415086 libnss_compat-2@7fd96503fd03[2071] mmap2(0x7fd964d66000, 20480, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 90112) = 0x7fd964d66000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fd964d66000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd96503fd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fd964d66000", 
+                            "p1": "20480", 
+                            "p4": "4", 
+                            "p5": "90112"
+                        }, 
+                        "time": 1642278839.415086
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.415139 libnss_compat-2@7fd96503fd03[2071] mmap2(0x7fd964d6b000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 106496) = 0x7fd964d6b000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fd964d6b000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd96503fd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fd964d6b000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "106496"
+                        }, 
+                        "time": 1642278839.415139
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.415198 libnss_compat-2@7fd96503fd03[2071] mmap2(0x7fd964d6d000, 13504, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fd964d6d000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fd964d6d000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd96503fd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7fd964d6d000", 
+                            "p1": "13504", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642278839.415198
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.415259 libnss_compat-2@7fd96503f9f7[2071] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd96503f9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642278839.415259
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.415322 libnss_compat-2@7fd96503fb0d[2071] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libc.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd96503fb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libc.so.6"
+                        }, 
+                        "time": 1642278839.415322
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.415384 libnss_compat-2@7fd96503fbd4[2071] read(4, 0x7ffc3feae028, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd96503fbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc3feae028"
+                        }, 
+                        "time": 1642278839.415384
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.415429 libnss_compat-2@7fd96503f943[2071] fstat(4, 0x7ffc3feadec0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd96503f943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc3feadec0"
+                        }, 
+                        "time": 1642278839.415429
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.415475 libnss_compat-2@7fd96503fd03[2071] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fd964d4e000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fd964d4e000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd96503fd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642278839.415475
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.415531 libnss_compat-2@7fd96503fd03[2071] mmap2(0x0, 2008696, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fd964b63000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fd964b63000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd96503fd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "2008696", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642278839.415531
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.415581 libnss_compat-2@7fd96503fd03[2071] mmap2(0x7fd964b88000, 1519616, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 151552) = 0x7fd964b88000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fd964b88000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd96503fd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fd964b88000", 
+                            "p1": "1519616", 
+                            "p4": "4", 
+                            "p5": "151552"
+                        }, 
+                        "time": 1642278839.415581
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.415639 libnss_compat-2@7fd96503fd03[2071] mmap2(0x7fd964cfb000, 299008, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1671168) = 0x7fd964cfb000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fd964cfb000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd96503fd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fd964cfb000", 
+                            "p1": "299008", 
+                            "p4": "4", 
+                            "p5": "1671168"
+                        }, 
+                        "time": 1642278839.415639
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.415697 libnss_compat-2@7fd96503fd03[2071] mmap2(0x7fd964d44000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1966080) = 0x7fd964d44000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fd964d44000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd96503fd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fd964d44000", 
+                            "p1": "24576", 
+                            "p4": "4", 
+                            "p5": "1966080"
+                        }, 
+                        "time": 1642278839.415697
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.415755 libnss_compat-2@7fd96503fd03[2071] mmap2(0x7fd964d4a000, 13944, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fd964d4a000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fd964d4a000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd96503fd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7fd964d4a000", 
+                            "p1": "13944", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642278839.415755
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.415818 libnss_compat-2@7fd96503f9f7[2071] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd96503f9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642278839.415818
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.415889 libnss_compat-2@7fd96503fb0d[2071] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libdl.so.2\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd96503fb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libdl.so.2"
+                        }, 
+                        "time": 1642278839.415889
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.415943 libnss_compat-2@7fd96503fbd4[2071] read(4, 0x7ffc3feae008, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd96503fbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc3feae008"
+                        }, 
+                        "time": 1642278839.415943
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.415990 libnss_compat-2@7fd96503f943[2071] fstat(4, 0x7ffc3feadea0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd96503f943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc3feadea0"
+                        }, 
+                        "time": 1642278839.41599
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.416036 libnss_compat-2@7fd96503fd03[2071] mmap2(0x0, 20752, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fd964b5d000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fd964b5d000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd96503fd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "20752", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642278839.416036
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.416090 libnss_compat-2@7fd96503fd03[2071] mmap2(0x7fd964b5e000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 4096) = 0x7fd964b5e000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fd964b5e000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd96503fd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fd964b5e000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "4096"
+                        }, 
+                        "time": 1642278839.41609
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.416147 libnss_compat-2@7fd96503fd03[2071] mmap2(0x7fd964b60000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7fd964b60000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fd964b60000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd96503fd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fd964b60000", 
+                            "p1": "4096", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642278839.416147
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.416199 libnss_compat-2@7fd96503fd03[2071] mmap2(0x7fd964b61000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7fd964b61000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fd964b61000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd96503fd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fd964b61000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642278839.416199
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.416266 libnss_compat-2@7fd96503f9f7[2071] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd96503f9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642278839.416266
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.416328 libnss_compat-2@7fd96503fb0d[2071] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libpcre.so.3\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd96503fb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libpcre.so.3"
+                        }, 
+                        "time": 1642278839.416328
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.416382 libnss_compat-2@7fd96503fbd4[2071] read(4, 0x7ffc3feadfe8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd96503fbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc3feadfe8"
+                        }, 
+                        "time": 1642278839.416382
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.416428 libnss_compat-2@7fd96503f943[2071] fstat(4, 0x7ffc3feade80) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd96503f943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc3feade80"
+                        }, 
+                        "time": 1642278839.416428
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.416473 libnss_compat-2@7fd96503fd03[2071] mmap2(0x0, 471304, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fd964ae9000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fd964ae9000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd96503fd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "471304", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642278839.416473
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.416532 libnss_compat-2@7fd96503fd03[2071] mmap2(0x7fd964aeb000, 335872, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 8192) = 0x7fd964aeb000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fd964aeb000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd96503fd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fd964aeb000", 
+                            "p1": "335872", 
+                            "p4": "4", 
+                            "p5": "8192"
+                        }, 
+                        "time": 1642278839.416532
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.416588 libnss_compat-2@7fd96503fd03[2071] mmap2(0x7fd964b3d000, 122880, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 344064) = 0x7fd964b3d000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fd964b3d000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd96503fd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fd964b3d000", 
+                            "p1": "122880", 
+                            "p4": "4", 
+                            "p5": "344064"
+                        }, 
+                        "time": 1642278839.416588
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.416641 libnss_compat-2@7fd96503fd03[2071] mmap2(0x7fd964b5b000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 462848) = 0x7fd964b5b000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fd964b5b000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd96503fd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7fd964b5b000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "462848"
+                        }, 
+                        "time": 1642278839.416641
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.416710 libnss_compat-2@7fd96503f9f7[2071] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd96503f9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642278839.41671
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.417613 libnss_compat-2@7fd96503fd03[2071] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fd964ae7000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fd964ae7000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd96503fd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642278839.417613
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.417667 libnss_compat-2@7fd965024f30[2071] arch_prctl(ARCH_SET_FS, 140571673788736) = 0\n", 
+                        "api": "arch_prctl", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd965024f30", 
+                        "arguments": {
+                            "p0": "ARCH_SET_FS", 
+                            "p1": "140571673788736"
+                        }, 
+                        "time": 1642278839.417667
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.418343 libnss_compat-2@7fd96503fdb7[2071] mprotect(0x7fd964d44000, 12288, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd96503fdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fd964d44000", 
+                            "p1": "12288"
+                        }, 
+                        "time": 1642278839.418343
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.418395 libnss_compat-2@7fd96503fdb7[2071] mprotect(0x7fd964d6b000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd96503fdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fd964d6b000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642278839.418395
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.418453 libnss_compat-2@7fd96503fdb7[2071] mprotect(0x7fd964b5b000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd96503fdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fd964b5b000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642278839.418453
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.418496 libnss_compat-2@7fd96503fdb7[2071] mprotect(0x7fd964b61000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd96503fdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fd964b61000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642278839.418496
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.418535 libnss_compat-2@7fd96503fdb7[2071] mprotect(0x7fd964d89000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd96503fdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fd964d89000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642278839.418535
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.418592 libnss_compat-2@7fd96503fdb7[2071] mprotect(0x7fd964ed7000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd96503fdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fd964ed7000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642278839.418592
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.418634 libnss_compat-2@7fd96503fdb7[2071] mprotect(0x7fd964ee2000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd96503fdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fd964ee2000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642278839.418634
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.418840 libnss_compat-2@7fd96503fdb7[2071] mprotect(0x7fd965002000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd96503fdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fd965002000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642278839.41884
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.418897 libnss_compat-2@7fd96503fdb7[2071] mprotect(0x7fd965009000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd96503fdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fd965009000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642278839.418897
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.422177 libnss_compat-2@7fd96503fdb7[2071] mprotect(0x561968999000, 303104, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd96503fdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x561968999000", 
+                            "p1": "303104"
+                        }, 
+                        "time": 1642278839.422177
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.422235 libnss_compat-2@7fd96503fdb7[2071] mprotect(0x7fd96504d000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd96503fdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7fd96504d000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642278839.422235
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.422279 libnss_compat-2@7fd96503fd97[2071] munmap(0x7fd96500d000, 88858) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd96503fd97", 
+                        "arguments": {
+                            "p0": "0x7fd96500d000", 
+                            "p1": "88858"
+                        }, 
+                        "time": 1642278839.422279
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.422347 libnss_compat-2@7fd964d578df[2071] set_tid_address(0x7fd964ae8410) = 2071\n", 
+                        "api": "set_tid_address", 
+                        "return_value": "2071", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd964d578df", 
+                        "arguments": {
+                            "p0": "0x7fd964ae8410"
+                        }, 
+                        "time": 1642278839.422347
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.422381 libnss_compat-2@7fd964d5794a[2071] set_robust_list(0x7fd964ae8420, 24) = 0\n", 
+                        "api": "set_robust_list", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd964d5794a", 
+                        "arguments": {
+                            "p0": "0x7fd964ae8420", 
+                            "p1": "24"
+                        }, 
+                        "time": 1642278839.422381
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.422424 libnss_compat-2@7fd964d64010[2071] rt_sigaction(0x20, {0x7fd964d576c0, SA_SIGINFO|SA_RESTORER, 0x7fd964d63f40, [EMPTY]}, 0x0, 8) = 0\n", 
+                        "api": "rt_sigaction", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd964d64010", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "0x20", 
+                            "p1": [
+                                "0x7fd964d576c0", 
+                                "SA_SIGINFO|SA_RESTORER", 
+                                "0x7fd964d63f40", 
+                                [
+                                    "EMPTY]"
+                                ]
+                            ]
+                        }, 
+                        "time": 1642278839.422424
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.422458 libnss_compat-2@7fd964d64010[2071] rt_sigaction(0x21, {0x7fd964d57760, SA_RESTART|SA_SIGINFO|SA_RESTORER, 0x7fd964d63f40, [EMPTY]}, 0x0, 8) = 0\n", 
+                        "api": "rt_sigaction", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd964d64010", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "0x21", 
+                            "p1": [
+                                "0x7fd964d57760", 
+                                "SA_RESTART|SA_SIGINFO|SA_RESTORER", 
+                                "0x7fd964d63f40", 
+                                [
+                                    "EMPTY]"
+                                ]
+                            ]
+                        }, 
+                        "time": 1642278839.422458
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.422491 libnss_compat-2@7fd964d57a19[2071] rt_sigprocmask(SIG_UNBLOCK, [EMPTY], 0x0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd964d57a19", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "SIG_UNBLOCK", 
+                            "p1": [
+                                "EMPTY"
+                            ]
+                        }, 
+                        "time": 1642278839.422491
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.422534 libnss_compat-2@7fd964c75df0[2071] prlimit64(0, RLIMIT_STACK, NULL, 0x7ffc3feaecc0) = 0\n", 
+                        "api": "prlimit64", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd964c75df0", 
+                        "arguments": {
+                            "p2": "NULL", 
+                            "p3": "0x7ffc3feaecc0", 
+                            "p0": "0", 
+                            "p1": "RLIMIT_STACK"
+                        }, 
+                        "time": 1642278839.422534
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.422764 libnss_compat-2@7fd964c762f7[2071] brk(0x0) = 94667180441600\n", 
+                        "api": "brk", 
+                        "return_value": "94667180441600", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd964c762f7", 
+                        "arguments": {
+                            "p0": "0x0"
+                        }, 
+                        "time": 1642278839.422764
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.422796 libnss_compat-2@7fd964c762f7[2071] brk(0x56196bab9000) = 94667180576768\n", 
+                        "api": "brk", 
+                        "return_value": "94667180576768", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd964c762f7", 
+                        "arguments": {
+                            "p0": "0x56196bab9000"
+                        }, 
+                        "time": 1642278839.422796
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.423851 libnss_compat-2@7fd964d60b86[2071] rt_sigprocmask(SIG_SETMASK, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS], 0x7ffc3feaec10, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd964d60b86", 
+                        "arguments": {
+                            "p2": "0x7ffc3feaec10", 
+                            "p3": "8", 
+                            "p0": "SIG_SETMASK", 
+                            "p1": [
+                                "SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS"
+                            ]
+                        }, 
+                        "time": 1642278839.423851
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.424857 libnss_compat-2@7fd964c7a4c3[2071] mmap2(0x0, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7fd9642e6000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fd9642e6000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd964c7a4c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK", 
+                            "p0": "0x0", 
+                            "p1": "8392704", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642278839.424857
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.424901 libnss_compat-2@7fd964c7a597[2071] mprotect(0x7fd9642e7000, 8388608, PROT_READ|PROT_WRITE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd964c7a597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p0": "0x7fd9642e7000", 
+                            "p1": "8388608"
+                        }, 
+                        "time": 1642278839.424901
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.424958 libnss_compat-2@7fd964c80b11[2071] clone(CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, 0x7fd964ae5f70, 0x7fd964ae69d0, 0x7fd964ae69d0) = 2072\n", 
+                        "api": "clone", 
+                        "return_value": "2072", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd964c80b11", 
+                        "arguments": {
+                            "p2": "0x7fd964ae69d0", 
+                            "p3": "0x7fd964ae69d0", 
+                            "p0": "CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID", 
+                            "p1": "0x7fd964ae5f70"
+                        }, 
+                        "time": 1642278839.424958
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.425075 libnss_compat-2@7fd964d60b86[2071] rt_sigprocmask(SIG_SETMASK, [EMPTY], 0x0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd964d60b86", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "SIG_SETMASK", 
+                            "p1": [
+                                "EMPTY"
+                            ]
+                        }, 
+                        "time": 1642278839.425075
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.427779 libnss_compat-2@7fd964c75df0[2071] prlimit64(0, RLIMIT_STACK, NULL, 0x7ffc3feae7d0) = 0\n", 
+                        "api": "prlimit64", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd964c75df0", 
+                        "arguments": {
+                            "p2": "NULL", 
+                            "p3": "0x7ffc3feae7d0", 
+                            "p0": "0", 
+                            "p1": "RLIMIT_STACK"
+                        }, 
+                        "time": 1642278839.427779
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.427840 libnss_compat-2@7fd964c755c1[2071] openat(AT_FDCWD, \"/etc/qemu-binfmt/sparc\", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -2 (ENOENT)\n", 
+                        "api": "openat", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd964c755c1", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/etc/qemu-binfmt/sparc"
+                        }, 
+                        "time": 1642278839.42784
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.427913 libnss_compat-2@7fd964c44247[2071] uname(0x7ffc3feae440) = 0\n", 
+                        "api": "uname", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd964c44247", 
+                        "arguments": {
+                            "p0": "0x7ffc3feae440"
+                        }, 
+                        "time": 1642278839.427913
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.427953 libnss_compat-2@7fd964d63337[2071] lseek(3, 0, SEEK_SET) = 0\n", 
+                        "api": "lseek", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd964d63337", 
+                        "arguments": {
+                            "p2": "SEEK_SET", 
+                            "p0": "3", 
+                            "p1": "0"
+                        }, 
+                        "time": 1642278839.427953
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.427989 libnss_compat-2@7fd964d62d94[2071] read(3, 0x7ffc3feae730, 52) = 52\n", 
+                        "api": "read", 
+                        "return_value": "52", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd964d62d94", 
+                        "arguments": {
+                            "p2": "52", 
+                            "p0": "3", 
+                            "p1": "0x7ffc3feae730"
+                        }, 
+                        "time": 1642278839.427989
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.428027 libnss_compat-2@7fd964d63337[2071] lseek(3, 0, SEEK_SET) = 0\n", 
+                        "api": "lseek", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd964d63337", 
+                        "arguments": {
+                            "p2": "SEEK_SET", 
+                            "p0": "3", 
+                            "p1": "0"
+                        }, 
+                        "time": 1642278839.428027
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.429332 libnss_compat-2@7fd964c7a4c3[2071] mmap2(0x0, 528384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fd964265000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fd964265000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd964c7a4c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "528384", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642278839.429332
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.429833 libnss_compat-2@7fd964c7a597[2071] mprotect(0x5619689f6000, 33550336, PROT_READ|PROT_WRITE|PROT_EXEC) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd964c7a597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE|PROT_EXEC", 
+                            "p0": "0x5619689f6000", 
+                            "p1": "33550336"
+                        }, 
+                        "time": 1642278839.429833
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.429876 libnss_compat-2@7fd964c7a667[2071] madvise(0x5619689f6000, 33550336, MADV_HUGEPAGE) = 0\n", 
+                        "api": "madvise", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd964c7a667", 
+                        "arguments": {
+                            "p2": "MADV_HUGEPAGE", 
+                            "p0": "0x5619689f6000", 
+                            "p1": "33550336"
+                        }, 
+                        "time": 1642278839.429876
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.430047 libnss_compat-2@7fd964c7a4c3[2071] mmap2(0x0, 4294963200, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7fd860001000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fd860001000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd964c7a4c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x0", 
+                            "p1": "4294963200", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642278839.430047
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.430100 libnss_compat-2@7fd964c6fd59[2071] openat(AT_FDCWD, \"/proc/sys/vm/mmap_min_addr\", O_RDONLY) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd964c6fd59", 
+                        "arguments": {
+                            "p2": "O_RDONLY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/proc/sys/vm/mmap_min_addr"
+                        }, 
+                        "time": 1642278839.4301
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.430160 libnss_compat-2@7fd964c6f613[2071] fstat(4, 0x7ffc3feade40) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd964c6f613", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc3feade40"
+                        }, 
+                        "time": 1642278839.43016
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.430196 libnss_compat-2@7fd964c6ffb4[2071] read(4, 0x56196baa5400, 1024) = 6\n", 
+                        "api": "read", 
+                        "return_value": "6", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd964c6ffb4", 
+                        "arguments": {
+                            "p2": "1024", 
+                            "p0": "4", 
+                            "p1": "0x56196baa5400"
+                        }, 
+                        "time": 1642278839.430196
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.430242 libnss_compat-2@7fd964c753f7[2071] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd964c753f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642278839.430242
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.430289 libnss_compat-2@7fd964c7a2e9[2071] gettid() = 2071\n", 
+                        "api": "gettid", 
+                        "return_value": "2071", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd964c7a2e9", 
+                        "arguments": {}, 
+                        "time": 1642278839.430289
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.430323 libnss_compat-2@7fd964c6f613[2071] fstat(3, 0x7ffc3feae6b0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd964c6f613", 
+                        "arguments": {
+                            "p0": "3", 
+                            "p1": "0x7ffc3feae6b0"
+                        }, 
+                        "time": 1642278839.430323
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.430356 libnss_compat-2@7fd964c45717[2071] geteuid() = 0\n", 
+                        "api": "geteuid", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd964c45717", 
+                        "arguments": {}, 
+                        "time": 1642278839.430356
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.430389 libnss_compat-2@7fd964c45737[2071] getegid() = 0\n", 
+                        "api": "getegid", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd964c45737", 
+                        "arguments": {}, 
+                        "time": 1642278839.430389
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.430421 libnss_compat-2@7fd964d62d94[2071] read(3, 0x7ffc3feae8b0, 1024) = 1024\n", 
+                        "api": "read", 
+                        "return_value": "1024", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd964d62d94", 
+                        "arguments": {
+                            "p2": "1024", 
+                            "p0": "3", 
+                            "p1": "0x7ffc3feae8b0"
+                        }, 
+                        "time": 1642278839.430421
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.430465 libnss_compat-2@7fd964c7a4c3[2071] mmap2(0x7fd95ffe7000, 102400, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7fd95ffe7000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fd95ffe7000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd964c7a4c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x7fd95ffe7000", 
+                            "p1": "102400", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642278839.430465
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.430530 libnss_compat-2@7fd964d6367f[2071] pread(3, 0x56196baa1600, 24, 24728) = 24\n", 
+                        "api": "pread", 
+                        "return_value": "24", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd964d6367f", 
+                        "arguments": {
+                            "p2": "24", 
+                            "p3": "24728", 
+                            "p0": "3", 
+                            "p1": "0x56196baa1600"
+                        }, 
+                        "time": 1642278839.43053
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.430571 libnss_compat-2@7fd964c7a4c3[2071] mmap2(0x7fd95ffe7000, 28672, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 3, 0) = 0x7fd95ffe7000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fd95ffe7000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd964c7a4c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED", 
+                            "p0": "0x7fd95ffe7000", 
+                            "p1": "28672", 
+                            "p4": "3", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642278839.430571
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.430612 libnss_compat-2@7fd964c7a4c3[2071] mmap2(0x7fd95fffe000, 8192, PROT_READ|PROT_WRITE|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 3, 28672) = 0x7fd95fffe000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fd95fffe000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd964c7a4c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED", 
+                            "p0": "0x7fd95fffe000", 
+                            "p1": "8192", 
+                            "p4": "3", 
+                            "p5": "28672"
+                        }, 
+                        "time": 1642278839.430612
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.430657 libnss_compat-2@7fd964d62e27[2071] close(3) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd964d62e27", 
+                        "arguments": {
+                            "p0": "3"
+                        }, 
+                        "time": 1642278839.430657
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.430720 libnss_compat-2@7fd964c7a4c3[2071] mmap2(0x7fd95f7e6000, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fd95f7e6000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fd95f7e6000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd964c7a4c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7fd95f7e6000", 
+                            "p1": "8392704", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642278839.43072
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.430759 libnss_compat-2@7fd964c762f7[2071] brk(0x56196badd000) = 94667180724224\n", 
+                        "api": "brk", 
+                        "return_value": "94667180724224", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd964c762f7", 
+                        "arguments": {
+                            "p0": "0x56196badd000"
+                        }, 
+                        "time": 1642278839.430759
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.430848 libnss_compat-2@7fd964c7a597[2071] mprotect(0x7fd95f7e6000, 4096, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd964c7a597", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7fd95f7e6000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642278839.430848
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.430896 libnss_compat-2@7fd964d6355e[2071] openat(AT_FDCWD, \"/lib/ld-linux.so.2\", O_RDONLY) = -2 (ENOENT)\n", 
+                        "api": "openat", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd964d6355e", 
+                        "arguments": {
+                            "p2": "O_RDONLY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/ld-linux.so.2"
+                        }, 
+                        "time": 1642278839.430896
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.430967 libnss_compat-2@7fd964c70057[2071] write(2, \"/lib/ld-linux.so.2: No such file or directory\\n\", 46) = 46\n", 
+                        "api": "write", 
+                        "return_value": "46", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd964c70057", 
+                        "arguments": {
+                            "p2": "46", 
+                            "p0": "2", 
+                            "p1": "/lib/ld-linux.so.2: No such file or directory\n"
+                        }, 
+                        "time": 1642278839.430967
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.431041 libnss_compat-2@7fd964c44926[2071] exit_group(-1)\n", 
+                        "api": "exit_group", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd964c44926", 
+                        "arguments": {
+                            "p0": "-1"
+                        }, 
+                        "time": 1642278839.431041
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:33:59 2022.431082 libnss_compat-2@7fd964c44926[2071] futex(0x7fd964ae8410, FUTEX_WAKE, 1) = 0\n", 
+                        "api": "futex", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd964c44926", 
+                        "arguments": {
+                            "p2": "1", 
+                            "p0": "0x7fd964ae8410", 
+                            "p1": "FUTEX_WAKE"
+                        }, 
+                        "time": 1642278839.431082
+                    }
+                ], 
+                "pid": 2071, 
+                "process_name": "libnss_compat-2.3.6.so", 
+                "command_line": "/tmp/libnss_compat-2.3.6.so", 
+                "first_seen": 1642278839.407532, 
+                "ppid": -1, 
+                "type": "process"
+            }, 
+            {
+                "calls": [
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 20:33:59 2022.425153 libnss_compat-2@7fd964d59117[2072] set_robust_list(0x7fd964ae69e0, 24) = 0\n", 
+                        "api": "set_robust_list", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd964d59117", 
+                        "arguments": {
+                            "p0": "0x7fd964ae69e0", 
+                            "p1": "24"
+                        }, 
+                        "time": 1642278839.425153
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 20:33:59 2022.425219 libnss_compat-2@7fd964c7a4c3[2072] mmap2(0x0, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7fd95c2e6000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7fd95c2e6000", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd964c7a4c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x0", 
+                            "p1": "134217728", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642278839.425219
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 20:33:59 2022.425401 libnss_compat-2@7fd964c7a567[2072] munmap(0x7fd95c2e6000, 64069632) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd964c7a567", 
+                        "arguments": {
+                            "p0": "0x7fd95c2e6000", 
+                            "p1": "64069632"
+                        }, 
+                        "time": 1642278839.425401
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 20:33:59 2022.425464 libnss_compat-2@7fd964c7a567[2072] munmap(0x7fd964000000, 3039232) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd964c7a567", 
+                        "arguments": {
+                            "p0": "0x7fd964000000", 
+                            "p1": "3039232"
+                        }, 
+                        "time": 1642278839.425464
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 20:33:59 2022.425509 libnss_compat-2@7fd964c7a597[2072] mprotect(0x7fd960000000, 135168, PROT_READ|PROT_WRITE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd964c7a597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p0": "0x7fd960000000", 
+                            "p1": "135168"
+                        }, 
+                        "time": 1642278839.425509
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libnss_compat-2", 
+                        "pid": 2072, 
+                        "raw": "Sat Jan 15 20:33:59 2022.425575 libnss_compat-2@7fd964d63440[2072] nanosleep([0.010000000], 0x7fd964ae5dc0) = -516\n", 
+                        "api": "nanosleep", 
+                        "return_value": "-516", 
+                        "category": "process", 
+                        "instruction_pointer": "7fd964d63440", 
+                        "arguments": {
+                            "p0": [
+                                "0.010000000"
+                            ], 
+                            "p1": "0x7fd964ae5dc0"
+                        }, 
+                        "time": 1642278839.425575
+                    }
+                ], 
+                "pid": 2072, 
+                "process_name": "libnss_compat-2", 
+                "command_line": "", 
+                "first_seen": 1642278839.425153, 
+                "ppid": 2071, 
+                "type": "process"
+            }
+        ], 
+        "processtree": [
+            {
+                "track": true, 
+                "pid": 2071, 
+                "process_name": "libnss_compat-2.3.6.so", 
+                "command_line": "/tmp/libnss_compat-2.3.6.so", 
+                "first_seen": 1642278839.407532, 
+                "ppid": -1, 
+                "children": [
+                    {
+                        "track": true, 
+                        "pid": 2072, 
+                        "process_name": "libnss_compat-2", 
+                        "command_line": "", 
+                        "first_seen": 1642278839.425153, 
+                        "ppid": 2071, 
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    }, 
+    "debug": {
+        "action": [], 
+        "dbgview": [], 
+        "errors": [], 
+        "log": [
+            "2022-01-15 20:33:52,005 [root] DEBUG: Starting analyzer from: /tmp/tmptVdMeq\n", 
+            "2022-01-15 20:33:52,005 [root] DEBUG: Storing results at: /tmp/pocHjM\n", 
+            "2022-01-15 20:33:54,202 [modules.auxiliary.filecollector] INFO: FileCollector started v0.08\n", 
+            "2022-01-15 20:33:54,205 [modules.auxiliary.human] INFO: Human started v0.02\n", 
+            "2022-01-15 20:33:54,208 [modules.auxiliary.screenshots] INFO: Screenshots started v0.03\n", 
+            "2022-01-15 20:33:59,401 [lib.core.packages] INFO: Process startup took 5.18 seconds\n", 
+            "2022-01-15 20:33:59,402 [root] INFO: Added new process to list with pid: 2061\n", 
+            "2022-01-15 20:34:05,408 [root] INFO: Process with pid 2061 has terminated\n", 
+            "2022-01-15 20:34:05,408 [root] INFO: Process list is empty, terminating analysis.\n", 
+            "2022-01-15 20:34:08,413 [lib.core.packages] INFO: Package requested stop\n", 
+            "2022-01-15 20:34:08,414 [lib.core.packages] WARNING: Exception uploading log: [Errno 3] No such process\n"
+        ], 
+        "cuckoo": [
+            "2022-01-16 04:50:20,718 [cuckoo.core.scheduler] DEBUG: Task #2651122: no machine available yet\n", 
+            "2022-01-16 04:50:30,747 [cuckoo.core.scheduler] DEBUG: Task #2651122: no machine available yet\n", 
+            "2022-01-16 04:50:40,786 [cuckoo.core.scheduler] DEBUG: Task #2651122: no machine available yet\n", 
+            "2022-01-16 04:50:50,866 [cuckoo.core.scheduler] DEBUG: Task #2651122: no machine available yet\n", 
+            "2022-01-16 04:51:00,959 [cuckoo.core.scheduler] DEBUG: Task #2651122: no machine available yet\n", 
+            "2022-01-16 04:51:11,034 [cuckoo.core.scheduler] DEBUG: Task #2651122: no machine available yet\n", 
+            "2022-01-16 04:51:21,136 [cuckoo.core.scheduler] DEBUG: Task #2651122: no machine available yet\n", 
+            "2022-01-16 04:51:31,208 [cuckoo.core.scheduler] DEBUG: Task #2651122: no machine available yet\n", 
+            "2022-01-16 04:51:41,291 [cuckoo.core.scheduler] DEBUG: Task #2651122: no machine available yet\n", 
+            "2022-01-16 04:51:51,969 [cuckoo.core.scheduler] DEBUG: Task #2651122: no machine available yet\n", 
+            "2022-01-16 04:52:02,133 [cuckoo.core.scheduler] DEBUG: Task #2651122: no machine available yet\n", 
+            "2022-01-16 04:52:12,181 [cuckoo.core.scheduler] DEBUG: Task #2651122: no machine available yet\n", 
+            "2022-01-16 04:52:22,208 [cuckoo.core.scheduler] DEBUG: Task #2651122: no machine available yet\n", 
+            "2022-01-16 04:52:32,229 [cuckoo.core.scheduler] DEBUG: Task #2651122: no machine available yet\n", 
+            "2022-01-16 04:52:42,252 [cuckoo.core.scheduler] DEBUG: Task #2651122: no machine available yet\n", 
+            "2022-01-16 04:52:52,277 [cuckoo.core.scheduler] DEBUG: Task #2651122: no machine available yet\n", 
+            "2022-01-16 04:53:02,297 [cuckoo.core.scheduler] DEBUG: Task #2651122: no machine available yet\n", 
+            "2022-01-16 04:53:12,323 [cuckoo.core.scheduler] DEBUG: Task #2651122: no machine available yet\n", 
+            "2022-01-16 04:53:22,350 [cuckoo.core.scheduler] DEBUG: Task #2651122: no machine available yet\n", 
+            "2022-01-16 04:53:32,373 [cuckoo.core.scheduler] DEBUG: Task #2651122: no machine available yet\n", 
+            "2022-01-16 04:53:42,392 [cuckoo.core.scheduler] DEBUG: Task #2651122: no machine available yet\n", 
+            "2022-01-16 04:53:52,415 [cuckoo.core.scheduler] DEBUG: Task #2651122: no machine available yet\n", 
+            "2022-01-16 04:54:02,440 [cuckoo.core.scheduler] DEBUG: Task #2651122: no machine available yet\n", 
+            "2022-01-16 04:54:12,471 [cuckoo.core.scheduler] DEBUG: Task #2651122: no machine available yet\n", 
+            "2022-01-16 04:54:22,497 [cuckoo.core.scheduler] DEBUG: Task #2651122: no machine available yet\n", 
+            "2022-01-16 04:54:32,524 [cuckoo.core.scheduler] DEBUG: Task #2651122: no machine available yet\n", 
+            "2022-01-16 04:54:42,548 [cuckoo.core.scheduler] DEBUG: Task #2651122: no machine available yet\n", 
+            "2022-01-16 04:54:52,574 [cuckoo.core.scheduler] DEBUG: Task #2651122: no machine available yet\n", 
+            "2022-01-16 04:55:02,602 [cuckoo.core.scheduler] DEBUG: Task #2651122: no machine available yet\n", 
+            "2022-01-16 04:55:12,629 [cuckoo.core.scheduler] DEBUG: Task #2651122: no machine available yet\n", 
+            "2022-01-16 04:55:22,659 [cuckoo.core.scheduler] DEBUG: Task #2651122: no machine available yet\n", 
+            "2022-01-16 04:55:32,685 [cuckoo.core.scheduler] DEBUG: Task #2651122: no machine available yet\n", 
+            "2022-01-16 04:55:42,711 [cuckoo.core.scheduler] DEBUG: Task #2651122: no machine available yet\n", 
+            "2022-01-16 04:55:52,732 [cuckoo.core.scheduler] DEBUG: Task #2651122: no machine available yet\n", 
+            "2022-01-16 04:56:02,905 [cuckoo.core.scheduler] DEBUG: Task #2651122: no machine available yet\n", 
+            "2022-01-16 04:56:12,948 [cuckoo.core.scheduler] DEBUG: Task #2651122: no machine available yet\n", 
+            "2022-01-16 04:56:22,975 [cuckoo.core.scheduler] DEBUG: Task #2651122: no machine available yet\n", 
+            "2022-01-16 04:56:33,098 [cuckoo.core.scheduler] DEBUG: Task #2651122: no machine available yet\n", 
+            "2022-01-16 04:56:43,144 [cuckoo.core.scheduler] DEBUG: Task #2651122: no machine available yet\n", 
+            "2022-01-16 04:56:53,166 [cuckoo.core.scheduler] DEBUG: Task #2651122: no machine available yet\n", 
+            "2022-01-16 04:57:03,204 [cuckoo.core.scheduler] DEBUG: Task #2651122: no machine available yet\n", 
+            "2022-01-16 04:57:13,240 [cuckoo.core.scheduler] DEBUG: Task #2651122: no machine available yet\n", 
+            "2022-01-16 04:57:23,268 [cuckoo.core.scheduler] DEBUG: Task #2651122: no machine available yet\n", 
+            "2022-01-16 04:57:33,296 [cuckoo.core.scheduler] DEBUG: Task #2651122: no machine available yet\n", 
+            "2022-01-16 04:57:43,337 [cuckoo.core.scheduler] DEBUG: Task #2651122: no machine available yet\n", 
+            "2022-01-16 04:57:53,363 [cuckoo.core.scheduler] DEBUG: Task #2651122: no machine available yet\n", 
+            "2022-01-16 04:58:03,384 [cuckoo.core.scheduler] DEBUG: Task #2651122: no machine available yet\n", 
+            "2022-01-16 04:58:13,407 [cuckoo.core.scheduler] DEBUG: Task #2651122: no machine available yet\n", 
+            "2022-01-16 04:58:23,433 [cuckoo.core.scheduler] DEBUG: Task #2651122: no machine available yet\n", 
+            "2022-01-16 04:58:33,546 [cuckoo.core.scheduler] DEBUG: Task #2651122: no machine available yet\n", 
+            "2022-01-16 04:58:43,624 [cuckoo.core.scheduler] DEBUG: Task #2651122: no machine available yet\n", 
+            "2022-01-16 04:58:53,693 [cuckoo.core.scheduler] DEBUG: Task #2651122: no machine available yet\n", 
+            "2022-01-16 04:59:03,742 [cuckoo.core.scheduler] DEBUG: Task #2651122: no machine available yet\n", 
+            "2022-01-16 04:59:13,865 [cuckoo.core.scheduler] DEBUG: Task #2651122: no machine available yet\n", 
+            "2022-01-16 04:59:23,950 [cuckoo.core.scheduler] DEBUG: Task #2651122: no machine available yet\n", 
+            "2022-01-16 04:59:34,062 [cuckoo.core.scheduler] DEBUG: Task #2651122: no machine available yet\n", 
+            "2022-01-16 04:59:44,153 [cuckoo.core.scheduler] DEBUG: Task #2651122: no machine available yet\n", 
+            "2022-01-16 04:59:54,261 [cuckoo.core.scheduler] DEBUG: Task #2651122: no machine available yet\n", 
+            "2022-01-16 05:00:04,340 [cuckoo.core.scheduler] DEBUG: Task #2651122: no machine available yet\n", 
+            "2022-01-16 05:00:14,400 [cuckoo.core.scheduler] DEBUG: Task #2651122: no machine available yet\n", 
+            "2022-01-16 05:00:24,446 [cuckoo.core.scheduler] DEBUG: Task #2651122: no machine available yet\n", 
+            "2022-01-16 05:00:34,491 [cuckoo.core.scheduler] DEBUG: Task #2651122: no machine available yet\n", 
+            "2022-01-16 05:00:44,512 [cuckoo.core.scheduler] DEBUG: Task #2651122: no machine available yet\n", 
+            "2022-01-16 05:00:54,537 [cuckoo.core.scheduler] DEBUG: Task #2651122: no machine available yet\n", 
+            "2022-01-16 05:01:04,562 [cuckoo.core.scheduler] DEBUG: Task #2651122: no machine available yet\n", 
+            "2022-01-16 05:01:14,586 [cuckoo.core.scheduler] INFO: Task #2651122: acquired machine Ubuntu1904x645 (label=Ubuntu1904x645)\n", 
+            "2022-01-16 05:01:14,587 [cuckoo.core.resultserver] DEBUG: Now tracking machine 192.168.168.105 for task #2651122\n", 
+            "2022-01-16 05:01:14,743 [cuckoo.auxiliary.sniffer] INFO: Started sniffer with PID 1897229 (interface=vboxnet0, host=192.168.168.105)\n", 
+            "2022-01-16 05:01:14,921 [cuckoo.machinery.virtualbox] DEBUG: Starting vm Ubuntu1904x645\n", 
+            "2022-01-16 05:01:15,327 [cuckoo.machinery.virtualbox] DEBUG: Restoring virtual machine Ubuntu1904x645 to Snapshot\n", 
+            "2022-01-16 05:01:27,774 [cuckoo.core.guest] INFO: Starting analysis #2651122 on guest (id=Ubuntu1904x645, ip=192.168.168.105)\n", 
+            "2022-01-16 05:01:28,778 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: not ready yet\n", 
+            "2022-01-16 05:01:33,796 [cuckoo.core.guest] INFO: Guest is running Cuckoo Agent 0.10 (id=Ubuntu1904x645, ip=192.168.168.105)\n", 
+            "2022-01-16 05:01:33,809 [cuckoo.core.guest] DEBUG: Uploading analyzer to guest (id=Ubuntu1904x645, ip=192.168.168.105, monitor=latest, size=72028)\n", 
+            "2022-01-16 05:01:34,963 [cuckoo.core.resultserver] DEBUG: Task #2651122: live log analysis.log initialized.\n", 
+            "2022-01-16 05:01:40,157 [cuckoo.core.resultserver] DEBUG: Task #2651122: File upload for 'shots/0001.jpg'\n", 
+            "2022-01-16 05:01:40,164 [cuckoo.core.resultserver] DEBUG: Task #2651122 uploaded file length: 171577\n", 
+            "2022-01-16 05:01:48,936 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2651122 still processing\n", 
+            "2022-01-16 05:01:51,393 [cuckoo.core.resultserver] DEBUG: Task #2651122: File upload for 'logs/all.stap'\n", 
+            "2022-01-16 05:01:51,397 [cuckoo.core.resultserver] DEBUG: Task #2651122 uploaded file length: 20168\n", 
+            "2022-01-16 05:02:04,011 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2651122 still processing\n", 
+            "2022-01-16 05:02:19,078 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2651122 still processing\n", 
+            "2022-01-16 05:02:34,143 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2651122 still processing\n", 
+            "2022-01-16 05:02:49,214 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2651122 still processing\n", 
+            "2022-01-16 05:03:04,275 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2651122 still processing\n", 
+            "2022-01-16 05:03:19,340 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2651122 still processing\n", 
+            "2022-01-16 05:03:34,410 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2651122 still processing\n", 
+            "2022-01-16 05:03:49,488 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2651122 still processing\n", 
+            "2022-01-16 05:04:04,561 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2651122 still processing\n", 
+            "2022-01-16 05:04:19,659 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2651122 still processing\n", 
+            "2022-01-16 05:04:34,752 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2651122 still processing\n", 
+            "2022-01-16 05:04:49,813 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2651122 still processing\n", 
+            "2022-01-16 05:05:04,908 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2651122 still processing\n", 
+            "2022-01-16 05:05:19,969 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2651122 still processing\n", 
+            "2022-01-16 05:05:35,020 [cuckoo.core.guest] INFO: Ubuntu1904x645: end of analysis reached!\n", 
+            "2022-01-16 05:05:35,028 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Redsocks\n", 
+            "2022-01-16 05:05:35,093 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Sniffer\n", 
+            "2022-01-16 05:05:52,746 [cuckoo.machinery.virtualbox] INFO: Successfully generated memory dump for virtual machine with label Ubuntu1904x645 to path /srv/cuckoo/cwd/storage/analyses/2651122/memory.dmp\n", 
+            "2022-01-16 05:05:52,748 [cuckoo.machinery.virtualbox] DEBUG: Stopping vm Ubuntu1904x645\n", 
+            "2022-01-16 05:05:56,620 [cuckoo.core.resultserver] DEBUG: Stopped tracking machine 192.168.168.105 for task #2651122\n", 
+            "2022-01-16 05:05:56,624 [cuckoo.core.resultserver] DEBUG: Cancel <Context for LOG> for task 2651122\n", 
+            "2022-01-16 05:05:56,777 [cuckoo.core.scheduler] DEBUG: Released database task #2651122\n", 
+            "2022-01-16 05:05:57,057 [cuckoo.core.scheduler] INFO: Task #2651122: analysis procedure completed\n"
+        ]
+    }, 
+    "strings": [
+        "__gmon_start__", 
+        "__cxa_finalize", 
+        "_Jv_RegisterClasses", 
+        "__nss_database_lookup", 
+        "__nss_lookup_function", 
+        "fclose", 
+        "_nss_compat_endgrent", 
+        "__pthread_mutex_lock", 
+        "__pthread_mutex_unlock", 
+        "rewind", 
+        "fileno_unlocked", 
+        "__fsetlocking", 
+        "__errno_location", 
+        "_nss_compat_setgrent", 
+        "stpcpy", 
+        "strstr", 
+        "strlen", 
+        "malloc", 
+        "realloc", 
+        "_nss_compat_getgrgid_r", 
+        "fgetpos", 
+        "fgets_unlocked", 
+        "__ctype_b_loc", 
+        "_nss_files_parse_grent", 
+        "fsetpos", 
+        "_nss_compat_getgrnam_r", 
+        "strcmp", 
+        "memcpy", 
+        "_nss_compat_getgrent_r", 
+        "__internal_endnetgrent", 
+        "_nss_compat_endpwent", 
+        "_nss_compat_setpwent", 
+        "strcpy", 
+        "__strdup", 
+        "_nss_files_parse_pwent", 
+        "innetgr", 
+        "_nss_compat_getpwuid_r", 
+        "memset", 
+        "_nss_compat_getpwnam_r", 
+        "yp_get_default_domain", 
+        "__internal_getnetgrent_r", 
+        "__internal_setnetgrent", 
+        "_nss_compat_getpwent_r", 
+        "_nss_compat_endspent", 
+        "_nss_compat_setspent", 
+        "_nss_compat_getspnam_r", 
+        "_nss_files_parse_spent", 
+        "_nss_compat_getspent_r", 
+        "_nss_compat_initgroups_dyn", 
+        "sysconf", 
+        "libnsl.so.1", 
+        "libc.so.6", 
+        "libnss_compat.so.2", 
+        "GLIBC_PRIVATE", 
+        "GLIBC_2.0", 
+        "GLIBC_2.3", 
+        "GLIBC_2.1.3", 
+        "GLIBC_2.1", 
+        "GLIBC_2.2", 
+        "group_compat", 
+        "setgrent", 
+        "getgrnam_r", 
+        "getgrgid_r", 
+        "getgrent_r", 
+        "endgrent", 
+        "/etc/group", 
+        "passwd_compat", 
+        "setpwent", 
+        "getpwnam_r", 
+        "getpwuid_r", 
+        "getpwent_r", 
+        "endpwent", 
+        "/etc/passwd", 
+        "shadow_compat", 
+        "setspent", 
+        "getspnam_r", 
+        "getspent_r", 
+        "endspent", 
+        "/etc/shadow", 
+        "initgroups_dyn", 
+        "/lib/ld-linux.so.2", 
+        "libnss_compat-2.3.6.so", 
+        ".shstrtab", 
+        ".note.ABI-tag", 
+        ".dynsym", 
+        ".dynstr", 
+        ".gnu.version", 
+        ".gnu.version_d", 
+        ".gnu.version_r", 
+        ".rela.dyn", 
+        ".rela.plt", 
+        ".rodata", 
+        ".interp", 
+        ".eh_frame", 
+        ".ctors", 
+        ".dtors", 
+        ".dynamic", 
+        ".gnu_debuglink"
+    ], 
+    "metadata": {
+        "output": {
+            "pcap": {
+                "basename": "dump.pcap", 
+                "sha256": "e72b3b341af512b612f06155745003aa2f124b1020733be3c85df0eb31505417", 
+                "dirname": ""
+            }
+        }
+    }
+}
