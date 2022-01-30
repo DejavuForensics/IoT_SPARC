@@ -1,0 +1,654 @@
+{
+    "info": {
+        "added": 1642281321.773416, 
+        "started": 1642317826.802581, 
+        "duration": 256, 
+        "ended": 1642318083.259603, 
+        "owner": null, 
+        "score": 0.0, 
+        "id": 2651496, 
+        "category": "file", 
+        "git": {
+            "head": "", 
+            "fetch_head": ""
+        }, 
+        "monitor": null, 
+        "package": "elf", 
+        "route": "internet", 
+        "custom": null, 
+        "machine": {
+            "status": "stopped", 
+            "name": "Ubuntu1904x645", 
+            "label": "Ubuntu1904x645", 
+            "platform": "linux", 
+            "manager": "VirtualBox", 
+            "started_on": "2022-01-16 07:24:48", 
+            "shutdown_on": "2022-01-16 07:28:02"
+        }, 
+        "platform": "linux", 
+        "version": "2.0.7", 
+        "options": "procmemdump=yes,route=internet"
+    }, 
+    "signatures": [], 
+    "target": {
+        "category": "file", 
+        "file": {
+            "mimetype": "application/x-object", 
+            "yara": [], 
+            "sha1": "f279a2bf219a0df356b6474da877de52bad0e18a", 
+            "name": "ppp_async.ko", 
+            "type": "ELF 32-bit MSB relocatable, SPARC, version 1 (SYSV), not stripped", 
+            "sha256": "6f3a810a917e26f290d8f8cdd386a7584307cfb99e60dc2014b78441b71c5a6a", 
+            "urls": [], 
+            "crc32": "453DCEBA", 
+            "path": "/srv/cuckoo/cwd/storage/binaries/6f3a810a917e26f290d8f8cdd386a7584307cfb99e60dc2014b78441b71c5a6a", 
+            "ssdeep": null, 
+            "size": 17004, 
+            "sha512": "7698d9ca66cdee2ff5426d15f02077168fb10dfc57524de442344ac1577b5acef247a497fe262741cc4e7ae8a55f16ddf30e16368de87183bb111cbbe2e79fac", 
+            "md5": "1936659f825fb9919c3f766d2fb66e57"
+        }, 
+        "custom": null
+    }, 
+    "irma": {
+        "status": 0, 
+        "probes_finished": 16, 
+        "scan_id": "120c1836-190b-45c9-b9ec-9777d2e01914", 
+        "parent_file_sha256": null, 
+        "name": "6f3a810a917e26f290d8f8cdd386a7584307cfb99e60dc2014b78441b71c5a6a", 
+        "probes_total": 16, 
+        "scan_date": 1642310884, 
+        "other_results": [], 
+        "submitter": "cli", 
+        "file_infos": {
+            "mimetype": "ELF 32-bit MSB relocatable, SPARC, version 1 (SYSV)", 
+            "sha1": "f279a2bf219a0df356b6474da877de52bad0e18a", 
+            "tags": [], 
+            "timestamp_first_scan": 1642310883.69, 
+            "timestamp_last_scan": 1642310892.82, 
+            "sha256": "6f3a810a917e26f290d8f8cdd386a7584307cfb99e60dc2014b78441b71c5a6a", 
+            "md5": "1936659f825fb9919c3f766d2fb66e57", 
+            "size": 17004
+        }, 
+        "probe_results": {
+            "antivirus": {
+                "Avast Core Security (Linux)": {
+                    "status": 0, 
+                    "duration": 0.01, 
+                    "version": "3.0.3", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "F-Secure Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 5.58, 
+                    "version": "11.10", 
+                    "results": null, 
+                    "virus_database_version": "2022-01-13_04"
+                }, 
+                "Windows Defender (Windows)": {
+                    "status": 0, 
+                    "duration": 0.05, 
+                    "version": "1.1.18800.4", 
+                    "results": null, 
+                    "virus_database_version": "1.355.1049.0"
+                }, 
+                "Comodo Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 2.1, 
+                    "version": "1.1.268025.1", 
+                    "results": null, 
+                    "virus_database_version": "2021-11-02"
+                }, 
+                "Kaspersky Antivirus (Win)": {
+                    "status": 0, 
+                    "duration": 2.74, 
+                    "version": "21.3", 
+                    "results": null, 
+                    "virus_database_version": "2022-01-04 05:53:00 (full)"
+                }, 
+                "ESET NOD32 Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 4.26, 
+                    "version": "4.0.96", 
+                    "results": null, 
+                    "virus_database_version": "6178ebd0-1e722 (2021-10-27)"
+                }, 
+                "GData (Windows)": {
+                    "status": 0, 
+                    "duration": 0.2, 
+                    "version": "5.5.20197.1358", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Forticlient (Linux)": {
+                    "status": 0, 
+                    "duration": 3.03, 
+                    "version": "unavailable", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Avira (Windows)": {
+                    "status": 0, 
+                    "duration": 3.94, 
+                    "version": "8.3.64.66", 
+                    "results": null, 
+                    "virus_database_version": "8.19.1.122"
+                }, 
+                "eScan Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 4.0, 
+                    "version": "7.0.21", 
+                    "results": null, 
+                    "virus_database_version": "7.90035 (27/10/2021)"
+                }, 
+                "McAfee CLI scanner (Linux)": {
+                    "status": 0, 
+                    "duration": 5.82, 
+                    "version": "6.0.6.653", 
+                    "results": null, 
+                    "virus_database_version": "10149"
+                }, 
+                "Sophos Anti-Virus (Linux)": {
+                    "status": 0, 
+                    "duration": 6.69, 
+                    "version": "5.85.0", 
+                    "results": null, 
+                    "virus_database_version": "5.88 (26 October 2021)"
+                }, 
+                "DrWeb Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.2, 
+                    "version": "11.1.10.2108031732", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "ClamAV (Linux)": {
+                    "status": 0, 
+                    "duration": 0.02, 
+                    "version": "0.103.2", 
+                    "results": null, 
+                    "virus_database_version": "26334"
+                }, 
+                "Bitdefender Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 6.23, 
+                    "version": "7.90123", 
+                    "results": null, 
+                    "virus_database_version": null
+                }, 
+                "Emsisoft Commandline Scanner (Windows)": {
+                    "status": 0, 
+                    "duration": 0.22, 
+                    "version": "2021.10.0.11201", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }
+            }
+        }, 
+        "path": "", 
+        "result_id": "9245c719-7dc7-4d5b-8ee2-9e98f6cb7a87", 
+        "file_sha256": "6f3a810a917e26f290d8f8cdd386a7584307cfb99e60dc2014b78441b71c5a6a"
+    }, 
+    "suricata": {
+        "tls": [
+            {
+                "src_ip": "192.168.168.105", 
+                "version": "TLS 1.2", 
+                "src_port": 43782, 
+                "dst_port": 443, 
+                "timestamp": "2022-01-16T07:25:18.083959+0200", 
+                "dst_ip": "91.189.92.38", 
+                "fingerprint": "97:63:1b:60:eb:d1:fa:4f:a4:fc:fa:98:66:3d:ee:22:fb:78:ce:c1", 
+                "subject": "C=GB, L=London, O=Canonical Group Ltd, CN=api.snapcraft.io", 
+                "issuer": "C=US, O=DigiCert Inc, CN=DigiCert TLS RSA SHA256 2020 CA1"
+            }
+        ], 
+        "files": [], 
+        "alerts": [], 
+        "http": []
+    }, 
+    "virustotal": {
+        "summary": {
+            "error": "resource has not been scanned yet"
+        }
+    }, 
+    "network": {
+        "udp": [], 
+        "dns_servers": [], 
+        "http": [], 
+        "smtp": [], 
+        "tcp": [], 
+        "geoinfo": {}, 
+        "mitm": [], 
+        "https_ex": [], 
+        "http_ex": [], 
+        "sorted_pcap_sha256": "245ead45392817c5c32f0758183dcd9f168bb2c2750364d00dc13d2b37d64cc0", 
+        "icmp": [], 
+        "tls": [], 
+        "dead_hosts": [], 
+        "smtp_ex": [], 
+        "hosts": [], 
+        "pcap_sha256": "d43be4f4a938af49ca66a618b69f8085bd4d94bfecbf98ac86036e1cc8066b5d", 
+        "dns": [], 
+        "domains": [], 
+        "irc": []
+    }, 
+    "resubmit": {
+        "resubmit_ids": []
+    }, 
+    "snort": {
+        "alerts": []
+    }, 
+    "behavior": {
+        "generic": [
+            {
+                "process_path": null, 
+                "process_name": "sh", 
+                "pid": 2074, 
+                "summary": {}, 
+                "first_seen": 1642281329.189334, 
+                "ppid": -1
+            }
+        ], 
+        "processes": [
+            {
+                "calls": [
+                    {
+                        "status": "ENOEXEC", 
+                        "process_name": "sh", 
+                        "pid": 2074, 
+                        "raw": "Sat Jan 15 21:15:29 2022.189334 sh@7f68863a0957[2074] execve(\"/tmp/ppp_async.ko\", [\"/tmp/ppp_async.ko\"], [\"SUDO_GID=0\", \"MAIL=/var/mail/root\", \"USER=root\", \"HOME=/root\", \"SUDO_UID=0\", \"LOGNAME=root\", \"SYSTEMTAP_MODULE=stap_\", \"TERM=unknown\", \"SYSTEMTAP_VERBOSE=2\", \"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin\", \"DISPLAY=:0\", \"LANG=en_US.UTF-8\", \"XAUTHORITY=/root/.Xauthority\", \"SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/ppp_async.ko\", \"SHELL=/bin/bash\", \"SUDO_USER=root\", \"PWD=/tmp/tmpLxpUVx\"]) = -8 (ENOEXEC)\n", 
+                        "api": "execve", 
+                        "return_value": "-8", 
+                        "category": "process", 
+                        "instruction_pointer": "7f68863a0957", 
+                        "arguments": {
+                            "p2": [
+                                "SUDO_GID=0", 
+                                "MAIL=/var/mail/root", 
+                                "USER=root", 
+                                "HOME=/root", 
+                                "SUDO_UID=0", 
+                                "LOGNAME=root", 
+                                "SYSTEMTAP_MODULE=stap_", 
+                                "TERM=unknown", 
+                                "SYSTEMTAP_VERBOSE=2", 
+                                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin", 
+                                "DISPLAY=:0", 
+                                "LANG=en_US.UTF-8", 
+                                "XAUTHORITY=/root/.Xauthority", 
+                                "SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/ppp_async.ko", 
+                                "SHELL=/bin/bash", 
+                                "SUDO_USER=root", 
+                                "PWD=/tmp/tmpLxpUVx"
+                            ], 
+                            "p0": "/tmp/ppp_async.ko", 
+                            "p1": [
+                                "/tmp/ppp_async.ko"
+                            ]
+                        }, 
+                        "time": 1642281329.189334
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 2074, 
+                        "raw": "Sat Jan 15 21:15:29 2022.197398 sh@7f68863cbcce[2074] openat(AT_FDCWD, \"/tmp/ppp_async.ko\", O_RDONLY|O_NOCTTY) = 3\n", 
+                        "api": "openat", 
+                        "return_value": "3", 
+                        "category": "process", 
+                        "instruction_pointer": "7f68863cbcce", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_NOCTTY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/tmp/ppp_async.ko"
+                        }, 
+                        "time": 1642281329.197398
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 2074, 
+                        "raw": "Sat Jan 15 21:15:29 2022.197437 sh@7f68863cbf81[2074] read(3, 0x7ffddfcbfa10, 128) = 128\n", 
+                        "api": "read", 
+                        "return_value": "128", 
+                        "category": "process", 
+                        "instruction_pointer": "7f68863cbf81", 
+                        "arguments": {
+                            "p2": "128", 
+                            "p0": "3", 
+                            "p1": "0x7ffddfcbfa10"
+                        }, 
+                        "time": 1642281329.197437
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 2074, 
+                        "raw": "Sat Jan 15 21:15:29 2022.197471 sh@7f68863cc674[2074] close(3) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f68863cc674", 
+                        "arguments": {
+                            "p0": "3"
+                        }, 
+                        "time": 1642281329.197471
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 2074, 
+                        "raw": "Sat Jan 15 21:15:29 2022.197547 sh@7f68863cc024[2074] write(2, \"sh: 1: \", 7) = 7\n", 
+                        "api": "write", 
+                        "return_value": "7", 
+                        "category": "process", 
+                        "instruction_pointer": "7f68863cc024", 
+                        "arguments": {
+                            "p2": "7", 
+                            "p0": "2", 
+                            "p1": "sh: 1: "
+                        }, 
+                        "time": 1642281329.197547
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 2074, 
+                        "raw": "Sat Jan 15 21:15:29 2022.197587 sh@7f68863cc024[2074] write(2, \"/tmp/ppp_async.ko: Exec format error\", 36) = 36\n", 
+                        "api": "write", 
+                        "return_value": "36", 
+                        "category": "process", 
+                        "instruction_pointer": "7f68863cc024", 
+                        "arguments": {
+                            "p2": "36", 
+                            "p0": "2", 
+                            "p1": "/tmp/ppp_async.ko: Exec format error"
+                        }, 
+                        "time": 1642281329.197587
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 2074, 
+                        "raw": "Sat Jan 15 21:15:29 2022.197618 sh@7f68863cc024[2074] write(2, \"\\n\", 1) = 1\n", 
+                        "api": "write", 
+                        "return_value": "1", 
+                        "category": "process", 
+                        "instruction_pointer": "7f68863cc024", 
+                        "arguments": {
+                            "p2": "1", 
+                            "p0": "2", 
+                            "p1": "\n"
+                        }, 
+                        "time": 1642281329.197618
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 2074, 
+                        "raw": "Sat Jan 15 21:15:29 2022.197652 sh@7f68863a0926[2074] exit_group(2)\n", 
+                        "api": "exit_group", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7f68863a0926", 
+                        "arguments": {
+                            "p0": "2"
+                        }, 
+                        "time": 1642281329.197652
+                    }
+                ], 
+                "pid": 2074, 
+                "process_name": "sh", 
+                "command_line": "", 
+                "first_seen": 1642281329.189334, 
+                "ppid": -1, 
+                "type": "process"
+            }
+        ], 
+        "processtree": [
+            {
+                "track": true, 
+                "pid": 2074, 
+                "process_name": "sh", 
+                "command_line": "", 
+                "first_seen": 1642281329.189334, 
+                "ppid": -1, 
+                "children": []
+            }
+        ]
+    }, 
+    "debug": {
+        "action": [], 
+        "dbgview": [], 
+        "errors": [], 
+        "log": [
+            "2022-01-15 21:15:21,004 [root] DEBUG: Starting analyzer from: /tmp/tmpLxpUVx\n", 
+            "2022-01-15 21:15:21,004 [root] DEBUG: Storing results at: /tmp/WRLFsdqD\n", 
+            "2022-01-15 21:15:23,170 [modules.auxiliary.filecollector] INFO: FileCollector started v0.08\n", 
+            "2022-01-15 21:15:23,174 [modules.auxiliary.human] INFO: Human started v0.02\n", 
+            "2022-01-15 21:15:23,676 [modules.auxiliary.screenshots] INFO: Screenshots started v0.03\n", 
+            "2022-01-15 21:15:29,188 [lib.core.packages] INFO: Process startup took 5.51 seconds\n", 
+            "2022-01-15 21:15:29,190 [root] INFO: Added new process to list with pid: 2064\n", 
+            "2022-01-15 21:15:38,206 [root] INFO: Process with pid 2064 has terminated\n", 
+            "2022-01-15 21:15:38,207 [root] INFO: Process list is empty, terminating analysis.\n", 
+            "2022-01-15 21:15:41,211 [lib.core.packages] INFO: Package requested stop\n", 
+            "2022-01-15 21:15:41,212 [lib.core.packages] WARNING: Exception uploading log: [Errno 3] No such process\n", 
+            "2022-01-15 21:17:05,002 [root] INFO: Terminating remaining processes before shutdown.\n", 
+            "2022-01-15 21:17:05,004 [root] INFO: Analysis completed.\n"
+        ], 
+        "cuckoo": [
+            "2022-01-16 07:23:47,192 [cuckoo.core.scheduler] DEBUG: Task #2651496: no machine available yet\n", 
+            "2022-01-16 07:23:57,219 [cuckoo.core.scheduler] DEBUG: Task #2651496: no machine available yet\n", 
+            "2022-01-16 07:24:07,245 [cuckoo.core.scheduler] DEBUG: Task #2651496: no machine available yet\n", 
+            "2022-01-16 07:24:17,267 [cuckoo.core.scheduler] DEBUG: Task #2651496: no machine available yet\n", 
+            "2022-01-16 07:24:27,301 [cuckoo.core.scheduler] DEBUG: Task #2651496: no machine available yet\n", 
+            "2022-01-16 07:24:37,334 [cuckoo.core.scheduler] DEBUG: Task #2651496: no machine available yet\n", 
+            "2022-01-16 07:24:47,367 [cuckoo.core.scheduler] INFO: Task #2651496: acquired machine Ubuntu1904x645 (label=Ubuntu1904x645)\n", 
+            "2022-01-16 07:24:47,369 [cuckoo.core.resultserver] DEBUG: Now tracking machine 192.168.168.105 for task #2651496\n", 
+            "2022-01-16 07:24:47,538 [cuckoo.auxiliary.sniffer] INFO: Started sniffer with PID 1600293 (interface=vboxnet0, host=192.168.168.105)\n", 
+            "2022-01-16 07:24:48,573 [cuckoo.machinery.virtualbox] DEBUG: Starting vm Ubuntu1904x645\n", 
+            "2022-01-16 07:24:49,009 [cuckoo.machinery.virtualbox] DEBUG: Restoring virtual machine Ubuntu1904x645 to Snapshot\n", 
+            "2022-01-16 07:24:58,182 [cuckoo.core.guest] INFO: Starting analysis #2651496 on guest (id=Ubuntu1904x645, ip=192.168.168.105)\n", 
+            "2022-01-16 07:24:59,186 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: not ready yet\n", 
+            "2022-01-16 07:25:04,204 [cuckoo.core.guest] INFO: Guest is running Cuckoo Agent 0.10 (id=Ubuntu1904x645, ip=192.168.168.105)\n", 
+            "2022-01-16 07:25:04,219 [cuckoo.core.guest] DEBUG: Uploading analyzer to guest (id=Ubuntu1904x645, ip=192.168.168.105, monitor=latest, size=72028)\n", 
+            "2022-01-16 07:25:04,446 [cuckoo.core.resultserver] DEBUG: Task #2651496: live log analysis.log initialized.\n", 
+            "2022-01-16 07:25:09,691 [cuckoo.core.resultserver] DEBUG: Task #2651496: File upload for 'shots/0001.jpg'\n", 
+            "2022-01-16 07:25:09,841 [cuckoo.core.resultserver] DEBUG: Task #2651496 uploaded file length: 171554\n", 
+            "2022-01-16 07:25:19,682 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2651496 still processing\n", 
+            "2022-01-16 07:25:24,619 [cuckoo.core.resultserver] DEBUG: Task #2651496: File upload for 'logs/all.stap'\n", 
+            "2022-01-16 07:25:24,622 [cuckoo.core.resultserver] DEBUG: Task #2651496 uploaded file length: 1192\n", 
+            "2022-01-16 07:25:34,808 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2651496 still processing\n", 
+            "2022-01-16 07:25:49,878 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2651496 still processing\n", 
+            "2022-01-16 07:26:05,029 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2651496 still processing\n", 
+            "2022-01-16 07:26:20,135 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2651496 still processing\n", 
+            "2022-01-16 07:26:35,263 [cuckoo.core.guest] DEBUG: Ubuntu1904x645: analysis #2651496 still processing\n", 
+            "2022-01-16 07:26:50,392 [cuckoo.core.guest] INFO: Ubuntu1904x645: analysis completed successfully\n", 
+            "2022-01-16 07:26:50,402 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Redsocks\n", 
+            "2022-01-16 07:26:50,473 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Sniffer\n", 
+            "2022-01-16 07:27:03,846 [cuckoo.machinery.virtualbox] INFO: Successfully generated memory dump for virtual machine with label Ubuntu1904x645 to path /srv/cuckoo/cwd/storage/analyses/2651496/memory.dmp\n", 
+            "2022-01-16 07:27:03,850 [cuckoo.machinery.virtualbox] DEBUG: Stopping vm Ubuntu1904x645\n", 
+            "2022-01-16 07:28:02,244 [cuckoo.core.resultserver] DEBUG: Stopped tracking machine 192.168.168.105 for task #2651496\n", 
+            "2022-01-16 07:28:02,677 [cuckoo.core.scheduler] DEBUG: Released database task #2651496\n", 
+            "2022-01-16 07:28:03,132 [cuckoo.core.scheduler] INFO: Task #2651496: analysis procedure completed\n"
+        ]
+    }, 
+    "strings": [
+        "__skb_trim", 
+        "<3>failed to unregister PPP line discipline", 
+        "<3>PPP_async: error %d registering line disc.", 
+        "BUG: warning at %s:%d/%s()", 
+        "include/linux/skbuff.h", 
+        "<3>PPPasync: no memory (input pkt)", 
+        "parmtype=flag_time:int", 
+        "parm=flag_time:ppp_async: interval between flagged packets (in clock ticks)", 
+        "license=GPL", 
+        "alias=tty-ldisc-3", 
+        "vermagic=2.6.18-6-sparc32 mod_unload gcc-4.1", 
+        "depends=ppp_generic,crc-ccitt", 
+        "xk\\{struct_module", 
+        "param_get_int", 
+        "oFparam_set_int", 
+        "ulocal_irq_restore", 
+        "Lstop_tty", 
+        "KMstart_tty", 
+        "L_skb_queue_tail", 
+        "skb_under_panic", 
+        "do_BUG", 
+        "`dump_stack", 
+        "s__memcpy", 
+        "[skb_over_panic", 
+        "!Ql(__alloc_skb", 
+        "cmemcpy", 
+        "6__copy_user", 
+        "n_tty_ioctl", 
+        "\u001fppp_unit_number", 
+        "~%ppp_channel_index", 
+        "8ppp_output_wakeup", 
+        "xskb_dequeue", 
+        "ppp_input", 
+        "`kdqppp_input_error", 
+        "ppp_register_channel", 
+        "init_waitqueue_head", 
+        "atomic_set", 
+        "tasklet_init", 
+        "c__bzero", 
+        "Skmem_cache_alloc", 
+        "malloc_sizes", 
+        "skb_queue_purge", 
+        "ppp_unregister_channel", 
+        "\"Ktasklet_kill", 
+        "__down", 
+        "___atomic24_sub", 
+        "local_irq_enable", 
+        "__local_irq_save", 
+        "local_bh_enable", 
+        "kfree_skb", 
+        "hjiffies", 
+        "local_bh_disable", 
+        "__tasklet_schedule", 
+        ";___set_bit", 
+        "___clear_bit", 
+        "___atomic24_add", 
+        "__atomic_add_return", 
+        "CYtty_register_ldisc", 
+        "\"aprintk", 
+        "<tty_unregister_ldisc", 
+        "crc_ccitt_table", 
+        "flag_time", 
+        "ppp_async", 
+        "GCC: (GNU) 4.1.2 20061115 (prerelease) (Debian 4.1.1-21)", 
+        "GCC: (GNU) 4.1.2 20061115 (prerelease) (Debian 4.1.1-21)", 
+        ".symtab", 
+        ".strtab", 
+        ".shstrtab", 
+        ".rela.text", 
+        ".rela.exit.text", 
+        ".rela.init.text", 
+        ".rela.fixup", 
+        ".rodata", 
+        ".rodata.str1.8", 
+        ".rela__ex_table", 
+        ".rela__param", 
+        ".modinfo", 
+        "__versions", 
+        ".rela.data", 
+        ".rela.gnu.linkonce.this_module", 
+        ".comment", 
+        ".note.GNU-stack", 
+        "ppp_async.c", 
+        "ppp_asynctty_read", 
+        "ppp_asynctty_write", 
+        "ppp_asynctty_poll", 
+        "async_lcp_peek", 
+        "ppp_async_cleanup", 
+        "ppp_async_init", 
+        "ppp_ldisc", 
+        "ap_put", 
+        "ap_get", 
+        "ppp_asynctty_wakeup", 
+        "ppp_async_push", 
+        "flag_time", 
+        "ppp_async_send", 
+        "ppp_asynctty_close", 
+        "ppp_asynctty_hangup", 
+        "ppp_asynctty_open", 
+        "ppp_async_process", 
+        "async_ops", 
+        "ppp_asynctty_ioctl", 
+        "ppp_async_ioctl", 
+        "ppp_asynctty_receive", 
+        "__func__.16433", 
+        "__param_flag_time", 
+        "__param_str_flag_time", 
+        "__mod_flag_timetype89", 
+        "__mod_flag_time90", 
+        "__mod_license91", 
+        "__mod_alias92", 
+        "ppp_async.mod.c", 
+        "__mod_vermagic5", 
+        "____versions", 
+        "__module_depends", 
+        "___set_bit", 
+        "___atomic24_sub", 
+        "tty_register_ldisc", 
+        "ppp_channel_index", 
+        "__this_module", 
+        "ppp_register_channel", 
+        "skb_dequeue", 
+        "___clear_bit", 
+        "ppp_input", 
+        "cleanup_module", 
+        "memcpy", 
+        "__atomic_add_return", 
+        "__bzero", 
+        "__down", 
+        "init_waitqueue_head", 
+        "init_module", 
+        "stop_tty", 
+        "skb_under_panic", 
+        "local_bh_enable", 
+        "dump_stack", 
+        "ppp_input_error", 
+        "kfree_skb", 
+        "__alloc_skb", 
+        "kmem_cache_alloc", 
+        "local_bh_disable", 
+        "skb_queue_tail", 
+        "skb_over_panic", 
+        "tasklet_kill", 
+        "tasklet_init", 
+        "local_irq_restore", 
+        "__tasklet_schedule", 
+        "printk", 
+        "__memcpy", 
+        "___atomic24_add", 
+        "skb_queue_purge", 
+        "ppp_output_wakeup", 
+        "__copy_user", 
+        "__local_irq_save", 
+        "jiffies", 
+        "tty_unregister_ldisc", 
+        "param_set_int", 
+        "ppp_unregister_channel", 
+        "crc_ccitt_table", 
+        "malloc_sizes", 
+        "ppp_unit_number", 
+        "param_get_int", 
+        "start_tty", 
+        "n_tty_ioctl", 
+        "local_irq_enable", 
+        "do_BUG", 
+        "atomic_set"
+    ], 
+    "metadata": {
+        "output": {
+            "pcap": {
+                "basename": "dump.pcap", 
+                "sha256": "d43be4f4a938af49ca66a618b69f8085bd4d94bfecbf98ac86036e1cc8066b5d", 
+                "dirname": ""
+            }
+        }
+    }
+}
