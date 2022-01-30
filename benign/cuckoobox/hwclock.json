@@ -1,0 +1,3205 @@
+{
+    "info": {
+        "added": 1642276806.447608, 
+        "started": 1642283516.60028, 
+        "duration": 1593, 
+        "ended": 1642285110.297271, 
+        "owner": null, 
+        "score": 0.0, 
+        "id": 2650580, 
+        "category": "file", 
+        "git": {
+            "head": "", 
+            "fetch_head": ""
+        }, 
+        "monitor": null, 
+        "package": "elf", 
+        "route": "internet", 
+        "custom": null, 
+        "machine": {
+            "status": "stopped", 
+            "name": "Ubuntu1904x643", 
+            "label": "Ubuntu1904x643", 
+            "platform": "linux", 
+            "manager": "VirtualBox", 
+            "started_on": "2022-01-15 22:12:58", 
+            "shutdown_on": "2022-01-15 22:18:13"
+        }, 
+        "platform": "linux", 
+        "version": "2.0.7", 
+        "options": "procmemdump=yes,route=internet"
+    }, 
+    "signatures": [], 
+    "target": {
+        "category": "file", 
+        "file": {
+            "mimetype": "application/x-executable", 
+            "yara": [], 
+            "sha1": "6e3ebaaa554db6d0b40c5511e2855434f6ca7f17", 
+            "name": "hwclock", 
+            "type": "ELF 32-bit MSB executable, SPARC, version 1 (SYSV), dynamically linked, interpreter /lib/ld-linux.so.2, for GNU/Linux 2.4.1, stripped", 
+            "sha256": "700eb65e238941398c063bceb1a292c88246ef93d42ae45e7c01c188e2c84da7", 
+            "urls": [], 
+            "crc32": "DC4C7011", 
+            "path": "/srv/cuckoo/cwd/storage/binaries/700eb65e238941398c063bceb1a292c88246ef93d42ae45e7c01c188e2c84da7", 
+            "ssdeep": null, 
+            "size": 27288, 
+            "sha512": "a39a0f1405e2d0d8d4639ab72b6d1e51134cebac9c7aeb196f54e568a9fb86d10019bf6bbf3062ff9ddca7d164bfa84b061e5a270aec9728243ff95688b0c131", 
+            "md5": "348078641643c255131e309ab5c3b840"
+        }, 
+        "custom": null
+    }, 
+    "irma": {
+        "status": 0, 
+        "probes_finished": 16, 
+        "scan_id": "53baa975-1080-4da9-acea-1957a68886ca", 
+        "parent_file_sha256": null, 
+        "name": "700eb65e238941398c063bceb1a292c88246ef93d42ae45e7c01c188e2c84da7", 
+        "probes_total": 16, 
+        "scan_date": 1642277912, 
+        "other_results": [], 
+        "submitter": "cli", 
+        "file_infos": {
+            "mimetype": "ELF 32-bit MSB executable, SPARC, version 1 (SYSV)", 
+            "sha1": "6e3ebaaa554db6d0b40c5511e2855434f6ca7f17", 
+            "tags": [], 
+            "timestamp_first_scan": 1642277911.66, 
+            "timestamp_last_scan": 1642277920.54, 
+            "sha256": "700eb65e238941398c063bceb1a292c88246ef93d42ae45e7c01c188e2c84da7", 
+            "md5": "348078641643c255131e309ab5c3b840", 
+            "size": 27288
+        }, 
+        "probe_results": {
+            "antivirus": {
+                "Avast Core Security (Linux)": {
+                    "status": 0, 
+                    "duration": 0.01, 
+                    "version": "3.0.3", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "F-Secure Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.02, 
+                    "version": "11.10", 
+                    "results": null, 
+                    "virus_database_version": "2022-01-13_04"
+                }, 
+                "Windows Defender (Windows)": {
+                    "status": 0, 
+                    "duration": 0.05, 
+                    "version": "1.1.18800.4", 
+                    "results": null, 
+                    "virus_database_version": "1.355.1049.0"
+                }, 
+                "Comodo Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 2.11, 
+                    "version": "1.1.268025.1", 
+                    "results": null, 
+                    "virus_database_version": "2021-11-02"
+                }, 
+                "Kaspersky Antivirus (Win)": {
+                    "status": 0, 
+                    "duration": 2.64, 
+                    "version": "21.3", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "ESET NOD32 Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 4.29, 
+                    "version": "4.0.96", 
+                    "results": null, 
+                    "virus_database_version": "6178ebd0-1e722 (2021-10-27)"
+                }, 
+                "GData (Windows)": {
+                    "status": 0, 
+                    "duration": 0.19, 
+                    "version": "5.5.20197.1358", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Forticlient (Linux)": {
+                    "status": 0, 
+                    "duration": 3.03, 
+                    "version": "unavailable", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Avira (Windows)": {
+                    "status": 0, 
+                    "duration": 3.8, 
+                    "version": "8.3.64.66", 
+                    "results": null, 
+                    "virus_database_version": "8.19.1.122"
+                }, 
+                "eScan Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 3.89, 
+                    "version": "7.0.21", 
+                    "results": null, 
+                    "virus_database_version": "7.90035 (27/10/2021)"
+                }, 
+                "McAfee CLI scanner (Linux)": {
+                    "status": 0, 
+                    "duration": 5.82, 
+                    "version": "6.0.6.653", 
+                    "results": null, 
+                    "virus_database_version": "10149"
+                }, 
+                "Sophos Anti-Virus (Linux)": {
+                    "status": 0, 
+                    "duration": 6.51, 
+                    "version": "5.85.0", 
+                    "results": null, 
+                    "virus_database_version": "5.88 (26 October 2021)"
+                }, 
+                "DrWeb Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.2, 
+                    "version": "11.1.10.2108031732", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "ClamAV (Linux)": {
+                    "status": 0, 
+                    "duration": 0.02, 
+                    "version": "0.103.2", 
+                    "results": null, 
+                    "virus_database_version": "26334"
+                }, 
+                "Bitdefender Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 6.08, 
+                    "version": "7.90123", 
+                    "results": null, 
+                    "virus_database_version": null
+                }, 
+                "Emsisoft Commandline Scanner (Windows)": {
+                    "status": 0, 
+                    "duration": 0.19, 
+                    "version": "2021.10.0.11201", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }
+            }
+        }, 
+        "path": "", 
+        "result_id": "10987556-f3ff-4d1c-a494-40fa1563a77e", 
+        "file_sha256": "700eb65e238941398c063bceb1a292c88246ef93d42ae45e7c01c188e2c84da7"
+    }, 
+    "suricata": {
+        "tls": [], 
+        "files": [], 
+        "alerts": [], 
+        "http": []
+    }, 
+    "virustotal": {
+        "summary": {
+            "error": "resource has not been scanned yet"
+        }
+    }, 
+    "network": {
+        "tls": [], 
+        "udp": [], 
+        "dns_servers": [], 
+        "http": [], 
+        "icmp": [], 
+        "smtp": [], 
+        "tcp": [], 
+        "smtp_ex": [], 
+        "geoinfo": {}, 
+        "mitm": [], 
+        "hosts": [], 
+        "pcap_sha256": "704e5e5b3234433c01fcfd1b20a306e77e985038120492dc53965c3edd38a4ea", 
+        "dns": [], 
+        "http_ex": [], 
+        "domains": [], 
+        "dead_hosts": [], 
+        "irc": [], 
+        "https_ex": []
+    }, 
+    "resubmit": {
+        "resubmit_ids": []
+    }, 
+    "snort": {
+        "alerts": []
+    }, 
+    "behavior": {
+        "generic": [
+            {
+                "process_path": null, 
+                "process_name": "hwclock", 
+                "pid": 2093, 
+                "summary": {}, 
+                "first_seen": 1642276818.836429, 
+                "ppid": -1
+            }, 
+            {
+                "process_path": null, 
+                "process_name": "hwclock", 
+                "pid": 2094, 
+                "summary": {}, 
+                "first_seen": 1642276818.85571, 
+                "ppid": 2093
+            }
+        ], 
+        "processes": [
+            {
+                "calls": [
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.836429 hwclock@7f370c2b6c27[2093] execve(\"/tmp/hwclock\", [\"/tmp/hwclock\"], [\"SUDO_GID=0\", \"MAIL=/var/mail/root\", \"USER=root\", \"HOME=/root\", \"SUDO_UID=0\", \"LOGNAME=root\", \"SYSTEMTAP_MODULE=stap_\", \"TERM=unknown\", \"SYSTEMTAP_VERBOSE=2\", \"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin\", \"DISPLAY=:0\", \"LANG=en_US.UTF-8\", \"XAUTHORITY=/root/.Xauthority\", \"SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/hwclock\", \"SHELL=/bin/bash\", \"SUDO_USER=root\", \"PWD=/tmp/tmpfjtMhT\"])\n", 
+                        "api": "execve", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370c2b6c27", 
+                        "arguments": {
+                            "p2": [
+                                "SUDO_GID=0", 
+                                "MAIL=/var/mail/root", 
+                                "USER=root", 
+                                "HOME=/root", 
+                                "SUDO_UID=0", 
+                                "LOGNAME=root", 
+                                "SYSTEMTAP_MODULE=stap_", 
+                                "TERM=unknown", 
+                                "SYSTEMTAP_VERBOSE=2", 
+                                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin", 
+                                "DISPLAY=:0", 
+                                "LANG=en_US.UTF-8", 
+                                "XAUTHORITY=/root/.Xauthority", 
+                                "SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/hwclock", 
+                                "SHELL=/bin/bash", 
+                                "SUDO_USER=root", 
+                                "PWD=/tmp/tmpfjtMhT"
+                            ], 
+                            "p0": "/tmp/hwclock", 
+                            "p1": [
+                                "/tmp/hwclock"
+                            ]
+                        }, 
+                        "time": 1642276818.836429
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.839388 hwclock@7f370c2b6c27[2093] brk(0x0) = 94098898321408\n", 
+                        "api": "brk", 
+                        "return_value": "94098898321408", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370c2b6c27", 
+                        "arguments": {
+                            "p0": "0x0"
+                        }, 
+                        "time": 1642276818.839388
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.839514 hwclock@7f370c2b79d7[2093] access(\"/etc/ld.so.preload\", R_OK) = -2 (ENOENT)\n", 
+                        "api": "access", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370c2b79d7", 
+                        "arguments": {
+                            "p0": "/etc/ld.so.preload", 
+                            "p1": "R_OK"
+                        }, 
+                        "time": 1642276818.839514
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.840543 hwclock@7f370c2b7b0d[2093] openat(AT_FDCWD, \"/etc/ld.so.cache\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370c2b7b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/etc/ld.so.cache"
+                        }, 
+                        "time": 1642276818.840543
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.840612 hwclock@7f370c2b7943[2093] fstat(4, 0x7ffc95e06660) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370c2b7943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc95e06660"
+                        }, 
+                        "time": 1642276818.840612
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.840665 hwclock@7f370c2b7d03[2093] mmap2(0x0, 88858, PROT_READ, MAP_PRIVATE, 4, 0) = 0x7f370c285000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f370c285000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370c2b7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE", 
+                            "p0": "0x0", 
+                            "p1": "88858", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642276818.840665
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.840721 hwclock@7f370c2b79f7[2093] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370c2b79f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642276818.840721
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.840797 hwclock@7f370c2b7b0d[2093] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370c2b7b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0"
+                        }, 
+                        "time": 1642276818.840797
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.840858 hwclock@7f370c2b7bd4[2093] read(4, 0x7ffc95e06818, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370c2b7bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc95e06818"
+                        }, 
+                        "time": 1642276818.840858
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.840914 hwclock@7f370c2b7943[2093] fstat(4, 0x7ffc95e066b0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370c2b7943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc95e066b0"
+                        }, 
+                        "time": 1642276818.840914
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.840962 hwclock@7f370c2b7d03[2093] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f370c283000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f370c283000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370c2b7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642276818.840962
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.841027 hwclock@7f370c2b7d03[2093] mmap2(0x0, 20600, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f370c27d000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f370c27d000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370c2b7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "20600", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642276818.841027
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.841094 hwclock@7f370c2b7d03[2093] mmap2(0x7f370c27e000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 4096) = 0x7f370c27e000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f370c27e000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370c2b7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f370c27e000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "4096"
+                        }, 
+                        "time": 1642276818.841094
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.841165 hwclock@7f370c2b7d03[2093] mmap2(0x7f370c280000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f370c280000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f370c280000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370c2b7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f370c280000", 
+                            "p1": "4096", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642276818.841165
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.841228 hwclock@7f370c2b7d03[2093] mmap2(0x7f370c281000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f370c281000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f370c281000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370c2b7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f370c281000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642276818.841228
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.841307 hwclock@7f370c2b79f7[2093] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370c2b79f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642276818.841307
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.841373 hwclock@7f370c2b7b0d[2093] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370c2b7b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0"
+                        }, 
+                        "time": 1642276818.841373
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.841432 hwclock@7f370c2b7bd4[2093] read(4, 0x7ffc95e067f8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370c2b7bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc95e067f8"
+                        }, 
+                        "time": 1642276818.841432
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.841482 hwclock@7f370c2b7943[2093] fstat(4, 0x7ffc95e06690) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370c2b7943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc95e06690"
+                        }, 
+                        "time": 1642276818.841482
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.841532 hwclock@7f370c2b7d03[2093] mmap2(0x0, 1180072, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f370c15c000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f370c15c000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370c2b7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1180072", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642276818.841532
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.841593 hwclock@7f370c2b7db7[2093] mprotect(0x7f370c177000, 1060864, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370c2b7db7", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7f370c177000", 
+                            "p1": "1060864"
+                        }, 
+                        "time": 1642276818.841593
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.841661 hwclock@7f370c2b7d03[2093] mmap2(0x7f370c177000, 524288, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 110592) = 0x7f370c177000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f370c177000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370c2b7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f370c177000", 
+                            "p1": "524288", 
+                            "p4": "4", 
+                            "p5": "110592"
+                        }, 
+                        "time": 1642276818.841661
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.841719 hwclock@7f370c2b7d03[2093] mmap2(0x7f370c1f7000, 532480, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 634880) = 0x7f370c1f7000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f370c1f7000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370c2b7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f370c1f7000", 
+                            "p1": "532480", 
+                            "p4": "4", 
+                            "p5": "634880"
+                        }, 
+                        "time": 1642276818.841719
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.841776 hwclock@7f370c2b7d03[2093] mmap2(0x7f370c27a000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1167360) = 0x7f370c27a000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f370c27a000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370c2b7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f370c27a000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "1167360"
+                        }, 
+                        "time": 1642276818.841776
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.841848 hwclock@7f370c2b7d03[2093] mmap2(0x7f370c27c000, 424, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f370c27c000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f370c27c000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370c2b7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f370c27c000", 
+                            "p1": "424", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642276818.841848
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.841916 hwclock@7f370c2b79f7[2093] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370c2b79f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642276818.841916
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.841997 hwclock@7f370c2b7b0d[2093] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/librt.so.1\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370c2b7b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/librt.so.1"
+                        }, 
+                        "time": 1642276818.841997
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.842059 hwclock@7f370c2b7bd4[2093] read(4, 0x7ffc95e067d8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370c2b7bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc95e067d8"
+                        }, 
+                        "time": 1642276818.842059
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.842270 hwclock@7f370c2b7943[2093] fstat(4, 0x7ffc95e06670) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370c2b7943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc95e06670"
+                        }, 
+                        "time": 1642276818.84227
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.842323 hwclock@7f370c2b7d03[2093] mmap2(0x0, 44000, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f370c151000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f370c151000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370c2b7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "44000", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642276818.842323
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.842387 hwclock@7f370c2b7d03[2093] mmap2(0x7f370c154000, 16384, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f370c154000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f370c154000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370c2b7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f370c154000", 
+                            "p1": "16384", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642276818.842387
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.842458 hwclock@7f370c2b7d03[2093] mmap2(0x7f370c158000, 8192, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 28672) = 0x7f370c158000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f370c158000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370c2b7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f370c158000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "28672"
+                        }, 
+                        "time": 1642276818.842458
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.842525 hwclock@7f370c2b7d03[2093] mmap2(0x7f370c15a000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 32768) = 0x7f370c15a000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f370c15a000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370c2b7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f370c15a000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "32768"
+                        }, 
+                        "time": 1642276818.842525
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.842608 hwclock@7f370c2b79f7[2093] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370c2b79f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642276818.842608
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.842688 hwclock@7f370c2b7b0d[2093] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libm.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370c2b7b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libm.so.6"
+                        }, 
+                        "time": 1642276818.842688
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.842761 hwclock@7f370c2b7bd4[2093] read(4, 0x7ffc95e067b8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370c2b7bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc95e067b8"
+                        }, 
+                        "time": 1642276818.842761
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.842811 hwclock@7f370c2b7943[2093] fstat(4, 0x7ffc95e06650) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370c2b7943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc95e06650"
+                        }, 
+                        "time": 1642276818.842811
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.842869 hwclock@7f370c2b7d03[2093] mmap2(0x0, 1364240, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f370c003000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f370c003000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370c2b7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1364240", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642276818.842869
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.842932 hwclock@7f370c2b7d03[2093] mmap2(0x7f370c012000, 679936, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 61440) = 0x7f370c012000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f370c012000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370c2b7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f370c012000", 
+                            "p1": "679936", 
+                            "p4": "4", 
+                            "p5": "61440"
+                        }, 
+                        "time": 1642276818.842932
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.842994 hwclock@7f370c2b7d03[2093] mmap2(0x7f370c0b8000, 618496, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 741376) = 0x7f370c0b8000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f370c0b8000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370c2b7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f370c0b8000", 
+                            "p1": "618496", 
+                            "p4": "4", 
+                            "p5": "741376"
+                        }, 
+                        "time": 1642276818.842994
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.843052 hwclock@7f370c2b7d03[2093] mmap2(0x7f370c14f000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1355776) = 0x7f370c14f000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f370c14f000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370c2b7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f370c14f000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "1355776"
+                        }, 
+                        "time": 1642276818.843052
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.843130 hwclock@7f370c2b79f7[2093] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370c2b79f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642276818.84313
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.843201 hwclock@7f370c2b7b0d[2093] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libgcc_s.so.1\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370c2b7b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libgcc_s.so.1"
+                        }, 
+                        "time": 1642276818.843201
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.843261 hwclock@7f370c2b7bd4[2093] read(4, 0x7ffc95e06798, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370c2b7bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc95e06798"
+                        }, 
+                        "time": 1642276818.843261
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.843326 hwclock@7f370c2b7943[2093] fstat(4, 0x7ffc95e06630) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370c2b7943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc95e06630"
+                        }, 
+                        "time": 1642276818.843326
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.843377 hwclock@7f370c2b7d03[2093] mmap2(0x0, 103504, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f370bfe9000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f370bfe9000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370c2b7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "103504", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642276818.843377
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.843435 hwclock@7f370c2b7d03[2093] mmap2(0x7f370bfec000, 69632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f370bfec000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f370bfec000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370c2b7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f370bfec000", 
+                            "p1": "69632", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642276818.843435
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.843495 hwclock@7f370c2b7d03[2093] mmap2(0x7f370bffd000, 16384, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 81920) = 0x7f370bffd000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f370bffd000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370c2b7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f370bffd000", 
+                            "p1": "16384", 
+                            "p4": "4", 
+                            "p5": "81920"
+                        }, 
+                        "time": 1642276818.843495
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.843552 hwclock@7f370c2b7d03[2093] mmap2(0x7f370c001000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 94208) = 0x7f370c001000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f370c001000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370c2b7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f370c001000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "94208"
+                        }, 
+                        "time": 1642276818.843552
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.843632 hwclock@7f370c2b79f7[2093] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370c2b79f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642276818.843632
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.843703 hwclock@7f370c2b7b0d[2093] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libpthread.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370c2b7b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libpthread.so.0"
+                        }, 
+                        "time": 1642276818.843703
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.843762 hwclock@7f370c2b7bd4[2093] read(4, 0x7ffc95e06778, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370c2b7bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc95e06778"
+                        }, 
+                        "time": 1642276818.843762
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.843810 hwclock@7f370c2b7943[2093] fstat(4, 0x7ffc95e06610) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370c2b7943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc95e06610"
+                        }, 
+                        "time": 1642276818.84381
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.843857 hwclock@7f370c2b7d03[2093] mmap2(0x0, 132288, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f370bfc8000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f370bfc8000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370c2b7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "132288", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642276818.843857
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.843911 hwclock@7f370c2b7d03[2093] mmap2(0x7f370bfcf000, 61440, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 28672) = 0x7f370bfcf000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f370bfcf000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370c2b7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f370bfcf000", 
+                            "p1": "61440", 
+                            "p4": "4", 
+                            "p5": "28672"
+                        }, 
+                        "time": 1642276818.843911
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.843977 hwclock@7f370c2b7d03[2093] mmap2(0x7f370bfde000, 20480, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 90112) = 0x7f370bfde000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f370bfde000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370c2b7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f370bfde000", 
+                            "p1": "20480", 
+                            "p4": "4", 
+                            "p5": "90112"
+                        }, 
+                        "time": 1642276818.843977
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.844037 hwclock@7f370c2b7d03[2093] mmap2(0x7f370bfe3000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 106496) = 0x7f370bfe3000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f370bfe3000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370c2b7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f370bfe3000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "106496"
+                        }, 
+                        "time": 1642276818.844037
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.844108 hwclock@7f370c2b7d03[2093] mmap2(0x7f370bfe5000, 13504, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f370bfe5000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f370bfe5000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370c2b7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f370bfe5000", 
+                            "p1": "13504", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642276818.844108
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.844177 hwclock@7f370c2b79f7[2093] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370c2b79f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642276818.844177
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.844246 hwclock@7f370c2b7b0d[2093] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libc.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370c2b7b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libc.so.6"
+                        }, 
+                        "time": 1642276818.844246
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.844307 hwclock@7f370c2b7bd4[2093] read(4, 0x7ffc95e06758, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370c2b7bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc95e06758"
+                        }, 
+                        "time": 1642276818.844307
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.844356 hwclock@7f370c2b7943[2093] fstat(4, 0x7ffc95e065f0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370c2b7943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc95e065f0"
+                        }, 
+                        "time": 1642276818.844356
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.844407 hwclock@7f370c2b7d03[2093] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f370bfc6000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f370bfc6000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370c2b7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642276818.844407
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.844471 hwclock@7f370c2b7d03[2093] mmap2(0x0, 2008696, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f370bddb000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f370bddb000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370c2b7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "2008696", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642276818.844471
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.844527 hwclock@7f370c2b7d03[2093] mmap2(0x7f370be00000, 1519616, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 151552) = 0x7f370be00000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f370be00000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370c2b7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f370be00000", 
+                            "p1": "1519616", 
+                            "p4": "4", 
+                            "p5": "151552"
+                        }, 
+                        "time": 1642276818.844527
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.844593 hwclock@7f370c2b7d03[2093] mmap2(0x7f370bf73000, 299008, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1671168) = 0x7f370bf73000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f370bf73000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370c2b7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f370bf73000", 
+                            "p1": "299008", 
+                            "p4": "4", 
+                            "p5": "1671168"
+                        }, 
+                        "time": 1642276818.844593
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.844651 hwclock@7f370c2b7d03[2093] mmap2(0x7f370bfbc000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1966080) = 0x7f370bfbc000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f370bfbc000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370c2b7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f370bfbc000", 
+                            "p1": "24576", 
+                            "p4": "4", 
+                            "p5": "1966080"
+                        }, 
+                        "time": 1642276818.844651
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.844722 hwclock@7f370c2b7d03[2093] mmap2(0x7f370bfc2000, 13944, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f370bfc2000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f370bfc2000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370c2b7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f370bfc2000", 
+                            "p1": "13944", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642276818.844722
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.844791 hwclock@7f370c2b79f7[2093] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370c2b79f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642276818.844791
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.844875 hwclock@7f370c2b7b0d[2093] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libdl.so.2\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370c2b7b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libdl.so.2"
+                        }, 
+                        "time": 1642276818.844875
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.844935 hwclock@7f370c2b7bd4[2093] read(4, 0x7ffc95e06738, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370c2b7bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc95e06738"
+                        }, 
+                        "time": 1642276818.844935
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.844989 hwclock@7f370c2b7943[2093] fstat(4, 0x7ffc95e065d0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370c2b7943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc95e065d0"
+                        }, 
+                        "time": 1642276818.844989
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.845039 hwclock@7f370c2b7d03[2093] mmap2(0x0, 20752, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f370bdd5000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f370bdd5000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370c2b7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "20752", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642276818.845039
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.845104 hwclock@7f370c2b7d03[2093] mmap2(0x7f370bdd6000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 4096) = 0x7f370bdd6000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f370bdd6000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370c2b7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f370bdd6000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "4096"
+                        }, 
+                        "time": 1642276818.845104
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.845165 hwclock@7f370c2b7d03[2093] mmap2(0x7f370bdd8000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f370bdd8000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f370bdd8000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370c2b7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f370bdd8000", 
+                            "p1": "4096", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642276818.845165
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.845226 hwclock@7f370c2b7d03[2093] mmap2(0x7f370bdd9000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f370bdd9000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f370bdd9000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370c2b7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f370bdd9000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642276818.845226
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.845305 hwclock@7f370c2b79f7[2093] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370c2b79f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642276818.845305
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.845374 hwclock@7f370c2b7b0d[2093] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libpcre.so.3\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370c2b7b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libpcre.so.3"
+                        }, 
+                        "time": 1642276818.845374
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.845434 hwclock@7f370c2b7bd4[2093] read(4, 0x7ffc95e06718, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370c2b7bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc95e06718"
+                        }, 
+                        "time": 1642276818.845434
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.845484 hwclock@7f370c2b7943[2093] fstat(4, 0x7ffc95e065b0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370c2b7943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc95e065b0"
+                        }, 
+                        "time": 1642276818.845484
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.845535 hwclock@7f370c2b7d03[2093] mmap2(0x0, 471304, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f370bd61000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f370bd61000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370c2b7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "471304", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642276818.845535
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.845591 hwclock@7f370c2b7d03[2093] mmap2(0x7f370bd63000, 335872, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 8192) = 0x7f370bd63000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f370bd63000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370c2b7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f370bd63000", 
+                            "p1": "335872", 
+                            "p4": "4", 
+                            "p5": "8192"
+                        }, 
+                        "time": 1642276818.845591
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.845660 hwclock@7f370c2b7d03[2093] mmap2(0x7f370bdb5000, 122880, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 344064) = 0x7f370bdb5000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f370bdb5000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370c2b7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f370bdb5000", 
+                            "p1": "122880", 
+                            "p4": "4", 
+                            "p5": "344064"
+                        }, 
+                        "time": 1642276818.84566
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.845723 hwclock@7f370c2b7d03[2093] mmap2(0x7f370bdd3000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 462848) = 0x7f370bdd3000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f370bdd3000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370c2b7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f370bdd3000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "462848"
+                        }, 
+                        "time": 1642276818.845723
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.845803 hwclock@7f370c2b79f7[2093] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370c2b79f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642276818.845803
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.846980 hwclock@7f370c2b7d03[2093] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f370bd5f000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f370bd5f000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370c2b7d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642276818.84698
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.847069 hwclock@7f370c29cf30[2093] arch_prctl(ARCH_SET_FS, 139874398503232) = 0\n", 
+                        "api": "arch_prctl", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370c29cf30", 
+                        "arguments": {
+                            "p0": "ARCH_SET_FS", 
+                            "p1": "139874398503232"
+                        }, 
+                        "time": 1642276818.847069
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.847895 hwclock@7f370c2b7db7[2093] mprotect(0x7f370bfbc000, 12288, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370c2b7db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f370bfbc000", 
+                            "p1": "12288"
+                        }, 
+                        "time": 1642276818.847895
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.847991 hwclock@7f370c2b7db7[2093] mprotect(0x7f370bfe3000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370c2b7db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f370bfe3000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642276818.847991
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.848096 hwclock@7f370c2b7db7[2093] mprotect(0x7f370bdd3000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370c2b7db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f370bdd3000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642276818.848096
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.848174 hwclock@7f370c2b7db7[2093] mprotect(0x7f370bdd9000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370c2b7db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f370bdd9000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642276818.848174
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.848245 hwclock@7f370c2b7db7[2093] mprotect(0x7f370c001000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370c2b7db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f370c001000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642276818.848245
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.848356 hwclock@7f370c2b7db7[2093] mprotect(0x7f370c14f000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370c2b7db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f370c14f000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642276818.848356
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.848430 hwclock@7f370c2b7db7[2093] mprotect(0x7f370c15a000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370c2b7db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f370c15a000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642276818.84843
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.848806 hwclock@7f370c2b7db7[2093] mprotect(0x7f370c27a000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370c2b7db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f370c27a000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642276818.848806
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.848967 hwclock@7f370c2b7db7[2093] mprotect(0x7f370c281000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370c2b7db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f370c281000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642276818.848967
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.852482 hwclock@7f370c2b7db7[2093] mprotect(0x559518411000, 303104, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370c2b7db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x559518411000", 
+                            "p1": "303104"
+                        }, 
+                        "time": 1642276818.852482
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.852595 hwclock@7f370c2b7db7[2093] mprotect(0x7f370c2c5000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370c2b7db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f370c2c5000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642276818.852595
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.852669 hwclock@7f370c2b7d97[2093] munmap(0x7f370c285000, 88858) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370c2b7d97", 
+                        "arguments": {
+                            "p0": "0x7f370c285000", 
+                            "p1": "88858"
+                        }, 
+                        "time": 1642276818.852669
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.852780 hwclock@7f370bfcf8df[2093] set_tid_address(0x7f370bd60410) = 2093\n", 
+                        "api": "set_tid_address", 
+                        "return_value": "2093", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370bfcf8df", 
+                        "arguments": {
+                            "p0": "0x7f370bd60410"
+                        }, 
+                        "time": 1642276818.85278
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.852835 hwclock@7f370bfcf94a[2093] set_robust_list(0x7f370bd60420, 24) = 0\n", 
+                        "api": "set_robust_list", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370bfcf94a", 
+                        "arguments": {
+                            "p0": "0x7f370bd60420", 
+                            "p1": "24"
+                        }, 
+                        "time": 1642276818.852835
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.852922 hwclock@7f370bfdc010[2093] rt_sigaction(0x20, {0x7f370bfcf6c0, SA_SIGINFO|SA_RESTORER, 0x7f370bfdbf40, [EMPTY]}, 0x0, 8) = 0\n", 
+                        "api": "rt_sigaction", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370bfdc010", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "0x20", 
+                            "p1": [
+                                "0x7f370bfcf6c0", 
+                                "SA_SIGINFO|SA_RESTORER", 
+                                "0x7f370bfdbf40", 
+                                [
+                                    "EMPTY]"
+                                ]
+                            ]
+                        }, 
+                        "time": 1642276818.852922
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.852977 hwclock@7f370bfdc010[2093] rt_sigaction(0x21, {0x7f370bfcf760, SA_RESTART|SA_SIGINFO|SA_RESTORER, 0x7f370bfdbf40, [EMPTY]}, 0x0, 8) = 0\n", 
+                        "api": "rt_sigaction", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370bfdc010", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "0x21", 
+                            "p1": [
+                                "0x7f370bfcf760", 
+                                "SA_RESTART|SA_SIGINFO|SA_RESTORER", 
+                                "0x7f370bfdbf40", 
+                                [
+                                    "EMPTY]"
+                                ]
+                            ]
+                        }, 
+                        "time": 1642276818.852977
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.853031 hwclock@7f370bfcfa19[2093] rt_sigprocmask(SIG_UNBLOCK, [EMPTY], 0x0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370bfcfa19", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "SIG_UNBLOCK", 
+                            "p1": [
+                                "EMPTY"
+                            ]
+                        }, 
+                        "time": 1642276818.853031
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.853098 hwclock@7f370beeddf0[2093] prlimit64(0, RLIMIT_STACK, NULL, 0x7ffc95e073f0) = 0\n", 
+                        "api": "prlimit64", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370beeddf0", 
+                        "arguments": {
+                            "p2": "NULL", 
+                            "p3": "0x7ffc95e073f0", 
+                            "p0": "0", 
+                            "p1": "RLIMIT_STACK"
+                        }, 
+                        "time": 1642276818.853098
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.853364 hwclock@7f370beee2f7[2093] brk(0x0) = 94098898321408\n", 
+                        "api": "brk", 
+                        "return_value": "94098898321408", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370beee2f7", 
+                        "arguments": {
+                            "p0": "0x0"
+                        }, 
+                        "time": 1642276818.853364
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.853413 hwclock@7f370beee2f7[2093] brk(0x55951b6a9000) = 94098898456576\n", 
+                        "api": "brk", 
+                        "return_value": "94098898456576", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370beee2f7", 
+                        "arguments": {
+                            "p0": "0x55951b6a9000"
+                        }, 
+                        "time": 1642276818.853413
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.854508 hwclock@7f370bfd8b86[2093] rt_sigprocmask(SIG_SETMASK, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS], 0x7ffc95e07340, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370bfd8b86", 
+                        "arguments": {
+                            "p2": "0x7ffc95e07340", 
+                            "p3": "8", 
+                            "p0": "SIG_SETMASK", 
+                            "p1": [
+                                "SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS"
+                            ]
+                        }, 
+                        "time": 1642276818.854508
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.855366 hwclock@7f370bef24c3[2093] mmap2(0x0, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f370b55e000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f370b55e000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370bef24c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK", 
+                            "p0": "0x0", 
+                            "p1": "8392704", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642276818.855366
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.855434 hwclock@7f370bef2597[2093] mprotect(0x7f370b55f000, 8388608, PROT_READ|PROT_WRITE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370bef2597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p0": "0x7f370b55f000", 
+                            "p1": "8388608"
+                        }, 
+                        "time": 1642276818.855434
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.855517 hwclock@7f370bef8b11[2093] clone(CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, 0x7f370bd5df70, 0x7f370bd5e9d0, 0x7f370bd5e9d0) = 2094\n", 
+                        "api": "clone", 
+                        "return_value": "2094", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370bef8b11", 
+                        "arguments": {
+                            "p2": "0x7f370bd5e9d0", 
+                            "p3": "0x7f370bd5e9d0", 
+                            "p0": "CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID", 
+                            "p1": "0x7f370bd5df70"
+                        }, 
+                        "time": 1642276818.855517
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.855669 hwclock@7f370bfd8b86[2093] rt_sigprocmask(SIG_SETMASK, [EMPTY], 0x0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370bfd8b86", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "SIG_SETMASK", 
+                            "p1": [
+                                "EMPTY"
+                            ]
+                        }, 
+                        "time": 1642276818.855669
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.858003 hwclock@7f370beeddf0[2093] prlimit64(0, RLIMIT_STACK, NULL, 0x7ffc95e06f00) = 0\n", 
+                        "api": "prlimit64", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370beeddf0", 
+                        "arguments": {
+                            "p2": "NULL", 
+                            "p3": "0x7ffc95e06f00", 
+                            "p0": "0", 
+                            "p1": "RLIMIT_STACK"
+                        }, 
+                        "time": 1642276818.858003
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.858166 hwclock@7f370beed5c1[2093] openat(AT_FDCWD, \"/etc/qemu-binfmt/sparc\", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -2 (ENOENT)\n", 
+                        "api": "openat", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370beed5c1", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/etc/qemu-binfmt/sparc"
+                        }, 
+                        "time": 1642276818.858166
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.858285 hwclock@7f370bebc247[2093] uname(0x7ffc95e06b70) = 0\n", 
+                        "api": "uname", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370bebc247", 
+                        "arguments": {
+                            "p0": "0x7ffc95e06b70"
+                        }, 
+                        "time": 1642276818.858285
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.858344 hwclock@7f370bfdb337[2093] lseek(3, 0, SEEK_SET) = 0\n", 
+                        "api": "lseek", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370bfdb337", 
+                        "arguments": {
+                            "p2": "SEEK_SET", 
+                            "p0": "3", 
+                            "p1": "0"
+                        }, 
+                        "time": 1642276818.858344
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.858398 hwclock@7f370bfdad94[2093] read(3, 0x7ffc95e06e60, 52) = 52\n", 
+                        "api": "read", 
+                        "return_value": "52", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370bfdad94", 
+                        "arguments": {
+                            "p2": "52", 
+                            "p0": "3", 
+                            "p1": "0x7ffc95e06e60"
+                        }, 
+                        "time": 1642276818.858398
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.858460 hwclock@7f370bfdb337[2093] lseek(3, 0, SEEK_SET) = 0\n", 
+                        "api": "lseek", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370bfdb337", 
+                        "arguments": {
+                            "p2": "SEEK_SET", 
+                            "p0": "3", 
+                            "p1": "0"
+                        }, 
+                        "time": 1642276818.85846
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.859871 hwclock@7f370bef24c3[2093] mmap2(0x0, 528384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f370b4dd000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f370b4dd000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370bef24c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "528384", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642276818.859871
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.860455 hwclock@7f370bef2597[2093] mprotect(0x55951846e000, 33550336, PROT_READ|PROT_WRITE|PROT_EXEC) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370bef2597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE|PROT_EXEC", 
+                            "p0": "0x55951846e000", 
+                            "p1": "33550336"
+                        }, 
+                        "time": 1642276818.860455
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.860535 hwclock@7f370bef2667[2093] madvise(0x55951846e000, 33550336, MADV_HUGEPAGE) = 0\n", 
+                        "api": "madvise", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370bef2667", 
+                        "arguments": {
+                            "p2": "MADV_HUGEPAGE", 
+                            "p0": "0x55951846e000", 
+                            "p1": "33550336"
+                        }, 
+                        "time": 1642276818.860535
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.860769 hwclock@7f370bef24c3[2093] mmap2(0x0, 4294963200, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f3604001000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3604001000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370bef24c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x0", 
+                            "p1": "4294963200", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642276818.860769
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.860838 hwclock@7f370bee7d59[2093] openat(AT_FDCWD, \"/proc/sys/vm/mmap_min_addr\", O_RDONLY) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370bee7d59", 
+                        "arguments": {
+                            "p2": "O_RDONLY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/proc/sys/vm/mmap_min_addr"
+                        }, 
+                        "time": 1642276818.860838
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.860915 hwclock@7f370bee7613[2093] fstat(4, 0x7ffc95e06570) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370bee7613", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc95e06570"
+                        }, 
+                        "time": 1642276818.860915
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.860970 hwclock@7f370bee7fb4[2093] read(4, 0x55951b6953d0, 1024) = 6\n", 
+                        "api": "read", 
+                        "return_value": "6", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370bee7fb4", 
+                        "arguments": {
+                            "p2": "1024", 
+                            "p0": "4", 
+                            "p1": "0x55951b6953d0"
+                        }, 
+                        "time": 1642276818.86097
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.861042 hwclock@7f370beed3f7[2093] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370beed3f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642276818.861042
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.861117 hwclock@7f370bef22e9[2093] gettid() = 2093\n", 
+                        "api": "gettid", 
+                        "return_value": "2093", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370bef22e9", 
+                        "arguments": {}, 
+                        "time": 1642276818.861117
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.861167 hwclock@7f370bee7613[2093] fstat(3, 0x7ffc95e06de0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370bee7613", 
+                        "arguments": {
+                            "p0": "3", 
+                            "p1": "0x7ffc95e06de0"
+                        }, 
+                        "time": 1642276818.861167
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.861217 hwclock@7f370bebd717[2093] geteuid() = 0\n", 
+                        "api": "geteuid", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370bebd717", 
+                        "arguments": {}, 
+                        "time": 1642276818.861217
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.861266 hwclock@7f370bebd737[2093] getegid() = 0\n", 
+                        "api": "getegid", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370bebd737", 
+                        "arguments": {}, 
+                        "time": 1642276818.861266
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.861314 hwclock@7f370bfdad94[2093] read(3, 0x7ffc95e06fe0, 1024) = 1024\n", 
+                        "api": "read", 
+                        "return_value": "1024", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370bfdad94", 
+                        "arguments": {
+                            "p2": "1024", 
+                            "p0": "3", 
+                            "p1": "0x7ffc95e06fe0"
+                        }, 
+                        "time": 1642276818.861314
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.861372 hwclock@7f370bef24c3[2093] mmap2(0x7f3604011000, 24576, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 3, 0) = 0x7f3604011000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3604011000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370bef24c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED", 
+                            "p0": "0x7f3604011000", 
+                            "p1": "24576", 
+                            "p4": "3", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642276818.861372
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.861450 hwclock@7f370beee2f7[2093] brk(0x55951b6ca000) = 94098898591744\n", 
+                        "api": "brk", 
+                        "return_value": "94098898591744", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370beee2f7", 
+                        "arguments": {
+                            "p0": "0x55951b6ca000"
+                        }, 
+                        "time": 1642276818.86145
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.861531 hwclock@7f370bef24c3[2093] mmap2(0x7f3604027000, 4096, PROT_READ|PROT_WRITE|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 3, 24576) = 0x7f3604027000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f3604027000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370bef24c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED", 
+                            "p0": "0x7f3604027000", 
+                            "p1": "4096", 
+                            "p4": "3", 
+                            "p5": "24576"
+                        }, 
+                        "time": 1642276818.861531
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.861609 hwclock@7f370bfdae27[2093] close(3) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370bfdae27", 
+                        "arguments": {
+                            "p0": "3"
+                        }, 
+                        "time": 1642276818.861609
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.861713 hwclock@7f370bef24c3[2093] mmap2(0x7f37037ff000, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f37037ff000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f37037ff000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370bef24c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f37037ff000", 
+                            "p1": "8392704", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642276818.861713
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.861880 hwclock@7f370bef2597[2093] mprotect(0x7f37037ff000, 4096, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370bef2597", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7f37037ff000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642276818.86188
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.861957 hwclock@7f370bfdb55e[2093] openat(AT_FDCWD, \"/lib/ld-linux.so.2\", O_RDONLY) = -2 (ENOENT)\n", 
+                        "api": "openat", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370bfdb55e", 
+                        "arguments": {
+                            "p2": "O_RDONLY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/ld-linux.so.2"
+                        }, 
+                        "time": 1642276818.861957
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.862062 hwclock@7f370bee8057[2093] write(2, \"/lib/ld-linux.so.2: No such file or directory\\n\", 46) = 46\n", 
+                        "api": "write", 
+                        "return_value": "46", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370bee8057", 
+                        "arguments": {
+                            "p2": "46", 
+                            "p0": "2", 
+                            "p1": "/lib/ld-linux.so.2: No such file or directory\n"
+                        }, 
+                        "time": 1642276818.862062
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.862314 hwclock@7f370bebc926[2093] exit_group(-1)\n", 
+                        "api": "exit_group", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370bebc926", 
+                        "arguments": {
+                            "p0": "-1"
+                        }, 
+                        "time": 1642276818.862314
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2093, 
+                        "raw": "Sat Jan 15 20:00:18 2022.862369 hwclock@7f370bebc926[2093] futex(0x7f370bd60410, FUTEX_WAKE, 1) = 0\n", 
+                        "api": "futex", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370bebc926", 
+                        "arguments": {
+                            "p2": "1", 
+                            "p0": "0x7f370bd60410", 
+                            "p1": "FUTEX_WAKE"
+                        }, 
+                        "time": 1642276818.862369
+                    }
+                ], 
+                "pid": 2093, 
+                "process_name": "hwclock", 
+                "command_line": "/tmp/hwclock", 
+                "first_seen": 1642276818.836429, 
+                "ppid": -1, 
+                "type": "process"
+            }, 
+            {
+                "calls": [
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2094, 
+                        "raw": "Sat Jan 15 20:00:18 2022.855710 hwclock@7f370bfd1117[2094] set_robust_list(0x7f370bd5e9e0, 24) = 0\n", 
+                        "api": "set_robust_list", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370bfd1117", 
+                        "arguments": {
+                            "p0": "0x7f370bd5e9e0", 
+                            "p1": "24"
+                        }, 
+                        "time": 1642276818.85571
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2094, 
+                        "raw": "Sat Jan 15 20:00:18 2022.855749 hwclock@7f370bef24c3[2094] mmap2(0x0, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f370355e000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f370355e000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370bef24c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x0", 
+                            "p1": "134217728", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642276818.855749
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2094, 
+                        "raw": "Sat Jan 15 20:00:18 2022.855895 hwclock@7f370bef2567[2094] munmap(0x7f370355e000, 11149312) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370bef2567", 
+                        "arguments": {
+                            "p0": "0x7f370355e000", 
+                            "p1": "11149312"
+                        }, 
+                        "time": 1642276818.855895
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2094, 
+                        "raw": "Sat Jan 15 20:00:18 2022.855930 hwclock@7f370bef2567[2094] munmap(0x7f3708000000, 55959552) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370bef2567", 
+                        "arguments": {
+                            "p0": "0x7f3708000000", 
+                            "p1": "55959552"
+                        }, 
+                        "time": 1642276818.85593
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2094, 
+                        "raw": "Sat Jan 15 20:00:18 2022.855961 hwclock@7f370bef2597[2094] mprotect(0x7f3704000000, 135168, PROT_READ|PROT_WRITE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370bef2597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p0": "0x7f3704000000", 
+                            "p1": "135168"
+                        }, 
+                        "time": 1642276818.855961
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2094, 
+                        "raw": "Sat Jan 15 20:00:18 2022.856008 hwclock@7f370bfdb440[2094] nanosleep([0.010000000], 0x7f370bd5ddc0) = -516\n", 
+                        "api": "nanosleep", 
+                        "return_value": "-516", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370bfdb440", 
+                        "arguments": {
+                            "p0": [
+                                "0.010000000"
+                            ], 
+                            "p1": "0x7f370bd5ddc0"
+                        }, 
+                        "time": 1642276818.856008
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "hwclock", 
+                        "pid": 2094, 
+                        "raw": "Sat Jan 15 20:00:18 2022.862430 hwclock@7f370bfdb440[2094] futex(0x7f370bd5e9d0, FUTEX_WAKE, 1) = 0\n", 
+                        "api": "futex", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f370bfdb440", 
+                        "arguments": {
+                            "p2": "1", 
+                            "p0": "0x7f370bd5e9d0", 
+                            "p1": "FUTEX_WAKE"
+                        }, 
+                        "time": 1642276818.86243
+                    }
+                ], 
+                "pid": 2094, 
+                "process_name": "hwclock", 
+                "command_line": "", 
+                "first_seen": 1642276818.85571, 
+                "ppid": 2093, 
+                "type": "process"
+            }
+        ], 
+        "processtree": [
+            {
+                "track": true, 
+                "pid": 2093, 
+                "process_name": "hwclock", 
+                "command_line": "/tmp/hwclock", 
+                "first_seen": 1642276818.836429, 
+                "ppid": -1, 
+                "children": [
+                    {
+                        "track": true, 
+                        "pid": 2094, 
+                        "process_name": "hwclock", 
+                        "command_line": "", 
+                        "first_seen": 1642276818.85571, 
+                        "ppid": 2093, 
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    }, 
+    "debug": {
+        "action": [], 
+        "dbgview": [], 
+        "errors": [], 
+        "log": [
+            "2022-01-15 20:00:06,002 [root] DEBUG: Starting analyzer from: /tmp/tmpfjtMhT\n", 
+            "2022-01-15 20:00:06,002 [root] DEBUG: Storing results at: /tmp/xczYlGJaw\n", 
+            "2022-01-15 20:00:08,277 [modules.auxiliary.filecollector] INFO: FileCollector started v0.08\n", 
+            "2022-01-15 20:00:08,279 [modules.auxiliary.human] INFO: Human started v0.02\n", 
+            "2022-01-15 20:00:08,788 [modules.auxiliary.screenshots] INFO: Screenshots started v0.03\n", 
+            "2022-01-15 20:00:18,830 [lib.core.packages] INFO: Process startup took 10.04 seconds\n", 
+            "2022-01-15 20:00:18,831 [root] INFO: Added new process to list with pid: 2081\n", 
+            "2022-01-15 20:00:30,847 [root] INFO: Process with pid 2081 has terminated\n", 
+            "2022-01-15 20:00:30,849 [root] INFO: Process list is empty, terminating analysis.\n", 
+            "2022-01-15 20:00:33,853 [lib.core.packages] INFO: Package requested stop\n", 
+            "2022-01-15 20:00:33,855 [lib.core.packages] WARNING: Exception uploading log: [Errno 3] No such process\n"
+        ], 
+        "cuckoo": [
+            "2022-01-15 21:51:58,416 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 21:52:08,439 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 21:52:18,533 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 21:52:28,555 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 21:52:38,628 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 21:52:48,658 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 21:52:58,684 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 21:53:08,707 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 21:53:18,726 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 21:53:28,756 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 21:53:38,783 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 21:53:48,806 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 21:53:58,829 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 21:54:08,855 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 21:54:18,879 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 21:54:28,903 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 21:54:38,929 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 21:54:48,947 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 21:54:58,970 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 21:55:09,007 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 21:55:19,032 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 21:55:29,053 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 21:55:39,075 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 21:55:49,102 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 21:55:59,129 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 21:56:09,229 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 21:56:19,256 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 21:56:29,286 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 21:56:39,307 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 21:56:49,330 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 21:56:59,358 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 21:57:09,387 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 21:57:19,411 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 21:57:29,441 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 21:57:39,468 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 21:57:49,496 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 21:57:59,517 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 21:58:09,547 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 21:58:19,571 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 21:58:29,596 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 21:58:39,623 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 21:58:49,645 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 21:58:59,670 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 21:59:09,695 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 21:59:19,717 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 21:59:29,741 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 21:59:39,769 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 21:59:49,789 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 21:59:59,817 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 22:00:09,843 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 22:00:19,868 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 22:00:29,887 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 22:00:39,916 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 22:00:49,933 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 22:00:59,956 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 22:01:09,972 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 22:01:19,994 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 22:01:30,016 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 22:01:40,049 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 22:01:50,109 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 22:02:00,203 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 22:02:10,270 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 22:02:20,334 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 22:02:30,412 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 22:02:40,491 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 22:02:50,567 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 22:03:00,609 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 22:03:10,663 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 22:03:20,714 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 22:03:30,765 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 22:03:40,789 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 22:03:50,824 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 22:04:00,861 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 22:04:10,893 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 22:04:20,932 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 22:04:30,960 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 22:04:41,004 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 22:04:51,040 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 22:05:01,068 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 22:05:11,093 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 22:05:21,223 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 22:05:31,289 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 22:05:41,326 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 22:05:51,384 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 22:06:01,603 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 22:06:11,745 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 22:06:21,896 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 22:06:32,029 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 22:06:42,129 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 22:06:52,247 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 22:07:02,364 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 22:07:12,480 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 22:07:22,587 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 22:07:32,672 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 22:07:42,712 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 22:07:52,790 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 22:08:02,877 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 22:08:12,939 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 22:08:23,097 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 22:08:33,186 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 22:08:43,239 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 22:08:53,299 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 22:09:03,449 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 22:09:13,512 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 22:09:23,574 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 22:09:33,638 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 22:09:43,678 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 22:09:53,798 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 22:10:03,886 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 22:10:13,931 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 22:10:23,969 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 22:10:34,133 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 22:10:44,179 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 22:10:54,220 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 22:11:04,270 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 22:11:14,333 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 22:11:24,385 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 22:11:34,501 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 22:11:44,565 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 22:11:54,633 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 22:12:07,120 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 22:12:17,186 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 22:12:27,252 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 22:12:37,434 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 22:12:47,470 [cuckoo.core.scheduler] DEBUG: Task #2650580: no machine available yet\n", 
+            "2022-01-15 22:12:57,507 [cuckoo.core.scheduler] INFO: Task #2650580: acquired machine Ubuntu1904x643 (label=Ubuntu1904x643)\n", 
+            "2022-01-15 22:12:57,508 [cuckoo.core.resultserver] DEBUG: Now tracking machine 192.168.168.103 for task #2650580\n", 
+            "2022-01-15 22:12:57,749 [cuckoo.auxiliary.sniffer] INFO: Started sniffer with PID 240834 (interface=vboxnet0, host=192.168.168.103)\n", 
+            "2022-01-15 22:12:58,415 [cuckoo.machinery.virtualbox] DEBUG: Starting vm Ubuntu1904x643\n", 
+            "2022-01-15 22:12:58,853 [cuckoo.machinery.virtualbox] DEBUG: Restoring virtual machine Ubuntu1904x643 to Snapshot\n", 
+            "2022-01-15 22:13:41,053 [cuckoo.core.guest] INFO: Starting analysis #2650580 on guest (id=Ubuntu1904x643, ip=192.168.168.103)\n", 
+            "2022-01-15 22:13:42,057 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: not ready yet\n", 
+            "2022-01-15 22:13:47,097 [cuckoo.core.guest] INFO: Guest is running Cuckoo Agent 0.10 (id=Ubuntu1904x643, ip=192.168.168.103)\n", 
+            "2022-01-15 22:13:47,114 [cuckoo.core.guest] DEBUG: Uploading analyzer to guest (id=Ubuntu1904x643, ip=192.168.168.103, monitor=latest, size=72028)\n", 
+            "2022-01-15 22:13:48,748 [cuckoo.core.resultserver] DEBUG: Task #2650580: live log analysis.log initialized.\n", 
+            "2022-01-15 22:14:02,319 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: analysis #2650580 still processing\n", 
+            "2022-01-15 22:14:04,250 [cuckoo.core.resultserver] DEBUG: Task #2650580: File upload for 'shots/0001.jpg'\n", 
+            "2022-01-15 22:14:06,856 [cuckoo.core.resultserver] DEBUG: Task #2650580 uploaded file length: 171571\n", 
+            "2022-01-15 22:14:16,364 [cuckoo.core.resultserver] DEBUG: Task #2650580: File upload for 'logs/all.stap'\n", 
+            "2022-01-15 22:14:16,372 [cuckoo.core.resultserver] DEBUG: Task #2650580 uploaded file length: 18782\n", 
+            "2022-01-15 22:14:17,514 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: analysis #2650580 still processing\n", 
+            "2022-01-15 22:14:32,581 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: analysis #2650580 still processing\n", 
+            "2022-01-15 22:14:47,641 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: analysis #2650580 still processing\n", 
+            "2022-01-15 22:15:02,728 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: analysis #2650580 still processing\n", 
+            "2022-01-15 22:15:17,813 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: analysis #2650580 still processing\n", 
+            "2022-01-15 22:15:32,974 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: analysis #2650580 still processing\n", 
+            "2022-01-15 22:15:48,036 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: analysis #2650580 still processing\n", 
+            "2022-01-15 22:16:03,097 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: analysis #2650580 still processing\n", 
+            "2022-01-15 22:16:18,170 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: analysis #2650580 still processing\n", 
+            "2022-01-15 22:16:33,246 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: analysis #2650580 still processing\n", 
+            "2022-01-15 22:16:48,309 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: analysis #2650580 still processing\n", 
+            "2022-01-15 22:17:03,367 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: analysis #2650580 still processing\n", 
+            "2022-01-15 22:17:18,420 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: analysis #2650580 still processing\n", 
+            "2022-01-15 22:17:33,559 [cuckoo.core.guest] DEBUG: Ubuntu1904x643: analysis #2650580 still processing\n", 
+            "2022-01-15 22:17:48,608 [cuckoo.core.guest] INFO: Ubuntu1904x643: end of analysis reached!\n", 
+            "2022-01-15 22:17:48,619 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Redsocks\n", 
+            "2022-01-15 22:17:48,723 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Sniffer\n", 
+            "2022-01-15 22:18:08,975 [cuckoo.machinery.virtualbox] INFO: Successfully generated memory dump for virtual machine with label Ubuntu1904x643 to path /srv/cuckoo/cwd/storage/analyses/2650580/memory.dmp\n", 
+            "2022-01-15 22:18:08,976 [cuckoo.machinery.virtualbox] DEBUG: Stopping vm Ubuntu1904x643\n", 
+            "2022-01-15 22:18:13,209 [cuckoo.core.resultserver] DEBUG: Stopped tracking machine 192.168.168.103 for task #2650580\n", 
+            "2022-01-15 22:18:13,209 [cuckoo.core.resultserver] DEBUG: Cancel <Context for LOG> for task 2650580\n", 
+            "2022-01-15 22:18:13,381 [cuckoo.core.scheduler] DEBUG: Released database task #2650580\n", 
+            "2022-01-15 22:18:30,160 [cuckoo.core.scheduler] INFO: Task #2650580: analysis procedure completed\n"
+        ]
+    }, 
+    "strings": [
+        "/lib/ld-linux.so.2", 
+        "_Jv_RegisterClasses", 
+        "__gmon_start__", 
+        "libc.so.6", 
+        "unsetenv", 
+        "stdout", 
+        "strerror", 
+        "getopt_long", 
+        "getenv", 
+        "__strtol_internal", 
+        "fscanf", 
+        "memcpy", 
+        "perror", 
+        "__cxa_finalize", 
+        "getuid", 
+        "optarg", 
+        "settimeofday", 
+        "fflush", 
+        "dcgettext", 
+        "optind", 
+        "mktime", 
+        "strncmp", 
+        "sscanf", 
+        "__xstat64", 
+        "gettimeofday", 
+        "localtime", 
+        "strcmp", 
+        "sprintf", 
+        "fclose", 
+        "setlocale", 
+        "stderr", 
+        "strftime", 
+        "__errno_location", 
+        "bindtextdomain", 
+        "_IO_stdin_used", 
+        "gmtime", 
+        "__libc_start_main", 
+        "strlen", 
+        "lseek64", 
+        "strchr", 
+        "vfprintf", 
+        "fopen64", 
+        "GLIBC_2.1.3", 
+        "GLIBC_2.2", 
+        "GLIBC_2.1", 
+        "GLIBC_2.0", 
+        "Invalid values in hardware clock: %4d/%.2d/%.2d %.2d:%.2d:%.2d", 
+        "Hw clock time : %4d/%.2d/%.2d %.2d:%.2d:%.2d = %ld seconds since 1969", 
+        "The Hardware Clock registers contain values that are either invalid (e.g. 50th day of month) or beyond the range we can handle (e.g. Year 2095).", 
+        "%s  %.6f seconds", 
+        "The Hardware Clock does not contain a valid time, so we cannot adjust it.", 
+        "Not setting clock because last adjustment time is zero, so history is bad.", 
+        "Time since last adjustment is %d seconds", 
+        "Need to insert %d seconds and refer time back %.6f seconds ago", 
+        "Needed adjustment is less than one second, so not setting clock.", 
+        "The Hardware Clock does not contain a valid time, so we cannot set the System Time from it.", 
+        "Calling settimeofday:", 
+        "tv.tv_sec = %ld, tv.tv_usec = %ld", 
+        "tz.tz_minuteswest = %d", 
+        "Not setting system clock because running in test mode.", 
+        "Must be superuser to set system clock.", 
+        "settimeofday() failed", 
+        "Unable to set system clock.", 
+        "%f %ld %f", 
+        "Not updating adjtime file because of testing mode.", 
+        "Would have written the following to %s:", 
+        "Could not open file with the clock adjustment parameters in it (/etc/adjtime) for writing", 
+        "Could not update file with the clock adjustment parameters (/etc/adjtime) in it", 
+        "Drift adjustment parameters not updated.", 
+        ", errno=%d: %s.", 
+        "hwclock - query and set the hardware clock (RTC)", 
+        "Usage: hwclock [function] [options...]", 
+        "Functions:", 
+        "  --help        show this help", 
+        "  --show        read hardware clock and print result", 
+        "  --set         set the rtc to the time given with --date", 
+        "  --hctosys     set the system time from the hardware clock", 
+        "  --systohc     set the hardware clock to the current system time", 
+        "  --adjust      adjust the rtc to account for systematic drift since ", 
+        "                the clock was last set or adjusted", 
+        "  --getepoch    print out the kernel's hardware clock epoch value", 
+        "  --setepoch    set the kernel's hardware clock epoch value to the ", 
+        "                value given with --epoch", 
+        "  --version     print out the version of hwclock to stdout", 
+        "Options: ", 
+        "  --utc         the hardware clock is kept in coordinated universal time", 
+        "  --localtime   the hardware clock is kept in local time", 
+        "  --directisa   access the ISA bus directly instead of %s", 
+        "  --badyear     ignore rtc's year because the bios is broken", 
+        "  --date        specifies the time to which to set the hardware clock", 
+        "  --epoch=year  specifies the year which is the beginning of the ", 
+        "                hardware clock's epoch value", 
+        "  --noadjfile   do not access /etc/adjtime. Requires the use of", 
+        "                either --utc or --localtime", 
+        "/dev/rtc", 
+        "%s from %s", 
+        "hwclock", 
+        "util-linux-2.12r", 
+        "Not adjusting drift factor because the Hardware Clock previously contained garbage.", 
+        "Not adjusting drift factor because last calibration time is zero,", 
+        "so history is bad and calibration startover is necessary.", 
+        "Not adjusting drift factor because it has been less than a day since the last calibration.", 
+        "Clock drifted %.1f seconds in the past %d seconds in spite of a drift factor of %f seconds/day.", 
+        "Adjusting drift factor by %f seconds/day", 
+        "/var/lib/lastdate", 
+        "%02d.%02d.%04d", 
+        "Time elapsed since reference time has been %.6f seconds.", 
+        "Delaying further to reach the next full second.", 
+        "Setting Hardware Clock to %.2d:%.2d:%.2d = %ld seconds since 1969", 
+        "Clock not changed - testing only.", 
+        "/etc/adjtime", 
+        "cannot open file /etc/adjtime", 
+        "%lf %ld %lf", 
+        "%s: Warning: unrecognized third line in adjtime file", 
+        "(Expected: `UTC' or `LOCAL' or nothing.)", 
+        "Last drift adjustment done at %ld seconds after 1969", 
+        "Last calibration done at %ld seconds after 1969", 
+        "Hardware clock is on %s time", 
+        "unknown", 
+        "Assuming hardware clock is kept in %s time.", 
+        "Waiting for clock tick...", 
+        "...got clock tick", 
+        "%d.%d.%d", 
+        "Time read from Hardware Clock: %4d/%.2d/%.2d %02d:%02d:%02d", 
+        "util-linux", 
+        "/usr/share/locale", 
+        "?hvVDarsuwAJSF", 
+        "%s takes no non-option arguments.  You supplied %d.", 
+        "You have specified multiple functions.", 
+        "You can only perform one function at a time.", 
+        "%s: The --utc and --localtime options are mutually exclusive.  You specified both.", 
+        "%s: The --adjust and --noadjfile options are mutually exclusive.  You specified both.", 
+        "%s: With --noadjfile, you must specify either --utc or --localtime", 
+        "No --date option specified.", 
+        "--date argument too long", 
+        "The value of the --date option is not a valid date.", 
+        "In particular, it contains quotation marks.", 
+        "date --date=\"%s\" +seconds-into-epoch=%%s", 
+        "Issuing date command: %s", 
+        "Unable to run 'date' program in /bin/sh shell. popen() failed", 
+        "response from date command = %s", 
+        "The date command issued by %s returned unexpected results.", 
+        "The command was:", 
+        "The response was:", 
+        "The date command issued by %s returned something other than an integer where the converted time value was expected.", 
+        "The command was:", 
+        "The response was:", 
+        "date string %s equates to %ld seconds since 1969.", 
+        "No usable set-to time.  Cannot set clock.", 
+        "Sorry, only the superuser can change the Hardware Clock.", 
+        "Sorry, only the superuser can change the System Clock.", 
+        "Sorry, only the superuser can change the Hardware Clock epoch in the kernel.", 
+        "The kernel keeps an epoch value for the Hardware Clock only on an Alpha machine.", 
+        "This copy of hwclock was built for a machine other than Alpha", 
+        "(and thus is presumably not running on an Alpha now).  No action taken.", 
+        "Using %s.", 
+        "No usable clock interface found.", 
+        "Cannot access the Hardware Clock via any known method.", 
+        "Use the --debug option to see the details of our search for an access method.", 
+        "seconds-into-epoch=", 
+        "adjust", 
+        "hctosys", 
+        "version", 
+        "systohc", 
+        "getepoch", 
+        "setepoch", 
+        "noadjfile", 
+        "localtime", 
+        "badyear", 
+        "directisa", 
+        "clock read", 
+        "set time", 
+        "/dev/port", 
+        "Cannot open /dev/port: %s", 
+        "I failed to get permission because I didn't try.", 
+        "/dev/misc/rtc", 
+        "The epoch value may not be less than 1900.  You requested %ld", 
+        "To manipulate the epoch value in the kernel, we must access the Linux 'rtc' device driver via the device special file %s.  This file does not exist on this system.", 
+        "Unable to open %s", 
+        "setting epoch to %ld with RTC_EPOCH_SET ioctl to %s.", 
+        "The kernel device driver for %s does not have the RTC_EPOCH_SET ioctl.", 
+        "ioctl(RTC_EPOCH_SET) to %s failed", 
+        "ioctl(RTC_EPOCH_READ) to %s failed", 
+        "we have read epoch %ld from %s with RTC_EPOCH_READ ioctl.", 
+        "Open of %s failed", 
+        "RTC_RD_TIME", 
+        "ioctl() to %s to read the time failed.", 
+        "open() of %s failed", 
+        "%s does not have interrupt functions. ", 
+        "Waiting in loop for time from %s to change", 
+        "Timed out waiting for time change.", 
+        "RTCSET", 
+        "RTC_SET_TIME", 
+        "ioctl() to %s to set the time failed.", 
+        "ioctl(%s) was successful.", 
+        "/dev/rtc interface to clock", 
+        "GCC: (GNU) 4.1.2 20061115 (prerelease) (Debian 4.1.1-21)", 
+        "GCC: (GNU) 4.1.2 20061115 (prerelease) (Debian 4.1.1-21)", 
+        "GCC: (GNU) 4.1.2 20061115 (prerelease) (Debian 4.1.1-21)", 
+        "GCC: (GNU) 4.1.2 20061115 (prerelease) (Debian 4.1.1-21)", 
+        "GCC: (GNU) 4.1.2 20061115 (prerelease) (Debian 4.1.1-21)", 
+        "GCC: (GNU) 4.1.2 20061115 (prerelease) (Debian 4.1.1-21)", 
+        "GCC: (GNU) 4.1.2 20061115 (prerelease) (Debian 4.1.1-21)", 
+        "GCC: (GNU) 4.1.2 20061115 (prerelease) (Debian 4.1.1-21)", 
+        "GCC: (GNU) 4.1.2 20061115 (prerelease) (Debian 4.1.1-21)", 
+        "GCC: (GNU) 4.1.2 20061115 (prerelease) (Debian 4.1.1-21)", 
+        ".shstrtab", 
+        ".interp", 
+        ".note.ABI-tag", 
+        ".dynsym", 
+        ".dynstr", 
+        ".gnu.version", 
+        ".gnu.version_r", 
+        ".rela.dyn", 
+        ".rela.plt", 
+        ".rodata", 
+        ".eh_frame", 
+        ".ctors", 
+        ".dtors", 
+        ".dynamic", 
+        ".comment"
+    ], 
+    "metadata": {
+        "output": {
+            "pcap": {
+                "basename": "dump.pcap", 
+                "sha256": "704e5e5b3234433c01fcfd1b20a306e77e985038120492dc53965c3edd38a4ea", 
+                "dirname": ""
+            }
+        }
+    }
+}
