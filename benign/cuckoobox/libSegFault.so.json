@@ -1,0 +1,3024 @@
+{
+    "info": {
+        "added": 1642278865.568515, 
+        "started": 1642309562.487327, 
+        "duration": 347, 
+        "ended": 1642309909.72456, 
+        "owner": null, 
+        "score": 0.0, 
+        "id": 2651149, 
+        "category": "file", 
+        "git": {
+            "head": "e8f6317b4b3ef806085a1e99e64c6ff01f26948f", 
+            "fetch_head": "e8f6317b4b3ef806085a1e99e64c6ff01f26948f"
+        }, 
+        "monitor": "2deb9ccd75d5a7a3fe05b2625b03a8639d6ee36b", 
+        "package": "elf", 
+        "route": "internet", 
+        "custom": null, 
+        "machine": {
+            "status": "stopped", 
+            "name": "Ubuntu1904x641", 
+            "label": "Ubuntu1904x641", 
+            "platform": "linux", 
+            "manager": "VirtualBox", 
+            "started_on": "2022-01-16 05:07:14", 
+            "shutdown_on": "2022-01-16 05:11:49"
+        }, 
+        "platform": "linux", 
+        "version": "2.0.7", 
+        "options": "procmemdump=yes,route=internet"
+    }, 
+    "signatures": [], 
+    "target": {
+        "category": "file", 
+        "file": {
+            "mimetype": "application/x-sharedlib", 
+            "yara": [], 
+            "sha1": "9ddd07ea43b4b64ef91a27895247aebcfd3109cd", 
+            "name": "libSegFault.so", 
+            "type": "ELF 32-bit MSB shared object, SPARC, version 1 (SYSV), dynamically linked, interpreter /lib/ld-linux.so.2, for GNU/Linux 2.4.1, stripped", 
+            "sha256": "7c9fcd41b54ae87889a6c441d5bdaa93b47ce4206c1d8c1b3f09dfe85b751a29", 
+            "urls": [], 
+            "crc32": "6B8A2A41", 
+            "path": "/srv/cuckoo/cwd/storage/binaries/7c9fcd41b54ae87889a6c441d5bdaa93b47ce4206c1d8c1b3f09dfe85b751a29", 
+            "ssdeep": "192:NRMSjT9o4O7p3c9FMDrQX/Jz4SqqJwyxk2jauXhv4myIqwt+oDHddwgOF6Z6vmz:nGZp3cDMDsx4uXjDZ4jIHtilmz", 
+            "size": 18344, 
+            "sha512": "d14ea78b53d8fdb3009e7ffdc626c60c6072a88eba84dc5df32f21203e5f45c9699550f13e2588b3fa4ddb2f5fc73e3b933e8d6546357ded3e1565d3aa472816", 
+            "md5": "27a244f10815cbb13d224313528bb1db"
+        }, 
+        "custom": null
+    }, 
+    "irma": {
+        "status": 0, 
+        "probes_finished": 16, 
+        "scan_id": "d4bf6a7e-b295-451d-8a34-d13fa15dbe50", 
+        "parent_file_sha256": null, 
+        "name": "7c9fcd41b54ae87889a6c441d5bdaa93b47ce4206c1d8c1b3f09dfe85b751a29", 
+        "probes_total": 16, 
+        "scan_date": 1642302710, 
+        "other_results": [], 
+        "submitter": "cli", 
+        "file_infos": {
+            "mimetype": "ELF 32-bit MSB shared object, SPARC, version 1 (SYSV)", 
+            "sha1": "9ddd07ea43b4b64ef91a27895247aebcfd3109cd", 
+            "tags": [], 
+            "timestamp_first_scan": 1642302710.26, 
+            "timestamp_last_scan": 1642302719.3, 
+            "sha256": "7c9fcd41b54ae87889a6c441d5bdaa93b47ce4206c1d8c1b3f09dfe85b751a29", 
+            "md5": "27a244f10815cbb13d224313528bb1db", 
+            "size": 18344
+        }, 
+        "probe_results": {
+            "antivirus": {
+                "Avast Core Security (Linux)": {
+                    "status": 0, 
+                    "duration": 0.01, 
+                    "version": "3.0.3", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "F-Secure Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 5.65, 
+                    "version": "11.10", 
+                    "results": null, 
+                    "virus_database_version": "2022-01-13_04"
+                }, 
+                "Windows Defender (Windows)": {
+                    "status": 0, 
+                    "duration": 0.05, 
+                    "version": "1.1.18800.4", 
+                    "results": null, 
+                    "virus_database_version": "1.355.1049.0"
+                }, 
+                "Comodo Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 2.14, 
+                    "version": "1.1.268025.1", 
+                    "results": null, 
+                    "virus_database_version": "2021-11-02"
+                }, 
+                "Kaspersky Antivirus (Win)": {
+                    "status": 0, 
+                    "duration": 2.67, 
+                    "version": "21.3", 
+                    "results": null, 
+                    "virus_database_version": "2022-01-04 05:53:00 (full)"
+                }, 
+                "ESET NOD32 Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 4.26, 
+                    "version": "4.0.96", 
+                    "results": null, 
+                    "virus_database_version": "6178ebd0-1e722 (2021-10-27)"
+                }, 
+                "GData (Windows)": {
+                    "status": 0, 
+                    "duration": 0.19, 
+                    "version": "5.5.20197.1358", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Forticlient (Linux)": {
+                    "status": 0, 
+                    "duration": 3.04, 
+                    "version": "unavailable", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Avira (Windows)": {
+                    "status": 0, 
+                    "duration": 3.88, 
+                    "version": "8.3.64.66", 
+                    "results": null, 
+                    "virus_database_version": "8.19.1.122"
+                }, 
+                "eScan Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 4.14, 
+                    "version": "7.0.21", 
+                    "results": null, 
+                    "virus_database_version": "7.90035 (27/10/2021)"
+                }, 
+                "McAfee CLI scanner (Linux)": {
+                    "status": 0, 
+                    "duration": 5.83, 
+                    "version": "6.0.6.653", 
+                    "results": null, 
+                    "virus_database_version": "10149"
+                }, 
+                "Sophos Anti-Virus (Linux)": {
+                    "status": 0, 
+                    "duration": 6.73, 
+                    "version": "5.85.0", 
+                    "results": null, 
+                    "virus_database_version": "5.88 (26 October 2021)"
+                }, 
+                "DrWeb Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.2, 
+                    "version": "11.1.10.2108031732", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "ClamAV (Linux)": {
+                    "status": 0, 
+                    "duration": 0.03, 
+                    "version": "0.103.2", 
+                    "results": null, 
+                    "virus_database_version": "26334"
+                }, 
+                "Bitdefender Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 6.14, 
+                    "version": "7.90123", 
+                    "results": null, 
+                    "virus_database_version": null
+                }, 
+                "Emsisoft Commandline Scanner (Windows)": {
+                    "status": 0, 
+                    "duration": 0.2, 
+                    "version": "2021.10.0.11201", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }
+            }
+        }, 
+        "path": "", 
+        "result_id": "140b99f0-2c1d-4333-aa98-6256f254ea10", 
+        "file_sha256": "7c9fcd41b54ae87889a6c441d5bdaa93b47ce4206c1d8c1b3f09dfe85b751a29"
+    }, 
+    "suricata": {
+        "tls": [
+            {
+                "src_ip": "192.168.168.101", 
+                "version": "TLS 1.2", 
+                "src_port": 45926, 
+                "dst_port": 443, 
+                "timestamp": "2022-01-16T05:07:47.210923+0200", 
+                "dst_ip": "91.189.92.39", 
+                "fingerprint": "97:63:1b:60:eb:d1:fa:4f:a4:fc:fa:98:66:3d:ee:22:fb:78:ce:c1", 
+                "subject": "C=GB, L=London, O=Canonical Group Ltd, CN=api.snapcraft.io", 
+                "issuer": "C=US, O=DigiCert Inc, CN=DigiCert TLS RSA SHA256 2020 CA1"
+            }
+        ], 
+        "files": [], 
+        "alerts": [], 
+        "http": []
+    }, 
+    "virustotal": {
+        "summary": {
+            "error": "resource has not been scanned yet"
+        }
+    }, 
+    "network": {
+        "udp": [], 
+        "dns_servers": [], 
+        "http": [], 
+        "smtp": [], 
+        "tcp": [], 
+        "geoinfo": {}, 
+        "mitm": [], 
+        "https_ex": [], 
+        "http_ex": [], 
+        "sorted_pcap_sha256": "82feef3d73eb7b4ebd98b4b002b9f7da30627f8e38562082501ac2a5d722e70d", 
+        "icmp": [], 
+        "tls": [], 
+        "dead_hosts": [], 
+        "smtp_ex": [], 
+        "hosts": [], 
+        "pcap_sha256": "63d8d04f49e4d4f012fe7d6f867fee08ffaf970acc9626df3ea443e59c2f26d9", 
+        "dns": [], 
+        "domains": [], 
+        "irc": []
+    }, 
+    "resubmit": {
+        "resubmit_ids": []
+    }, 
+    "snort": {
+        "alerts": []
+    }, 
+    "behavior": {
+        "generic": [
+            {
+                "process_path": null, 
+                "process_name": "libSegFault.so", 
+                "pid": 2070, 
+                "summary": {}, 
+                "first_seen": 1642278872.678597, 
+                "ppid": -1
+            }, 
+            {
+                "process_path": null, 
+                "process_name": "libSegFault.so", 
+                "pid": 2071, 
+                "summary": {}, 
+                "first_seen": 1642278872.69973, 
+                "ppid": 2070
+            }
+        ], 
+        "processes": [
+            {
+                "calls": [
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.678597 libSegFault.so@7f2700a66c27[2070] execve(\"/tmp/libSegFault.so\", [\"/tmp/libSegFault.so\"], [\"SUDO_GID=0\", \"MAIL=/var/mail/root\", \"USER=root\", \"HOME=/root\", \"SUDO_UID=0\", \"LOGNAME=root\", \"SYSTEMTAP_MODULE=stap_\", \"TERM=unknown\", \"SYSTEMTAP_VERBOSE=2\", \"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin\", \"DISPLAY=:0\", \"LANG=en_US.UTF-8\", \"XAUTHORITY=/root/.Xauthority\", \"SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/libSegFault.so\", \"SHELL=/bin/bash\", \"SUDO_USER=root\", \"PWD=/tmp/tmp1ECx_U\")\n", 
+                        "api": "execve", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2700a66c27", 
+                        "arguments": {
+                            "p2": [
+                                "SUDO_GID=0", 
+                                "MAIL=/var/mail/root", 
+                                "USER=root", 
+                                "HOME=/root", 
+                                "SUDO_UID=0", 
+                                "LOGNAME=root", 
+                                "SYSTEMTAP_MODULE=stap_", 
+                                "TERM=unknown", 
+                                "SYSTEMTAP_VERBOSE=2", 
+                                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin", 
+                                "DISPLAY=:0", 
+                                "LANG=en_US.UTF-8", 
+                                "XAUTHORITY=/root/.Xauthority", 
+                                "SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/libSegFault.so", 
+                                "SHELL=/bin/bash", 
+                                "SUDO_USER=root", 
+                                "PWD=/tmp/tmp1ECx_U"
+                            ], 
+                            "p0": "/tmp/libSegFault.so", 
+                            "p1": [
+                                "/tmp/libSegFault.so"
+                            ]
+                        }, 
+                        "time": 1642278872.678597
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.683283 libSegFault.so@7f2700a66c27[2070] brk(0x0) = 94906196709376\n", 
+                        "api": "brk", 
+                        "return_value": "94906196709376", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2700a66c27", 
+                        "arguments": {
+                            "p0": "0x0"
+                        }, 
+                        "time": 1642278872.683283
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.683429 libSegFault.so@7f2700a679d7[2070] access(\"/etc/ld.so.preload\", R_OK) = -2 (ENOENT)\n", 
+                        "api": "access", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2700a679d7", 
+                        "arguments": {
+                            "p0": "/etc/ld.so.preload", 
+                            "p1": "R_OK"
+                        }, 
+                        "time": 1642278872.683429
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.684569 libSegFault.so@7f2700a67b0d[2070] openat(AT_FDCWD, \"/etc/ld.so.cache\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2700a67b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/etc/ld.so.cache"
+                        }, 
+                        "time": 1642278872.684569
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.684651 libSegFault.so@7f2700a67943[2070] fstat(4, 0x7ffdab79d2b0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2700a67943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffdab79d2b0"
+                        }, 
+                        "time": 1642278872.684651
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.684717 libSegFault.so@7f2700a67d03[2070] mmap2(0x0, 88858, PROT_READ, MAP_PRIVATE, 4, 0) = 0x7f2700a35000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f2700a35000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2700a67d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE", 
+                            "p0": "0x0", 
+                            "p1": "88858", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642278872.684717
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.684785 libSegFault.so@7f2700a679f7[2070] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2700a679f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642278872.684785
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.684875 libSegFault.so@7f2700a67b0d[2070] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2700a67b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0"
+                        }, 
+                        "time": 1642278872.684875
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.684947 libSegFault.so@7f2700a67bd4[2070] read(4, 0x7ffdab79d468, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2700a67bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffdab79d468"
+                        }, 
+                        "time": 1642278872.684947
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.685012 libSegFault.so@7f2700a67943[2070] fstat(4, 0x7ffdab79d300) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2700a67943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffdab79d300"
+                        }, 
+                        "time": 1642278872.685012
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.685073 libSegFault.so@7f2700a67d03[2070] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f2700a33000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f2700a33000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2700a67d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642278872.685073
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.685149 libSegFault.so@7f2700a67d03[2070] mmap2(0x0, 20600, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f2700a2d000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f2700a2d000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2700a67d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "20600", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642278872.685149
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.685219 libSegFault.so@7f2700a67d03[2070] mmap2(0x7f2700a2e000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 4096) = 0x7f2700a2e000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f2700a2e000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2700a67d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f2700a2e000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "4096"
+                        }, 
+                        "time": 1642278872.685219
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.685302 libSegFault.so@7f2700a67d03[2070] mmap2(0x7f2700a30000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f2700a30000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f2700a30000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2700a67d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f2700a30000", 
+                            "p1": "4096", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642278872.685302
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.685373 libSegFault.so@7f2700a67d03[2070] mmap2(0x7f2700a31000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f2700a31000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f2700a31000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2700a67d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f2700a31000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642278872.685373
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.685462 libSegFault.so@7f2700a679f7[2070] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2700a679f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642278872.685462
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.685542 libSegFault.so@7f2700a67b0d[2070] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2700a67b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0"
+                        }, 
+                        "time": 1642278872.685542
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.685611 libSegFault.so@7f2700a67bd4[2070] read(4, 0x7ffdab79d448, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2700a67bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffdab79d448"
+                        }, 
+                        "time": 1642278872.685611
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.685672 libSegFault.so@7f2700a67943[2070] fstat(4, 0x7ffdab79d2e0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2700a67943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffdab79d2e0"
+                        }, 
+                        "time": 1642278872.685672
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.685733 libSegFault.so@7f2700a67d03[2070] mmap2(0x0, 1180072, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f270090c000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f270090c000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2700a67d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1180072", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642278872.685733
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.685802 libSegFault.so@7f2700a67db7[2070] mprotect(0x7f2700927000, 1060864, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2700a67db7", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7f2700927000", 
+                            "p1": "1060864"
+                        }, 
+                        "time": 1642278872.685802
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.685875 libSegFault.so@7f2700a67d03[2070] mmap2(0x7f2700927000, 524288, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 110592) = 0x7f2700927000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f2700927000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2700a67d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f2700927000", 
+                            "p1": "524288", 
+                            "p4": "4", 
+                            "p5": "110592"
+                        }, 
+                        "time": 1642278872.685875
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.685945 libSegFault.so@7f2700a67d03[2070] mmap2(0x7f27009a7000, 532480, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 634880) = 0x7f27009a7000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f27009a7000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2700a67d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f27009a7000", 
+                            "p1": "532480", 
+                            "p4": "4", 
+                            "p5": "634880"
+                        }, 
+                        "time": 1642278872.685945
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.686014 libSegFault.so@7f2700a67d03[2070] mmap2(0x7f2700a2a000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1167360) = 0x7f2700a2a000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f2700a2a000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2700a67d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f2700a2a000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "1167360"
+                        }, 
+                        "time": 1642278872.686014
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.686092 libSegFault.so@7f2700a67d03[2070] mmap2(0x7f2700a2c000, 424, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f2700a2c000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f2700a2c000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2700a67d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f2700a2c000", 
+                            "p1": "424", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642278872.686092
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.686191 libSegFault.so@7f2700a679f7[2070] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2700a679f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642278872.686191
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.686286 libSegFault.so@7f2700a67b0d[2070] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/librt.so.1\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2700a67b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/librt.so.1"
+                        }, 
+                        "time": 1642278872.686286
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.686357 libSegFault.so@7f2700a67bd4[2070] read(4, 0x7ffdab79d428, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2700a67bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffdab79d428"
+                        }, 
+                        "time": 1642278872.686357
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.686420 libSegFault.so@7f2700a67943[2070] fstat(4, 0x7ffdab79d2c0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2700a67943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffdab79d2c0"
+                        }, 
+                        "time": 1642278872.68642
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.686481 libSegFault.so@7f2700a67d03[2070] mmap2(0x0, 44000, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f2700901000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f2700901000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2700a67d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "44000", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642278872.686481
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.686551 libSegFault.so@7f2700a67d03[2070] mmap2(0x7f2700904000, 16384, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f2700904000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f2700904000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2700a67d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f2700904000", 
+                            "p1": "16384", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642278872.686551
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.686628 libSegFault.so@7f2700a67d03[2070] mmap2(0x7f2700908000, 8192, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 28672) = 0x7f2700908000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f2700908000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2700a67d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f2700908000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "28672"
+                        }, 
+                        "time": 1642278872.686628
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.686697 libSegFault.so@7f2700a67d03[2070] mmap2(0x7f270090a000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 32768) = 0x7f270090a000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f270090a000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2700a67d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f270090a000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "32768"
+                        }, 
+                        "time": 1642278872.686697
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.686796 libSegFault.so@7f2700a679f7[2070] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2700a679f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642278872.686796
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.686874 libSegFault.so@7f2700a67b0d[2070] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libm.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2700a67b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libm.so.6"
+                        }, 
+                        "time": 1642278872.686874
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.686942 libSegFault.so@7f2700a67bd4[2070] read(4, 0x7ffdab79d408, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2700a67bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffdab79d408"
+                        }, 
+                        "time": 1642278872.686942
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.687005 libSegFault.so@7f2700a67943[2070] fstat(4, 0x7ffdab79d2a0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2700a67943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffdab79d2a0"
+                        }, 
+                        "time": 1642278872.687005
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.687071 libSegFault.so@7f2700a67d03[2070] mmap2(0x0, 1364240, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f27007b3000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f27007b3000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2700a67d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1364240", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642278872.687071
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.687139 libSegFault.so@7f2700a67d03[2070] mmap2(0x7f27007c2000, 679936, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 61440) = 0x7f27007c2000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f27007c2000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2700a67d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f27007c2000", 
+                            "p1": "679936", 
+                            "p4": "4", 
+                            "p5": "61440"
+                        }, 
+                        "time": 1642278872.687139
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.687214 libSegFault.so@7f2700a67d03[2070] mmap2(0x7f2700868000, 618496, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 741376) = 0x7f2700868000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f2700868000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2700a67d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f2700868000", 
+                            "p1": "618496", 
+                            "p4": "4", 
+                            "p5": "741376"
+                        }, 
+                        "time": 1642278872.687214
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.687284 libSegFault.so@7f2700a67d03[2070] mmap2(0x7f27008ff000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1355776) = 0x7f27008ff000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f27008ff000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2700a67d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f27008ff000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "1355776"
+                        }, 
+                        "time": 1642278872.687284
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.687371 libSegFault.so@7f2700a679f7[2070] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2700a679f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642278872.687371
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.687455 libSegFault.so@7f2700a67b0d[2070] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libgcc_s.so.1\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2700a67b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libgcc_s.so.1"
+                        }, 
+                        "time": 1642278872.687455
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.687523 libSegFault.so@7f2700a67bd4[2070] read(4, 0x7ffdab79d3e8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2700a67bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffdab79d3e8"
+                        }, 
+                        "time": 1642278872.687523
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.687585 libSegFault.so@7f2700a67943[2070] fstat(4, 0x7ffdab79d280) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2700a67943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffdab79d280"
+                        }, 
+                        "time": 1642278872.687585
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.687645 libSegFault.so@7f2700a67d03[2070] mmap2(0x0, 103504, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f2700799000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f2700799000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2700a67d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "103504", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642278872.687645
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.687711 libSegFault.so@7f2700a67d03[2070] mmap2(0x7f270079c000, 69632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f270079c000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f270079c000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2700a67d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f270079c000", 
+                            "p1": "69632", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642278872.687711
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.687784 libSegFault.so@7f2700a67d03[2070] mmap2(0x7f27007ad000, 16384, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 81920) = 0x7f27007ad000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f27007ad000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2700a67d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f27007ad000", 
+                            "p1": "16384", 
+                            "p4": "4", 
+                            "p5": "81920"
+                        }, 
+                        "time": 1642278872.687784
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.687851 libSegFault.so@7f2700a67d03[2070] mmap2(0x7f27007b1000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 94208) = 0x7f27007b1000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f27007b1000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2700a67d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f27007b1000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "94208"
+                        }, 
+                        "time": 1642278872.687851
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.687939 libSegFault.so@7f2700a679f7[2070] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2700a679f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642278872.687939
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.688017 libSegFault.so@7f2700a67b0d[2070] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libpthread.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2700a67b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libpthread.so.0"
+                        }, 
+                        "time": 1642278872.688017
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.688087 libSegFault.so@7f2700a67bd4[2070] read(4, 0x7ffdab79d3c8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2700a67bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffdab79d3c8"
+                        }, 
+                        "time": 1642278872.688087
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.688307 libSegFault.so@7f2700a67943[2070] fstat(4, 0x7ffdab79d260) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2700a67943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffdab79d260"
+                        }, 
+                        "time": 1642278872.688307
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.688381 libSegFault.so@7f2700a67d03[2070] mmap2(0x0, 132288, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f2700778000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f2700778000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2700a67d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "132288", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642278872.688381
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.688479 libSegFault.so@7f2700a67d03[2070] mmap2(0x7f270077f000, 61440, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 28672) = 0x7f270077f000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f270077f000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2700a67d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f270077f000", 
+                            "p1": "61440", 
+                            "p4": "4", 
+                            "p5": "28672"
+                        }, 
+                        "time": 1642278872.688479
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.688578 libSegFault.so@7f2700a67d03[2070] mmap2(0x7f270078e000, 20480, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 90112) = 0x7f270078e000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f270078e000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2700a67d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f270078e000", 
+                            "p1": "20480", 
+                            "p4": "4", 
+                            "p5": "90112"
+                        }, 
+                        "time": 1642278872.688578
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.688650 libSegFault.so@7f2700a67d03[2070] mmap2(0x7f2700793000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 106496) = 0x7f2700793000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f2700793000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2700a67d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f2700793000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "106496"
+                        }, 
+                        "time": 1642278872.68865
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.688729 libSegFault.so@7f2700a67d03[2070] mmap2(0x7f2700795000, 13504, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f2700795000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f2700795000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2700a67d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f2700795000", 
+                            "p1": "13504", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642278872.688729
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.688811 libSegFault.so@7f2700a679f7[2070] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2700a679f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642278872.688811
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.688895 libSegFault.so@7f2700a67b0d[2070] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libc.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2700a67b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libc.so.6"
+                        }, 
+                        "time": 1642278872.688895
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.688967 libSegFault.so@7f2700a67bd4[2070] read(4, 0x7ffdab79d3a8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2700a67bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffdab79d3a8"
+                        }, 
+                        "time": 1642278872.688967
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.689030 libSegFault.so@7f2700a67943[2070] fstat(4, 0x7ffdab79d240) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2700a67943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffdab79d240"
+                        }, 
+                        "time": 1642278872.68903
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.689091 libSegFault.so@7f2700a67d03[2070] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f2700776000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f2700776000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2700a67d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642278872.689091
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.689163 libSegFault.so@7f2700a67d03[2070] mmap2(0x0, 2008696, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f270058b000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f270058b000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2700a67d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "2008696", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642278872.689163
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.689230 libSegFault.so@7f2700a67d03[2070] mmap2(0x7f27005b0000, 1519616, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 151552) = 0x7f27005b0000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f27005b0000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2700a67d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f27005b0000", 
+                            "p1": "1519616", 
+                            "p4": "4", 
+                            "p5": "151552"
+                        }, 
+                        "time": 1642278872.68923
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.689304 libSegFault.so@7f2700a67d03[2070] mmap2(0x7f2700723000, 299008, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1671168) = 0x7f2700723000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f2700723000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2700a67d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f2700723000", 
+                            "p1": "299008", 
+                            "p4": "4", 
+                            "p5": "1671168"
+                        }, 
+                        "time": 1642278872.689304
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.689374 libSegFault.so@7f2700a67d03[2070] mmap2(0x7f270076c000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1966080) = 0x7f270076c000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f270076c000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2700a67d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f270076c000", 
+                            "p1": "24576", 
+                            "p4": "4", 
+                            "p5": "1966080"
+                        }, 
+                        "time": 1642278872.689374
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.689451 libSegFault.so@7f2700a67d03[2070] mmap2(0x7f2700772000, 13944, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f2700772000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f2700772000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2700a67d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f2700772000", 
+                            "p1": "13944", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642278872.689451
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.689535 libSegFault.so@7f2700a679f7[2070] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2700a679f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642278872.689535
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.689630 libSegFault.so@7f2700a67b0d[2070] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libdl.so.2\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2700a67b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libdl.so.2"
+                        }, 
+                        "time": 1642278872.68963
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.689700 libSegFault.so@7f2700a67bd4[2070] read(4, 0x7ffdab79d388, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2700a67bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffdab79d388"
+                        }, 
+                        "time": 1642278872.6897
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.689761 libSegFault.so@7f2700a67943[2070] fstat(4, 0x7ffdab79d220) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2700a67943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffdab79d220"
+                        }, 
+                        "time": 1642278872.689761
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.689823 libSegFault.so@7f2700a67d03[2070] mmap2(0x0, 20752, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f2700585000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f2700585000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2700a67d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "20752", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642278872.689823
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.689892 libSegFault.so@7f2700a67d03[2070] mmap2(0x7f2700586000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 4096) = 0x7f2700586000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f2700586000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2700a67d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f2700586000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "4096"
+                        }, 
+                        "time": 1642278872.689892
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.689965 libSegFault.so@7f2700a67d03[2070] mmap2(0x7f2700588000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f2700588000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f2700588000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2700a67d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f2700588000", 
+                            "p1": "4096", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642278872.689965
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.690033 libSegFault.so@7f2700a67d03[2070] mmap2(0x7f2700589000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f2700589000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f2700589000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2700a67d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f2700589000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642278872.690033
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.690137 libSegFault.so@7f2700a679f7[2070] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2700a679f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642278872.690137
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.690221 libSegFault.so@7f2700a67b0d[2070] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libpcre.so.3\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2700a67b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libpcre.so.3"
+                        }, 
+                        "time": 1642278872.690221
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.690289 libSegFault.so@7f2700a67bd4[2070] read(4, 0x7ffdab79d368, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2700a67bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffdab79d368"
+                        }, 
+                        "time": 1642278872.690289
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.690349 libSegFault.so@7f2700a67943[2070] fstat(4, 0x7ffdab79d200) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2700a67943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffdab79d200"
+                        }, 
+                        "time": 1642278872.690349
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.690409 libSegFault.so@7f2700a67d03[2070] mmap2(0x0, 471304, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f2700511000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f2700511000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2700a67d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "471304", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642278872.690409
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.690476 libSegFault.so@7f2700a67d03[2070] mmap2(0x7f2700513000, 335872, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 8192) = 0x7f2700513000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f2700513000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2700a67d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f2700513000", 
+                            "p1": "335872", 
+                            "p4": "4", 
+                            "p5": "8192"
+                        }, 
+                        "time": 1642278872.690476
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.690554 libSegFault.so@7f2700a67d03[2070] mmap2(0x7f2700565000, 122880, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 344064) = 0x7f2700565000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f2700565000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2700a67d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f2700565000", 
+                            "p1": "122880", 
+                            "p4": "4", 
+                            "p5": "344064"
+                        }, 
+                        "time": 1642278872.690554
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.690624 libSegFault.so@7f2700a67d03[2070] mmap2(0x7f2700583000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 462848) = 0x7f2700583000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f2700583000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2700a67d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f2700583000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "462848"
+                        }, 
+                        "time": 1642278872.690624
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.690712 libSegFault.so@7f2700a679f7[2070] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2700a679f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642278872.690712
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.691871 libSegFault.so@7f2700a67d03[2070] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f270050f000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f270050f000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2700a67d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642278872.691871
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.691925 libSegFault.so@7f2700a4cf30[2070] arch_prctl(ARCH_SET_FS, 139805485760832) = 0\n", 
+                        "api": "arch_prctl", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2700a4cf30", 
+                        "arguments": {
+                            "p0": "ARCH_SET_FS", 
+                            "p1": "139805485760832"
+                        }, 
+                        "time": 1642278872.691925
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.692593 libSegFault.so@7f2700a67db7[2070] mprotect(0x7f270076c000, 12288, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2700a67db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f270076c000", 
+                            "p1": "12288"
+                        }, 
+                        "time": 1642278872.692593
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.692647 libSegFault.so@7f2700a67db7[2070] mprotect(0x7f2700793000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2700a67db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f2700793000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642278872.692647
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.692707 libSegFault.so@7f2700a67db7[2070] mprotect(0x7f2700583000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2700a67db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f2700583000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642278872.692707
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.692759 libSegFault.so@7f2700a67db7[2070] mprotect(0x7f2700589000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2700a67db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f2700589000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642278872.692759
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.692813 libSegFault.so@7f2700a67db7[2070] mprotect(0x7f27007b1000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2700a67db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f27007b1000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642278872.692813
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.692888 libSegFault.so@7f2700a67db7[2070] mprotect(0x7f27008ff000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2700a67db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f27008ff000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642278872.692888
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.692942 libSegFault.so@7f2700a67db7[2070] mprotect(0x7f270090a000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2700a67db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f270090a000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642278872.692942
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.693152 libSegFault.so@7f2700a67db7[2070] mprotect(0x7f2700a2a000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2700a67db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f2700a2a000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642278872.693152
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.693207 libSegFault.so@7f2700a67db7[2070] mprotect(0x7f2700a31000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2700a67db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f2700a31000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642278872.693207
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.696806 libSegFault.so@7f2700a67db7[2070] mprotect(0x56510ee2c000, 303104, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2700a67db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x56510ee2c000", 
+                            "p1": "303104"
+                        }, 
+                        "time": 1642278872.696806
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.696860 libSegFault.so@7f2700a67db7[2070] mprotect(0x7f2700a75000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2700a67db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f2700a75000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642278872.69686
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.696905 libSegFault.so@7f2700a67d97[2070] munmap(0x7f2700a35000, 88858) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2700a67d97", 
+                        "arguments": {
+                            "p0": "0x7f2700a35000", 
+                            "p1": "88858"
+                        }, 
+                        "time": 1642278872.696905
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.696971 libSegFault.so@7f270077f8df[2070] set_tid_address(0x7f2700510410) = 2070\n", 
+                        "api": "set_tid_address", 
+                        "return_value": "2070", 
+                        "category": "process", 
+                        "instruction_pointer": "7f270077f8df", 
+                        "arguments": {
+                            "p0": "0x7f2700510410"
+                        }, 
+                        "time": 1642278872.696971
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.697003 libSegFault.so@7f270077f94a[2070] set_robust_list(0x7f2700510420, 24) = 0\n", 
+                        "api": "set_robust_list", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f270077f94a", 
+                        "arguments": {
+                            "p0": "0x7f2700510420", 
+                            "p1": "24"
+                        }, 
+                        "time": 1642278872.697003
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.697042 libSegFault.so@7f270078c010[2070] rt_sigaction(0x20, {0x7f270077f6c0, SA_SIGINFO|SA_RESTORER, 0x7f270078bf40, [EMPTY]}, 0x0, 8) = 0\n", 
+                        "api": "rt_sigaction", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f270078c010", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "0x20", 
+                            "p1": [
+                                "0x7f270077f6c0", 
+                                "SA_SIGINFO|SA_RESTORER", 
+                                "0x7f270078bf40", 
+                                [
+                                    "EMPTY]"
+                                ]
+                            ]
+                        }, 
+                        "time": 1642278872.697042
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.697076 libSegFault.so@7f270078c010[2070] rt_sigaction(0x21, {0x7f270077f760, SA_RESTART|SA_SIGINFO|SA_RESTORER, 0x7f270078bf40, [EMPTY]}, 0x0, 8) = 0\n", 
+                        "api": "rt_sigaction", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f270078c010", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "0x21", 
+                            "p1": [
+                                "0x7f270077f760", 
+                                "SA_RESTART|SA_SIGINFO|SA_RESTORER", 
+                                "0x7f270078bf40", 
+                                [
+                                    "EMPTY]"
+                                ]
+                            ]
+                        }, 
+                        "time": 1642278872.697076
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.697108 libSegFault.so@7f270077fa19[2070] rt_sigprocmask(SIG_UNBLOCK, [EMPTY], 0x0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f270077fa19", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "SIG_UNBLOCK", 
+                            "p1": [
+                                "EMPTY"
+                            ]
+                        }, 
+                        "time": 1642278872.697108
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.697150 libSegFault.so@7f270069ddf0[2070] prlimit64(0, RLIMIT_STACK, NULL, 0x7ffdab79e040) = 0\n", 
+                        "api": "prlimit64", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f270069ddf0", 
+                        "arguments": {
+                            "p2": "NULL", 
+                            "p3": "0x7ffdab79e040", 
+                            "p0": "0", 
+                            "p1": "RLIMIT_STACK"
+                        }, 
+                        "time": 1642278872.69715
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.697392 libSegFault.so@7f270069e2f7[2070] brk(0x0) = 94906196709376\n", 
+                        "api": "brk", 
+                        "return_value": "94906196709376", 
+                        "category": "process", 
+                        "instruction_pointer": "7f270069e2f7", 
+                        "arguments": {
+                            "p0": "0x0"
+                        }, 
+                        "time": 1642278872.697392
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.697424 libSegFault.so@7f270069e2f7[2070] brk(0x565112266000) = 94906196844544\n", 
+                        "api": "brk", 
+                        "return_value": "94906196844544", 
+                        "category": "process", 
+                        "instruction_pointer": "7f270069e2f7", 
+                        "arguments": {
+                            "p0": "0x565112266000"
+                        }, 
+                        "time": 1642278872.697424
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.698524 libSegFault.so@7f2700788b86[2070] rt_sigprocmask(SIG_SETMASK, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS], 0x7ffdab79df90, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2700788b86", 
+                        "arguments": {
+                            "p2": "0x7ffdab79df90", 
+                            "p3": "8", 
+                            "p0": "SIG_SETMASK", 
+                            "p1": [
+                                "SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS"
+                            ]
+                        }, 
+                        "time": 1642278872.698524
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.699447 libSegFault.so@7f27006a24c3[2070] mmap2(0x0, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f26ffd0e000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f26ffd0e000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f27006a24c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK", 
+                            "p0": "0x0", 
+                            "p1": "8392704", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642278872.699447
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.699487 libSegFault.so@7f27006a2597[2070] mprotect(0x7f26ffd0f000, 8388608, PROT_READ|PROT_WRITE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f27006a2597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p0": "0x7f26ffd0f000", 
+                            "p1": "8388608"
+                        }, 
+                        "time": 1642278872.699487
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.699537 libSegFault.so@7f27006a8b11[2070] clone(CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, 0x7f270050df70, 0x7f270050e9d0, 0x7f270050e9d0) = 2071\n", 
+                        "api": "clone", 
+                        "return_value": "2071", 
+                        "category": "process", 
+                        "instruction_pointer": "7f27006a8b11", 
+                        "arguments": {
+                            "p2": "0x7f270050e9d0", 
+                            "p3": "0x7f270050e9d0", 
+                            "p0": "CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID", 
+                            "p1": "0x7f270050df70"
+                        }, 
+                        "time": 1642278872.699537
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.699629 libSegFault.so@7f2700788b86[2070] rt_sigprocmask(SIG_SETMASK, [EMPTY], 0x0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2700788b86", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "SIG_SETMASK", 
+                            "p1": [
+                                "EMPTY"
+                            ]
+                        }, 
+                        "time": 1642278872.699629
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.702388 libSegFault.so@7f270069ddf0[2070] prlimit64(0, RLIMIT_STACK, NULL, 0x7ffdab79db50) = 0\n", 
+                        "api": "prlimit64", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f270069ddf0", 
+                        "arguments": {
+                            "p2": "NULL", 
+                            "p3": "0x7ffdab79db50", 
+                            "p0": "0", 
+                            "p1": "RLIMIT_STACK"
+                        }, 
+                        "time": 1642278872.702388
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.702486 libSegFault.so@7f270069d5c1[2070] openat(AT_FDCWD, \"/etc/qemu-binfmt/sparc\", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -2 (ENOENT)\n", 
+                        "api": "openat", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f270069d5c1", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/etc/qemu-binfmt/sparc"
+                        }, 
+                        "time": 1642278872.702486
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.702605 libSegFault.so@7f270066c247[2070] uname(0x7ffdab79d7c0) = 0\n", 
+                        "api": "uname", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f270066c247", 
+                        "arguments": {
+                            "p0": "0x7ffdab79d7c0"
+                        }, 
+                        "time": 1642278872.702605
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.702648 libSegFault.so@7f270078b337[2070] lseek(3, 0, SEEK_SET) = 0\n", 
+                        "api": "lseek", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f270078b337", 
+                        "arguments": {
+                            "p2": "SEEK_SET", 
+                            "p0": "3", 
+                            "p1": "0"
+                        }, 
+                        "time": 1642278872.702648
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.702687 libSegFault.so@7f270078ad94[2070] read(3, 0x7ffdab79dab0, 52) = 52\n", 
+                        "api": "read", 
+                        "return_value": "52", 
+                        "category": "process", 
+                        "instruction_pointer": "7f270078ad94", 
+                        "arguments": {
+                            "p2": "52", 
+                            "p0": "3", 
+                            "p1": "0x7ffdab79dab0"
+                        }, 
+                        "time": 1642278872.702687
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.702725 libSegFault.so@7f270078b337[2070] lseek(3, 0, SEEK_SET) = 0\n", 
+                        "api": "lseek", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f270078b337", 
+                        "arguments": {
+                            "p2": "SEEK_SET", 
+                            "p0": "3", 
+                            "p1": "0"
+                        }, 
+                        "time": 1642278872.702725
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.703916 libSegFault.so@7f27006a24c3[2070] mmap2(0x0, 528384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f26ffc8d000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f26ffc8d000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f27006a24c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "528384", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642278872.703916
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.704378 libSegFault.so@7f27006a2597[2070] mprotect(0x56510ee89000, 33550336, PROT_READ|PROT_WRITE|PROT_EXEC) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f27006a2597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE|PROT_EXEC", 
+                            "p0": "0x56510ee89000", 
+                            "p1": "33550336"
+                        }, 
+                        "time": 1642278872.704378
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.704470 libSegFault.so@7f27006a2667[2070] madvise(0x56510ee89000, 33550336, MADV_HUGEPAGE) = 0\n", 
+                        "api": "madvise", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f27006a2667", 
+                        "arguments": {
+                            "p2": "MADV_HUGEPAGE", 
+                            "p0": "0x56510ee89000", 
+                            "p1": "33550336"
+                        }, 
+                        "time": 1642278872.70447
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.704646 libSegFault.so@7f27006a24c3[2070] mmap2(0x0, 4294963200, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f25f8001000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f25f8001000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f27006a24c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x0", 
+                            "p1": "4294963200", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642278872.704646
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.704694 libSegFault.so@7f2700697d59[2070] openat(AT_FDCWD, \"/proc/sys/vm/mmap_min_addr\", O_RDONLY) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2700697d59", 
+                        "arguments": {
+                            "p2": "O_RDONLY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/proc/sys/vm/mmap_min_addr"
+                        }, 
+                        "time": 1642278872.704694
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.704747 libSegFault.so@7f2700697613[2070] fstat(4, 0x7ffdab79d1c0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2700697613", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffdab79d1c0"
+                        }, 
+                        "time": 1642278872.704747
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.704785 libSegFault.so@7f2700697fb4[2070] read(4, 0x5651122523d0, 1024) = 6\n", 
+                        "api": "read", 
+                        "return_value": "6", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2700697fb4", 
+                        "arguments": {
+                            "p2": "1024", 
+                            "p0": "4", 
+                            "p1": "0x5651122523d0"
+                        }, 
+                        "time": 1642278872.704785
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.704833 libSegFault.so@7f270069d3f7[2070] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f270069d3f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642278872.704833
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.704882 libSegFault.so@7f27006a22e9[2070] gettid() = 2070\n", 
+                        "api": "gettid", 
+                        "return_value": "2070", 
+                        "category": "process", 
+                        "instruction_pointer": "7f27006a22e9", 
+                        "arguments": {}, 
+                        "time": 1642278872.704882
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.704916 libSegFault.so@7f2700697613[2070] fstat(3, 0x7ffdab79da30) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2700697613", 
+                        "arguments": {
+                            "p0": "3", 
+                            "p1": "0x7ffdab79da30"
+                        }, 
+                        "time": 1642278872.704916
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.704951 libSegFault.so@7f270066d717[2070] geteuid() = 0\n", 
+                        "api": "geteuid", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f270066d717", 
+                        "arguments": {}, 
+                        "time": 1642278872.704951
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.704985 libSegFault.so@7f270066d737[2070] getegid() = 0\n", 
+                        "api": "getegid", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f270066d737", 
+                        "arguments": {}, 
+                        "time": 1642278872.704985
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.705017 libSegFault.so@7f270078ad94[2070] read(3, 0x7ffdab79dc30, 1024) = 1024\n", 
+                        "api": "read", 
+                        "return_value": "1024", 
+                        "category": "process", 
+                        "instruction_pointer": "7f270078ad94", 
+                        "arguments": {
+                            "p2": "1024", 
+                            "p0": "3", 
+                            "p1": "0x7ffdab79dc30"
+                        }, 
+                        "time": 1642278872.705017
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.705060 libSegFault.so@7f27006a24c3[2070] mmap2(0x7f26f7feb000, 86016, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f26f7feb000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f26f7feb000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f27006a24c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x7f26f7feb000", 
+                            "p1": "86016", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642278872.70506
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.705103 libSegFault.so@7f270069e2f7[2070] brk(0x565112287000) = 94906196979712\n", 
+                        "api": "brk", 
+                        "return_value": "94906196979712", 
+                        "category": "process", 
+                        "instruction_pointer": "7f270069e2f7", 
+                        "arguments": {
+                            "p0": "0x565112287000"
+                        }, 
+                        "time": 1642278872.705103
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.705161 libSegFault.so@7f270078b67f[2070] pread(3, 0x56511224e620, 24, 10440) = 24\n", 
+                        "api": "pread", 
+                        "return_value": "24", 
+                        "category": "process", 
+                        "instruction_pointer": "7f270078b67f", 
+                        "arguments": {
+                            "p2": "24", 
+                            "p3": "10440", 
+                            "p0": "3", 
+                            "p1": "0x56511224e620"
+                        }, 
+                        "time": 1642278872.705161
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.705202 libSegFault.so@7f27006a24c3[2070] mmap2(0x7f26f7feb000, 12288, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 3, 0) = 0x7f26f7feb000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f26f7feb000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f27006a24c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED", 
+                            "p0": "0x7f26f7feb000", 
+                            "p1": "12288", 
+                            "p4": "3", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642278872.705202
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.705244 libSegFault.so@7f27006a24c3[2070] mmap2(0x7f26f7ffe000, 8192, PROT_READ|PROT_WRITE|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 3, 12288) = 0x7f26f7ffe000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f26f7ffe000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f27006a24c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED", 
+                            "p0": "0x7f26f7ffe000", 
+                            "p1": "8192", 
+                            "p4": "3", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642278872.705244
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.705288 libSegFault.so@7f270078ae27[2070] close(3) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f270078ae27", 
+                        "arguments": {
+                            "p0": "3"
+                        }, 
+                        "time": 1642278872.705288
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.705353 libSegFault.so@7f27006a24c3[2070] mmap2(0x7f26f77ea000, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f26f77ea000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f26f77ea000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f27006a24c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f26f77ea000", 
+                            "p1": "8392704", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642278872.705353
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.705449 libSegFault.so@7f27006a2597[2070] mprotect(0x7f26f77ea000, 4096, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f27006a2597", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7f26f77ea000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642278872.705449
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.705497 libSegFault.so@7f270078b55e[2070] openat(AT_FDCWD, \"/lib/ld-linux.so.2\", O_RDONLY) = -2 (ENOENT)\n", 
+                        "api": "openat", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f270078b55e", 
+                        "arguments": {
+                            "p2": "O_RDONLY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/ld-linux.so.2"
+                        }, 
+                        "time": 1642278872.705497
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.705571 libSegFault.so@7f2700698057[2070] write(2, \"/lib/ld-linux.so.2: No such file or directory\\n\", 46) = 46\n", 
+                        "api": "write", 
+                        "return_value": "46", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2700698057", 
+                        "arguments": {
+                            "p2": "46", 
+                            "p0": "2", 
+                            "p1": "/lib/ld-linux.so.2: No such file or directory\n"
+                        }, 
+                        "time": 1642278872.705571
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.705639 libSegFault.so@7f270066c926[2070] exit_group(-1)\n", 
+                        "api": "exit_group", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7f270066c926", 
+                        "arguments": {
+                            "p0": "-1"
+                        }, 
+                        "time": 1642278872.705639
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2070, 
+                        "raw": "Sat Jan 15 20:34:32 2022.705681 libSegFault.so@7f270066c926[2070] futex(0x7f2700510410, FUTEX_WAKE, 1) = 0\n", 
+                        "api": "futex", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f270066c926", 
+                        "arguments": {
+                            "p2": "1", 
+                            "p0": "0x7f2700510410", 
+                            "p1": "FUTEX_WAKE"
+                        }, 
+                        "time": 1642278872.705681
+                    }
+                ], 
+                "pid": 2070, 
+                "process_name": "libSegFault.so", 
+                "command_line": "/tmp/libSegFault.so", 
+                "first_seen": 1642278872.678597, 
+                "ppid": -1, 
+                "type": "process"
+            }, 
+            {
+                "calls": [
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:32 2022.699730 libSegFault.so@7f2700781117[2071] set_robust_list(0x7f270050e9e0, 24) = 0\n", 
+                        "api": "set_robust_list", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f2700781117", 
+                        "arguments": {
+                            "p0": "0x7f270050e9e0", 
+                            "p1": "24"
+                        }, 
+                        "time": 1642278872.69973
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:32 2022.699792 libSegFault.so@7f27006a24c3[2071] mmap2(0x0, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f26f7d0e000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f26f7d0e000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f27006a24c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x0", 
+                            "p1": "134217728", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642278872.699792
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:32 2022.699865 libSegFault.so@7f27006a2567[2071] munmap(0x7f26f7d0e000, 3088384) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f27006a2567", 
+                        "arguments": {
+                            "p0": "0x7f26f7d0e000", 
+                            "p1": "3088384"
+                        }, 
+                        "time": 1642278872.699865
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:32 2022.699930 libSegFault.so@7f27006a2567[2071] munmap(0x7f26fc000000, 64020480) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f27006a2567", 
+                        "arguments": {
+                            "p0": "0x7f26fc000000", 
+                            "p1": "64020480"
+                        }, 
+                        "time": 1642278872.69993
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:32 2022.699978 libSegFault.so@7f27006a2597[2071] mprotect(0x7f26f8000000, 135168, PROT_READ|PROT_WRITE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f27006a2597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p0": "0x7f26f8000000", 
+                            "p1": "135168"
+                        }, 
+                        "time": 1642278872.699978
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "libSegFault.so", 
+                        "pid": 2071, 
+                        "raw": "Sat Jan 15 20:34:32 2022.700045 libSegFault.so@7f270078b440[2071] nanosleep([0.010000000], 0x7f270050ddc0) = -516\n", 
+                        "api": "nanosleep", 
+                        "return_value": "-516", 
+                        "category": "process", 
+                        "instruction_pointer": "7f270078b440", 
+                        "arguments": {
+                            "p0": [
+                                "0.010000000"
+                            ], 
+                            "p1": "0x7f270050ddc0"
+                        }, 
+                        "time": 1642278872.700045
+                    }
+                ], 
+                "pid": 2071, 
+                "process_name": "libSegFault.so", 
+                "command_line": "", 
+                "first_seen": 1642278872.69973, 
+                "ppid": 2070, 
+                "type": "process"
+            }
+        ], 
+        "processtree": [
+            {
+                "track": true, 
+                "pid": 2070, 
+                "process_name": "libSegFault.so", 
+                "command_line": "/tmp/libSegFault.so", 
+                "first_seen": 1642278872.678597, 
+                "ppid": -1, 
+                "children": [
+                    {
+                        "track": true, 
+                        "pid": 2071, 
+                        "process_name": "libSegFault.so", 
+                        "command_line": "", 
+                        "first_seen": 1642278872.69973, 
+                        "ppid": 2070, 
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    }, 
+    "debug": {
+        "action": [], 
+        "dbgview": [], 
+        "errors": [], 
+        "log": [
+            "2022-01-15 20:34:25,010 [root] DEBUG: Starting analyzer from: /tmp/tmp1ECx_U\n", 
+            "2022-01-15 20:34:25,010 [root] DEBUG: Storing results at: /tmp/zAylGFQz\n", 
+            "2022-01-15 20:34:27,267 [modules.auxiliary.filecollector] INFO: FileCollector started v0.08\n", 
+            "2022-01-15 20:34:27,270 [modules.auxiliary.human] INFO: Human started v0.02\n", 
+            "2022-01-15 20:34:27,270 [modules.auxiliary.screenshots] INFO: Screenshots started v0.03\n", 
+            "2022-01-15 20:34:32,672 [lib.core.packages] INFO: Process startup took 5.39 seconds\n", 
+            "2022-01-15 20:34:32,673 [root] INFO: Added new process to list with pid: 2060\n", 
+            "2022-01-15 20:34:38,686 [root] INFO: Process with pid 2060 has terminated\n", 
+            "2022-01-15 20:34:38,687 [root] INFO: Process list is empty, terminating analysis.\n", 
+            "2022-01-15 20:34:41,691 [lib.core.packages] INFO: Package requested stop\n", 
+            "2022-01-15 20:34:41,692 [lib.core.packages] WARNING: Exception uploading log: [Errno 3] No such process\n"
+        ], 
+        "cuckoo": [
+            "2022-01-16 05:06:03,623 [cuckoo.core.scheduler] DEBUG: Task #2651149: no machine available yet\n", 
+            "2022-01-16 05:06:13,645 [cuckoo.core.scheduler] DEBUG: Task #2651149: no machine available yet\n", 
+            "2022-01-16 05:06:23,674 [cuckoo.core.scheduler] DEBUG: Task #2651149: no machine available yet\n", 
+            "2022-01-16 05:06:33,694 [cuckoo.core.scheduler] DEBUG: Task #2651149: no machine available yet\n", 
+            "2022-01-16 05:06:43,716 [cuckoo.core.scheduler] DEBUG: Task #2651149: no machine available yet\n", 
+            "2022-01-16 05:06:53,736 [cuckoo.core.scheduler] DEBUG: Task #2651149: no machine available yet\n", 
+            "2022-01-16 05:07:03,760 [cuckoo.core.scheduler] DEBUG: Task #2651149: no machine available yet\n", 
+            "2022-01-16 05:07:13,944 [cuckoo.core.scheduler] INFO: Task #2651149: acquired machine Ubuntu1904x641 (label=Ubuntu1904x641)\n", 
+            "2022-01-16 05:07:13,945 [cuckoo.core.resultserver] DEBUG: Now tracking machine 192.168.168.101 for task #2651149\n", 
+            "2022-01-16 05:07:14,123 [cuckoo.auxiliary.sniffer] INFO: Started sniffer with PID 2046737 (interface=vboxnet0, host=192.168.168.101)\n", 
+            "2022-01-16 05:07:14,274 [cuckoo.machinery.virtualbox] DEBUG: Starting vm Ubuntu1904x641\n", 
+            "2022-01-16 05:07:14,714 [cuckoo.machinery.virtualbox] DEBUG: Restoring virtual machine Ubuntu1904x641 to Snapshot\n", 
+            "2022-01-16 05:07:24,016 [cuckoo.core.guest] INFO: Starting analysis #2651149 on guest (id=Ubuntu1904x641, ip=192.168.168.101)\n", 
+            "2022-01-16 05:07:25,020 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: not ready yet\n", 
+            "2022-01-16 05:07:30,039 [cuckoo.core.guest] INFO: Guest is running Cuckoo Agent 0.10 (id=Ubuntu1904x641, ip=192.168.168.101)\n", 
+            "2022-01-16 05:07:30,053 [cuckoo.core.guest] DEBUG: Uploading analyzer to guest (id=Ubuntu1904x641, ip=192.168.168.101, monitor=latest, size=72028)\n", 
+            "2022-01-16 05:07:31,202 [cuckoo.core.resultserver] DEBUG: Task #2651149: live log analysis.log initialized.\n", 
+            "2022-01-16 05:07:36,390 [cuckoo.core.resultserver] DEBUG: Task #2651149: File upload for 'shots/0001.jpg'\n", 
+            "2022-01-16 05:07:36,395 [cuckoo.core.resultserver] DEBUG: Task #2651149 uploaded file length: 171553\n", 
+            "2022-01-16 05:07:45,270 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2651149 still processing\n", 
+            "2022-01-16 05:07:47,909 [cuckoo.core.resultserver] DEBUG: Task #2651149: File upload for 'logs/all.stap'\n", 
+            "2022-01-16 05:07:47,913 [cuckoo.core.resultserver] DEBUG: Task #2651149 uploaded file length: 20018\n", 
+            "2022-01-16 05:08:00,332 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2651149 still processing\n", 
+            "2022-01-16 05:08:15,414 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2651149 still processing\n", 
+            "2022-01-16 05:08:30,478 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2651149 still processing\n", 
+            "2022-01-16 05:08:45,544 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2651149 still processing\n", 
+            "2022-01-16 05:09:00,608 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2651149 still processing\n", 
+            "2022-01-16 05:09:15,677 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2651149 still processing\n", 
+            "2022-01-16 05:09:30,753 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2651149 still processing\n", 
+            "2022-01-16 05:09:45,830 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2651149 still processing\n", 
+            "2022-01-16 05:10:00,909 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2651149 still processing\n", 
+            "2022-01-16 05:10:15,986 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2651149 still processing\n", 
+            "2022-01-16 05:10:31,047 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2651149 still processing\n", 
+            "2022-01-16 05:10:46,167 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2651149 still processing\n", 
+            "2022-01-16 05:11:01,228 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2651149 still processing\n", 
+            "2022-01-16 05:11:16,348 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2651149 still processing\n", 
+            "2022-01-16 05:11:31,399 [cuckoo.core.guest] INFO: Ubuntu1904x641: end of analysis reached!\n", 
+            "2022-01-16 05:11:31,409 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Redsocks\n", 
+            "2022-01-16 05:11:31,477 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Sniffer\n", 
+            "2022-01-16 05:11:45,433 [cuckoo.machinery.virtualbox] INFO: Successfully generated memory dump for virtual machine with label Ubuntu1904x641 to path /srv/cuckoo/cwd/storage/analyses/2651149/memory.dmp\n", 
+            "2022-01-16 05:11:45,434 [cuckoo.machinery.virtualbox] DEBUG: Stopping vm Ubuntu1904x641\n", 
+            "2022-01-16 05:11:49,402 [cuckoo.core.resultserver] DEBUG: Stopped tracking machine 192.168.168.101 for task #2651149\n", 
+            "2022-01-16 05:11:49,402 [cuckoo.core.resultserver] DEBUG: Cancel <Context for LOG> for task 2651149\n", 
+            "2022-01-16 05:11:49,530 [cuckoo.core.scheduler] DEBUG: Released database task #2651149\n", 
+            "2022-01-16 05:11:49,615 [cuckoo.core.scheduler] INFO: Task #2651149: analysis procedure completed\n"
+        ]
+    }, 
+    "strings": [
+        "__gmon_start__", 
+        "__cxa_finalize", 
+        "_Jv_RegisterClasses", 
+        "_itoa_lower_digits", 
+        "getenv", 
+        "sigemptyset", 
+        "malloc", 
+        "sigaltstack", 
+        "__strcasestr", 
+        "__strcasecmp", 
+        "__ctype_b_loc", 
+        "sigaction", 
+        "access", 
+        "__errno_location", 
+        "__strdup", 
+        "_sys_siglist", 
+        "strlen", 
+        "writev", 
+        "backtrace", 
+        "__backtrace_symbols_fd", 
+        "__invoke_dynamic_linker__", 
+        "libc.so.6", 
+        "ld-linux.so.2", 
+        "_edata", 
+        "__bss_start", 
+        "libSegFault.so", 
+        "GLIBC_2.3.3", 
+        "GLIBC_2.3", 
+        "GLIBC_2.1.3", 
+        "GLIBC_2.1", 
+        "GLIBC_PRIVATE", 
+        "GLIBC_2.0", 
+        "SEGFAULT_SIGNALS", 
+        "SEGFAULT_USE_ALTSTACK", 
+        "SEGFAULT_OUTPUT_NAME", 
+        "signal ", 
+        "Register dump:", 
+        " PSR: ", 
+        " NPC: ", 
+        "   Y: ", 
+        " g0: 00000000 g1: ", 
+        "  g2: ", 
+        "  g3: ", 
+        "  g5: ", 
+        "  g6: ", 
+        "  g7: ", 
+        "  o1: ", 
+        "  o2: ", 
+        "  o3: ", 
+        "  o5: ", 
+        "  sp: ", 
+        "  o7: ", 
+        "  l1: ", 
+        "  l2: ", 
+        "  l3: ", 
+        "  l5: ", 
+        "  l6: ", 
+        "  l7: ", 
+        "  i1: ", 
+        "  i2: ", 
+        "  i3: ", 
+        "  i5: ", 
+        "  fp: ", 
+        "  i7: ", 
+        " Old mask: ", 
+        " XFSR: ", 
+        " GSR: ", 
+        " FPRS: ", 
+        "  f0: ", 
+        "   f2: ", 
+        "   f4: ", 
+        "  f6: ", 
+        "   f8: ", 
+        "  f10: ", 
+        " f12: ", 
+        "  f14: ", 
+        "  f16: ", 
+        " f18: ", 
+        "  f20: ", 
+        "  f22: ", 
+        " f24: ", 
+        "  f26: ", 
+        "  f28: ", 
+        " f30: ", 
+        "  f32: ", 
+        "  f34: ", 
+        " f36: ", 
+        "  f38: ", 
+        "  f40: ", 
+        " f42: ", 
+        "  f44: ", 
+        "  f46: ", 
+        " f48: ", 
+        "  f50: ", 
+        "  f52: ", 
+        " f54: ", 
+        "  f56: ", 
+        "  f58: ", 
+        " f60: ", 
+        "  f62: ", 
+        " FSR: ", 
+        " FPQ: ", 
+        "  f2: ", 
+        "  f4: ", 
+        "  f12: ", 
+        "Backtrace:", 
+        "/proc/self/maps", 
+        "Memory map:", 
+        "/lib/ld-linux.so.2", 
+        "libSegFault.so", 
+        ".shstrtab", 
+        ".note.ABI-tag", 
+        ".dynsym", 
+        ".dynstr", 
+        ".gnu.version", 
+        ".gnu.version_r", 
+        ".rela.dyn", 
+        ".rela.plt", 
+        ".rodata", 
+        ".interp", 
+        ".eh_frame", 
+        ".ctors", 
+        ".dtors", 
+        ".dynamic", 
+        ".gnu_debuglink"
+    ], 
+    "metadata": {
+        "output": {
+            "pcap": {
+                "basename": "dump.pcap", 
+                "sha256": "63d8d04f49e4d4f012fe7d6f867fee08ffaf970acc9626df3ea443e59c2f26d9", 
+                "dirname": ""
+            }
+        }
+    }
+}
