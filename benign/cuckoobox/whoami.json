@@ -1,0 +1,2971 @@
+{
+    "info": {
+        "added": 1642282906.773693, 
+        "started": 1642330638.00074, 
+        "duration": 564, 
+        "ended": 1642331202.505443, 
+        "owner": null, 
+        "score": 0.0, 
+        "id": 2651897, 
+        "category": "file", 
+        "git": {
+            "head": "e8f6317b4b3ef806085a1e99e64c6ff01f26948f", 
+            "fetch_head": "e8f6317b4b3ef806085a1e99e64c6ff01f26948f"
+        }, 
+        "monitor": "2deb9ccd75d5a7a3fe05b2625b03a8639d6ee36b", 
+        "package": "elf", 
+        "route": "internet", 
+        "custom": null, 
+        "machine": {
+            "status": "stopped", 
+            "name": "Ubuntu1904x647", 
+            "label": "Ubuntu1904x647", 
+            "platform": "linux", 
+            "manager": "VirtualBox", 
+            "started_on": "2022-01-16 11:01:31", 
+            "shutdown_on": "2022-01-16 11:06:41"
+        }, 
+        "platform": "linux", 
+        "version": "2.0.7", 
+        "options": "procmemdump=yes,route=internet"
+    }, 
+    "signatures": [], 
+    "target": {
+        "category": "file", 
+        "file": {
+            "mimetype": "application/x-executable", 
+            "yara": [], 
+            "sha1": "3b53eed4f607b8d30752bf952c6e2b4c430acc6a", 
+            "name": "whoami", 
+            "type": "ELF 32-bit MSB executable, SPARC, version 1 (SYSV), dynamically linked, interpreter /lib/ld-linux.so.2, for GNU/Linux 2.4.1, stripped", 
+            "sha256": "ce9d12385fe6c110740111f089f85096764a968b27c8bf819686ccb68e6c486b", 
+            "urls": [], 
+            "crc32": "F71611B5", 
+            "path": "/srv/cuckoo/cwd/storage/binaries/ce9d12385fe6c110740111f089f85096764a968b27c8bf819686ccb68e6c486b", 
+            "ssdeep": "192:q/bUVJQrupNzGIZ1fHekOdMwYRgAt850Vpuhnfiqbolhs1:qjeCuGIZlZcMwYBuhnfiqboli", 
+            "size": 13012, 
+            "sha512": "ff2660ae831b8cbab650b318f4ee6b7927a1150dcf3b274dcfadfa45fe9af625b558e7b729f9e7cd6d52a0096d0ccc10761b5d246a99d3485e5e4fc152374e74", 
+            "md5": "bd29c9b3dd80a42035943e1b316af53b"
+        }, 
+        "custom": null
+    }, 
+    "irma": {
+        "status": 0, 
+        "probes_finished": 16, 
+        "scan_id": "d455c755-8d31-4b24-9804-84f019c32f66", 
+        "parent_file_sha256": null, 
+        "name": "ce9d12385fe6c110740111f089f85096764a968b27c8bf819686ccb68e6c486b", 
+        "probes_total": 16, 
+        "scan_date": 1642324003, 
+        "other_results": [], 
+        "submitter": "cli", 
+        "file_infos": {
+            "mimetype": "ELF 32-bit MSB executable, SPARC, version 1 (SYSV)", 
+            "sha1": "3b53eed4f607b8d30752bf952c6e2b4c430acc6a", 
+            "tags": [], 
+            "timestamp_first_scan": 1642324003.43, 
+            "timestamp_last_scan": 1642324012.61, 
+            "sha256": "ce9d12385fe6c110740111f089f85096764a968b27c8bf819686ccb68e6c486b", 
+            "md5": "bd29c9b3dd80a42035943e1b316af53b", 
+            "size": 13012
+        }, 
+        "probe_results": {
+            "antivirus": {
+                "Avast Core Security (Linux)": {
+                    "status": 0, 
+                    "duration": 0.01, 
+                    "version": "3.0.3", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "F-Secure Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.03, 
+                    "version": "11.10", 
+                    "results": null, 
+                    "virus_database_version": "2022-01-13_04"
+                }, 
+                "Windows Defender (Windows)": {
+                    "status": 0, 
+                    "duration": 0.05, 
+                    "version": "1.1.18800.4", 
+                    "results": null, 
+                    "virus_database_version": "1.355.1049.0"
+                }, 
+                "Comodo Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 2.1, 
+                    "version": "1.1.268025.1", 
+                    "results": null, 
+                    "virus_database_version": "2021-11-02"
+                }, 
+                "Kaspersky Antivirus (Win)": {
+                    "status": 0, 
+                    "duration": 5.85, 
+                    "version": "21.3", 
+                    "results": null, 
+                    "virus_database_version": "2022-01-16 02:22:00 (full)"
+                }, 
+                "ESET NOD32 Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 4.25, 
+                    "version": "4.0.96", 
+                    "results": null, 
+                    "virus_database_version": "6178ebd0-1e722 (2021-10-27)"
+                }, 
+                "GData (Windows)": {
+                    "status": 0, 
+                    "duration": 0.17, 
+                    "version": "5.5.20197.1358", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Forticlient (Linux)": {
+                    "status": 0, 
+                    "duration": 3.03, 
+                    "version": "unavailable", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Avira (Windows)": {
+                    "status": 0, 
+                    "duration": 3.8, 
+                    "version": "8.3.64.66", 
+                    "results": null, 
+                    "virus_database_version": "8.19.1.122"
+                }, 
+                "eScan Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 3.91, 
+                    "version": "7.0.21", 
+                    "results": null, 
+                    "virus_database_version": "7.90035 (27/10/2021)"
+                }, 
+                "McAfee CLI scanner (Linux)": {
+                    "status": 0, 
+                    "duration": 5.81, 
+                    "version": "6.0.6.653", 
+                    "results": null, 
+                    "virus_database_version": "10149"
+                }, 
+                "Sophos Anti-Virus (Linux)": {
+                    "status": 0, 
+                    "duration": 6.64, 
+                    "version": "5.85.0", 
+                    "results": null, 
+                    "virus_database_version": "5.88 (26 October 2021)"
+                }, 
+                "DrWeb Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.2, 
+                    "version": "11.1.10.2108031732", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "ClamAV (Linux)": {
+                    "status": 0, 
+                    "duration": 0.02, 
+                    "version": "0.103.2", 
+                    "results": null, 
+                    "virus_database_version": "26334"
+                }, 
+                "Bitdefender Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 6.2, 
+                    "version": "7.90123", 
+                    "results": null, 
+                    "virus_database_version": null
+                }, 
+                "Emsisoft Commandline Scanner (Windows)": {
+                    "status": 0, 
+                    "duration": 0.2, 
+                    "version": "2021.10.0.11201", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }
+            }
+        }, 
+        "path": "", 
+        "result_id": "9deed0c3-feef-40c4-b317-5556412a33cf", 
+        "file_sha256": "ce9d12385fe6c110740111f089f85096764a968b27c8bf819686ccb68e6c486b"
+    }, 
+    "suricata": {
+        "tls": [], 
+        "files": [], 
+        "alerts": [], 
+        "http": []
+    }, 
+    "virustotal": {
+        "summary": {
+            "error": "resource has not been scanned yet"
+        }
+    }, 
+    "network": {
+        "tls": [], 
+        "udp": [], 
+        "dns_servers": [], 
+        "http": [], 
+        "icmp": [], 
+        "smtp": [], 
+        "tcp": [], 
+        "smtp_ex": [], 
+        "geoinfo": {}, 
+        "mitm": [], 
+        "hosts": [], 
+        "pcap_sha256": "704e5e5b3234433c01fcfd1b20a306e77e985038120492dc53965c3edd38a4ea", 
+        "dns": [], 
+        "http_ex": [], 
+        "domains": [], 
+        "dead_hosts": [], 
+        "irc": [], 
+        "https_ex": []
+    }, 
+    "resubmit": {
+        "resubmit_ids": []
+    }, 
+    "snort": {
+        "alerts": []
+    }, 
+    "behavior": {
+        "generic": [
+            {
+                "process_path": null, 
+                "process_name": "whoami", 
+                "pid": 2080, 
+                "summary": {}, 
+                "first_seen": 1642282918.491479, 
+                "ppid": -1
+            }, 
+            {
+                "process_path": null, 
+                "process_name": "whoami", 
+                "pid": 2081, 
+                "summary": {}, 
+                "first_seen": 1642282918.512563, 
+                "ppid": 2080
+            }
+        ], 
+        "processes": [
+            {
+                "calls": [
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.491479 whoami@7f1ca663ac27[2080] execve(\"/tmp/whoami\", [\"/tmp/whoami\"], [\"SUDO_GID=0\", \"MAIL=/var/mail/root\", \"USER=root\", \"HOME=/root\", \"SUDO_UID=0\", \"LOGNAME=root\", \"SYSTEMTAP_MODULE=stap_\", \"TERM=unknown\", \"SYSTEMTAP_VERBOSE=2\", \"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin\", \"DISPLAY=:0\", \"LANG=en_US.UTF-8\", \"XAUTHORITY=/root/.Xauthority\", \"SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/whoami\", \"SHELL=/bin/bash\", \"SUDO_USER=root\", \"PWD=/tmp/tmpFyx9IF\"])\n", 
+                        "api": "execve", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca663ac27", 
+                        "arguments": {
+                            "p2": [
+                                "SUDO_GID=0", 
+                                "MAIL=/var/mail/root", 
+                                "USER=root", 
+                                "HOME=/root", 
+                                "SUDO_UID=0", 
+                                "LOGNAME=root", 
+                                "SYSTEMTAP_MODULE=stap_", 
+                                "TERM=unknown", 
+                                "SYSTEMTAP_VERBOSE=2", 
+                                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin", 
+                                "DISPLAY=:0", 
+                                "LANG=en_US.UTF-8", 
+                                "XAUTHORITY=/root/.Xauthority", 
+                                "SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/whoami", 
+                                "SHELL=/bin/bash", 
+                                "SUDO_USER=root", 
+                                "PWD=/tmp/tmpFyx9IF"
+                            ], 
+                            "p0": "/tmp/whoami", 
+                            "p1": [
+                                "/tmp/whoami"
+                            ]
+                        }, 
+                        "time": 1642282918.491479
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.498648 whoami@7f1ca663ac27[2080] brk(0x0) = 94913934737408\n", 
+                        "api": "brk", 
+                        "return_value": "94913934737408", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca663ac27", 
+                        "arguments": {
+                            "p0": "0x0"
+                        }, 
+                        "time": 1642282918.498648
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.498770 whoami@7f1ca663b9d7[2080] access(\"/etc/ld.so.preload\", R_OK) = -2 (ENOENT)\n", 
+                        "api": "access", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca663b9d7", 
+                        "arguments": {
+                            "p0": "/etc/ld.so.preload", 
+                            "p1": "R_OK"
+                        }, 
+                        "time": 1642282918.49877
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.499804 whoami@7f1ca663bb0d[2080] openat(AT_FDCWD, \"/etc/ld.so.cache\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca663bb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/etc/ld.so.cache"
+                        }, 
+                        "time": 1642282918.499804
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.499843 whoami@7f1ca663b943[2080] fstat(4, 0x7ffc4165c770) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca663b943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc4165c770"
+                        }, 
+                        "time": 1642282918.499843
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.499877 whoami@7f1ca663bd03[2080] mmap2(0x0, 88858, PROT_READ, MAP_PRIVATE, 4, 0) = 0x7f1ca6609000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1ca6609000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca663bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE", 
+                            "p0": "0x0", 
+                            "p1": "88858", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642282918.499877
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.499911 whoami@7f1ca663b9f7[2080] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca663b9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642282918.499911
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.499961 whoami@7f1ca663bb0d[2080] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca663bb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0"
+                        }, 
+                        "time": 1642282918.499961
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.499998 whoami@7f1ca663bbd4[2080] read(4, 0x7ffc4165c928, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca663bbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc4165c928"
+                        }, 
+                        "time": 1642282918.499998
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.500031 whoami@7f1ca663b943[2080] fstat(4, 0x7ffc4165c7c0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca663b943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc4165c7c0"
+                        }, 
+                        "time": 1642282918.500031
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.500063 whoami@7f1ca663bd03[2080] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f1ca6607000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1ca6607000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca663bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642282918.500063
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.500170 whoami@7f1ca663bd03[2080] mmap2(0x0, 20600, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f1ca6601000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1ca6601000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca663bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "20600", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642282918.50017
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.500208 whoami@7f1ca663bd03[2080] mmap2(0x7f1ca6602000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 4096) = 0x7f1ca6602000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1ca6602000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca663bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f1ca6602000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "4096"
+                        }, 
+                        "time": 1642282918.500208
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.500257 whoami@7f1ca663bd03[2080] mmap2(0x7f1ca6604000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f1ca6604000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1ca6604000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca663bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f1ca6604000", 
+                            "p1": "4096", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642282918.500257
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.500298 whoami@7f1ca663bd03[2080] mmap2(0x7f1ca6605000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f1ca6605000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1ca6605000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca663bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f1ca6605000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642282918.500298
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.500353 whoami@7f1ca663b9f7[2080] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca663b9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642282918.500353
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.500393 whoami@7f1ca663bb0d[2080] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca663bb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0"
+                        }, 
+                        "time": 1642282918.500393
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.500429 whoami@7f1ca663bbd4[2080] read(4, 0x7ffc4165c908, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca663bbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc4165c908"
+                        }, 
+                        "time": 1642282918.500429
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.500462 whoami@7f1ca663b943[2080] fstat(4, 0x7ffc4165c7a0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca663b943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc4165c7a0"
+                        }, 
+                        "time": 1642282918.500462
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.500494 whoami@7f1ca663bd03[2080] mmap2(0x0, 1180072, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f1ca64e0000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1ca64e0000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca663bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1180072", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642282918.500494
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.500532 whoami@7f1ca663bdb7[2080] mprotect(0x7f1ca64fb000, 1060864, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca663bdb7", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7f1ca64fb000", 
+                            "p1": "1060864"
+                        }, 
+                        "time": 1642282918.500532
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.500578 whoami@7f1ca663bd03[2080] mmap2(0x7f1ca64fb000, 524288, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 110592) = 0x7f1ca64fb000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1ca64fb000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca663bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f1ca64fb000", 
+                            "p1": "524288", 
+                            "p4": "4", 
+                            "p5": "110592"
+                        }, 
+                        "time": 1642282918.500578
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.500616 whoami@7f1ca663bd03[2080] mmap2(0x7f1ca657b000, 532480, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 634880) = 0x7f1ca657b000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1ca657b000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca663bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f1ca657b000", 
+                            "p1": "532480", 
+                            "p4": "4", 
+                            "p5": "634880"
+                        }, 
+                        "time": 1642282918.500616
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.500654 whoami@7f1ca663bd03[2080] mmap2(0x7f1ca65fe000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1167360) = 0x7f1ca65fe000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1ca65fe000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca663bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f1ca65fe000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "1167360"
+                        }, 
+                        "time": 1642282918.500654
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.500699 whoami@7f1ca663bd03[2080] mmap2(0x7f1ca6600000, 424, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f1ca6600000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1ca6600000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca663bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f1ca6600000", 
+                            "p1": "424", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642282918.500699
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.500737 whoami@7f1ca663b9f7[2080] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca663b9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642282918.500737
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.500782 whoami@7f1ca663bb0d[2080] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/librt.so.1\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca663bb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/librt.so.1"
+                        }, 
+                        "time": 1642282918.500782
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.500818 whoami@7f1ca663bbd4[2080] read(4, 0x7ffc4165c8e8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca663bbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc4165c8e8"
+                        }, 
+                        "time": 1642282918.500818
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.500849 whoami@7f1ca663b943[2080] fstat(4, 0x7ffc4165c780) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca663b943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc4165c780"
+                        }, 
+                        "time": 1642282918.500849
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.500880 whoami@7f1ca663bd03[2080] mmap2(0x0, 44000, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f1ca64d5000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1ca64d5000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca663bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "44000", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642282918.50088
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.500927 whoami@7f1ca663bd03[2080] mmap2(0x7f1ca64d8000, 16384, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f1ca64d8000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1ca64d8000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca663bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f1ca64d8000", 
+                            "p1": "16384", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642282918.500927
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.500966 whoami@7f1ca663bd03[2080] mmap2(0x7f1ca64dc000, 8192, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 28672) = 0x7f1ca64dc000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1ca64dc000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca663bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f1ca64dc000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "28672"
+                        }, 
+                        "time": 1642282918.500966
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.501002 whoami@7f1ca663bd03[2080] mmap2(0x7f1ca64de000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 32768) = 0x7f1ca64de000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1ca64de000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca663bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f1ca64de000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "32768"
+                        }, 
+                        "time": 1642282918.501002
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.501047 whoami@7f1ca663b9f7[2080] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca663b9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642282918.501047
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.501086 whoami@7f1ca663bb0d[2080] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libm.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca663bb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libm.so.6"
+                        }, 
+                        "time": 1642282918.501086
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.501121 whoami@7f1ca663bbd4[2080] read(4, 0x7ffc4165c8c8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca663bbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc4165c8c8"
+                        }, 
+                        "time": 1642282918.501121
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.501151 whoami@7f1ca663b943[2080] fstat(4, 0x7ffc4165c760) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca663b943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc4165c760"
+                        }, 
+                        "time": 1642282918.501151
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.501185 whoami@7f1ca663bd03[2080] mmap2(0x0, 1364240, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f1ca6387000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1ca6387000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca663bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1364240", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642282918.501185
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.501220 whoami@7f1ca663bd03[2080] mmap2(0x7f1ca6396000, 679936, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 61440) = 0x7f1ca6396000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1ca6396000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca663bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f1ca6396000", 
+                            "p1": "679936", 
+                            "p4": "4", 
+                            "p5": "61440"
+                        }, 
+                        "time": 1642282918.50122
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.501258 whoami@7f1ca663bd03[2080] mmap2(0x7f1ca643c000, 618496, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 741376) = 0x7f1ca643c000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1ca643c000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca663bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f1ca643c000", 
+                            "p1": "618496", 
+                            "p4": "4", 
+                            "p5": "741376"
+                        }, 
+                        "time": 1642282918.501258
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.501293 whoami@7f1ca663bd03[2080] mmap2(0x7f1ca64d3000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1355776) = 0x7f1ca64d3000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1ca64d3000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca663bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f1ca64d3000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "1355776"
+                        }, 
+                        "time": 1642282918.501293
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.501336 whoami@7f1ca663b9f7[2080] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca663b9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642282918.501336
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.501377 whoami@7f1ca663bb0d[2080] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libgcc_s.so.1\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca663bb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libgcc_s.so.1"
+                        }, 
+                        "time": 1642282918.501377
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.501409 whoami@7f1ca663bbd4[2080] read(4, 0x7ffc4165c8a8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca663bbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc4165c8a8"
+                        }, 
+                        "time": 1642282918.501409
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.501444 whoami@7f1ca663b943[2080] fstat(4, 0x7ffc4165c740) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca663b943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc4165c740"
+                        }, 
+                        "time": 1642282918.501444
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.501495 whoami@7f1ca663bd03[2080] mmap2(0x0, 103504, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f1ca636d000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1ca636d000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca663bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "103504", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642282918.501495
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.501529 whoami@7f1ca663bd03[2080] mmap2(0x7f1ca6370000, 69632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f1ca6370000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1ca6370000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca663bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f1ca6370000", 
+                            "p1": "69632", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642282918.501529
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.501567 whoami@7f1ca663bd03[2080] mmap2(0x7f1ca6381000, 16384, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 81920) = 0x7f1ca6381000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1ca6381000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca663bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f1ca6381000", 
+                            "p1": "16384", 
+                            "p4": "4", 
+                            "p5": "81920"
+                        }, 
+                        "time": 1642282918.501567
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.501604 whoami@7f1ca663bd03[2080] mmap2(0x7f1ca6385000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 94208) = 0x7f1ca6385000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1ca6385000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca663bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f1ca6385000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "94208"
+                        }, 
+                        "time": 1642282918.501604
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.501647 whoami@7f1ca663b9f7[2080] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca663b9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642282918.501647
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.501686 whoami@7f1ca663bb0d[2080] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libpthread.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca663bb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libpthread.so.0"
+                        }, 
+                        "time": 1642282918.501686
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.501721 whoami@7f1ca663bbd4[2080] read(4, 0x7ffc4165c888, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca663bbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc4165c888"
+                        }, 
+                        "time": 1642282918.501721
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.501752 whoami@7f1ca663b943[2080] fstat(4, 0x7ffc4165c720) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca663b943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc4165c720"
+                        }, 
+                        "time": 1642282918.501752
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.501782 whoami@7f1ca663bd03[2080] mmap2(0x0, 132288, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f1ca634c000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1ca634c000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca663bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "132288", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642282918.501782
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.501818 whoami@7f1ca663bd03[2080] mmap2(0x7f1ca6353000, 61440, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 28672) = 0x7f1ca6353000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1ca6353000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca663bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f1ca6353000", 
+                            "p1": "61440", 
+                            "p4": "4", 
+                            "p5": "28672"
+                        }, 
+                        "time": 1642282918.501818
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.501856 whoami@7f1ca663bd03[2080] mmap2(0x7f1ca6362000, 20480, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 90112) = 0x7f1ca6362000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1ca6362000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca663bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f1ca6362000", 
+                            "p1": "20480", 
+                            "p4": "4", 
+                            "p5": "90112"
+                        }, 
+                        "time": 1642282918.501856
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.501898 whoami@7f1ca663bd03[2080] mmap2(0x7f1ca6367000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 106496) = 0x7f1ca6367000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1ca6367000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca663bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f1ca6367000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "106496"
+                        }, 
+                        "time": 1642282918.501898
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.501939 whoami@7f1ca663bd03[2080] mmap2(0x7f1ca6369000, 13504, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f1ca6369000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1ca6369000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca663bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f1ca6369000", 
+                            "p1": "13504", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642282918.501939
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.501976 whoami@7f1ca663b9f7[2080] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca663b9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642282918.501976
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.502014 whoami@7f1ca663bb0d[2080] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libc.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca663bb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libc.so.6"
+                        }, 
+                        "time": 1642282918.502014
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.502048 whoami@7f1ca663bbd4[2080] read(4, 0x7ffc4165c868, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca663bbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc4165c868"
+                        }, 
+                        "time": 1642282918.502048
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.502080 whoami@7f1ca663b943[2080] fstat(4, 0x7ffc4165c700) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca663b943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc4165c700"
+                        }, 
+                        "time": 1642282918.50208
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.502110 whoami@7f1ca663bd03[2080] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f1ca634a000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1ca634a000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca663bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642282918.50211
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.502146 whoami@7f1ca663bd03[2080] mmap2(0x0, 2008696, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f1ca615f000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1ca615f000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca663bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "2008696", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642282918.502146
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.502181 whoami@7f1ca663bd03[2080] mmap2(0x7f1ca6184000, 1519616, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 151552) = 0x7f1ca6184000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1ca6184000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca663bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f1ca6184000", 
+                            "p1": "1519616", 
+                            "p4": "4", 
+                            "p5": "151552"
+                        }, 
+                        "time": 1642282918.502181
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.502221 whoami@7f1ca663bd03[2080] mmap2(0x7f1ca62f7000, 299008, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1671168) = 0x7f1ca62f7000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1ca62f7000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca663bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f1ca62f7000", 
+                            "p1": "299008", 
+                            "p4": "4", 
+                            "p5": "1671168"
+                        }, 
+                        "time": 1642282918.502221
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.502257 whoami@7f1ca663bd03[2080] mmap2(0x7f1ca6340000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1966080) = 0x7f1ca6340000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1ca6340000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca663bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f1ca6340000", 
+                            "p1": "24576", 
+                            "p4": "4", 
+                            "p5": "1966080"
+                        }, 
+                        "time": 1642282918.502257
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.502297 whoami@7f1ca663bd03[2080] mmap2(0x7f1ca6346000, 13944, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f1ca6346000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1ca6346000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca663bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f1ca6346000", 
+                            "p1": "13944", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642282918.502297
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.502336 whoami@7f1ca663b9f7[2080] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca663b9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642282918.502336
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.502384 whoami@7f1ca663bb0d[2080] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libdl.so.2\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca663bb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libdl.so.2"
+                        }, 
+                        "time": 1642282918.502384
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.502419 whoami@7f1ca663bbd4[2080] read(4, 0x7ffc4165c848, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca663bbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc4165c848"
+                        }, 
+                        "time": 1642282918.502419
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.502450 whoami@7f1ca663b943[2080] fstat(4, 0x7ffc4165c6e0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca663b943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc4165c6e0"
+                        }, 
+                        "time": 1642282918.50245
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.502481 whoami@7f1ca663bd03[2080] mmap2(0x0, 20752, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f1ca6159000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1ca6159000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca663bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "20752", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642282918.502481
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.502517 whoami@7f1ca663bd03[2080] mmap2(0x7f1ca615a000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 4096) = 0x7f1ca615a000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1ca615a000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca663bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f1ca615a000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "4096"
+                        }, 
+                        "time": 1642282918.502517
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.502557 whoami@7f1ca663bd03[2080] mmap2(0x7f1ca615c000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f1ca615c000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1ca615c000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca663bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f1ca615c000", 
+                            "p1": "4096", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642282918.502557
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.502594 whoami@7f1ca663bd03[2080] mmap2(0x7f1ca615d000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f1ca615d000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1ca615d000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca663bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f1ca615d000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1642282918.502594
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.502636 whoami@7f1ca663b9f7[2080] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca663b9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642282918.502636
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.502677 whoami@7f1ca663bb0d[2080] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libpcre.so.3\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca663bb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libpcre.so.3"
+                        }, 
+                        "time": 1642282918.502677
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.502711 whoami@7f1ca663bbd4[2080] read(4, 0x7ffc4165c828, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca663bbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffc4165c828"
+                        }, 
+                        "time": 1642282918.502711
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.502745 whoami@7f1ca663b943[2080] fstat(4, 0x7ffc4165c6c0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca663b943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc4165c6c0"
+                        }, 
+                        "time": 1642282918.502745
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.502777 whoami@7f1ca663bd03[2080] mmap2(0x0, 471304, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f1ca60e5000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1ca60e5000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca663bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "471304", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642282918.502777
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.502814 whoami@7f1ca663bd03[2080] mmap2(0x7f1ca60e7000, 335872, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 8192) = 0x7f1ca60e7000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1ca60e7000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca663bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f1ca60e7000", 
+                            "p1": "335872", 
+                            "p4": "4", 
+                            "p5": "8192"
+                        }, 
+                        "time": 1642282918.502814
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.502856 whoami@7f1ca663bd03[2080] mmap2(0x7f1ca6139000, 122880, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 344064) = 0x7f1ca6139000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1ca6139000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca663bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f1ca6139000", 
+                            "p1": "122880", 
+                            "p4": "4", 
+                            "p5": "344064"
+                        }, 
+                        "time": 1642282918.502856
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.502892 whoami@7f1ca663bd03[2080] mmap2(0x7f1ca6157000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 462848) = 0x7f1ca6157000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1ca6157000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca663bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f1ca6157000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "462848"
+                        }, 
+                        "time": 1642282918.502892
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.502939 whoami@7f1ca663b9f7[2080] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca663b9f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642282918.502939
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.503798 whoami@7f1ca663bd03[2080] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f1ca60e3000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1ca60e3000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca663bd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642282918.503798
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.503853 whoami@7f1ca6620f30[2080] arch_prctl(ARCH_SET_FS, 139761021763904) = 0\n", 
+                        "api": "arch_prctl", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca6620f30", 
+                        "arguments": {
+                            "p0": "ARCH_SET_FS", 
+                            "p1": "139761021763904"
+                        }, 
+                        "time": 1642282918.503853
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.504609 whoami@7f1ca663bdb7[2080] mprotect(0x7f1ca6340000, 12288, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca663bdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f1ca6340000", 
+                            "p1": "12288"
+                        }, 
+                        "time": 1642282918.504609
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.504664 whoami@7f1ca663bdb7[2080] mprotect(0x7f1ca6367000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca663bdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f1ca6367000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642282918.504664
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.504771 whoami@7f1ca663bdb7[2080] mprotect(0x7f1ca6157000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca663bdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f1ca6157000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642282918.504771
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.504841 whoami@7f1ca663bdb7[2080] mprotect(0x7f1ca615d000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca663bdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f1ca615d000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642282918.504841
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.504917 whoami@7f1ca663bdb7[2080] mprotect(0x7f1ca6385000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca663bdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f1ca6385000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642282918.504917
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.505013 whoami@7f1ca663bdb7[2080] mprotect(0x7f1ca64d3000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca663bdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f1ca64d3000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642282918.505013
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.505082 whoami@7f1ca663bdb7[2080] mprotect(0x7f1ca64de000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca663bdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f1ca64de000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642282918.505082
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.505466 whoami@7f1ca663bdb7[2080] mprotect(0x7f1ca65fe000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca663bdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f1ca65fe000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642282918.505466
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.505558 whoami@7f1ca663bdb7[2080] mprotect(0x7f1ca6605000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca663bdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f1ca6605000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642282918.505558
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.509285 whoami@7f1ca663bdb7[2080] mprotect(0x5652dba1b000, 303104, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca663bdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x5652dba1b000", 
+                            "p1": "303104"
+                        }, 
+                        "time": 1642282918.509285
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.509370 whoami@7f1ca663bdb7[2080] mprotect(0x7f1ca6649000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca663bdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f1ca6649000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642282918.50937
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.509540 whoami@7f1ca663bd97[2080] munmap(0x7f1ca6609000, 88858) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca663bd97", 
+                        "arguments": {
+                            "p0": "0x7f1ca6609000", 
+                            "p1": "88858"
+                        }, 
+                        "time": 1642282918.50954
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.509713 whoami@7f1ca63538df[2080] set_tid_address(0x7f1ca60e4410) = 2080\n", 
+                        "api": "set_tid_address", 
+                        "return_value": "2080", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca63538df", 
+                        "arguments": {
+                            "p0": "0x7f1ca60e4410"
+                        }, 
+                        "time": 1642282918.509713
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.509759 whoami@7f1ca635394a[2080] set_robust_list(0x7f1ca60e4420, 24) = 0\n", 
+                        "api": "set_robust_list", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca635394a", 
+                        "arguments": {
+                            "p0": "0x7f1ca60e4420", 
+                            "p1": "24"
+                        }, 
+                        "time": 1642282918.509759
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.509819 whoami@7f1ca6360010[2080] rt_sigaction(0x20, {0x7f1ca63536c0, SA_SIGINFO|SA_RESTORER, 0x7f1ca635ff40, [EMPTY]}, 0x0, 8) = 0\n", 
+                        "api": "rt_sigaction", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca6360010", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "0x20", 
+                            "p1": [
+                                "0x7f1ca63536c0", 
+                                "SA_SIGINFO|SA_RESTORER", 
+                                "0x7f1ca635ff40", 
+                                [
+                                    "EMPTY]"
+                                ]
+                            ]
+                        }, 
+                        "time": 1642282918.509819
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.509868 whoami@7f1ca6360010[2080] rt_sigaction(0x21, {0x7f1ca6353760, SA_RESTART|SA_SIGINFO|SA_RESTORER, 0x7f1ca635ff40, [EMPTY]}, 0x0, 8) = 0\n", 
+                        "api": "rt_sigaction", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca6360010", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "0x21", 
+                            "p1": [
+                                "0x7f1ca6353760", 
+                                "SA_RESTART|SA_SIGINFO|SA_RESTORER", 
+                                "0x7f1ca635ff40", 
+                                [
+                                    "EMPTY]"
+                                ]
+                            ]
+                        }, 
+                        "time": 1642282918.509868
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.509917 whoami@7f1ca6353a19[2080] rt_sigprocmask(SIG_UNBLOCK, [EMPTY], 0x0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca6353a19", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "SIG_UNBLOCK", 
+                            "p1": [
+                                "EMPTY"
+                            ]
+                        }, 
+                        "time": 1642282918.509917
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.509978 whoami@7f1ca6271df0[2080] prlimit64(0, RLIMIT_STACK, NULL, 0x7ffc4165d500) = 0\n", 
+                        "api": "prlimit64", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca6271df0", 
+                        "arguments": {
+                            "p2": "NULL", 
+                            "p3": "0x7ffc4165d500", 
+                            "p0": "0", 
+                            "p1": "RLIMIT_STACK"
+                        }, 
+                        "time": 1642282918.509978
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.510259 whoami@7f1ca62722f7[2080] brk(0x0) = 94913934737408\n", 
+                        "api": "brk", 
+                        "return_value": "94913934737408", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca62722f7", 
+                        "arguments": {
+                            "p0": "0x0"
+                        }, 
+                        "time": 1642282918.510259
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.510303 whoami@7f1ca62722f7[2080] brk(0x5652df5f5000) = 94913934872576\n", 
+                        "api": "brk", 
+                        "return_value": "94913934872576", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca62722f7", 
+                        "arguments": {
+                            "p0": "0x5652df5f5000"
+                        }, 
+                        "time": 1642282918.510303
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.511344 whoami@7f1ca635cb86[2080] rt_sigprocmask(SIG_SETMASK, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS], 0x7ffc4165d450, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca635cb86", 
+                        "arguments": {
+                            "p2": "0x7ffc4165d450", 
+                            "p3": "8", 
+                            "p0": "SIG_SETMASK", 
+                            "p1": [
+                                "SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS"
+                            ]
+                        }, 
+                        "time": 1642282918.511344
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.512179 whoami@7f1ca62764c3[2080] mmap2(0x0, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f1ca58e2000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1ca58e2000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca62764c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK", 
+                            "p0": "0x0", 
+                            "p1": "8392704", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642282918.512179
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.512253 whoami@7f1ca6276597[2080] mprotect(0x7f1ca58e3000, 8388608, PROT_READ|PROT_WRITE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca6276597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p0": "0x7f1ca58e3000", 
+                            "p1": "8388608"
+                        }, 
+                        "time": 1642282918.512253
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.512327 whoami@7f1ca627cb11[2080] clone(CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, 0x7f1ca60e1f70, 0x7f1ca60e29d0, 0x7f1ca60e29d0) = 2081\n", 
+                        "api": "clone", 
+                        "return_value": "2081", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca627cb11", 
+                        "arguments": {
+                            "p2": "0x7f1ca60e29d0", 
+                            "p3": "0x7f1ca60e29d0", 
+                            "p0": "CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID", 
+                            "p1": "0x7f1ca60e1f70"
+                        }, 
+                        "time": 1642282918.512327
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.512464 whoami@7f1ca635cb86[2080] rt_sigprocmask(SIG_SETMASK, [EMPTY], 0x0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca635cb86", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "SIG_SETMASK", 
+                            "p1": [
+                                "EMPTY"
+                            ]
+                        }, 
+                        "time": 1642282918.512464
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.514898 whoami@7f1ca6271df0[2080] prlimit64(0, RLIMIT_STACK, NULL, 0x7ffc4165d010) = 0\n", 
+                        "api": "prlimit64", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca6271df0", 
+                        "arguments": {
+                            "p2": "NULL", 
+                            "p3": "0x7ffc4165d010", 
+                            "p0": "0", 
+                            "p1": "RLIMIT_STACK"
+                        }, 
+                        "time": 1642282918.514898
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.514983 whoami@7f1ca62715c1[2080] openat(AT_FDCWD, \"/etc/qemu-binfmt/sparc\", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -2 (ENOENT)\n", 
+                        "api": "openat", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca62715c1", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/etc/qemu-binfmt/sparc"
+                        }, 
+                        "time": 1642282918.514983
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.515074 whoami@7f1ca6240247[2080] uname(0x7ffc4165cc80) = 0\n", 
+                        "api": "uname", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca6240247", 
+                        "arguments": {
+                            "p0": "0x7ffc4165cc80"
+                        }, 
+                        "time": 1642282918.515074
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.515133 whoami@7f1ca635f337[2080] lseek(3, 0, SEEK_SET) = 0\n", 
+                        "api": "lseek", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca635f337", 
+                        "arguments": {
+                            "p2": "SEEK_SET", 
+                            "p0": "3", 
+                            "p1": "0"
+                        }, 
+                        "time": 1642282918.515133
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.515182 whoami@7f1ca635ed94[2080] read(3, 0x7ffc4165cf70, 52) = 52\n", 
+                        "api": "read", 
+                        "return_value": "52", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca635ed94", 
+                        "arguments": {
+                            "p2": "52", 
+                            "p0": "3", 
+                            "p1": "0x7ffc4165cf70"
+                        }, 
+                        "time": 1642282918.515182
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.515389 whoami@7f1ca635f337[2080] lseek(3, 0, SEEK_SET) = 0\n", 
+                        "api": "lseek", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca635f337", 
+                        "arguments": {
+                            "p2": "SEEK_SET", 
+                            "p0": "3", 
+                            "p1": "0"
+                        }, 
+                        "time": 1642282918.515389
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.516610 whoami@7f1ca62764c3[2080] mmap2(0x0, 528384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f1ca5861000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1ca5861000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca62764c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "528384", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642282918.51661
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.517188 whoami@7f1ca6276597[2080] mprotect(0x5652dba78000, 33550336, PROT_READ|PROT_WRITE|PROT_EXEC) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca6276597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE|PROT_EXEC", 
+                            "p0": "0x5652dba78000", 
+                            "p1": "33550336"
+                        }, 
+                        "time": 1642282918.517188
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.517246 whoami@7f1ca6276667[2080] madvise(0x5652dba78000, 33550336, MADV_HUGEPAGE) = 0\n", 
+                        "api": "madvise", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca6276667", 
+                        "arguments": {
+                            "p2": "MADV_HUGEPAGE", 
+                            "p0": "0x5652dba78000", 
+                            "p1": "33550336"
+                        }, 
+                        "time": 1642282918.517246
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.517465 whoami@7f1ca62764c3[2080] mmap2(0x0, 4294963200, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f1ba0001000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1ba0001000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca62764c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x0", 
+                            "p1": "4294963200", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642282918.517465
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.517529 whoami@7f1ca626bd59[2080] openat(AT_FDCWD, \"/proc/sys/vm/mmap_min_addr\", O_RDONLY) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca626bd59", 
+                        "arguments": {
+                            "p2": "O_RDONLY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/proc/sys/vm/mmap_min_addr"
+                        }, 
+                        "time": 1642282918.517529
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.517603 whoami@7f1ca626b613[2080] fstat(4, 0x7ffc4165c680) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca626b613", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffc4165c680"
+                        }, 
+                        "time": 1642282918.517603
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.517654 whoami@7f1ca626bfb4[2080] read(4, 0x5652df5e13d0, 1024) = 6\n", 
+                        "api": "read", 
+                        "return_value": "6", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca626bfb4", 
+                        "arguments": {
+                            "p2": "1024", 
+                            "p0": "4", 
+                            "p1": "0x5652df5e13d0"
+                        }, 
+                        "time": 1642282918.517654
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.517712 whoami@7f1ca62713f7[2080] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca62713f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1642282918.517712
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.517776 whoami@7f1ca62762e9[2080] gettid() = 2080\n", 
+                        "api": "gettid", 
+                        "return_value": "2080", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca62762e9", 
+                        "arguments": {}, 
+                        "time": 1642282918.517776
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.517820 whoami@7f1ca626b613[2080] fstat(3, 0x7ffc4165cef0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca626b613", 
+                        "arguments": {
+                            "p0": "3", 
+                            "p1": "0x7ffc4165cef0"
+                        }, 
+                        "time": 1642282918.51782
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.517864 whoami@7f1ca6241717[2080] geteuid() = 0\n", 
+                        "api": "geteuid", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca6241717", 
+                        "arguments": {}, 
+                        "time": 1642282918.517864
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.517912 whoami@7f1ca6241737[2080] getegid() = 0\n", 
+                        "api": "getegid", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca6241737", 
+                        "arguments": {}, 
+                        "time": 1642282918.517912
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.517952 whoami@7f1ca635ed94[2080] read(3, 0x7ffc4165d0f0, 1024) = 1024\n", 
+                        "api": "read", 
+                        "return_value": "1024", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca635ed94", 
+                        "arguments": {
+                            "p2": "1024", 
+                            "p0": "3", 
+                            "p1": "0x7ffc4165d0f0"
+                        }, 
+                        "time": 1642282918.517952
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.518001 whoami@7f1ca62764c3[2080] mmap2(0x7f1ba0011000, 12288, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 3, 0) = 0x7f1ba0011000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1ba0011000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca62764c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED", 
+                            "p0": "0x7f1ba0011000", 
+                            "p1": "12288", 
+                            "p4": "3", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642282918.518001
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.518061 whoami@7f1ca62722f7[2080] brk(0x5652df616000) = 94913935007744\n", 
+                        "api": "brk", 
+                        "return_value": "94913935007744", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca62722f7", 
+                        "arguments": {
+                            "p0": "0x5652df616000"
+                        }, 
+                        "time": 1642282918.518061
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.518128 whoami@7f1ca62764c3[2080] mmap2(0x7f1ba0023000, 4096, PROT_READ|PROT_WRITE|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 3, 8192) = 0x7f1ba0023000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1ba0023000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca62764c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED", 
+                            "p0": "0x7f1ba0023000", 
+                            "p1": "4096", 
+                            "p4": "3", 
+                            "p5": "8192"
+                        }, 
+                        "time": 1642282918.518128
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.518186 whoami@7f1ca635ee27[2080] close(3) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca635ee27", 
+                        "arguments": {
+                            "p0": "3"
+                        }, 
+                        "time": 1642282918.518186
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.518271 whoami@7f1ca62764c3[2080] mmap2(0x7f1c9f7ff000, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f1c9f7ff000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1c9f7ff000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca62764c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f1c9f7ff000", 
+                            "p1": "8392704", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642282918.518271
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.518413 whoami@7f1ca6276597[2080] mprotect(0x7f1c9f7ff000, 4096, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca6276597", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7f1c9f7ff000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1642282918.518413
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.518479 whoami@7f1ca635f55e[2080] openat(AT_FDCWD, \"/lib/ld-linux.so.2\", O_RDONLY) = -2 (ENOENT)\n", 
+                        "api": "openat", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca635f55e", 
+                        "arguments": {
+                            "p2": "O_RDONLY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/ld-linux.so.2"
+                        }, 
+                        "time": 1642282918.518479
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.518567 whoami@7f1ca626c057[2080] write(2, \"/lib/ld-linux.so.2: No such file or directory\\n\", 46) = 46\n", 
+                        "api": "write", 
+                        "return_value": "46", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca626c057", 
+                        "arguments": {
+                            "p2": "46", 
+                            "p0": "2", 
+                            "p1": "/lib/ld-linux.so.2: No such file or directory\n"
+                        }, 
+                        "time": 1642282918.518567
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.518652 whoami@7f1ca6240926[2080] exit_group(-1)\n", 
+                        "api": "exit_group", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca6240926", 
+                        "arguments": {
+                            "p0": "-1"
+                        }, 
+                        "time": 1642282918.518652
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2080, 
+                        "raw": "Sat Jan 15 21:41:58 2022.518702 whoami@7f1ca6240926[2080] futex(0x7f1ca60e4410, FUTEX_WAKE, 1) = 0\n", 
+                        "api": "futex", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca6240926", 
+                        "arguments": {
+                            "p2": "1", 
+                            "p0": "0x7f1ca60e4410", 
+                            "p1": "FUTEX_WAKE"
+                        }, 
+                        "time": 1642282918.518702
+                    }
+                ], 
+                "pid": 2080, 
+                "process_name": "whoami", 
+                "command_line": "/tmp/whoami", 
+                "first_seen": 1642282918.491479, 
+                "ppid": -1, 
+                "type": "process"
+            }, 
+            {
+                "calls": [
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2081, 
+                        "raw": "Sat Jan 15 21:41:58 2022.512563 whoami@7f1ca6355117[2081] set_robust_list(0x7f1ca60e29e0, 24) = 0\n", 
+                        "api": "set_robust_list", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca6355117", 
+                        "arguments": {
+                            "p0": "0x7f1ca60e29e0", 
+                            "p1": "24"
+                        }, 
+                        "time": 1642282918.512563
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2081, 
+                        "raw": "Sat Jan 15 21:41:58 2022.512637 whoami@7f1ca62764c3[2081] mmap2(0x0, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f1c9d8e2000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f1c9d8e2000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca62764c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x0", 
+                            "p1": "134217728", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1642282918.512637
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2081, 
+                        "raw": "Sat Jan 15 21:41:58 2022.512696 whoami@7f1ca6276567[2081] munmap(0x7f1c9d8e2000, 41017344) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca6276567", 
+                        "arguments": {
+                            "p0": "0x7f1c9d8e2000", 
+                            "p1": "41017344"
+                        }, 
+                        "time": 1642282918.512696
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2081, 
+                        "raw": "Sat Jan 15 21:41:58 2022.512757 whoami@7f1ca6276567[2081] munmap(0x7f1ca4000000, 26091520) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca6276567", 
+                        "arguments": {
+                            "p0": "0x7f1ca4000000", 
+                            "p1": "26091520"
+                        }, 
+                        "time": 1642282918.512757
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2081, 
+                        "raw": "Sat Jan 15 21:41:58 2022.512811 whoami@7f1ca6276597[2081] mprotect(0x7f1ca0000000, 135168, PROT_READ|PROT_WRITE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca6276597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p0": "0x7f1ca0000000", 
+                            "p1": "135168"
+                        }, 
+                        "time": 1642282918.512811
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "whoami", 
+                        "pid": 2081, 
+                        "raw": "Sat Jan 15 21:41:58 2022.512873 whoami@7f1ca635f440[2081] nanosleep([0.010000000], 0x7f1ca60e1dc0) = -516\n", 
+                        "api": "nanosleep", 
+                        "return_value": "-516", 
+                        "category": "process", 
+                        "instruction_pointer": "7f1ca635f440", 
+                        "arguments": {
+                            "p0": [
+                                "0.010000000"
+                            ], 
+                            "p1": "0x7f1ca60e1dc0"
+                        }, 
+                        "time": 1642282918.512873
+                    }
+                ], 
+                "pid": 2081, 
+                "process_name": "whoami", 
+                "command_line": "", 
+                "first_seen": 1642282918.512563, 
+                "ppid": 2080, 
+                "type": "process"
+            }
+        ], 
+        "processtree": [
+            {
+                "track": true, 
+                "pid": 2080, 
+                "process_name": "whoami", 
+                "command_line": "/tmp/whoami", 
+                "first_seen": 1642282918.491479, 
+                "ppid": -1, 
+                "children": [
+                    {
+                        "track": true, 
+                        "pid": 2081, 
+                        "process_name": "whoami", 
+                        "command_line": "", 
+                        "first_seen": 1642282918.512563, 
+                        "ppid": 2080, 
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    }, 
+    "debug": {
+        "action": [], 
+        "dbgview": [], 
+        "errors": [], 
+        "log": [
+            "2022-01-15 21:41:46,007 [root] DEBUG: Starting analyzer from: /tmp/tmpFyx9IF\n", 
+            "2022-01-15 21:41:46,007 [root] DEBUG: Storing results at: /tmp/LmoDIbtF\n", 
+            "2022-01-15 21:41:48,224 [modules.auxiliary.filecollector] INFO: FileCollector started v0.08\n", 
+            "2022-01-15 21:41:48,726 [modules.auxiliary.human] INFO: Human started v0.02\n", 
+            "2022-01-15 21:41:48,727 [modules.auxiliary.screenshots] INFO: Screenshots started v0.03\n", 
+            "2022-01-15 21:41:58,491 [lib.core.packages] INFO: Process startup took 9.76 seconds\n", 
+            "2022-01-15 21:41:58,492 [root] INFO: Added new process to list with pid: 2067\n", 
+            "2022-01-15 21:42:10,509 [root] INFO: Process with pid 2067 has terminated\n", 
+            "2022-01-15 21:42:10,510 [root] INFO: Process list is empty, terminating analysis.\n", 
+            "2022-01-15 21:42:13,512 [lib.core.packages] INFO: Package requested stop\n", 
+            "2022-01-15 21:42:13,513 [lib.core.packages] WARNING: Exception uploading log: [Errno 3] No such process\n"
+        ], 
+        "cuckoo": [
+            "2022-01-16 10:57:20,680 [cuckoo.core.scheduler] DEBUG: Task #2651897: no machine available yet\n", 
+            "2022-01-16 10:57:30,711 [cuckoo.core.scheduler] DEBUG: Task #2651897: no machine available yet\n", 
+            "2022-01-16 10:57:40,759 [cuckoo.core.scheduler] DEBUG: Task #2651897: no machine available yet\n", 
+            "2022-01-16 10:57:50,784 [cuckoo.core.scheduler] DEBUG: Task #2651897: no machine available yet\n", 
+            "2022-01-16 10:58:00,807 [cuckoo.core.scheduler] DEBUG: Task #2651897: no machine available yet\n", 
+            "2022-01-16 10:58:10,830 [cuckoo.core.scheduler] DEBUG: Task #2651897: no machine available yet\n", 
+            "2022-01-16 10:58:20,855 [cuckoo.core.scheduler] DEBUG: Task #2651897: no machine available yet\n", 
+            "2022-01-16 10:58:30,884 [cuckoo.core.scheduler] DEBUG: Task #2651897: no machine available yet\n", 
+            "2022-01-16 10:58:40,906 [cuckoo.core.scheduler] DEBUG: Task #2651897: no machine available yet\n", 
+            "2022-01-16 10:58:50,934 [cuckoo.core.scheduler] DEBUG: Task #2651897: no machine available yet\n", 
+            "2022-01-16 10:59:00,955 [cuckoo.core.scheduler] DEBUG: Task #2651897: no machine available yet\n", 
+            "2022-01-16 10:59:10,976 [cuckoo.core.scheduler] DEBUG: Task #2651897: no machine available yet\n", 
+            "2022-01-16 10:59:20,999 [cuckoo.core.scheduler] DEBUG: Task #2651897: no machine available yet\n", 
+            "2022-01-16 10:59:31,023 [cuckoo.core.scheduler] DEBUG: Task #2651897: no machine available yet\n", 
+            "2022-01-16 10:59:41,048 [cuckoo.core.scheduler] DEBUG: Task #2651897: no machine available yet\n", 
+            "2022-01-16 10:59:51,069 [cuckoo.core.scheduler] DEBUG: Task #2651897: no machine available yet\n", 
+            "2022-01-16 11:00:01,097 [cuckoo.core.scheduler] DEBUG: Task #2651897: no machine available yet\n", 
+            "2022-01-16 11:00:11,122 [cuckoo.core.scheduler] DEBUG: Task #2651897: no machine available yet\n", 
+            "2022-01-16 11:00:21,152 [cuckoo.core.scheduler] DEBUG: Task #2651897: no machine available yet\n", 
+            "2022-01-16 11:00:31,176 [cuckoo.core.scheduler] DEBUG: Task #2651897: no machine available yet\n", 
+            "2022-01-16 11:00:41,218 [cuckoo.core.scheduler] DEBUG: Task #2651897: no machine available yet\n", 
+            "2022-01-16 11:00:51,248 [cuckoo.core.scheduler] DEBUG: Task #2651897: no machine available yet\n", 
+            "2022-01-16 11:01:01,292 [cuckoo.core.scheduler] DEBUG: Task #2651897: no machine available yet\n", 
+            "2022-01-16 11:01:11,326 [cuckoo.core.scheduler] DEBUG: Task #2651897: no machine available yet\n", 
+            "2022-01-16 11:01:21,354 [cuckoo.core.scheduler] DEBUG: Task #2651897: no machine available yet\n", 
+            "2022-01-16 11:01:31,377 [cuckoo.core.scheduler] INFO: Task #2651897: acquired machine Ubuntu1904x647 (label=Ubuntu1904x647)\n", 
+            "2022-01-16 11:01:31,378 [cuckoo.core.resultserver] DEBUG: Now tracking machine 192.168.168.107 for task #2651897\n", 
+            "2022-01-16 11:01:31,523 [cuckoo.auxiliary.sniffer] INFO: Started sniffer with PID 3458753 (interface=vboxnet0, host=192.168.168.107)\n", 
+            "2022-01-16 11:01:31,668 [cuckoo.machinery.virtualbox] DEBUG: Starting vm Ubuntu1904x647\n", 
+            "2022-01-16 11:01:32,140 [cuckoo.machinery.virtualbox] DEBUG: Restoring virtual machine Ubuntu1904x647 to Snapshot\n", 
+            "2022-01-16 11:01:40,994 [cuckoo.core.guest] INFO: Starting analysis #2651897 on guest (id=Ubuntu1904x647, ip=192.168.168.107)\n", 
+            "2022-01-16 11:01:41,999 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: not ready yet\n", 
+            "2022-01-16 11:01:47,016 [cuckoo.core.guest] INFO: Guest is running Cuckoo Agent 0.10 (id=Ubuntu1904x647, ip=192.168.168.107)\n", 
+            "2022-01-16 11:01:47,034 [cuckoo.core.guest] DEBUG: Uploading analyzer to guest (id=Ubuntu1904x647, ip=192.168.168.107, monitor=latest, size=72028)\n", 
+            "2022-01-16 11:01:48,207 [cuckoo.core.resultserver] DEBUG: Task #2651897: live log analysis.log initialized.\n", 
+            "2022-01-16 11:01:53,981 [cuckoo.core.resultserver] DEBUG: Task #2651897: File upload for 'shots/0001.jpg'\n", 
+            "2022-01-16 11:01:53,994 [cuckoo.core.resultserver] DEBUG: Task #2651897 uploaded file length: 171561\n", 
+            "2022-01-16 11:02:02,167 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2651897 still processing\n", 
+            "2022-01-16 11:02:15,733 [cuckoo.core.resultserver] DEBUG: Task #2651897: File upload for 'logs/all.stap'\n", 
+            "2022-01-16 11:02:15,736 [cuckoo.core.resultserver] DEBUG: Task #2651897 uploaded file length: 18531\n", 
+            "2022-01-16 11:02:17,247 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2651897 still processing\n", 
+            "2022-01-16 11:02:32,303 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2651897 still processing\n", 
+            "2022-01-16 11:02:47,412 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2651897 still processing\n", 
+            "2022-01-16 11:03:02,487 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2651897 still processing\n", 
+            "2022-01-16 11:03:17,673 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2651897 still processing\n", 
+            "2022-01-16 11:03:32,765 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2651897 still processing\n", 
+            "2022-01-16 11:03:47,870 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2651897 still processing\n", 
+            "2022-01-16 11:04:02,969 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2651897 still processing\n", 
+            "2022-01-16 11:04:18,153 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2651897 still processing\n", 
+            "2022-01-16 11:04:33,255 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2651897 still processing\n", 
+            "2022-01-16 11:04:48,347 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2651897 still processing\n", 
+            "2022-01-16 11:05:03,477 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2651897 still processing\n", 
+            "2022-01-16 11:05:18,853 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2651897 still processing\n", 
+            "2022-01-16 11:05:33,914 [cuckoo.core.guest] DEBUG: Ubuntu1904x647: analysis #2651897 still processing\n", 
+            "2022-01-16 11:05:48,972 [cuckoo.core.guest] INFO: Ubuntu1904x647: end of analysis reached!\n", 
+            "2022-01-16 11:05:48,982 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Redsocks\n", 
+            "2022-01-16 11:05:49,064 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Sniffer\n", 
+            "2022-01-16 11:06:03,022 [cuckoo.machinery.virtualbox] INFO: Successfully generated memory dump for virtual machine with label Ubuntu1904x647 to path /srv/cuckoo/cwd/storage/analyses/2651897/memory.dmp\n", 
+            "2022-01-16 11:06:03,023 [cuckoo.machinery.virtualbox] DEBUG: Stopping vm Ubuntu1904x647\n", 
+            "2022-01-16 11:06:41,977 [cuckoo.core.resultserver] DEBUG: Stopped tracking machine 192.168.168.107 for task #2651897\n", 
+            "2022-01-16 11:06:41,978 [cuckoo.core.resultserver] DEBUG: Cancel <Context for LOG> for task 2651897\n", 
+            "2022-01-16 11:06:42,128 [cuckoo.core.scheduler] DEBUG: Released database task #2651897\n", 
+            "2022-01-16 11:06:42,384 [cuckoo.core.scheduler] INFO: Task #2651897: analysis procedure completed\n"
+        ]
+    }, 
+    "strings": [
+        "/lib/ld-linux.so.2", 
+        "_Jv_RegisterClasses", 
+        "__gmon_start__", 
+        "libc.so.6", 
+        "stdout", 
+        "geteuid", 
+        "getopt_long", 
+        "__fpending", 
+        "memcpy", 
+        "__cxa_finalize", 
+        "mbrtowc", 
+        "malloc", 
+        "opterr", 
+        "iswprint", 
+        "calloc", 
+        "__ctype_get_mb_cur_max", 
+        "fputs_unlocked", 
+        "dcgettext", 
+        "optind", 
+        "realloc", 
+        "memcmp", 
+        "memset", 
+        "getpwuid", 
+        "fclose", 
+        "setlocale", 
+        "stderr", 
+        "__ctype_b_loc", 
+        "__errno_location", 
+        "bindtextdomain", 
+        "_IO_stdin_used", 
+        "__libc_start_main", 
+        "strlen", 
+        "vfprintf", 
+        "mbsinit", 
+        "__cxa_atexit", 
+        "GLIBC_2.3", 
+        "GLIBC_2.1.3", 
+        "GLIBC_2.0", 
+        "GLIBC_2.1", 
+        "GLIBC_2.2", 
+        "coreutils", 
+        "/usr/share/locale", 
+        "whoami", 
+        "GNU coreutils", 
+        "Richard Mlynarik", 
+        "extra operand %s", 
+        "%s: cannot find name for user ID %lu", 
+        "Try `%s --help' for more information.", 
+        "Usage: %s [OPTION]...", 
+        "Print the user name associated with the current effective user ID.", 
+        "Same as id -un.", 
+        "      --help     display this help and exit", 
+        "      --version  output version information and exit", 
+        "Report bugs to <%s>.", 
+        "bug-coreutils@gnu.org", 
+        "write error", 
+        "%s: %s", 
+        "version", 
+        "literal", 
+        "shell-always", 
+        "escape", 
+        "locale", 
+        "clocale", 
+        "%s (%s) %s", 
+        "This is free software.  You may redistribute copies of it under the terms of", 
+        "the GNU General Public License <http://www.gnu.org/licenses/gpl.html>.", 
+        "There is NO WARRANTY, to the extent permitted by law.", 
+        "Written by %s.", 
+        "Written by %s and %s.", 
+        "Written by %s, %s, and %s.", 
+        "Written by %s, %s, %s,", 
+        "and %s.", 
+        "Written by %s, %s, %s,", 
+        "%s, and %s.", 
+        "Written by %s, %s, %s,", 
+        "%s, %s, and %s.", 
+        "Written by %s, %s, %s,", 
+        "%s, %s, %s, and %s.", 
+        "Written by %s, %s, %s,", 
+        "%s, %s, %s, %s,", 
+        "and %s.", 
+        "Written by %s, %s, %s,", 
+        "%s, %s, %s, %s,", 
+        "%s, and %s.", 
+        "Written by %s, %s, %s,", 
+        "%s, %s, %s, %s,", 
+        "%s, %s, and others.", 
+        "memory exhausted", 
+        "Copyright %s %d Free Software Foundation, Inc.", 
+        ".shstrtab", 
+        ".interp", 
+        ".note.ABI-tag", 
+        ".dynsym", 
+        ".dynstr", 
+        ".gnu.version", 
+        ".gnu.version_r", 
+        ".rela.dyn", 
+        ".rela.plt", 
+        ".rodata", 
+        ".eh_frame", 
+        ".ctors", 
+        ".dtors", 
+        ".dynamic"
+    ], 
+    "metadata": {
+        "output": {
+            "pcap": {
+                "basename": "dump.pcap", 
+                "sha256": "704e5e5b3234433c01fcfd1b20a306e77e985038120492dc53965c3edd38a4ea", 
+                "dirname": ""
+            }
+        }
+    }
+}
