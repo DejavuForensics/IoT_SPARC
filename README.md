@@ -11,7 +11,7 @@ VirusTotal has Application Programming Interface (APIs) that allow programmers t
 
 Initially, the executable malwares are sent to the server belonging to the VirusTotal platform. After that, the executables are analyzed by the 86 commercial antiviruses linked to VirusTotal. Therefore, the antivirus provides its diagnostics for the executables submitted to the platform. VirusTotal allows the possibility of issuing three different types of diagnostics: malware, benign and omission.
 
-Then, through the VirusTotal platform, the proposed paper investigates 68 commercial antiviruses with their respective results presented in Table 2. We used 1000 malicious executables for SPARC obtained from our database. The goal of the work is to check the number of virtual pests cataloged by antivirus. The motivation is that the acquisition of new virtual plagues plays an important role in combating malicious applications. Therefore, the larger the database of malwares blacklisted, the better it tends to be the defense provided by the antivirus.
+Then, through the VirusTotal platform, the proposed paper investigates 70 commercial antiviruses with their respective results presented in Table 2. We used 573 malicious executables for SPARC obtained from our database. The goal of the work is to check the number of virtual pests cataloged by antivirus. The motivation is that the acquisition of new virtual plagues plays an important role in combating malicious applications. Therefore, the larger the database of malwares blacklisted, the better it tends to be the defense provided by the antivirus.
 
 As for the first possibility of VirusTotal, the antivirus detects the malignity of the suspicious file. In the proposed experimental environment, all submitted executables are public domain malwares. Therefore, in the proposed study, the antivirus hits when it detects the malignity of the investigated executable. Malware detection indicates that the antivirus provides a robust service against cyber-intrusions. As larger the blacklist database, better tends to be the defense provided by the antivirus.
 
@@ -21,103 +21,173 @@ In the third possibility, the antivirus does not emit opinion about the suspect 
 
 In the third possibility, the antivirus does not emit opinion about the suspect executable. The omission indicates that the file investigated has never been evaluated by the antivirus neither it has the robustness to evaluate it in real time. The omission of the diagnosis by the antivirus points to its limitation on large-scale services.
 
-Table 2 shows the results of the evaluated 68 antivirus products. Only one of these antiviruses scored above 82,6%. This antivirus is: ESET-NOD32. Malware detection indicates that these antivirus programs provide an efficient service against cyber-intrusions.
+Table 2 shows the results of the evaluated 70 antivirus products. Only one of these antiviruses scored above 82,6%. This antivirus is: ESET-NOD32. Malware detection indicates that these antivirus programs provide an efficient service against cyber-intrusions.
 
 A major adversity in combating malicious applications is the fact that antivirus makers do not share their malware blacklists due to commercial disputes. Through Table 2 analyse, the proposed paper points to an aggravating factor of this adversity: the same antivirus vendor does not even share its databases between its different antivirus programs. Note, for example, that McAfee and McAfee-GW-Edition antiviruses belong to the same company. Their blacklists, though robust, are not shared with each other. Therefore, the commercial strategies of the same company hinder the confrontation with malware. It complements that antivirus vendors are not necessarily concerned with avoiding cyber-invasions, but with optimizing their business income.
 
-Malware detection ranged from 0% to 82.6%, depending on the antivirus being investigated. On average, the 68 antiviruses were able to detect 46.08% of the evaluated virtual pests, with a standard deviation of 35.61. The high standard deviation indicates that the detection of malicious executables may suffer abrupt variations depending on the antivirus chosen. It is determined that the protection, against cybernetic invasions, is due to the choice of a robust antivirus with a large and updated blacklist.
+Malware detection ranged from 0% to 99.65%, depending on the antivirus being investigated. On average, the 70 antiviruses were able to detect 54.93% of the evaluated virtual pests, with a standard deviation of 44.21. The high standard deviation indicates that the detection of malicious executables may suffer abrupt variations depending on the antivirus chosen. It is determined that the protection, against cybernetic invasions, is due to the choice of a robust antivirus with a large and updated blacklist.
 
-As for the false negatives, Malwarebytes, Baidu and Panda antiviruses, wrongly stated that malware was benign in more than 95% of cases. On average, antiviruses attested false negatives in 44.85% of the cases, with a standard deviation of 36.26. Tackling the benignity of malware can lead to irrecoverable damage. A person or institution, for example, would rely on a particular malicious application when, in fact, it is malware.
+As for the false negatives, Malwarebytes, Baidu and Panda antiviruses, wrongly stated that malware was benign in more than 93% of cases. On average, antiviruses attested false negatives in 32,17% of the cases, with a standard deviation of 41.39. Tackling the benignity of malware can lead to irrecoverable damage. A person or institution, for example, would rely on a particular malicious application when, in fact, it is malware.
 
-Symantec Mobile Insight, F-Prot, Crowd Strike, and Invincea antivirus companies hardly omitted opinion on any of the 1000 malicious samples. Therefore, about 7.35% of antivirus software were not able to diagnose a significant minimum number of malicious samples. On average, the antiviruses were missing in 8.92% of the cases, with a standard deviation of 25.76. The omission of the diagnosis points to the limitation of these antiviruses that have limited blacklists for detection of malware in real time.
+Symantec Mobile Insight, F-Prot, Crowd Strike, and Invincea antivirus companies hardly omitted opinion on any of the 573 malicious samples. Therefore, about 11.43% of antivirus software were not able to diagnose a significant minimum number of malicious samples. On average, the antiviruses were missing in 12.90% of the cases, with a standard deviation of 30.69. The omission of the diagnosis points to the limitation of these antiviruses that have limited blacklists for detection of malware in real time.
 
-It is included as adversity, in the combat to malicious applications, the fact of the commercial antiviruses do not possess a pattern in the classification of the malwares as seen in Table 3. We choose 3 of 1,000 malwares samples in order to exemplify the miscellaneous classifications of commercial antiviruses. The chosen malware are VirusShare_001627d61a1bde3478ca4965e738dc1e, VirusShare_075efef8c9ca2f675be296d5f56406fa and VirusShare_0dab86f850fd3dafc98d0f2b401377d5. In this way, the time when manufacturers react to a new virtual plague is affected dramatically. As there is no a pattern, antiviruses give the names that they want, for example, a company can identify a malware as "Trojan.Linux.Generic.69575" and a second company identify it as "ELF:DDoS-S [Trj]". Therefore, the lack of a pattern, besides the no-sharing of information among the antivirus manufacturers, hinders the fast and effective detection of a malicious application.
+It is included as adversity, in the combat to malicious applications, the fact of the commercial antiviruses do not possess a pattern in the classification of the malwares as seen in Table 3. We choose 3 of 573 malwares samples in order to exemplify the miscellaneous classifications of commercial antiviruses. The chosen malware are VirusShare_0013bead336ed08623d3641c2920563e, VirusShare_01f8b4def072cf6e3956f1dc8eb16f99 and VirusShare_02033432a69a38770c945a42efbd3b6b. In this way, the time when manufacturers react to a new virtual plague is affected dramatically. As there is no a pattern, antiviruses give the names that they want, for example, a company can identify a malware as "RDN/Generic BackDoor" and a second company identify it as "HEUR:Backdoor.Linux.Gafgyt.y". Therefore, the lack of a pattern, besides the no-sharing of information among the antivirus manufacturers, hinders the fast and effective detection of a malicious application.
 
-###### Table 2 Results of 68 commercial antiviruses:
+###### Table 2 Results of 70 commercial antiviruses:
 
 Antivirus |	Deteccion (%) |	False Negative (%) |	Omission (%)
 --------- | ------------- | ------------------ | -------------
-Tencent |	99.65 |	0.35  |	0 |
-MicroWorld-eScan	99.47	0.53	0
-NANO-Antivirus	99.12	0.88	0
-Ad-Aware	99.12	0.53	0.35
-BitDefender	98.95	1.05	0
-Emsisoft	97.89	1.4	0.7
-Kaspersky	97.89	1.4	0.7
-FireEye	97.89	1.23	0.88
-McAfee	97.89	1.4	0.7
-GData	97.37	1.05	1.58
-AVG	97.02	0.35	2.63
-ESET-NOD32	95.96	4.04	0
-Avast	95.96	1.93	2.11
-ClamAV	95.61	2.63	1.75
-Avira	95.44	4.56	0
-Cynet	95.44	4.04	0.53
-Symantec	95.09	2.11	2.81
-TrendMicro-HouseCall	94.91	5.09	0
-McAfee-GW-Edition	94.21	1.93	3.86
-Rising	94.04	5.44	0.53
-TrendMicro	93.51	5.61	0.88
-DrWeb	93.33	6.32	0.35
-MAX	92.98	6.49	0.53
-Fortinet	92.98	7.02	0
-Microsoft	92.63	6.14	1.23
-Ikarus	91.05	0.35	8.6
-ALYac	90.53	1.05	8.42
-Zillya	88.07	10.35	1.58
-BitDefenderTheta	87.37	12.11	0.53
-AhnLab-V3	86.32	13.68	0
-Cyren	85.96	13.68	0.35
-Avast-Mobile	85.44	14.56	0
-ZoneAlarm	84.91	8.07	7.02
-Antiy-AVL	84.39	9.3	6.32
-Arcabit	84.04	15.79	0.18
-Qihoo-360	83.68	7.89	8.42
-Sophos	83.51	15.79	0.7
-Lionic	77.37	21.4	1.23
-Comodo	75.96	23.51	0.53
-F-Secure	71.4	27.37	1.23
-Jiangmin	69.12	1.23	29.65
-MaxSecure	55.96	41.23	2.81
-Sangfor	22.11	77.54	0.35
-CAT-QuickHeal	6.49	93.51	0
-Panda	5.61	93.68	0.7
-Gridinsoft	5.26	91.58	3.16
-Bkav	3.86	95.61	0.53
-VBA32	2.63	97.02	0.35
-Elastic	2.46	5.96	91.58
-VirIT	2.11	5.09	92.81
-CMC	1.75	98.25	0
-Yandex	1.23	98.77	0
-ViRobot	1.05	98.95	0
-F-Prot	0.88	1.58	97.54
-TotalDefense	0.18	83.51	16.32
-CyrenCloud	0.18	0	99.82
-VIPRE	0.18	99.47	0.35
-Baidu	0	98.95	1.05
-SUPERAntiSpyware	0	100	0
-TACHYON	0	100	0
-K7GW	0	100	0
-K7AntiVirus	0	100	0
-Malwarebytes	0	99.82	0.18
-CrowdStrike	0	0.53	99.47
-Kingsoft	0	98.77	1.23
-Zoner	0	98.77	1.23
-eGambit	0	6.32	93.68
-Trustlook	0	0.18	99.82
-Invincea	0	0.18	99.82
-Acronis	0	97.02	2.98
+Tencent|	99,65|	0,35|	0
+MicroWorld-eScan|	99,47|	0,53|	0
+NANO-Antivirus|	99,12|	0,88|	0
+Ad-Aware|	99,12|	0,53|	0,35
+BitDefender|	98,95|	1,05|	0
+Emsisoft|	97,89|	1,4|	0,7
+Kaspersky|	97,89|	1,4|	0,7
+FireEye|	97,89|	1,23|	0,88
+McAfee|	97,89|	1,4|	0,7
+GData|	97,37|	1,05|	1,58
+AVG|	97,02|	0,35|	2,63
+ESET-NOD32|	95,96|	4,04|	0
+Avast|	95,96|	1,93|	2,11
+ClamAV|	95,61|	2,63|	1,75
+Avira|	95,44|	4,56|	0
+Cynet|	95,44|	4,04|	0,53
+Symantec|	95,09|	2,11|	2,81
+TrendMicro-HouseCall|	94,91|	5,09|	0
+McAfee-GW-Edition|	94,21|	1,93|	3,86
+Rising|	94,04|	5,44|	0,53
+TrendMicro|	93,51|	5,61|	0,88
+DrWeb|	93,33|	6,32|	0,35
+MAX|	92,98|	6,49|	0,53
+Fortinet|	92,98|	7,02|	0
+Microsoft|	92,63|	6,14|	1,23
+Ikarus|	91,05|	0,35|	8,6
+ALYac|	90,53|	1,05|	8,42
+Zillya|	88,07|	10,35|	1,58
+BitDefenderTheta|	87,37|	12,11|	0,53
+AhnLab-V3|	86,32|	13,68|	0
+Cyren|	85,96|	13,68|	0,35
+Avast-Mobile|	85,44|	14,56|	0
+ZoneAlarm|	84,91|	8,07|	7,02
+Antiy-AVL|	84,39|	9,3|	6,32
+Arcabit|	84,04|	15,79|	0,18
+Qihoo-360|	83,68|	7,89|	8,42
+Sophos|	83,51|	15,79|	0,7
+Lionic|	77,37|	21,4|	1,23
+Comodo|	75,96|	23,51|	0,53
+F-Secure|	71,4|	27,37|	1,23
+Jiangmin|	69,12|	1,23|	29,65
+MaxSecure|	55,96|	41,23|	2,81
+Sangfor|	22,11|	77,54|	0,35
+CAT-QuickHeal|	6,49|	93,51|	0
+Panda|	5,61|	93,68|	0,7
+Gridinsoft|	5,26|	91,58|	3,16
+Bkav|	3,86|	95,61|	0,53
+VBA32|	2,63|	97,02|	0,35
+Elastic|	2,46|	5,96|	91,58
+VirIT|	2,11|	5,09|	92,81
+CMC|	1,75|	98,25|	0
+Yandex|	1,23|	98,77|	0
+ViRobot|	1,05|	98,95|	0
+F-Prot|	0,88|	1,58|	97,54|
+TotalDefense|	0,18|	83,51|	16,32
+CyrenCloud|	0,18|	0|	99,82
+VIPRE|	0,18|	99,47|	0,35
+Baidu|	0|	98,95|	1,05
+SUPERAntiSpyware|	0|	100|	0
+TACHYON|	0|	100|	0
+K7GW|	0|	100|	0
+K7AntiVirus|	0|	100|	0
+Malwarebytes|	0|	99,82|	0,18
+CrowdStrike|	0|	0,53|	99,47
+Kingsoft|	0|	98,77|	1,23
+Zoner|	0|	98,77|	1,23
+eGambit|	0|	6,32|	93,68
+Trustlook|	0|	0,18|	99,82
+Invincea|	0|	0,18|	99,82
+Acronis|	0|	97,02|	2,98
 
 ###### Table 3 Miscellaneous classifications of commercial antiviruses:
 
-Antivírus |	VirusShare_ |	VirusShare_ |	VirusShare_
+Antivírus |	VirusShare_0013bead336ed08623d3641c2920563e |	VirusShare_01f8b4def072cf6e3956f1dc8eb16f99 |	VirusShare_02033432a69a38770c945a42efbd3b6b
 --------- | ------------------------------------------- | ------------------------------------------- | --------------------------------------------
-
+Bkav| false negative| false negative| false negative
+Lionic| false negative| Trojan.Linux.Generic.m!c| Hacktool.Linux.Xsun.3!c
+TotalDefense| omitted| false negative| omitted
+MicroWorld-eScan| Trojan.Linux.GenericA.68899| Trojan.Linux.Mirai.1| Trojan.Linux.Agent.WT
+FireEye| Trojan.Linux.GenericA.68899| Trojan.Linux.Mirai.1| Trojan.Linux.Agent.WT
+CAT-QuickHeal| false negative| false negative| Elf.Trojan.A1460398
+McAfee| RDN/Generic BackDoor| Linux/Mirai| SunOS/Exploit-Deliri
+Malwarebytes| false negative| false negative| false negative
+Zillya| Trojan.Gafgyt.Linux.872| Backdoor.Mirai.Linux.20655| Trojan.Agent.Linux.181
+Sangfor| Malware.ELF-Script.Save.da7ae022| false negative| Exploit.ELF-Script.Save.6af93d62
+K7AntiVirus| false negative| false negative| false negative
+K7GW| false negative| false negative| false negative
+Arcabit| omitted| Trojan.Linux.Mirai.1| omitted
+BitDefenderTheta| omitted| Gen:NN.Mirai.34608| false negative
+Baidu| false negative| omitted| omitted
+Cyren| false negative| E32/Mirai.G.gen!Camelot| false negative
+Symantec| Trojan.Gen.NPE| Linux.Mirai| Trojan.Gen.2
+ESET-NOD32| a variant of Linux/Gafgyt.MT| a variant of Linux/Mirai.A| a variant of Generik.JIAVCSG
+Baidu| omitted| false negative| false negative
+TrendMicro-HouseCall| Backdoor.Linux.BASHLITE.SMJC10| ELF_MIRAI.SM| false negative
+Avast| ELF:Gafgyt-BA [Trj]| ELF:Mirai-A [Trj]| ELF:Ldash-B [Expl]
+ClamAV| Unix.Malware.Agent-1459140| Unix.Trojan.Mirai-1| Unix.Malware.Agent-7439151-0
+Kaspersky| HEUR:Backdoor.Linux.Gafgyt.y| HEUR:Backdoor.Linux.Mirai.n| Exploit.Linux.Xsun.a
+BitDefender|Trojan.Linux.GenericA.68899| Trojan.Linux.Mirai.1| Trojan.Linux.Agent.WT
+NANO-Antivirus| Trojan.Fgt.edtsdl| Trojan.Mirai.ffygtc| Exploit.Xsun.bfnerr
+SUPERAntiSpyware| false negative| false negative| false negative
+Tencent| omitted| omitted| Linux.Exploit.Xsun.Tv
+Rising| Backdoor.Gafgyt/Linux!1.BBEE (CLASSIC)| Backdoor.Mirai!1.AB17 (CLASSIC)| omitted
+Ad-Aware| Trojan.Linux.GenericA.68899| Trojan.Linux.Mirai.1| Trojan.Linux.Agent.WT
+TACHYON| false negative| omitted| false negative
+Emsisoft| Trojan.Linux.GenericA.68899 (B)| Trojan.Linux.Mirai.1 (B)| Trojan.Linux.Agent.WT (B)
+Comodo| Malware@#lqcl0dcqjx55| false negative| Malware@#17dwjnvesy2do
+F-Secure| false negative| Malware.LINUX/Mirai.bonb| false negative
+DrWeb| Linux.BackDoor.Fgt.229| Linux.Mirai.47| false negative
+VIPRE| false negative| false negative| false negative
+TrendMicro| Backdoor.Linux.BASHLITE.SMJC10| ELF_MIRAI.SM| PUA.Linux.XSUN.USELVA321
+McAfee-GW-Edition| RDN/Generic BackDoor| Linux/Mirai| SunOS/Exploit-Deliri
+CMC| false negative| false negative| false negative
+Sophos| Linux/DDoS-BI| Linux/DDoS-CI| Mal/Behav-175
+Ikarus| omitted| Trojan.Linux.Gafgyt| omitted
+Avast-Mobile| ELF:Gafgyt-EC [Trj]| ELF:Mirai-DN [Trj]| false negative
+Jiangmin| Backdoor.Linux.jae| Backdoor.Linux.pre| Exploit.Linux.kq
+Avira| LINUX/Gafgyt.yzml| LINUX/Mirai.bonb| false negative
+Antiy-AVL| omitted| Trojan[Backdoor]/Linux.Mirai.n| omitted
+Kingsoft| false negative| omitted| false negative
+Microsoft| DDoS:Linux/Lightaidra| Backdoor:Linux/Mirai.B| Trojan:Win32/Ymacco.ABF1
+Gridinsoft| false negative| false negative| false negative
+Arcabit| false negative| omitted| false negative
+ViRobot|false negative| false negative| false negative
+ZoneAlarm| false negative| false negative| false negative
+GData| Linux.Trojan.Gafgyt.A| Linux.Trojan.Mirai.B| Trojan.Linux.Agent.WT
+Cynet| Malicious (score: 99)| Malicious (score: 85)| false negative
+AhnLab-V3| Linux/Gafgyt.Gen1| Linux/Mirai.Gen| false negative
+Acronis| false negative| false negative| false negative
+BitDefenderTheta|| Gen:NN.Mirai.34686| omitted| omitted
+ALYac| Trojan.Linux.GenericA.68899| Trojan.Linux.Mirai.1| Trojan.Linux.Agent.WT
+MAX| malware (ai score=100)| malware (ai score=96)| malware (ai score=95)
+VBA32| false negative| false negative| false negative
+Zoner| false negative| false negative| false negative
+Rising| omitted| omitted| Malware.Undefined!8.C (TFE:16:nv4dxfBfMYU)
+Tencent| Backdoor.Linux.Gafgyt.aqa| Backdoor.Linux.Mirai.waz| omitted
+Yandex| false negative| false negative| false negative
+Ikarus| Trojan.Linux.Gafgyt| omitted| Trojan.Linux.Agent
+TACHYON| omitted| false negative| omitted
+MaxSecure| false negative| Trojan.Malware.121218.susgen| false negative
+Fortinet| ELF/Gafgyt.BI!tr.bdr| ELF/Mirai.AEO!tr| false negative
+AVG| ELF:Gafgyt-BA [Trj]| ELF:Mirai-A [Trj]| ELF:Ldash-B [Expl]
+Panda| false negative| false negative| false negative
+Qihoo-360| false negative| virus.elf.mirai.b| false negative
+Elastic| omitted| omitted| omitted
+VirIT| omitted| omitted| omitted
 
 
 ## Materials and Methods
 
-This paper proposes a database aiming at the classification of Android benign and malware executables. There are 1,000 malicious executables, and 1,000 other benign executables. Therefore, our datasaet is suitable for learning with artificial intelligence, since both classes of executables have the same amount.
+This paper proposes a database aiming at the classification of Android benign and malware executables. There are 573 malicious executables, and 1,000 other benign executables. Therefore, our datasaet is suitable for learning with artificial intelligence, since both classes of executables have the same amount.
 
 For the construction of a pattern recognition AI (artificial intelligence), the conventional method used for its training is the use of classes and counter classes of a certain filetype. The designation chosen to refer to the categories was "benign files" for serious and safe applications and "malignant files" for applications that can be a threat to the user. The malwares samples are executables files for SPARC. The virtual plages were extracted from databases made avaiable by enthusiastic groups about the study of malwares through the digital plataform VirusShare. It should be noted that all benign executables were submitted to VirusTotal and all were its benign attested by the main commercial antivirus worldwide. The diagnostics, provided by VirusTotal, corresponding to the benign and malware executables are available in the virtual address of our database.
 
