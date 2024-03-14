@@ -1,6 +1,15 @@
 # IoT_SPARC
 Retrieval Internet of Thing for SPARC Malware Analysis
 
+## How to use our dataset in Matlab with MLP (Multilayer Perceptron)
+
+[TrainingTime, TestingTime, TrainingAccuracy, TestingAccuracy] = ['MLP'](https://github.com/DejavuForensics/Artificial-intelligence-based-antivirus-in-order-to-detect-malware-preventively/blob/main/MLP.m)(['Antivirus_Dataset_IoT_SPARC.mat'](https://github.com/DejavuForensics/IoT_SPARC/blob/main/Antivirus_Dataset_IoT_SPARC.mat), 1, 500, 'traincgf', 0)
+
+## How to use our dataset in Python with ELM (Extreme Learning Machine)
+
+python [melm.py](https://github.com/DejavuForensics/mELM/melm.py) -tall [Antivirus_Dataset_IoT_SPARC_mELM_format.csv](https://github.com/DejavuForensics/IoT_SPARC/blob/main/Antivirus_Dataset_IoT_SPARC_mELM_format.csv
+) -ty 1 -nh 500 -af dilation -v
+
 ## Commercial Antivirus Limitation
 
 Technically, the modus operandi for the identification of malicious files and servers refers to consult in named blacklist databases. The VirusTotal platform issues the diagnoses regarding malignant characteristics related to files and web servers.
