@@ -328,7 +328,7 @@ The features of 32-bit SPARC files originate through the dynamic analysis of sus
 -	Find out if the test file tries to create registry keys, Mutexes or Trojan files, and/or try to contact HTTP servers of the known threats. Banking Banking, Banking, Prinyalka Banking, SpyEye, Tinba Banking, Zeus, Zeus P2P, Dridex, Emotet and Online Banking.
 
 ######	Features related to payload in network. Checks if the server tested tries to:
--	verify if the network activity contains more than one unique useragent;
+-	verify if the network activity contains more than one unique user agent;
 -	create Remote Desktop Connection Protocol (RDP) mutexes;
 -	check the presence of mIRC chat clients;
 -	install Tor (the onion router, open source software with the ability to securely and anonymously create online connections in order to safeguard the user's right to privacy), or a hidden Tor service on the machine;
