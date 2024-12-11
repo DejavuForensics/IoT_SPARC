@@ -1,6 +1,13 @@
 # IoT_SPARC
 Retrieval Internet of Thing for SPARC Malware Analysis
 
+```
+Pinheiro Henriques de Araújo, I., Mariano Santiago de Abreu, L., Henrique Mendes Tavares Silva, S. et al.
+Antimalware applied to IoT malware detection based on softcore processor endowed with authorial sandbox.
+Journal of Computer Virology and Hacking Techniques 20, 729–749 (2024).
+https://doi.org/10.1007/s11416-024-00526-0
+```
+
 ## How to use our dataset in Matlab with MLP (Multilayer Perceptron)
 
 [TrainingTime, TestingTime, TrainingAccuracy, TestingAccuracy] = ['MLP'](https://github.com/DejavuForensics/Artificial-intelligence-based-antivirus-in-order-to-detect-malware-preventively/blob/main/MLP.m)(['Antivirus_Dataset_IoT_SPARC.mat'](https://github.com/DejavuForensics/IoT_SPARC/blob/main/Antivirus_Dataset_IoT_SPARC.mat), 1, 500, 'traincgf', 0)
